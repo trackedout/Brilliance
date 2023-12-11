@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Decked Out 2 Gamer"
+        },
+        "description": {
+            "text": "Win 100 games of Decked Out 2"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_100_times": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "deckedout:win_80_times"
+}

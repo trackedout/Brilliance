@@ -1,0 +1,19 @@
+{
+  "display": {
+        "title": {
+            "text": "Not Today, Ravager!"
+        },
+        "description": {
+            "text": "Beat the Death Gauntlet."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {},
+    "parent": "deckedout:win_1_times"
+}
