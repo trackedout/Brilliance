@@ -39,6 +39,36 @@
 				"custom_model_data": 1111116
 			},
 			"model": "minecraft:item/cards"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111117
+			},
+			"model": "minecraft:item/difficulty_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111118
+			},
+			"model": "minecraft:item/difficulty_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111119
+			},
+			"model": "minecraft:item/difficulty_3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111120
+			},
+			"model": "minecraft:item/difficulty_4"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111121
+			},
+			"model": "minecraft:item/difficulty_5"
 		}
 	]
 }

@@ -8,7 +8,7 @@
 			"underlined": false,
 			"strikethrough": false
 		},
-		"background":"",
+		"background":"deckedout:textures/gui/advancements/backgrounds/brick.png",
 		
 		"description": {
 			"text": "Reserved for potential DLC advancements"

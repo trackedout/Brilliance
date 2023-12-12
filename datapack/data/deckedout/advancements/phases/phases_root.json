@@ -5,7 +5,7 @@
 			"color": "green",
 			"bold": true
 		},
-		"background":"",
+		"background":"deckedout:textures/gui/advancements/backgrounds/grey_glazed_terracotta.png",
 		
 		"description": {
 			"text": "Advancements about the end of phases appear here!"

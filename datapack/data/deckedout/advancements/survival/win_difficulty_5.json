@@ -5,10 +5,11 @@
             "color": "dark_purple"
         },
         "description": {
-            "text": "Win a run on Deepfrost difficulty."
+            "text": "§7Win a run on §5Deepfrost§7 difficulty."
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111121}"
         },
         "frame": "task",
         "show_toast": true,

@@ -5,10 +5,11 @@
             "color": "gold"
         },
         "description": {
-            "text": "Win a run on Medium difficulty."
+            "text": "§7Win a run on §aMedium§7 difficulty."
         },
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111118}"
         },
         "frame": "task",
         "show_toast": true,

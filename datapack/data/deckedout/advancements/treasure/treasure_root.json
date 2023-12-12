@@ -5,7 +5,7 @@
 			"color": "green",
 			"bold": true
 		},
-		"background":"",
+		"background":"deckedout:textures/gui/advancements/backgrounds/gold.png",
 		
 		"description": {
 			"text": "Advancements about collecting treasure appear here!"
