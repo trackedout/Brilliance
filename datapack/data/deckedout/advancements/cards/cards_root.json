@@ -11,7 +11,8 @@
 			"text": "Advancements about collecting and using cards appear here!"
 		},
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111116}"
 		},
 		"frame": "task",
 		"show_toast": false,
