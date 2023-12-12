@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "deckedout:player_setup"
+    }
+}
