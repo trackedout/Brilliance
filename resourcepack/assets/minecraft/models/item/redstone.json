@@ -9,6 +9,12 @@
 				"custom_model_data": 1111111
 			},
 			"model": "minecraft:item/eyes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111112
+			},
+			"model": "minecraft:item/trackedout"
 		}
 	]
 }

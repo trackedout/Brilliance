@@ -11,7 +11,8 @@
             "text": "Advancements related to adventuring in Decked Out 2 will appear here!"
         },
         "icon": {
-            "item": "minecraft:sticky_piston"
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111112}"
         },
         "frame": "task",
         "show_toast": true,
