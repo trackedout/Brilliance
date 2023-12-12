@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Local Delivery",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "Win a run to Lv1: The Frozen Crypt"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_level_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "deckedout:survival/win_1_times"
+    
+}

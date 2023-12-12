@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "",
+			"color": "dark_blue",
+			"bold": true
+		},
+		"background":"",
+		
+		"description": {
+			"text": "This is just a filler tab."
+		},
+		"icon": {
+			"item": "minecraft:barrier"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

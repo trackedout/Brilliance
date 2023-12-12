@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Is This Easy Mode?",
+            "color": "green"
+        },
+        "description": {
+            "text": "\tWin a run on Easy difficulty."
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_difficulty_easy": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "deckedout:survival/win_1_times"
+}

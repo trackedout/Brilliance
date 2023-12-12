@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": {
+			"text": "Decked Out 2 Treasure!",
+			"color": "green",
+			"bold": true
+		},
+		"background":"",
+		
+		"description": {
+			"text": "Advancements about collecting treasure appear here!"
+		},
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
