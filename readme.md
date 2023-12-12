@@ -19,11 +19,3 @@ I assume scoreboard will be what is used to track everything. So for example whe
 # Resource Pack
 Required for custom model data, hopefully we can have some custom art for the majority of our advancements!
 
-# Credits
-Incomplete list of who and why we need to add to credits tab. Until this list is complete we shouldn't work on the credits tab.
-----
-TangoTek (builder)
- - 4shadowed (manager, server hoster, admin)
- - 4Ply (server setup)
- - abalue (resourcepack dev)
- - frustratedcpu (resourcepack dev, discord bot helper)
