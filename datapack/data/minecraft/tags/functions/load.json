@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"do2:on_datapack_load"
+		"do2:events/on_datapack_load"
 	]
 }

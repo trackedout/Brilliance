@@ -1,0 +1,35 @@
+{
+	"display": {
+		"title": {
+			"text": "Cards and Decks",
+			"color": "green",
+			"bold": true
+		},
+		"description": {
+			"text": "Time to get Decked Out!"
+		},
+		"icon": {
+			"item": "minecraft:light_blue_shulker_box",
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"pickshulker": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"count": {
+							"min": 1,
+							"max": 1
+						},
+						"item": "minecraft:light_blue_shulker_box"
+					}
+				]
+			}
+		}
+	}
+}

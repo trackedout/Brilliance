@@ -1,18 +1,3 @@
-# create scoreboard objectives
-# - global -
-scoreboard objectives add do2.runs dummy "Total Runs"
-scoreboard objectives add do2.wins dummy "Total Wins"
-scoreboard objectives add do2.shards dummy "Frozen Shards"
-scoreboard objectives add do2.crowns dummy "Crowns"
-scoreboard objectives add do2.embers dummy "Frost Embers"
-scoreboard objectives add do2.streak dummy "Win Streak"
-
-# - per run -
-scoreboard objectives add do2.run.ticks dummy "Server Tick Counter"
-scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
-scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"
-scoreboard objectives add do2.run.dead dummy "You Died"
-
 # - cards -
 scoreboard objectives add do2.cards.MOC dummy "Moment of Clarity"
 scoreboard objectives add do2.cards.SNE dummy "Sneak"
@@ -52,6 +37,3 @@ scoreboard objectives add do2.cards.TAA dummy "Tactical Approach"
 scoreboard objectives add do2.cards.POP dummy "Porkchop Power"
 scoreboard objectives add do2.cards.STU dummy "Stumble"
 scoreboard objectives add do2.cards.DUL dummy "Dungeon Lackey"
-
-# utility
-scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game
