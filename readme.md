@@ -1,7 +1,3 @@
-# Notes:
-It is currently impossible to automatically grant advancements on scoreboard changes.
-I assume scoreboard will be what is used to track everything. So for example when the score "wins" occur, in a tick function we have to run /advancement grant
-
 
 <img width="50%" src="current_preview.png"> 
 
