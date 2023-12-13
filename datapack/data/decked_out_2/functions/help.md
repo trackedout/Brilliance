@@ -9,3 +9,8 @@ Furthermore scoreboard values that are called on a per-run basis have the do.run
 > scoreboard players set @s do.run.dead 1
 
 WIP/ scoreboard values related to cards and decks use the do.card. prefix.
+
+Any scoreboard values that aren't used for tracking but instead are for automating functions have the do.utility. prefix. i.e.
+> scoreboard players set @s do.utility.trackLeaves 0
+> 
+> scoreboard players set @s do.utility.timer 3600
