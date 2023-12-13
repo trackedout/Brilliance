@@ -6,8 +6,8 @@
       "title": "Composting Cultivator",
       "description": "Eat a berry in the dungeon.",
       "frame": "goal",
-      "show_toast": true,
-      "announce_to_chat": true,
+      "show_toast": false,
+      "announce_to_chat": false,
       "hidden": false
     },
     "criteria": {
@@ -25,5 +25,6 @@
           }
         }
       }
-    }
+    },
+    "parent": "decked_out_2:visible/adventuring/adventuring_root"
   }

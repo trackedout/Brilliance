@@ -3,4 +3,4 @@
 scoreboard players set @s do.streak 0
 title @s title "FAIL"
 
-execute as @s run function deckedout:end_run
+execute as @s run function decked_out_2:end_run

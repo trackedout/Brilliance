@@ -6,4 +6,4 @@ scoreboard players add @s do.streak 1
 scoreboard players add @s do.wins 1
 
 tag @s remove do.won
-execute as @s run function deckedout:end_run
+execute as @s run function decked_out_2:end_run
