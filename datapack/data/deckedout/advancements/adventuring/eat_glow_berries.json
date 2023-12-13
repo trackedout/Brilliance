@@ -20,7 +20,7 @@
           ]
         },
         "player": {
-          "nbt": "{Tags:[\"running\"]}"
+          "nbt": "{Tags:[\"do.running\"]}"
         }
       }
     }
