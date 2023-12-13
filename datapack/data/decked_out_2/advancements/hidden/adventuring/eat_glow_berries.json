@@ -20,10 +20,10 @@
           ]
         },
         "player": {
-          "nbt": "{Tags:[\"do.running\"]}"
+          "nbt": "{Tags:[\"do2.running\"]}"
         }
       }
     }
   },
-  "parent": "decked_out_2:hidden/adventuring/creative_composter"
+  "parent": "do2:hidden/adventuring/creative_composter"
 }

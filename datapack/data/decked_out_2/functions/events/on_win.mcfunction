@@ -2,8 +2,8 @@
 
 title @s title "You won Decked Out!"
 
-scoreboard players add @s do.streak 1
-scoreboard players add @s do.wins 1
+scoreboard players add @s do2.streak 1
+scoreboard players add @s do2.wins 1
 
-tag @s remove do.won
-execute as @s run function decked_out_2:end_run
+tag @s remove do2.won
+execute as @s run function do2:end_run

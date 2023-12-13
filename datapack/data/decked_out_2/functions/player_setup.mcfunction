@@ -1,2 +1,2 @@
-scoreboard players set @s do.run.ticks 0
-scoreboard players set @s do.run.seconds 0
+scoreboard players set @s do2.run.ticks 0
+scoreboard players set @s do2.run.seconds 0

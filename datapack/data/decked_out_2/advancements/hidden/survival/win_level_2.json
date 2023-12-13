@@ -20,5 +20,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "decked_out_2:hidden/survival/win_level_1"
+    "parent": "do2:hidden/survival/win_level_1"
 }

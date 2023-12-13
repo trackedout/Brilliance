@@ -5,6 +5,6 @@
         }
     },
     "rewards": {
-        "function": "decked_out_2:player_setup"
+        "function": "do2:player_setup"
     }
 }

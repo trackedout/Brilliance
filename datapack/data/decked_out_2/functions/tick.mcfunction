@@ -1,7 +1,7 @@
-execute as @a[advancements={decked_out_2:visible/credits/credits_root=false}] run function decked_out_2:setup_root_advancements
-execute as @a[scores={do.utility.trackLeaves=1..}] at @s run function decked_out_2:events/on_player_rejoin
-function decked_out_2:dungeon_timer
+execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:setup_root_advancements
+execute as @a[scores={do2.utility.trackLeaves=1..}] at @s run function do2:events/on_player_rejoin
+function do2:dungeon_timer
 
 # call on player death
-execute as @a[tag=do.running, tag=do.won, scores={do.run.dead=1}] run function decked_out_2:events/on_win
-execute as @a[tag=do.running, scores={do.run.dead=1}] run function decked_out_2:events/on_lose
+execute as @a[tag=do2.running, tag=do2.won, scores={do2.run.dead=1}] run function do2:events/on_win
+execute as @a[tag=do2.running, scores={do2.run.dead=1}] run function do2:events/on_lose

@@ -5,7 +5,7 @@
             "color": "dark_blue",
             "bold": true
         },
-        "background":"decked_out_2:textures/gui/advancements/backgrounds/sculk.png",
+        "background":"do2:textures/gui/advancements/backgrounds/sculk.png",
         
         "description": {
             "text": "Advancements related to adventuring in Decked Out 2 will appear here!"

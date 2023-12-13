@@ -19,6 +19,6 @@
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "decked_out_2:visible/survival/win_1_times"
+	"parent": "do2:visible/survival/win_1_times"
 	
 }

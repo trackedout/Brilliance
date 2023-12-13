@@ -5,7 +5,7 @@
 			"color": "green",
 			"bold": true
 		},
-		"background":"decked_out_2:textures/gui/advancements/backgrounds/deepslate_tiles.png",
+		"background":"do2:textures/gui/advancements/backgrounds/deepslate_tiles.png",
 		
 		"description": {
 			"text": "Advancements about surviving the dungeon appear here"

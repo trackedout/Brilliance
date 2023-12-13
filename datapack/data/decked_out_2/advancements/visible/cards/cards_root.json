@@ -5,7 +5,7 @@
 			"color": "green",
 			"bold": true
 		},
-		"background":"decked_out_2:textures/gui/advancements/backgrounds/purple_concrete.png",
+		"background":"do2:textures/gui/advancements/backgrounds/purple_concrete.png",
 		
 		"description": {
 			"text": "Advancements about collecting and using cards appear here!"

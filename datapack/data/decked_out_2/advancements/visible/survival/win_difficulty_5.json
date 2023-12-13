@@ -21,5 +21,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "decked_out_2:visible/survival/win_difficulty_4"
+    "parent": "do2:visible/survival/win_difficulty_4"
 }

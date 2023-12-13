@@ -15,5 +15,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "decked_out_2:visible/adventuring/food_subroot"
+    "parent": "do2:visible/adventuring/food_subroot"
 }

@@ -23,12 +23,12 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "do.wins": 30
+                            "do2.wins": 30
                         }
                     }
                 ]
             }
         }
     },
-    "parent": "decked_out_2:hidden/survival/win_20_times"
+    "parent": "do2:hidden/survival/win_20_times"
 }

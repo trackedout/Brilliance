@@ -8,7 +8,7 @@
 			"underlined": false,
 			"strikethrough": false
 		},
-		"background":"decked_out_2:textures/gui/advancements/backgrounds/brick.png",
+		"background":"do2:textures/gui/advancements/backgrounds/brick.png",
 		
 		"description": {
 			"text": "Reserved for potential DLC advancements"

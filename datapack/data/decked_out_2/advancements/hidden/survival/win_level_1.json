@@ -20,6 +20,6 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "decked_out_2:hidden/survival/win_1_times"
+    "parent": "do2:hidden/survival/win_1_times"
     
 }

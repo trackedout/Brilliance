@@ -22,10 +22,10 @@
                     }
                 ],
                 "player": {
-                    "nbt": "{Tags:[\"do.running\"]}"
+                    "nbt": "{Tags:[\"do2.running\"]}"
                 }
             }
         }
     },
-    "parent": "decked_out_2:hidden/adventuring/food_subroot"
+    "parent": "do2:hidden/adventuring/food_subroot"
 }
