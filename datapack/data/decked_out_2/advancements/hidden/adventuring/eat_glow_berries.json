@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glow_berries"
+    },
+    "title": "Composting Cultivator",
+    "description": "Use bonemeal to grow your own glowberries, and eat them.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "composting_cultivator": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:glow_berries"
+          ]
+        },
+        "player": {
+          "nbt": "{Tags:[\"running\"]}"
+        }
+      }
+    }
+  },
+  "parent": "decked_out_2:hidden/adventuring/creative_composter"
+}

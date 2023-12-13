@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "It's Not a Sprint"
+        },
+        "description": {
+            "text": "Win 50 games of Decked Out 2"
+        },
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_50_times": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "decked_out_2:hidden/survival/win_40_times"
+}

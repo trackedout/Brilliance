@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Local Delivery",
+            "color": "aqua"
+        },
+        "description": {
+            "text": "§7Succeed on §2Level 1§7:\n§bThe Frozen Crypt"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_level_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "decked_out_2:visible/survival/win_1_times"
+    
+}

@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "Too Cool for School",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "§7Win a run on §5Deepfrost§7 difficulty."
+        },
+        "icon": {
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111121}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_difficulty_deepfrost": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "decked_out_2:hidden/survival/win_difficulty_4"
+}

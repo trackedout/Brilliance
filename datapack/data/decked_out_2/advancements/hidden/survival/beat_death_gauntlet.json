@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": {
+			"text": "Not Today, Ravager!"
+		},
+		"description": {
+			"text": "Beat the Death Gauntlet."
+		},
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "decked_out_2:hidden/survival/win_1_times"
+	
+}

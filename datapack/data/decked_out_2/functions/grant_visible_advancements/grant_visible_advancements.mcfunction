@@ -1,0 +1,1 @@
+execute as @s run function deckedout:grant_visible_advancements/grant_adventuring_advancements

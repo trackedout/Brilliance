@@ -1,0 +1,27 @@
+{
+    "display": {
+        "title": {
+            "text": "Decked Out 2 Player",
+            "color": "dark_blue",
+            "bold": true
+        },
+        "background":"decked_out_2:textures/gui/advancements/backgrounds/sculk.png",
+        
+        "description": {
+            "text": "Advancements related to adventuring in Decked Out 2 will appear here!"
+        },
+        "icon": {
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111112}"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
