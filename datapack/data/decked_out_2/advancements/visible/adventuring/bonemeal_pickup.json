@@ -12,19 +12,7 @@
     },
     "criteria": {
         "pick_up_bonemeal": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:bone_meal"
-                        ]
-                    }
-                ],
-                "player": {
-                    "nbt": "{Tags:[\"do.running\"]}"
-                }
-            }
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "decked_out_2:visible/adventuring/food_subroot"

@@ -12,18 +12,7 @@
     },
     "criteria": {
       "composting_cultivator": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "items": [
-                "minecraft:glow_berries",
-                "minecraft:sweet_berries"
-            ]
-          },
-          "player": {
-            "nbt": "{Tags:[\"do.running\"]}"
-          }
-        }
+        "trigger": "minecraft:impossible"
       }
     },
     "parent": "decked_out_2:visible/adventuring/adventuring_root"

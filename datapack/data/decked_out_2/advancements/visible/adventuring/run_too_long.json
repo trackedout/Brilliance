@@ -12,19 +12,7 @@
     },
     "criteria": {
         "stay_in_dungeon_for_over_an_hour": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                  {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                      "do.run.seconds": 3600
-                    }
-                  }
-                ]
-              }
-            
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "decked_out_2:visible/adventuring/adventuring_root"
