@@ -1,6 +1,5 @@
-# called when player dies. (tag=won not set)
+# called when player dies.
 
-scoreboard players set @s do2.streak 0
-title @s title "FAIL"
+# get dungeon clock and set player score to be equal to it!
+# increase total dungeon deaths by 1.
 
-execute as @s run function do2:end_run
