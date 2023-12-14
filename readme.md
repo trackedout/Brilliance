@@ -1,4 +1,4 @@
-
+The datapack is in charge of ALL data tracking. We also store that data permanently, for trackedout we use a 3rd party mod to tap into this data and send it over to our databases for our trackers to use the data.
 <img width="50%" src="current_preview.png"> 
 
 ### File structure:
