@@ -4,6 +4,7 @@
 execute store result score $dungeon do.run.players run tag @a[tag=!do.spectating] add do2.running
 
 # setups dungeon clock.
+scoreboard players set $dungeon do2.run.active 1
 scoreboard players set $dungeon do2.run.dead 0
 scoreboard players set $dungeon do2.run.ticks 0
 scoreboard players set $dungeon do2.run.seconds 0
