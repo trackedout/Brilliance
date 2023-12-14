@@ -1,5 +1,5 @@
 #Grant all visible advancements on the LAST tick
-execute as @s[advancements={do2:visible/credits/credits_root=false,do2:visible/empty/empty_root=true}] run function do2:advancements/grant_visible_advancements/grant_visible_advancements
+execute as @s[advancements={do2:visible/credits/credits_root=false,do2:visible/empty/empty_root=true}] run function do2:advancements/grant_visible_advancements
 
 # Attempt to grant advancements from LAST to FIRST, so they fail and wait until next tick to be availible.
 # Since this is run while the player DOESN'T have the 'credits' tab, it grants the 'credits' tab FIRST,
