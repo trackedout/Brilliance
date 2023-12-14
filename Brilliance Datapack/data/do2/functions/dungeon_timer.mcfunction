@@ -1,4 +1,8 @@
 # Clock counter for dungeon.
 scoreboard players add $dungeon do2.run.ticks 1
 scoreboard players add $dungeon do2.run.seconds 1
-scoreboard players set @s do2.run.ticks 0
+scoreboard players set $dungeon do2.run.ticks 0
+
+# AFK timer
+execute as @p[tag=do.running] run scoreboard players set $dungeon do.run.empty 0
+scoreboard players add $dungeon do.run.empty 1
