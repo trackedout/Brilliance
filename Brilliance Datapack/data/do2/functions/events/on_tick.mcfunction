@@ -15,3 +15,4 @@ execute as @a[tag=do2.running, scores={do2.run.dead=1}] run function do2:events/
 execute if score $dungeon do.run.deaths = $dungeon do.run.players run function do2:events/on_game_end
 
 # if no player exists in world for 5 minutes end game.
+execute if score $dungeon do.run.empty matches 300 run function do2:events/on_game_end
