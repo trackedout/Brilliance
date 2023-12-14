@@ -1,5 +1,7 @@
 # called when player dies.
 
-# get dungeon clock and set player score to be equal to it!
+# store run time when player dies
+scoreboard players operation @s do.run.seconds = $dungeon do.run.seconds
+
 # increase total dungeon deaths by 1.
 
