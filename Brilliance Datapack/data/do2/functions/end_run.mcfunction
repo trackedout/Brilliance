@@ -1,8 +1,3 @@
-# called from either 'on_win' or 'on_lose'
+# dungeon run ended.
 
-scoreboard players set @s do2.run.ticks 0
-scoreboard players set @s do2.run.seconds 0
-
-scoreboard players add @s do2.total_runs 1
-
-tag @s remove do2.running
+# pack up dungeon and transfer data with agro-net goes here.
