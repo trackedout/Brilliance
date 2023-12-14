@@ -1,4 +1,5 @@
 # - cards -
+# Abalue, I couldn't figure out what you wanted to do with these, so I just created NEW files
 scoreboard objectives add do2.cards.MOC dummy "Moment of Clarity"
 scoreboard objectives add do2.cards.SNE dummy "Sneak"
 scoreboard objectives add do2.cards.STA dummy "Stability"
