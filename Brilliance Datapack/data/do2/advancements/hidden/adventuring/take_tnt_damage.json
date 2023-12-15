@@ -1,0 +1,26 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"title": "§rSafety §mFirst§r Last",
+		"description": "Take damage from TNT.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"take_tnt_dmg": {
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:tnt"
+					}
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/adventuring_root"
+}

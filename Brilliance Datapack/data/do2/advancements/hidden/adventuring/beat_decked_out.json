@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "The True Winner",
+		"description": "Beat Decked Out 2.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"comment1": "Manually given by Shadow",
+	"criteria": {
+		"never": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/adventuring/travel_to_tendrils"
+}

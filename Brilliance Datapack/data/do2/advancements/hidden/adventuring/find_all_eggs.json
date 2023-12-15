@@ -1,0 +1,49 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "Easter Bunny",
+		"description": "Discover all Easter eggs.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"find_all_egg": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"do2.eggs.bdubs": 1,
+							"do2.eggs.grian": 1,
+							"do2.eggs.cub": 1,
+							"do2.eggs.gold": 1,
+							"do2.eggs.jevin": 1,
+							"do2.eggs.zedaph": 1,
+							"do2.eggs.beef": 1,
+							"do2.eggs.xisuma": 1,
+							"do2.eggs.xb": 1,
+							"do2.eggs.hypno": 1,
+							"do2.eggs.joe": 1,
+							"do2.eggs.cleo": 1,
+							"do2.eggs.iskall": 1,
+							"do2.eggs.pearl": 1,
+							"do2.eggs.scar": 1,
+							"do2.eggs.wels": 1,
+							"do2.eggs.stress": 1,
+							"do2.eggs.impulse": 1,
+							"do2.eggs.false": 1
+						},
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/find_a_egg"
+}

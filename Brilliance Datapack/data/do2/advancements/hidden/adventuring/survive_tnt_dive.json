@@ -16,7 +16,7 @@
 	},
 	"comment": "SET LOCATION TO BE TOP/OUTSIDE OF DEPTH CHARGE DIVE",
 	"criteria": {
-		"test": {
+		"upon_reaching_top": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [

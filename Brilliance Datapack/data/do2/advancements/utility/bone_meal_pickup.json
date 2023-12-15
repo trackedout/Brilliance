@@ -1,4 +1,6 @@
 {
+	"comment1": "THIS IS USED TO CONVERT NORMAL BONEMEAL",
+	"comment2": "TO BONEMEAL WITH NBT DATA.",
 	"criteria": {
 		"picked_up_bone_meal": {
 			"trigger": "minecraft:inventory_changed",

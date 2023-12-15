@@ -7,7 +7,7 @@
  - enter_with_1_unique_keys
    - Probably want level 1 key here
  - enter_with_3_unique_keys
-   - fan of the 3 keys,
+   - fan of the 3 keys
 
 
 ## Automation
@@ -25,6 +25,10 @@
     - Don't have location data to know where starting platform is.
  - beat_death_gauntlet
    - Triggers upon location reach. We need to know coords of death gauntlet.
+ - open_basalt_door
+   - Triggers upon opening basalt door.
+ - use_dm_key
+   - Don't have location data to know where DM's room is
  
 
 ## Testing Automation
