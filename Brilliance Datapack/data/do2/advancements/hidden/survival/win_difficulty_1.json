@@ -18,7 +18,20 @@
     },
     "criteria": {
         "win_difficulty_easy": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.run.active": 1,
+                            "do2.run.difficulty": 1,
+                            "do2.run.has_won": 1
+                        }
+                    }
+                ]
+            }
         }
     },
     "parent": "do2:hidden/survival/win_1_times"

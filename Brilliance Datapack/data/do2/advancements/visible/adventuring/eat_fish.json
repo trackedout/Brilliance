@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glow_berries"
+      "item": "minecraft:salmon"
     },
-    "title": "Composting Cultivator",
-    "description": "Use bonemeal to grow your own glowberries, and eat them.",
+    "title": "Famished Farmer",
+    "description": "Eat a fish in the dungeon.",
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

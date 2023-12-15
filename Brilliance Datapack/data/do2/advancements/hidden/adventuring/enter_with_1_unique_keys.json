@@ -1,0 +1,85 @@
+{
+	"display": {
+		"title": {
+			"text": "Key Luck Totem",
+			"color": "green",
+			"bold": false,
+			"italic": false,
+			"underlined": false,
+			"strikethrough": false
+		},
+		"description": {
+			"text": "Enter the dungeon with a level key to ward off bad key luck"
+		},
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"comment1": "SET LOCATION TO BE STARTING PLATFORM",
+	"comment2": "SET ITEMS TO BE THE KEYS",
+	"criteria": {
+		"holds_key_1": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "all_of",
+						"terms": [
+							{
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"position": {
+										"x": {
+											"min": 0,
+											"max": 1
+										},
+										"y": {
+											"min": 0,
+											"max": 1
+										},
+										"z": {
+											"min": 0,
+											"max": 1
+										}
+									}
+								}
+							},
+							{
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Inventory:[{id:\"minecraft:diamond\",Count:1b}]}"
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "minecraft:player",
+											"nbt": "{Inventory:[{id:\"minecraft:emerald\",Count:1b}]}"
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Inventory:[{id:\"minecraft:redstone\",Count:1b}]}"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent":"do2:hidden/adventuring/adventuring_root"
+}

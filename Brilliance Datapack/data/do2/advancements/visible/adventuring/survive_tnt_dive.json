@@ -1,0 +1,24 @@
+{
+	"display": {
+		"title": {
+			"text": "Dangerous Dive"
+		},
+		"description": {
+			"text": "Survive the TNT Depth Charge Dive"
+		},
+		"icon": {
+			"item": "minecraft:tnt"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	
+	"criteria": {
+		"test": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/survival/win_1_times"
+}

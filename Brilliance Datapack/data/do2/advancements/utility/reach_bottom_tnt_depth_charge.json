@@ -1,19 +1,5 @@
 {
-	"display": {
-		"title": {
-			"text": "Not Today, Ravager!"
-		},
-		"description": {
-			"text": "Beat the Death Gauntlet."
-		},
-		"icon": {
-			"item": "minecraft:cake"
-		},
-		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": true
-	},
+	"_comment": "This triggers UPON player reaching the bottom of the TnT depth charge.",
 	"criteria": {
 		"auto": {
 			"trigger": "minecraft:impossible",
@@ -21,7 +7,6 @@
 				"player": [
 					{
 						"nbt": "{Tags:[\"do2.running\"]}",
-						"comment": "SET LOCATION TO BE INSIDE GAUNTLET ROOM",
 						"position": {
 							"x": {
 								"min": 0,
@@ -41,6 +26,6 @@
 			}
 		}
 	},
-	"parent": "do2:hidden/survival/win_1_times"
+	"parent": "do2:utility/root"
 	
 }

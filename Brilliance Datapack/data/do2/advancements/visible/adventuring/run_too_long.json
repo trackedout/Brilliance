@@ -1,19 +1,19 @@
-{    
-    "display": {
-        "icon": {
-            "item": "minecraft:powder_snow_bucket"
-        },
-        "title": "Dungeon Dawdler",
-        "description": "Stay in the dungeon for a little too long.",
-        "frame": "task",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": false
-    },
-    "criteria": {
-        "stay_in_dungeon_for_over_an_hour": {
-            "trigger": "minecraft:impossible"
-        }
-    },
-    "parent": "do2:visible/adventuring/adventuring_root"
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:powder_snow_bucket"
+		},
+		"title": "Dungeon Dawdler",
+		"description": "Stay in the dungeon for a little too long.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"stay_in_dungeon_for_over_an_hour": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/adventuring_root"
 }

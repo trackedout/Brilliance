@@ -9,3 +9,6 @@ scoreboard players set $dungeon do2.run.empty_time 0
 scoreboard players set $dungeon do2.run.dead 0
 scoreboard players set $dungeon do2.run.ticks 0
 scoreboard players set $dungeon do2.run.seconds 0
+
+#revoke all utility advancements. These are used for additional conditions
+advancement revoke @a from do2:utility/root

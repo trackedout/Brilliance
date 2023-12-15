@@ -1,0 +1,55 @@
+{
+	"display": {
+		"title": {
+			"text": "Dungeon Locksmith",
+			"color": "green",
+			"bold": false,
+			"italic": false,
+			"underlined": false,
+			"strikethrough": false
+		},
+		"description": {
+			"text": "Enter the dungeon with all three level keys."
+		},
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"comment1": "SET LOCATION TO BE STARTING PLATFORM",
+	"comment2": "SET ITEMS TO BE THE KEYS",
+	"criteria": {
+		"have_3_unique_floor_keys": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"items": [
+					{
+						"count": {
+							"min": 1,
+							"max": 1
+						},
+						"item": ""
+					},
+					{
+						"count": {
+							"min": 1,
+							"max": 1
+						},
+						"item": ""
+					},
+					{
+						"count": {
+							"min": 1,
+							"max": 1
+						},
+						"item": ""
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/enter_with_1_unique_keys"
+}

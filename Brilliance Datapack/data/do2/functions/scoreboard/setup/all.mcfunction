@@ -15,11 +15,15 @@ scoreboard objectives add do.run.deaths dummy "Total Player Deaths"
 scoreboard objectives add do2.run.ticks dummy "Server Tick Counter"
 scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
 scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"
-scoreboard objectives add do2.run.dead dummy "You Died"
+scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has reached."
+scoreboard objectives add do2.run.tnt_dive dummy "Reached bottom of the TnT Depth Charge"
+scoreboard objectives add do2.run.dead dummy "Player has died"
+scoreboard objectives add do2.run.has_won dummy "Player has won"
 
 
 # - utility -
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
+
 
 # - easter eggs -
 function d02:scoreboard/setup/easter_eggs

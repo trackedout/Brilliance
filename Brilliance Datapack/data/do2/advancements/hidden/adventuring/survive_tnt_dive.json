@@ -1,0 +1,47 @@
+{
+	"display": {
+		"title": {
+			"text": "Not Today, Ravager!"
+		},
+		"description": {
+			"text": "Beat the Death Gauntlet."
+		},
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"comment": "SET LOCATION TO BE TOP/OUTSIDE OF DEPTH CHARGE DIVE",
+	"criteria": {
+		"test": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"do2:utility/reach_bottom_tnt_depth_charge": true
+								}
+							},
+							"nbt": "Tags:[\"do2.running\"]",
+							"location": {
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/survival/win_1_times"
+}
