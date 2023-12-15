@@ -25,5 +25,5 @@
       }
     }
   },
-  "parent": "do2:hidden/adventuring/creative_composter"
+  "parent": "do2:hidden/adventuring/eat_berries"
 }

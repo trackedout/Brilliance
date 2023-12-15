@@ -3,6 +3,9 @@
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
 execute store result score $dungeon do.run.players run tag @a[tag=!do.spectating] add do2.running
 
+# do all scoreboard resets that happen per run.
+execute as @a[tag=do.running] run function do2:scoreboard/per_run
+
 # setups dungeon clock.
 scoreboard players set $dungeon do2.run.active 1
 scoreboard players set $dungeon do2.run.empty_time 0

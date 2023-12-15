@@ -14,3 +14,6 @@ execute as @s[advancements={do2:visible/survival/win_difficulty_3=false,do2:hidd
 execute as @s[advancements={do2:visible/survival/win_difficulty_4=false,do2:hidden/survival/win_difficulty_4=true}] run advancement grant @s only do2:visible/survival/win_difficulty_4
 execute as @s[advancements={do2:visible/survival/win_difficulty_5=false,do2:hidden/survival/win_difficulty_5=true}] run advancement grant @s only do2:visible/survival/win_difficulty_5
 execute as @s[advancements={do2:visible/survival/win_level_1=false,do2:hidden/survival/win_level_1=true}] run advancement grant @s only do2:visible/survival/win_level_1
+execute as @s[advancements={do2:visible/survival/win_level_2=false,do2:hidden/survival/win_level_2=true}] run advancement grant @s only do2:visible/survival/win_level_2
+execute as @s[advancements={do2:visible/survival/win_level_3=false,do2:hidden/survival/win_level_3=true}] run advancement grant @s only do2:visible/survival/win_level_3
+execute as @s[advancements={do2:visible/survival/win_level_4=false,do2:hidden/survival/win_level_4=true}] run advancement grant @s only do2:visible/survival/win_level_4

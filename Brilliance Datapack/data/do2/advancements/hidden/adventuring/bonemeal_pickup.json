@@ -27,5 +27,5 @@
             }
         }
     },
-    "parent": "do2:hidden/adventuring/food_subroot"
+    "parent": "do2:hidden/adventuring/eat_berries"
 }

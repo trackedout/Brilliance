@@ -22,6 +22,7 @@ scoreboard objectives add do2.run.has_won dummy "Player has won"
 
 
 # - utility -
+function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 
 

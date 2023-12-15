@@ -6,8 +6,8 @@
     "title": "Composting Cultivator",
     "description": "Use bonemeal to grow your own glowberries, and eat them.",
     "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

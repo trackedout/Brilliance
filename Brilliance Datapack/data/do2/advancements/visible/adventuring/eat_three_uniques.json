@@ -6,8 +6,8 @@
     "title": "Three Course Meal",
     "description": "In a single run, eat three different kinds of food.",
     "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

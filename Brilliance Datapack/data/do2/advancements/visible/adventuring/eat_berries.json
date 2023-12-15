@@ -6,8 +6,8 @@
     "title": "Food Tour",
     "description": "Eat a berry obtained in the dungeon (definitely not poisonous).",
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
