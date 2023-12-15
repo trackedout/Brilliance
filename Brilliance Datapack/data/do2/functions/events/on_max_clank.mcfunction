@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:warden] if score warden anger < max_clank_min anger run data modify entity @s anger.suspects[0].anger set value 79
