@@ -15,5 +15,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "do2:visible/adventuring/eat_berries"
+  "parent": "do2:visible/adventuring/bonemeal_pickup"
 }

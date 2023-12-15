@@ -28,7 +28,6 @@
           "nbt": "{Tags:[\"do2.running\"]}"
         }
       }
-      
     }
   },
   "parent": "do2:hidden/adventuring/eat_berries"

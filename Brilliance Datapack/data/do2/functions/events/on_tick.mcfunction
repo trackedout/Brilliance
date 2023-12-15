@@ -2,12 +2,12 @@
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
 # this needs to be ran frequently, OR when ever the hidden triggers, it calls a function to auto grant the visible one.
-function do2:advancements/grant_visible/all
+execute as @a run function do2:advancements/grant_visible/all
 
 # IF the player has quit the game and is back, RUN on_player_rejoin
 execute as @a[scores={do2.utility.trackLeaves=1..}] at @s run function do2:events/on_player_rejoin
 
-# track ticks in the dungeon
+# track ticks/seconds in the dungeon. Also handles if dungeon is empty.
 execute if score $dungeon do.run.active matches 1 run function do2:dungeon_timer
 
 # call on player death when running do2
