@@ -11,8 +11,47 @@
     "hidden": false
   },
   "criteria": {
-    "triggered_by_functions": {
-      "trigger": "minecraft:impossible"
+    "ate_one_food": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "doc.adv.threecoursemeal": 1
+                    }
+                }
+            ]
+        }
+    },
+    "ate_two_food": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "doc.adv.threecoursemeal": 2
+                    }
+                }
+            ]
+        }
+    },
+    "ate_three_food": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "doc.adv.threecoursemeal": 3
+                    }
+                }
+            ]
+        }
     }
   },
   "parent": "do2:hidden/adventuring/eat_berries"

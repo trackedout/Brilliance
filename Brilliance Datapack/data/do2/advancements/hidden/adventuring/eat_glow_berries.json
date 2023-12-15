@@ -25,5 +25,5 @@
       }
     }
   },
-  "parent": "do2:hidden/adventuring/eat_berries"
+  "parent": "do2:hidden/adventuring/bonemeal_pickup"
 }
