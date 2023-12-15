@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cooked_porkchop"
+    },
+    "title": "Three Course Meal",
+    "description": "In a single run, eat three different kinds of food.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "triggered_by_functions": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "do2:hidden/adventuring/eat_berries"
+}

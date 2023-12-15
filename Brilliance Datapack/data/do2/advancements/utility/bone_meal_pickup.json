@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"picked_up_bone_meal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bone_meal"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:replace_bone_meal"
+	},
+	"parent": "do2:utility/root"
+}
