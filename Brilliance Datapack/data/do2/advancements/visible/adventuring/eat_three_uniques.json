@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:cooked_porkchop"
     },
-    "title": "Three Course Meal",
-    "description": "In a single run, eat three different kinds of food.",
+    "title": "§eThree Course Meal",
+    "description": "§7In a single run, eat §othree§r§7 different kinds of food.",
     "frame": "challenge",
     "show_toast": false,
     "announce_to_chat": false,
@@ -54,5 +54,5 @@
         }
     }
   },
-  "parent": "do2:visible/adventuring/eat_berries"
+  "parent": "do2:visible/adventuring/eat_fish"
 }

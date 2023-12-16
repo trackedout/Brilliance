@@ -3,8 +3,8 @@
     "icon": {
       "item": "minecraft:sweet_berries"
     },
-    "title": "Food Tour",
-    "description": "Eat a berry obtained in the dungeon (definitely not poisonous).",
+    "title": "§eFood Tour",
+    "description": "§7Eat a §o§cberry§r§7 obtained in the dungeon §m(definitely not poisonous).",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,

@@ -1,7 +1,7 @@
 {
 	"display": {
 		"title": {
-			"text": "Basically the Key God(dess)",
+			"text": "§eBasically the Key God(dess)",
 			"color": "green",
 			"bold": false,
 			"italic": false,
@@ -9,7 +9,7 @@
 			"strikethrough": false
 		},
 		"description": {
-			"text": "While inside the dungeon, have all four keys in your inventory simultaneously, including artifact Dungeon Master's Key."
+			"text": "§7While inside the dungeon, have all four keys in your inventory simultaneously, including artifact §o§3Dungeon Master's Key§r§7."
 		},
 		"icon": {
 			"item": "minecraft:stone"

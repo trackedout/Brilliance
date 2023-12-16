@@ -2,12 +2,21 @@
 
 
 ## Display:
- - have_4_unique_keys 
-   - Want to have all 4 keys in the icon, or the DM's Key as the icon.
- - enter_with_1_unique_keys
-   - Probably want level 1 key here
- - enter_with_3_unique_keys
-   - fan of the 3 keys
+ - ADVENTURE
+   - have_4_unique_keys 
+     - Want to have all 4 keys in the icon, or the DM's Key as the icon.
+   - enter_with_1_unique_keys
+     - Probably want level 1 key here
+   - enter_with_3_unique_keys
+     - fan of the 3 keys
+   - find_a_egg
+     - Need tango's egg
+   - find_all_eggs
+     - Need golden egg
+   - open_basalt_door
+     - Need bomb
+   - beat_decked_out
+     - Need DO2 crown.
 
 
 ## Automation

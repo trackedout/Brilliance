@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "Dungeon Detonator",
-		"description": "Find a bomb and detonate it.",
+		"title": "§eDungeon Detonator",
+		"description": "§7Find a §0bomb§7 and detonate it.",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

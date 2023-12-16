@@ -1,15 +1,10 @@
 {
 	"display": {
 		"title": {
-			"text": "Dungeon Locksmith",
-			"color": "green",
-			"bold": false,
-			"italic": false,
-			"underlined": false,
-			"strikethrough": false
+			"text": "§eDungeon Locksmith"
 		},
 		"description": {
-			"text": "Enter the dungeon with all three level keys."
+			"text": "§7Enter the dungeon with all three level keys."
 		},
 		"icon": {
 			"item": "minecraft:stone"

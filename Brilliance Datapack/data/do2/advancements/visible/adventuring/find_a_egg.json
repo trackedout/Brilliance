@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "Egg Hunter",
-		"description": "Discover an Easter egg.",
+		"title": "§eEgg Hunter",
+		"description": "§7Discover an Easter egg.",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

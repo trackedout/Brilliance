@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:powder_snow_bucket"
 		},
-		"title": "Dungeon Dawdler",
-		"description": "Stay in the dungeon for a little too long.",
+		"title": "§eDungeon Dawdler",
+		"description": "§7Stay in the dungeon for a little §otoo§r§7 long.",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

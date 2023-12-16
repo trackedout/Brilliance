@@ -5,7 +5,7 @@
 			"color": "green",
 			"bold": true
 		},
-		"background":"do2:textures/gui/advancements/backgrounds/sculk_top.png",
+		"background":"do2:textures/gui/advancements/backgrounds/stone_bricks.png",
 		
 		"description": {
 			"text": "This is a list of ALL the people who helped make Decked Out 2 Expanded"

@@ -3,15 +3,15 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "Easter Bunny",
-		"description": "Discover all Easter eggs.",
+		"title": "§eEaster Bunny",
+		"description": "§7Discover §oall§r§7 Easter eggs.",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"find_all_egg": {
+		"bdubs": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
@@ -20,26 +20,278 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"do2.eggs.bdubs": 1,
-							"do2.eggs.grian": 1,
-							"do2.eggs.cub": 1,
-							"do2.eggs.gold": 1,
-							"do2.eggs.jevin": 1,
-							"do2.eggs.zedaph": 1,
-							"do2.eggs.beef": 1,
-							"do2.eggs.xisuma": 1,
-							"do2.eggs.xb": 1,
-							"do2.eggs.hypno": 1,
-							"do2.eggs.joe": 1,
-							"do2.eggs.cleo": 1,
-							"do2.eggs.iskall": 1,
-							"do2.eggs.pearl": 1,
-							"do2.eggs.scar": 1,
-							"do2.eggs.wels": 1,
-							"do2.eggs.stress": 1,
-							"do2.eggs.impulse": 1,
-							"do2.eggs.false": 1
-						},
+							"doc.eggs.bdubs": 1
+						}
+					}
+				]
+			}
+		},
+		"grian": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.grian": 1
+						}
+					}
+				]
+			}
+		},
+		"cub": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.cub": 1
+						}
+					}
+				]
+			}
+		},
+		"gold": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.gold": 1
+						}
+					}
+				]
+			}
+		},
+		"jevin": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.jevin": 1
+						}
+					}
+				]
+			}
+		},
+		"zedaph": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.zedaph": 1
+						}
+					}
+				]
+			}
+		},
+		"beef": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.beef": 1
+						}
+					}
+				]
+			}
+		},
+		"xisuma": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.xisuma": 1
+						}
+					}
+				]
+			}
+		},
+		"xb": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.xb": 1
+						}
+					}
+				]
+			}
+		},
+		"hypno": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.hypno": 1
+						}
+					}
+				]
+			}
+		},
+		"joe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.joe": 1
+						}
+					}
+				]
+			}
+		},
+		"cleo": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.cleo": 1
+						}
+					}
+				]
+			}
+		},
+		"iskall": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.iskall": 1
+						}
+					}
+				]
+			}
+		},
+		"pearl": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.pearl": 1
+						}
+					}
+				]
+			}
+		},
+		"scar": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.scar": 1
+						}
+					}
+				]
+			}
+		},
+		"wels": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.wels": 1
+						}
+					}
+				]
+			}
+		},
+		"stress": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.stress": 1
+						}
+					}
+				]
+			}
+		},
+		"impulse": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.impulse": 1
+						}
+					}
+				]
+			}
+		},
+		"false": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"doc.eggs.false": 1
+						}
 					}
 				]
 			}
