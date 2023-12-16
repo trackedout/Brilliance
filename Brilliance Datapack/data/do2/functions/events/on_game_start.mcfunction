@@ -3,6 +3,10 @@
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
 execute store result score $dungeon do2.run.players run tag @a[tag=!do.spectating] add do2.running
 
+# === dungadungadungadungadunga ===
+execute as @a[tag=do.running] run log-event dungeon-started
+# =================================
+
 # do all scoreboard resets that happen per run.
 execute as @a[tag=do2.running] run function do2:scoreboard/per_run
 
