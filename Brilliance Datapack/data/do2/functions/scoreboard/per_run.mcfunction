@@ -1,5 +1,5 @@
 # reset players threecoursemeal track
-scoreboard players set @s doc.adv.threecoursemeal 0
+scoreboard players set @s do2.adv.threecoursemeal 0
 
 # reset player's cards played this run.
 scoreboard players set @s do2.run.cards.MOC 0
