@@ -1,4 +1,6 @@
 The datapack is in charge of ALL data tracking. We also store that data permanently, for trackedout we use a 3rd party mod to tap into this data and send it over to our databases for our trackers to use the data.
+
+#### Advancement preview:
 <img width="50%" src="current_preview.png"> 
 
 ### File structure:
@@ -13,5 +15,5 @@ The datapack is in charge of ALL data tracking. We also store that data permanen
   - ("difficulty_deadly" comes before "difficuly_easy", while "difficulty_1" comes before "difficulty_4" )
 
 # Resource Pack
-Required for custom model data, hopefully we can have some custom art for the majority of our advancements!
-
+ - Required for custom model data, hopefully we can have some custom art for the majority of our advancements!
+ - Required for advancement's custom blocks.
