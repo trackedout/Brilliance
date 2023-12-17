@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "Easter Bunny",
-		"description": "Discover all Easter eggs.",
+		"title": "§bEaster Bunny",
+		"description": "§7Discover §oall§r§7 Easter eggs.",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

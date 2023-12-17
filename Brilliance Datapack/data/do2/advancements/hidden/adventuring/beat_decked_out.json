@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "The True Winner",
-		"description": "Beat Decked Out 2.",
+		"title": "§bThe True Winner",
+		"description": "§7Beat Decked Out 2.",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

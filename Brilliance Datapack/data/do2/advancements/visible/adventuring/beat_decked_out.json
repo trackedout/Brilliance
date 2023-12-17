@@ -3,11 +3,11 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "§eThe True Winner",
+		"title": "§bThe True Winner",
 		"description": "§7Beat Decked Out 2.",
 		"frame": "challenge",
-		"show_toast": true,
-		"announce_to_chat": true,
+		"show_toast": false,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"comment1": "Manually given by Shadow",

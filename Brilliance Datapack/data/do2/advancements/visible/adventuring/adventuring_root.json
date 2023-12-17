@@ -1,6 +1,6 @@
 {
     "display": {
-        "title":  "§eAdventure awaits!",
+        "title":  "§bAdventure awaits!",
         "background":"do2:textures/gui/advancements/backgrounds/sculk.png",
         
         "description": "§7Advancements related to adventuring in §1Decked Out 2§7 will appear here!",

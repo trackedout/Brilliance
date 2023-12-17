@@ -1,19 +1,10 @@
 {
 	"display": {
-		"title": {
-			"text": "Key Luck Totem",
-			"color": "green",
-			"bold": false,
-			"italic": false,
-			"underlined": false,
-			"strikethrough": false
-		},
-		"description": {
-			"text": "Enter the dungeon with a level key to ward off bad key luck"
-		},
 		"icon": {
 			"item": "minecraft:stone"
 		},
+		"title": "§bKey Luck Totem",
+		"description": "§7Enter the dungeon with a level key to ward off bad key luck",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

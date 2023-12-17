@@ -3,7 +3,7 @@
         "icon": {
             "item": "minecraft:bone_meal"
         },
-        "title": "§eCreative Composter",
+        "title": "§bCreative Composter",
         "description": "§7Obtain §o§fbonemeal§r§7 in the dungeon.",
         "frame": "task",
         "show_toast": false,

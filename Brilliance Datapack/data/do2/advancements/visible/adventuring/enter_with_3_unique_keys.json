@@ -1,15 +1,11 @@
 {
 	"display": {
-		"title": {
-			"text": "§eDungeon Locksmith"
-		},
-		"description": {
-			"text": "§7Enter the dungeon with all three level keys."
-		},
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"frame": "task",
+		"title":"§bDungeon Locksmith",
+		"description": "§7Enter the dungeon with all three level keys.",
+		"frame": "goal",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true

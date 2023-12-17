@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "If a Key Fits...",
-		"description": "Use the Dungeon Master's Key.",
+		"title": "§bIf a Key Fits...",
+		"description": "§7Use the Dungeon Master's Key.",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

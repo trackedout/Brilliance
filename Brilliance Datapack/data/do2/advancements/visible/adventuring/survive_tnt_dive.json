@@ -1,14 +1,10 @@
 {
 	"display": {
-		"title": {
-			"text": "§eDangerous Dive"
-		},
-		"description": {
-			"text": "§7Survive the §5TnT§7 Depth Charge Dive"
-		},
 		"icon": {
 			"item": "minecraft:tnt"
 		},
+		"title":"§bDangerous Dive",
+		"description": "§7Survive the §5TnT§7 Depth Charge Dive",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

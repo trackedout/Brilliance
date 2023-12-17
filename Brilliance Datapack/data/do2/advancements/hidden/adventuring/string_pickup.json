@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:string"
 		},
-		"title": "Strung Along",
-		"description": "Obtain string inside the dungeon.",
+		"title": "§bStrung Along",
+		"description": "§7Obtain §fstring §7inside the dungeon.",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

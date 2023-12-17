@@ -3,8 +3,8 @@
 		"icon": {
 			"item": "minecraft:tnt"
 		},
-		"title": "§rSafety §mFirst§r Last",
-		"description": "Take damage from TNT.",
+		"title": "§bSafety §o§mFirst§r§b Last",
+		"description": "§7Take damage from §cTnT§7.",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,

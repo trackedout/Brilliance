@@ -1,58 +1,58 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:cooked_porkchop"
-    },
-    "title": "Three Course Meal",
-    "description": "In a single run, eat three different kinds of food.",
-    "frame": "challenge",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
-  },
-  "criteria": {
-    "ate_one_food": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "doc.adv.threecoursemeal": 1
-                    }
-                }
-            ]
-        }
-    },
-    "ate_two_food": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "doc.adv.threecoursemeal": 2
-                    }
-                }
-            ]
-        }
-    },
-    "ate_three_food": {
-        "trigger": "minecraft:tick",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "doc.adv.threecoursemeal": 3
-                    }
-                }
-            ]
-        }
-    }
-  },
-  "parent": "do2:hidden/adventuring/eat_berries"
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_porkchop"
+		},
+		"title": "§bThree Course Meal",
+		"description": "§7In a single run, eat §othree§r§7 different kinds of food.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"ate_one_food": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.adv.threecoursemeal": 1
+						}
+					}
+				]
+			}
+		},
+		"ate_two_food": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.adv.threecoursemeal": 2
+						}
+					}
+				]
+			}
+		},
+		"ate_three_food": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.adv.threecoursemeal": 3
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/eat_berries"
 }
