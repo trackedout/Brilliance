@@ -5,7 +5,7 @@
       "conditions": {
         "item": {
           "items": [
-            "minecraft:cooked_porkchops"
+            "minecraft:cooked_porkchop"
           ]
         }
       }
