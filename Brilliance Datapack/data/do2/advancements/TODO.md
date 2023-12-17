@@ -7,7 +7,6 @@
  - ADVENTURE
    - have_4_unique_keys 
      - Want to have all 4 keys in the icon, or the DM's Key as the icon.
-     - Change to be 'dynamic' subcriteria (shows x/4 keys).
    - enter_with_1_unique_keys
      - Probably want level 1 key here
    - enter_with_3_unique_keys
