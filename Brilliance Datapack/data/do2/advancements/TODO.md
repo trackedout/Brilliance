@@ -16,7 +16,6 @@
      - Need tango's egg
    - find_all_eggs
      - Need golden egg
-     - Change to be 'static' subcriteria (shows x/28 eggs).
    - open_basalt_door
      - Need bomb
    - beat_decked_out
