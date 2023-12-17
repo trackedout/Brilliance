@@ -1,1 +1,1 @@
-scoreboard players add $dungeon do2.run.clank.generated 1
+scoreboard players add $dungeon do2.run.hazard.generated 1
