@@ -2,9 +2,12 @@
 
 
 ## Display:
+ - ALL
+   - change root advancement descriptions to be more 'flavorful'.
  - ADVENTURE
    - have_4_unique_keys 
      - Want to have all 4 keys in the icon, or the DM's Key as the icon.
+     - Change to be 'dynamic' subcriteria (shows x/4 keys).
    - enter_with_1_unique_keys
      - Probably want level 1 key here
    - enter_with_3_unique_keys
@@ -13,6 +16,7 @@
      - Need tango's egg
    - find_all_eggs
      - Need golden egg
+     - Change to be 'static' subcriteria (shows x/28 eggs).
    - open_basalt_door
      - Need bomb
    - beat_decked_out
@@ -22,6 +26,9 @@
 ## Automation
  - utility/reach_bottom_tnt_depth_charge
    - Don't have location of bottom of tnt depth charge
+ - utility/inventory_change
+   - Just a utility function that calls an event whenever a players inventory changes.
+   - Calls do2:events/on_inventory_change
  - survive_tnt_dive
    - Don't have location of TOP of tnt depth charge.
  - have_4_unique_keys
