@@ -4,7 +4,7 @@
 			"item": "minecraft:stone"
 		},
 		"title": "§bKey Luck Totem",
-		"description": "§7Enter the dungeon with a level key to ward off bad key luck",
+		"description": "§7Enter the dungeon with a level key to ward off bad key luck.",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
