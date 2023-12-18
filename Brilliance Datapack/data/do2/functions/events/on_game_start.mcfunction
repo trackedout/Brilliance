@@ -4,7 +4,7 @@
 execute store result score $dungeon do2.run.players run tag @a[tag=!do.spectating] add do2.running
 
 # === dungadungadungadungadunga ===
-execute as @a[tag=do.running] run log-event dungeon-started
+execute as @a[tag=do.running] run function do2:agronet/log-event_dungeon-started
 # =================================
 
 # do all scoreboard resets that happen per run.
@@ -22,4 +22,4 @@ advancement revoke @a from do2:utility/root
 
 #reset CERTAIN advancement progress.
 scoreboard players set @a[tag=do.running] do2.adv.threecoursemeal 0
-advancement revoke @s only do2:visible/adventuring/eat_three_uniques
+advancement revoke @a only do2:visible/adventuring/eat_three_uniques

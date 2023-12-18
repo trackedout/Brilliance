@@ -13,24 +13,7 @@
 	"comment1": "SET LOCATION TO INSIDE DM'S ROOM",
 	"criteria": {
 		"enter_dm_room": {
-			"trigger": "minecraft:tick",
-			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"predicate": {
-							"nbt": "Tags:[\"do2.running\"]",
-							"location": {
-								"position": {
-									"x": 0,
-									"y": 0,
-									"z": 0
-								}
-							}
-						}
-					}
-				]
-			}
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "do2:visible/adventuring/open_basalt_door"

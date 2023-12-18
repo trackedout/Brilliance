@@ -18,7 +18,7 @@
 	},
 	"criteria": {
 		"pickshulker": {
-			"trigger": "minecraft:impossible",
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "do2:hidden/cards/cards_root"

@@ -18,8 +18,9 @@
 				"player": [
 					{
 						"condition": "minecraft:entity_properties",
+						"entity": "this",
 						"predicate": {
-							"nbt": "Tags:[\"do2.running\"]",
+							"nbt": "{Tags:[\"do2.running\"]}",
 							"location": {
 								"position": {
 									"x": 0,

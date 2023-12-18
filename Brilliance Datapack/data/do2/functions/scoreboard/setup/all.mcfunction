@@ -31,7 +31,12 @@ function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 
 # - easter eggs -
-function d02:scoreboard/setup/easter_eggs
+function do2:scoreboard/setup/easter_eggs
 
 # - cards -
-function d02:scoreboard/setup/cards
+function do2:scoreboard/setup/cards/cards_bought
+function do2:scoreboard/setup/cards/cards_played
+function do2:scoreboard/setup/cards/inside_deck
+
+# - items -
+function do2:scoreboard/setup/items
