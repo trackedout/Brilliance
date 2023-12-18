@@ -24,9 +24,6 @@
 ## Automation
  - utility/reach_bottom_tnt_depth_charge
    - Don't have location of bottom of tnt depth charge
- - utility/inventory_change
-   - Just a utility function that calls an event whenever a players inventory changes.
-   - Calls do2:events/on_inventory_change
  - survive_tnt_dive
    - Don't have location of TOP of tnt depth charge.
  - have_4_unique_keys
