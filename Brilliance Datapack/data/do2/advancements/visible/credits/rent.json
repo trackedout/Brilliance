@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: {Id: [I; 1243609891, -431603484, -1504001223, -1279137100], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NzI4Mzg4NSwKICAicHJvZmlsZUlkIiA6ICI0YTFmZmIyM2U2NDY0MGU0YTY1YWMzMzliM2MxZWFiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJleHl1bSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81OGNlZDAyZWY1NDQ0OGJlMDkwMWNmNzYyOWI2OTJiNjQ4NGQxOTc1ZWRmNzAwYjVlOTVlNmM3ZDI2ODJjZTQ5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"Ev4EP/BHwgiVw37LeVg0rnmChVoq9CiKntwrX/me7ITGwhJwhXdLL0xaFqJLXFzbT+NpgSs59C6s/Cl++seRWk1yBGkJbc3pPdNx4RdWvM7B7dJE747BvNu2B5mqe4xyM6uIzbCf4Ogj4JJ995f/I10QMByQYwqUXE3sGZlLtEsDCv0tyMkNjaI/GAWTkQj8TYk9CIjdUx+/jJEDRVndu2oIqSKviVa/jXsPA9pBFfW5mdpdiycxMt+XKBZPf8AYWKHc0pfWGIbwzYd57b24XnnUzO458ehK7LRsDos+3Untghq3lz7NtPQqAWQu7oSRT4Tvaa8kTBmpFOHX8JCaE9S2nDkgxqvUkXKvg+dWlWdKbLNzH79ulHpkgE/bygWDVFsGH7AJK4M1AraZMZP2AQ34hwXsy26myC8av03PO55EQcl26YuNutD5soWlNzLEthxEin6rJk74IAHrIifKEfHBh3fuhcCMbjVll5MoorHQ1aAFNup/hx6Fbi4CGifKwIXQ0DtrtcVUEj2zkArQbqlqB2K8PhWDRNuT+NKftT/wyB9W6B6tNkX7vNGXCWTRq1ETKNrw50FXba5qwYF3EiPwytE90MIWmJAh5EzrEAHOdDykEvrm4SSlL+web4i+8UIjrXzMKMoYYlKsaAZDDNC/rj9KnCQjL4dcdHuMAMM=\"}]}, Name: \"exyum\"}}"
+		},
+			"title": "§l§aexyum",
+		"description": "§7One of the builders of the lobby! (Put something notable here)",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/lobby"
+}

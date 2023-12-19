@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§dAgronet",
+		"description": "§7The mod that allows communication between §9Brilliance§7 and §6Dunga Dunga§7. Without this mod we couldn't keep let the server know when the dungeon was ready!",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/softshadows"
+}

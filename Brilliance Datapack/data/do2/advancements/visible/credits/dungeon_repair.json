@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-273749838,911231355,-1441596748,1365127794],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwMjVjMjdiZDFlNTdmMzI1ZGQwNDFmMDM3OGFkYWZiNDIzNGIzZWI4OTlkZWNiYWFkM2MyOTYzOWE1NzllOCJ9fX0=\"}]}}}"
+		},
+		"title": "§2Dungeon Repair",
+		"description": "§7The Tracked Out server, hosted a multiplayer server expecting hundreds of players. The §3Decked Out 2§7 dungeon had to be fixed up in parts to be guaranteed reliable and easy to work on.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/softshadows"
+}

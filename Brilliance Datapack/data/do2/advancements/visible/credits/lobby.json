@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§4Lobby Design",
+		"description": "§7The Tracked Out server, hosted a multiplayer server expecting hundreds of players. The §3Decked Out 2§7 lobby had to be redesign to fit all these player's cubbies and scores.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/softshadows"
+}
