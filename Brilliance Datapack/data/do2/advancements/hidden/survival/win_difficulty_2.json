@@ -1,16 +1,11 @@
 {
     "display": {
-        "title": {
-            "text": "Getting Comfortable",
-            "color": "gold"
-        },
-        "description": {
-            "text": "§7Win a run on §aMedium§7 difficulty."
-        },
         "icon": {
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111118}"
         },
+        "title": "§bGetting Comfortable",
+        "description": "§7Win a run on §aMedium§7 difficulty.",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

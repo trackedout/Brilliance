@@ -1,15 +1,11 @@
 {
     "display": {
-        "title": {
-            "text": "Decked Out 2 Gamer"
-        },
-        "description": {
-            "text": "Win 100 games of Decked Out 2"
-        },
         "icon": {
             "item": "minecraft:stone"
         },
-        "frame": "task",
+        "title": "§bDecked Out 2 Gamer",
+        "description": "§7Win §b100§7 games of §o§3Decked Out 2§r§7.",
+        "frame": "challenge",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false

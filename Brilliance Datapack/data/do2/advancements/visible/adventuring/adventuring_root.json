@@ -1,14 +1,12 @@
 {
     "display": {
-        "title":  "§bAdventure awaits!",
-        "background":"do2:textures/gui/advancements/backgrounds/sculk.png",
-        
-        "description": "§7Advancements related to adventuring in §1Decked Out 2§7 will appear here!",
-        
         "icon": {
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111112}"
         },
+        "title":  "§bAdventure awaits!",
+        "description": "§7Your adventure inside the §oDungeon§r§7 waits for you!",
+        "background":"do2:textures/gui/advancements/backgrounds/sculk.png",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

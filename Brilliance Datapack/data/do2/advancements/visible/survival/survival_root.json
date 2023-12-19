@@ -1,19 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Decked Out 2 Survival!",
-			"color": "green",
-			"bold": true
-		},
-		"background":"do2:textures/gui/advancements/backgrounds/deepslate_tiles.png",
-		
-		"description": {
-			"text": "Advancements about surviving the dungeon appear here"
-		},
 		"icon": {
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111114}"
 		},
+		"title": "§bDecked Out 2 Survival!",
+		"description":"§7Mark your victories as you survive the §oDungeon§r§7!",
+		"background":"do2:textures/gui/advancements/backgrounds/deepslate_tiles.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

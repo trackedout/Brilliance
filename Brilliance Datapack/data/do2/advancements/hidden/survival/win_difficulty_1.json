@@ -1,16 +1,11 @@
 {
     "display": {
-        "title": {
-            "text": "Is This Easy Mode?",
-            "color": "green"
-        },
-        "description": {
-            "text": "§7Win a run on §1Easy§7 difficulty."
-        },
         "icon": {
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111117}"
         },
+        "title": "§bIs This §1Easy§b Mode?",
+        "description":  "§7Win a run on §1Easy§7 difficulty.",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

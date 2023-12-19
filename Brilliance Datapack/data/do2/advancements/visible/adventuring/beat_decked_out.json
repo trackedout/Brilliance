@@ -4,7 +4,7 @@
 			"item": "minecraft:stone"
 		},
 		"title": "§bThe True Winner",
-		"description": "§7Beat Decked Out 2.",
+		"description": "§7Beat §3Decked Out 2§7.",
 		"frame": "challenge",
 		"show_toast": false,
 		"announce_to_chat": false,

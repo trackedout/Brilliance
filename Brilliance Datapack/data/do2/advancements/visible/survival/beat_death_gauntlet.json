@@ -1,15 +1,11 @@
 {
 	"display": {
-		"title": {
-			"text": "Not Today, Ravager!"
-		},
-		"description": {
-			"text": "Beat the Death Gauntlet."
-		},
 		"icon": {
 			"item": "minecraft:cake"
 		},
-		"frame": "task",
+		"title": "§bNot Today, §oRavager§r§b!",
+		"description": "§7Beat the Death Gauntlet.",
+		"frame": "goal",
 		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true

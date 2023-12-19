@@ -1,17 +1,12 @@
 {
     "display": {
-        "title": {
-            "text": "Not-So-Deadly Mode",
-            "color": "red"
-        },
-        "description": {
-            "text": "§7Win a run on §4Deadly§7 difficulty."
-        },
         "icon": {
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111120}"
         },
-        "frame": "task",
+        "title": "§bNot-So-§4Deadly§b Mode",
+        "description": "§7Win a run on §4Deadly§7 difficulty.",
+        "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

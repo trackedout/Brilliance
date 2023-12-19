@@ -8,7 +8,7 @@
 		"background":"do2:textures/gui/advancements/backgrounds/stone_bricks.png",
 		
 		"description": {
-			"text": "This is a list of ALL the people who helped make Decked Out 2 Expanded"
+			"text": "§7This is a list of ALL the people who helped make §3Decked Out 2§7 Expanded"
 		},
 		"icon": {
 			"item": "minecraft:player_head",

@@ -1,14 +1,10 @@
 {
     "display": {
-        "title": {
-            "text": "At the Starting Line"
-        },
-        "description": {
-            "text": "Win 20 games of Decked Out 2"
-        },
         "icon": {
             "item": "minecraft:stone"
         },
+        "title": "§bAt the Starting Line",
+        "description": "§7Win §b20§7 games of §o§3Decked Out 2§r§7.",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

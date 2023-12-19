@@ -1,14 +1,10 @@
 {
     "display": {
-        "title": {
-            "text": "Bend and Stretch"
-        },
-        "description": {
-            "text": "Win 10 games of Decked Out 2"
-        },
         "icon": {
             "item": "minecraft:stone"
         },
+        "title": "§bBend and Stretch",
+        "description":  "§7Win §b10§7 games of §o§3Decked Out 2",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

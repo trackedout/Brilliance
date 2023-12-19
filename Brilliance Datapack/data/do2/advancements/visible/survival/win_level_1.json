@@ -1,15 +1,10 @@
 {
     "display": {
-        "title": {
-            "text": "Local Delivery",
-            "color": "aqua"
-        },
-        "description": {
-            "text": "§7Succeed on §2Level 1§7:\n§bThe Frozen Crypt"
-        },
         "icon": {
             "item": "minecraft:skeleton_skull"
         },
+        "title": "§bLocal Delivery",
+        "description":  "§7Survive §2Level 1§7:\n§b§oThe Frozen Crypt§r§7.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,

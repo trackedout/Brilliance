@@ -1,14 +1,10 @@
 {
     "display": {
-        "title": {
-            "text": "Ready, Set, GO!"
-        },
-        "description": {
-            "text": "Win 30 games of Decked Out 2"
-        },
         "icon": {
             "item": "minecraft:stone"
         },
+        "title": "§bReady, Set, GO!",
+        "description": "§7Win §b40§7 games of §o§3Decked Out 2§r§7.",
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,

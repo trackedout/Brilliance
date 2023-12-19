@@ -1,17 +1,12 @@
 {
     "display": {
-        "title": {
-            "text": "Too Cool for School",
-            "color": "dark_purple"
-        },
-        "description": {
-            "text": "§7Win a run on §5Deepfrost§7 difficulty."
-        },
         "icon": {
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111121}"
         },
-        "frame": "task",
+        "title": "§bToo Cool for School",
+        "description":  "§7Win a run on §5Deepfrost§7 difficulty.",
+        "frame": "Challenge",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

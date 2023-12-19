@@ -1,15 +1,11 @@
 {
     "display": {
-        "title": {
-            "text": "It's Not a Sprint"
-        },
-        "description": {
-            "text": "Win 50 games of Decked Out 2"
-        },
         "icon": {
             "item": "minecraft:stone"
         },
-        "frame": "task",
+        "title": "§bIt's Not a Sprint",
+        "description": "§7Win §b50§7 games of §o§3Decked Out 2§r§7.",
+        "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false

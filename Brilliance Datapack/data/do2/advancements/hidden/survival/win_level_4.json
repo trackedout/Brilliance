@@ -1,17 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Dungeon Globetrotter",
-			"color": "dark_purple"
-		},
-		"description": {
-			"text": "§7Succeed on §2Level 4§7:\n§5The Burning Dark"
-		},
 		"icon": {
 			"item": "minecraft:player_head",
 			"nbt": "{SkullOwner:{Id:[I;-942773889,-601077704,-1217923542,2086833092],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDc2N2E2YTBjY2UwYTQ3NDg5N2Q2YWZkMDk0OGE1NDYwMTM2YWFiYzVlZjdjYTk1MGM1ZDA3ODY2NDIzZWI2NSJ9fX0=\"}]}}}"
 		},
-		"frame": "task",
+		"title": "§bDungeon Globetrotter",
+		"description": "§7Survive §2Level 4§7:\n§5§oThe Burning Dark§r§7.",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
