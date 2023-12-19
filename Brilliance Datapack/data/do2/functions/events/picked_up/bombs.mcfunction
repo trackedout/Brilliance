@@ -1,5 +1,5 @@
 # is called when player picks up a bomb
-clear @s iron_nugget{untracked:1b,CustomModelData:208} 1
+clear @s iron_nugget{tracked:0b,CustomModelData:208} 1
 
 # Give back bomb but TRACKED this time.
 give @s minecraft:iron_nugget{untracked:1b,CustomModelData:208,tracked:1b} 1

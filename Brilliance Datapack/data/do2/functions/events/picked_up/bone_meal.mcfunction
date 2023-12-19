@@ -1,6 +1,6 @@
 # is called when player picks up bone_meal
 # player is adventure mode, and can't use regular bone_meal.
-clear @s bone_meal{untracked:1b} 1
+clear @s bone_meal{tracked:0b} 1
 
 # Anything else we want to allow bone_meal to be placed on?
 give @s minecraft:bone_meal{CanPlaceOn:["cave_vines_plant", "sweet_berry_bush"],tracked:1b} 1
