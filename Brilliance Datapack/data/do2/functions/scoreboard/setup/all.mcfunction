@@ -19,16 +19,20 @@ scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has 
 scoreboard objectives add do2.run.tnt_dive dummy "Reached bottom of the TnT Depth Charge"
 scoreboard objectives add do2.run.has_won dummy "Player has won"
 scoreboard objectives add do2.run.players dummy "Total players in game"
-# -- items --
-scoreboard objectives add do2.run.embers dummy "Embers picked up"
-scoreboard objectives add do2.run.coins dummy "Coins picked up"
-scoreboard objectives add do2.run.crowns dummy "Crowns picked up"
-scoreboard objectives add do2.run.kits dummy "Rusty Repair Kits picked up"
-scoreboard objectives add do2.run.pumpkins dummy "Pumpkins picked up"
 
 # - utility -
 function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
+scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"
+scoreboard objectives add do2.utility.coinsToGive dummy "Coins left to give"
+scoreboard objectives add do2.utility.crownsToGive dummy "Crowns left to give"
+scoreboard objectives add do2.utility.kitsToGive dummy "Rusty Kits left to give"
+scoreboard objectives add do2.utility.pumpkinsToGive dummy "Pumpkins left to give"
+scoreboard objectives add do2.utility.berriesToGive dummy "Sweet_berries left to give"
+scoreboard objectives add do2.utility.chopsToGive dummy "Pork_chops left to give"
+scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to give"
+scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
+scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
 # - easter eggs -
 function do2:scoreboard/setup/easter_eggs

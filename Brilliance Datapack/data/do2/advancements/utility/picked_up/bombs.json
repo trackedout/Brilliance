@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_bone_meal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{untracked:1b,CustomModelData:208}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/bombs"
+	},
+	"parent": "do2:utility/root"
+}

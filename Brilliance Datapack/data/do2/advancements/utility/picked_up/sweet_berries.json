@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_bone_meal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sweet_berries"
+						],
+						"nbt": "{untracked:1b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/sweet_berries"
+	},
+	"parent": "do2:utility/root"
+}

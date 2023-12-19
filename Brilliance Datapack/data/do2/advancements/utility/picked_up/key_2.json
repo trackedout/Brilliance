@@ -1,6 +1,4 @@
 {
-	"comment1": "THIS IS USED TO CONVERT NORMAL BONEMEAL",
-	"comment2": "TO BONEMEAL WITH NBT DATA.",
 	"criteria": {
 		"picked_up_bone_meal": {
 			"trigger": "minecraft:inventory_changed",
@@ -8,15 +6,16 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:bone_meal"
-						]
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{untracked:1b,CustomModelData:202}"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "do2:replace_bone_meal"
+		"function": "do2:events/picked_up/key_2"
 	},
 	"parent": "do2:utility/root"
 }

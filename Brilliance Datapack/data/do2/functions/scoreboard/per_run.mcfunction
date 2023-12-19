@@ -1,5 +1,20 @@
 # reset players threecoursemeal track
 scoreboard players set @s do2.adv.threecoursemeal 0
+advancement revoke @s only do2:visible/adventuring/eat_three_uniques
+
+# reset items collected this run
+scoreboard players set @s do2.run.items.embers 0
+scoreboard players set @s do2.run.items.coins 0
+scoreboard players set @s do2.run.items.crowns 0
+scoreboard players set @s do2.run.items.kits 0
+scoreboard players set @s do2.run.items.pumpkins 0
+scoreboard players set @s do2.run.items.bone_meal 0
+scoreboard players set @s do2.run.items.sweet_berries 0
+scoreboard players set @s do2.run.items.pork_chops 0
+scoreboard players set @s do2.run.items.key_2 0
+scoreboard players set @s do2.run.items.key_3 0
+scoreboard players set @s do2.run.items.key_4 0
+scoreboard players set @s do2.run.items.bombs 0
 
 # reset player's cards played this run.
 scoreboard players set @s do2.run.cards.MOC 0
@@ -40,3 +55,4 @@ scoreboard players set @s do2.run.cards.TAA 0
 scoreboard players set @s do2.run.cards.POP 0
 scoreboard players set @s do2.run.cards.STU 0
 scoreboard players set @s do2.run.cards.DUL 0
+
