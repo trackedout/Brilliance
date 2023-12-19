@@ -8,67 +8,67 @@
 			"predicate": {
 				"custom_model_data": 1111111
 			},
-			"model": "minecraft:item/eyes"
+			"model": "minecraft:item/advancements/eyes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111112
 			},
-			"model": "minecraft:item/trackedout"
+			"model": "minecraft:item/advancements/trackedout"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111113
 			},
-			"model": "minecraft:item/treasure"
+			"model": "minecraft:item/advancements/treasure"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111114
 			},
-			"model": "minecraft:item/survival"
+			"model": "minecraft:item/advancements/survival"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111115
 			},
-			"model": "minecraft:item/leaderboard"
+			"model": "minecraft:item/advancements/leaderboard"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111116
 			},
-			"model": "minecraft:item/cards"
+			"model": "minecraft:item/advancements/cards"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111117
 			},
-			"model": "minecraft:item/difficulty_1"
+			"model": "minecraft:item/advancements/difficulty_1"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111118
 			},
-			"model": "minecraft:item/difficulty_2"
+			"model": "minecraft:item/advancements/difficulty_2"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111119
 			},
-			"model": "minecraft:item/difficulty_3"
+			"model": "minecraft:item/advancements/difficulty_3"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111120
 			},
-			"model": "minecraft:item/difficulty_4"
+			"model": "minecraft:item/advancements/difficulty_4"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111121
 			},
-			"model": "minecraft:item/difficulty_5"
+			"model": "minecraft:item/advancements/difficulty_5"
 		}
 	]
 }

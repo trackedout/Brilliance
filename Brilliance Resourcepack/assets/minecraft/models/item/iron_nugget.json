@@ -1,0 +1,56 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/redstone"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "minecraft:item/do2_items/coins"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:item/do2_items/crowns"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:item/do2_items/embers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:item/do2_items/tome"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 202
+			},
+			"model": "minecraft:item/do2_items/level_2_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 203
+			},
+			"model": "minecraft:item/do2_items/level_3_key"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 208
+			},
+			"model": "minecraft:item/do2_items/bomb"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 209
+			},
+			"model": "minecraft:item/do2_items/level_4_key"
+		}
+	]
+}
