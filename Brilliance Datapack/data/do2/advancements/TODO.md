@@ -18,7 +18,13 @@
    - open_basalt_door
      - Need bomb
    - beat_decked_out
-     - Need DO2 crown.
+     - Need DO2 winner's crown.
+ - SURVIVAL
+   - win_streak_3 TO win_streak_10
+       - Need better icons.
+   - win_1_times TO win_100_times
+       - Need icons.
+   
 
 
 ## Automation

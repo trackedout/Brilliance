@@ -17,3 +17,7 @@ execute as @s[advancements={do2:visible/survival/win_level_1=false,do2:hidden/su
 execute as @s[advancements={do2:visible/survival/win_level_2=false,do2:hidden/survival/win_level_2=true}] run advancement grant @s only do2:visible/survival/win_level_2
 execute as @s[advancements={do2:visible/survival/win_level_3=false,do2:hidden/survival/win_level_3=true}] run advancement grant @s only do2:visible/survival/win_level_3
 execute as @s[advancements={do2:visible/survival/win_level_4=false,do2:hidden/survival/win_level_4=true}] run advancement grant @s only do2:visible/survival/win_level_4
+execute as @s[advancements={do2:visible/survival/win_streak_3=false,do2:hidden/survival/win_streak_3=true}] run advancement grant @s only do2:visible/survival/win_streak_3
+execute as @s[advancements={do2:visible/survival/win_streak_5=false,do2:hidden/survival/win_streak_5=true}] run advancement grant @s only do2:visible/survival/win_streak_5
+execute as @s[advancements={do2:visible/survival/win_streak_7=false,do2:hidden/survival/win_streak_7=true}] run advancement grant @s only do2:visible/survival/win_streak_7
+execute as @s[advancements={do2:visible/survival/win_streak_10=false,do2:hidden/survival/win_streak_10=true}] run advancement grant @s only do2:visible/survival/win_streak_10

@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:tnt"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111122}"
 		},
 		"title":"§bDangerous Dive",
 		"description": "§7Survive the §4TnT§7 Depth Charge Dive",

@@ -2,17 +2,17 @@
     "display": {
         "icon": {
             "item": "minecraft:redstone",
-            "nbt": "{'CustomModelData': 1111121}"
+            "nbt": "{CustomModelData:1111123}"
         },
-        "title": "§bToo Cool for School",
-        "description":  "§7Win a run on §5Deepfrost§7 difficulty.",
-        "frame": "challenge",
+        "title": "§bThree's Lucky",
+        "description":  "§7Win §b3§7 games of §o§3Decked Out 2§r§7 §nin a row§r§7.",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
     },
     "criteria": {
-        "win_difficulty_deepfrost": {
+        "win_streak_3": {
             "trigger": "minecraft:tick",
             "conditions": {
                 "player": [
@@ -20,14 +20,12 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "do2.run.active": 1,
-                            "do2.run.difficulty": 5,
-                            "do2.run.has_won": 1
+                            "do2.highest_streak": 3
                         }
                     }
                 ]
             }
         }
     },
-    "parent": "do2:hidden/survival/win_difficulty_4"
+    "parent": "do2:hidden/survival/win_1_times"
 }

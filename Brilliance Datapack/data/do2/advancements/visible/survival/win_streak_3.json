@@ -1,17 +1,18 @@
 {
     "display": {
         "icon": {
-            "item": "minecraft:stone"
+            "item": "minecraft:redstone",
+            "nbt": "{CustomModelData:1111123}"
         },
-        "title": "§bBend and Stretch",
-        "description":  "§7Win §b10§7 games of §o§3Decked Out 2§r§7.",
+        "title": "§bThree's Lucky",
+        "description":  "§7Win §b3§7 games of §o§3Decked Out 2§r§7 §nin a row§r§7.",
         "frame": "task",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
     "criteria": {
-        "win_10_times":{
+        "win_streak_3": {
             "trigger": "minecraft:impossible"
         }
     },

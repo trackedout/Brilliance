@@ -16,5 +16,5 @@
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "do2:visible/adventuring/adventuring_root"
+	"parent": "do2:visible/adventuring/yeti_scare"
 }

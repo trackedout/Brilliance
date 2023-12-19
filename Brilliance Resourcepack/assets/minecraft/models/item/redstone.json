@@ -69,6 +69,36 @@
 				"custom_model_data": 1111121
 			},
 			"model": "minecraft:item/advancements/difficulty_5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111122
+			},
+			"model": "minecraft:item/advancements/water_tnt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111123
+			},
+			"model": "minecraft:item/advancements/winstreak_3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111124
+			},
+			"model": "minecraft:item/advancements/winstreak_5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111125
+			},
+			"model": "minecraft:item/advancements/winstreak_7"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111126
+			},
+			"model": "minecraft:item/advancements/winstreak_10"
 		}
 	]
 }

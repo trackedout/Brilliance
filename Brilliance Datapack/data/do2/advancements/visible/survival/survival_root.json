@@ -5,7 +5,7 @@
 			"nbt": "{'CustomModelData': 1111114}"
 		},
 		"title": "§bDecked Out 2 Survival!",
-		"description":"§7Mark your victories as you survive the §oDungeon§r§7!",
+		"description":"§7Mark your §o§avictories§r§7 as you survive the §oDungeon§r§7!",
 		"background":"do2:textures/gui/advancements/backgrounds/deepslate_tiles.png",
 		"frame": "task",
 		"show_toast": false,
