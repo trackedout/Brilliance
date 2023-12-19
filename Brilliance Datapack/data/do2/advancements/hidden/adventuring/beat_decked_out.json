@@ -7,7 +7,7 @@
 		"description": "§7Beat Decked Out 2.",
 		"frame": "challenge",
 		"show_toast": true,
-		"announce_to_chat": true,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"comment1": "Manually given by Shadow",

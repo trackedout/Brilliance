@@ -7,7 +7,7 @@
 		"description":  "§7While inside the dungeon, have all four keys in your inventory simultaneously, including artifact §o§3Dungeon Master's Key§r§7.",
 		"frame": "task",
 		"show_toast": true,
-		"announce_to_chat": true,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"comment2": "SET ITEMS TO BE THE KEYS",

@@ -7,7 +7,7 @@
 		"description": "§7Beat the Death Gauntlet.",
 		"frame": "task",
 		"show_toast": true,
-		"announce_to_chat": true,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"criteria": {

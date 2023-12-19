@@ -1,4 +1,15 @@
 {
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk"
+		},
+		"title": "§bTendril Traveler",
+		"description": "§7Travel to the end of all nine §5Level Four§7 tendrils.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
 	"criteria": {
 		"visit_tendril_1": {
 			"trigger": "minecraft:tick",

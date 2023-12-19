@@ -7,7 +7,7 @@
 		"title": "§bUpsetti Spayeti",
 		"description": "§7Get jump-scared by the §3§oyeti§r§7.",
 		"frame": "task",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": true
 	},

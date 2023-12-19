@@ -1,0 +1,26 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "minecraft:item/redstone_block"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "minecraft:item/advancements/folder"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:item/advancements/credits"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 999
+			},
+			"model": "minecraft:item/advancements/readme"
+		}
+	]
+}

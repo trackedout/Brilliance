@@ -1,19 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Decked Out 2 Card Collecting!",
-			"color": "green",
-			"bold": true
-		},
-		"background":"do2:textures/gui/advancements/backgrounds/purple_concrete.png",
-		
-		"description": {
-			"text": "Advancements about collecting and using cards appear here!"
-		},
 		"icon": {
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111116}"
 		},
+		"title": "§bCollect them all!",
+		"description": "§7Collect and use your very own §odeck of many things§r§7!",
+		"background":"do2:textures/gui/advancements/backgrounds/purple_concrete.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

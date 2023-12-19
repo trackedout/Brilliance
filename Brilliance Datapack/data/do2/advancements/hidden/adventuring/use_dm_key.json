@@ -7,7 +7,7 @@
 		"description": "§7Use the Dungeon Master's Key.",
 		"frame": "goal",
 		"show_toast": true,
-		"announce_to_chat": true,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"comment1": "SET LOCATION TO INSIDE DM'S ROOM",
