@@ -4,7 +4,7 @@
 			"item": "minecraft:tnt"
 		},
 		"title":"§bDangerous Dive",
-		"description": "§7Survive the §5TnT§7 Depth Charge Dive",
+		"description": "§7Survive the §4TnT§7 Depth Charge Dive",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
@@ -16,5 +16,5 @@
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "do2:visible/survival/win_1_times"
+	"parent": "do2:visible/adventuring/adventuring_root"
 }
