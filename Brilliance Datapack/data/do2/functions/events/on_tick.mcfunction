@@ -22,6 +22,6 @@ execute if score $dungeon do2.run.empty matches 300 run function do2:events/on_g
 
 # For every UNTRACKED item, (item entities not tagged)
 # Mark the item as UNTRACKED
-execute as @e[type=item,tag=!untracked,nbt=!{Item:{tag:{tracked:1b}}}] run data merge entity @s {Item:{tag:{untracked:1b}},Tags:[untracked]}
+execute as @e[type=item, nbt=!{Item:{tag:{tracked:1b}}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
 
