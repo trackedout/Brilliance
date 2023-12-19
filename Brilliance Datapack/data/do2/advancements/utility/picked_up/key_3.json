@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{untracked:1b,CustomModelData:203}"
+						"nbt": "{tracked:0b,CustomModelData:203}"
 					}
 				]
 			}

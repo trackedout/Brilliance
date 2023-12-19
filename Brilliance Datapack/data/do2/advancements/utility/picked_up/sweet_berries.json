@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:sweet_berries"
 						],
-						"nbt": "{untracked:1b}"
+						"nbt": "{tracked:0b}"
 					}
 				]
 			}

@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:bone_meal"
 						],
-						"nbt": "{untracked:1b}",
+						"nbt": "{tracked:0b}",
 						"count": 1
 					}
 				]

@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:cooked_porkchop"
 						],
-						"nbt": "{untracked:1b}"
+						"nbt": "{tracked:0b}"
 					}
 				]
 			}
