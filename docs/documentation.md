@@ -38,43 +38,99 @@ If a Key Fits... | [use_dm_key.json](https://github.com/trackedout/Brilliance/bl
 
 For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/cards/*file_name*.
 
-TABLE HERE
+Name | File | Description | Parent
+------------- | ------------- | ------------- | -------------
+Collect them all! | [cards_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/cards/cards_root.json) | Collect and use your very own deck of many things. | root
+CONTINUE | 
 
 ## Survival
 
 For all advancements related to running the dungeon and getting out in a pinch. When referencing these advancements, use the following naming convention - do2:hidden/survival/*file_name*.
 
-TABLE HERE
+Name | File | Description | Parent
+------------- | ------------- | ------------- | -------------
+Not Today, Ravager! | [beat_death_gauntlet.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/beat_death_gauntlet.json) | Beat the Death Gauntlet. | win_1_times
+Survive the Dungeon! | [survival_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/survival_root.json) | Mark your victories as you survive the Dungeon. | root
+Decked Out 2 Gamer | [win_100_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_100_times.json) | Win 100 games of Decked Out. | win_80_times
+Bend and Stretch | [win_10_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_10_times.json) | Win 10 games of Decked Out. | win_1_times
+Getting Warmed Up | [win_1_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_1_times.json) | Win a game of Decked Out. | survival_root
+At the Starting Line | [win_20_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_20_times.json) | Win 20 games of Decked Out. | win_10_times
+Ready, Set, GO! | [win_30_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_30_times.json) | Win 30 games of Decked Out. | win_20_times
+Pace Yourself | [win_40_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_40_times.json) | Win 40 games of Decked Out. | win_30_times
+It's Not a Sprint | [win_50_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_50_times.json) | Win 50 games of Decked Out. | win_40_times
+It's a Marathon! | [win_65_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_65_times.json) | Win 65 games of Decked Out. | win_50_times
+Run, Hermit, Run! | [win_80_times.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_80_times.json) | Win 80 games of Decked Out. | win_40_times
+Is This Easy Mode? | [win_difficulty_1.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_difficulty_1.json) | Win a run on Easy difficulty. | win_1_times
+Getting Comfortable | [win_difficulty_2.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_difficulty_2.json) | Win a run on Medium difficulty. | win_difficulty_1
+Easier Than Medium? | [win_difficulty_3.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_difficulty_3.json) | Win a run on Hard difficulty. | win_difficulty_2
+Not-So-Deadly Mode | [win_difficulty_4.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_difficulty_4.json) | Win a run on Deadly difficulty. | win_difficulty_3
+Too Cool for School | [win_difficulty_5.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_difficulty_5.json) | Win a run on Deepfrost difficulty. | win_difficulty_4
+Local Delivery | [win_level_1.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_level_1.json) | Survive Level 1: The Frozen Crypt | win_1_times
+Cave Champ | [win_level_2.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_level_2.json) | Survive Level 2: The Caves of Carnage | win_level_1
+Warden Warden | [win_level_3.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_level_3.json) | Survive Level 3: The Black Mines | win_level_2
+Dungeon Globetrotter | [win_level_4.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_level_4.json) | Survive Level 4: The Burning Dark | win_level_3
+Double Digits | [win_streak_10.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_streak_10.json) | Win 10 games of Decked Out in a row. | win_streak_7
+Three's Lucky | [win_streak_3.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_streak_3.json) | Win 3 games of Decked Out in a row. | win_1_times
+Handful of Wins | [win_streak_5.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_streak_5.json) | Win 5 games of Decked Out in a row. | win_streak_3
+Perfect Win Streak | [win_streak_7.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/survival/win_streak_7.json) | Win 7 games of Decked Out in a row. | win_streak_5
 
 ## Treasure
 
 For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/treasure/*file_name*.
 
-TABLE HERE
+Name | File | Description | Parent
+------------- | ------------- | ------------- | -------------
+Decked Out 2 Treasure! | [treasure_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/treasure/treasure_root.json) | Advancements about collecting treasure appear here! | root
+CONTINUE | 
 
 ## Phases
 
 For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/phases/*file_name*.
 
-TABLE HERE
+Name | File | Description | Parent
+------------- | ------------- | ------------- | -------------
+Decked Out 2 Phases! | [phases_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/phases/phases_root.json) | Advancements about the end of phases appear here! | root
+CONTINUE | 
 
 ## DLC
 
 For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/dlc/*file_name*.
 
-TABLE HERE
+Name | File | Description | Parent
+------------- | ------------- | ------------- | -------------
+Soon™ | [dlc_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/visible/dlc/dlc_root.json) | Reserved for potential DLC advancements | root
+CONTINUE | 
 
 ## *empty* 
 
 Empty is an unused spot that can be used for any future ideas. Its main purpose currently is to enable Decked Out 2 achievements to fill up all 8 tab slots at the top of the page and push Decked Out 1 achievements to below for when they get implemented.
 
-TABLE HERE
-
 ## Credits.
 
-For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/credits/*file_name*.
+For all advancements related to exploring the card collecting and deck building. Advancements are branched into the various teams that helped in the design of the game. 
 
-TABLE HERE
+Name | Team
+------------- | ------------- 
+4ply | Infrastructure
+Abalue | Datapack/Advancements (me)
+AftDawn | Companion Modpack
+Bavadin | Dungeon Maintenance 🔧
+Finny | DM
+FrustratedCPU | Datapack/Advancements
+Leethelemur | Dungeon Maintenance 🔧
+NOOOOOO | Lobby Design
+Rent | Lobby Design
+Sandy | Infrastructure
+Shadow | Infrastructure/DM
+Soikles | Librarian and Keeper of ToTs
+Songtronix | Infrastructure
+TangoTek | THE ONE AND ONLY
+Theta_Line | Artist
+Tomzitiger | Web/Marketing
+
+If your name is not on the list or credited incorrectly, dm me @Abalue.
+
+TODO: *Redo some text to be more 'flavorable'*
 
 # Functions
 
