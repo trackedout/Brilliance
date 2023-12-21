@@ -121,7 +121,7 @@ Leethelemur | Dungeon Maintenance 🔧
 NOOOOOO | Lobby Design
 Rent | Lobby Design
 Sandy | Infrastructure
-Shadow | Infrastructure/DM
+Shadow | DM/Infrastructure
 Soikles | Librarian and Keeper of ToTs
 Songtronix | Infrastructure
 TangoTek | THE ONE AND ONLY
