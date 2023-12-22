@@ -32,7 +32,7 @@
 			"predicate": {
 				"custom_model_data": 1111115
 			},
-			"model": "minecraft:item/advancements/leaderboard"
+			"model": "minecraft:item/advancements/phases"
 		},
 		{
 			"predicate": {

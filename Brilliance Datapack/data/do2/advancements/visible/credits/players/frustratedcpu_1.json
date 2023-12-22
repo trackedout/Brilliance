@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: {Id: [I; -1383525420, -389527102, -1861656817, 2102132138], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjkzNDU0Mzk1MSwKICAicHJvZmlsZUlkIiA6ICJhZDg5MTNkNGU4Yzg0OWMyOTEwOTVmMGY3ZDRiZmRhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcnVzdHJhdGVkQ1BVIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwNDBkNWVlYjUwYzc3NjJhZWU1M2IyMDljNTFjNjU1ZjNlNTY1YTliYmM1ZDc2ODkyMWU1ZWI4YTlmNGRhZmMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9\", Signature: \"gdJRgbSeD6aqz51C09egtQ9N9YRzx6QtrkS3mXvuy57nPPB0IdwbqFc+JeeUDpFgimNLBFAfwSIZxwX+mrfDFNOFmeDtxRtTCrXJLfu0YgTD+Ws7U3vbJFJKvqnisq44xjUce7Shq7EwcCXXGLLvjzqycFRSQNJMSXumZSl/puSBek2o4b4xCAQjU4EweIqOqIr555X/gPPVypVzgMgNrqj/0Q20bAcA0m34yh4IFPjlF727j17ArwKLbRd/Zw3k6PUKZYMoK6pL2Sr2RbWpczHS6ObaVmGWOhd7RruOwUaaYyowd4qUdg5ZttL33JYtY7eKoK/KpUXGJSweI8K/ngbV+nMSpkcuqQLPYx/Pv8NLiIgSv8D4QiaFVwZPe4A1cs81QDab6W8trZ+d6KrP+QoXxYfbYVspY+bgBxxAkOdQnscVWQ+pJSX94yoKWRp3xplzcX/h43y1M8h0OytXEN6U+K6LIMaQk2eTZMDIIRaa8o3570jrocwhhPl25Tg5mrVR3BIpHFSP8zh0CKJ59S+E0zcxiRO0pyLl15dr1XlfJ0xNM2P5avqo+UZ5fEoo9+dHfUgv+02q4u2/sTAjqZIWu8kE9xCC+7v+ZshOizudky2jFdqP7XauPQ2QMVpvZ2kSOOInz778rbGFVSKF2V//8dsolACHyIuKDUoerSw=\"}]},Name:\"FrustratedCPU\"}}"
+		},
+		"title": "§l§aFrustratedCPU",
+		"description": "§7Frustrated at minecraft commands!",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/players/soikles"
+}

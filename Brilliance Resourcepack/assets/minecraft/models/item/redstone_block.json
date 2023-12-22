@@ -18,6 +18,54 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:item/advancements/the_api"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "minecraft:item/advancements/docker"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "minecraft:item/advancements/mod"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:item/advancements/plugin"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "minecraft:item/advancements/servers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "minecraft:item/advancements/advancements"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 9
+			},
+			"model": "minecraft:item/advancements/art"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10
+			},
+			"model": "minecraft:item/advancements/stats"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 999
 			},
 			"model": "minecraft:item/advancements/readme"

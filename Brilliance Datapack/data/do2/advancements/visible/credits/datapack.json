@@ -1,10 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:1}"
 		},
-		"title": "§4Lobby Design",
-		"description": "§7Designing a space for hundreds of people to store their decks and wait to play the dungeon.",
+		"title": "§9Brilliance  ",
+		"description": "§7The Datapack and Resource pack a lot of the custom things on TO-DO2",
 		"frame": "goal",
 		"show_toast": false,
 		"announce_to_chat": false,

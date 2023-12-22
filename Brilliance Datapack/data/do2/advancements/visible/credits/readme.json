@@ -4,8 +4,8 @@
 			"item": "minecraft:redstone_block",
 			"nbt": "{CustomModelData:999}"
 		},
-		"title": "§eNOT FINALIZED",
-		"description": "§7Every player will be able to customize their head/description, and each team will be able to customize their ROOT.",
+		"title": "§eNOT FINALIZED              ",
+		"description": "§3https://bit.ly/41F3rkg\n§7Every player will be able to customize their head/description, and each team will be able to customize their ROOT.",
 		"frame": "challenge",
 		"show_toast": false,
 		"announce_to_chat": false,

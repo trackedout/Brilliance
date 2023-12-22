@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: {Id: [I; 73141412, 1455443093, -1089403534, 342444787], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2ODU3NjkwMCwKICAicHJvZmlsZUlkIiA6ICIwNDVjMGNhNDU2YzA0Yzk1YmYxMTA1NzIxNDY5NGFmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJYZW5vVE0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzN2RmMGFkMzdkOTc3MDZhOTdiZGY1ZjViOGIxYmZjYmRkYTkzYzBjMDBiM2UwNjg0MTIxM2YyYTVjNjU5YiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"bUwk4XEesfKmDKdh9k4fODYYseIrDM1YwVE20jkhjjdF8GljdA6iYdIz5B8rhJAloUiZ56sXl5BMHf918FimEj7xNLzP7fh6uj2H1uQR710TMMA9RaxF360QPgJ1GQm5IQEAx25s9PwPot4E+sTVzvTCV+CGD2+m6QQcsqjyKmuBqdT9mCkfjvW0noDrghCflEAeYkebOlqoOWdKxasfsYdqeyqt/VFxnL/uzrpH/YgJd/BdJHw/nuqdBDmprWuwI3KrW9EdWZSdtPluTcyD1TQde1TFcPIcCoDzJdwVI/6tY1/5i8qne31ohtqnOa1N4xGdvo1ZudcWSH4wdMAaxjilHXHCFZZ3s6EeB1loO0EIwXJzm6Ru6EeocIzSy8dVADPtggnqGrxN9h4+JphWocyq3hre4khPY9K375T0ob8zPWqe9ZXngLvEe3OPsmOhGS9lL2iBEXk3ne2FU0WiBg7gZNzHnrTt1RbTpClEiIKnPiOOr0GVxmFFwk2x95Rd5bKr8D0uT8Aj2roHWsLzpsvpR0YjV1wDTyRZLapejqMy52s6pil1Y+L7kXLq42euZVw9jtB4pDSkUAD9QBOPFQ4n8pmXQI9Tk8jqkEcYfsm8b6HkR7v944Em1Q0DiogndcGpyiYuam4DgfArNJGkSYC2S8/HQeEv0sLKlOKE70c=\"}]}, Name: \"XenoTM\"}}"
+		},
+		"title": "§l§aXenoTM       ",
+		"description": "§7Found a bug in the dungeon! Swatted it. Killed it. Turns out, it was jellie.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/dungeon_repair"
+}

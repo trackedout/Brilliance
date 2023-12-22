@@ -14,7 +14,7 @@ For all advancements related to exploring the dungeon, finding unique items and 
 
 Name | File | Description | Parent
 ------------- | ------------- | ------------- | -------------
-Adventure awaits! | [adventuring_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/hidden/adventuring/adventuring_root.json "adventuring_root.json") | Advancements related to adventuring in Decked Out will appear here! | root
+Adventure awaits! | [adventuring_root.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/hidden/adventuring/adventuring_root.json "adventuring_root.json") | Your adventure inside the §oDungeon§r§7 waits for you! | root
 The True Winner | [beat_decked_out.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/hidden/adventuring/beat_decked_out.json "beat_decked_out.json") | Beat Decked Out 2. | travel_to_tendrils
 Creative Composter | [bonemeal_pickup.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/hidden/adventuring/bonemeal_pickup.json "bonemeal_pickup.json") | Obtain bonemeal in the dungeon. | eat_berries
 Food Tour | [eat_berries.json](https://github.com/trackedout/Brilliance/blob/main/Brilliance%20Datapack/data/do2/advancements/hidden/adventuring/eat_berries.json "eat_berries.json") | Eat a berry obtained in the dungeon ~~(could be poisonous)~~. | adventuring_root
