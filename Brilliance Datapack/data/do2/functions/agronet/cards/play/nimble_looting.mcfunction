@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-nimble-looting
+execute as @p[tag=received_shulker] run card-played nimble-looting

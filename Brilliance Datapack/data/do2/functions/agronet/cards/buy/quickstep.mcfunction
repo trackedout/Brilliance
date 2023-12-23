@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-bought-quickstep
+execute as @p[tag=received_shulker] run card-bought quickstep

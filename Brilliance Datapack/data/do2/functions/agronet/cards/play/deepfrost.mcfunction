@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-deepfrost
+execute as @p[tag=received_shulker] run card-played deepfrost

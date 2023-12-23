@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-bought-swagger
+execute as @p[tag=received_shulker] run card-bought swagger

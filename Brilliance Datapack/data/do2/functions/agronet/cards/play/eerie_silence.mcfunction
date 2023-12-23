@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-eerie-silence
+execute as @p[tag=received_shulker] run card-played eerie-silence

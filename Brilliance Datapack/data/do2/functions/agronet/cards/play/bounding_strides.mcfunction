@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-bounding-strides
+execute as @p[tag=received_shulker] run card-played bounding-strides

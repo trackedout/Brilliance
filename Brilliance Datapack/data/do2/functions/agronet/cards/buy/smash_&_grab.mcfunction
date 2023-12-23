@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-bought-smash-&-grab
+execute as @p[tag=received_shulker] run card-bought smash-&-grab

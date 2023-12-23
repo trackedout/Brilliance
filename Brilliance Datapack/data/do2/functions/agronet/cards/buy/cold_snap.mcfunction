@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-bought-cold-snap
+execute as @p[tag=received_shulker] run card-bought cold-snap

@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-frost-focus
+execute as @p[tag=received_shulker] run card-played frost-focus

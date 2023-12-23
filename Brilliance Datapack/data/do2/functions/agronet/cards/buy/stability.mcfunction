@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-bought-stability
+execute as @p[tag=received_shulker] run card-bought stability

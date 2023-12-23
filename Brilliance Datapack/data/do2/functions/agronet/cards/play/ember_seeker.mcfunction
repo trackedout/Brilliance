@@ -1,1 +1,1 @@
-execute as @p[tag=received_shulker] run log-event card-played-ember-seeker
+execute as @p[tag=received_shulker] run card-played ember-seeker
