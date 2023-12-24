@@ -6,6 +6,12 @@
 	"overrides": [
 		{
 			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "do2:item/crystal_trophy"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 2
 			},
 			"model": "minecraft:item/do2_items/rusty_kit"
