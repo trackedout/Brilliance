@@ -112,7 +112,7 @@ For all advancements related to exploring the card collecting and deck building.
 Name | Team
 ------------- | ------------- 
 4ply | Infrastructure
-Abalue | Datapack/Advancements (me)
+Abalue | Datapack/Advancements
 AftDawn | Companion Modpack
 Bavadin | Dungeon Maintenance 🔧
 Finny | DM
@@ -128,7 +128,7 @@ TangoTek | THE ONE AND ONLY
 Theta_Line | Artist
 Tomzitiger | Web/Marketing
 
-If your name is not on the list or credited incorrectly, dm me @Abalue.
+If your name is not on the list or credited incorrectly, dm @frustratedprogrammer or @abalue on discord.
 
 TODO: *Redo some text to be more 'flavorable'*
 
