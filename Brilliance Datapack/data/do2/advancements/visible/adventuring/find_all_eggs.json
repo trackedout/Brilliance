@@ -20,7 +20,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.bdubs": 1
+							"do2.eggs.bdubs": 1
 						}
 					}
 				]
@@ -35,7 +35,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.grian": 1
+							"do2.eggs.grian": 1
 						}
 					}
 				]
@@ -50,7 +50,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.cub": 1
+							"do2.eggs.cub": 1
 						}
 					}
 				]
@@ -65,7 +65,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.gold": 1
+							"do2.eggs.gold": 1
 						}
 					}
 				]
@@ -80,7 +80,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.jevin": 1
+							"do2.eggs.jevin": 1
 						}
 					}
 				]
@@ -95,7 +95,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.zedaph": 1
+							"do2.eggs.zedaph": 1
 						}
 					}
 				]
@@ -110,7 +110,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.beef": 1
+							"do2.eggs.beef": 1
 						}
 					}
 				]
@@ -125,7 +125,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.xisuma": 1
+							"do2.eggs.xisuma": 1
 						}
 					}
 				]
@@ -140,7 +140,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.xb": 1
+							"do2.eggs.xb": 1
 						}
 					}
 				]
@@ -155,7 +155,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.hypno": 1
+							"do2.eggs.hypno": 1
 						}
 					}
 				]
@@ -170,7 +170,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.joe": 1
+							"do2.eggs.joe": 1
 						}
 					}
 				]
@@ -185,7 +185,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.cleo": 1
+							"do2.eggs.cleo": 1
 						}
 					}
 				]
@@ -200,7 +200,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.iskall": 1
+							"do2.eggs.iskall": 1
 						}
 					}
 				]
@@ -215,7 +215,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.pearl": 1
+							"do2.eggs.pearl": 1
 						}
 					}
 				]
@@ -230,7 +230,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.scar": 1
+							"do2.eggs.scar": 1
 						}
 					}
 				]
@@ -245,7 +245,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.wels": 1
+							"do2.eggs.wels": 1
 						}
 					}
 				]
@@ -260,7 +260,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.stress": 1
+							"do2.eggs.stress": 1
 						}
 					}
 				]
@@ -275,7 +275,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.impulse": 1
+							"do2.eggs.impulse": 1
 						}
 					}
 				]
@@ -290,7 +290,7 @@
 						"entity": "this",
 						"nbt": "{Tags:[\"do2.running\"]}",
 						"scores": {
-							"doc.eggs.false": 1
+							"do2.eggs.false": 1
 						}
 					}
 				]
