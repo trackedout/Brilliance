@@ -1,0 +1,1 @@
+scoreboard players set $dungeon do2.run.difficulty 3
