@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_nugget",
 			"nbt": "{'CustomModelData':138}"
 		},
-		"title": "§bCommon Collector",
+		"title": "§bLegendary Creator",
 		"description": "§7Craft any §8Legendary§7 card.",
 		"frame": "challenge",
 		"show_toast": false,

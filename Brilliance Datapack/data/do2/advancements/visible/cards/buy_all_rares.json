@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_nugget",
 			"nbt": "{'CustomModelData':132}"
 		},
-		"title": "§bSet Builder",
+		"title": "§bDragon's Hoard",
 		"description": "§7Buy §b1§7 of each §1Rare§7 card.",
 		"frame": "challenge",
 		"show_toast": false,

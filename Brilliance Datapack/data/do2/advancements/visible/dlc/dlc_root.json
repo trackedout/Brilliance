@@ -1,22 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Soon™",
-			"color": "gold",
-			"bold": false,
-			"italic": true,
-			"underlined": false,
-			"strikethrough": false
-		},
-		"background":"do2:textures/gui/advancements/backgrounds/brick.png",
-		
-		"description": {
-			"text": "Reserved for potential DLC advancements"
-		},
 		"icon": {
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111111}"
 		},
+		"title": "§6§oSoon™",
+		"description": "§7DLC advancements coming to Citadels near you!",
+		"background":"do2:textures/gui/advancements/backgrounds/brick.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

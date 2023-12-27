@@ -4,7 +4,7 @@
 			"item": "minecraft:iron_nugget",
 			"nbt": "{'CustomModelData':111}"
 		},
-		"title": "§bSet Builder",
+		"title": "§bAccomplished Collector",
 		"description": "§7Buy §b1§7 of each §aUncommon§7 card.",
 		"frame": "goal",
 		"show_toast": false,
