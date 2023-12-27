@@ -1,2 +1,3 @@
 execute as @p[tag=received_shulker] run scoreboard players add @s do2.run.cards.played.EMS 1
-execute as @p[tag=received_shulker] run function do2:agronet/cards/play/ember_seeker
+scoreboard players set card_played 4
+execute as @p[tag=received_shulker] run function do2:agronet/card_played

@@ -1,2 +1,3 @@
 execute as @p[tag=received_shulker] run scoreboard players add @s do2.run.cards.played.DEF 1
-execute as @p[tag=received_shulker] run function do2:agronet/cards/play/deepfrost
+scoreboard players set card_played 29
+execute as @p[tag=received_shulker] run function do2:agronet/card_played

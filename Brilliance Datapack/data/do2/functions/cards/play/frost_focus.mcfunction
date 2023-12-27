@@ -1,2 +1,3 @@
 execute as @p[tag=received_shulker] run scoreboard players add @s do2.run.cards.played.FRF 1
-execute as @p[tag=received_shulker] run function do2:agronet/cards/play/frost_focus
+scoreboard players set card_played 8
+execute as @p[tag=received_shulker] run function do2:agronet/card_played
