@@ -1,0 +1,137 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':135}"
+		},
+		"title": "§bRare Receiver",
+		"description": "§7Purchase any §1Rare§7 card.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_1_rare": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.EES": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.DUR": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SWA": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.CHS": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SPR": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.EOP": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.PIB": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.COS": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SIR": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.FBS": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.DEF": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.BRI": {
+										"min": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/cards/buy_1_uncommon"
+}

@@ -1,3 +1,12 @@
+# Amount of cards in deck:
+scoreboard objectives add do2.run.cards.deck.total dummy "Total Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.commons dummy "Total Common Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.uncommons dummy "Total Uncommon Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.rares dummy "Total Rare Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.legendaries dummy "Total Legendary Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.ethereals dummy "Total Ethereal Cards in Deck"
+scoreboard objectives add do2.run.cards.deck.permanents dummy "Total Permanent Cards in Deck"
+# Individual cards in deck:
 scoreboard objectives add do2.run.cards.deck.MOC dummy "Moment of Clarity"
 scoreboard objectives add do2.run.cards.deck.SNE dummy "Sneak"
 scoreboard objectives add do2.run.cards.deck.STA dummy "Stability"
@@ -30,9 +39,10 @@ scoreboard objectives add do2.run.cards.deck.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.deck.FBS dummy "Fuzzy Bunny Slippers"
 scoreboard objectives add do2.run.cards.deck.DEF dummy "Deepfrost"
 scoreboard objectives add do2.run.cards.deck.BRI dummy "Brilliance"
-# legendaries added here
+
+# TODO: add do2.run.cards.deck.legendaries here
+
 scoreboard objectives add do2.run.cards.deck.P2W dummy "Pay to Win"
 scoreboard objectives add do2.run.cards.deck.TAA dummy "Tactical Approach"
 scoreboard objectives add do2.run.cards.deck.POP dummy "Porkchop Power"
-scoreboard objectives add do2.run.cards.deck.STU dummy "Stumble"
 scoreboard objectives add do2.run.cards.deck.DUL dummy "Dungeon Lackey"

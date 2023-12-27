@@ -1,18 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Cards and Decks",
-			"color": "green",
-			"bold": true
-		},
-		"description": {
-			"text": "Time to get Decked Out!"
-		},
 		"icon": {
 			"item": "minecraft:light_blue_shulker_box"
 		},
+		"title":  "§bCards and Decks",
+		"description": "§7Time to get Decked Out!",
 		"frame": "task",
-		"show_toast": true,
+		"show_toast": false,
 		"announce_to_chat": false,
 		"hidden": false
 	},
@@ -21,5 +15,5 @@
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "do2:hidden/cards/cards_root"
+	"parent": "do2:visible/cards/cards_root"
 }

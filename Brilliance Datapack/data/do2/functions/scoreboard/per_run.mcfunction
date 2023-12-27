@@ -1,6 +1,8 @@
-# reset players threecoursemeal track
+# reset player's threecoursemeal track
 scoreboard players set @s do2.adv.threecoursemeal 0
 advancement revoke @s only do2:visible/adventuring/eat_three_uniques
+# reset player's play_5_moc on 1 run.
+advancement revoke @s only do2:visible/cards/play_5_moc
 
 # reset items collected this run
 scoreboard players set @s do2.run.items.embers 0

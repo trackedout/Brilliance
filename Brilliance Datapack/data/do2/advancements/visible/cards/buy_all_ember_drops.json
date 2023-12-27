@@ -1,0 +1,145 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':134}"
+		},
+		"title": "§bFrost Me Timbers",
+		"description": "§7Buy §b1§7 of each non-ethereal card that grant §3Frost Ember§7 drops.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_ember_seeker": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.EMS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_frost_focus": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.FRF": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_reckless_charge": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.REC": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_swagger": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SWA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_speed_runner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SPR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_chill_step": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.CHS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_cold_snap": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.COS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_deepfrost": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.DEF": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/cards/buy_all_speed_boosts"
+}

@@ -1,0 +1,75 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':102}"
+		},
+		"title": "§bCommon Collector",
+		"description": "§7Purchase any §8Common§7 card.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_1_common": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.MOC": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SNE": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.STA": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.TRH": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.EMS": {
+										"min": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+		
+	},
+	"parent": "do2:hidden/cards/get_deck_box"
+}

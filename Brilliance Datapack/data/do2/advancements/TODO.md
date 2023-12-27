@@ -24,6 +24,11 @@
        - Need better icons.
    - win_1_times TO win_100_times
        - Need icons.
+ - CARDS
+     - craft_extra_card
+       - need icon
+     - enter_with_cards
+       - need icons
    
 
 
@@ -46,6 +51,8 @@
    - Triggers upon opening basalt door.
  - use_dm_key
    - Don't have location data to know where DM's room is
+   - craft_1_legendary
+       - Don't have data tracking for crafting legendaries yet.
  
 
 ## Testing Automation

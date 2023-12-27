@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bBeginner Deck",
+		"description": "§7Enter the dungeon with §b20§7 cards or more, including §oat least§r §b5§7 §aUncommon§7 cards.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"enter_20_cards": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/cards/enter_5_cards"
+}

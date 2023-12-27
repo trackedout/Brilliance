@@ -1,0 +1,57 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':115}"
+		},
+		"title": "§bSwiss Army Knife",
+		"description": "§7Buy §b1§7 of each card that activates a §dUtility§7 effect.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_all_utility": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.LAS": {
+								"min": 1
+							},
+							"do2.cards.bought.SEW": {
+								"min": 1
+							},
+							"do2.cards.bought.BES": {
+								"min": 1
+							},
+							"do2.cards.bought.BRI": {
+								"min": 1
+							},
+							"do2.cards.bought.PIB": {
+								"min": 1
+							},
+							"do2.cards.bought.EOP": {
+								"min": 1
+							},
+							"do2.cards.bought.SUU": {
+								"min": 1
+							},
+							"do2.cards.bought.QUI": {
+								"min": 1
+							},
+							"do2.cards.bought.EES": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/cards/buy_all_ember_drops"
+}

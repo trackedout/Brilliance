@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':138}"
+		},
+		"title": "§bCommon Collector",
+		"description": "§7Craft any §8Legendary§7 card.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": true
+	},
+	"criteria": {
+		"craft_1_legendary": {
+			"trigger": "minecraft:impossible"
+		}
+		
+	},
+	"parent": "do2:hidden/cards/get_deck_box"
+}

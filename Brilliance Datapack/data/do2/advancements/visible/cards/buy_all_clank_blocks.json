@@ -1,0 +1,113 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':133}"
+		},
+		"title": "§bClank Block Collector",
+		"description": "§7Buy §b1§7 of each non-ethereal card that blocks §1Clank§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_sneak": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SNE": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_evasion": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.EVA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_nimble_looting": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.NIL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_eerie_silence": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.EES": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_silent_runner": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SIR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_fuzzy_bunny_slippers": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.FBS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/cards/buy_all_hazard_blocks"
+}
