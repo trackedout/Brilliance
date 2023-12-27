@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111127}"
 		},
 		"title":"§bDungeon Locksmith",
 		"description": "§7Enter the dungeon with all three level keys.",

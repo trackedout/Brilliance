@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:208}"
 		},
 		"title": "§bDungeon Detonator",
 		"description": "§7Find a §8bomb§7 and detonate it.",

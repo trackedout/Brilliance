@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:99}"
 		},
 		"title": "§bThe True Winner",
 		"description": "§7Beat §3Decked Out 2§7.",

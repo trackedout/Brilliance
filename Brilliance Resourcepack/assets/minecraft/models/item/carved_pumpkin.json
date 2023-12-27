@@ -30,6 +30,7 @@
 	{ "predicate": {"custom_model_data": 91}, "model": "do2:item/yeti/yeti"},
 	{ "predicate": {"custom_model_data": 92}, "model": "do2:item/deckedoutgifts/phasetrophy"},
 	{ "predicate": {"custom_model_data": 93}, "model": "do2:item/deckedoutgifts/deathroomtrophy"},
-	{ "predicate": {"custom_model_data": 98}, "model": "do2:item/deckedoutgifts/egg_hunter"}
+	{ "predicate": {"custom_model_data": 98}, "model": "do2:item/deckedoutgifts/egg_hunter"},
+	{ "predicate": {"custom_model_data": 99}, "model": "do2:item/crown/riddlecrown"}
   ]
 }

@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:37}"
 		},
 		"title": "§bIf a Key Fits...",
 		"description": "§7Use the Dungeon Master's Key.",

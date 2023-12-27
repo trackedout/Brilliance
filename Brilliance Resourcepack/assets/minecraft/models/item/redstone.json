@@ -99,6 +99,18 @@
 				"custom_model_data": 1111126
 			},
 			"model": "minecraft:item/advancements/winstreak_10"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111127
+			},
+			"model": "minecraft:item/advancements/3_keys"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111128
+			},
+			"model": "minecraft:item/advancements/4_keys"
 		}
 	]
 }

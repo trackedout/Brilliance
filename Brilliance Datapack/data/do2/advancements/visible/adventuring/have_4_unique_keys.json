@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111128}"
 		},
 		"title": "§bBasically the Key God(dess)",
 		"description":  "§7While inside the dungeon, have all four keys in your inventory simultaneously, including artifact §o§3Dungeon Master's Key§r§7.",
