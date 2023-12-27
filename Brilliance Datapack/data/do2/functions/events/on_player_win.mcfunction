@@ -1,5 +1,5 @@
 # called when player submits artifact.
-tag @s do2.won
+tag @s add do2.won
 scoreboard players add @s do2.wins 1
 scoreboard players add @s do2.streak 1
 
