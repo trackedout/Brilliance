@@ -30,7 +30,7 @@ scoreboard objectives add do2.run.cards.played.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.played.FBS dummy "Fuzzy Bunny Slippers"
 scoreboard objectives add do2.run.cards.played.DEF dummy "Deepfrost"
 scoreboard objectives add do2.run.cards.played.BRI dummy "Brilliance"
-# legendaries added here
+# TODO: add legendaries here
 scoreboard objectives add do2.run.cards.played.P2W dummy "Pay to Win"
 scoreboard objectives add do2.run.cards.played.TAA dummy "Tactical Approach"
 scoreboard objectives add do2.run.cards.played.POP dummy "Porkchop Power"

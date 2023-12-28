@@ -13,7 +13,7 @@
    - win_1_times TO win_100_times
        - Need icons.
  - CARDS
-     - craft_extra_card
+     - buy_extra_card
        - need icon
      - enter_with_cards
        - need icons

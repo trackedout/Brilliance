@@ -8,6 +8,7 @@ tag @s remove do2.running
 tag @s add do2.won
 scoreboard players add @s do2.wins 1
 scoreboard players add @s do2.streak 1
+scoreboard players set @s do2.run.has_won 1
 
 # set do2.highest_streak if do2.streak is >= than it.
 execute if score @s do2.streak >= @s do2.highest_streak run scoreboard players operation @s do2.highest_streak = @s do2.streak

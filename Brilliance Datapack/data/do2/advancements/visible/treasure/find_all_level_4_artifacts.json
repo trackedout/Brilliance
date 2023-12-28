@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"found_friend_pick": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -29,7 +29,7 @@
 			}
 		},
 		"found_gem_greatness": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"found_cf-135": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"found_staff_of_pink": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -77,7 +77,7 @@
 			}
 		},
 		"found_the_slab": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"found_skadoodler": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -109,7 +109,7 @@
 			}
 		},
 		"found_dm_mug": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"found_dm_key": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"player": [
 					{
