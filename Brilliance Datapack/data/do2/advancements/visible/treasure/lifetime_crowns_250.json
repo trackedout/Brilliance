@@ -3,7 +3,7 @@
 		"icon": {
 			"item": "minecraft:stone"
 		},
-		"title": "§Stonks",
+		"title": "§bStonks",
 		"description": "§7Exit the dungeon with over §b250§7 total lifetime §6Crowns§7.",
 		"frame": "challenge",
 		"show_toast": false,
