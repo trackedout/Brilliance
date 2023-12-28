@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"picked_up_bone_meal": {
+		"picked_up_sweet_berries": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [

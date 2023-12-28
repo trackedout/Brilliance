@@ -1,6 +1,6 @@
 {
 	"criteria": {
-		"picked_up_coins": {
+		"picked_up_artifact_13": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
@@ -8,14 +8,14 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:1}"
+						"nbt": "{tracked:0b,CustomModelData:13}"
 					}
 				]
 			}
 		}
 	},
 	"rewards": {
-		"function": "do2:events/picked_up/coins"
+		"function": "do2:events/picked_up/artifacts/horn_of_the_goat"
 	},
 	"parent": "do2:utility/root"
 }
