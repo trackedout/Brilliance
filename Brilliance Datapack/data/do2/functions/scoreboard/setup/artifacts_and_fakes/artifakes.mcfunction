@@ -1,3 +1,4 @@
+# Amount of artifacts converted.
 scoreboard objectives add do2.artifakes.HAY dummy "Hood of Aw'Yah"
 scoreboard objectives add do2.artifakes.ASV dummy "Axe of the Screaming Void"
 scoreboard objectives add do2.artifakes.MGW dummy "Multi Grain Waffle"

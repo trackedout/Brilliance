@@ -1,1 +1,1 @@
-# called when no players are running the dungeon.
+# called when no players are inside the dungeon's instance

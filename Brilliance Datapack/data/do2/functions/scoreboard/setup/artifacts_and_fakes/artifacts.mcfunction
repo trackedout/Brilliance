@@ -1,3 +1,4 @@
+# Amount of artifacts found. (NOT SUBMITTED)
 scoreboard objectives add do2.artifacts.HAY dummy "Hood of Aw'Yah"
 scoreboard objectives add do2.artifacts.ASV dummy "Axe of the Screaming Void"
 scoreboard objectives add do2.artifacts.MGW dummy "Multi Grain Waffle"

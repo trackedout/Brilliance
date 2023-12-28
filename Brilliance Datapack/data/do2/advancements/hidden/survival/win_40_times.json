@@ -11,19 +11,8 @@
         "hidden": false
     },
     "criteria": {
-        "win_40_times": {
-            "trigger": "minecraft:tick",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:entity_scores",
-                        "entity": "this",
-                        "scores": {
-                            "do2.wins": 40
-                        }
-                    }
-                ]
-            }
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
         }
     },
     "parent": "do2:hidden/survival/win_30_times"
