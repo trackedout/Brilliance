@@ -99,10 +99,36 @@ Perfect Win Streak | [win_streak_7.json](./../Brilliance Datapack/data/do2/advan
 
 For all advancements related to exploring the card collecting and deck building. When referencing these advancements, use the following naming convention - do2:hidden/treasure/*file_name*.
 
-Name | File | Description | Parent
-------------- | ------------- | ------------- | -------------
-Decked Out 2 Treasure! | [treasure_root.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/treasure_root.json) | Advancements about collecting treasure appear here! | root
-CONTINUE |
+Name | File                                                                                                                                     | Description                                                         | Parent
+------------- |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------| -------------
+Treasure Hunting! | [treasure_root.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/treasure_root.json)                                 | The allure of riches drives you deeper into the labyrinth!          | root
+Lootin' 'n' Scootin' | [pickup_1_treasure.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/pickup_1_treasure.json)                         | Pickup any floor ember or treasure.                                 | treasure_root
+Points Mean Prizes | [buy_1_tome.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/buy_1_tome.json)                                       | Buy your first Tome.                                                | pickup_1_treasure
+Tomes or Bust | [buy_9_tomes.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/buy_9_tomes.json)                                     | Buy 9 tomes in a single shop visit                                  | buy_1_tome
+Pile of Tomes | [lifetime_tomes_25.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_tomes_25.json)                         | Exit the dungeon with over 25 total lifetime Tomes.                 | buy_1_tome
+Bookshelf | [lifetime_tomes_50.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_tomes_50.json)                         | Exit the dungeon with over 50 total lifetime Tomes.                 | lifetime_tomes_25
+Library | [lifetime_tomes_100.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_tomes_100.json)                       | Exit the dungeon with over 100 total lifetime Tomes.                | lifetime_tomes_50
+National Archive | [lifetime_tomes_250.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_tomes_250.json)                       | Exit the dungeon with over 250 total lifetime Tomes.                | lifetime_tomes_100
+Frosted Flakes | [pickup_1_ember.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/pickup_1_ember.json)                               | Pickup a Frost Ember.                                               | pickup_1_treasure
+Game the System | [end_more_embers_than_artifact.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/end_more_embers_than_artifact.json) | Win a run with more floor Frost Embers than your artifact is worth. | pickup_1_ember
+A little Chilly | [lifetime_embers_250.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_embers_250.json)                     | Exit the dungeon with over 250 total lifetime Frost Embers.         | pickup_1_ember
+Grab a Jacket | [lifetime_embers_500.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_embers_500.json)                     | Exit the dungeon with over 500 total lifetime Frost Embers.         | lifetime_embers_250
+Baby, It's Cold Outside | [lifetime_embers_1000.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_embers_1000.json)                   | Exit the dungeon with over 1000 total lifetime Frost Embers.        | lifetime_embers_500
+Y2K | [lifetime_embers_2500.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_embers_2500.json)                   | Exit the dungeon with over 2500 total lifetime Frost Embers.        | lifetime_embers_1000
+Ka-ching | [pickup_1_crown.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/pickup_1_crown.json)                               | Pickup a Crown.                                                     | pickup_1_treasure
+Bargain Buy | [get_shard_mystery_box.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/get_shard_mystery_box.json)                 | Get a Frozen Shard from a mystery box at the crown shop.            | pickup_1_crown
+Random Key Jackpot | [get_shard_random_key.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/get_shard_random_key.json)                   | Get a Frozen Shard from a random key purchase at the crown shop.    | pickup_1_crown
+Pocket Change | [lifetime_crowns_25.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_crowns_25.json)                       | Exit the dungeon with over 25 total lifetime Crowns.                | pickup_1_crown
+Fistfull of Bills | [lifetime_crowns_50.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_crowns_50.json)                       | Exit the dungeon with over 50 total lifetime Crowns.                | lifetime_crowns_25
+Piggybank | [lifetime_crowns_100.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_crowns_100.json)                     | Exit the dungeon with over 100 total lifetime Crowns.               | lifetime_crowns_50
+Stonks | [lifetime_crowns_250.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/lifetime_crowns_250.json)                     | Exit the dungeon with over 250 total lifetime Crowns.               | lifetime_crowns_100
+Digger | [find_1_artifact.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/find_1_artifact.json)                             | Find your first Artifact.                                           | pickup_1_treasure
+Fake it Till you Make it | [convert_into_artifake.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/convert_into_artifake.json)                             | Convert an artifact into an Artifake™.                                          | find_1_artifact
+Miner | [find_all_level_1_artifacts.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/find_all_level_1_artifacts.json)       | Find every Artifact on Level 1: Frozen Crypts.                      | find_1_artifact
+Driller | [find_all_level_2_artifacts.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/find_all_level_2_artifacts.json)       | Find every Artifact on Level 2: Caves of Carnage.                   | find_all_level_1_artifacts
+Excavator | [find_all_level_3_artifacts.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/find_all_level_3_artifacts.json)       | Find every Artifact on Level 3: Black Mines.                        | find_all_level_2_artifacts
+Archaeologist | [find_all_level_4_artifacts.json](./../Brilliance Datapack/data/do2/advancements/visible/treasure/find_all_level_4_artifacts.json)       | Find every Artifact on Level 4: Buring Dark.                        | find_all_level_3_artifacts
+
 
 ## Phases
 
