@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bGame the System",
+		"description": "§7Win a run with more §ofloor §r§3Frost Embers§7 than your artifact is worth.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"pickup_1_treasure": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/treasure/pickup_1_ember"
+}

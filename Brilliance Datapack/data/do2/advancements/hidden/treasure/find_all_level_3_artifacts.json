@@ -1,0 +1,63 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 19}"
+		},
+		"title": "§bExcavator",
+		"description": "§7Find every §8Artifact§7 on §2Level 3§7: §0Black Mines§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"find_all_level_3_artifacts": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.BED": {
+								"min": 1
+							},
+							"do2.artifacts.HST": {
+								"min": 1
+							},
+							"do2.artifacts.GGS": {
+								"min": 1
+							},
+							"do2.artifacts.GDE": {
+								"min": 1
+							},
+							"do2.artifacts.PWS": {
+								"min": 1
+							},
+							"do2.artifacts.OFP": {
+								"min": 1
+							},
+							"do2.artifacts.GGR": {
+								"min": 1
+							},
+							"do2.artifacts.CF1": {
+								"min": 1
+							},
+							"do2.artifacts.SPS": {
+								"min": 1
+							},
+							"do2.artifacts.TSL": {
+								"min": 1
+							},
+							"do2.artifacts.SKA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/treasure/find_all_level_2_artifacts"
+}

@@ -1,0 +1,42 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 1}"
+		},
+		"title": "§bLootin' 'n' Scootin'",
+		"description": "§7Pick up any floor ember or treasure.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"pickup_1_treasure": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:3,tracked:0b}"
+					},
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:2,tracked:0b}"
+					},
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:1,tracked:0b}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/treasure/treasure_root"
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bBaby, It's Cold Outside",
+		"description": "§7Exit the dungeon with over §b1000§7 total lifetime §3Frost Embers§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lifetime_embers_1000": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/treasure/lifetime_embers_500"
+}

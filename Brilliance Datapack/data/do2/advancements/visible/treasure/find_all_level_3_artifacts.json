@@ -1,0 +1,193 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 19}"
+		},
+		"title": "§bExcavator",
+		"description": "§7Find every §8Artifact§7 on §2Level 3§7: §0Black Mines§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"found_eye_of_doom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.BED": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_hidden_stache": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.HST": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_googles_symmetry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GGS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_golden_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GDE": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_watch_of_shreep": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.PWS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_friend_pick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.OFP": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_gem_greatness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GGR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_cf-135": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.CF1": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_staff_of_pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.SPS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_the_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.TSL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_skadoodler": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.SKA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/treasure/find_all_level_2_artifacts"
+}

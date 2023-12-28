@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bLibrary",
+		"description": "§7Exit the dungeon with over §b100§7 total lifetime §9Tomes§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"get_shard_from_crowns_mystery_box": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/treasure/lifetime_tomes_50"
+}

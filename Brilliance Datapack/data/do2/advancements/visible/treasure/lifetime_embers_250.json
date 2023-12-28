@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bA Little Chilly",
+		"description": "§7Exit the dungeon with over §b250§7 total lifetime §3Frost Embers§7.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lifetime_embers_250": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/treasure/pickup_1_ember"
+}

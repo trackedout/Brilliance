@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bY2K",
+		"description": "§7Exit the dungeon with over §b2500§7 total lifetime §3Frost Embers§7.",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lifetime_embers_2500": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/treasure/lifetime_embers_1000"
+}

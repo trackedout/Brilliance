@@ -7,11 +7,11 @@ scoreboard objectives add do2.crowns dummy "Total Crowns Collected"
 scoreboard objectives add do2.embers dummy "Total Frost Embers Collected"
 scoreboard objectives add do2.highest_streak dummy "Highest Win Streak"
 scoreboard objectives add do2.streak dummy "Current Win Streak"
+scoreboard objectives add do2.deaths deathCount "Total Deaths"
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"
 scoreboard objectives add do2.run.empty dummy "AFK Timer"
-scoreboard objectives add do2.run.deaths deathCount "Total Deaths"
 scoreboard objectives add do2.run.ticks dummy "Server Tick Counter"
 scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
 scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"
@@ -38,9 +38,14 @@ scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to giv
 function do2:scoreboard/setup/easter_eggs
 
 # - cards -
+function do2:scoreboard/setup/cards/cards_availible
 function do2:scoreboard/setup/cards/cards_bought
+function do2:scoreboard/setup/cards/cards_bought_total
 function do2:scoreboard/setup/cards/cards_played
 function do2:scoreboard/setup/cards/inside_deck
 
 # - items -
 function do2:scoreboard/setup/items
+
+# - Artifacts and Artifakes -
+function do2:scoreboard/setup/artifacts_and_fakes/all

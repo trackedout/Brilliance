@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bPiggybank",
+		"description": "§7Exit the dungeon with over §b100§7 total lifetime §6Crowns§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"lifetime_crowns_25": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/treasure/lifetime_crowns_50"
+}

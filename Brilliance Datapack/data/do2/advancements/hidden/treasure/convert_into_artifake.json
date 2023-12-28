@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 34}"
+		},
+		"title": "§bFake it Till you Make it.",
+		"description": "§7Convert an artifact into an Artifake™.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"convert_into_artifake": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"nbt": "{Tags:[\"do2.running\"]}",
+						"scores": {
+							"do2.run.convertedArtifake": 1
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/treasure/find_1_artifact"
+}

@@ -17,6 +17,15 @@
        - need icon
      - enter_with_cards
        - need icons
+ - TREASURE
+   - Lifetime_Embers, Lifetime_Crowns, Lifetime_Tomes
+     - need icons
+   - end_more_embers_than_artifact
+     - Need Icon
+   - get_shard_mystery_box & get_shard_random_key
+     - Need Icon
+   - buy_9_tomes
+     - Need Icon
    
 
 
@@ -41,6 +50,8 @@
    - Don't have location data to know where DM's room is
    - craft_1_legendary
        - Don't have data tracking for crafting legendaries yet.
+ - lifetime_tomes, lifetime_crowns, lifetime_embers
+   - Don't have lifetime totals.
  
 
 ## Testing Automation

@@ -1,0 +1,50 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 6}"
+		},
+		"title": "§bPoints Mean Prizes",
+		"description": "§7Buy your first §9Tome§7.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_1_tome": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.run.cards.bought.1TM": 1
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.run.cards.bought.3TM": 1
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.run.cards.bought.5TM": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/treasure/pickup_1_treasure"
+}

@@ -3,3 +3,4 @@
 execute as @s run function do2:advancements/grant_visible/adventuring
 execute as @s run function do2:advancements/grant_visible/survival
 execute as @s run function do2:advancements/grant_visible/cards
+execute as @s run function do2:advancements/grant_visible/treasure
