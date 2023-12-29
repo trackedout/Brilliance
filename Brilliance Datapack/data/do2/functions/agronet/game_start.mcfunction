@@ -1,0 +1,1 @@
+execute as $dungeon run log-event game-started
