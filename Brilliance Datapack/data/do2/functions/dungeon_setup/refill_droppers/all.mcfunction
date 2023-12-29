@@ -1,5 +1,6 @@
 # TODO:
 
+# Difficulty
 # Compasses
 # Maps
 # Suit Up
@@ -15,3 +16,6 @@
 
 # Level 4 Bombs
 # Level 4 secret room
+
+# Ember Shop
+# Surface Shop
