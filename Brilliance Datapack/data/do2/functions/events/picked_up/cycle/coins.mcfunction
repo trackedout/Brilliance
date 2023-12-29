@@ -1,5 +1,5 @@
 # Give a tracked coin
-give @s minecraft:iron_nugget{tracked:1b,CustomModelData:1} 1
+give @s minecraft:iron_nugget{ tracked: 1b, CustomRoleplayData: 1b, RepairCost: 0, CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}
 
 # track a coin pick up
 scoreboard players add @s do2.run.items.coins 1

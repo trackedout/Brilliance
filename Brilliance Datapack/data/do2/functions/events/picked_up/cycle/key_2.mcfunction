@@ -1,5 +1,5 @@
 # Give a tracked level_2_key
-give @s minecraft:iron_nugget{tracked:1b,CustomModelData:202} 1
+give @s minecraft:iron_nugget{tracked: 1b, CustomRoleplayData: 1b, CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}} 1
 
 # track a level_2_key pick up
 scoreboard players add @s do2.run.items.key_2 1

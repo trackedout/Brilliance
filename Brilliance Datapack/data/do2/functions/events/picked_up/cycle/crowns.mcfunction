@@ -1,5 +1,5 @@
 # Give a tracked crown
-give @s minecraft:iron_nugget{tracked:1b,CustomModelData:2} 1
+give @s minecraft:iron_nugget{tracked:1b, CustomRoleplayData: 1b, RepairCost: 0, CustomModelData: 2, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}
 
 # track a crown pick up
 scoreboard players add @s do2.run.items.crowns 1
