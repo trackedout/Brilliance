@@ -1,5 +1,5 @@
 # Give a tracked level_3_key
-give @s minecraft:iron_nugget{tracked:1b,CustomModelData:203} 1
+give @s minecraft:iron_nugget{tracked: 1b, CustomRoleplayData: 1b, CustomModelData: 203, display: {Name: '{"text":"❄☠ The Black Mines Key ☠❄"}'}} 1
 
 # track a level_3_key pick up
 scoreboard players add @s do2.run.items.key_3 1
