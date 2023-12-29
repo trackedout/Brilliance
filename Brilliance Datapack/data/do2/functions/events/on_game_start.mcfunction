@@ -1,5 +1,8 @@
 # called at start of run (when they hit pressure plate at the end of the minecart track)
 
+# AGRONET
+function do2:agronet/game_start
+
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
 execute store result score $dungeon do2.run.players run tag @a[tag=!do2.spectating] add do2.running
 
