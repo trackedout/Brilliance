@@ -1,19 +1,12 @@
 {
 	"display": {
-		"title": {
-			"text": "Decked Out 2 Phases!",
-			"color": "green",
-			"bold": true
-		},
-		"background":"do2:textures/gui/advancements/backgrounds/grey_glazed_terracotta.png",
-		
-		"description": {
-			"text": "Advancements about the end of phases appear here!"
-		},
 		"icon": {
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111115}"
 		},
+		"title": "§bDecked Out 2 Phases!",
+		"description": "§7Advancements about the end of phases appear here!",
+		"background":"do2:textures/gui/advancements/backgrounds/grey_glazed_terracotta.png",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,

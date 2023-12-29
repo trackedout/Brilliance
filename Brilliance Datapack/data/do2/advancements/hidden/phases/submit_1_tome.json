@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111129}"
+		},
+		"title": "§bBooked!",
+		"description": "§7Submit a §9Tome§7.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/phases/phases_root"
+}

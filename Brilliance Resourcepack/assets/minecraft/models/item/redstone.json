@@ -111,6 +111,84 @@
 				"custom_model_data": 1111128
 			},
 			"model": "minecraft:item/advancements/4_keys"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111129
+			},
+			"model": "minecraft:item/advancements/submit_1_tome"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111130
+			},
+			"model": "minecraft:item/advancements/submit_5_tomes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111131
+			},
+			"model": "minecraft:item/advancements/submit_10_tomes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111132
+			},
+			"model": "minecraft:item/advancements/submit_25_tomes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111133
+			},
+			"model": "minecraft:item/advancements/submit_50_tomes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111134
+			},
+			"model": "minecraft:item/advancements/submit_100_tomes"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111135
+			},
+			"model": "minecraft:item/advancements/snow_layers/5_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111136
+			},
+			"model": "minecraft:item/advancements/snow_layers/10_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111137
+			},
+			"model": "minecraft:item/advancements/snow_layers/15_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111138
+			},
+			"model": "minecraft:item/advancements/snow_layers/20_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111139
+			},
+			"model": "minecraft:item/advancements/snow_layers/25_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111140
+			},
+			"model": "minecraft:item/advancements/snow_layers/30_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111141
+			},
+			"model": "minecraft:item/advancements/snow_layers/40_snow_layers"
 		}
 	]
 }

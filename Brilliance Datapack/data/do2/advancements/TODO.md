@@ -52,6 +52,8 @@
        - Don't have data tracking for crafting legendaries yet.
  - lifetime_tomes, lifetime_crowns, lifetime_embers
    - Don't have lifetime totals.
+ - submit_tomes
+   - Don't have tomes submissions.
  
 
 ## Testing Automation
