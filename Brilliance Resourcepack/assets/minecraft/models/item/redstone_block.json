@@ -8,67 +8,67 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "minecraft:item/advancements/folder"
+			"model": "minecraft:item/advancements/credits/folder"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 2
 			},
-			"model": "minecraft:item/advancements/credits"
+			"model": "minecraft:item/advancements/tabs/credits"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 3
 			},
-			"model": "minecraft:item/advancements/the_api"
+			"model": "minecraft:item/advancements/credits/the_api"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 4
 			},
-			"model": "minecraft:item/advancements/docker"
+			"model": "minecraft:item/advancements/credits/docker"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 5
 			},
-			"model": "minecraft:item/advancements/mod"
+			"model": "minecraft:item/advancements/credits/mod"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 6
 			},
-			"model": "minecraft:item/advancements/plugin"
+			"model": "minecraft:item/advancements/credits/plugin"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 7
 			},
-			"model": "minecraft:item/advancements/servers"
+			"model": "minecraft:item/advancements/credits/servers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 8
 			},
-			"model": "minecraft:item/advancements/advancements"
+			"model": "minecraft:item/advancements/credits/advancements"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 9
 			},
-			"model": "minecraft:item/advancements/art"
+			"model": "minecraft:item/advancements/credits/art"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 10
 			},
-			"model": "minecraft:item/advancements/stats"
+			"model": "minecraft:item/advancements/credits/stats"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 999
 			},
-			"model": "minecraft:item/advancements/readme"
+			"model": "minecraft:item/advancements/credits/readme"
 		}
 	]
 }

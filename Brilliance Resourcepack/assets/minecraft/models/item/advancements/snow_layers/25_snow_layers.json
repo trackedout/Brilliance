@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/generated",
-	"textures": {
-		"layer0": "minecraft:item/advancements/snow_layers/25_snow_layers"
-	}
-}
