@@ -1,3 +1,4 @@
+#TODO: tag the actual ravagers
 
 # Teleport ravagers based on the types of markers we have up.
 # No Zones.

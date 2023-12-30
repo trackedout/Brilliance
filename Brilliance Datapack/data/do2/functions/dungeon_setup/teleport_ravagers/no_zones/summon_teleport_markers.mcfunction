@@ -18,11 +18,11 @@ summon minecraft:area_effect_cloud -604 46 1996 {Duration: 2147483647, Tags: ["f
 summon minecraft:area_effect_cloud -598 45 2009 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -592 45 2019 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -599 45 2033 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
-summon minecraft:area_effect_cloud -589 48.125 2003 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
-summon minecraft:area_effect_cloud -579 48.125 2000 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
+summon minecraft:area_effect_cloud -589 48 2003 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
+summon minecraft:area_effect_cloud -579 48 2000 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -599 45 2024 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -610 46 1973 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
-summon minecraft:area_effect_cloud -618.13 55 2031.37 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
+summon minecraft:area_effect_cloud -618 55 2031 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -611 45 2015 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -606 45 2021 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -583 44 2032 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z1"]}
@@ -43,7 +43,7 @@ summon minecraft:area_effect_cloud -558 48 2022 {Duration: 2147483647, Tags: ["f
 summon minecraft:area_effect_cloud -540 48 2030 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -524 48 2031 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -522 48 2025 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
-summon minecraft:area_effect_cloud -515 48.25 2030 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
+summon minecraft:area_effect_cloud -515 48 2030 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -503 52 2021 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -493 52 2019 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -498 53 2009 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
@@ -52,7 +52,7 @@ summon minecraft:area_effect_cloud -533 46 2025 {Duration: 2147483647, Tags: ["f
 summon minecraft:area_effect_cloud -598 45 2033 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z2"]}
 
 # - Zone 3 - (21 spots) -
-summon minecraft:area_effect_cloud -590 48.125 1980 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
+summon minecraft:area_effect_cloud -590 48 1980 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 summon minecraft:area_effect_cloud -574 48 1981 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 summon minecraft:area_effect_cloud -574 48 1970 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 summon minecraft:area_effect_cloud -569 48 1959 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
@@ -71,15 +71,15 @@ summon minecraft:area_effect_cloud -547 47 1954 {Duration: 2147483647, Tags: ["f
 summon minecraft:area_effect_cloud -556 48 1952 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 summon minecraft:area_effect_cloud -561 48 1957 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 summon minecraft:area_effect_cloud -566 53 1962 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
-summon minecraft:area_effect_cloud -587 48.125 1990 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
-summon minecraft:area_effect_cloud -577 48.25 1988 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
+summon minecraft:area_effect_cloud -587 48 1990 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
+summon minecraft:area_effect_cloud -577 48 1988 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z3"]}
 
 # - Zone 4 - (30 spots)
 summon minecraft:area_effect_cloud -577 48 2000 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
-summon minecraft:area_effect_cloud -587 48.125 1999 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
-summon minecraft:area_effect_cloud -590 48.125 1986 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
-summon minecraft:area_effect_cloud -584 48.125 1980 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
-summon minecraft:area_effect_cloud -577 48.25 1993 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
+summon minecraft:area_effect_cloud -587 48 1999 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
+summon minecraft:area_effect_cloud -590 48 1986 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
+summon minecraft:area_effect_cloud -584 48 1980 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
+summon minecraft:area_effect_cloud -577 48 1993 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 summon minecraft:area_effect_cloud -567 48 1989 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 summon minecraft:area_effect_cloud -565 49 1983 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 summon minecraft:area_effect_cloud -562 48 1994 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
@@ -104,7 +104,7 @@ summon minecraft:area_effect_cloud -546 40 1981 {Duration: 2147483647, Tags: ["f
 summon minecraft:area_effect_cloud -540 45 1987 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 summon minecraft:area_effect_cloud -546 48 1987 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 summon minecraft:area_effect_cloud -552 48 1983 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
-summon minecraft:area_effect_cloud -548.39 49 1982.86 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
+summon minecraft:area_effect_cloud -548 49 1983 {Duration: 2147483647, Tags: ["frustrated_marker", "no-zones", "L1Z4"]}
 
 # - Zone 5 - (28 spots)
 summon minecraft:area_effect_cloud -555 53 2007 {Duration: 2147483647, Tags: ["L1Z5", "frustrated_marker"]}

@@ -1,8 +1,8 @@
-# LEVEL 1
 
 #TODO: kill all with-zone marker entities
 #TODO: set berry bushes
 
-# Note, these have the tags: "frustrated_marker" and thats just for testing purposes. It can be removed as nothing but my tests will ever use this tag.
-
-#TODO: put all the summon armor stands here.
+function do2:dungeon_setup/teleport_ravagers/with_zones/summon_level_1
+function do2:dungeon_setup/teleport_ravagers/with_zones/summon_level_2
+function do2:dungeon_setup/teleport_ravagers/with_zones/summon_level_3
+function do2:dungeon_setup/teleport_ravagers/with_zones/summon_level_4
