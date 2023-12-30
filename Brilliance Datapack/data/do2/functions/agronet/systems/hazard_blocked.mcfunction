@@ -1,0 +1,1 @@
+log-event hazard-blocked
