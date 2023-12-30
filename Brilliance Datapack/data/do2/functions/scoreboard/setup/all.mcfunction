@@ -8,6 +8,8 @@ scoreboard objectives add do2.embers dummy "Total Frost Embers Collected"
 scoreboard objectives add do2.highest_streak dummy "Highest Win Streak"
 scoreboard objectives add do2.streak dummy "Current Win Streak"
 scoreboard objectives add do2.deaths deathCount "Total Deaths"
+scoreboard objectives add do2.useZones dummy "Use Ravager Zones."
+scoreboard players set $dungeon do2.useZones 1
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"
