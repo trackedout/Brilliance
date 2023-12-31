@@ -5,3 +5,6 @@ scoreboard objectives add do2.run.systems.hazard.blocked dummy "Hazard Blocked"
 scoreboard objectives add do2.run.systems.embers.released dummy "Embers Released"
 scoreboard objectives add do2.run.systems.maxclank.released dummy "Max Clank Out"
 scoreboard objectives add do2.run.systems.treasure.released dummy "Treasure Released"
+
+# instanced
+scoreboard objectives add do2.run.systems.hazard.activated dummy "Hazard Locations Activated"
