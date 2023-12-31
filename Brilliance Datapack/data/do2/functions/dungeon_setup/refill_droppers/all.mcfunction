@@ -744,15 +744,15 @@ data modify block -599 12 2031 Items[7].Count set value 64
 data modify block -599 12 2031 Items[8].Count set value 64
 
 # Artifact Dropper #46
-data modify block -574 15 2014 Items[0].Count set value 64
-data modify block -574 15 2014 Items[1].Count set value 64
-data modify block -574 15 2014 Items[2].Count set value 64
-data modify block -574 15 2014 Items[3].Count set value 64
-data modify block -574 15 2014 Items[4].Count set value 64
-data modify block -574 15 2014 Items[5].Count set value 64
-data modify block -574 15 2014 Items[6].Count set value 64
-data modify block -574 15 2014 Items[7].Count set value 64
-data modify block -574 15 2014 Items[8].Count set value 64
+data modify block -574 14 2014 Items[0].Count set value 64
+data modify block -574 14 2014 Items[1].Count set value 64
+data modify block -574 14 2014 Items[2].Count set value 64
+data modify block -574 14 2014 Items[3].Count set value 64
+data modify block -574 14 2014 Items[4].Count set value 64
+data modify block -574 14 2014 Items[5].Count set value 64
+data modify block -574 14 2014 Items[6].Count set value 64
+data modify block -574 14 2014 Items[7].Count set value 64
+data modify block -574 14 2014 Items[8].Count set value 64
 
 # Artifact Dropper #47
 data modify block -588 -9 1917 Items[0].Count set value 64
@@ -1383,15 +1383,15 @@ data modify block -557 45 1976 Items[7].Count set value 64
 data modify block -557 45 1976 Items[8].Count set value 64
 
 # Treasure Dropper #24
-data modify block -563 36 2000 Items[0].Count set value 64
-data modify block -563 36 2000 Items[1].Count set value 64
-data modify block -563 36 2000 Items[2].Count set value 64
-data modify block -563 36 2000 Items[3].Count set value 64
-data modify block -563 36 2000 Items[4].Count set value 64
-data modify block -563 36 2000 Items[5].Count set value 64
-data modify block -563 36 2000 Items[6].Count set value 64
-data modify block -563 36 2000 Items[7].Count set value 64
-data modify block -563 36 2000 Items[8].Count set value 64
+data modify block -563 36 1999 Items[0].Count set value 64
+data modify block -563 36 1999 Items[1].Count set value 64
+data modify block -563 36 1999 Items[2].Count set value 64
+data modify block -563 36 1999 Items[3].Count set value 64
+data modify block -563 36 1999 Items[4].Count set value 64
+data modify block -563 36 1999 Items[5].Count set value 64
+data modify block -563 36 1999 Items[6].Count set value 64
+data modify block -563 36 1999 Items[7].Count set value 64
+data modify block -563 36 1999 Items[8].Count set value 64
 
 # Treasure Dropper #25
 data modify block -575 36 1998 Items[0].Count set value 64
@@ -1581,15 +1581,15 @@ data modify block -548 11 1975 Items[7].Count set value 64
 data modify block -548 11 1975 Items[8].Count set value 64
 
 # Treasure Dropper #42
-data modify block -531 8 2016 Items[0].Count set value 64
-data modify block -531 8 2016 Items[1].Count set value 64
-data modify block -531 8 2016 Items[2].Count set value 64
-data modify block -531 8 2016 Items[3].Count set value 64
-data modify block -531 8 2016 Items[4].Count set value 64
-data modify block -531 8 2016 Items[5].Count set value 64
-data modify block -531 8 2016 Items[6].Count set value 64
-data modify block -531 8 2016 Items[7].Count set value 64
-data modify block -531 8 2016 Items[8].Count set value 64
+data modify block -531 10 2016 Items[0].Count set value 64
+data modify block -531 10 2016 Items[1].Count set value 64
+data modify block -531 10 2016 Items[2].Count set value 64
+data modify block -531 10 2016 Items[3].Count set value 64
+data modify block -531 10 2016 Items[4].Count set value 64
+data modify block -531 10 2016 Items[5].Count set value 64
+data modify block -531 10 2016 Items[6].Count set value 64
+data modify block -531 10 2016 Items[7].Count set value 64
+data modify block -531 10 2016 Items[8].Count set value 64
 
 # Treasure Dropper #43
 data modify block -528 12 2031 Items[0].Count set value 64
@@ -1768,15 +1768,15 @@ data modify block -608 -19 1919 Items[7].Count set value 64
 data modify block -608 -19 1919 Items[8].Count set value 64
 
 # Treasure Dropper #59
-data modify block -577 -36 1837 Items[0].Count set value 64
-data modify block -577 -36 1837 Items[1].Count set value 64
-data modify block -577 -36 1837 Items[2].Count set value 64
-data modify block -577 -36 1837 Items[3].Count set value 64
-data modify block -577 -36 1837 Items[4].Count set value 64
-data modify block -577 -36 1837 Items[5].Count set value 64
-data modify block -577 -36 1837 Items[6].Count set value 64
-data modify block -577 -36 1837 Items[7].Count set value 64
-data modify block -577 -36 1837 Items[8].Count set value 64
+data modify block -577 -37 1837 Items[0].Count set value 64
+data modify block -577 -37 1837 Items[1].Count set value 64
+data modify block -577 -37 1837 Items[2].Count set value 64
+data modify block -577 -37 1837 Items[3].Count set value 64
+data modify block -577 -37 1837 Items[4].Count set value 64
+data modify block -577 -37 1837 Items[5].Count set value 64
+data modify block -577 -37 1837 Items[6].Count set value 64
+data modify block -577 -37 1837 Items[7].Count set value 64
+data modify block -577 -37 1837 Items[8].Count set value 64
 
 # Treasure Dropper #60
 data modify block -490 11 2007 Items[0].Count set value 64
@@ -4440,10 +4440,135 @@ data modify block -509 104 1972 Items[7].Count set value 64
 data modify block -509 104 1972 Items[8].Count set value 64
 data modify block -509 104 1972 Items[9].Count set value 64
 
-# Level 4 Bombs
-tellraw @s {"text":"todo: Level 4 bombs","color":"yellow"}
-# Level 4 secret room
-tellraw @s {"text":"todo: Level 4 secret room","color":"yellow"}
+### Level 4 Bombs
+# Dropper 1
+data modify block -605 -49 1910 Items[0].Count set value 64
+data modify block -605 -49 1910 Items[1].Count set value 64
+data modify block -605 -49 1910 Items[2].Count set value 64
+data modify block -605 -49 1910 Items[3].Count set value 64
+data modify block -605 -49 1910 Items[4].Count set value 64
+data modify block -605 -49 1910 Items[5].Count set value 64
+data modify block -605 -49 1910 Items[6].Count set value 64
+data modify block -605 -49 1910 Items[7].Count set value 64
+data modify block -605 -49 1910 Items[8].Count set value 64
+data modify block -605 -49 1910 Items[9].Count set value 64
+
+# Dropper 2
+data modify block -637 -51 1872 Items[0].Count set value 64
+data modify block -637 -51 1872 Items[1].Count set value 64
+data modify block -637 -51 1872 Items[2].Count set value 64
+data modify block -637 -51 1872 Items[3].Count set value 64
+data modify block -637 -51 1872 Items[4].Count set value 64
+data modify block -637 -51 1872 Items[5].Count set value 64
+data modify block -637 -51 1872 Items[6].Count set value 64
+data modify block -637 -51 1872 Items[7].Count set value 64
+data modify block -637 -51 1872 Items[8].Count set value 64
+data modify block -637 -51 1872 Items[9].Count set value 64
+
+# Dropper 3
+data modify block -598 -51 1876 Items[0].Count set value 64
+data modify block -598 -51 1876 Items[1].Count set value 64
+data modify block -598 -51 1876 Items[2].Count set value 64
+data modify block -598 -51 1876 Items[3].Count set value 64
+data modify block -598 -51 1876 Items[4].Count set value 64
+data modify block -598 -51 1876 Items[5].Count set value 64
+data modify block -598 -51 1876 Items[6].Count set value 64
+data modify block -598 -51 1876 Items[7].Count set value 64
+data modify block -598 -51 1876 Items[8].Count set value 64
+data modify block -598 -51 1876 Items[9].Count set value 64
+
+### Level 4 secret room
+# Treasure
+data modify block -577 -37 1837 Items[0].Count set value 64
+data modify block -577 -37 1837 Items[1].Count set value 64
+data modify block -577 -37 1837 Items[2].Count set value 64
+data modify block -577 -37 1837 Items[3].Count set value 64
+data modify block -577 -37 1837 Items[4].Count set value 64
+data modify block -577 -37 1837 Items[5].Count set value 64
+data modify block -577 -37 1837 Items[6].Count set value 64
+data modify block -577 -37 1837 Items[7].Count set value 64
+data modify block -577 -37 1837 Items[8].Count set value 64
+data modify block -577 -37 1837 Items[9].Count set value 64
+
+# Frost Embers
+data modify block -579 -37 1835 Items[0].Count set value 64
+data modify block -579 -37 1835 Items[1].Count set value 64
+data modify block -579 -37 1835 Items[2].Count set value 64
+data modify block -579 -37 1835 Items[3].Count set value 64
+data modify block -579 -37 1835 Items[4].Count set value 64
+data modify block -579 -37 1835 Items[5].Count set value 64
+data modify block -579 -37 1835 Items[6].Count set value 64
+data modify block -579 -37 1835 Items[7].Count set value 64
+data modify block -579 -37 1835 Items[8].Count set value 64
+data modify block -579 -37 1835 Items[9].Count set value 64
+
+# TNT
+data modify block -579 -39 1843 Items[0].Count set value 64
+data modify block -579 -39 1843 Items[1].Count set value 64
+data modify block -579 -39 1843 Items[2].Count set value 64
+data modify block -579 -39 1843 Items[3].Count set value 64
+data modify block -579 -39 1843 Items[4].Count set value 64
+data modify block -579 -39 1843 Items[5].Count set value 64
+data modify block -579 -39 1843 Items[6].Count set value 64
+data modify block -579 -39 1843 Items[7].Count set value 64
+data modify block -579 -39 1843 Items[8].Count set value 64
+data modify block -579 -39 1843 Items[9].Count set value 64
+
+### Misc
+# Hideout Chain 1
+data modify block -581 -54 1876 Items[0].Count set value 64
+data modify block -581 -54 1876 Items[1].Count set value 64
+data modify block -581 -54 1876 Items[2].Count set value 64
+data modify block -581 -54 1876 Items[3].Count set value 64
+data modify block -581 -54 1876 Items[4].Count set value 64
+data modify block -581 -54 1876 Items[5].Count set value 64
+data modify block -581 -54 1876 Items[6].Count set value 64
+data modify block -581 -54 1876 Items[7].Count set value 64
+data modify block -581 -54 1876 Items[8].Count set value 64
+data modify block -581 -54 1876 Items[9].Count set value 64
 
 ### Berry Bushes
-tellraw @s {"text":"todo: Berry bushes","color":"yellow"}
+# Frozen Crypts (Level 1)
+setblock -613 45 2004 minecraft:sweet_berry_bush[age=3]
+setblock -589 48 1964 minecraft:sweet_berry_bush[age=3]
+setblock -563 49 1977 minecraft:sweet_berry_bush[age=3]
+setblock -554 47 1948 minecraft:sweet_berry_bush[age=3]
+setblock -549 53 2004 minecraft:sweet_berry_bush[age=3]
+setblock -502 53 2003 minecraft:sweet_berry_bush[age=3]
+setblock -517 54 1960 minecraft:sweet_berry_bush[age=3]
+setblock -516 38 1986 minecraft:sweet_berry_bush[age=3]
+setblock -512 40 1991 minecraft:sweet_berry_bush[age=3]
+setblock -512 40 1993 minecraft:sweet_berry_bush[age=3]
+setblock -586 48 2008 minecraft:sweet_berry_bush[age=3]
+
+# Caverns (Level 2)
+setblock -485 12 2015 minecraft:sweet_berry_bush[age=3]
+setblock -532 15 2034 minecraft:sweet_berry_bush[age=3]
+setblock -602 14 2022 minecraft:sweet_berry_bush[age=3]
+setblock -515 15 1944 minecraft:sweet_berry_bush[age=3]
+setblock -574 23 2013 minecraft:sweet_berry_bush[age=3]
+setblock -497 7 1952 minecraft:sweet_berry_bush[age=1]
+setblock -498 7 1951 minecraft:sweet_berry_bush[age=0]
+setblock -498 7 1953 minecraft:sweet_berry_bush[age=1]
+setblock -499 7 1952 minecraft:sweet_berry_bush[age=0]
+setblock -471 32 1978 minecraft:sweet_berry_bush[age=3]
+setblock -503 26 1966 minecraft:sweet_berry_bush[age=3]
+
+# Black Mines (Level 3)
+setblock -583 -15 1926 minecraft:sweet_berry_bush[age=3]
+setblock -657 -6 1904 minecraft:sweet_berry_bush[age=3]
+setblock -589 4 1895 minecraft:sweet_berry_bush[age=3]
+setblock -645 3 1905 minecraft:sweet_berry_bush[age=3]
+setblock -654 4 1919 minecraft:sweet_berry_bush[age=3]
+setblock -600 -11 1910 minecraft:sweet_berry_bush[age=3]
+setblock -654 4 1919 minecraft:sweet_berry_bush[age=3]
+
+# Deep Frost (Level 4)
+setblock -616 -48 1876 minecraft:sweet_berry_bush[age=3]
+setblock -599 -41 1878 minecraft:sweet_berry_bush[age=3]
+setblock -603 -41 1841 minecraft:sweet_berry_bush[age=3]
+setblock -636 -41 1876 minecraft:sweet_berry_bush[age=3]
+setblock -608 -39 1910 minecraft:sweet_berry_bush[age=3]
+setblock -596 -38 1906 minecraft:sweet_berry_bush[age=3]
+setblock -567 -45 1911 minecraft:sweet_berry_bush[age=3]
+setblock -567 -45 1912 minecraft:sweet_berry_bush[age=3]
