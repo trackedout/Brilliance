@@ -25,4 +25,4 @@ execute if score $dungeon do2.run.empty matches 300 run function do2:events/on_g
 execute as @e[type=item, nbt=!{Item:{tag:{tracked:1b}}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
 # For Dev Stuff
-execute as @a[tag=marker_controller] run do2:dungeon_setup/teleport_ravagers/dev/controller
+execute as @a[tag=marker_controller] run function do2:dungeon_setup/teleport_ravagers/dev/controller
