@@ -19,7 +19,6 @@
                         "condition": "minecraft:entity_scores",
                         "entity": "this",
                         "scores": {
-                            "do2.run.active": 1,
                             "do2.run.deepest_floor": 1,
                             "do2.run.has_won": 1
                         }
