@@ -45,7 +45,9 @@ clone -549 10 1969 -549 10 1969 -571 87 1990
 clone -575 13 1994 -575 13 1994 -571 87 1991
 clone -571 12 2026 -571 12 2026 -571 87 1992
 clone -599 12 2031 -599 12 2031 -571 87 1993
-clone -574 15 2014 -574 15 2014 -571 87 1994
+# we moved dropper 42
+execute if block -574 16 2014 dropper run clone -574 16 2014 -574 16 2014 -571 87 1994
+execute if block -574 14 2014 dropper run clone -574 14 2014 -574 14 2014 -571 87 1994
 clone -588 -9 1917 -588 -9 1917 -571 87 1995
 clone -598 1 1890 -598 1 1890 -571 87 1996
 clone -623 1 1892 -623 1 1892 -571 87 1997
@@ -81,7 +83,7 @@ clone -635 -51 1877 -635 -51 1877 -571 87 2026
 clone -590 -51 1864 -590 -51 1864 -571 87 2027
 clone -570 -51 1853 -570 -51 1853 -571 87 2028
 
-# trasure
+# treasure
 clone -518 35 2002 -518 35 2002 -575 87 1949
 clone -521 35 1982 -521 35 1982 -575 87 1950
 clone -497 51 1980 -497 51 1980 -575 87 1951
@@ -105,7 +107,7 @@ clone -559 46 2022 -559 46 2022 -575 87 1968
 clone -554 51 2007 -554 51 2007 -575 87 1969
 clone -519 53 2011 -519 53 2011 -575 87 1970
 clone -557 45 1976 -557 45 1976 -575 87 1971
-clone -563 36 2000 -563 36 2000 -575 87 1972
+clone -563 36 1999 -563 36 1999 -575 87 1972
 clone -575 36 1998 -575 36 1998 -575 87 1973
 clone -485 31 1963 -485 31 1963 -575 87 1974
 clone -479 19 2009 -479 19 2009 -575 87 1975
@@ -123,7 +125,7 @@ clone -597 12 2009 -597 12 2009 -575 87 1986
 clone -541 11 1998 -541 11 1998 -575 87 1987
 clone -531 16 1990 -531 16 1990 -575 87 1988
 clone -548 11 1975 -548 11 1975 -575 87 1989
-clone -531 8 2016 -531 8 2016 -575 87 1990
+clone -531 10 2016 -531 10 2016 -575 87 1990
 clone -528 12 2031 -528 12 2031 -575 87 1991
 clone -509 14 2034 -509 14 2034 -575 87 1992
 clone -526 12 1942 -526 12 1942 -575 87 1993
@@ -140,46 +142,108 @@ clone -583 -17 1927 -583 -17 1927 -575 87 2003
 clone -640 -19 1888 -640 -19 1888 -575 87 2004
 clone -641 -19 1921 -641 -19 1921 -575 87 2005
 clone -608 -19 1919 -608 -19 1919 -575 87 2006
-clone -577 -36 1837 -577 -36 1837 -575 87 2007
+clone -577 -37 1837 -577 -37 1837 -575 87 2007
 clone -490 11 2007 -490 11 2007 -575 87 2008
-clone -496 15 1999 -496 15 1999 -575 87 2009
+# note: this is ember, one of the embers is treasure.
+clone -496 15 2000 -496 15 2000 -575 87 2009
 clone -526 12 1942 -526 12 1942 -575 87 2010
 clone -503 31 1975 -503 31 1975 -575 87 2011
 
 # ember
 clone -519 35 2002 -519 35 2002 -577 87 1949
+execute if entity @s[tag=debug] run clone -521 35 1981 -521 35 1981 -577 87 1951
+execute if entity @s[tag=debug] run clone -498 51 1980 -498 51 1980 -577 87 1952
+execute if entity @s[tag=debug] run clone -484 53 1988 -484 53 1988 -577 87 1953
+execute if entity @s[tag=debug] run clone -512 51 1962 -512 51 1962 -577 87 1954
+execute if entity @s[tag=debug] run clone -527 51 1974 -527 51 1974 -577 87 1955
+execute if entity @s[tag=debug] run clone -545 51 2008 -545 51 2008 -577 87 1956
+execute if entity @s[tag=debug] run clone -515 46 2031 -515 46 2031 -577 87 1957
+execute if entity @s[tag=debug] run clone -560 47 1942 -560 47 1942 -577 87 1958
+execute if entity @s[tag=debug] run clone -537 45 1948 -537 45 1948 -577 87 1959
+execute if entity @s[tag=debug] run clone -490 50 2016 -490 50 2016 -577 87 1960
+execute if entity @s[tag=debug] run clone -533 44 2024 -533 44 2024 -577 87 1961
+execute if entity @s[tag=debug] run clone -588 52 1952 -588 52 1952 -577 87 1962
+execute if entity @s[tag=debug] run clone -589 46 1978 -589 46 1978 -577 87 1963
+execute if entity @s[tag=debug] run clone -619 43 2026 -619 43 2026 -577 87 1964
+execute if entity @s[tag=debug] run clone -606 43 2023 -606 43 2023 -577 87 1965
+execute if entity @s[tag=debug] run clone -583 45 2013 -583 45 2013 -577 87 1966
+execute if entity @s[tag=debug] run clone -490 50 2016 -490 50 2016 -577 87 1967
+execute if entity @s[tag=debug] run clone -515 46 2031 -515 46 2031 -577 87 1968
+execute if entity @s[tag=debug] run clone -558 46 2022 -558 46 2022 -577 87 1969
+execute if entity @s[tag=debug] run clone -554 51 2008 -554 51 2008 -577 87 1970
+execute if entity @s[tag=debug] run clone -518 53 2011 -518 53 2011 -577 87 1971
+execute if entity @s[tag=debug] run clone -558 45 1976 -558 45 1976 -577 87 1972
+execute if entity @s[tag=debug] run clone -565 36 1999 -565 36 1999 -577 87 1973
+execute if entity @s[tag=debug] run clone -573 36 1998 -573 36 1998 -577 87 1974
+execute if entity @s[tag=debug] run clone -485 31 1962 -485 31 1962 -577 87 1975
+execute if entity @s[tag=debug] run clone -478 19 2009 -478 19 2009 -577 87 1976
+execute if entity @s[tag=debug] run clone -509 14 2033 -509 14 2033 -577 87 1977
+execute if entity @s[tag=debug] run clone -501 16 1972 -501 16 1972 -577 87 1978
+execute if entity @s[tag=debug] run clone -589 11 2032 -589 11 2032 -577 87 1979
+execute if entity @s[tag=debug] run clone -598 11 1989 -598 11 1989 -577 87 1980
+execute if entity @s[tag=debug] run clone -573 11 2007 -573 11 2007 -577 87 1981
+execute if entity @s[tag=debug] run clone -553 10 3037 -553 10 3037 -577 87 1982
+execute if entity @s[tag=debug] run clone -508 9 1951 -508 9 1951 -577 87 1983
+execute if entity @s[tag=debug] run clone -582 9 1955 -582 9 1955 -577 87 1984
+execute if entity @s[tag=debug] run clone -569 8 1964 -569 8 1964 -577 87 1985
+execute if entity @s[tag=debug] run clone -599 12 2009 -599 12 2009 -577 87 1986
+execute if entity @s[tag=debug] run clone -512 11 1998 -512 11 1998 -577 87 1987
+execute if entity @s[tag=debug] run clone -531 16 1989 -531 16 1989 -577 87 1988
+execute if entity @s[tag=debug] run clone -548 11 1976 -548 11 1976 -577 87 1989
+execute if entity @s[tag=debug] run clone -530 8 2015 -530 8 2015 -577 87 1990
+execute if entity @s[tag=debug] run clone -528 12 2032 -528 12 2032 -577 87 1991
+execute if entity @s[tag=debug] run clone -509 14 2033 -509 14 2033 -577 87 1992
+execute if entity @s[tag=debug] run clone -526 12 1941 -526 12 1941 -577 87 1993
+execute if entity @s[tag=debug] run clone -644 1 1921 -644 1 1921 -577 87 1994
+execute if entity @s[tag=debug] run clone -652 1 1892 -652 1 1892 -577 87 1995
+execute if entity @s[tag=debug] run clone -586 1 1888 -586 1 1888 -577 87 1996
+execute if entity @s[tag=debug] run clone -606 1 1921 -606 1 1921 -577 87 1997
+execute if entity @s[tag=debug] run clone -628 1 1921 -628 1 1921 -577 87 1998
+execute if entity @s[tag=debug] run clone -654 -9 1892 -654 -9 1892 -577 87 1999
+execute if entity @s[tag=debug] run clone -585 -9 1920 -585 -9 1920 -577 87 2000
+execute if entity @s[tag=debug] run clone -623 -9 1924 -623 -9 1924 -577 87 2001
+execute if entity @s[tag=debug] run clone -602 -9 1885 -602 -9 1885 -577 87 2002
+execute if entity @s[tag=debug] run clone -584 -17 1927 -584 -17 1927 -577 87 2003
+execute if entity @s[tag=debug] run clone -640 -19 1889 -640 -19 1889 -577 87 2004
+execute if entity @s[tag=debug] run clone -642 -19 1921 -642 -19 1921 -577 87 2005
+execute if entity @s[tag=debug] run clone -609 -19 1919 -609 -19 1919 -577 87 2006
+execute if entity @s[tag=debug] run clone -579 -37 1835 -579 -37 1835 -577 87 2007
+execute if entity @s[tag=debug] run clone -489 -11 2007 -489 -11 2007 -577 87 2008
+execute if entity @s[tag=debug] run clone -496 15 1999 -496 15 1999 -577 87 2009
+execute if entity @s[tag=debug] run clone -526 12 1941 -526 12 1941 -577 87 2010
+execute if entity @s[tag=debug] run clone -502 31 1975 -502 31 1975 -577 87 2011
 
 # crown shop
 clone -496 104 1972 -496 104 1972 -571 83 1953
-clone -497 104 1972 -496 104 1972 -572 83 1953
-clone -498 104 1972 -496 104 1972 -573 83 1953
-clone -499 104 1972 -496 104 1972 -574 83 1953
-clone -500 104 1972 -496 104 1972 -575 83 1953
-clone -501 104 1972 -496 104 1972 -576 83 1953
-clone -502 104 1972 -496 104 1972 -577 83 1953
-clone -503 104 1972 -496 104 1972 -578 83 1953
-clone -504 104 1972 -496 104 1972 -579 83 1953
-clone -505 104 1972 -496 104 1972 -580 83 1953
-clone -506 104 1972 -496 104 1972 -581 83 1953
-clone -507 104 1972 -496 104 1972 -582 83 1953
-clone -508 104 1972 -496 104 1972 -583 83 1953
-clone -509 104 1972 -496 104 1972 -584 83 1953
+clone -497 104 1972 -497 104 1972 -572 83 1953
+clone -498 104 1972 -498 104 1972 -573 83 1953
+clone -499 104 1972 -499 104 1972 -574 83 1953
+clone -500 104 1972 -500 104 1972 -575 83 1953
+clone -501 104 1972 -501 104 1972 -576 83 1953
+clone -502 104 1972 -502 104 1972 -577 83 1953
+clone -503 104 1972 -503 104 1972 -578 83 1953
+clone -504 104 1972 -504 104 1972 -579 83 1953
+clone -505 104 1972 -505 104 1972 -580 83 1953
+clone -506 104 1972 -506 104 1972 -581 83 1953
+clone -507 104 1972 -507 104 1972 -582 83 1953
+clone -508 104 1972 -508 104 1972 -583 83 1953
+clone -509 104 1972 -509 104 1972 -584 83 1953
 
 # crown shop prices
 clone -496 106 1975 -496 106 1975 -571 83 1954
-clone -497 106 1975 -496 106 1975 -572 83 1954
-clone -498 106 1975 -496 106 1975 -573 83 1954
-clone -499 106 1975 -496 106 1975 -574 83 1954
-clone -500 106 1975 -496 106 1975 -575 83 1954
-clone -501 106 1975 -496 106 1975 -576 83 1954
-clone -502 106 1975 -496 106 1975 -577 83 1954
-clone -503 106 1975 -496 106 1975 -578 83 1954
-clone -504 106 1975 -496 106 1975 -579 83 1954
-clone -505 106 1975 -496 106 1975 -580 83 1954
-clone -506 106 1975 -496 106 1975 -581 83 1954
-clone -507 106 1975 -496 106 1975 -582 83 1954
-clone -508 106 1975 -496 106 1975 -583 83 1954
-clone -509 106 1975 -496 106 1975 -584 83 1954
+clone -497 106 1975 -497 106 1975 -572 83 1954
+clone -498 106 1975 -498 106 1975 -573 83 1954
+clone -499 106 1975 -499 106 1975 -574 83 1954
+clone -500 106 1975 -500 106 1975 -575 83 1954
+clone -501 106 1975 -501 106 1975 -576 83 1954
+clone -502 106 1975 -502 106 1975 -577 83 1954
+clone -503 106 1975 -503 106 1975 -578 83 1954
+clone -504 106 1975 -504 106 1975 -579 83 1954
+clone -505 106 1975 -505 106 1975 -580 83 1954
+clone -506 106 1975 -506 106 1975 -581 83 1954
+clone -507 106 1975 -507 106 1975 -582 83 1954
+clone -508 106 1975 -508 106 1975 -583 83 1954
+clone -509 106 1975 -509 106 1975 -584 83 1954
 
 # ember shop
 clone -630 -20 1992 -630 -20 1992 -571 83 1956
@@ -280,7 +344,7 @@ clone -642 -18 2014 -642 -18 2014 -574 83 1978
 # pirate's booty
 # note: we moved the pirate's booty dropper from the original release
 execute if block -576 35 1985 dropper run clone -576 35 1985 -576 35 1985 -571 83 1951
-execute if block -575 39 1985 dropper run clone -574 39 1985 -574 39 1985 -571 83 1951
+execute if block -574 39 1985 dropper run clone -574 39 1985 -574 39 1985 -571 83 1951
 
 # trick or treats
 clone -523 12 2042 -523 12 2042 -571 83 1950
