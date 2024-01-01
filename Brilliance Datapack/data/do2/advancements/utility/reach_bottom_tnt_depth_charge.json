@@ -1,30 +1,28 @@
 {
-	"_comment": "This triggers UPON player reaching the bottom of the TnT depth charge.",
+	"_comment": "This triggers UPON player reaching the BOTTOM of the TnT depth charge.",
 	"criteria": {
-		"auto": {
-			"trigger": "minecraft:impossible",
+		"reach_under_tnt_depth_charge": {
+			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"nbt": "{Tags:[\"do2.running\"]}",
-						"position": {
-							"x": {
-								"min": 0,
-								"max": 0
-							},
-							"y": {
-								"min": 0,
-								"max": 0
-							},
-							"z": {
-								"min": 0,
-								"max": 0
-							}
-						}
+				"position": {
+					"x": {
+						"min": -584,
+						"max": -580
+					},
+					"y": {
+						"min": 15,
+						"max": 16
+					},
+					"z": {
+						"min": 1968,
+						"max": 1972
 					}
-				]
+				}
 			}
 		}
+	},
+	"rewards": {
+		"function": "do2:events/dungeon/on_reached_bottom_tnt_depth_charge"
 	},
 	"parent": "do2:utility/root"
 	

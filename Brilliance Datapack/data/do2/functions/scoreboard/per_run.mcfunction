@@ -3,7 +3,11 @@ scoreboard players set @s do2.adv.threecoursemeal 0
 execute unless entity @s[advancements={do2:hidden/adventuring/eat_three_uniques=true}] run advancement revoke @s only do2:visible/adventuring/eat_three_uniques
 
 # reset player's play_5_moc on 1 run.
-execute unless entity @s[advancements={do2:visible/cards/play_5_moc=true}] run advancement revoke @s only do2:visible/cards/play_5_moc
+execute unless entity @s[advancements={do2:hidden/cards/play_5_moc=true}] run advancement revoke @s only do2:visible/cards/play_5_moc
+
+# reset depth charge dive scores
+scoreboard players set @s do2.utility.do2.run.tnt_dive 0
+scoreboard players set @s do2.utility.reachedBottomDepthCharge 0
 
 # - RESET ITEMS -
 scoreboard players set @s do2.run.items.embers 0
