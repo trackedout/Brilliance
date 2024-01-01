@@ -9,6 +9,12 @@ execute unless entity @s[advancements={do2:hidden/cards/play_5_moc=true}] run ad
 scoreboard players set @s do2.utility.do2.run.tnt_dive 0
 scoreboard players set @s do2.utility.reachedBottomDepthCharge 0
 
+# - RESET GENERAL -
+scoreboard players set @s do2.run.foundArtifact 0
+scoreboard players set @s do2.run.tnt_dive 0
+scoreboard players set @s do2.run.has_won 0
+scoreboard players set @s do2.run.has_died 0
+
 # - RESET ITEMS -
 scoreboard players set @s do2.run.items.embers 0
 scoreboard players set @s do2.run.items.coins 0

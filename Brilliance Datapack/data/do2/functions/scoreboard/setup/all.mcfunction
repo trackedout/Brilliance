@@ -20,6 +20,8 @@ scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
 scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"
 scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has reached."
 scoreboard objectives add do2.run.has_won dummy "Player has won"
+scoreboard objectives add do2.run.has_died deathCount "Whether player has died"
+scoreboard objectives add do2.run.player_deaths dummy "How many players have died"
 scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - utility -

@@ -1,7 +1,10 @@
-# called when player dies.
+# called when player dies. (BUT MIGHT HAVE WON)
 
-# do2.run.dead is DIFFERENT than do2.deaths
-scoreboard players set @s do2.run.dead 1
+# store run time when player dies
+scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds
 
-# if player DIDN'T die, then it's a loss:
-execute unless entity @s[tag=do2.win] run function do2:events/on_player_loss
+# player no longer running
+tag @s remove do2.running
+
+# increase the amount of player deaths
+scoreboard players add $dungeon do2.run.player_deaths 1
