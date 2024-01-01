@@ -35,6 +35,9 @@ scoreboard objectives add do2.utility.chopsToGive dummy "Pork_chops left to give
 scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to give"
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
+# for dungeon setup, whether to use zones or not.
+scoreboard objectives add do2.utility.useZones dummy "Use Ravager Zones."
+scoreboard players set $dungeon do2.utility.useZones 1
 
 # - systems -
 function do2:scoreboard/setup/systems
