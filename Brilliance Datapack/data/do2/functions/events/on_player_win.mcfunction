@@ -3,15 +3,16 @@
 
 # player is no longer running
 tag @s remove do2.running
-
-# Note that they won
 tag @s add do2.won
-scoreboard players add @s do2.wins 1
-scoreboard players add @s do2.streak 1
 scoreboard players set @s do2.run.has_won 1
 
-# set do2.highest_streak if do2.streak is >= than it.
-execute if score @s do2.streak >= @s do2.highest_streak run scoreboard players operation @s do2.highest_streak = @s do2.streak
+# Note that they won
+scoreboard players add @s do2.wins 1
+scoreboard players add @s do2.win_streak 1
+scoreboard players set @s do2.loss_streak 0
+
+# set do2.highest_win_streak if do2.win_streak is >= than it.
+execute if score @s do2.win_streak >= @s do2.highest_win_streak run scoreboard players operation @s do2.highest_win_streak = @s do2.win_streak
 
 # store run time when player dies
 scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds
@@ -31,10 +32,10 @@ execute if score @s do2.wins matches 65 run advancement grant @s only do2:hidden
 execute if score @s do2.wins matches 80 run advancement grant @s only do2:hidden/survival/win_80_times
 execute if score @s do2.wins matches 100 run advancement grant @s only do2:hidden/survival/win_100_times
 # - WIN X STREAK -
-execute if score @s do2.streak matches 3 run advancement grant @s only do2:hidden/survival/win_streak_3
-execute if score @s do2.streak matches 5 run advancement grant @s only do2:hidden/survival/win_streak_5
-execute if score @s do2.streak matches 7 run advancement grant @s only do2:hidden/survival/win_streak_7
-execute if score @s do2.streak matches 10 run advancement grant @s only do2:hidden/survival/win_streak_10
+execute if score @s do2.win_streak matches 3 run advancement grant @s only do2:hidden/survival/win_streak_3
+execute if score @s do2.win_streak matches 5 run advancement grant @s only do2:hidden/survival/win_streak_5
+execute if score @s do2.win_streak matches 7 run advancement grant @s only do2:hidden/survival/win_streak_7
+execute if score @s do2.win_streak matches 10 run advancement grant @s only do2:hidden/survival/win_streak_10
 # - WIN X DIFFICULTY -
 execute if score $dungeon do2.run.difficulty matches 1 run advancement grant @s only do2:hidden/survival/win_difficulty_1
 execute if score $dungeon do2.run.difficulty matches 2 run advancement grant @s only do2:hidden/survival/win_difficulty_2
