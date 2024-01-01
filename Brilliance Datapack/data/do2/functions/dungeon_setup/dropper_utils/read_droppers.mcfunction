@@ -45,7 +45,9 @@ clone -549 10 1969 -549 10 1969 -571 87 1990
 clone -575 13 1994 -575 13 1994 -571 87 1991
 clone -571 12 2026 -571 12 2026 -571 87 1992
 clone -599 12 2031 -599 12 2031 -571 87 1993
-clone -574 14 2014 -574 14 2014 -571 87 1994
+# we moved dropper 42
+execute if block -574 16 2014 dropper run clone -574 16 2014 -574 16 2014 -571 87 1994
+execute if block -574 14 2014 dropper run clone -574 14 2014 -574 14 2014 -571 87 1994
 clone -588 -9 1917 -588 -9 1917 -571 87 1995
 clone -598 1 1890 -598 1 1890 -571 87 1996
 clone -623 1 1892 -623 1 1892 -571 87 1997
@@ -142,12 +144,74 @@ clone -641 -19 1921 -641 -19 1921 -575 87 2005
 clone -608 -19 1919 -608 -19 1919 -575 87 2006
 clone -577 -37 1837 -577 -37 1837 -575 87 2007
 clone -490 11 2007 -490 11 2007 -575 87 2008
-clone -496 15 1999 -496 15 1999 -575 87 2009
+# note: this is ember, one of the embers is treasure.
+clone -496 15 2000 -496 15 2000 -575 87 2009
 clone -526 12 1942 -526 12 1942 -575 87 2010
 clone -503 31 1975 -503 31 1975 -575 87 2011
 
 # ember
 clone -519 35 2002 -519 35 2002 -577 87 1949
+execute if entity @s[tag=debug] run clone -521 35 1981 -521 35 1981 -577 87 1951
+execute if entity @s[tag=debug] run clone -498 51 1980 -498 51 1980 -577 87 1952
+execute if entity @s[tag=debug] run clone -484 53 1988 -484 53 1988 -577 87 1953
+execute if entity @s[tag=debug] run clone -512 51 1962 -512 51 1962 -577 87 1954
+execute if entity @s[tag=debug] run clone -527 51 1974 -527 51 1974 -577 87 1955
+execute if entity @s[tag=debug] run clone -545 51 2008 -545 51 2008 -577 87 1956
+execute if entity @s[tag=debug] run clone -515 46 2031 -515 46 2031 -577 87 1957
+execute if entity @s[tag=debug] run clone -560 47 1942 -560 47 1942 -577 87 1958
+execute if entity @s[tag=debug] run clone -537 45 1948 -537 45 1948 -577 87 1959
+execute if entity @s[tag=debug] run clone -490 50 2016 -490 50 2016 -577 87 1960
+execute if entity @s[tag=debug] run clone -533 44 2024 -533 44 2024 -577 87 1961
+execute if entity @s[tag=debug] run clone -588 52 1952 -588 52 1952 -577 87 1962
+execute if entity @s[tag=debug] run clone -589 46 1978 -589 46 1978 -577 87 1963
+execute if entity @s[tag=debug] run clone -619 43 2026 -619 43 2026 -577 87 1964
+execute if entity @s[tag=debug] run clone -606 43 2023 -606 43 2023 -577 87 1965
+execute if entity @s[tag=debug] run clone -583 45 2013 -583 45 2013 -577 87 1966
+execute if entity @s[tag=debug] run clone -490 50 2016 -490 50 2016 -577 87 1967
+execute if entity @s[tag=debug] run clone -515 46 2031 -515 46 2031 -577 87 1968
+execute if entity @s[tag=debug] run clone -558 46 2022 -558 46 2022 -577 87 1969
+execute if entity @s[tag=debug] run clone -554 51 2008 -554 51 2008 -577 87 1970
+execute if entity @s[tag=debug] run clone -518 53 2011 -518 53 2011 -577 87 1971
+execute if entity @s[tag=debug] run clone -558 45 1976 -558 45 1976 -577 87 1972
+execute if entity @s[tag=debug] run clone -565 36 1999 -565 36 1999 -577 87 1973
+execute if entity @s[tag=debug] run clone -573 36 1998 -573 36 1998 -577 87 1974
+execute if entity @s[tag=debug] run clone -485 31 1962 -485 31 1962 -577 87 1975
+execute if entity @s[tag=debug] run clone -478 19 2009 -478 19 2009 -577 87 1976
+execute if entity @s[tag=debug] run clone -509 14 2033 -509 14 2033 -577 87 1977
+execute if entity @s[tag=debug] run clone -501 16 1972 -501 16 1972 -577 87 1978
+execute if entity @s[tag=debug] run clone -589 11 2032 -589 11 2032 -577 87 1979
+execute if entity @s[tag=debug] run clone -598 11 1989 -598 11 1989 -577 87 1980
+execute if entity @s[tag=debug] run clone -573 11 2007 -573 11 2007 -577 87 1981
+execute if entity @s[tag=debug] run clone -553 10 3037 -553 10 3037 -577 87 1982
+execute if entity @s[tag=debug] run clone -508 9 1951 -508 9 1951 -577 87 1983
+execute if entity @s[tag=debug] run clone -582 9 1955 -582 9 1955 -577 87 1984
+execute if entity @s[tag=debug] run clone -569 8 1964 -569 8 1964 -577 87 1985
+execute if entity @s[tag=debug] run clone -599 12 2009 -599 12 2009 -577 87 1986
+execute if entity @s[tag=debug] run clone -512 11 1998 -512 11 1998 -577 87 1987
+execute if entity @s[tag=debug] run clone -531 16 1989 -531 16 1989 -577 87 1988
+execute if entity @s[tag=debug] run clone -548 11 1976 -548 11 1976 -577 87 1989
+execute if entity @s[tag=debug] run clone -530 8 2015 -530 8 2015 -577 87 1990
+execute if entity @s[tag=debug] run clone -528 12 2032 -528 12 2032 -577 87 1991
+execute if entity @s[tag=debug] run clone -509 14 2033 -509 14 2033 -577 87 1992
+execute if entity @s[tag=debug] run clone -526 12 1941 -526 12 1941 -577 87 1993
+execute if entity @s[tag=debug] run clone -644 1 1921 -644 1 1921 -577 87 1994
+execute if entity @s[tag=debug] run clone -652 1 1892 -652 1 1892 -577 87 1995
+execute if entity @s[tag=debug] run clone -586 1 1888 -586 1 1888 -577 87 1996
+execute if entity @s[tag=debug] run clone -606 1 1921 -606 1 1921 -577 87 1997
+execute if entity @s[tag=debug] run clone -628 1 1921 -628 1 1921 -577 87 1998
+execute if entity @s[tag=debug] run clone -654 -9 1892 -654 -9 1892 -577 87 1999
+execute if entity @s[tag=debug] run clone -585 -9 1920 -585 -9 1920 -577 87 2000
+execute if entity @s[tag=debug] run clone -623 -9 1924 -623 -9 1924 -577 87 2001
+execute if entity @s[tag=debug] run clone -602 -9 1885 -602 -9 1885 -577 87 2002
+execute if entity @s[tag=debug] run clone -584 -17 1927 -584 -17 1927 -577 87 2003
+execute if entity @s[tag=debug] run clone -640 -19 1889 -640 -19 1889 -577 87 2004
+execute if entity @s[tag=debug] run clone -642 -19 1921 -642 -19 1921 -577 87 2005
+execute if entity @s[tag=debug] run clone -609 -19 1919 -609 -19 1919 -577 87 2006
+execute if entity @s[tag=debug] run clone -579 -37 1835 -579 -37 1835 -577 87 2007
+execute if entity @s[tag=debug] run clone -489 -11 2007 -489 -11 2007 -577 87 2008
+execute if entity @s[tag=debug] run clone -496 15 1999 -496 15 1999 -577 87 2009
+execute if entity @s[tag=debug] run clone -526 12 1941 -526 12 1941 -577 87 2010
+execute if entity @s[tag=debug] run clone -502 31 1975 -502 31 1975 -577 87 2011
 
 # crown shop
 clone -496 104 1972 -496 104 1972 -571 83 1953

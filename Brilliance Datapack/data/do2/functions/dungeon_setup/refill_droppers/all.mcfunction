@@ -4528,6 +4528,9 @@ data modify block -581 -54 1876 Items[8].Count set value 64
 data modify block -581 -54 1876 Items[9].Count set value 64
 
 ### Berry Bushes
+# Lobby
+setblock -551 114 1978 minecraft:sweet_berry_bush[age=3]
+
 # Frozen Crypts (Level 1)
 setblock -613 45 2004 minecraft:sweet_berry_bush[age=3]
 setblock -589 48 1964 minecraft:sweet_berry_bush[age=3]
