@@ -26,6 +26,7 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - utility -
 function do2:scoreboard/setup/advancements
+scoreboard objectives add do2.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"
 scoreboard objectives add do2.utility.coinsToGive dummy "Coins left to give"
