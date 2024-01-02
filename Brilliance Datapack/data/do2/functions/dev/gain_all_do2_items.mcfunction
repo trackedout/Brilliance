@@ -1,16 +1,16 @@
-give @s minecraft:iron_nugget{CustomModelData:1,display:{Name:'[{"text":"DO2 Coin"}]',Lore:['[{"text":"Iron Nugget (1)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:2,display:{Name:'[{"text":"DO2 Crown"}]',Lore:['[{"text":"Iron Nugget (2)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:3,display:{Name:'[{"text":"DO2 Ember"}]',Lore:['[{"text":"Iron Nugget (3)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:6,display:{Name:'[{"text":"DO2 Tome"}]',Lore:['[{"text":"Iron Nugget (6)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:201,display:{Name:'[{"text":"DO2 Lvl 2 Key"}]',Lore:['[{"text":"Iron Nugget (201)"}]']}}
+give @s minecraft:iron_nugget{CustomModelData:1,display:{Name:'[{"text":"❄☠ Decked Out Coin ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:2,display:{Name:'[{"text":"❄☠ Decked Out Crown ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:6,display:{Name:'[{"text":"❄☠ Victory Tome ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:201,display:{Name:'[{"text":"❄☠ The Caves of Carnage Key ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:202,display:{Name:'[{"text":"DO2 Unused Key"}]',Lore:['[{"text":"Iron Nugget (202)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:203,display:{Name:'[{"text":"DO2 Lvl 3 Key"}]',Lore:['[{"text":"Iron Nugget (203)"}]']}}
+give @s minecraft:iron_nugget{CustomModelData:203,display:{Name:'[{"text":"❄☠ The Black Mines Key ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:204,display:{Name:'[{"text":"DO2 Unused Key2"}]',Lore:['[{"text":"Iron Nugget (204)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:209,display:{Name:'[{"text":"DO2 Lvl 4 Key"}]',Lore:['[{"text":"Iron Nugget (209)"}]']}}
+give @s minecraft:iron_nugget{CustomModelData:209,display:{Name:'[{"text":"❄☠ The Burning Dark Key ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:205,display:{Name:'[{"text":"DO2 Pirate Key"}]',Lore:['[{"text":"Iron Nugget (205)"}]']}}
 give @s minecraft:iron_nugget{CustomModelData:206,display:{Name:'[{"text":"DO2 Broken Key"}]',Lore:['[{"text":"Iron Nugget (206)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:208,display:{Name:'[{"text":"DO2 Bomb"}]',Lore:['[{"text":"Iron Nugget (208)"}]']}}
-give @s minecraft:iron_ingot{CustomModelData:2,display:{Name:'[{"text":"DO2 Rusty Kit"}]',Lore:['[{"text":"Iron Ingot (2)"}]']}}
+give @s minecraft:iron_nugget{CustomModelData:208,display:{Name:'[{"bold":true,"color":"dark_aqua","text":"❄☠ The Bomb ☠❄"}]',Lore:['[{"text":"Iron Nugget (208)"}]']}}
+give @s minecraft:iron_ingot{CustomModelData:2,display:{Name:'[{"text":"❄☠ Rusty Repair Kit ☠❄"}]'}}
 give @s minecraft:carved_pumpkin{CustomModelData:46,display:{Name:'[{"text":"DO2 Tangos Hood"}]',Lore:['[{"text":"Carved Pumpkin (46)"}]']}}
 give @s minecraft:carved_pumpkin{CustomModelData:48,display:{Name:'[{"text":"DO2 Decked Out Door"}]',Lore:['[{"text":"Carved Pumpkin (48)"}]']}}
 give @s minecraft:carved_pumpkin{CustomModelData:86,display:{Name:'[{"text":"DO2 Glyph Block"}]',Lore:['[{"text":"Carved Pumpkin (86)"}]']}}

@@ -1,28 +1,29 @@
-give @s minecraft:iron_nugget{CustomModelData:10,display:{Name:'[{"text":"DO2 Pocket Watch of Shreeping"}]',Lore:['[{"text":"Iron Nugget (10)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:11,display:{Name:'[{"text":"DO2 Rocket Ship"}]',Lore:['[{"text":"Iron Nugget (11)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:12,display:{Name:'[{"text":"DO2 Chisel of the Undead Sculptress"}]',Lore:['[{"text":"Iron Nugget (12)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:13,display:{Name:'[{"text":"DO2 Goat Horns"}]',Lore:['[{"text":"Iron Nugget (13)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:14,display:{Name:'[{"text":"DO2 TnT Slab"}]',Lore:['[{"text":"Iron Nugget (14)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:15,display:{Name:'[{"text":"DO2 Goggles of Symmetry"}]',Lore:['[{"text":"Iron Nugget (15)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:16,display:{Name:'[{"text":"DO2 Gem of Greatness"}]',Lore:['[{"text":"Iron Nugget (16)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:17,display:{Name:'[{"text":"DO2 Multi Grain Waffle"}]',Lore:['[{"text":"Iron Nugget (17)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:18,display:{Name:'[{"text":"DO2 Hypnotic Bandanna"}]',Lore:['[{"text":"Iron Nugget (18)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:19,display:{Name:'[{"text":"DO2 Golden Eye"}]',Lore:['[{"text":"Iron Nugget (19)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:20,display:{Name:'[{"text":"DO2 Omega Eye of Doom"}]',Lore:['[{"text":"Iron Nugget (20)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:28,display:{Name:'[{"text":"DO2 Jar of Swift Slime"}]',Lore:['[{"text":"Iron Nugget (28)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:29,display:{Name:'[{"text":"DO2 Lore Book"}]',Lore:['[{"text":"Iron Nugget (29)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:30,display:{Name:'[{"text":"DO2 Pappa Slippers"}]',Lore:['[{"text":"Iron Nugget (30)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:31,display:{Name:'[{"text":"DO2 Hidden Stash"}]',Lore:['[{"text":"Iron Nugget (31)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:32,display:{Name:'[{"text":"DO2 Lunar Pearl"}]',Lore:['[{"text":"Iron Nugget (32)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:33,display:{Name:'[{"text":"DO2 Dogg One Shades"}]',Lore:['[{"text":"Iron Nugget (33)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:34,display:{Name:'[{"text":"DO2 Death loop"}]',Lore:['[{"text":"Iron Nugget (34)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:35,display:{Name:'[{"text":"DO2 Wand of Gorgeousness"}]',Lore:['[{"text":"Iron Nugget (35)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:36,display:{Name:'[{"text":"DO2 Adequate Mug"}]',Lore:['[{"text":"Iron Nugget (36)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:37,display:{Name:'[{"text":"DO2 The Masters Key"}]',Lore:['[{"text":"Iron Nugget (37)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:38,display:{Name:'[{"text":"DO2 Skadoodler"}]',Lore:['[{"text":"Iron Nugget (38)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:39,display:{Name:'[{"text":"DO2 An Old Friends Pickaxe"}]',Lore:['[{"text":"Iron Nugget (39)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:40,display:{Name:'[{"text":"DO2 Butchers Apron"}]',Lore:['[{"text":"Iron Nugget (40)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:41,display:{Name:'[{"text":"DO2 Knights Helm"}]',Lore:['[{"text":"Iron Nugget (41)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:42,display:{Name:'[{"text":"DO2 Hood of Awyeh"}]',Lore:['[{"text":"Iron Nugget (42)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:43,display:{Name:'[{"text":"DO2 Axe of the Void"}]',Lore:['[{"text":"Iron Nugget (43)"}]']}}
-give @s minecraft:iron_nugget{CustomModelData:44,display:{Name:'[{"text":"DO2 Crook of the Pink Shepherd"}]',Lore:['[{"text":"Iron Nugget (44)"}]']}}
+give @s minecraft:iron_nugget{CustomModelData:10,display:{Name:'{"bold":true,"color":"gold","text":"Pocket Watch of Shreeping (36)"}',Lore:['{"text":"Perfect sleeping every time."}']}}
+give @s minecraft:iron_nugget{CustomModelData:11,display:{Name:'{"bold":true,"color":"gold","text":"CF-135 (46)"}',Lore:['{"text":"Let\'s GO!"}']}}
+give @s minecraft:iron_nugget{CustomModelData:12,display:{Name:'{"bold":true,"color":"gold","text":"Chisel of the Undead Sculptress (19)"}',Lore:['{"text":"This macabre device bestows unlimited creativity"}', '{"text":"and sarcasm to its wielder.  Mostly sarcasm."}']}}
+give @s minecraft:iron_nugget{CustomModelData:13,display:{Name:'{"bold":true,"color":"gold","text":"Horn of the G.O.A.T. (18)"}',Lore:['{"text":"Grants untold knowledge of"}', '{"text":"ancient, wondrous technologies"}']}}
+#ethoSLAB
+give @s minecraft:iron_nugget{CustomModelData:14,display:{Name:'{"bold":true,"color":"gold","text":"The Slab (50)"}',Lore:['{"text":"The one that started it all. Accept no substitutes"}']}}
+give @s minecraft:iron_nugget{CustomModelData:15,display:{Name:'{"bold":true,"color":"gold","text":"Goggles of Symmetry (32)"}',Lore:['{"text":"Grants deceptively overpowering combat prowess."}', '{"text":"Also quite fashionable."}']}}
+give @s minecraft:iron_nugget{CustomModelData:16,display:{Name:'{"bold":true,"color":"gold","text":"Gem of Greatness (40)"}',Lore:['{"text":"This gem truly is great."}']}}
+give @s minecraft:iron_nugget{CustomModelData:17,display:{Name:'{"bold":true,"color":"gold","text":"Multi-Grain Waffle (8)"}',Lore:['{"text":"Often misspelled. Never duplicated."}']}}
+give @s minecraft:iron_nugget{CustomModelData:18,display:{Name:'{"bold":true,"color":"gold","text":"Hypnotic Bandana (21)"}',Lore:['{"text":"Gaze in Wonder. It seems to look back at you."}']}}
+give @s minecraft:iron_nugget{CustomModelData:19,display:{Name:'{"bold":true,"color":"gold","text":"Golden Eye (34)"}',Lore:['{"text":"iMazing \\"I\\" iNscribed iNside"}']}}
+give @s minecraft:iron_nugget{CustomModelData:20,display:{Name:'{"bold":true,"color":"gold","text":"Bionic Eye of Doom (24)"}',Lore:['{"text":"Also Omega. Probably Mega as well."}']}}
+give @s minecraft:iron_nugget{CustomModelData:28,display:{Name:'{"bold":true,"color":"gold","text":"Jar of Speedy Slime (11)"}',Lore:['{"text":"Drink to become an unkillable speedster!"}', '{"text":"*Infinite totems not included"}']}}
+give @s minecraft:iron_nugget{CustomModelData:29,display:{Name:'{"bold":true,"color":"gold","text":"Tome of the Hills (12)"}',Lore:['{"text":"An infinite source of transparent wisdom."}']}}
+give @s minecraft:iron_nugget{CustomModelData:30,display:{Name:'{"bold":true,"color":"gold","text":"Papa\'s Slippers (10)"}',Lore:['{"text":"Sweet faces to take you sweet places"}']}}
+give @s minecraft:iron_nugget{CustomModelData:31,display:{Name:'{"bold":true,"color":"gold","text":"The Hidden Stache (30)"}',Lore:['{"text":"Hidden inside you\'ll find an assortment of spoons"}', '{"text":"and dapper upper lip hair."}']}}
+give @s minecraft:iron_nugget{CustomModelData:32,display:{Name:'{"bold":true,"color":"gold","text":"Pearl of Cleansing (14)"}',Lore:['{"text":"Infused with strange alien powers,"}', '{"text":"this pearl can keep anything clean."}']}}
+give @s minecraft:iron_nugget{CustomModelData:33,display:{Name:'{"bold":true,"color":"gold","text":"Shades of the Dog (9)"}',Lore:['{"text":"Eye protection worthy of a king."}']}}
+give @s minecraft:iron_nugget{CustomModelData:34,display:{Name:'{"bold":true,"color":"gold","text":"Death Loop (13)"}',Lore:['{"text":"Causes an neverending stream of comical deaths."}']}}
+give @s minecraft:iron_nugget{CustomModelData:35,display:{Name:'{"bold":true,"color":"gold","text":"Wand of Gorgeousness (22)"}',Lore:['{"text":"Makes everything gorgeous.  Of course."}']}}
+give @s minecraft:iron_nugget{CustomModelData:36,display:{Name:'{"bold":true,"color":"gold","text":"Mug of the Dungeon Master (54)"}',Lore:['{"text":"Drinking from this enlarged chalice is said to"}', '{"text":"cause confusion, stuttering, and"}', '{"text":"loss of perception. "}']}}
+give @s minecraft:iron_nugget{CustomModelData:37,display:{Name:'{"bold":true,"color":"gold","text":"The Master\'s Key (60)"}',Lore:['{"text":"What could it possibly open? "}']}}
+give @s minecraft:iron_nugget{CustomModelData:38,display:{Name:'{"bold":true,"color":"gold","text":"The Skadoodler (52)"}',Lore:['{"text":"A unique device capable of creating"}', '{"text":"unlimited -ificators. Most won\'t work."}']}}
+give @s minecraft:iron_nugget{CustomModelData:39,display:{Name:'{"bold":true,"color":"gold","text":"An Old Friend\'s Pickaxe (38)"}',Lore:['{"text":"Worn down through years of use,"}', '{"text":"this artifact will never be forgotten."}']}}
+give @s minecraft:iron_nugget{CustomModelData:40,display:{Name:'{"bold":true,"color":"gold","text":"Butcher\'s Apron (20)"}',Lore:['{"text":"A bloody apron for the venerable gentleman."}']}}
+give @s minecraft:iron_nugget{CustomModelData:41,display:{Name:'{"bold":true,"color":"gold","text":"Knight\'s Helm (23)"}',Lore:['{"text":"Yep. It\'s knightly. Well and good."}']}}
+give @s minecraft:iron_nugget{CustomModelData:42,display:{Name:'{"bold":true,"color":"gold","text":"Hood of Aw\'Yah (6)"}',Lore:['{"text":"Wearing this hood may cause"}', '{"text":"uncontrollable giggling."}']}}
+give @s minecraft:iron_nugget{CustomModelData:43,display:{Name:'{"bold":true,"color":"gold","text":"Axe of the Screamin\' Void (7)"}',Lore:['{"text":"A legendary axe that never"}', '{"text":"stops shredding."}']}}
+give @s minecraft:iron_nugget{CustomModelData:44,display:{Name:'{"bold":true,"color":"gold","text":"Staff of the Pink Shepherd (48)"}',Lore:['{"text":"Honestly... Nobody really knows"}', '{"text":"what this thing does."}']}}
