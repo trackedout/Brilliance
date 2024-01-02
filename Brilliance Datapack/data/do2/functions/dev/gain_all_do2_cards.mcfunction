@@ -34,8 +34,3 @@ give @s minecraft:iron_nugget{CustomModelData:133,display:{Name:'[{"color":"#3C4
 give @s minecraft:iron_nugget{CustomModelData:134,display:{Name:'[{"color":"#3C44AA","text":"✧ Deepfrost ✧"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:135,display:{Name:'[{"color":"#3C44AA","text":"✧ Brilliance ✧"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:136,display:{Name:'[{"text":"DO2 Boots of Striding"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:137,display:{Name:'[{"text":"DO2 Glorious Moment"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:138,display:{Name:'[{"color":"#8932B8","text":"✧ Cash Cow ✧"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:139,display:{Name:'[{"color":"#8932B8","text":"✧ Avalanche ✧"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:140,display:{Name:'[{"text":"DO2 Beast Master"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:141,display:{Name:'[{"color":"#FED83D","text":"=✲ Dungeon Lackey ✲="}]'}}
