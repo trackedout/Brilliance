@@ -12,14 +12,8 @@ execute as @a[tag=do2.running] run function do2:agronet/log-event_dungeon-starte
 # =================================
 
 # do all scoreboard resets that happen per run.
-execute as @a[tag=do2.running] run function do2:scoreboard/per_run
-
-# setups dungeon clock.
-scoreboard players set $dungeon do2.run.active 1
-scoreboard players set $dungeon do2.run.empty_time 0
-scoreboard players set $dungeon do2.run.player_deaths 0
-scoreboard players set $dungeon do2.run.ticks 0
-scoreboard players set $dungeon do2.run.seconds 0
+execute as @a[tag=do2.running] run function do2:scoreboard/player_per_run
+function do2:scoreboard/dungeon_per_run
 
 #revoke all utility advancements. These are used for additional conditions
 advancement revoke @a from do2:utility/root
