@@ -53,10 +53,6 @@ TODO: *Add command blocks hooked up to the red stone. Move egg conditions to pre
 
 ### [on_game_end](./../Brilliance%20Datapack/data/do2/functions/events/on_game_end.mcfunction "on_game_end.mcfunction")
 
-## Scoreboard
-
-- include list of scoreboard objectives being used.
-
 ## General
 
 - as well as functions, include nbt tags being used.
