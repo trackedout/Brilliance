@@ -127,7 +127,7 @@ summon minecraft:area_effect_cloud -472 19 1952 {Duration: 2147483647, Tags: ["n
 summon minecraft:area_effect_cloud -465 20 1954 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z3"]}
 summon minecraft:area_effect_cloud -458 20 1956 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z3"]}
 summon minecraft:area_effect_cloud -453 20 1960 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z3"]}
-summon minecraft:area_effect_cloud -457 20 1967 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z3"]}]
+summon minecraft:area_effect_cloud -457 20 1967 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z3"]}
 
 # - Zone 4 - (42 spots) -
 summon minecraft:area_effect_cloud -522 14 1995 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
