@@ -30,12 +30,6 @@
 
 
 ## Automation
- - enter_with_3_unique_keys
-    - Don't have item/nbt data to know what the key items are.
-    - Don't have location data to know where starting platform is.
- - enter_with_1_unique_keys
-    - Don't have item/nbt data to know what the key items are.
-    - Don't have location data to know where starting platform is.
  - craft_1_legendary
       - Don't have data tracking for crafting legendaries yet.
  - lifetime_tomes, lifetime_crowns, lifetime_embers

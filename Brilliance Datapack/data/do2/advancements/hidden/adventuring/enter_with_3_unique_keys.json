@@ -11,8 +11,6 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"comment1": "SET LOCATION TO BE STARTING PLATFORM",
-	"comment2": "SET ITEMS TO BE THE KEYS",
 	"criteria": {
 		"have_3_unique_floor_keys": {
 			"trigger": "minecraft:tick",
@@ -44,22 +42,22 @@
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Inventory:[{id:\"minecraft:diamond\",Count:1b}]}"
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
 									"type": "minecraft:player",
-									"nbt": "{Inventory:[{id:\"minecraft:emerald\",Count:1b}]}"
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:201}]}"
 								}
 							},
 							{
 								"condition": "minecraft:entity_properties",
 								"entity": "this",
 								"predicate": {
-									"nbt": "{Inventory:[{id:\"minecraft:redstone\",Count:1b}]}"
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:203}]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:209}]}"
 								}
 							}
 						]
