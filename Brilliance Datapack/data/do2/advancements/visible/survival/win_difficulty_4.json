@@ -4,7 +4,7 @@
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111120}"
         },
-        "title": "§bNot-So-§4Deadly§b Mode",
+        "title": "§bNot-So-Deadly Mode",
         "description": "§7Win a run on §4Deadly§7 difficulty.",
         "frame": "goal",
         "show_toast": false,

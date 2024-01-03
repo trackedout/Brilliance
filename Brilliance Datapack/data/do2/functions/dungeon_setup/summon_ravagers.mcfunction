@@ -14,3 +14,6 @@ execute at @e[type=area_effect_cloud,tag=L2Z2,limit=1,sort=random] run summon ra
 execute at @e[type=area_effect_cloud,tag=L2Z3,limit=1,sort=random] run summon ravager ~ ~ ~ {Invulnerable: 1b, Tags: ["L2Z3"],  Health: 100f, CustomName: '{"text":"big butts and I cannot lie"}', Fire: -1s}
 execute at @e[type=area_effect_cloud,tag=L2Z4,limit=1,sort=random] run summon ravager ~ ~ ~ {Invulnerable: 1b, Tags: ["L2Z4"],  Health: 100f, CustomName: '{"text":"Sir Fluffykins of the Dungeon"}', Fire: -1s}
 execute at @e[type=area_effect_cloud,tag=L2Z5,limit=1,sort=random] run summon ravager ~ ~ ~ {Invulnerable: 1b, Tags: ["L2Z5"],  Health: 100f, CustomName: '{"text":"Nugget"}', Fire: -1s}
+
+# Death Gauntlet Ravager
+summon minecraft:ravager -632 -48 1990 {Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}

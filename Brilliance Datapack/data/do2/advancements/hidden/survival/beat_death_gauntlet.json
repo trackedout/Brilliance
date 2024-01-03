@@ -11,29 +11,27 @@
 		"hidden": true
 	},
 	"criteria": {
-		"auto": {
-			"trigger": "minecraft:impossible",
+		"beat_death_gauntlet": {
+			"trigger": "minecraft:location",
 			"conditions": {
-				"player": [
-					{
-						"nbt": "{Tags:[\"do2.running\"]}",
-						"comment": "SET LOCATION TO BE INSIDE GAUNTLET ROOM",
+				"player": {
+					"location": {
 						"position": {
 							"x": {
-								"min": 0,
-								"max": 0
+								"min": -620,
+								"max": -616
 							},
 							"y": {
-								"min": 0,
-								"max": 0
+								"min": -49,
+								"max": -47
 							},
 							"z": {
-								"min": 0,
-								"max": 0
+								"min": 1984,
+								"max": 1988
 							}
 						}
 					}
-				]
+				}
 			}
 		}
 	},

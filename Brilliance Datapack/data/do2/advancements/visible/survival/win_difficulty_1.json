@@ -4,7 +4,7 @@
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111117}"
         },
-        "title": "§bIs This §1Easy§b Mode?",
+        "title": "§bIs This Easy Mode?",
         "description":  "§7Win a run on §1Easy§7 difficulty.",
         "frame": "task",
         "show_toast": false,

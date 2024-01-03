@@ -4,18 +4,22 @@
 		"reach_under_tnt_depth_charge": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"position": {
-					"x": {
-						"min": -584,
-						"max": -580
-					},
-					"y": {
-						"min": 15,
-						"max": 16
-					},
-					"z": {
-						"min": 1968,
-						"max": 1972
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -584,
+								"max": -580
+							},
+							"y": {
+								"min": 13.5,
+								"max": 16
+							},
+							"z": {
+								"min": 1968,
+								"max": 1972
+							}
+						}
 					}
 				}
 			}
@@ -25,5 +29,4 @@
 		"function": "do2:events/dungeon/on_reached_bottom_tnt_depth_charge"
 	},
 	"parent": "do2:utility/root"
-	
 }

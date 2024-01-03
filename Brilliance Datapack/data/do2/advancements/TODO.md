@@ -30,26 +30,14 @@
 
 
 ## Automation
- - utility/reach_bottom_tnt_depth_charge
-   - Don't have location of bottom of tnt depth charge
- - survive_tnt_dive
-   - Don't have location of TOP of tnt depth charge.
- - have_4_unique_keys
-   - Don't have item/nbt data to know what the key items are.
  - enter_with_3_unique_keys
     - Don't have item/nbt data to know what the key items are.
     - Don't have location data to know where starting platform is.
  - enter_with_1_unique_keys
     - Don't have item/nbt data to know what the key items are.
     - Don't have location data to know where starting platform is.
- - beat_death_gauntlet
-   - Triggers upon location reach. We need to know coords of death gauntlet.
- - open_basalt_door
-   - Triggers upon opening basalt door.
- - use_dm_key
-   - Don't have location data to know where DM's room is
-   - craft_1_legendary
-       - Don't have data tracking for crafting legendaries yet.
+ - craft_1_legendary
+      - Don't have data tracking for crafting legendaries yet.
  - lifetime_tomes, lifetime_crowns, lifetime_embers
    - Don't have lifetime totals.
  - submit_tomes

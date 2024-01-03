@@ -4,7 +4,7 @@
             "item": "minecraft:redstone",
             "nbt": "{'CustomModelData': 1111119}"
         },
-       "title": "§bEasier Than §aMedium§b?",
+       "title": "§bEasier Than Medium?",
        "description":  "§7Win a run on §6Hard§7 difficulty.",
         "frame": "goal",
         "show_toast": true,

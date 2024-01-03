@@ -10,28 +10,9 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
-	"comment1": "SET LOCATION TO INSIDE DM'S ROOM",
 	"criteria": {
-		"enter_dm_room": {
-			"trigger": "minecraft:tick",
-			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"nbt": "{Tags:[\"do2.running\"]}",
-							"location": {
-								"position": {
-									"x": 0,
-									"y": 0,
-									"z": 0
-								}
-							}
-						}
-					}
-				]
-			}
+		"given_by_commands": {
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "do2:hidden/adventuring/open_basalt_door"

@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:40}"
 		},
 		"title": "§bEgg Hunter",
 		"description": "§7Discover an Easter egg.",

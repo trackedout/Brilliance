@@ -26,16 +26,16 @@
 								"predicate": {
 									"position": {
 										"x": {
-											"min": 0,
-											"max": 1
+											"min": -627,
+											"max": -617
 										},
 										"y": {
-											"min": 0,
-											"max": 1
+											"min": 47,
+											"max": 49
 										},
 										"z": {
-											"min": 0,
-											"max": 1
+											"min": 1937,
+											"max": 1955
 										}
 									}
 								}
