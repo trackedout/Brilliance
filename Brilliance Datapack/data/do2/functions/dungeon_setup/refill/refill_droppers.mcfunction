@@ -169,68 +169,38 @@ data modify block -549 106 1970 Items[8].Count set value 64
 
 ### Items
 # Maps
-data modify block -625 59 1945 Items[0].Count set value 64
-data modify block -625 59 1945 Items[1].Count set value 64
-data modify block -625 59 1945 Items[2].Count set value 64
-data modify block -625 59 1945 Items[3].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[3].Count set value 64
-data modify block -625 59 1945 Items[3].tag set value {"map": 976}
-data modify block -625 59 1945 Items[4].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[4].Count set value 64
-data modify block -625 59 1945 Items[4].tag set value {"map": 976}
-data modify block -625 59 1945 Items[5].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[5].Count set value 64
-data modify block -625 59 1945 Items[5].tag set value {"map": 976}
-data modify block -625 59 1945 Items[6].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[6].Count set value 64
-data modify block -625 59 1945 Items[6].tag set value {"map": 976}
-data modify block -625 59 1945 Items[7].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[7].Count set value 64
-data modify block -625 59 1945 Items[7].tag set value {"map": 976}
-data modify block -625 59 1945 Items[8].id set value "minecraft:filled_map"
-data modify block -625 59 1945 Items[8].Count set value 64
-data modify block -625 59 1945 Items[8].tag set value {"map": 976}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:0b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:1b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:2b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:3b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:4b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:5b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:6b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:7b,tag:{map:976}}
+data modify block -625 59 1945 Items append value {id:"minecraft:filled_map",Count:64b,Slot:8b,tag:{map:976}}
 
 # Suit Up
 setblock -629 57 1949 dropper replace
-data modify block -629 57 1949 Items[0].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[0].Count set value 64
-data modify block -629 57 1949 Items[1].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[1].Count set value 64
-data modify block -629 57 1949 Items[2].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[2].Count set value 64
-data modify block -629 57 1949 Items[3].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[3].Count set value 64
-data modify block -629 57 1949 Items[4].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[4].Count set value 64
-data modify block -629 57 1949 Items[5].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[5].Count set value 64
-data modify block -629 57 1949 Items[6].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[6].Count set value 64
-data modify block -629 57 1949 Items[7].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[7].Count set value 64
-data modify block -629 57 1949 Items[8].id set value "minecraft:diamond_leggings"
-data modify block -629 57 1949 Items[8].Count set value 64
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:0b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:1b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:2b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:3b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:4b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:5b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:6b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:7b}
+data modify block -629 57 1949 Items append value {id:"minecraft:diamond_leggings",Count:64b,Slot:8b}
 
 setblock -630 57 1949 dropper replace
-data modify block -630 57 1949 Items[0].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[0].Count set value 64
-data modify block -630 57 1949 Items[1].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[1].Count set value 64
-data modify block -630 57 1949 Items[2].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[2].Count set value 64
-data modify block -630 57 1949 Items[3].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[3].Count set value 64
-data modify block -630 57 1949 Items[4].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[4].Count set value 64
-data modify block -630 57 1949 Items[5].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[5].Count set value 64
-data modify block -630 57 1949 Items[6].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[6].Count set value 64
-data modify block -630 57 1949 Items[7].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[7].Count set value 64
-data modify block -630 57 1949 Items[8].id set value "minecraft:diamond_chestplate"
-data modify block -630 57 1949 Items[8].Count set value 64
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:0b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:1b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:2b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:3b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:4b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:5b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:6b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:7b}
+data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:8b}
 
 clone -629 57 1949 -630 57 1949 -630 58 1945
 setblock -629 57 1949 air replace
@@ -2538,343 +2508,6 @@ data modify block -523 12 2042 Items[6].Count set value 64
 data modify block -523 12 2042 Items[7].Count set value 64
 data modify block -523 12 2042 Items[8].Count set value 64
 
-### Artifact Turn-in
-# Dropper #1
-data modify block -633 -20 1952 Items[0].Count set value 64
-data modify block -633 -20 1952 Items[1].Count set value 64
-data modify block -633 -20 1952 Items[2].Count set value 64
-data modify block -633 -20 1952 Items[3].Count set value 64
-data modify block -633 -20 1952 Items[4].Count set value 64
-data modify block -633 -20 1952 Items[5].Count set value 64
-data modify block -633 -20 1952 Items[6].Count set value 64
-data modify block -633 -20 1952 Items[7].Count set value 64
-data modify block -633 -20 1952 Items[8].Count set value 64
-data modify block -633 -20 1952 Items[9].Count set value 64
-
-# Dropper #2
-data modify block -633 -20 1953 Items[0].Count set value 64
-data modify block -633 -20 1953 Items[1].Count set value 64
-data modify block -633 -20 1953 Items[2].Count set value 64
-data modify block -633 -20 1953 Items[3].Count set value 64
-data modify block -633 -20 1953 Items[4].Count set value 64
-data modify block -633 -20 1953 Items[5].Count set value 64
-data modify block -633 -20 1953 Items[6].Count set value 64
-data modify block -633 -20 1953 Items[7].Count set value 64
-data modify block -633 -20 1953 Items[8].Count set value 64
-data modify block -633 -20 1953 Items[9].Count set value 64
-
-# Dropper #3
-data modify block -633 -20 1954 Items[0].Count set value 64
-data modify block -633 -20 1954 Items[1].Count set value 64
-data modify block -633 -20 1954 Items[2].Count set value 64
-data modify block -633 -20 1954 Items[3].Count set value 64
-data modify block -633 -20 1954 Items[4].Count set value 64
-data modify block -633 -20 1954 Items[5].Count set value 64
-data modify block -633 -20 1954 Items[6].Count set value 64
-data modify block -633 -20 1954 Items[7].Count set value 64
-data modify block -633 -20 1954 Items[8].Count set value 64
-data modify block -633 -20 1954 Items[9].Count set value 64
-
-# Dropper #4
-data modify block -633 -20 1955 Items[0].Count set value 64
-data modify block -633 -20 1955 Items[1].Count set value 64
-data modify block -633 -20 1955 Items[2].Count set value 64
-data modify block -633 -20 1955 Items[3].Count set value 64
-data modify block -633 -20 1955 Items[4].Count set value 64
-data modify block -633 -20 1955 Items[5].Count set value 64
-data modify block -633 -20 1955 Items[6].Count set value 64
-data modify block -633 -20 1955 Items[7].Count set value 64
-data modify block -633 -20 1955 Items[8].Count set value 64
-data modify block -633 -20 1955 Items[9].Count set value 64
-
-# Dropper #5
-data modify block -633 -20 1956 Items[0].Count set value 64
-data modify block -633 -20 1956 Items[1].Count set value 64
-data modify block -633 -20 1956 Items[2].Count set value 64
-data modify block -633 -20 1956 Items[3].Count set value 64
-data modify block -633 -20 1956 Items[4].Count set value 64
-data modify block -633 -20 1956 Items[5].Count set value 64
-data modify block -633 -20 1956 Items[6].Count set value 64
-data modify block -633 -20 1956 Items[7].Count set value 64
-data modify block -633 -20 1956 Items[8].Count set value 64
-data modify block -633 -20 1956 Items[9].Count set value 64
-
-# Dropper #6
-data modify block -633 -20 1957 Items[0].Count set value 64
-data modify block -633 -20 1957 Items[1].Count set value 64
-data modify block -633 -20 1957 Items[2].Count set value 64
-data modify block -633 -20 1957 Items[3].Count set value 64
-data modify block -633 -20 1957 Items[4].Count set value 64
-data modify block -633 -20 1957 Items[5].Count set value 64
-data modify block -633 -20 1957 Items[6].Count set value 64
-data modify block -633 -20 1957 Items[7].Count set value 64
-data modify block -633 -20 1957 Items[8].Count set value 64
-data modify block -633 -20 1957 Items[9].Count set value 64
-
-# Dropper #7
-data modify block -633 -20 1958 Items[0].Count set value 64
-data modify block -633 -20 1958 Items[1].Count set value 64
-data modify block -633 -20 1958 Items[2].Count set value 64
-data modify block -633 -20 1958 Items[3].Count set value 64
-data modify block -633 -20 1958 Items[4].Count set value 64
-data modify block -633 -20 1958 Items[5].Count set value 64
-data modify block -633 -20 1958 Items[6].Count set value 64
-data modify block -633 -20 1958 Items[7].Count set value 64
-data modify block -633 -20 1958 Items[8].Count set value 64
-data modify block -633 -20 1958 Items[9].Count set value 64
-
-# Dropper #8
-data modify block -633 -20 1959 Items[0].Count set value 64
-data modify block -633 -20 1959 Items[1].Count set value 64
-data modify block -633 -20 1959 Items[2].Count set value 64
-data modify block -633 -20 1959 Items[3].Count set value 64
-data modify block -633 -20 1959 Items[4].Count set value 64
-data modify block -633 -20 1959 Items[5].Count set value 64
-data modify block -633 -20 1959 Items[6].Count set value 64
-data modify block -633 -20 1959 Items[7].Count set value 64
-data modify block -633 -20 1959 Items[8].Count set value 64
-data modify block -633 -20 1959 Items[9].Count set value 64
-
-# Dropper #9
-data modify block -633 -20 1960 Items[0].Count set value 64
-data modify block -633 -20 1960 Items[1].Count set value 64
-data modify block -633 -20 1960 Items[2].Count set value 64
-data modify block -633 -20 1960 Items[3].Count set value 64
-data modify block -633 -20 1960 Items[4].Count set value 64
-data modify block -633 -20 1960 Items[5].Count set value 64
-data modify block -633 -20 1960 Items[6].Count set value 64
-data modify block -633 -20 1960 Items[7].Count set value 64
-data modify block -633 -20 1960 Items[8].Count set value 64
-data modify block -633 -20 1960 Items[9].Count set value 64
-
-# Dropper #10
-data modify block -633 -20 1961 Items[0].Count set value 64
-data modify block -633 -20 1961 Items[1].Count set value 64
-data modify block -633 -20 1961 Items[2].Count set value 64
-data modify block -633 -20 1961 Items[3].Count set value 64
-data modify block -633 -20 1961 Items[4].Count set value 64
-data modify block -633 -20 1961 Items[5].Count set value 64
-data modify block -633 -20 1961 Items[6].Count set value 64
-data modify block -633 -20 1961 Items[7].Count set value 64
-data modify block -633 -20 1961 Items[8].Count set value 64
-data modify block -633 -20 1961 Items[9].Count set value 64
-
-# Dropper #11
-data modify block -633 -20 1962 Items[0].Count set value 64
-data modify block -633 -20 1962 Items[1].Count set value 64
-data modify block -633 -20 1962 Items[2].Count set value 64
-data modify block -633 -20 1962 Items[3].Count set value 64
-data modify block -633 -20 1962 Items[4].Count set value 64
-data modify block -633 -20 1962 Items[5].Count set value 64
-data modify block -633 -20 1962 Items[6].Count set value 64
-data modify block -633 -20 1962 Items[7].Count set value 64
-data modify block -633 -20 1962 Items[8].Count set value 64
-data modify block -633 -20 1962 Items[9].Count set value 64
-
-# Dropper #12
-data modify block -633 -20 1963 Items[0].Count set value 64
-data modify block -633 -20 1963 Items[1].Count set value 64
-data modify block -633 -20 1963 Items[2].Count set value 64
-data modify block -633 -20 1963 Items[3].Count set value 64
-data modify block -633 -20 1963 Items[4].Count set value 64
-data modify block -633 -20 1963 Items[5].Count set value 64
-data modify block -633 -20 1963 Items[6].Count set value 64
-data modify block -633 -20 1963 Items[7].Count set value 64
-data modify block -633 -20 1963 Items[8].Count set value 64
-data modify block -633 -20 1963 Items[9].Count set value 64
-
-# Dropper #13
-data modify block -633 -20 1964 Items[0].Count set value 64
-data modify block -633 -20 1964 Items[1].Count set value 64
-data modify block -633 -20 1964 Items[2].Count set value 64
-data modify block -633 -20 1964 Items[3].Count set value 64
-data modify block -633 -20 1964 Items[4].Count set value 64
-data modify block -633 -20 1964 Items[5].Count set value 64
-data modify block -633 -20 1964 Items[6].Count set value 64
-data modify block -633 -20 1964 Items[7].Count set value 64
-data modify block -633 -20 1964 Items[8].Count set value 64
-data modify block -633 -20 1964 Items[9].Count set value 64
-
-# Dropper #14
-data modify block -633 -20 1965 Items[0].Count set value 64
-data modify block -633 -20 1965 Items[1].Count set value 64
-data modify block -633 -20 1965 Items[2].Count set value 64
-data modify block -633 -20 1965 Items[3].Count set value 64
-data modify block -633 -20 1965 Items[4].Count set value 64
-data modify block -633 -20 1965 Items[5].Count set value 64
-data modify block -633 -20 1965 Items[6].Count set value 64
-data modify block -633 -20 1965 Items[7].Count set value 64
-data modify block -633 -20 1965 Items[8].Count set value 64
-data modify block -633 -20 1965 Items[9].Count set value 64
-
-# Dropper #15
-data modify block -633 -20 1966 Items[0].Count set value 64
-data modify block -633 -20 1966 Items[1].Count set value 64
-data modify block -633 -20 1966 Items[2].Count set value 64
-data modify block -633 -20 1966 Items[3].Count set value 64
-data modify block -633 -20 1966 Items[4].Count set value 64
-data modify block -633 -20 1966 Items[5].Count set value 64
-data modify block -633 -20 1966 Items[6].Count set value 64
-data modify block -633 -20 1966 Items[7].Count set value 64
-data modify block -633 -20 1966 Items[8].Count set value 64
-data modify block -633 -20 1966 Items[9].Count set value 64
-
-# Dropper #16
-data modify block -633 -20 1967 Items[0].Count set value 64
-data modify block -633 -20 1967 Items[1].Count set value 64
-data modify block -633 -20 1967 Items[2].Count set value 64
-data modify block -633 -20 1967 Items[3].Count set value 64
-data modify block -633 -20 1967 Items[4].Count set value 64
-data modify block -633 -20 1967 Items[5].Count set value 64
-data modify block -633 -20 1967 Items[6].Count set value 64
-data modify block -633 -20 1967 Items[7].Count set value 64
-data modify block -633 -20 1967 Items[8].Count set value 64
-data modify block -633 -20 1967 Items[9].Count set value 64
-
-# Dropper #17
-data modify block -633 -20 1968 Items[0].Count set value 64
-data modify block -633 -20 1968 Items[1].Count set value 64
-data modify block -633 -20 1968 Items[2].Count set value 64
-data modify block -633 -20 1968 Items[3].Count set value 64
-data modify block -633 -20 1968 Items[4].Count set value 64
-data modify block -633 -20 1968 Items[5].Count set value 64
-data modify block -633 -20 1968 Items[6].Count set value 64
-data modify block -633 -20 1968 Items[7].Count set value 64
-data modify block -633 -20 1968 Items[8].Count set value 64
-data modify block -633 -20 1968 Items[9].Count set value 64
-
-# Dropper #18
-data modify block -633 -20 1969 Items[0].Count set value 64
-data modify block -633 -20 1969 Items[1].Count set value 64
-data modify block -633 -20 1969 Items[2].Count set value 64
-data modify block -633 -20 1969 Items[3].Count set value 64
-data modify block -633 -20 1969 Items[4].Count set value 64
-data modify block -633 -20 1969 Items[5].Count set value 64
-data modify block -633 -20 1969 Items[6].Count set value 64
-data modify block -633 -20 1969 Items[7].Count set value 64
-data modify block -633 -20 1969 Items[8].Count set value 64
-data modify block -633 -20 1969 Items[9].Count set value 64
-
-# Dropper #19
-data modify block -633 -20 1970 Items[0].Count set value 64
-data modify block -633 -20 1970 Items[1].Count set value 64
-data modify block -633 -20 1970 Items[2].Count set value 64
-data modify block -633 -20 1970 Items[3].Count set value 64
-data modify block -633 -20 1970 Items[4].Count set value 64
-data modify block -633 -20 1970 Items[5].Count set value 64
-data modify block -633 -20 1970 Items[6].Count set value 64
-data modify block -633 -20 1970 Items[7].Count set value 64
-data modify block -633 -20 1970 Items[8].Count set value 64
-data modify block -633 -20 1970 Items[9].Count set value 64
-
-# Dropper #20
-data modify block -633 -20 1971 Items[0].Count set value 64
-data modify block -633 -20 1971 Items[1].Count set value 64
-data modify block -633 -20 1971 Items[2].Count set value 64
-data modify block -633 -20 1971 Items[3].Count set value 64
-data modify block -633 -20 1971 Items[4].Count set value 64
-data modify block -633 -20 1971 Items[5].Count set value 64
-data modify block -633 -20 1971 Items[6].Count set value 64
-data modify block -633 -20 1971 Items[7].Count set value 64
-data modify block -633 -20 1971 Items[8].Count set value 64
-data modify block -633 -20 1971 Items[9].Count set value 64
-
-# Dropper #21
-data modify block -633 -20 1972 Items[0].Count set value 64
-data modify block -633 -20 1972 Items[1].Count set value 64
-data modify block -633 -20 1972 Items[2].Count set value 64
-data modify block -633 -20 1972 Items[3].Count set value 64
-data modify block -633 -20 1972 Items[4].Count set value 64
-data modify block -633 -20 1972 Items[5].Count set value 64
-data modify block -633 -20 1972 Items[6].Count set value 64
-data modify block -633 -20 1972 Items[7].Count set value 64
-data modify block -633 -20 1972 Items[8].Count set value 64
-data modify block -633 -20 1972 Items[9].Count set value 64
-
-# Dropper #22
-data modify block -633 -20 1973 Items[0].Count set value 64
-data modify block -633 -20 1973 Items[1].Count set value 64
-data modify block -633 -20 1973 Items[2].Count set value 64
-data modify block -633 -20 1973 Items[3].Count set value 64
-data modify block -633 -20 1973 Items[4].Count set value 64
-data modify block -633 -20 1973 Items[5].Count set value 64
-data modify block -633 -20 1973 Items[6].Count set value 64
-data modify block -633 -20 1973 Items[7].Count set value 64
-data modify block -633 -20 1973 Items[8].Count set value 64
-data modify block -633 -20 1973 Items[9].Count set value 64
-
-# Dropper #23
-data modify block -633 -20 1974 Items[0].Count set value 64
-data modify block -633 -20 1974 Items[1].Count set value 64
-data modify block -633 -20 1974 Items[2].Count set value 64
-data modify block -633 -20 1974 Items[3].Count set value 64
-data modify block -633 -20 1974 Items[4].Count set value 64
-data modify block -633 -20 1974 Items[5].Count set value 64
-data modify block -633 -20 1974 Items[6].Count set value 64
-data modify block -633 -20 1974 Items[7].Count set value 64
-data modify block -633 -20 1974 Items[8].Count set value 64
-data modify block -633 -20 1974 Items[9].Count set value 64
-
-# Dropper #24
-data modify block -633 -20 1975 Items[0].Count set value 64
-data modify block -633 -20 1975 Items[1].Count set value 64
-data modify block -633 -20 1975 Items[2].Count set value 64
-data modify block -633 -20 1975 Items[3].Count set value 64
-data modify block -633 -20 1975 Items[4].Count set value 64
-data modify block -633 -20 1975 Items[5].Count set value 64
-data modify block -633 -20 1975 Items[6].Count set value 64
-data modify block -633 -20 1975 Items[7].Count set value 64
-data modify block -633 -20 1975 Items[8].Count set value 64
-data modify block -633 -20 1975 Items[9].Count set value 64
-
-# Dropper #25
-data modify block -633 -20 1976 Items[0].Count set value 64
-data modify block -633 -20 1976 Items[1].Count set value 64
-data modify block -633 -20 1976 Items[2].Count set value 64
-data modify block -633 -20 1976 Items[3].Count set value 64
-data modify block -633 -20 1976 Items[4].Count set value 64
-data modify block -633 -20 1976 Items[5].Count set value 64
-data modify block -633 -20 1976 Items[6].Count set value 64
-data modify block -633 -20 1976 Items[7].Count set value 64
-data modify block -633 -20 1976 Items[8].Count set value 64
-data modify block -633 -20 1976 Items[9].Count set value 64
-
-# Dropper #26
-data modify block -633 -20 1977 Items[0].Count set value 64
-data modify block -633 -20 1977 Items[1].Count set value 64
-data modify block -633 -20 1977 Items[2].Count set value 64
-data modify block -633 -20 1977 Items[3].Count set value 64
-data modify block -633 -20 1977 Items[4].Count set value 64
-data modify block -633 -20 1977 Items[5].Count set value 64
-data modify block -633 -20 1977 Items[6].Count set value 64
-data modify block -633 -20 1977 Items[7].Count set value 64
-data modify block -633 -20 1977 Items[8].Count set value 64
-data modify block -633 -20 1977 Items[9].Count set value 64
-
-# Dropper #27
-data modify block -633 -20 1978 Items[0].Count set value 64
-data modify block -633 -20 1978 Items[1].Count set value 64
-data modify block -633 -20 1978 Items[2].Count set value 64
-data modify block -633 -20 1978 Items[3].Count set value 64
-data modify block -633 -20 1978 Items[4].Count set value 64
-data modify block -633 -20 1978 Items[5].Count set value 64
-data modify block -633 -20 1978 Items[6].Count set value 64
-data modify block -633 -20 1978 Items[7].Count set value 64
-data modify block -633 -20 1978 Items[8].Count set value 64
-data modify block -633 -20 1978 Items[9].Count set value 64
-
-# Dropper #28
-data modify block -633 -20 1979 Items[0].Count set value 64
-data modify block -633 -20 1979 Items[1].Count set value 64
-data modify block -633 -20 1979 Items[2].Count set value 64
-data modify block -633 -20 1979 Items[3].Count set value 64
-data modify block -633 -20 1979 Items[4].Count set value 64
-data modify block -633 -20 1979 Items[5].Count set value 64
-data modify block -633 -20 1979 Items[6].Count set value 64
-data modify block -633 -20 1979 Items[7].Count set value 64
-data modify block -633 -20 1979 Items[8].Count set value 64
-data modify block -633 -20 1979 Items[9].Count set value 64
-
 ### Artifake
 # Dropper #1
 data modify block -641 -23 1951 Items[0].Count set value 64
@@ -3211,6 +2844,144 @@ data modify block -641 -23 1978 Items[6].Count set value 64
 data modify block -641 -23 1978 Items[7].Count set value 64
 data modify block -641 -23 1978 Items[8].Count set value 64
 data modify block -641 -23 1978 Items[9].Count set value 64
+
+### Artifake embers
+# Hoppers
+setblock -634 -22 1945 minecraft:hopper[facing=down]
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+clone -634 -22 1945 -634 -22 1945 -633 -19 1952
+clone -634 -22 1945 -634 -22 1945 -633 -19 1953
+clone -634 -22 1945 -634 -22 1945 -633 -19 1954
+clone -634 -22 1945 -634 -22 1945 -633 -19 1955
+clone -634 -22 1945 -634 -22 1945 -633 -19 1956
+clone -634 -22 1945 -634 -22 1945 -633 -19 1957
+clone -634 -22 1945 -634 -22 1945 -633 -19 1958
+clone -634 -22 1945 -634 -22 1945 -633 -19 1959
+clone -634 -22 1945 -634 -22 1945 -633 -19 1960
+clone -634 -22 1945 -634 -22 1945 -633 -19 1961
+clone -634 -22 1945 -634 -22 1945 -633 -19 1962
+clone -634 -22 1945 -634 -22 1945 -633 -19 1963
+clone -634 -22 1945 -634 -22 1945 -633 -19 1964
+clone -634 -22 1945 -634 -22 1945 -633 -19 1965
+clone -634 -22 1945 -634 -22 1945 -633 -19 1966
+clone -634 -22 1945 -634 -22 1945 -633 -19 1967
+clone -634 -22 1945 -634 -22 1945 -633 -19 1968
+clone -634 -22 1945 -634 -22 1945 -633 -19 1969
+clone -634 -22 1945 -634 -22 1945 -633 -19 1970
+clone -634 -22 1945 -634 -22 1945 -633 -19 1971
+clone -634 -22 1945 -634 -22 1945 -633 -19 1972
+clone -634 -22 1945 -634 -22 1945 -633 -19 1973
+clone -634 -22 1945 -634 -22 1945 -633 -19 1974
+clone -634 -22 1945 -634 -22 1945 -633 -19 1975
+clone -634 -22 1945 -634 -22 1945 -633 -19 1976
+clone -634 -22 1945 -634 -22 1945 -633 -19 1977
+clone -634 -22 1945 -634 -22 1945 -633 -19 1978
+clone -634 -22 1945 -634 -22 1945 -633 -19 1979
+setblock -634 -22 1945 air replace
+
+# Barrels
+setblock -633 -18 1951 barrel[facing=west] replace
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:9b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:10b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:11b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:12b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:13b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:14b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:15b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:16b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:17b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:18b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:19b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:20b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:21b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:22b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:23b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:24b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:25b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:26b}
+clone -633 -18 1951 -633 -18 1951 -633 -18 1952
+clone -633 -18 1951 -633 -18 1951 -633 -18 1953
+clone -633 -18 1951 -633 -18 1951 -633 -18 1954
+clone -633 -18 1951 -633 -18 1951 -633 -18 1955
+clone -633 -18 1951 -633 -18 1951 -633 -18 1956
+clone -633 -18 1951 -633 -18 1951 -633 -18 1957
+clone -633 -18 1951 -633 -18 1951 -633 -18 1958
+clone -633 -18 1951 -633 -18 1951 -633 -18 1959
+clone -633 -18 1951 -633 -18 1951 -633 -18 1960
+clone -633 -18 1951 -633 -18 1951 -633 -18 1961
+clone -633 -18 1951 -633 -18 1951 -633 -18 1962
+clone -633 -18 1951 -633 -18 1951 -633 -18 1963
+clone -633 -18 1951 -633 -18 1951 -633 -18 1964
+clone -633 -18 1951 -633 -18 1951 -633 -18 1965
+clone -633 -18 1951 -633 -18 1951 -633 -18 1966
+clone -633 -18 1951 -633 -18 1951 -633 -18 1967
+clone -633 -18 1951 -633 -18 1951 -633 -18 1968
+clone -633 -18 1951 -633 -18 1951 -633 -18 1969
+clone -633 -18 1951 -633 -18 1951 -633 -18 1970
+clone -633 -18 1951 -633 -18 1951 -633 -18 1971
+clone -633 -18 1951 -633 -18 1951 -633 -18 1972
+clone -633 -18 1951 -633 -18 1951 -633 -18 1973
+clone -633 -18 1951 -633 -18 1951 -633 -18 1974
+clone -633 -18 1951 -633 -18 1951 -633 -18 1975
+clone -633 -18 1951 -633 -18 1951 -633 -18 1976
+clone -633 -18 1951 -633 -18 1951 -633 -18 1977
+clone -633 -18 1951 -633 -18 1951 -633 -18 1978
+clone -633 -18 1951 -633 -18 1951 -633 -18 1979
+setblock -633 -18 1951 air replace
+
+# Droppers
+setblock -633 -22 1945 dropper[facing=east] replace
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
+clone -633 -22 1945 -633 -22 1945 -633 -20 1952
+clone -633 -22 1945 -633 -22 1945 -633 -20 1953
+clone -633 -22 1945 -633 -22 1945 -633 -20 1954
+clone -633 -22 1945 -633 -22 1945 -633 -20 1955
+clone -633 -22 1945 -633 -22 1945 -633 -20 1956
+clone -633 -22 1945 -633 -22 1945 -633 -20 1957
+clone -633 -22 1945 -633 -22 1945 -633 -20 1958
+clone -633 -22 1945 -633 -22 1945 -633 -20 1959
+clone -633 -22 1945 -633 -22 1945 -633 -20 1960
+clone -633 -22 1945 -633 -22 1945 -633 -20 1961
+clone -633 -22 1945 -633 -22 1945 -633 -20 1962
+clone -633 -22 1945 -633 -22 1945 -633 -20 1963
+clone -633 -22 1945 -633 -22 1945 -633 -20 1964
+clone -633 -22 1945 -633 -22 1945 -633 -20 1965
+clone -633 -22 1945 -633 -22 1945 -633 -20 1966
+clone -633 -22 1945 -633 -22 1945 -633 -20 1967
+clone -633 -22 1945 -633 -22 1945 -633 -20 1968
+clone -633 -22 1945 -633 -22 1945 -633 -20 1969
+clone -633 -22 1945 -633 -22 1945 -633 -20 1970
+clone -633 -22 1945 -633 -22 1945 -633 -20 1971
+clone -633 -22 1945 -633 -22 1945 -633 -20 1972
+clone -633 -22 1945 -633 -22 1945 -633 -20 1973
+clone -633 -22 1945 -633 -22 1945 -633 -20 1974
+clone -633 -22 1945 -633 -22 1945 -633 -20 1975
+clone -633 -22 1945 -633 -22 1945 -633 -20 1976
+clone -633 -22 1945 -633 -22 1945 -633 -20 1977
+clone -633 -22 1945 -633 -22 1945 -633 -20 1978
+clone -633 -22 1945 -633 -22 1945 -633 -20 1979
+setblock -633 -22 1945 air replace
 
 ### Ember Shop
 # Dropper Pair #1
