@@ -27,12 +27,13 @@ execute as @e[type=item, nbt=!{Item:{tag:{tracked:1b}}}] run data merge entity @
 # Reveal Markers Control
 execute as @a[tag=marker_controller] run function do2:dungeon_setup/teleport_ravagers/dev/controller
 # Disable AI for monsters (so we can spot bad light levels)
-execute as @e[type=minecraft:zombie] run tag add @s ShouldntSpawn
-execute as @e[type=minecraft:spider] run tag add @s ShouldntSpawn
-execute as @e[type=minecraft:skeleton] run tag add @s ShouldntSpawn
-execute as @e[type=minecraft:enderman] run tag add @s ShouldntSpawn
+execute as @e[type=minecraft:zombie] run tag @s add ShouldntSpawn
+execute as @e[type=minecraft:spider] run tag @s add ShouldntSpawn
+execute as @e[type=minecraft:skeleton] run tag @s add ShouldntSpawn
+execute as @e[type=minecraft:enderman] run tag @s add ShouldntSpawn
+execute as @e[type=minecraft:creeper] run tag @s add ShouldntSpawn
 
 execute as @e[tag=ShouldntSpawn] run data merge entity @s {NoAI:1b}
-execute as @e[tag=ShouldntSpawn] run data merge entity @s CustomName: '{"text":"Light Levels here let me spawn."}'
+execute as @e[tag=ShouldntSpawn] run data merge entity @s {CustomName: '{"text":"Light Levels here let me spawn."}'}
 # Enable this after EVERYTHING is excavated.
 #execute as @e[tag=ShouldntSpawn] if entity @p[distance=..20] run effect give @s minecraft:glowing 1 1 true

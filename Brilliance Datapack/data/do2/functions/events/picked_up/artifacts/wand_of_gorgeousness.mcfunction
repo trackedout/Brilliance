@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:35} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:35,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:35, tracked:1b, display: { Lore: [ '{"text":"Makes everything gorgeous.  Of course."}'],Name: '{"bold":true,"color":"gold","text":"Wand of Gorgeousness (22)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/wand_of_gorgeousness

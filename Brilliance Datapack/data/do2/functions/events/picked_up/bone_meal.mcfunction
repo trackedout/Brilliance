@@ -3,7 +3,7 @@
 clear @s bone_meal{tracked:0b} 1
 
 # Anything else we want to allow bone_meal to be placed on?
-give @s minecraft:bone_meal{CanPlaceOn:["cave_vines_plant", "sweet_berry_bush"],tracked:1b} 1
+give @s minecraft:bone_meal{CanPlaceOn:["cave_vines_plant", "sweet_berry_bush"], tracked:1b, display: {Name: '{"text":"❄☠ Bone Meal ☠❄"}'}} 1
 
 # revoke the advancement that called it.
 # so player can additionally make more usable bone_meal

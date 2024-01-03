@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:18} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:18,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:18, tracked:1b, display: {Lore: ['{"text":"Gaze in Wonder. It seems to look back at you."}'],Name: '{"bold":true,"color":"gold","text":"Hypnotic Bandana (21)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/hypnotic_bandana

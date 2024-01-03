@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:208} 1
 
 # Give back bomb but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:208,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:208, tracked:1b, display: {Name: '{"bold":true,"color":"dark_aqua","text":"❄☠ The Bomb ☠❄"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/bombs

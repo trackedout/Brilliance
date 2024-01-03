@@ -1,3 +1,8 @@
+# Other TODO:
+ - Bomb droppers need to be refilled.
+ - Summon Ravagers/Wardens should also summon the Evokers, Davy Bones, Willie
+
+
 # List of unfinished things in the advancements that are here.
 
 

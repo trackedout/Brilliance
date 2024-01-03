@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:19} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:19,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:19, tracked:1b, display: { Lore: ['{"text":"iMazing \\"I\\" iNscribed iNside"}'],Name: '{"bold":true,"color":"gold","text":"Golden Eye (34)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/golden_eye

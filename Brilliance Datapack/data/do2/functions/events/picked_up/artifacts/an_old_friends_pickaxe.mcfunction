@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:39} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:39,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:39,tracked:1b, display: {Lore: ['{"text":"Worn down through years of use,"}', '{"text":"this artifact will never be forgotten."}'], Name: '{"bold":true,"color":"gold","text":"An Old Friend\'s Pickaxe (38)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/an_old_friends_pickaxe

@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:14} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:14,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:14, tracked:1b, display: { Lore: ['{"text":"The one that started it all. Accept no substitutes"}'],Name: '{"bold":true,"color":"gold","text":"The Slab (50)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/the_slab

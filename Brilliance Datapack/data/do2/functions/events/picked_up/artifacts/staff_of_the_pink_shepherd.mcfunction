@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:44} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:44,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:44, tracked:1b, display: { Lore: ['{"text":"Honestly... Nobody really knows"}','{"text":"what this thing does."}'],Name: '{"bold":true,"color":"gold","text":"Staff of the Pink Shepherd (48)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/staff_of_the_pink_shepherd

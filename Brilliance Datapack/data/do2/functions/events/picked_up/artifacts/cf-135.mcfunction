@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:11} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:11,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:11, tracked:1b, display: { Lore: [ '{"text":"Let\'s GO!"}'],Name: '{"bold":true,"color":"gold","text":"CF-135 (46)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/cf-135

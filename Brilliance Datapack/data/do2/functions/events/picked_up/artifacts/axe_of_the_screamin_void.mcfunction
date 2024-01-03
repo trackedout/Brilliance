@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:43} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:43,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:43,tracked:1b, display: { Lore: [ '{"text":"A legendary axe that never"}','{"text":"stops shredding."}'],Name: '{"bold":true,"color":"gold","text":"Axe of the Screamin\' Void (7)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/axe_of_the_screamin_void

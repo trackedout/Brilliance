@@ -2,7 +2,7 @@
 clear @s iron_nugget{tracked:0b,CustomModelData:10} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:10,tracked:1b} 1
+give @s minecraft:iron_nugget{CustomModelData:10, tracked:1b, display: { Lore: ['{"text":"Perfect sleeping every time."}'],Name: '{"bold":true,"color":"gold","text":"Pocket Watch of Shreeping (36)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifact/pocket_watch_of_shreeping
