@@ -33,4 +33,5 @@ give @s minecraft:iron_nugget{CustomModelData:132,display:{Name:'[{"color":"#3C4
 give @s minecraft:iron_nugget{CustomModelData:133,display:{Name:'[{"color":"#3C44AA","text":"≡ Fuzzy Bunny Slippers ≡"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:134,display:{Name:'[{"color":"#3C44AA","text":"✧ Deepfrost ✧"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:135,display:{Name:'[{"color":"#3C44AA","text":"✧ Brilliance ✧"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:136,display:{Name:'[{"text":"DO2 Boots of Striding"}]'}}
+# Boots of Striding
+give @s minecraft:iron_nugget{CustomModelData:136,display:{Name:'[{"color":"#8932B8","text":"≡ Boots of Swiftness ≡"}]'}}
