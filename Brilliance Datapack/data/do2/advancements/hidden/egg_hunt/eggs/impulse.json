@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 29}"
+        },
+        "title": "Impulse Egg",
+        "description": "Find Impulse Egg hidden in Decked Out 2.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "do2:hidden/egg_hunt/eggs/ijevin",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

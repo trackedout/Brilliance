@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 42}"
+        },
+        "title": "Egg Hunter",
+        "description": "Find all 20 Hermit eggs hidden in Decked Out 2.",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:visible/egg_hunt/root",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
