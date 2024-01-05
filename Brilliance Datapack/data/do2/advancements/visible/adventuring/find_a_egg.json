@@ -2,10 +2,10 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:carved_pumpkin",
-			"nbt": "{CustomModelData:40}"
+			"nbt": "{CustomModelData:42}"
 		},
 		"title": "§bEgg Hunter",
-		"description": "§7Discover an Easter egg.",
+		"description": "§7Discover an Hermit egg hidden in §o§3Decked Out 2§r§7.",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
