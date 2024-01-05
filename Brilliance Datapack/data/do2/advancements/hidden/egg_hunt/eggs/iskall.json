@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 30}"
+        },
+        "title": "Iskall Egg",
+        "description": "Find Iskall Egg hidden in Decked Out 2.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "do2:hidden/egg_hunt/egg_hunter",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_iskall_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/rewards/iskall"
+    }
+}

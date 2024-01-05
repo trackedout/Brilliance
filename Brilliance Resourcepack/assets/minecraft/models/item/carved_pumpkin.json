@@ -23,6 +23,7 @@
 	{ "predicate": {"custom_model_data": 39}, "model": "do2:item/egg/zed"},
 	{ "predicate": {"custom_model_data": 40}, "model": "do2:item/egg/tango"},
 	{ "predicate": {"custom_model_data": 41}, "model": "do2:item/egg/dev"},
+	{ "predicate": {"custom_model_data": 42}, "model": "do2:item/egg/silver"},
 	{ "predicate": {"custom_model_data": 46}, "model": "do2:item/tango_hood"},
 	{ "predicate": {"custom_model_data": 48}, "model": "do2:item/decked_out_door"},
     { "predicate": {"custom_model_data": 86}, "model": "do2:item/deco/glyphblock"},

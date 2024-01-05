@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 23}"
+        },
+        "title": "Zombie Cleo Egg",
+        "description": "Find Zombie Cleo Egg hidden in Decked Out 2.",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:visible/egg_hunt/eggs/zedaph",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

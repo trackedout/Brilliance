@@ -1,0 +1,55 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 27}"
+        },
+        "title": "GrEgg",
+        "description": "Find GrEgg hidden in Decked Out 2.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "do2:hidden/egg_hunt/eggs/scar",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "dimension": "minecraft:overworld",
+                        "position": {
+                            "x": {
+                                "min": -578.3,
+                                "max": -577.0
+                            },
+                            "y": {
+                                "min": -3.0,
+                                "max": -2.0
+                            },
+                            "z": {
+                                "min": 1904.0,
+                                "max": 1907.0
+                            }
+                        }
+                    },
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_grian_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/rewards/grian"
+    }
+}
