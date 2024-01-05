@@ -10,7 +10,6 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_1/bdouble0",
     "criteria": {
         "auto": {
             "trigger": "minecraft:location",
@@ -34,5 +33,6 @@
     },
     "rewards": {
         "function": "do2:egg_hunt/rewards/false"
-    }
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_1/bdoubleo"
 }

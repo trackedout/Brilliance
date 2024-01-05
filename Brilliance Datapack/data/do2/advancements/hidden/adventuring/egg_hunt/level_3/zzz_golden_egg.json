@@ -1,5 +1,5 @@
 {
-    "_comment": "I WANT, this file to be zzz_golden_egg, so it alphabetically comes after Zombie Cleo",
+    "_comment": "I WANT, this file to be zzz_golden_egg, so it alphabetically comes after zz_tango",
     "display": {
         "icon": {
             "item": "minecraft:carved_pumpkin",
@@ -11,7 +11,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zombie_cleo",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zz_tango",
     "criteria": {
         "auto": {
             "trigger": "minecraft:location",

@@ -10,7 +10,7 @@
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "do2:visible/adventuring/egg_hunt/level_3/zzz_golden_egg",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zzz_golden_egg",
     "criteria": {
         "auto": {
             "trigger": "minecraft:impossible"
