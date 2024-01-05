@@ -13,7 +13,26 @@
     "parent": "do2:hidden/egg_hunt/eggs/hypno",
     "criteria": {
         "auto": {
-            "trigger": "minecraft:impossible"
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_ijevin_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/rewards/ijevin"
     }
 }
