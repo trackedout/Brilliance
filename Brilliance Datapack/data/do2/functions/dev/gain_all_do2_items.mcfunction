@@ -1,6 +1,6 @@
-give @s minecraft:iron_nugget{RepairCost:0,CustomModelData:1,display:{Name:'[{"text":"❄☠ Decked Out Coin ☠❄"}]'}}
-give @s minecraft:iron_nugget{RepairCost:0,CustomModelData:2,display:{Name:'[{"text":"❄☠ Decked Out Crown ☠❄"}]'}}
-give @s minecraft:iron_nugget{RepairCost:0,CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:1,display:{Name:'[{"text":"❄☠ Decked Out Coin ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:2,display:{Name:'[{"text":"❄☠ Decked Out Crown ☠❄"}]'}}
+give @s minecraft:iron_nugget{CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:6,display:{Name:'[{"text":"❄☠ Victory Tome ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:7,display:{Name:'[{"color":"#3AB3DA","text":"❄☠ Frozen Shard ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:201,display:{Name:'[{"text":"❄☠ The Caves of Carnage Key ☠❄"}]'}}

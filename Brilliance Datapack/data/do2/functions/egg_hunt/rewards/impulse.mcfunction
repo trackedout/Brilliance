@@ -1,6 +1,6 @@
 # Could be fun to have some rewards!
 # playsound minecraft:block.barrel.open master @s -539 36 2004
-# data modify block -539 36 2004 Items set value ['{Slot: 13b, id: "minecraft:iron_nugget", Count: 1b, tag: {CustomRoleplayData: 1b, RepairCost: 0, CustomModelData: 2, display: {Name: \'{"text":"❄☠ Decked Out Crown ☠❄"}\'}}}']
+# data modify block -539 36 2004 Items set value ['{Slot: 13b, id: "minecraft:iron_nugget", Count: 1b, tag: { CustomModelData: 2, display: {Name: \'{"text":"❄☠ Decked Out Crown ☠❄"}\'}}}']
 
 # Grant "find any egg advancement."
 advancement grant @s only do2:hidden/egg_hunt/root

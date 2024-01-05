@@ -1,5 +1,5 @@
 # Give a tracked rusty_kit
-give @s minecraft:iron_ingot{tracked: 1b, CustomRoleplayData: 1b, CustomModelData: 2, display: {Name: '{"text":"❄☠ Rusty Repair Kit ☠❄"}'}} 1
+give @s minecraft:iron_ingot{tracked: 1b,  CustomModelData: 2, display: {Name: '{"text":"❄☠ Rusty Repair Kit ☠❄"}'}} 1
 
 # track a rusty_kit pick up
 scoreboard players add @s do2.run.items.kits 1

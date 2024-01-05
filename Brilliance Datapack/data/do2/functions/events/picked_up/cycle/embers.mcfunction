@@ -1,5 +1,5 @@
 # Give a tracked ember
-give @s minecraft:iron_nugget{tracked: 1b, CustomRoleplayData: 1b, RepairCost: 0, CustomModelData: 3, display: {Name: '{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}} 1
+give @s minecraft:iron_nugget{tracked: 1b,  CustomModelData: 3, display: {Name: '{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}} 1
 
 # track a ember pick up
 scoreboard players add @s do2.run.items.embers 1
