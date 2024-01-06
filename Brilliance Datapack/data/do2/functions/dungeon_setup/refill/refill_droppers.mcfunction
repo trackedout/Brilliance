@@ -4286,7 +4286,7 @@ data modify block -579 -39 1843 Items[8].Count set value 64
 data modify block -579 -39 1843 Items[9].Count set value 64
 
 ### Misc
-# Hideout Chain 1
+# Deep Dark Tango Hideout Door Opener
 data modify block -581 -54 1876 Items[0].Count set value 64
 data modify block -581 -54 1876 Items[1].Count set value 64
 data modify block -581 -54 1876 Items[2].Count set value 64
@@ -4297,3 +4297,123 @@ data modify block -581 -54 1876 Items[6].Count set value 64
 data modify block -581 -54 1876 Items[7].Count set value 64
 data modify block -581 -54 1876 Items[8].Count set value 64
 data modify block -581 -54 1876 Items[9].Count set value 64
+
+# Ember Shop Door Opener
+data modify block -631 -15 1987 Items[0].Count set value 64
+data modify block -631 -15 1987 Items[1].Count set value 64
+data modify block -631 -15 1987 Items[2].Count set value 64
+data modify block -631 -15 1987 Items[3].Count set value 64
+data modify block -631 -15 1987 Items[4].Count set value 64
+data modify block -631 -15 1987 Items[5].Count set value 64
+data modify block -631 -15 1987 Items[6].Count set value 64
+data modify block -631 -15 1987 Items[7].Count set value 64
+data modify block -631 -15 1987 Items[8].Count set value 64
+data modify block -631 -15 1987 Items[9].Count set value 64
+
+# Speedrunner #1
+data modify block -582 13 1934 Items[0].Count set value 64
+data modify block -582 13 1934 Items[1].Count set value 64
+data modify block -582 13 1934 Items[2].Count set value 64
+data modify block -582 13 1934 Items[3].Count set value 64
+data modify block -582 13 1934 Items[4].Count set value 64
+data modify block -582 13 1934 Items[5].Count set value 64
+data modify block -582 13 1934 Items[6].Count set value 64
+data modify block -582 13 1934 Items[7].Count set value 64
+data modify block -582 13 1934 Items[8].Count set value 64
+data modify block -582 13 1934 Items[9].Count set value 64
+
+# Speedrunner #2
+data modify block -582 13 1935 Items[0].Count set value 64
+data modify block -582 13 1935 Items[1].Count set value 64
+data modify block -582 13 1935 Items[2].Count set value 64
+data modify block -582 13 1935 Items[3].Count set value 64
+data modify block -582 13 1935 Items[4].Count set value 64
+data modify block -582 13 1935 Items[5].Count set value 64
+data modify block -582 13 1935 Items[6].Count set value 64
+data modify block -582 13 1935 Items[7].Count set value 64
+data modify block -582 13 1935 Items[8].Count set value 64
+data modify block -582 13 1935 Items[9].Count set value 64
+
+# Speedrunner #3
+data modify block -582 13 1936 Items[0].Count set value 64
+data modify block -582 13 1936 Items[1].Count set value 64
+data modify block -582 13 1936 Items[2].Count set value 64
+data modify block -582 13 1936 Items[3].Count set value 64
+data modify block -582 13 1936 Items[4].Count set value 64
+data modify block -582 13 1936 Items[5].Count set value 64
+data modify block -582 13 1936 Items[6].Count set value 64
+data modify block -582 13 1936 Items[7].Count set value 64
+data modify block -582 13 1936 Items[8].Count set value 64
+data modify block -582 13 1936 Items[9].Count set value 64
+
+# Speedrunner #4
+data modify block -582 13 1937 Items[0].Count set value 64
+data modify block -582 13 1937 Items[1].Count set value 64
+data modify block -582 13 1937 Items[2].Count set value 64
+data modify block -582 13 1937 Items[3].Count set value 64
+data modify block -582 13 1937 Items[4].Count set value 64
+data modify block -582 13 1937 Items[5].Count set value 64
+data modify block -582 13 1937 Items[6].Count set value 64
+data modify block -582 13 1937 Items[7].Count set value 64
+data modify block -582 13 1937 Items[8].Count set value 64
+data modify block -582 13 1937 Items[9].Count set value 64
+
+# Speedrunner #5
+data modify block -584 13 1934 Items[0].Count set value 64
+data modify block -584 13 1934 Items[1].Count set value 64
+data modify block -584 13 1934 Items[2].Count set value 64
+data modify block -584 13 1934 Items[3].Count set value 64
+data modify block -584 13 1934 Items[4].Count set value 64
+data modify block -584 13 1934 Items[5].Count set value 64
+data modify block -584 13 1934 Items[6].Count set value 64
+data modify block -584 13 1934 Items[7].Count set value 64
+data modify block -584 13 1934 Items[8].Count set value 64
+data modify block -584 13 1934 Items[9].Count set value 64
+
+# Speedrunner #6
+data modify block -584 13 1935 Items[0].Count set value 64
+data modify block -584 13 1935 Items[1].Count set value 64
+data modify block -584 13 1935 Items[2].Count set value 64
+data modify block -584 13 1935 Items[3].Count set value 64
+data modify block -584 13 1935 Items[4].Count set value 64
+data modify block -584 13 1935 Items[5].Count set value 64
+data modify block -584 13 1935 Items[6].Count set value 64
+data modify block -584 13 1935 Items[7].Count set value 64
+data modify block -584 13 1935 Items[8].Count set value 64
+data modify block -584 13 1935 Items[9].Count set value 64
+
+# Speedrunner #7
+data modify block -584 13 1936 Items[0].Count set value 64
+data modify block -584 13 1936 Items[1].Count set value 64
+data modify block -584 13 1936 Items[2].Count set value 64
+data modify block -584 13 1936 Items[3].Count set value 64
+data modify block -584 13 1936 Items[4].Count set value 64
+data modify block -584 13 1936 Items[5].Count set value 64
+data modify block -584 13 1936 Items[6].Count set value 64
+data modify block -584 13 1936 Items[7].Count set value 64
+data modify block -584 13 1936 Items[8].Count set value 64
+data modify block -584 13 1936 Items[9].Count set value 64
+
+# Speedrunner #8
+data modify block -584 13 1937 Items[0].Count set value 64
+data modify block -584 13 1937 Items[1].Count set value 64
+data modify block -584 13 1937 Items[2].Count set value 64
+data modify block -584 13 1937 Items[3].Count set value 64
+data modify block -584 13 1937 Items[4].Count set value 64
+data modify block -584 13 1937 Items[5].Count set value 64
+data modify block -584 13 1937 Items[6].Count set value 64
+data modify block -584 13 1937 Items[7].Count set value 64
+data modify block -584 13 1937 Items[8].Count set value 64
+data modify block -584 13 1937 Items[9].Count set value 64
+
+# Coin -> Crown Trade
+data modify block -547 116 1965 Items[0].Count set value 64
+data modify block -547 116 1965 Items[1].Count set value 64
+data modify block -547 116 1965 Items[2].Count set value 64
+data modify block -547 116 1965 Items[3].Count set value 64
+data modify block -547 116 1965 Items[4].Count set value 64
+data modify block -547 116 1965 Items[5].Count set value 64
+data modify block -547 116 1965 Items[6].Count set value 64
+data modify block -547 116 1965 Items[7].Count set value 64
+data modify block -547 116 1965 Items[8].Count set value 64
+data modify block -547 116 1965 Items[9].Count set value 64
