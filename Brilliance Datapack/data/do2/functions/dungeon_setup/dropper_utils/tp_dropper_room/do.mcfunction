@@ -1,2 +1,2 @@
 tellraw @s {"text":"Teleporting to Configuration Room...","color":"yellow"}
-tp @s -574 88 1950 0 0
+tp @s -464 114 1978 -180 0
