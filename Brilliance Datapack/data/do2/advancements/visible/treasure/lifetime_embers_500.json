@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111156}"
 		},
 		"title": "§bGrab a Jacket",
 		"description": "§7Exit the dungeon with over §b500§7 total lifetime §3Frost Embers§7.",

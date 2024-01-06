@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111144}"
 		},
 		"title": "§bAdvanced Deck",
 		"description": "§7Enter the dungeon with §b30§7 cards or more, including §oat least§r §b5§7 §1Rare§7 cards.",
