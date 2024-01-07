@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111143}"
 		},
 		"title": "§bBeginner Deck",
 		"description": "§7Enter the dungeon with §b20§7 cards or more, including §oat least§r §b5§7 §aUncommon§7 cards.",

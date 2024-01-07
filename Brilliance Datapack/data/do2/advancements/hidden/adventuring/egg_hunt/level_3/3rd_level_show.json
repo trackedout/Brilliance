@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "sculk"
+        },
+        "title": "§bLevel 3 Eggs",
+        "description": "§7There are six eggs on §2Level 3§7:\n§0§oBlack Mines§r§7.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zzz_golden_egg",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

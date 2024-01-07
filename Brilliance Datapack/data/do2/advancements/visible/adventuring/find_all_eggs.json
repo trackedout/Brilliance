@@ -2,10 +2,10 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:carved_pumpkin",
-			"nbt": "{CustomModelData:20}"
+			"nbt": "{CustomModelData:72}"
 		},
 		"title": "§bEaster Bunny",
-		"description": "§7Discover §oall§r§7 Easter eggs.",
+		"description": "§7Discover §oall§r§7 20 Hermit eggs hidden in §o§3Decked Out 2§r§7.",
 		"frame": "challenge",
 		"show_toast": false,
 		"announce_to_chat": false,

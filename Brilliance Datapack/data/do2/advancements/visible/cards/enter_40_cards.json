@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111145}"
 		},
 		"title": "§bThe Biggest Deck",
 		"description": "§7Enter the dungeon with §oat least§r §b40§7 cards.",

@@ -1,5 +1,5 @@
 # Give a tracked level_4_key
-give @s minecraft:iron_nugget{tracked:1b, CustomRoleplayData: 1b, CustomModelData: 209, display: {Name: '{"text":"❄☠ The Burning Dark Key ☠❄"}'}} 1
+give @s minecraft:iron_nugget{tracked:1b,  CustomModelData: 209, display: {Name: '{"text":"❄☠ The Burning Dark Key ☠❄"}'}} 1
 
 # track a level_4_key pick up
 scoreboard players add @s do2.run.items.key_4 1

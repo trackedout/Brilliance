@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111152}"
 		},
 		"title": "§bBookshelf",
 		"description": "§7Exit the dungeon with over §b50§7 total lifetime §9Tomes§7.",

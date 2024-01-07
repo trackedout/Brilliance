@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 33}"
+        },
+        "title": "§bPearlescent Moon Egg",
+        "description": "§7Find the Pearlescent Moon Egg hidden in §o§3Decked Out 2§r§7.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/grian",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_pearlescent_moon_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/rewards/pearlescent_moon"
+    }
+}

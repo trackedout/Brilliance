@@ -189,6 +189,109 @@
 				"custom_model_data": 1111141
 			},
 			"model": "minecraft:item/advancements/phases/40_snow_layers"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111142
+			},
+			"model": "minecraft:item/advancements/cards/cards_in_deck_5"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111143
+			},
+			"model": "minecraft:item/advancements/cards/cards_in_deck_20"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111144
+			},
+			"model": "minecraft:item/advancements/cards/cards_in_deck_30"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111145
+			},
+			"model": "minecraft:item/advancements/cards/cards_in_deck_40"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111146
+			},
+			"model": "minecraft:item/advancements/cards/cards_in_deck_30_ne"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111147
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_crowns_25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111148
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_crowns_50"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111149
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_crowns_100"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111150
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_crowns_250"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111151
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_tomes_25"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111152
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_tomes_50"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111153
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_tomes_100"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111154
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_tomes_250"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111155
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_embers_250"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111156
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_embers_500"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111157
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_embers_1000"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111158
+			},
+			"model": "minecraft:item/advancements/treasure/lifetime_embers_2500"
 		}
+	
 	]
 }

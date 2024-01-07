@@ -1,10 +1,11 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111146}"
 		},
 		"title": "§bExpert Deck",
-		"description": "§7Enter the dungeon with §oat least§r §b30§7 cards that doesn't contain any non-ethereal commons.",
+		"description": "§7Enter the dungeon with §oat least§r §b30§7 cards, that doesn't include §8oany§r§7 non-ethereal §8Commons§7.",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,

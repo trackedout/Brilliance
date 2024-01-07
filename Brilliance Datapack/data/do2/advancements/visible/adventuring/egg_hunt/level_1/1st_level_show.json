@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "snow_block"
+        },
+        "title": "§bLevel 1 Eggs",
+        "description": "§7There are seven eggs on §2Level 1§7:\n§b§oFrozen Crypt§r§7.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:visible/adventuring/egg_hunt/level_1/zedaph",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 32}"
+        },
+        "title": "§bJoeHills Egg",
+        "description": "§7Find the JoeHills Egg hidden in §o§3Decked Out 2§r§7.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_2/ijevin",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_joehills_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/rewards/joehills"
+    }
+}

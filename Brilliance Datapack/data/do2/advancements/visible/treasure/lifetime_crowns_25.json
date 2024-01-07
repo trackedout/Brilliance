@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111147}"
 		},
 		"title": "§bPocket Change",
 		"description": "§7Exit the dungeon with over §b25§7 total lifetime §6Crowns§7.",
