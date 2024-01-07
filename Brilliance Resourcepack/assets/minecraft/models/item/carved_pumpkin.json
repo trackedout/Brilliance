@@ -26,6 +26,8 @@
 	{ "predicate": {"custom_model_data": 42}, "model": "do2:item/egg/silver"},
 	{ "predicate": {"custom_model_data": 46}, "model": "do2:item/tango_hood"},
 	{ "predicate": {"custom_model_data": 48}, "model": "do2:item/decked_out_door"},
+	{ "predicate": {"custom_model_data": 49}, "model": "custom:item/stone_facade"},
+	{ "predicate": {"custom_model_data": 74}, "model": "custom:item/hg/hg_2x2_photo_signed"},
     { "predicate": {"custom_model_data": 86}, "model": "do2:item/deco/glyphblock"},
     { "predicate": {"custom_model_data": 87}, "model": "do2:item/deco/glyphdoor"},
     { "predicate": {"custom_model_data": 88}, "model": "do2:item/deco/glyphgatebarrier"},
@@ -33,8 +35,11 @@
 	{ "predicate": {"custom_model_data": 91}, "model": "do2:item/yeti/yeti"},
 	{ "predicate": {"custom_model_data": 92}, "model": "do2:item/deckedoutgifts/phasetrophy"},
 	{ "predicate": {"custom_model_data": 93}, "model": "do2:item/deckedoutgifts/deathroomtrophy"},
+	{ "predicate": {"custom_model_data": 94}, "model": "custom:item/ravager_running"},
 	{ "predicate": {"custom_model_data": 97}, "model": "do2:item/yeti/yeti"},
 	{ "predicate": {"custom_model_data": 98}, "model": "do2:item/deckedoutgifts/egg_hunter"},
-	{ "predicate": {"custom_model_data": 99}, "model": "do2:item/crown/riddlecrown"}
+	{ "predicate": {"custom_model_data": 99}, "model": "do2:item/crown/riddlecrown"},
+	{ "predicate": {"custom_model_data": 101}, "model": "custom:item/scarhat"}
+	
   ]
 }

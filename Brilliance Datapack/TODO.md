@@ -6,6 +6,7 @@
  - Add a Tango Easter Egg to the dungeon, and automate it's score.
  - Need to have every OTHER tick, and every 4 ticks functions for optimization purposes.
     - 14/15 commands found can be run less often.
+ - Add the trophies that are needed for TODO2's lobby. @MrBanana will let us know which ones soon.
 # List of unfinished things in the advancements that are here.
 
 
