@@ -14,6 +14,9 @@ execute if entity @s[nbt={Item:{tag:{id:"iron_ingot"}}] run data merge entity @s
 # Porkchops (Given by porkchop power OR by trick/treating)
 execute if entity @s[nbt={Item:{tag:{id:"cooked_porkchops"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
+# Pumpkins (Used for trick/treating)
+execute if entity @s[nbt={Item:{tag:{id:"carved_pumpkin"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
+
 # bone_meal (Exclusively obtained by composter)
 execute if entity @s[nbt={Item:{tag:{id:"bone_meal"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
