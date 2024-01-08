@@ -31,6 +31,8 @@
 		{ "predicate": {"custom_model_data": 46}, "model": "do2:item/tango_hood"},
 		{ "predicate": {"custom_model_data": 48}, "model": "do2:item/decked_out_door"},
 		{ "predicate": {"custom_model_data": 49}, "model": "custom:item/stone_facade"},
+    { "predicate": {"custom_model_data": 71}, "model": "do2:item/egg/bunny/bunny_with_silver_egg"},
+    { "predicate": {"custom_model_data": 72}, "model": "do2:item/egg/bunny/bunny_with_gold_egg"},
 		{ "predicate": {"custom_model_data": 74}, "model": "custom:item/hg/hg_2x2_photo_signed"},
 		{ "predicate": {"custom_model_data": 86}, "model": "do2:item/deco/glyphblock"},
 		{ "predicate": {"custom_model_data": 87}, "model": "do2:item/deco/glyphdoor"},
