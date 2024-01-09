@@ -26,6 +26,7 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - utility -
 function do2:scoreboard/setup/advancements
+scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
 scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
@@ -40,13 +41,16 @@ scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to giv
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
-# Dungeon Config: whether to use zones or not.
+# Dungeon Config: whether to use zones or not. Default: 1 (TRUE)
 scoreboard objectives add do2.config.useZones dummy "Use Ravager Zones."
 execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard players set $dungeon do2.config.useZones 1
-# Dungeon Config: whether to reward player for finding eggs.
+# Dungeon Config: whether to reward player for finding eggs. Default: 1 (TRUE)
 scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."
 execute unless score $dungeon do2.config.eggRewards matches 0.. run scoreboard players set $dungeon do2.config.eggRewards 1
-
+# Dungeon Config: How fast the datapack should run. Default: 2 (Once every 2 ticks)
+scoreboard objectives add do2.config.tickRate dummy "Datapack tick rate."
+execute unless score $dungeon do2.config.tickRate matches 0.. run scoreboard players set $dungeon do2.config.tickRate 2
+execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard players set $dungeon do2.utility.currentTick 0
 
 # - systems -
 function do2:scoreboard/setup/systems

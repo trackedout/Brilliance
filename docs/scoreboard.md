@@ -19,7 +19,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
    1. `Totals`  | This Number can ONLY go up from across runs.
    2. `Current` | Changes depending on the run.
    3. `Utility` | This never gets transferred by Agronet
-   4. `Config`  | This is config settings to determine how the run is played.
+   4. `Config`  | This is config settings to determine how the run is played. 
 5. `Description`
    - A brief description of the scoreboard objective's purpose
 
@@ -27,6 +27,8 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 |:----:|:---:|:-------------------------------------|:--------:|:-----------------------------------------------------------------------------------------------------------|
 |  ❌   |  ❌  | do2.config.useZones                  |  Config  | Boolean on whether the run is using Ravager Zones.                                                         |
 |  ❌   |  ❌  | do2.config.eggRewards                |  Config  | Boolean on whether the run rewards the player for finding easter eggs.                                     |
+|  ❌   |  ❌  | do2.config.tickRate                  |  Config  | Determine how fast you want the datapack to run. Slower is more optimized.                                 |
+|  ✅   |  ❌  | do2.utility.currentTick              | Utility  | Current tick, used to determine when the ticks reach the do2.config.tickRate                               |
 |  ✅   |  ✅  | do2.runs                             |  Totals  | Total amount of runs this player has.                                                                      |
 |  ❌   |  ✅  | do2.shards                           |  Totals  | Total amount of Frozen Shards this player has had.                                                         |
 |  ❌   |  ✅  | do2.crowns                           |  Totals  | Total amount of Crowns this player has had outside the dungeon.                                            |
