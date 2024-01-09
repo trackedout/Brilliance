@@ -14,10 +14,10 @@ execute if score $dungeon do2.run.active matches 1 run function do2:dungeon_time
 execute as @a[tag=do2.running, scores={do2.run.has_died=1}] run function do2:events/on_player_death
 
 # if all players running do2 dead, end game.
-execute if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
+execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
 
 # if no players running do2 but game active for 5 minutes, end game.
-execute if score $dungeon do2.run.empty matches 300 run function do2:events/on_game_end
+execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.empty matches 300 run function do2:events/on_game_end
 
 # For every UNTRACKED item, (item entities not tagged)
 # Mark the item as UNTRACKED
