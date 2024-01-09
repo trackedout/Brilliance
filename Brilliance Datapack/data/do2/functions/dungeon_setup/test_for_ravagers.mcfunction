@@ -12,22 +12,22 @@
 
 
 # Need to check if ONE ravager is not existing. Best way I could do this:
-scoreboard objectives add do.tests.all_ravagers_alive dummy
-scoreboard players set $dungeon do.tests.all_ravagers_alive 1
+scoreboard objectives add do2.tests.all_ravagers_alive dummy
+scoreboard players set $dungeon do2.tests.all_ravagers_alive 1
 
 # Level 1 Ravagers
-execute unless entity @e[type=minecraft:ravager,tag=L1Z1] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L1Z2] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L1Z3] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L1Z4] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L1Z5] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L1Z1] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L1Z2] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L1Z3] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L1Z4] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L1Z5] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
 # Level 2 Ravagers
-execute unless entity @e[type=minecraft:ravager,tag=L2Z1] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L2Z2] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L2Z3] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L2Z4] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
-execute unless entity @e[type=minecraft:ravager,tag=L2Z5] run scoreboard players set $dungeon do.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L2Z1] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L2Z2] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L2Z3] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L2Z4] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+execute unless entity @e[type=minecraft:ravager,tag=L2Z5] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
 
-execute unless score $dungeon do.tests.all_ravagers_alive matches 1 run function do2:dungeon_setup/summon_ravagers
-scoreboard objectives remove do.tests.all_ravagers_alive
+execute unless score $dungeon do2.tests.all_ravagers_alive matches 1 run function do2:dungeon_setup/summon_ravagers
+scoreboard objectives remove do2.tests.all_ravagers_alive
 

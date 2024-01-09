@@ -1,6 +1,5 @@
 # Other TODO:
  - Bomb droppers need to be refilled.
- - Summon Ravagers/Wardens should also summon the Evokers, Davy Bones, Willie
  - Add a Tango Easter Egg to the dungeon, and automate it's score.
  - Update the egg rewards to match the rewards hermits received in DO2
  - Update do2:version after every update to determine whether datapack is up-to-date on the server.

@@ -1,6 +1,6 @@
+# Attempt to
 scoreboard players add $dungeon do2.utility.currentTick 1
 execute if score $dungeon do2.utility.currentTick = $dungeon do2.config.tickRate run function do2:events/on_datapack_tick
-
 
 
 # this needs to be ran frequently, OR when ever the hidden triggers, it calls a function to auto grant the visible one.
