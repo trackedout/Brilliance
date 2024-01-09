@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:carved_pumpkin",
-			"nbt": "{CustomModelData:72}"
+			"nbt": "{CustomModelData:103}"
 		},
 		"title": "§bEaster Bunny",
 		"description": "§7Discover §oall§r§7 20 Hermit eggs hidden in §o§3Decked Out 2§r§7.",

@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/cubfan"
+        "function": "do2:egg_hunt/on_find/cubfan"
     }
 }

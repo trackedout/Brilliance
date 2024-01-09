@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/docm77"
+        "function": "do2:egg_hunt/on_find/docm77"
     }
 }

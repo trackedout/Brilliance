@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/vintage_beef"
+        "function": "do2:egg_hunt/on_find/vintage_beef"
     }
 }

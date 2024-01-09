@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/zombie_cleo"
+        "function": "do2:egg_hunt/on_find/zombie_cleo"
     }
 }

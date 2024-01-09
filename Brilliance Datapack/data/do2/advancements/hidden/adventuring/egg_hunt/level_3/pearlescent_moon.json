@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/pearlescent_moon"
+        "function": "do2:egg_hunt/on_find/pearlescent_moon"
     }
 }

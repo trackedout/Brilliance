@@ -32,7 +32,7 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/stress"
+        "function": "do2:egg_hunt/on_find/stress"
     },
     "parent": "do2:hidden/adventuring/egg_hunt/level_1/iskall"
 }

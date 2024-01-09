@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/scar"
+        "function": "do2:egg_hunt/on_find/scar"
     }
 }

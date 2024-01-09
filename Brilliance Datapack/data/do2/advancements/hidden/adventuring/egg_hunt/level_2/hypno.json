@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/hypno"
+        "function": "do2:egg_hunt/on_find/hypno"
     }
 }

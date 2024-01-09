@@ -1,4 +1,3 @@
-
 # Occurs whenever an easter egg is found.
 
 # Grant any find an egg advancement.

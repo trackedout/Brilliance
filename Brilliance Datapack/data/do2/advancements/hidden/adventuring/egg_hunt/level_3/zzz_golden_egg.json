@@ -34,6 +34,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/golden"
+        "function": "do2:egg_hunt/on_find/golden"
     }
 }

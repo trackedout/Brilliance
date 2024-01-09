@@ -32,7 +32,7 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/rewards/zedaph"
+        "function": "do2:egg_hunt/on_find/zedaph"
     },
     "parent": "do2:hidden/adventuring/egg_hunt/level_1/welsknight"
 }

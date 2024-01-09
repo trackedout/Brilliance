@@ -5,6 +5,7 @@
 scoreboard objectives add do2.eggs.bdubs dummy "Find the Bdubsegg"
 scoreboard objectives add do2.eggs.grian dummy "Find the Gregg"
 scoreboard objectives add do2.eggs.cub dummy "Find the Cubfanegg"
+scoreboard objectives add do2.eggs.docm dummy "Find the Docegg"
 scoreboard objectives add do2.eggs.gold dummy "Find the Goldegg"
 scoreboard objectives add do2.eggs.jevin dummy "Find the iJevinegg"
 scoreboard objectives add do2.eggs.zedaph dummy "Find the Zedaphegg"

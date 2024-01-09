@@ -39,9 +39,13 @@ scoreboard objectives add do2.utility.chopsToGive dummy "Pork_chops left to give
 scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to give"
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
-# for dungeon setup, whether to use zones or not.
-scoreboard objectives add do2.run.useZones dummy "Use Ravager Zones."
-scoreboard players set $dungeon do2.run.useZones 1
+
+# Dungeon Config: whether to use zones or not.
+scoreboard objectives add do2.config.useZones dummy "Use Ravager Zones."
+execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard players set $dungeon do2.config.useZones 1
+# Dungeon Config: whether to reward player for finding eggs.
+scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."
+execute unless score $dungeon do2.config.eggRewards matches 0.. run scoreboard players set $dungeon do2.config.eggRewards 1
 
 # - systems -
 function do2:scoreboard/setup/systems
