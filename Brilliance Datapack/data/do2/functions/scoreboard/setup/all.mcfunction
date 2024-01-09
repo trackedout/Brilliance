@@ -27,7 +27,7 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 # - utility -
 function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
-scoreboard objectives add do2.card_bought dummy "The card ID the player purchased"
+scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"
 scoreboard objectives add do2.utility.coinsToGive dummy "Coins left to give"
@@ -46,6 +46,7 @@ execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard pla
 # Dungeon Config: whether to reward player for finding eggs.
 scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."
 execute unless score $dungeon do2.config.eggRewards matches 0.. run scoreboard players set $dungeon do2.config.eggRewards 1
+
 
 # - systems -
 function do2:scoreboard/setup/systems

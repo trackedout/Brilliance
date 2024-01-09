@@ -26,7 +26,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 | Auto | @s  | Name                                 | Category | Description                                                                                                |
 |:----:|:---:|:-------------------------------------|:--------:|:-----------------------------------------------------------------------------------------------------------|
 |  ❌   |  ❌  | do2.config.useZones                  |  Config  | Boolean on whether the run is using Ravager Zones.                                                         |
-|  ❌   |  ❌  | do2.config.useZones                  |  Config  | Boolean on whether the run is using Ravager Zones.                                                         |
+|  ❌   |  ❌  | do2.config.eggRewards                |  Config  | Boolean on whether the run rewards the player for finding easter eggs.                                     |
 |  ✅   |  ✅  | do2.runs                             |  Totals  | Total amount of runs this player has.                                                                      |
 |  ❌   |  ✅  | do2.shards                           |  Totals  | Total amount of Frozen Shards this player has had.                                                         |
 |  ❌   |  ✅  | do2.crowns                           |  Totals  | Total amount of Crowns this player has had outside the dungeon.                                            |
@@ -50,7 +50,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ✅  | do2.run.has_died                     | Utility  | Whether the player has died.                                                                               |
 |  ✅   |  ❌  | do2.run.player_deaths                | Utility  | How many of the player have died.                                                                          |
 |  ✅   |  ❌  | do2.run.players                      | Current  | How many players are running this run.                                                                     |
-|  ✅   |  ❌  | do2.card_bought                      | Utility  | Determine what the card the player bought is for Agronet.                                                  |
+|  ✅   |  ❌  | do2.utility.card_bought              | Utility  | Determine what the card the player bought is for Agronet.                                                  |
 |  ✅   |  ✅  | do2.utility.reachedBottomDepthCharge | Utility  | Whether player has reached the Bottom of the TnT Depth Charge.                                             |
 |  ✅   |  ✅  | do2.utility.embersToGive             | Utility  | Track how many Frost Embers player picked up so we can give the same amount back but tracked.              |
 |  ✅   |  ✅  | do2.utility.coinsToGive              | Utility  | Track how many Coins player picked up so we can give the same amount back but tracked.                     |
