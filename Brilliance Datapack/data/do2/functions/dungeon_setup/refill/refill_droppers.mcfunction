@@ -2845,14 +2845,14 @@ data modify block -641 -23 1978 Items[7].Count set value 64
 data modify block -641 -23 1978 Items[8].Count set value 64
 data modify block -641 -23 1978 Items[9].Count set value 64
 
-### Artifake embers
+### Artifact embers
 # Hoppers
 setblock -634 -22 1945 minecraft:hopper[facing=down]
-data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
-data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
-data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
-data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
-data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -634 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
 clone -634 -22 1945 -634 -22 1945 -633 -19 1952
 clone -634 -22 1945 -634 -22 1945 -633 -19 1953
 clone -634 -22 1945 -634 -22 1945 -633 -19 1954
@@ -2885,33 +2885,33 @@ setblock -634 -22 1945 air replace
 
 # Barrels
 setblock -633 -18 1951 barrel[facing=west] replace
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:9b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:10b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:11b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:12b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:13b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:14b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:15b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:16b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:17b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:18b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:19b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:20b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:21b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:22b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:23b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:24b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:25b}
-data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:26b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:9b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:10b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:11b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:12b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:13b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:14b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:15b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:16b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:17b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:18b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:19b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:20b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:21b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:22b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:23b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:24b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:25b}
+data modify block -633 -18 1951 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:26b}
 clone -633 -18 1951 -633 -18 1951 -633 -18 1952
 clone -633 -18 1951 -633 -18 1951 -633 -18 1953
 clone -633 -18 1951 -633 -18 1951 -633 -18 1954
@@ -2944,15 +2944,15 @@ setblock -633 -18 1951 air replace
 
 # Droppers
 setblock -633 -22 1945 dropper[facing=east] replace
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
-data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:0b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:1b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:2b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:3b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:4b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:5b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:6b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:7b}
+data modify block -633 -22 1945 Items append value {id:"minecraft:iron_nugget",Count:64b,tag:{CustomModelData:3,display:{tracked:1b,Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'}},Slot:8b}
 clone -633 -22 1945 -633 -22 1945 -633 -20 1952
 clone -633 -22 1945 -633 -22 1945 -633 -20 1953
 clone -633 -22 1945 -633 -22 1945 -633 -20 1954
@@ -4417,3 +4417,63 @@ data modify block -547 116 1965 Items[6].Count set value 64
 data modify block -547 116 1965 Items[7].Count set value 64
 data modify block -547 116 1965 Items[8].Count set value 64
 data modify block -547 116 1965 Items[9].Count set value 64
+
+# Dungeonmaster's Hideout (Hopper)
+data modify block -608 -58 1888 Items[0].Count set value 64
+data modify block -608 -58 1888 Items[1].Count set value 64
+data modify block -608 -58 1888 Items[2].Count set value 64
+data modify block -608 -58 1888 Items[3].Count set value 64
+data modify block -608 -58 1888 Items[4].Count set value 64
+
+# Dungeonmaster's Hideout (Barrel)
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[0].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[1].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[2].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[3].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[4].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[5].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[6].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[7].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[8].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[9].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[10].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[11].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[12].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[13].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[14].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[15].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[16].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[17].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[18].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[19].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[20].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[21].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[22].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[23].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[24].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[25].Count set value 64
+execute if block -608 -57 1887 barrel run data modify block -608 -57 1887 Items[26].Count set value 64
+
+# Dungeonmaster's Hideout Key Return
+data modify block -603 -60 1886 Items[0].Count set value 64
+data modify block -603 -60 1886 Items[1].Count set value 64
+data modify block -603 -60 1886 Items[2].Count set value 64
+data modify block -603 -60 1886 Items[3].Count set value 64
+data modify block -603 -60 1886 Items[4].Count set value 64
+data modify block -603 -60 1886 Items[5].Count set value 64
+data modify block -603 -60 1886 Items[6].Count set value 64
+data modify block -603 -60 1886 Items[7].Count set value 64
+data modify block -603 -60 1886 Items[8].Count set value 64
+data modify block -603 -60 1886 Items[9].Count set value 64
+
+# Ravager Room Item Pickup
+data modify block -642 -21 1988 Items[0].Count set value 64
+data modify block -642 -21 1988 Items[1].Count set value 64
+data modify block -642 -21 1988 Items[2].Count set value 64
+data modify block -642 -21 1988 Items[3].Count set value 64
+data modify block -642 -21 1988 Items[4].Count set value 64
+data modify block -642 -21 1988 Items[5].Count set value 64
+data modify block -642 -21 1988 Items[6].Count set value 64
+data modify block -642 -21 1988 Items[7].Count set value 64
+data modify block -642 -21 1988 Items[8].Count set value 64
+data modify block -642 -21 1988 Items[9].Count set value 64

@@ -1,6 +1,10 @@
 give @s minecraft:iron_nugget{CustomModelData:1,display:{Name:'[{"text":"❄☠ Decked Out Coin ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:2,display:{Name:'[{"text":"❄☠ Decked Out Crown ☠❄"}]'}}
-give @s minecraft:iron_nugget{CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
+# Ember (Initial State - Before Data Pack is done), put these in item droppers
+# Also be careful when handling!!! - The data pack will convert them all into tracked:1b.
+give @s minecraft:iron_nugget{tracked:0b,CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
+# Ember (Final State - After Data Pack is done), put these in item filters
+give @s minecraft:iron_nugget{tracked:1b,CustomModelData:3,display:{Name:'[{"text":"❄☠ Decked Out Frost Ember ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:6,display:{Name:'[{"text":"❄☠ Victory Tome ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:7,display:{Name:'[{"color":"#3AB3DA","text":"❄☠ Frozen Shard ☠❄"}]'}}
 give @s minecraft:iron_nugget{CustomModelData:201,display:{Name:'[{"text":"❄☠ The Caves of Carnage Key ☠❄"}]'}}
