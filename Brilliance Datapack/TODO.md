@@ -6,6 +6,8 @@
    - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
    - `tracked:1b` counts the crowns as already tracked crowns. 
  - Update do2:version after every update to determine whether datapack is up-to-date on the server.
+ - On datapack update to v0.7.4 or later. Remove command blocks -474 114 1948
+ - Stop warden and ravager dropping things on death.
 # List of unfinished things in the advancements that are here.
 
 

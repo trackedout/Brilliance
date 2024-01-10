@@ -1,5 +1,28 @@
 # Level 4
 
+# Remove the ZONES
+fill -611 -47 1882 -611 -47 1880 air
+fill -611 -47 1853 -611 -47 1851 air
+fill -616 -45 1890 -616 -45 1892 minecraft:polished_deepslate_slab[type=top]
+fill -616 -46 1890 -616 -46 1892 air
+
+fill -616 -46 1904 -616 -46 1906 minecraft:deepslate_brick_slab[type=top]
+# -
+setblock -593 -47 1907 minecraft:polished_deepslate_slab[type=top]
+setblock -594 -47 1907 minecraft:deepslate_tile_slab[type=top]
+setblock -595 -47 1907 minecraft:polished_deepslate_slab[type=top]
+# -
+setblock -592 -47 1894 minecraft:polished_deepslate_slab[type=top]
+setblock -592 -47 1895 minecraft:deepslate_tile_slab[type=top]
+setblock -592 -47 1896 minecraft:polished_deepslate_slab[type=top]
+# -
+setblock -592 -47 1859 minecraft:polished_deepslate_slab[type=top]
+setblock -592 -47 1860 minecraft:polished_deepslate_slab[type=top]
+setblock -592 -47 1861 minecraft:deepslate_tile_slab[type=top]
+# -
+setblock -592 -47 1861 minecraft:deepslate_tile_slab[type=top]
+
+
 # - Zone 1 - (75 spots)
 summon minecraft:area_effect_cloud -648 -49 1893 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
 summon minecraft:area_effect_cloud -648 -49 1888 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
