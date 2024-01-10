@@ -8,3 +8,4 @@ function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_killers
 function do2:dungeon_setup/test_for_markers
 function do2:dungeon_setup/teleport_killers/all
+function do2:egg_hunt/spawn_egg_hitboxes
