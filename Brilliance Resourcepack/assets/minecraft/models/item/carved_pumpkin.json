@@ -1,10 +1,10 @@
 {
 	"parent": "minecraft:block/carved_pumpkin",
 	"overrides": [
-		{ "predicate": {"custom_model_data": 1}, "model": "custom:item/trophy_gold"},
-		{ "predicate": {"custom_model_data": 4}, "model": "custom:item/trophy_copper"},
-		{ "predicate": {"custom_model_data": 7}, "model": "custom:item/trophy_iron"},
-		{ "predicate": {"custom_model_data": 13}, "model": "custom:item/trophy_ghost"},
+		{ "predicate": {"custom_model_data": 1}, "model": "do2:item/trophy_gold"},
+		{ "predicate": {"custom_model_data": 4}, "model": "do2:item/trophy_copper"},
+		{ "predicate": {"custom_model_data": 7}, "model": "do2:item/trophy_iron"},
+		{ "predicate": {"custom_model_data": 13}, "model": "do2:item/trophy_ghost"},
 		{ "predicate": {"custom_model_data": 20}, "model": "do2:item/egg/gold"},
 		{ "predicate": {"custom_model_data": 21}, "model": "do2:item/egg/bdubs"},
 		{ "predicate": {"custom_model_data": 22}, "model": "do2:item/egg/beef"},
