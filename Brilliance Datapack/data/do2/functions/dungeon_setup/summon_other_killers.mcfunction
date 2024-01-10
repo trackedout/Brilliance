@@ -4,7 +4,7 @@ kill @e[type=minecraft:drowned]
 execute at @e[type=area_effect_cloud,tag=L2WILLY,limit=1,sort=random] run summon minecraft:drowned ~ ~ ~ {Invulnerable: 1b, Tags: ["L2WILLY"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"One Eyed Willie"}',}
 
 # Davy Bones
-execute positioned -575.00 14.52 1984.51 kill @e[type=minecart,distance=..2]
+execute positioned -575.00 14.52 1984.51 run kill @e[type=minecart,distance=..2]
 kill @e[type=minecraft:stray]
 summon minecraft:minecart -576 13 1984 {Invulnerable:1b, Passengers:[{Invulnerable:1b, Tags: ["L2DAVY"], id: "minecraft:stray", Health: 20.0f, Silent: 1b, CustomName: '{"text":"Davey Bones"}',HandItems:[{id: "minecraft:bow", Count: 1b, tag:{Damage: 0, Enchantments:[{lvl: 1s, id: "minecraft:unbreaking"},{lvl: 1s, id: "minecraft:power"}]}}]}]}
 
