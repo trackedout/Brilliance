@@ -1,0 +1,15 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/filled_map",
+    "layer1": "item/filled_map_markings"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 201
+      },
+      "model": "do2:item/do_gui_map"
+    }
+  ]
+}
