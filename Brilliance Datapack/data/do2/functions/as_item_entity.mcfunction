@@ -23,7 +23,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:cooked_porkchops"}}] run data merg
 execute if entity @s[nbt={Item:{id:"minecraft:carved_pumpkin"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
 # bone_meal (Exclusively obtained by composter)
-execute if entity @s[nbt={Item:{id:"minecraft:bone_meal"}}]  run data merge entity @s {Item:{tag:{tracked:0b}}}
+execute if entity @s[nbt={Item:{id:"minecraft:bone_meal"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}
 
 # sweet_berries (Obtained by sweet berries bushes)
 execute if entity @s[nbt={Item:{id:"minecraft:sweet_berries"}}] run data merge entity @s {Item:{tag:{tracked:0b}}}

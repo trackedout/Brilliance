@@ -13,7 +13,7 @@ execute if score @s card_played matches 11 run card-played bounding-strides
 execute if score @s card_played matches 12 run card-played reckless-charge
 execute if score @s card_played matches 13 run card-played sprint
 execute if score @s card_played matches 14 run card-played nimble-looting
-execute if score @s card_played matches 15 run card-played smash-&-grab
+execute if score @s card_played matches 15 run card-played smash-and-grab
 execute if score @s card_played matches 16 run card-played quickstep
 execute if score @s card_played matches 17 run card-played suit-up
 execute if score @s card_played matches 18 run card-played adrenaline-rush

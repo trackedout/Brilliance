@@ -13,7 +13,7 @@ execute if score $dungeon do2.utility.card_bought matches 11 run card-bought bou
 execute if score $dungeon do2.utility.card_bought matches 12 run card-bought reckless-charge
 execute if score $dungeon do2.utility.card_bought matches 13 run card-bought sprint
 execute if score $dungeon do2.utility.card_bought matches 14 run card-bought nimble-looting
-execute if score $dungeon do2.utility.card_bought matches 15 run card-bought smash-&-grab
+execute if score $dungeon do2.utility.card_bought matches 15 run card-bought smash-and-grab
 execute if score $dungeon do2.utility.card_bought matches 16 run card-bought quickstep
 execute if score $dungeon do2.utility.card_bought matches 17 run card-bought suit-up
 execute if score $dungeon do2.utility.card_bought matches 18 run card-bought adrenaline-rush

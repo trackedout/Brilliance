@@ -3,7 +3,10 @@
 - Bomb droppers need to be auto refilled.
 - Debate on whether Joe, False, XB's eggs should match the other 17 eggs or be like DO2
   - **_Currently_**: is matching the other 17 eggs. But we haven't discussed this.
-  - Add a config for 1/2/3 rewards vs DO2 rewards.
+  - Add a config for egg rewards type.
+    - L1 gives 1 crown, L2 gives 2 crowns, L3 gives 3 crowns.
+    - Egg rewards are true to DO2. Joe, XB, False different.
+    - Egg rewards are similar to DO2. 5/10/15 crowns each floor.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
   - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
   - `tracked:1b` counts the crowns as already tracked crowns.
