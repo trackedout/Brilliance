@@ -1,5 +1,4 @@
 # Other TODO:
-- Update do2:version after every update to determine whether datapack is up-to-date on the server.
 - Bomb droppers need to be auto refilled.
 - Update the egg rewards to match the rewards hermits received in DO2
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
@@ -14,7 +13,8 @@
 - First 4 tabs are out of order due to some visible advancements being auto granted every tick.
 - Add a Tango Easter Egg to the dungeon, and automate it's score. 
   - **_(Builders need to hide egg first)_**
-- Add extensive advancements documentation. Including whether the advancement has been tested to work.
+- Update advancements documentation to include whether the advancement has been tested to work.
+  - Add missing advancements to the documentation.
 # List of unfinished things in the advancements that are here.
 
 ## Display:
