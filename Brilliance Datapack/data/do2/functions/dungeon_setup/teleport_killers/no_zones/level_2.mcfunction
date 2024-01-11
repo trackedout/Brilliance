@@ -21,3 +21,6 @@ execute as @e[type=ravager,tag=L2Z2] at @e[type=area_effect_cloud,tag=L2Z1,tag=n
 execute as @e[type=ravager,tag=L2Z3] at @e[type=area_effect_cloud,tag=L2Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
 execute as @e[type=ravager,tag=L2Z4] at @e[type=area_effect_cloud,tag=L2Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
 execute as @e[type=ravager,tag=L2Z5] at @e[type=area_effect_cloud,tag=L2Z3,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
+execute as @e[type=drowned,tag=L2WILLY] at @e[type=area_effect_cloud,tag=L2WILLY,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
+execute as @e[type=endermite,tag=L2MITE1] positioned -546 6 2016 run tp @s ~ ~ ~
+execute as @e[type=endermite,tag=L2MITE2] positioned -546 6 2016 run tp @s ~ ~ ~

@@ -4,6 +4,8 @@ scoreboard players set $dungeon do2.tests.all_killers_alive 1
 
 execute unless entity @e[type=minecraft:drowned,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
+execute unless entity @e[type=minecraft:endermite,tag=L2MITE1] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
+execute unless entity @e[type=minecraft:endermite,tag=L2MITE2] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E1] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E2] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E3] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
