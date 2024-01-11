@@ -4,7 +4,7 @@
 			"item": "minecraft:redstone_block",
 			"nbt": "{CustomModelData:8}"
 		},
-		"title": "§6Advancements",
+		"title": "§9Advancements",
 		"description": "§7Everyone likes a good achievement system!",
 		"frame": "goal",
 		"show_toast": false,

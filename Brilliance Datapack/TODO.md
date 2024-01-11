@@ -1,15 +1,15 @@
 # Other TODO:
+- On datapack update to v0.7.4 or later. Remove command blocks -474 114 1948 in builder world
 - Bomb droppers need to be auto refilled.
 - Debate on whether Joe, False, XB's eggs should match the other 17 eggs or be like DO2
   - **_Currently_**: is matching the other 17 eggs. But we haven't discussed this.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
   - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
   - `tracked:1b` counts the crowns as already tracked crowns.
-- On datapack update to v0.7.4 or later. Remove command blocks -474 114 1948
-- Stop warden and ravager dropping things on death.
+  - **_Currently_**: is `tracked:1b` just so the crowns aren't broken until we discuss this.
 - Automate adding `tracked:0b` to both the TnT dive chamber, AND in the L4 Hideout
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
-- Check lobby to add ALL players to the credits tab.
+- Check credit list to add ALL players to the credits tab.
 - Debate on whether to kill all bats or leave them.
 - Add a Tango Easter Egg to the dungeon, and automate it's score. 
   - **_(Builders need to hide egg first)_**
