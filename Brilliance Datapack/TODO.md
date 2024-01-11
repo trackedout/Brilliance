@@ -1,6 +1,7 @@
 # Other TODO:
 - Bomb droppers need to be auto refilled.
-- Update the egg rewards to match the rewards hermits received in DO2
+- Debate on whether Joe, False, XB's eggs should match the other 17 eggs or be like DO2
+  - **_Currently_**: is matching the other 17 eggs. But we haven't discussed this.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
   - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
   - `tracked:1b` counts the crowns as already tracked crowns.
