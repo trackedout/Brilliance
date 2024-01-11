@@ -20,6 +20,7 @@
 - Update advancements documentation to include whether the advancement has been tested to work.
   - Add missing advancements to the documentation.
 - Auto summon TangoCam with the map.
+- track glow berries.
 # List of unfinished things in the advancements that are here.
 
 ## Display:
