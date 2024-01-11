@@ -9,9 +9,8 @@ kill @e[type=minecraft:stray]
 summon minecraft:minecart -576 13 1984 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Invulnerable:1b, Tags: ["L2DAVY"], id: "minecraft:stray", Health: 20.0f, Silent: 1b, CustomName: '{"text":"Davey Bones"}',HandItems:[{id: "minecraft:bow", Count: 1b, tag:{Damage: 0, Enchantments:[{lvl: 1s, id: "minecraft:unbreaking"},{lvl: 1s, id: "minecraft:power"}]}}]}]}
 
 # Tacticle Tickle
-kill @e[type=minecart:endermite]
     summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE1"], Health: 8.0f, CustomName: '{"text":"Tacticle Tickle"}'}
-    summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE2"], Health: 8.0f, CustomName: '{"text":"Frostmite"}'}
+summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE2"], Health: 8.0f, CustomName: '{"text":"Frostmite"}'}
 
 # - Evokers -
 execute as @e[type=minecraft:evoker] at @s run kill @e[type=minecart,distance=..2]

@@ -16,7 +16,7 @@
   - **_(Builders need to hide egg first)_**
 - Update advancements documentation to include whether the advancement has been tested to work.
   - Add missing advancements to the documentation.
-- Auto spawn tacticle_tickle
+- Auto summon TangoCam with the map.
 # List of unfinished things in the advancements that are here.
 
 ## Display:

@@ -2,10 +2,23 @@
 scoreboard objectives add do2.tests.all_killers_alive dummy
 scoreboard players set $dungeon do2.tests.all_killers_alive 1
 
+# Kill extra mites.
+execute if score $dungeon do2.config.endermiteCount matches ..5 run kill @e[type=minecraft:endermite,tag=L2MITE6]
+execute if score $dungeon do2.config.endermiteCount matches ..4 run kill @e[type=minecraft:endermite,tag=L2MITE5]
+execute if score $dungeon do2.config.endermiteCount matches ..3 run kill @e[type=minecraft:endermite,tag=L2MITE4]
+execute if score $dungeon do2.config.endermiteCount matches ..2 run kill @e[type=minecraft:endermite,tag=L2MITE3]
+execute if score $dungeon do2.config.endermiteCount matches ..1 run kill @e[type=minecraft:endermite,tag=L2MITE2]
+execute if score $dungeon do2.config.endermiteCount matches ..0 run kill @e[type=minecraft:endermite,tag=L2MITE1]
+# Check for mites.
+execute if score $dungeon do2.config.endermiteCount matches 1.. unless entity @e[type=minecraft:endermite,tag=L2MITE1] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE1"], Health: 8.0f, CustomName: '{"text":"Tacticle Tickle"}'}
+execute if score $dungeon do2.config.endermiteCount matches 2.. unless entity @e[type=minecraft:endermite,tag=L2MITE2] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE2"], Health: 8.0f, CustomName: '{"text":"Frostmite"}'}
+execute if score $dungeon do2.config.endermiteCount matches 3.. unless entity @e[type=minecraft:endermite,tag=L2MITE3] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE3"], Health: 8.0f, CustomName: '{"text":"Bit Nibbler"}'}
+execute if score $dungeon do2.config.endermiteCount matches 4.. unless entity @e[type=minecraft:endermite,tag=L2MITE4] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE4"], Health: 8.0f, CustomName: '{"text":"Lil\' Endy"}'}
+execute if score $dungeon do2.config.endermiteCount matches 5.. unless entity @e[type=minecraft:endermite,tag=L2MITE5] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE5"], Health: 8.0f, CustomName: '{"text":"Parkour Failure"}'}
+execute if score $dungeon do2.config.endermiteCount matches 6.. unless entity @e[type=minecraft:endermite,tag=L2MITE6] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE6"], Health: 8.0f, CustomName: '{"text":"Nice Jump LOL"}'}
+
 execute unless entity @e[type=minecraft:drowned,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
-execute unless entity @e[type=minecraft:endermite,tag=L2MITE1] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
-execute unless entity @e[type=minecraft:endermite,tag=L2MITE2] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E1] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E2] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E3] run scoreboard players set $dungeon do2.tests.all_killers_alive 0

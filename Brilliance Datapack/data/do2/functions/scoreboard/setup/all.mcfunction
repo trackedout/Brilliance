@@ -42,6 +42,9 @@ scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to giv
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
+# Dungeon Config: how many endermites to spawn in. Default: 2 (2 Endermites spawning)
+scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
+execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
 # Dungeon Config: whether to use zones or not. Default: 1 (TRUE)
 scoreboard objectives add do2.config.useZones dummy "Use Ravager Zones."
 execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard players set $dungeon do2.config.useZones 1
