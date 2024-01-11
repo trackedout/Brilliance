@@ -10,7 +10,6 @@
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
 - Check lobby to add ALL players to the credits tab.
 - Debate on whether to kill all bats or leave them.
-- First 4 tabs are out of order due to some visible advancements being auto granted every tick.
 - Add a Tango Easter Egg to the dungeon, and automate it's score. 
   - **_(Builders need to hide egg first)_**
 - Update advancements documentation to include whether the advancement has been tested to work.

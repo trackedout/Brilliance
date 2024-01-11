@@ -27,6 +27,7 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 # - utility -
 function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
+scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
 scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"

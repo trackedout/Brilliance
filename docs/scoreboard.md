@@ -53,6 +53,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ❌  | do2.run.player_deaths                | Utility  | How many of the player have died.                                                                          |
 |  ✅   |  ❌  | do2.run.players                      | Current  | How many players are running this run.                                                                     |
 |  ✅   |  ❌  | do2.utility.card_bought              | Utility  | Determine what the card the player bought is for Agronet.                                                  |
+|  ✅   |  ✅  | do2.utility.advancementOrdering      | Utility  | Boolean on whether the advancements are being revoked and then granted in order.                           |
 |  ✅   |  ✅  | do2.utility.reachedBottomDepthCharge | Utility  | Whether player has reached the Bottom of the TnT Depth Charge.                                             |
 |  ✅   |  ✅  | do2.utility.embersToGive             | Utility  | Track how many Frost Embers player picked up so we can give the same amount back but tracked.              |
 |  ✅   |  ✅  | do2.utility.coinsToGive              | Utility  | Track how many Coins player picked up so we can give the same amount back but tracked.                     |
