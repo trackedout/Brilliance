@@ -33,3 +33,6 @@ execute as @e[tag=ShouldntSpawn] run data merge entity @s {NoAI:1b}
 execute as @e[tag=ShouldntSpawn] run data merge entity @s {CustomName: '{"text":"Light Levels here let me spawn."}'}
 # Enable this after EVERYTHING is excavated.
 execute as @e[tag=ShouldntSpawn] at @s if entity @p[distance=..20] run effect give @s minecraft:glowing 10 1 true
+
+#Todo: run this only while a player is ON: level 2.
+function do2:dungeon_setup/test_for_cove_dripstone
