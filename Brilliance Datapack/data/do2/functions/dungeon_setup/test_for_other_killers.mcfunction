@@ -1,4 +1,4 @@
-# Need to check if ONE marker is not existing. Best way I could do this:
+# Need to check if ONE killer is not existing. Best way I could do this:
 scoreboard objectives add do2.tests.all_killers_alive dummy
 scoreboard players set $dungeon do2.tests.all_killers_alive 1
 
