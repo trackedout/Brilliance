@@ -1,3 +1,6 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for Wardens."}]
+# - End Log -
 
 # Warden named 'Pain' should be tagged with L3Z1
 # Warden named 'Panic' should be tagged with L3Z2

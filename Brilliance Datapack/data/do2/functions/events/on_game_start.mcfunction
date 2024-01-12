@@ -1,5 +1,7 @@
 # called at start of run (when they hit pressure plate at the end of the minecart track)
-
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: Game has started."},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rRedstone line to detect shulker box placing has been activated."}]}},{"text":")"}]
+# - End Log -
 
 # AGRONET
 function do2:agronet/game_start

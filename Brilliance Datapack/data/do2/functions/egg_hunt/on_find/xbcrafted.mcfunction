@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add xbLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=xbLogTarget]"},{"text":" found xBCrafted's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -528 14 1932 -119 10"}},{"text":")"}]
+tag @s remove xbLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.xb matches 0 run scoreboard players set @s do2.eggs.xb 1
 

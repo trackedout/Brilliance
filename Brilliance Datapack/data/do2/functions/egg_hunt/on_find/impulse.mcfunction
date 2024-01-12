@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add impulseLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=impulseLogTarget]"},{"text":" found impulseSV's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -537.3 37 2005.76 120 5"}},{"text":")"}]
+tag @s remove impulseLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.impulse matches 0 run scoreboard players set @s do2.eggs.impulse 1
 

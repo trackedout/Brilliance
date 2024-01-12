@@ -1,3 +1,10 @@
+# - Start Log -
+tag @s add bdubLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bdubLogTarget]"},{"text":" found Bdoubleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -532 48 1974 270 20"}},{"text":")"}]
+tag @s remove bdubLogTarget
+# - End Log -
+
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.bdubs matches 0 run scoreboard players set @s do2.eggs.bdubs 1
 

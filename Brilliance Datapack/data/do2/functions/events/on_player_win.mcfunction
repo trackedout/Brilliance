@@ -1,4 +1,9 @@
 # called when player submits artifact.
+# - Start Log -
+tag @s add winLogTarget
+execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=winLogTarget]"},{"text":" won. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rPlayer reached the end and someone submitted an artifact."}]}},{"text":")"}]
+tag @s remove winLogTarget
+# - End Log -
 
 
 # player is no longer running

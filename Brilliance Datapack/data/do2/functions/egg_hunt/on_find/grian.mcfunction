@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add grainLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=grainLogTarget]"},{"text":" found Grian's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -578.2 -3 1905 -90 5"}},{"text":")"}]
+tag @s remove grainLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.grian matches 0 run scoreboard players set @s do2.eggs.grian 1
 

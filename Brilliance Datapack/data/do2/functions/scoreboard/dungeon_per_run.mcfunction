@@ -1,3 +1,6 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up dungeon per run scores."}]
+# - End Log -
 
 # setups dungeon clock.
 scoreboard players set $dungeon do2.run.active 1

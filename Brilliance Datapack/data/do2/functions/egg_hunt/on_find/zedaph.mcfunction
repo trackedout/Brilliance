@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add zedLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=zedLogTarget]"},{"text":" found Zedaph's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -504 46 2015 0 7"}},{"text":")"}]
+tag @s remove zedLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.zedaph matches 0 run scoreboard players set @s do2.eggs.zedaph 1
 

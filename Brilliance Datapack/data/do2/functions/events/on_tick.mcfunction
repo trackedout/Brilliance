@@ -1,5 +1,10 @@
-# Attempt to
 scoreboard players add $dungeon do2.utility.currentTick 1
+
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: Game ticked. ("},{"score":{"name":"$dungeon","objective":"do2.utility.currentTick"},"color":"aqua"},{"text":"§r/"},{"score":{"name":"$dungeon","objective":"do2.config.tickRate"},"color":"aqua"},{"text":"§r)"}]
+# - End Log -
+
+# Attempt to run a datapack tick
 execute if score $dungeon do2.utility.currentTick = $dungeon do2.config.tickRate run function do2:events/on_datapack_tick
 
 

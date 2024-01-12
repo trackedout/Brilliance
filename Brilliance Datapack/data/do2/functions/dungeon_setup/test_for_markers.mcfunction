@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for teleport Markers."}]
+# - End Log -
+
 # Need to check if ONE marker is not existing. Best way I could do this:
 scoreboard objectives add do2.tests.all_markers_alive dummy
 scoreboard players set $dungeon do2.tests.all_markers_alive 1

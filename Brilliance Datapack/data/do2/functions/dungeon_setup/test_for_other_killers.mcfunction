@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for 'other' killers ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
+# - End Log -
+
 # Need to check if ONE killer is not existing. Best way I could do this:
 scoreboard objectives add do2.tests.all_killers_alive dummy
 scoreboard players set $dungeon do2.tests.all_killers_alive 1

@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add cleoLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cleoLogTarget]"},{"text":" found ZombieCleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -631.4 2.5 1920 1.6 0"}},{"text":")"}]
+tag @s remove cleoLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.cleo matches 0 run scoreboard players set @s do2.eggs.cleo 1
 

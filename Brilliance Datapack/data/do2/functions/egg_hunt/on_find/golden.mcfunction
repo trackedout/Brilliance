@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add goldenLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=goldenLogTarget]"},{"text":" found the Golden easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -643.7 -7 1915 -90 48"}},{"text":")"}]
+tag @s remove goldenLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.gold matches 0 run scoreboard players set @s do2.eggs.gold 1
 

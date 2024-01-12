@@ -1,3 +1,8 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning Teleport Markers."}]
+# - End Log -
+
+
 kill @e[type=area_effect_cloud,tag=no-zones]
 kill @e[type=area_effect_cloud,tag=with-zones]
 

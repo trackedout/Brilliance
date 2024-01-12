@@ -1,3 +1,8 @@
+# - Start Log -
+tag @s add playerSetupLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
+tag @s remove playerSetupLogTarget
+
 # reset player's threecoursemeal track
 scoreboard players set @s do2.adv.threecoursemeal 0
 execute unless entity @s[advancements={do2:hidden/adventuring/eat_three_uniques=true}] run advancement revoke @s only do2:visible/adventuring/eat_three_uniques

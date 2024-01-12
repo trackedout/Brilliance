@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add falseLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=falseLogTarget]"},{"text":" found FalseSymmetry's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -520 49 1953 -19 37.5"}},{"text":")"}]
+tag @s remove falseLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.false matches 0 run scoreboard players set @s do2.eggs.false 1
 

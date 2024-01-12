@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add scarLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=scarLogTarget]"},{"text":" found GoodTimesWithScar's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -608 3 1883 -90 9"}},{"text":")"}]
+tag @s remove scarLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.scar matches 0 run scoreboard players set @s do2.eggs.scar 1
 

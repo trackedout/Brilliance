@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add stressLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=stressLogTarget]"},{"text":" found StressMonster101's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -551 50 2027 90 8"}},{"text":")"}]
+tag @s remove stressLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.stress matches 0 run scoreboard players set @s do2.eggs.stress 1
 

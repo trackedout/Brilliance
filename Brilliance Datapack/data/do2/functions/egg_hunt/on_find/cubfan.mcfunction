@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add cubLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cubLogTarget]"},{"text":" found Cubfan's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -508.7 19 1970.7 -120 25"}},{"text":")"}]
+tag @s remove cubLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.cub matches 0 run scoreboard players set @s do2.eggs.cub 1
 

@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add jevinLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=jevinLogTarget]"},{"text":" found iJevin's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -565 12 1936 -90 5"}},{"text":")"}]
+tag @s remove jevinLogTarget
+# - End Log -
+
 # Set that this player has found the egg.
 execute if score @s do2.eggs.jevin matches 0 run scoreboard players set @s do2.eggs.jevin 1
 

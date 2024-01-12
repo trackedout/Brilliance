@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Teleporting ALL Killers."}]
+# - End Log -
+
 # Make sure we have markers set up.
 function do2:dungeon_setup/teleport_killers/test_for_markers
 

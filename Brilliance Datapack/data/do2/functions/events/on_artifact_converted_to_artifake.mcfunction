@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: Artifact Converted. "}]
+# - End Log -
+
 execute as @p[tag=recieved_shulker] as @p[tag=recieved_shulker] run scoreboard players set @s do2.run.convertedArtifake 1
 
 # NOW: determine WHICH artifact got converted.

@@ -1,4 +1,7 @@
 # Called  on_datapack_load.
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Running Dungeon Setup."}]
+# - End Log -
 
 function do2:dungeon_setup/refill/refill_droppers
 function do2:dungeon_setup/refill/refill_berry_bushes

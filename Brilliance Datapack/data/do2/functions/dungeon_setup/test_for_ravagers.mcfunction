@@ -1,3 +1,6 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for Ravagers."}]
+# - End Log -
 
 # Ravager named 'Stumbles' should be tagged with L1Z1
 # Ravager named 'Laser Beams' should be tagged with L1Z2

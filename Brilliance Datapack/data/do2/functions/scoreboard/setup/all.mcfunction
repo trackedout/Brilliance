@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up all scoreboard objectives."}]
+# - End Log -
+
 # create scoreboard objectives
 # - global -
 scoreboard objectives add do2.runs dummy "Total Runs"
@@ -42,6 +46,12 @@ scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to giv
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
+# - Logging -
+scoreboard objectives add do2.utility.logLevel dummy "Logging Level"
+# 0 = nothing
+# 1 = basic events
+# 2 = advanced events
+# 3 = everything.
 # Dungeon Config: how many endermites to spawn in. Default: 2 (2 Endermites spawning)
 scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
 execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2

@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Fixing Cove Dripstone."}]
+# - End Log -
+
 setblock -554 14 1961 minecraft:pointed_dripstone[vertical_direction=up,thickness=frustum]
 setblock -554 15 1961 minecraft:pointed_dripstone[vertical_direction=up,thickness=tip_merge]
 setblock -554 17 1961 minecraft:pointed_dripstone[vertical_direction=down,thickness=frustum]

@@ -1,4 +1,3 @@
-
 # Ignore already tracked items.
 execute if entity @s[nbt={Item:{tag:{tracked:1b}}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run return 0

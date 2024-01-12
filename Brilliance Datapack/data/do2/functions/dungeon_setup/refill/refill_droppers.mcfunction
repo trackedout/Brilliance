@@ -1,4 +1,8 @@
-# TODO:
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Refilling Droppers."}]
+# - End Log -
+
+#TODO: possibly instead of setting COUNT, we set the entire ITEM.
 
 ### Difficulty
 # Easy
