@@ -8,3 +8,4 @@ advancement revoke @s from do2:visible/treasure/treasure_root
 advancement revoke @s from do2:visible/cards/cards_root
 advancement revoke @s from do2:visible/survival/survival_root
 advancement revoke @s from do2:visible/adventuring/adventuring_root
+

@@ -8,7 +8,7 @@ scoreboard players set $dungeon do2.utility.currentTick 0
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
 # IF the player has quit the game and is back, RUN on_player_rejoin
-execute as @a[scores={do2.utility.trackLeaves=1..}] at @s run function do2:events/on_player_rejoin
+execute as @a unless score @s do2.utility.trackLeaves matches 0 at @s run function do2:events/on_player_join
 # call on player death when running do2
 execute as @a[tag=do2.running, scores={do2.run.has_died=1}] run function do2:events/on_player_death
 
