@@ -18,9 +18,15 @@ execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.pla
 # if no players running do2 but game active for 5 minutes, end game.
 execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.empty matches 300 run function do2:events/on_game_end
 
+function do2:scoreboard/triggers/checks
+
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
+# Todo: run this only while a game is active.
 execute as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+
+#Todo: run this only while a player is ON: level 2.
+function do2:dungeon_setup/test_for_cove_dripstone
 
 
 # - For Dev Stuff -
@@ -37,6 +43,3 @@ execute as @e[tag=ShouldntSpawn] run data merge entity @s {NoAI:1b}
 execute as @e[tag=ShouldntSpawn] run data merge entity @s {CustomName: '{"text":"Light Levels here let me spawn."}'}
 # Enable this after EVERYTHING is excavated.
 execute as @e[tag=ShouldntSpawn] at @s if entity @p[distance=..20] run effect give @s minecraft:glowing 10 1 true
-
-#Todo: run this only while a player is ON: level 2.
-function do2:dungeon_setup/test_for_cove_dripstone

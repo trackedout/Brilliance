@@ -1,3 +1,9 @@
+# - Start Log -
+tag @s add joinPlayerLogTarget
+execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=joinPlayerLogTarget]"},{"text":" joined the game."}]
+tag @s remove joinPlayerLogTarget
+# - End Log -
+
 scoreboard players set @s do2.utility.trackLeaves 0
 
 advancement revoke @s from do2:visible/credits/credits_root
@@ -9,3 +15,4 @@ advancement revoke @s from do2:visible/cards/cards_root
 advancement revoke @s from do2:visible/survival/survival_root
 advancement revoke @s from do2:visible/adventuring/adventuring_root
 
+function do2:scoreboard/triggers/on_player_join

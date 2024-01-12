@@ -84,3 +84,6 @@ function do2:scoreboard/setup/items
 
 # - Artifacts and Artifakes -
 function do2:scoreboard/setup/artifacts_and_fakes/all
+
+# - Triggers -
+function do2:scoreboard/triggers/setup
