@@ -23,6 +23,8 @@ execute unless entity @e[type=minecraft:area_effect_cloud,tag=L3Z3] run scoreboa
 execute unless entity @e[type=minecraft:area_effect_cloud,tag=L4Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:area_effect_cloud,tag=L4Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:area_effect_cloud,tag=L4Z3] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+# Easter Egg Markers
+execute unless entity @e[type=minecraftarmor_stand,tag=do2.egg_hunt.is_hitbox] run function do2:egg_hunt/spawn_egg_hitboxes
 
 execute unless score $dungeon do2.tests.all_markers_alive matches 1 run function do2:dungeon_setup/summon_markers
 scoreboard objectives remove do2.tests.all_markers_alive
