@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "do2:item/compass/level4/compass_15"
+  }
+}
