@@ -44,6 +44,7 @@
 		{ "predicate": {"custom_model_data": 56}, "model": "do2:item/pink_green_balloon"},
 		{ "predicate": {"custom_model_data": 71}, "model": "do2:item/hg/hg_1x2_calendar_volley"},
 		{ "predicate": {"custom_model_data": 74}, "model": "do2:item/hg/hg_2x2_photo_signed"},
+		{ "predicate": {"custom_model_data": 82}, "model": "do2:item/scarland_ticketbook"},
 		{ "predicate": {"custom_model_data": 83}, "model": "do2:item/scarland_ticketbook_gold"},
 		{ "predicate": {"custom_model_data": 86}, "model": "do2:item/deco/glyphblock"},
 		{ "predicate": {"custom_model_data": 87}, "model": "do2:item/deco/glyphdoor"},
