@@ -22,14 +22,18 @@ function do2:scoreboard/triggers/checks
 
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
-# Todo: run this only while a game is active.
 execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+
+# Kill all L1 and L2 bats
+execute as @e[type=minecraft:bat] at @s unless entity @s[z=1933,dz=-200] run kill @s
 
 #Todo: run this only while a player is ON: level 2.
 function do2:dungeon_setup/test_for_cove_dripstone
 
 
 # - For Dev Stuff -
+function do2:scoreboard/config/display
+
 # Reveal Markers Control
 execute as @a[tag=marker_controller] run function do2:dungeon_setup/teleport_ravagers/dev/controller
 # Disable AI for monsters (so we can spot bad light levels)

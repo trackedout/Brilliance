@@ -28,6 +28,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 |  ❌   |  ❌  | do2.config.useZones                  |  Config  | Boolean on whether the run is using Ravager Zones.                                                         |
 |  ❌   |  ❌  | do2.config.eggRewards                |  Config  | Boolean on whether the run rewards the player for finding easter eggs.                                     |
 |  ❌   |  ❌  | do2.config.tickRate                  |  Config  | Determine how fast you want the datapack to run. Slower is more optimized.                                 |
+|  ✅   |  ❌  | do2.utility.configDisplay            | Utility  | Used to show the current settings of the dungeon.                                                          |
 |  ✅   |  ❌  | do2.utility.currentTick              | Utility  | Current tick, used to determine when the ticks reach the do2.config.tickRate                               |
 |  ✅   |  ✅  | do2.runs                             |  Totals  | Total amount of runs this player has.                                                                      |
 |  ❌   |  ✅  | do2.shards                           |  Totals  | Total amount of Frozen Shards this player has had.                                                         |

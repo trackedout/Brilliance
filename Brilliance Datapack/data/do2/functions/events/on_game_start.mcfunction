@@ -3,6 +3,9 @@
 execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: Game has started."},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rRedstone line to detect shulker box placing has been activated."}]}},{"text":")"}]
 # - End Log -
 
+# Clear Sidebar
+scoreboard objectives setdisplay sidebar
+
 # AGRONET
 function do2:agronet/game_start
 

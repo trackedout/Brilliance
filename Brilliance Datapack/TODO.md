@@ -21,7 +21,7 @@
   - Add missing advancements to the documentation.
 - Auto summon TangoCam with the map.
 - track glow berries.
-- add config to kill bats above a certain Y level. (L2 or higher)
+- add config to kill bats everywhere or just in L1 and L2. (on_datapack_tick already kills L1 & L2 bats)
 # List of unfinished things in the advancements that are here.
 
 ## Display:
