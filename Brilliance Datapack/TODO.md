@@ -21,6 +21,7 @@
   - Add missing advancements to the documentation.
 - Auto summon TangoCam with the map.
 - track glow berries.
+- add config to kill bats above a certain Y level. (L2 or higher)
 # List of unfinished things in the advancements that are here.
 
 ## Display:

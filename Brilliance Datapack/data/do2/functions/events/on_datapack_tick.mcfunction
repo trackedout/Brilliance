@@ -23,7 +23,7 @@ function do2:scoreboard/triggers/checks
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
 # Todo: run this only while a game is active.
-execute as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
 #Todo: run this only while a player is ON: level 2.
 function do2:dungeon_setup/test_for_cove_dripstone
