@@ -56,7 +56,7 @@ scoreboard objectives add do2.utility.logLevel dummy "Logging Level"
 scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
 execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
 # Dungeon Config: whether to use zones or not. Default: 1 (TRUE)
-scoreboard objectives add do2.config.useZones dummy "Use Ravager Zones."
+scoreboard objectives add do2.config.useZones dummy "Use Zones Lines."
 execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard players set $dungeon do2.config.useZones 1
 # Dungeon Config: whether to reward player for finding eggs. Default: 1 (TRUE)
 scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."

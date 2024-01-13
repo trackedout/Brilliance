@@ -6,11 +6,6 @@ kill @e[type=area_effect_cloud,tag=L1Z3]
 kill @e[type=area_effect_cloud,tag=L1Z4]
 kill @e[type=area_effect_cloud,tag=L1Z5]
 
-# ADDING BERRY BUSHES
-setblock -590 47 2005 minecraft:sweet_berry_bush
-setblock -590 47 2005 minecraft:sweet_berry_bush
-setblock -557 53 1999 minecraft:sweet_berry_bush
-setblock -489 52 2005 minecraft:sweet_berry_bush
 
 # - Zone 1 - (73 spots) -
 summon minecraft:area_effect_cloud -590 48 2007 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z1"]}

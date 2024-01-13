@@ -7,12 +7,6 @@ kill @e[type=area_effect_cloud,tag=L1Z3]
 kill @e[type=area_effect_cloud,tag=L1Z4]
 kill @e[type=area_effect_cloud,tag=L1Z5]
 
-# REMOVING BERRY BUSHES
-setblock -590 47 2005 minecraft:stone
-setblock -590 47 2005 minecraft:stone
-setblock -557 53 1999 minecraft:stone
-setblock -489 52 2005 minecraft:stone
-
 # - Zone 1 - (19 spots) -
 summon minecraft:area_effect_cloud -620 46 2000 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:area_effect_cloud -621 45 2017 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
