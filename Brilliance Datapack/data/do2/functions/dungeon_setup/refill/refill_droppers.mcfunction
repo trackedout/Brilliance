@@ -4241,6 +4241,18 @@ data modify block -637 -51 1872 Items[8].Count set value 64
 data modify block -637 -51 1872 Items[9].Count set value 64
 
 # Dropper 3
+data modify block -602 -51 1843 Items[0].Count set value 64
+data modify block -602 -51 1843 Items[1].Count set value 64
+data modify block -602 -51 1843 Items[2].Count set value 64
+data modify block -602 -51 1843 Items[3].Count set value 64
+data modify block -602 -51 1843 Items[4].Count set value 64
+data modify block -602 -51 1843 Items[5].Count set value 64
+data modify block -602 -51 1843 Items[6].Count set value 64
+data modify block -602 -51 1843 Items[7].Count set value 64
+data modify block -602 -51 1843 Items[8].Count set value 64
+data modify block -602 -51 1843 Items[9].Count set value 64
+
+# Dropper 4
 data modify block -598 -51 1876 Items[0].Count set value 64
 data modify block -598 -51 1876 Items[1].Count set value 64
 data modify block -598 -51 1876 Items[2].Count set value 64
@@ -4251,6 +4263,18 @@ data modify block -598 -51 1876 Items[6].Count set value 64
 data modify block -598 -51 1876 Items[7].Count set value 64
 data modify block -598 -51 1876 Items[8].Count set value 64
 data modify block -598 -51 1876 Items[9].Count set value 64
+
+# Dropper 5
+data modify block -569 -48 1909 Items[0].Count set value 64
+data modify block -569 -48 1909 Items[1].Count set value 64
+data modify block -569 -48 1909 Items[2].Count set value 64
+data modify block -569 -48 1909 Items[3].Count set value 64
+data modify block -569 -48 1909 Items[4].Count set value 64
+data modify block -569 -48 1909 Items[5].Count set value 64
+data modify block -569 -48 1909 Items[6].Count set value 64
+data modify block -569 -48 1909 Items[7].Count set value 64
+data modify block -569 -48 1909 Items[8].Count set value 64
+data modify block -569 -48 1909 Items[9].Count set value 64
 
 ### Level 4 secret room
 # Treasure
