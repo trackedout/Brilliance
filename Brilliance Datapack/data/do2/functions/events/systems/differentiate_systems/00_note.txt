@@ -1,0 +1,20 @@
+So every single command block runs the SAME command.
+
+/function do2:events/systems/on_hazard_event
+
+I have it log to those that opt in, (check config area or run /trigger)
+The log says: "Hazard Mechanism Activated"
+
+Now I'd LIKE to have it be: "Hazard Mechanism Activated (Teleport Me)"
+And on click of the "Teleport Me" you TP to the hazard.
+
+HOWEVER, it's damn near impossible to do so... since ALL hazard event command blocks
+are running the same function. It's near impossible to differentiate them.
+
+So for now, I got a dirty hack implemented... It'd be best if each command block called a different function
+like something:
+
+/function do2:events/systems/on_hazard_event/001
+
+However thats wishful thinking to modify EVERY command block, so for now I got this dirty fix in to get the job done
+Don't judge me.
