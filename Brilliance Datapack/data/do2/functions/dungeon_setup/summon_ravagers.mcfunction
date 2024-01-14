@@ -20,4 +20,4 @@ execute at @e[type=area_effect_cloud,tag=L2Z4,limit=1,sort=random] run summon ra
 execute at @e[type=area_effect_cloud,tag=L2Z5,limit=1,sort=random] run summon ravager ~ ~ ~ {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2Z5"],  Health: 100f, CustomName: '{"text":"Nugget"}', Fire: -1s}
 
 # Death Gauntlet Ravager
-summon minecraft:ravager -632 -48 1990 {Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}
+summon minecraft:ravager -632 -48 1990 {Tags: ["L0DEATHROOM"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}
