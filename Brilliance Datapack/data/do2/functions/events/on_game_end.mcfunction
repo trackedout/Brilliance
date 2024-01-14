@@ -10,7 +10,7 @@ execute as @a[scores={do2.utility.logLevel=1..}] if score $dungeon do2.run.activ
 scoreboard players set $dungeon do2.run.active 0
 
 # if player DIDN'T win, then it's a loss:
-execute as @a unless entity @s[tag=do2.win] run function do2:events/on_player_loss
+execute as @a[tag=do2.running] unless entity @s[tag=do2.win] run function do2:events/on_player_loss
 
 # AGRONET
 function do2:agronet/game_end
