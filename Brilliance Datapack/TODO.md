@@ -1,5 +1,6 @@
 # Other TODO:
 - On datapack update to v0.8.3 or later. Remove command blocks -468 115 1951 in builder world
+- figure out where to set world spawn in instances, or whether Infra will deal with that.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
   - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
   - `tracked:1b` counts the crowns as already tracked crowns.
