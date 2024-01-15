@@ -3,8 +3,6 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 # - End Log -
 
 ### Berry Bushes
-# Lobby
-setblock -551 114 1978 minecraft:sweet_berry_bush[age=3]
 
 # Frozen Crypts (Level 1)
 setblock -613 45 2004 minecraft:sweet_berry_bush[age=3]
