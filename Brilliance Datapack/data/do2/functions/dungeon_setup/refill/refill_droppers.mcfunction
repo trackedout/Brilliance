@@ -206,7 +206,7 @@ data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestpl
 data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:7b}
 data modify block -630 57 1949 Items append value {id:"minecraft:diamond_chestplate",Count:64b,Slot:8b}
 
-clone -629 57 1949 -630 57 1949 -630 58 1945
+clone -629 57 1949 -630 57 1949 -630 59 1945
 setblock -629 57 1949 air replace
 setblock -630 57 1949 air replace
 
