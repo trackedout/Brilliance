@@ -32,6 +32,8 @@ execute unless entity @e[type=minecraft:ravager,tag=L2Z4] run scoreboard players
 execute unless entity @e[type=minecraft:ravager,tag=L2Z5] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
 # Death Room Ravager
 execute unless entity @e[type=minecraft:ravager,tag=L0DEATHROOM] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
+# Training Room Ravager
+execute unless entity @e[type=minecraft:ravager,tag=L0TRAIN] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 0
 
 
 execute unless score $dungeon do2.tests.all_ravagers_alive matches 1 run function do2:dungeon_setup/summon_ravagers

@@ -20,9 +20,13 @@ execute if score $dungeon do2.config.endermiteCount matches 3.. unless entity @e
 execute if score $dungeon do2.config.endermiteCount matches 4.. unless entity @e[type=minecraft:endermite,tag=L2MITE4] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE4"], Health: 8.0f, CustomName: '{"text":"Lil\' Endy"}'}
 execute if score $dungeon do2.config.endermiteCount matches 5.. unless entity @e[type=minecraft:endermite,tag=L2MITE5] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE5"], Health: 8.0f, CustomName: '{"text":"Parkour Failure"}'}
 execute if score $dungeon do2.config.endermiteCount matches 6.. unless entity @e[type=minecraft:endermite,tag=L2MITE6] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE6"], Health: 8.0f, CustomName: '{"text":"Nice Jump LOL"}'}
-
+# Check for One Eyed Willy
 execute unless entity @e[type=minecraft:drowned,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
+# Check for Trainign Room Drowned
+execute unless entity @e[type=minecraft:drowned,tag=L0TRAIN] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
+# Check for Davy Bones
 execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
+# Check for Evokers
 execute unless entity @e[type=minecraft:evoker,tag=L1E1] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E2] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
 execute unless entity @e[type=minecraft:evoker,tag=L1E3] run scoreboard players set $dungeon do2.tests.all_killers_alive 0
