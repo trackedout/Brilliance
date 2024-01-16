@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_glow_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:glow_berries"
+						],
+						"nbt": "{tracked:0b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/glow_berries"
+	},
+	"parent": "do2:utility/root"
+}

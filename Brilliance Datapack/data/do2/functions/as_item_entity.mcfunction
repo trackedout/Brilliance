@@ -12,6 +12,7 @@ execute if entity @s[tag=tracked] run return 0
 # 5. Pumpkins
 # 6. Porkchops
 # 7. Bone_meal
+# 8. Glow_berries
 
 
 # - Iron Nugget - (all cards, treasures, and most of DO2.
@@ -49,6 +50,11 @@ execute if entity @s[tag=tracked] run return 0
 
 # - Bone Meal - (Exclusively obtained by composter)
 execute if entity @s[nbt={Item:{id:"minecraft:bone_meal"}}] run tag @s add tracked
+execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
+execute if entity @s[tag=tracked] run return 0
+
+# - Glow Berries - (Exclusively obtained by bone_meal)
+execute if entity @s[nbt={Item:{id:"minecraft:glow_berries"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 
