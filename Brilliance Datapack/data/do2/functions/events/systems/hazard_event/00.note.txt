@@ -1,0 +1,7 @@
+# Called when a Hazard Event activates.
+# Door closing, trap activating etc.
+#
+# Reason why we differentiate the types of hazard events is:
+# - Eventually determine which hazards activate a lot
+# - Eventually determine at what time hazards activated.
+# - Differentiate logging Teleports
