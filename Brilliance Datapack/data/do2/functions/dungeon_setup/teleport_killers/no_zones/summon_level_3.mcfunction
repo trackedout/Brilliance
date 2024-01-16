@@ -1,5 +1,9 @@
 # Level 3
 
+kill @e[type=area_effect_cloud,tag=L3Z1]
+kill @e[type=area_effect_cloud,tag=L3Z2]
+kill @e[type=area_effect_cloud,tag=L3Z3]
+
 # - Zone 1 - (55 spots) -
 summon minecraft:area_effect_cloud -585 3 1904 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
 summon minecraft:area_effect_cloud -619 55 2031 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
