@@ -26,7 +26,7 @@ execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] 
 
 # Kill all bats. 0 = all, 1 = L1 & L2
 execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat] at @s unless entity @s[z=1933,dz=-200] run kill @s
-execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat] kill @s
+execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat] run kill @s
 
 #Todo: run this only while a player is ON: level 2.
 function do2:dungeon_setup/test_for_cove_dripstone
