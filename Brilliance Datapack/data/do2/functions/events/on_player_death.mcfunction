@@ -14,4 +14,3 @@ tag @s remove do2.running
 
 # increase the amount of player deaths
 scoreboard players add $dungeon do2.run.player_deaths 1
-tag @s remove dying
