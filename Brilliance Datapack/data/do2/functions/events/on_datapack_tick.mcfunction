@@ -24,12 +24,12 @@ function do2:scoreboard/triggers/checks
 # Remove glowing effect from Evokers.
 execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
-# Kill all L1 and L2 bats
-execute as @e[type=minecraft:bat] at @s unless entity @s[z=1933,dz=-200] run kill @s
+# Kill all bats. 0 = all, 1 = L1 & L2
+execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat] at @s unless entity @s[z=1933,dz=-200] run kill @s
+execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat] kill @s
 
 #Todo: run this only while a player is ON: level 2.
 function do2:dungeon_setup/test_for_cove_dripstone
-
 
 # - For Dev Stuff -
 function do2:scoreboard/config/display

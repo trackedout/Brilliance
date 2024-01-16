@@ -11,7 +11,6 @@
   - **_(Builders need to hide egg first)_**
 - Update advancements documentation to include whether the advancement has been tested to work.
   - Add missing advancements to the documentation.
-- track glow berries.
 - add config to kill bats everywhere or just in L1 and L2. (on_datapack_tick already kills L1 & L2 bats)
 # List of unfinished things in the advancements that are here.
 

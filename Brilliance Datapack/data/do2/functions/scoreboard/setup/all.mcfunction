@@ -48,20 +48,33 @@ scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to giv
 scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
 
 # - Logging -
-scoreboard objectives add do2.utility.logLevel dummy "Logging Level"
 # 0 = nothing
 # 1 = basic events
 # 2 = advanced events
 # 3 = everything.
+scoreboard objectives add do2.utility.logLevel dummy "Logging Level"
+
+
 # Dungeon Config: how many endermites to spawn in. Default: 2 (2 Endermites spawning)
 scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
 execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
+
 # Dungeon Config: whether to use zones or not. Default: 1 (TRUE)
 scoreboard objectives add do2.config.useZones dummy "Use Zones Lines."
 execute unless score $dungeon do2.config.useZones matches 0.. run scoreboard players set $dungeon do2.config.useZones 1
-# Dungeon Config: whether to reward player for finding eggs. Default: 1 (TRUE)
+
+# Dungeon Config: whether to reward player for finding eggs. Default: 1 (Stick to DO2)
+# 0 = nothing
+# 1 = DO2 rewards
+# 2 = 5/10/15 per level
+# 3 = 1/2/3 per level
 scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."
 execute unless score $dungeon do2.config.eggRewards matches 0.. run scoreboard players set $dungeon do2.config.eggRewards 1
+
+# Dungeon Config: Whether we allow bats to exist on L3 and L4. Default: 1 (TRUE)
+scoreboard objectives add do2.config.batDistraction dummy "Bats distract Wardens."
+execute unless score $dungeon do2.config.batDistraction matches 0.. run scoreboard players set $dungeon do2.config.batDistraction 1
+
 # Dungeon Config: How fast the datapack should run. Default: 2 (Once every 2 ticks)
 scoreboard objectives add do2.config.tickRate dummy "Datapack tick rate."
 execute unless score $dungeon do2.config.tickRate matches 0.. run scoreboard players set $dungeon do2.config.tickRate 2
