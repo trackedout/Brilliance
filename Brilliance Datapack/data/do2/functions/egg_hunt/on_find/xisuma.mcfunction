@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add xisumaLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=xisumaLogTarget]"},{"text":" found xisumavoid's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -657 4 1912 0 10"}},{"text":")"}]
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=xisumaLogTarget]"},{"text":" found xisumavoid's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -657 4 1912 0 10"}},{"text":")"}]
 tag @s remove xisumaLogTarget
 # - End Log -
 

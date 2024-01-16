@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add hypnoLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hypnoLogTarget]"},{"text":" found Hypnotizd's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -596 11 2034 0 -13"}},{"text":")"}]
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hypnoLogTarget]"},{"text":" found Hypnotizd's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -596 11 2034 0 -13"}},{"text":")"}]
 tag @s remove hypnoLogTarget
 # - End Log -
 

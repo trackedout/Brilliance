@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add beefLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=beefLogTarget]"},{"text":" found VintageBeef's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -540 19 2009 0 20"}},{"text":")"}]
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=beefLogTarget]"},{"text":" found VintageBeef's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -540 19 2009 0 20"}},{"text":")"}]
 tag @s remove beefLogTarget
 # - End Log -
 

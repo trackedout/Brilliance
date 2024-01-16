@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add joeLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=joeLogTarget]"},{"text":" found JoeHills's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -542 18 1987 180 5"}},{"text":")"}]
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=joeLogTarget]"},{"text":" found JoeHills's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -542 18 1987 180 5"}},{"text":")"}]
 tag @s remove joeLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add grainLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=grainLogTarget]"},{"text":" found Grian's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -578.2 -3 1905 -90 5"}},{"text":")"}]
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=grainLogTarget]"},{"text":" found Grian's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -578.2 -3 1905 -90 5"}},{"text":")"}]
 tag @s remove grainLogTarget
 # - End Log -
 
