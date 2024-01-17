@@ -17,10 +17,10 @@ function do2:scoreboard/config/egg_reward_display
 function do2:scoreboard/config/endermite_display
 
 # Use Zones (global)
-setblock -490 116 1936 minecraft:oak_wall_sign[facing=east]
-data merge block -490 116 1936 {front_text:{has_glowing_text:1b,messages:['{"text":""}','{"text":"§bUse Zones"}','{"text":""}','{"text":""}']}}
+setblock -490 116 1937 minecraft:oak_wall_sign[facing=east]
+data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bUse Zones"}','{"text":""}','{"text":""}']}}
 
 # Use Zones (global)
-setblock -490 116 1932 minecraft:oak_wall_sign[facing=east]
-data merge block -490 116 1932 {front_text:{has_glowing_text:1b,messages:['{"text":""}','{"text":"§bBats Distract"}','{"text":"§bWardens"}','{"text":""}']}}
+setblock -490 116 1931 minecraft:oak_wall_sign[facing=east]
+data merge block -490 116 1931 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bBats Distract"}','{"text":"§bWardens"}','{"text":""}']}}
 
