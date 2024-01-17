@@ -9,7 +9,7 @@ scoreboard players remove @s do2.utility.bonemealsToGive 1
 
 # If player doesn't have any more bone_meals left to give
 # revoke the advancement that called it.
-execute if score @s do2.utility.bonemealToGive matches ..0 run advancement revoke @s only do2:utility/picked_up/bone_meal
+execute if score @s do2.utility.bonemealsToGive matches ..0 run advancement revoke @s only do2:utility/picked_up/bone_meals
 
 # If we still have to give more bone_meals. Cycle it again.
-execute if score @s do2.utility.bonemealToGive matches 1.. run function do2:events/picked_up/cycle/bone_meal
+execute if score @s do2.utility.bonemealsToGive matches 1.. run function do2:events/picked_up/cycle/bone_meals
