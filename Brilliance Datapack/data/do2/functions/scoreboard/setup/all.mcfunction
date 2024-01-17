@@ -31,10 +31,12 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 # - utility -
 function do2:scoreboard/setup/advancements
 scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
+scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
 scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
+scoreboard objectives add do2.utility.configDisplay dummy "Whether the dungeon is attempting to reload."
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 # - Cycle utility -
 scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"
@@ -83,6 +85,10 @@ execute unless score $dungeon do2.config.batDistraction matches 0.. run scoreboa
 scoreboard objectives add do2.config.tickRate dummy "Datapack tick rate."
 execute unless score $dungeon do2.config.tickRate matches 0.. run scoreboard players set $dungeon do2.config.tickRate 2
 execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard players set $dungeon do2.utility.currentTick 0
+
+# Dungeon Config: How many ticks per second.
+scoreboard objectives add do2.config.ticksPerSecond dummy "Datapack tick rate."
+execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboard players set $dungeon do2.config.ticksPerSecond 20
 
 # - systems -
 function do2:scoreboard/setup/systems

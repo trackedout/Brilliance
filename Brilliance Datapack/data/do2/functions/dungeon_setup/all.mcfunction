@@ -13,3 +13,6 @@ function do2:dungeon_setup/test_for_markers
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/config_setup
+
+scoreboard players set $dungeon do2.utility.currentTick 0
+

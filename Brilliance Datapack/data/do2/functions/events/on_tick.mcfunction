@@ -4,9 +4,16 @@ scoreboard players add $dungeon do2.utility.currentTick 1
 execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: Game ticked. ("},{"score":{"name":"$dungeon","objective":"do2.utility.currentTick"},"color":"aqua"},{"text":"§r/"},{"score":{"name":"$dungeon","objective":"do2.config.tickRate"},"color":"aqua"},{"text":"§r)"}]
 # - End Log -
 
-# Attempt to run a datapack tick
+# Attempt to run per second event.
+scoreboard players operation $dungeon do2.utility.checkTick = $dungeon do2.utility.currentTick
+scoreboard players operation $dungeon do2.utility.checkTick %= $dungeon do2.config.ticksPerSecond
+execute if score $dungeon do2.utility.checkTick matches 0 run function do2:events/on_20_ticks
+# Attempt to run per datapack tick.
+scoreboard players operation $dungeon do2.utility.checkTick = $dungeon do2.utility.currentTick
+scoreboard players operation $dungeon do2.utility.checkTick %= $dungeon do2.config.tickRate
 execute if score $dungeon do2.utility.currentTick = $dungeon do2.config.tickRate run function do2:events/on_datapack_tick
-
+# if score is way too high, reset it to zero. (better so math doesn't take long)
+execute if score $dungeon do2.utility.currentTick matches 10000000.. run scoreboard players set $dungeon do2.utility.currentTick 0
 
 # Grant the player their visible advancements to match their actual advancements.
 # But only if the advancement isn't being ordering.
