@@ -17,3 +17,10 @@ scoreboard objectives remove do2.temp.doesTangoCamExist
 
 # Attempt to run dungeon_setup
 scoreboard player set $dungeon do2.utility.dungeonRepair 1
+
+# One time setup:
+gamerule doWeatherCycle false
+gamerule doDaylightCycle false
+time set noon
+weather clear
+setworldspawn -547 113 1980 90
