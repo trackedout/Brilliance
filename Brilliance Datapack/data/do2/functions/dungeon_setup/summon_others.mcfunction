@@ -19,5 +19,5 @@ summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:
 scoreboard objectives add do2.temp.doesTangoCamExist dummy
 execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
 execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute if score $dungeon do2.temp.doesTangoCamExist matches 0 run function do2:dungeon_setup/summon_tangocam
+execute unless score $dungeon do2.temp.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon_tangocam
 scoreboard objectives remove do2.temp.doesTangoCamExist
