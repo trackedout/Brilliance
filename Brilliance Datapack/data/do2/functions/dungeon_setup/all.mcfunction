@@ -16,3 +16,6 @@ function do2:scoreboard/config/config_setup
 
 scoreboard players set $dungeon do2.utility.currentTick 0
 
+# Prevent blocks placed on difficulty lamps.
+kill @e[type=minecraft:interaction,tag=lamp_blocker]
+summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
