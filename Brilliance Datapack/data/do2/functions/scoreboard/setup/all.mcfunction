@@ -36,7 +36,7 @@ scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whet
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
 scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
-scoreboard objectives add do2.utility.configDisplay dummy "Whether the dungeon is attempting to reload."
+scoreboard objectives add do2.utility.dungeonRepair dummy "Boolean on whether the dungeon is attempting to reload."
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 # - Cycle utility -
 scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"

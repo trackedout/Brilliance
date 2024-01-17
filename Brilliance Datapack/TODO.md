@@ -1,14 +1,9 @@
 # Other TODO:
-- On datapack update to v0.8.6 or later, remove OLD egg rewards config
 - Update all area_effect_clouds to minecraft:marker
 - separate config for ravager zones and warden zones
-- Log artifact pick-ups. 
 - Reset compass filter hopper minecarts
 - Reset composter level. Config maybe?
 - Auto summon axolotls
-- add /summon minecraft:interaction -559 113.95 1987.45 {width: 5.1, height: 1.1} during dungeon repair
-- remove dungeon repair on datapack load, or modify it to not summon.
-- figure out where to set world spawn in instances, or whether Infra will deal with that.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
