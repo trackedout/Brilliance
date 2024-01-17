@@ -12,10 +12,7 @@ function do2:dungeon_setup/test_for_other_killers
 function do2:dungeon_setup/test_for_markers
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
+function do2:dungeon_setup/summon_others
 function do2:scoreboard/config/config_setup
 
 scoreboard players set $dungeon do2.utility.currentTick 0
-
-# Prevent blocks placed on difficulty lamps.
-kill @e[type=minecraft:interaction,tag=lamp_blocker]
-summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
