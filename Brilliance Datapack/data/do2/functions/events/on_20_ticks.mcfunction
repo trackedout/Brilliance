@@ -4,6 +4,10 @@
 execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: 20 tick mark. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fEvery §b20 §fticks."}]}},{"text":")"}]
 # - End Log -
 
+# Kill TangoCam if no player's are on the server.
+execute unless entity @a[name=!tangocam,name=!TangoCam] if entity @a[name=TangoCam] run kill TangoCam
+execute unless entity @a[name=!tangocam,name=!TangoCam] if entity @a[name=tangocam] run kill tangocam
+
 # Only do dungeon repair IF: an actual player is loading the dungeon.
 execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[name=!tangocam,name=!TangoCam,distance=..300] run function do2:dungeon_setup/all
 
