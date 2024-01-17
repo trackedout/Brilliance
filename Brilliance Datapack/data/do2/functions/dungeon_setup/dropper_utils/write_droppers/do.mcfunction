@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers to dungeon."}]
+# - End Log -
+
 # write contents of droppers into dungeon
 # artifacts
 clone -476 114 1958 -476 114 1958 -562 48 2033 replace

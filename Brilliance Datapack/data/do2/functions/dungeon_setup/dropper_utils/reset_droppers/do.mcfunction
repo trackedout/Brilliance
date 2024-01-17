@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers in dropper room."}]
+# - End Log -
+
 # write default dropper values in edit room
 # Treasure
 data modify block -476 114 1967 Items set value [{Slot: 0b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 1b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 2b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 3b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 4b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 5b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 6b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 7b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 8b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}]

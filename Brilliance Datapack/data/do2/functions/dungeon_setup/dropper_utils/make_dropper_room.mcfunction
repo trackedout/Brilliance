@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Generating dropper room."}]
+# - End Log -
+
 # carve out an area in the mountainside to paste droppers into
 # area
 fill -477 114 1987 -462 118 1957 air
