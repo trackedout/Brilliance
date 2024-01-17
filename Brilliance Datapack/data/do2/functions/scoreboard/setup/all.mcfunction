@@ -34,18 +34,22 @@ scoreboard objectives add do2.utility.currentTick dummy "The current tick number
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
 scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
+scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
+# - Cycle utility -
 scoreboard objectives add do2.utility.embersToGive dummy "Frost Embers left to give"
 scoreboard objectives add do2.utility.coinsToGive dummy "Coins left to give"
 scoreboard objectives add do2.utility.crownsToGive dummy "Crowns left to give"
 scoreboard objectives add do2.utility.kitsToGive dummy "Rusty Kits left to give"
 scoreboard objectives add do2.utility.pumpkinsToGive dummy "Pumpkins left to give"
 scoreboard objectives add do2.utility.berriesToGive dummy "Sweet_berries left to give"
+scoreboard objectives add do2.utility.bombsToGive dummy "Bombs left to give"
+scoreboard objectives add do2.utility.bonemealToGive dummy "Bone_Meals left to give"
+scoreboard objectives add do2.utility.glowberriesToGive dummy "Glow Berries left to give"
 scoreboard objectives add do2.utility.chopsToGive dummy "Pork_chops left to give"
 scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to give"
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
-scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
 
 # - Logging -
 # 0 = nothing
