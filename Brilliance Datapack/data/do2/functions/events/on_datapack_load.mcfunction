@@ -16,7 +16,7 @@ execute if score $dungeon do2.temp.doesTangoCamExist matches 0 run function do2:
 scoreboard objectives remove do2.temp.doesTangoCamExist
 
 # Attempt to run dungeon_setup
-scoreboard player set $dungeon do2.utility.dungeonRepair 1
+scoreboard players set $dungeon do2.utility.dungeonRepair 1
 
 # One time setup:
 gamerule doWeatherCycle false

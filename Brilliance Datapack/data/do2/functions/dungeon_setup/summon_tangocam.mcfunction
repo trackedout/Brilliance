@@ -1,3 +1,7 @@
+# - Start Log -
+execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning TangoCam. "}]
+# - End Log -
+
 player TangoCam spawn at -484.52 62.00 1739.16 facing 180 0 in minecraft:overworld in creative
 
 # For uppercase TangoCam
