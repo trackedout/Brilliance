@@ -1,10 +1,10 @@
 # Brilliance Version Sign
 setblock -486 115 1930 minecraft:oak_wall_sign[facing=south]
-data merge block -486 115 1930 {front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oBrilliance Version."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"execute as @p run function do2:version"}}','{"text":""}']}}
+data merge block -486 115 1930 {front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oBrilliance Version."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:version"}}','{"text":""}']}}
 
 # Brilliance Apply Changes Sign
 setblock -486 114 1930 minecraft:oak_wall_sign[facing=south]
-data merge block -486 114 1930 {front_text:{messages:['{"text":"§bManually apply"}','{"text":"§bconfig changes"}','{"text":"§bby clicking this."}','{"text":"§9§o§n( CLICK ME )"}']}}
+data merge block -486 114 1930 {front_text:{messages:['{"text":"§bManually apply"}','{"text":"§bconfig changes"}','{"text":"§bby clicking this."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:dungeon_setup/all"}}']}}
 
 # Access to Logs
 setblock -482 115 1931 minecraft:oak_wall_sign[facing=west]
