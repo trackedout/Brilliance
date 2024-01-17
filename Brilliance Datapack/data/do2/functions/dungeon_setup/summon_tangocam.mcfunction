@@ -1,3 +1,6 @@
+execute if entity @p[name=TangoCam] run return 0
+execute if entity @p[name=tangocam] run return 0
+
 # - Start Log -
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning TangoCam. "}]
 # - End Log -
