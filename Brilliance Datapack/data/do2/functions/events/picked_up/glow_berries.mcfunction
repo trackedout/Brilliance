@@ -1,13 +1,12 @@
-# is called when player picks up bone_meal
-# player is adventure mode, and can't use regular bone_meal.
-clear @s glow_berries{tracked:0b} 1
+# determine how many glow_berries we need to give them back while clearing them.
+execute store result score @s do2.utility.glowberriesToGive run clear @s glow_berries{tracked:0b}
 
-# Anything else we want to allow bone_meal to be placed on?
-give @s minecraft:glow_berries{tracked:1b, display: {Name: '{"text":"❄☠ Glow Berries ☠❄"}'}} 1
+# - Start Log -
+tag @s add glowberriesPickUpLogTarget
+execute as @a[scores={do2.utility.logLevel=2..}] if score @p[tag=glowberriesPickUpLogTarget] do2.utility.glowberriesToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=glowberriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@s","objective":"do2.utility.glowberriesToGive"}},{"text":" glow berry."}]
+execute as @a[scores={do2.utility.logLevel=2..}] unless score @p[tag=glowberriesPickUpLogTarget] do2.utility.glowberriesToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=glowberriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@s","objective":"do2.utility.glowberriesToGive"}},{"text":" glow berries."}]
+tag @s remove glowberriesPickUpLogTarget
+# - End Log -
 
-# revoke the advancement that called it.
-# so player can additionally make more usable bone_meal
-advancement revoke @s only do2:utility/picked_up/glow_berries
-
-# track a bone_meal pick up
-scoreboard players add @s do2.run.items.glow_berries 1
+#cycle giving glow_berries
+function do2:events/picked_up/cycle/glow_berries
