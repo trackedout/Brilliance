@@ -16,13 +16,9 @@ function do2:scoreboard/config/egg_reward_display
 # Endermite Display
 function do2:scoreboard/config/endermite_display
 
-# Use Zones (global)
+# Reset Composters (global)
 setblock -490 116 1937 minecraft:oak_wall_sign[facing=east]
-data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bUse Zones"}','{"text":""}','{"text":""}']}}
-
-# Use Zones (global)
-setblock -490 116 1931 minecraft:oak_wall_sign[facing=east]
-data merge block -490 116 1931 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bBats Distract"}','{"text":"§bWardens"}','{"text":""}']}}
+data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bReset Composters"}','{"text":"§bEvery Run"}','{"text":""}']}}
 
 # Use L1 & L2 Zones
 setblock -490 116 1935 minecraft:oak_wall_sign[facing=east]

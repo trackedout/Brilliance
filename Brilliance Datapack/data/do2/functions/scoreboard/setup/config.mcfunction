@@ -11,6 +11,10 @@ execute unless score $dungeon do2.config.useRavagerZones matches 0.. run scorebo
 scoreboard objectives add do2.config.useWardenZones dummy "Use Zones Lines."
 execute unless score $dungeon do2.config.useWardenZones matches 0.. run scoreboard players set $dungeon do2.config.useWardenZones 1
 
+# Dungeon Config: whether to use reset composters every run. Default: 1 (TRUE)
+scoreboard objectives add do2.config.resetComposters dummy "Reset Composters."
+execute unless score $dungeon do2.config.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.resetComposters 1
+
 # Dungeon Config: whether to reward player for finding eggs. Default: 1 (Stick to DO2)
 # 0 = nothing
 # 1 = DO2 rewards
