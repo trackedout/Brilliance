@@ -23,7 +23,7 @@ execute if block -634 28 1992 minecraft:redstone_block run function do2:dungeon_
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
 # Reveal Markers Control
-execute as @a[tag=marker_controller] run function do2:dungeon_setup/teleport_ravagers/dev/controller
+execute as @a[tag=marker_controller] run function do2:dungeon_setup/teleport_killers/dev/controller
 # Disable AI for monsters (so we can spot bad light levels)
 execute as @e[type=minecraft:zombie] run tag @s add ShouldntSpawn
 execute as @e[type=minecraft:spider] run tag @s add ShouldntSpawn
