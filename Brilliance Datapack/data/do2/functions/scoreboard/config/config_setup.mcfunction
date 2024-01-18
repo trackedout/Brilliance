@@ -24,3 +24,10 @@ data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blu
 setblock -490 116 1931 minecraft:oak_wall_sign[facing=east]
 data merge block -490 116 1931 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bBats Distract"}','{"text":"§bWardens"}','{"text":""}']}}
 
+# Use L1 & L2 Zones
+setblock -490 116 1935 minecraft:oak_wall_sign[facing=east]
+data merge block -490 116 1935 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"USE"}','{"text":"Level 1 §b&","color":"#d9a334"}','{"text":"Level 2","color":"#fe3f3f"}','{"text":"ZONES"}']}}
+
+# Use L4 Zones
+setblock -490 116 1933 minecraft:oak_wall_sign[facing=east]
+data merge block -490 116 1933 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":""}','{"text":"Level 4","color":"#be00be"}','{"text":"ZONES"}']}}
