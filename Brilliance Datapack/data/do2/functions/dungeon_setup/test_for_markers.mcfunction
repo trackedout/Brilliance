@@ -6,9 +6,14 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 scoreboard objectives add do2.tests.all_markers_alive dummy
 scoreboard players set $dungeon do2.tests.all_markers_alive 1
 
-# Zone Type:
-execute if score $dungeon do2.config.useZones matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute if score $dungeon do2.config.useZones matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+# Check if Correct Ravager Zones Exist.
+execute if score $dungeon do2.config.useRavagerZones matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=L1Z1,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=L2Z1,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:area_effect_cloud,tag=L1Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:area_effect_cloud,tag=L2Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+# Check if Correct Warden Zones Exist.
+execute if score $dungeon do2.config.usWardenZones matches 1 unless entity @e[type=minecraft:area_effect_cloud,tag=L3Z1,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.usWardenZones matches 0 unless entity @e[type=minecraft:area_effect_cloud,tag=L3Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 
 # Level 1 markers
 execute unless entity @e[type=minecraft:area_effect_cloud,tag=L1Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 0

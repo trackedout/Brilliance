@@ -1,6 +1,5 @@
 # Other TODO:
 - Update all area_effect_clouds to minecraft:marker
-- separate config for ravager zones and warden zones
 - Reset composter level. Config maybe?
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.

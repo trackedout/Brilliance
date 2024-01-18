@@ -5,9 +5,13 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 # Make sure we have markers set up.
 function do2:dungeon_setup/teleport_killers/test_for_markers
 
-# Summon Zone Lines
-execute if score $dungeon do2.config.useZones matches 0 run function do2:dungeon_setup/teleport_killers/no_zones/summon_zones
-execute if score $dungeon do2.config.useZones matches 1.. run function do2:dungeon_setup/teleport_killers/with_zones/summon_zones
+# - Summon Zone Lines -
+# Ravager Zones:
+execute if score $dungeon do2.config.useRavagerZones matches 0 run function do2:dungeon_setup/teleport_killers/no_zones/remove_ravager_zones
+execute if score $dungeon do2.config.useRavagerZones matches 1.. run function do2:dungeon_setup/teleport_killers/with_zones/summon_ravager_zones
+# Warden Zones:
+execute if score $dungeon do2.config.useWardenZones matches 0 run function do2:dungeon_setup/teleport_killers/no_zones/remove_warden_zones
+execute if score $dungeon do2.config.useWardenZones matches 1.. run function do2:dungeon_setup/teleport_killers/with_zones/summon_warden_zones
 
 # Teleport ravagers & wardens based on the types of markers we have up.
 # No Zones.
