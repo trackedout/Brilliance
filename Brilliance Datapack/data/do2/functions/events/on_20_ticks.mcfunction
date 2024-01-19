@@ -15,6 +15,10 @@ execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41
 execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat] at @s unless entity @s[z=1933,dz=-200] run kill @s
 execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat] run kill @s
 
+# Kill all slimes
+execute as @e[type=minecraft:slime] at @s run tp @s ~ -70 ~
+
+
 #Todo: better way to run this only while a player is ON level 2. (Maybe with a scoreboard?)
 # Test if cove dripstone is broken.
 execute if block -634 28 1992 minecraft:redstone_block run function do2:dungeon_setup/test_for_cove_dripstone
