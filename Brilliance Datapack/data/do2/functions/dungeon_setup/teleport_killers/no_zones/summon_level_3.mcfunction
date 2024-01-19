@@ -6,7 +6,6 @@ kill @e[type=area_effect_cloud,tag=L3Z3]
 
 # - Zone 1 - (55 spots) -
 summon minecraft:area_effect_cloud -585 3 1904 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
-summon minecraft:area_effect_cloud -619 55 2031 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
 summon minecraft:area_effect_cloud -594 3 1905 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
 summon minecraft:area_effect_cloud -594 -1 1914 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
 summon minecraft:area_effect_cloud -592 -7 1922 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z1"]}
