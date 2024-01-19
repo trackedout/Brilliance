@@ -14,7 +14,7 @@
     "parent": "do2:visible/adventuring/egg_hunt/level_3/zombie_cleo",
     "criteria": {
         "auto": {
-            "trigger": "minecraft:location"
+            "trigger": "minecraft:impossible"
         }
     }
 }
