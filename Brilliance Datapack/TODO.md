@@ -1,6 +1,5 @@
 # Other TODO:
 - Update all area_effect_clouds to minecraft:marker
-- Reset composter level. Config maybe?
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
@@ -9,12 +8,6 @@
 - Check credit list to add ALL players to the credits tab.
 - Update advancements documentation to include whether the advancement has been tested to work.
     - Add missing advancements to the documentation.
-- Update logging.md
-    - Pickups
-    - Summon TangoCam
-    - Summon Others
-    - Pickup artifacts & items
-    - 20_ticks
 # List of things todo AFTER builder's "repair" version is done.
 - Add Bdub's clock, to be the actual new clock.
   - Update all of the artifact spots that accept the clock
