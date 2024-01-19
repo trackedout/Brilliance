@@ -4,3 +4,4 @@ scoreboard players operation $Egg_Rewards do2.utility.configDisplay = $dungeon d
 scoreboard players operation $Endermites do2.utility.configDisplay = $dungeon do2.config.endermiteCount
 scoreboard players operation $Bat_Distraction do2.utility.configDisplay = $dungeon do2.config.batDistraction
 scoreboard players operation $Tick_Rate do2.utility.configDisplay = $dungeon do2.config.tickRate
+scoreboard players operation $Reset_Composters do2.utility.configDisplay = $dungeon do2.config.resetComposters
