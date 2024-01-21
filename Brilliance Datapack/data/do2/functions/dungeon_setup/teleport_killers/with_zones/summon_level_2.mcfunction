@@ -38,7 +38,6 @@ summon minecraft:area_effect_cloud -518 14 2025 {Duration: 2147483647, Tags: ["z
 summon minecraft:area_effect_cloud -519 14 2018 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
 summon minecraft:area_effect_cloud -525 14 2025 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
 summon minecraft:area_effect_cloud -527 14 2030 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
-summon minecraft:area_effect_cloud -521 14 2038 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
 summon minecraft:area_effect_cloud -535 14 2030 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
 summon minecraft:area_effect_cloud -543 13 2031 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
 summon minecraft:area_effect_cloud -551 12 2031 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L2Z1"]}
