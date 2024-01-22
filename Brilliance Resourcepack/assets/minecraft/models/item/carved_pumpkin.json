@@ -33,6 +33,7 @@
 		{ "predicate": {"custom_model_data": 38}, "model": "do2:item/egg/xisuma"},
 		{ "predicate": {"custom_model_data": 39}, "model": "do2:item/egg/zed"},
 		{ "predicate": {"custom_model_data": 40}, "model": "do2:item/impulsebeard"},
+		{ "predicate": {"custom_model_data": 41}, "model": "do2:item/egg/tango"},
 		{ "predicate": {"custom_model_data": 42}, "model": "do2:item/egg/silver"},
 		{ "predicate": {"custom_model_data": 43}, "model": "do2:item/scarhardhat"},
 		{ "predicate": {"custom_model_data": 46}, "model": "do2:item/tango_hood"},
