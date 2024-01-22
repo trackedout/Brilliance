@@ -3,8 +3,8 @@ execute store result score @s do2.utility.chopsToGive run clear @s cooked_porkch
 
 # - Start Log -
 tag @s add chopsPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] if score @p[tag=chopsPickUpLogTarget] do2.utility.chopsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=chopsPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{@p[tag=coinPickUpLogTarget],"objective":"do2.utility.chopsToGive"}},{"text":" porkchop."}]
-execute as @a[scores={do2.utility.logLevel=2..}] unless score @p[tag=chopsPickUpLogTarget] do2.utility.chopsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=chopsPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{@p[tag=coinPickUpLogTarget],"objective":"do2.utility.chopsToGive"}},{"text":" porkchops."}]
+execute as @a[scores={do2.utility.logLevel=2..}] if score @p[tag=chopsPickUpLogTarget] do2.utility.chopsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=chopsPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=chopsPickUpLogTarget]","objective":"do2.utility.chopsToGive"}},{"text":" porkchop."}]
+execute as @a[scores={do2.utility.logLevel=2..}] unless score @p[tag=chopsPickUpLogTarget] do2.utility.chopsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=chopsPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=chopsPickUpLogTarget]","objective":"do2.utility.chopsToGive"}},{"text":" porkchops."}]
 tag @s remove chopsPickUpLogTarget
 # - End Log -
 
