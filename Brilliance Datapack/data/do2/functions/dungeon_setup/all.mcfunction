@@ -11,6 +11,8 @@ function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_other_killers
 function do2:dungeon_setup/test_for_markers
+function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags
+function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon_others

@@ -5,3 +5,6 @@ execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§
 
 # AGRONET EVENT
 function do2:agronet/systems/compass_submitted
+
+# Reset their inventories.
+function do2:dungeon_setup/reset_hopper_minecarts/set_inventories

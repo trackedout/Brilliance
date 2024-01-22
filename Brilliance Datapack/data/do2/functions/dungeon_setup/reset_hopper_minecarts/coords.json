@@ -1,0 +1,498 @@
+{
+	"01": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-560 46 2033",
+		"minecart_coords": "-560 48 2033"
+	},
+	"02": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-534 44 2035",
+		"minecart_coords": "-534 46 2035"
+	},
+	"03": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-513 44 2028",
+		"minecart_coords": "-513 46 2028"
+	},
+	"04": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-558 49 2006",
+		"minecart_coords": "-558 51 2006"
+	},
+	"05": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-595 48 1967",
+		"minecart_coords": "-595 50 1967"
+	},
+	"06": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-575 53 1944",
+		"minecart_coords": "-575 55 1944"
+	},
+	"07": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-546 49 1972",
+		"minecart_coords": "-546 51 1972"
+	},
+	"08": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-501 42 2013",
+		"minecart_coords": "-501 44 2013"
+	},
+	"09": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-490 48 2022",
+		"minecart_coords": "-490 50 2022"
+	},
+	"10": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-548 36 1995",
+		"minecart_coords": "-548 38 1995"
+	},
+	"11": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-552 36 1984",
+		"minecart_coords": "-552 38 1984"
+	},
+	"12": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-519 33 1984",
+		"minecart_coords": "-519 35 1984"
+	},
+	"13": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-522 33 2000",
+		"minecart_coords": "-522 35 2000"
+	},
+	"14": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-550 43 1955",
+		"minecart_coords": "-550 45 1955"
+	},
+	"15": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-536 42 1964",
+		"minecart_coords": "-536 44 1964"
+	},
+	"16": {
+		"difficulty": "easy",
+		"level": "1",
+		"lodestone_coords":"-526 43 1956",
+		"minecart_coords": "-526 45 1956"
+	},
+	"17": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-545 42 1940",
+		"minecart_coords": "-545 44 1940"
+	},
+	"18": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-527 49 1969",
+		"minecart_coords": "-527 51 1969"
+	},
+	"19": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-515 50 2006",
+		"minecart_coords": "-515 52 2006"
+	},
+	"20": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-541 49 2016",
+		"minecart_coords": "-541 51 2016"
+	},
+	"21": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-495 49 1995",
+		"minecart_coords": "-495 51 1995"
+	},
+	"22": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-503 49 1981",
+		"minecart_coords": "-503 51 1981"
+	},
+	"23": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-511 50 1956",
+		"minecart_coords": "-511 52 1956"
+	},
+	"24": {
+		"difficulty": "medium",
+		"level": "1",
+		"lodestone_coords":"-507 49 1962",
+		"minecart_coords": "-507 51 1962"
+	},
+	"25": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-482 25 1992",
+		"minecart_coords": "-482 27 1992"
+	},
+	"26": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-482 16 2037",
+		"minecart_coords": "-482 18 2037"
+	},
+	"27": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-454 16 1979",
+		"minecart_coords": "-454 18 1979"
+	},
+	"28": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-473 14 1962",
+		"minecart_coords": "-473 16 1962"
+	},
+	"29": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-503 13 2035",
+		"minecart_coords": "-503 15 2035"
+	},
+	"30": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-487 18 2010",
+		"minecart_coords": "-487 20 2010"
+	},
+	"31": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-520 10 2027",
+		"minecart_coords": "-520 12 2027"
+	},
+	"32": {
+		"difficulty": "medium",
+		"level": "2",
+		"lodestone_coords":"-488 13 2002",
+		"minecart_coords": "-488 15 2002"
+	},
+	"33": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-552 8 2024",
+		"minecart_coords": "-552 10 2024"
+	},
+	"34": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-537 14 2005",
+		"minecart_coords": "-537 16 2005"
+	},
+	"35": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-519 10 1980",
+		"minecart_coords": "-519 12 1980"
+	},
+	"36": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-517 9 1944",
+		"minecart_coords": "-517 12 1944"
+	},
+	"37": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-536 10 1939",
+		"minecart_coords": "-536 12 1939"
+	},
+	"38": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-571 6 1966",
+		"minecart_coords": "-571 8 1966"
+	},
+	"39": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-574 7 1944",
+		"minecart_coords": "-574 9 1944"
+	},
+	"40": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-588 11 1989",
+		"minecart_coords": "-588 13 1989"
+	},
+	"41": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-503 21 1958",
+		"minecart_coords": "-503 23 1958"
+	},
+	"42": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-547 8 1969",
+		"minecart_coords": "-547 10 1969"
+	},
+	"43": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-573 11 1994",
+		"minecart_coords": "-573 13 1994"
+	},
+	"44": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-571 10 2028",
+		"minecart_coords": "-571 12 2028"
+	},
+	"45": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-599 10 2033",
+		"minecart_coords": "-599 12 2033"
+	},
+	"46": {
+		"difficulty": "hard",
+		"level": "2",
+		"lodestone_coords":"-575 7 2014",
+		"minecart_coords": "-575 15 2014"
+	},
+	"47": {
+		"difficulty": "hard",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-586 -11 1917",
+		"minecart_coords": "-586 -9 1917"
+	},
+	"48": {
+		"difficulty": "hard",
+		"level": "3",
+		"floor": "top",
+		"lodestone_coords":"-600 -1 1890",
+		"minecart_coords": "-600 1 1890"
+	},
+	"49": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "top",
+		"lodestone_coords":"-623 -1 1890",
+		"minecart_coords": "-623 1 1890"
+	},
+	"50": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-633 -11 1890",
+		"minecart_coords": "-633 -9 1890"
+	},
+	"51": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "top",
+		"lodestone_coords":"-651 -1 1914",
+		"minecart_coords": "-651 1 1914"
+	},
+	"52": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-604 -11 1912",
+		"minecart_coords": "-604 -9 1912"
+	},
+	"53": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-627 -21 1920",
+		"minecart_coords": "-627 -19 1920"
+	},
+	"54": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-601 -21 1924",
+		"minecart_coords": "-601 -19 1924"
+	},
+	"55": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-613 -21 1887",
+		"minecart_coords": "-613 -19 1887"
+	},
+	"56": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-589 -28 1896",
+		"minecart_coords": "-589 -26 1896"
+	},
+	"57": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-582 -21 1894",
+		"minecart_coords": "-582 -19 1894"
+	},
+	"58": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-578 -13 1892",
+		"minecart_coords": "-578 -11 1892"
+	},
+	"59": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-596 -9 1881",
+		"minecart_coords": "-596 -7 1881"
+	},
+	"60": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-623 -21 1888",
+		"minecart_coords": "-623 -19 1888"
+	},
+	"61": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "bot",
+		"lodestone_coords":"-646 -21 1893",
+		"minecart_coords": "-646 -19 1893"
+	},
+	"62": {
+		"difficulty": "deadly",
+		"level": "3",
+		"floor": "mid",
+		"lodestone_coords":"-657 -22 1922",
+		"minecart_coords": "-657 -14 1922"
+	},
+	"63": {
+		"difficulty": "deadly",
+		"level": "4",
+		"lodestone_coords":"-637 -53 1890",
+		"minecart_coords": "-637 -51 1890"
+	},
+	"64": {
+		"difficulty": "deadly",
+		"level": "4",
+		"lodestone_coords":"-622 -53 1891",
+		"minecart_coords": "-622 -51 1891"
+	},
+	"65": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-599 -51 1911",
+		"minecart_coords": "-599 -49 1911"
+	},
+	"66": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-601 -52 1888",
+		"minecart_coords": "-601 -50 1888"
+	},
+	"67": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-588 -53 1899",
+		"minecart_coords": "-588 -51 1899"
+	},
+	"68": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-574 -50 1908",
+		"minecart_coords": "-574 -48 1908"
+	},
+	"69": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-623 -54 1858",
+		"minecart_coords": "-623 -52 1858"
+	},
+	"70": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-605 -53 1863",
+		"minecart_coords": "-605 -51 1863"
+	},
+	"71": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-602 -53 1851",
+		"minecart_coords": "-602 -51 1851"
+	},
+	"72": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-623 -56 1844",
+		"minecart_coords": "-623 -54 1844"
+	},
+	"73": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-599 -53 1844",
+		"minecart_coords": "-599 -51 1844"
+	},
+	"74": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-591 -53 1868",
+		"minecart_coords": "-591 -51 1868"
+	},
+	"75": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-567 -53 1884",
+		"minecart_coords": "-567 -51 1884"
+	},
+	"76": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-570 -53 1878",
+		"minecart_coords": "-570 -51 1878"
+	},
+	"77": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-638 -58 1842",
+		"minecart_coords": "-638 -56 1842"
+	},
+	"78": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-637 -53 1877",
+		"minecart_coords": "-637 -51 1877"
+	},
+	"79": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-590 -53 1866",
+		"minecart_coords": "-590 -51 1866"
+	},
+	"80": {
+		"difficulty": "deepfrost",
+		"level": "4",
+		"lodestone_coords":"-570 -53 1855",
+		"minecart_coords": "-570 -51 1855"
+	}
+}
