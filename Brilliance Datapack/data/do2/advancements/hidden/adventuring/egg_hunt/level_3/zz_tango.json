@@ -3,7 +3,7 @@
     "display": {
         "icon": {
             "item": "minecraft:carved_pumpkin",
-            "nbt": "{'CustomModelData': 40}"
+            "nbt": "{'CustomModelData': 41}"
         },
         "title": "§bTrackedOut exclusive.",
         "description": "§7Find the Tango egg, hidden in the TrackedOut version of §o§3Decked Out 2§r§7.",
