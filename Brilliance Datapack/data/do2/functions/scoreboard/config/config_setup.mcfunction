@@ -16,7 +16,7 @@ function do2:scoreboard/config/egg_reward_display
 # Endermite Display
 function do2:scoreboard/config/endermite_display
 
-# Reset Composters (global)
+# Reset Composters
 setblock -490 116 1937 minecraft:oak_wall_sign[facing=east]
 data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bReset Composters"}','{"text":"§bEvery Run"}','{"text":""}']}}
 
@@ -27,3 +27,8 @@ data merge block -490 116 1935 {front_text:{has_glowing_text:1b,color:"cyan",mes
 # Use L4 Zones
 setblock -490 116 1933 minecraft:oak_wall_sign[facing=east]
 data merge block -490 116 1933 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":""}','{"text":"Level 4","color":"#be00be"}','{"text":"ZONES"}']}}
+
+# Disable Treasure on Max Clank
+setblock -490 116 1939 minecraft:oak_wall_sign[facing=east]
+data merge block -490 116 1939 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bDisable Treasure"}','{"text":"§bon §oMAX §r§bclank"}','{"text":""}']}}
+

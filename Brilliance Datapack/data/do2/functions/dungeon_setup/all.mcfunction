@@ -18,4 +18,8 @@ function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon_others
 function do2:scoreboard/config/config_setup
 
+# Whether Max Clank Disables Treasure
+execute if score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:redstone_wire
+execute unless score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:glass
+
 scoreboard players set $dungeon do2.utility.currentTick 0

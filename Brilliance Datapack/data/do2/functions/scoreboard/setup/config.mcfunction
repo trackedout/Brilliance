@@ -15,6 +15,10 @@ execute unless score $dungeon do2.config.useWardenZones matches 0.. run scoreboa
 scoreboard objectives add do2.config.resetComposters dummy "Reset Composters."
 execute unless score $dungeon do2.config.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.resetComposters 1
 
+# Dungeon Config: whether to disable treasure on max clank. Default: 0 (FALSE)
+scoreboard objectives add do2.config.maxClankTreasure dummy "Clank Disables Treasure."
+execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0
+
 # Dungeon Config: whether to reward player for finding eggs. Default: 1 (Stick to DO2)
 # 0 = nothing
 # 1 = DO2 rewards
