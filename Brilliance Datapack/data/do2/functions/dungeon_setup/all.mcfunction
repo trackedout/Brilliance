@@ -16,6 +16,7 @@ function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon_others
+execute if score $dungeon do2.config.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 function do2:scoreboard/config/config_setup
 
 # Whether Max Clank Disables Treasure

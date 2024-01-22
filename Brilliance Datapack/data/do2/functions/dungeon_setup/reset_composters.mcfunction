@@ -1,4 +1,3 @@
-execute if score $dungeon do2.config.resetComposters matches 0 run return 0
 # - Start Log -
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting Composters."}]
 # - End Log -
