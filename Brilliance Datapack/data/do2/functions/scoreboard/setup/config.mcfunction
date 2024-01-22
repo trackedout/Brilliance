@@ -19,6 +19,10 @@ execute unless score $dungeon do2.config.resetComposters matches 0.. run scorebo
 scoreboard objectives add do2.config.maxClankTreasure dummy "Clank Disables Treasure."
 execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0
 
+# Dungeon Config: Chance for NIGHT time Default: 25%
+scoreboard objectives add do2.config.nightTimeChance dummy "Chance for Night"
+execute unless score $dungeon do2.config.nightTimeChance matches 0.. run scoreboard players set $dungeon do2.config.nightTimeChance 25
+
 # Dungeon Config: whether to reward player for finding eggs. Default: 1 (Stick to DO2)
 # 0 = nothing
 # 1 = DO2 rewards

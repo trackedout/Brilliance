@@ -30,6 +30,7 @@ scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - utility -
 function do2:scoreboard/setup/advancements
+scoreboard objectives add do2.utility.randomNum dummy "Random Number Generator"
 scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
 scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."

@@ -2,8 +2,10 @@
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Running Dungeon Setup."}]
 # - End Log -
 
+# No Longer Trying to repair.
 scoreboard players set $dungeon do2.utility.dungeonRepair 0
 
+# - SETUP -
 function do2:dungeon_setup/refill/refill_droppers
 function do2:dungeon_setup/refill/refill_berry_bushes
 function do2:dungeon_setup/refill/refill_guppy_geyser
@@ -16,11 +18,16 @@ function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon_others
+function do2:dungeon_setup/decide_day_or_night
 execute if score $dungeon do2.config.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
+
+# Other Setup:
 function do2:scoreboard/config/config_setup
+function do2:random_gen/random_setup
 
 # Whether Max Clank Disables Treasure
 execute if score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:redstone_wire
 execute unless score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:glass
 
+# Reset Current Tick.
 scoreboard players set $dungeon do2.utility.currentTick 0

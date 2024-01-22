@@ -16,6 +16,9 @@ function do2:scoreboard/config/egg_reward_display
 # Endermite Display
 function do2:scoreboard/config/endermite_display
 
+# Random Night Display
+function do2:scoreboard/config/random_night_chance_display
+
 # Reset Composters
 setblock -490 116 1937 minecraft:oak_wall_sign[facing=east]
 data merge block -490 116 1937 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bReset Composters"}','{"text":"§bEvery Run"}','{"text":""}']}}
