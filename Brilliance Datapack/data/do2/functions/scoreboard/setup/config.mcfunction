@@ -1,4 +1,3 @@
-
 # Dungeon Config: how many endermites to spawn in. Default: 2 (2 Endermites spawning)
 scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
 execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
@@ -43,3 +42,11 @@ execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard
 # Dungeon Config: How many ticks per second.
 scoreboard objectives add do2.config.ticksPerSecond dummy "Datapack tick rate."
 execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboard players set $dungeon do2.config.ticksPerSecond 20
+
+# Dungeon Config: Balance Changes
+scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"
+execute unless score $dungeon do2.config.bc.snowHazard matches 0.. run scoreboard players set $dungeon do2.config.bc.snowHazard 1
+scoreboard objectives add do2.config.bc.l2ShipTreasureLine dummy "Ships Treasure Line"
+execute unless score $dungeon do2.config.bc.l2ShipTreasureLine matches 0.. run scoreboard players set $dungeon do2.config.bc.l2ShipTreasureLine 1
+scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT Dive Loot"
+execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1

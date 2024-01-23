@@ -10,6 +10,10 @@ data merge block -486 114 1930 {front_text:{messages:['{"text":"§bManually appl
 setblock -482 115 1931 minecraft:oak_wall_sign[facing=west]
 data merge block -482 115 1931 {front_text:{messages:['{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/set_log_level/initial"}}','{"text":"§aGain access to"}','{"text":"§aLevel 1 Logs"}','{"text":""}']}}
 
+# Balance Changes Config
+setblock -482 115 1935 minecraft:oak_wall_sign[facing=west]
+data merge block -482 115 1935 {front_text:{messages:['{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/balance_changes/display"}}','{"text":"§6Adjust"}','{"text":"§o§3Tracked Out\'s"}','{"text":"§6Balance Changes"}']}}
+
 # Egg Reward Sign.
 function do2:scoreboard/config/egg_reward_display
 

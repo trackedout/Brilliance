@@ -18,6 +18,7 @@ function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
 function do2:dungeon_setup/teleport_killers/all
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon_others
+function do2:scoreboard/config/balance_changes/actions
 function do2:dungeon_setup/decide_day_or_night
 execute if score $dungeon do2.config.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 
