@@ -5,8 +5,8 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 # Best to make sure we don't have duplicate Ravagers
 kill @e[type=ravager]
 
-execute if score $dungeon do2.config.useRavagerZones matches 0 function do2:dungeon_setup/teleport_killers/no_zones/summon_ravagers
-execute if score $dungeon do2.config.useRavagerZones matches 1 function do2:dungeon_setup/teleport_killers/with_zones/summon_ravagers
+execute if score $dungeon do2.config.useRavagerZones matches 0 run function do2:dungeon_setup/teleport_killers/no_zones/summon_ravagers
+execute if score $dungeon do2.config.useRavagerZones matches 1 run function do2:dungeon_setup/teleport_killers/with_zones/summon_ravagers
 
 # Death Gauntlet Ravager
 summon minecraft:ravager -632 -48 1990 {Tags: ["L0DEATHROOM"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}
