@@ -1,6 +1,6 @@
 
 # REMOVE ALL ITEMS INSIDE:
-data modify block ~ ~ ~ Items set value []
+setblock ~ ~ ~ minecraft:dropper[facing=down]{Items:[]}
 
 # Insert items. (ordered by slot)
 data modify block ~ ~ ~ Items append value {Slot: 0b, Count:6b, id: "minecraft:compass", tag: {LodestonePos: {Z: 1940, X: -545, Y:42}, LodestoneTracked: 1b, LodestoneDimension: "minecraft:overworld", display: {Name: '{"color":"yellow","text":"❄☠ Level 1 Artifact ☠❄"}'}}}

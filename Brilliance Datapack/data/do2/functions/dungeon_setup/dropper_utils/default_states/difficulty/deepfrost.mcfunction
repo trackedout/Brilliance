@@ -1,6 +1,6 @@
 
 # REMOVE ALL ITEMS INSIDE:
-data modify block ~ ~ ~ Items set value []
+setblock ~ ~ ~ minecraft:dropper[facing=north]{Items:[]}
 
 # Insert items. (ordered by slot)
 data modify block ~ ~ ~ Items append value {Slot: 0b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #9"}'}}, Count: 64b}
