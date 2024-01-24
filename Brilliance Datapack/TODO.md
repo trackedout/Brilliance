@@ -1,6 +1,5 @@
 # Other TODO:
 - summon a ton of bats with names and NOAI in one spot to fill up 1/2 the bat mob cap.
-- Remove extra NBT data from compasses now that filters are automated.
 - Update all area_effect_clouds to minecraft:marker.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
