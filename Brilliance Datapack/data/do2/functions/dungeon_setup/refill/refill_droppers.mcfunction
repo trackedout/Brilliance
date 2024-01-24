@@ -1145,28 +1145,6 @@ data modify block -583 45 2012 Items[7].Count set value 64
 data modify block -583 45 2012 Items[8].Count set value 64
 
 # Treasure Dropper #18
-data modify block -490 50 2017 Items[0].Count set value 64
-data modify block -490 50 2017 Items[1].Count set value 64
-data modify block -490 50 2017 Items[2].Count set value 64
-data modify block -490 50 2017 Items[3].Count set value 64
-data modify block -490 50 2017 Items[4].Count set value 64
-data modify block -490 50 2017 Items[5].Count set value 64
-data modify block -490 50 2017 Items[6].Count set value 64
-data modify block -490 50 2017 Items[7].Count set value 64
-data modify block -490 50 2017 Items[8].Count set value 64
-
-# Treasure Dropper #19
-data modify block -516 46 2031 Items[0].Count set value 64
-data modify block -516 46 2031 Items[1].Count set value 64
-data modify block -516 46 2031 Items[2].Count set value 64
-data modify block -516 46 2031 Items[3].Count set value 64
-data modify block -516 46 2031 Items[4].Count set value 64
-data modify block -516 46 2031 Items[5].Count set value 64
-data modify block -516 46 2031 Items[6].Count set value 64
-data modify block -516 46 2031 Items[7].Count set value 64
-data modify block -516 46 2031 Items[8].Count set value 64
-
-# Treasure Dropper #20
 data modify block -559 46 2022 Items[0].Count set value 64
 data modify block -559 46 2022 Items[1].Count set value 64
 data modify block -559 46 2022 Items[2].Count set value 64
@@ -1177,7 +1155,7 @@ data modify block -559 46 2022 Items[6].Count set value 64
 data modify block -559 46 2022 Items[7].Count set value 64
 data modify block -559 46 2022 Items[8].Count set value 64
 
-# Treasure Dropper #21
+# Treasure Dropper #19
 data modify block -554 51 2007 Items[0].Count set value 64
 data modify block -554 51 2007 Items[1].Count set value 64
 data modify block -554 51 2007 Items[2].Count set value 64
@@ -1188,7 +1166,7 @@ data modify block -554 51 2007 Items[6].Count set value 64
 data modify block -554 51 2007 Items[7].Count set value 64
 data modify block -554 51 2007 Items[8].Count set value 64
 
-# Treasure Dropper #22
+# Treasure Dropper #20
 data modify block -519 53 2011 Items[0].Count set value 64
 data modify block -519 53 2011 Items[1].Count set value 64
 data modify block -519 53 2011 Items[2].Count set value 64
@@ -1199,7 +1177,7 @@ data modify block -519 53 2011 Items[6].Count set value 64
 data modify block -519 53 2011 Items[7].Count set value 64
 data modify block -519 53 2011 Items[8].Count set value 64
 
-# Treasure Dropper #23
+# Treasure Dropper #21
 data modify block -557 45 1976 Items[0].Count set value 64
 data modify block -557 45 1976 Items[1].Count set value 64
 data modify block -557 45 1976 Items[2].Count set value 64
@@ -1210,7 +1188,7 @@ data modify block -557 45 1976 Items[6].Count set value 64
 data modify block -557 45 1976 Items[7].Count set value 64
 data modify block -557 45 1976 Items[8].Count set value 64
 
-# Treasure Dropper #24
+# Treasure Dropper #22
 data modify block -563 36 1999 Items[0].Count set value 64
 data modify block -563 36 1999 Items[1].Count set value 64
 data modify block -563 36 1999 Items[2].Count set value 64
@@ -1221,7 +1199,7 @@ data modify block -563 36 1999 Items[6].Count set value 64
 data modify block -563 36 1999 Items[7].Count set value 64
 data modify block -563 36 1999 Items[8].Count set value 64
 
-# Treasure Dropper #25
+# Treasure Dropper #23
 data modify block -575 36 1998 Items[0].Count set value 64
 data modify block -575 36 1998 Items[1].Count set value 64
 data modify block -575 36 1998 Items[2].Count set value 64
@@ -1232,7 +1210,7 @@ data modify block -575 36 1998 Items[6].Count set value 64
 data modify block -575 36 1998 Items[7].Count set value 64
 data modify block -575 36 1998 Items[8].Count set value 64
 
-# Treasure Dropper #26
+# Treasure Dropper #24
 data modify block -485 31 1963 Items[0].Count set value 64
 data modify block -485 31 1963 Items[1].Count set value 64
 data modify block -485 31 1963 Items[2].Count set value 64
@@ -1243,7 +1221,7 @@ data modify block -485 31 1963 Items[6].Count set value 64
 data modify block -485 31 1963 Items[7].Count set value 64
 data modify block -485 31 1963 Items[8].Count set value 64
 
-# Treasure Dropper #27
+# Treasure Dropper #25
 data modify block -479 19 2009 Items[0].Count set value 64
 data modify block -479 19 2009 Items[1].Count set value 64
 data modify block -479 19 2009 Items[2].Count set value 64
@@ -1254,7 +1232,7 @@ data modify block -479 19 2009 Items[6].Count set value 64
 data modify block -479 19 2009 Items[7].Count set value 64
 data modify block -479 19 2009 Items[8].Count set value 64
 
-# Treasure Dropper #28
+# Treasure Dropper #26
 data modify block -594 12 1954 Items[0].Count set value 64
 data modify block -594 12 1954 Items[1].Count set value 64
 data modify block -594 12 1954 Items[2].Count set value 64
@@ -1265,7 +1243,7 @@ data modify block -594 12 1954 Items[6].Count set value 64
 data modify block -594 12 1954 Items[7].Count set value 64
 data modify block -594 12 1954 Items[8].Count set value 64
 
-# Treasure Dropper #29
+# Treasure Dropper #27
 data modify block -509 14 2034 Items[0].Count set value 64
 data modify block -509 14 2034 Items[1].Count set value 64
 data modify block -509 14 2034 Items[2].Count set value 64
@@ -1276,7 +1254,7 @@ data modify block -509 14 2034 Items[6].Count set value 64
 data modify block -509 14 2034 Items[7].Count set value 64
 data modify block -509 14 2034 Items[8].Count set value 64
 
-# Treasure Dropper #30
+# Treasure Dropper #28
 data modify block -502 16 1972 Items[0].Count set value 64
 data modify block -502 16 1972 Items[1].Count set value 64
 data modify block -502 16 1972 Items[2].Count set value 64
@@ -1287,7 +1265,7 @@ data modify block -502 16 1972 Items[6].Count set value 64
 data modify block -502 16 1972 Items[7].Count set value 64
 data modify block -502 16 1972 Items[8].Count set value 64
 
-# Treasure Dropper #31
+# Treasure Dropper #29
 data modify block -590 11 2032 Items[0].Count set value 64
 data modify block -590 11 2032 Items[1].Count set value 64
 data modify block -590 11 2032 Items[2].Count set value 64
@@ -1298,7 +1276,7 @@ data modify block -590 11 2032 Items[6].Count set value 64
 data modify block -590 11 2032 Items[7].Count set value 64
 data modify block -590 11 2032 Items[8].Count set value 64
 
-# Treasure Dropper #32
+# Treasure Dropper #30
 data modify block -598 11 1988 Items[0].Count set value 64
 data modify block -598 11 1988 Items[1].Count set value 64
 data modify block -598 11 1988 Items[2].Count set value 64
@@ -1309,7 +1287,7 @@ data modify block -598 11 1988 Items[6].Count set value 64
 data modify block -598 11 1988 Items[7].Count set value 64
 data modify block -598 11 1988 Items[8].Count set value 64
 
-# Treasure Dropper #33
+# Treasure Dropper #31
 data modify block -574 11 2007 Items[0].Count set value 64
 data modify block -574 11 2007 Items[1].Count set value 64
 data modify block -574 11 2007 Items[2].Count set value 64
@@ -1320,7 +1298,7 @@ data modify block -574 11 2007 Items[6].Count set value 64
 data modify block -574 11 2007 Items[7].Count set value 64
 data modify block -574 11 2007 Items[8].Count set value 64
 
-# Treasure Dropper #34
+# Treasure Dropper #32
 data modify block -553 10 2036 Items[0].Count set value 64
 data modify block -553 10 2036 Items[1].Count set value 64
 data modify block -553 10 2036 Items[2].Count set value 64
@@ -1331,7 +1309,7 @@ data modify block -553 10 2036 Items[6].Count set value 64
 data modify block -553 10 2036 Items[7].Count set value 64
 data modify block -553 10 2036 Items[8].Count set value 64
 
-# Treasure Dropper #35
+# Treasure Dropper #33
 data modify block -507 9 1951 Items[0].Count set value 64
 data modify block -507 9 1951 Items[1].Count set value 64
 data modify block -507 9 1951 Items[2].Count set value 64
@@ -1342,7 +1320,7 @@ data modify block -507 9 1951 Items[6].Count set value 64
 data modify block -507 9 1951 Items[7].Count set value 64
 data modify block -507 9 1951 Items[8].Count set value 64
 
-# Treasure Dropper #36
+# Treasure Dropper #34
 data modify block -581 9 1955 Items[0].Count set value 64
 data modify block -581 9 1955 Items[1].Count set value 64
 data modify block -581 9 1955 Items[2].Count set value 64
@@ -1353,7 +1331,7 @@ data modify block -581 9 1955 Items[6].Count set value 64
 data modify block -581 9 1955 Items[7].Count set value 64
 data modify block -581 9 1955 Items[8].Count set value 64
 
-# Treasure Dropper #37
+# Treasure Dropper #35
 data modify block -568 8 1964 Items[0].Count set value 64
 data modify block -568 8 1964 Items[1].Count set value 64
 data modify block -568 8 1964 Items[2].Count set value 64
@@ -1364,7 +1342,7 @@ data modify block -568 8 1964 Items[6].Count set value 64
 data modify block -568 8 1964 Items[7].Count set value 64
 data modify block -568 8 1964 Items[8].Count set value 64
 
-# Treasure Dropper #38
+# Treasure Dropper #36
 data modify block -597 12 2009 Items[0].Count set value 64
 data modify block -597 12 2009 Items[1].Count set value 64
 data modify block -597 12 2009 Items[2].Count set value 64
@@ -1375,7 +1353,7 @@ data modify block -597 12 2009 Items[6].Count set value 64
 data modify block -597 12 2009 Items[7].Count set value 64
 data modify block -597 12 2009 Items[8].Count set value 64
 
-# Treasure Dropper #39
+# Treasure Dropper #37
 data modify block -541 11 1998 Items[0].Count set value 64
 data modify block -541 11 1998 Items[1].Count set value 64
 data modify block -541 11 1998 Items[2].Count set value 64
@@ -1386,7 +1364,7 @@ data modify block -541 11 1998 Items[6].Count set value 64
 data modify block -541 11 1998 Items[7].Count set value 64
 data modify block -541 11 1998 Items[8].Count set value 64
 
-# Treasure Dropper #40
+# Treasure Dropper #38
 data modify block -531 16 1990 Items[0].Count set value 64
 data modify block -531 16 1990 Items[1].Count set value 64
 data modify block -531 16 1990 Items[2].Count set value 64
@@ -1397,7 +1375,7 @@ data modify block -531 16 1990 Items[6].Count set value 64
 data modify block -531 16 1990 Items[7].Count set value 64
 data modify block -531 16 1990 Items[8].Count set value 64
 
-# Treasure Dropper #41
+# Treasure Dropper #39
 data modify block -548 11 1975 Items[0].Count set value 64
 data modify block -548 11 1975 Items[1].Count set value 64
 data modify block -548 11 1975 Items[2].Count set value 64
@@ -1408,7 +1386,7 @@ data modify block -548 11 1975 Items[6].Count set value 64
 data modify block -548 11 1975 Items[7].Count set value 64
 data modify block -548 11 1975 Items[8].Count set value 64
 
-# Treasure Dropper #42
+# Treasure Dropper #40
 data modify block -531 10 2016 Items[0].Count set value 64
 data modify block -531 10 2016 Items[1].Count set value 64
 data modify block -531 10 2016 Items[2].Count set value 64
@@ -1419,7 +1397,7 @@ data modify block -531 10 2016 Items[6].Count set value 64
 data modify block -531 10 2016 Items[7].Count set value 64
 data modify block -531 10 2016 Items[8].Count set value 64
 
-# Treasure Dropper #43
+# Treasure Dropper #41
 data modify block -528 12 2031 Items[0].Count set value 64
 data modify block -528 12 2031 Items[1].Count set value 64
 data modify block -528 12 2031 Items[2].Count set value 64
@@ -1430,18 +1408,7 @@ data modify block -528 12 2031 Items[6].Count set value 64
 data modify block -528 12 2031 Items[7].Count set value 64
 data modify block -528 12 2031 Items[8].Count set value 64
 
-# Treasure Dropper #44
-data modify block -509 14 2034 Items[0].Count set value 64
-data modify block -509 14 2034 Items[1].Count set value 64
-data modify block -509 14 2034 Items[2].Count set value 64
-data modify block -509 14 2034 Items[3].Count set value 64
-data modify block -509 14 2034 Items[4].Count set value 64
-data modify block -509 14 2034 Items[5].Count set value 64
-data modify block -509 14 2034 Items[6].Count set value 64
-data modify block -509 14 2034 Items[7].Count set value 64
-data modify block -509 14 2034 Items[8].Count set value 64
-
-# Treasure Dropper #45
+# Treasure Dropper #42
 data modify block -526 12 1942 Items[0].Count set value 64
 data modify block -526 12 1942 Items[1].Count set value 64
 data modify block -526 12 1942 Items[2].Count set value 64
@@ -1451,6 +1418,39 @@ data modify block -526 12 1942 Items[5].Count set value 64
 data modify block -526 12 1942 Items[6].Count set value 64
 data modify block -526 12 1942 Items[7].Count set value 64
 data modify block -526 12 1942 Items[8].Count set value 64
+
+# Treasure Dropper #43
+data modify block -490 11 2007 Items[0].Count set value 64
+data modify block -490 11 2007 Items[1].Count set value 64
+data modify block -490 11 2007 Items[2].Count set value 64
+data modify block -490 11 2007 Items[3].Count set value 64
+data modify block -490 11 2007 Items[4].Count set value 64
+data modify block -490 11 2007 Items[5].Count set value 64
+data modify block -490 11 2007 Items[6].Count set value 64
+data modify block -490 11 2007 Items[7].Count set value 64
+data modify block -490 11 2007 Items[8].Count set value 64
+
+# Treasure Dropper #44
+data modify block -496 15 2000 Items[0].Count set value 64
+data modify block -496 15 2000 Items[1].Count set value 64
+data modify block -496 15 2000 Items[2].Count set value 64
+data modify block -496 15 2000 Items[3].Count set value 64
+data modify block -496 15 2000 Items[4].Count set value 64
+data modify block -496 15 2000 Items[5].Count set value 64
+data modify block -496 15 2000 Items[6].Count set value 64
+data modify block -496 15 2000 Items[7].Count set value 64
+data modify block -496 15 2000 Items[8].Count set value 64
+
+# Treasure Dropper #45
+data modify block -503 31 1975 Items[0].Count set value 64
+data modify block -503 31 1975 Items[1].Count set value 64
+data modify block -503 31 1975 Items[2].Count set value 64
+data modify block -503 31 1975 Items[3].Count set value 64
+data modify block -503 31 1975 Items[4].Count set value 64
+data modify block -503 31 1975 Items[5].Count set value 64
+data modify block -503 31 1975 Items[6].Count set value 64
+data modify block -503 31 1975 Items[7].Count set value 64
+data modify block -503 31 1975 Items[8].Count set value 64
 
 # Treasure Dropper #46
 data modify block -644 1 1920 Items[0].Count set value 64
@@ -1475,6 +1475,17 @@ data modify block -652 1 1893 Items[7].Count set value 64
 data modify block -652 1 1893 Items[8].Count set value 64
 
 # Treasure Dropper #48
+data modify block -590 1 1901 Items[0].Count set value 64
+data modify block -590 1 1901 Items[1].Count set value 64
+data modify block -590 1 1901 Items[2].Count set value 64
+data modify block -590 1 1901 Items[3].Count set value 64
+data modify block -590 1 1901 Items[4].Count set value 64
+data modify block -590 1 1901 Items[5].Count set value 64
+data modify block -590 1 1901 Items[6].Count set value 64
+data modify block -590 1 1901 Items[7].Count set value 64
+data modify block -590 1 1901 Items[8].Count set value 64
+
+# Treasure Dropper #49
 data modify block -586 1 1887 Items[0].Count set value 64
 data modify block -586 1 1887 Items[1].Count set value 64
 data modify block -586 1 1887 Items[2].Count set value 64
@@ -1485,7 +1496,7 @@ data modify block -586 1 1887 Items[6].Count set value 64
 data modify block -586 1 1887 Items[7].Count set value 64
 data modify block -586 1 1887 Items[8].Count set value 64
 
-# Treasure Dropper #49
+# Treasure Dropper #50
 data modify block -606 1 1920 Items[0].Count set value 64
 data modify block -606 1 1920 Items[1].Count set value 64
 data modify block -606 1 1920 Items[2].Count set value 64
@@ -1496,7 +1507,7 @@ data modify block -606 1 1920 Items[6].Count set value 64
 data modify block -606 1 1920 Items[7].Count set value 64
 data modify block -606 1 1920 Items[8].Count set value 64
 
-# Treasure Dropper #50
+# Treasure Dropper #51
 data modify block -628 1 1920 Items[0].Count set value 64
 data modify block -628 1 1920 Items[1].Count set value 64
 data modify block -628 1 1920 Items[2].Count set value 64
@@ -1507,7 +1518,7 @@ data modify block -628 1 1920 Items[6].Count set value 64
 data modify block -628 1 1920 Items[7].Count set value 64
 data modify block -628 1 1920 Items[8].Count set value 64
 
-# Treasure Dropper #51
+# Treasure Dropper #52
 data modify block -654 -9 1891 Items[0].Count set value 64
 data modify block -654 -9 1891 Items[1].Count set value 64
 data modify block -654 -9 1891 Items[2].Count set value 64
@@ -1518,7 +1529,7 @@ data modify block -654 -9 1891 Items[6].Count set value 64
 data modify block -654 -9 1891 Items[7].Count set value 64
 data modify block -654 -9 1891 Items[8].Count set value 64
 
-# Treasure Dropper #52
+# Treasure Dropper #53
 data modify block -585 -9 1919 Items[0].Count set value 64
 data modify block -585 -9 1919 Items[1].Count set value 64
 data modify block -585 -9 1919 Items[2].Count set value 64
@@ -1529,7 +1540,7 @@ data modify block -585 -9 1919 Items[6].Count set value 64
 data modify block -585 -9 1919 Items[7].Count set value 64
 data modify block -585 -9 1919 Items[8].Count set value 64
 
-# Treasure Dropper #53
+# Treasure Dropper #54
 data modify block -624 -9 1924 Items[0].Count set value 64
 data modify block -624 -9 1924 Items[1].Count set value 64
 data modify block -624 -9 1924 Items[2].Count set value 64
@@ -1540,7 +1551,7 @@ data modify block -624 -9 1924 Items[6].Count set value 64
 data modify block -624 -9 1924 Items[7].Count set value 64
 data modify block -624 -9 1924 Items[8].Count set value 64
 
-# Treasure Dropper #54
+# Treasure Dropper #55
 data modify block -603 -9 1885 Items[0].Count set value 64
 data modify block -603 -9 1885 Items[1].Count set value 64
 data modify block -603 -9 1885 Items[2].Count set value 64
@@ -1551,7 +1562,7 @@ data modify block -603 -9 1885 Items[6].Count set value 64
 data modify block -603 -9 1885 Items[7].Count set value 64
 data modify block -603 -9 1885 Items[8].Count set value 64
 
-# Treasure Dropper #55
+# Treasure Dropper #56
 data modify block -583 -17 1927 Items[0].Count set value 64
 data modify block -583 -17 1927 Items[1].Count set value 64
 data modify block -583 -17 1927 Items[2].Count set value 64
@@ -1562,7 +1573,7 @@ data modify block -583 -17 1927 Items[6].Count set value 64
 data modify block -583 -17 1927 Items[7].Count set value 64
 data modify block -583 -17 1927 Items[8].Count set value 64
 
-# Treasure Dropper #56
+# Treasure Dropper #57
 data modify block -640 -19 1888 Items[0].Count set value 64
 data modify block -640 -19 1888 Items[1].Count set value 64
 data modify block -640 -19 1888 Items[2].Count set value 64
@@ -1573,7 +1584,7 @@ data modify block -640 -19 1888 Items[6].Count set value 64
 data modify block -640 -19 1888 Items[7].Count set value 64
 data modify block -640 -19 1888 Items[8].Count set value 64
 
-# Treasure Dropper #57
+# Treasure Dropper #58
 data modify block -641 -19 1921 Items[0].Count set value 64
 data modify block -641 -19 1921 Items[1].Count set value 64
 data modify block -641 -19 1921 Items[2].Count set value 64
@@ -1584,7 +1595,7 @@ data modify block -641 -19 1921 Items[6].Count set value 64
 data modify block -641 -19 1921 Items[7].Count set value 64
 data modify block -641 -19 1921 Items[8].Count set value 64
 
-# Treasure Dropper #58
+# Treasure Dropper #59
 data modify block -608 -19 1919 Items[0].Count set value 64
 data modify block -608 -19 1919 Items[1].Count set value 64
 data modify block -608 -19 1919 Items[2].Count set value 64
@@ -1595,7 +1606,7 @@ data modify block -608 -19 1919 Items[6].Count set value 64
 data modify block -608 -19 1919 Items[7].Count set value 64
 data modify block -608 -19 1919 Items[8].Count set value 64
 
-# Treasure Dropper #59
+# Treasure Dropper #60
 data modify block -577 -37 1837 Items[0].Count set value 64
 data modify block -577 -37 1837 Items[1].Count set value 64
 data modify block -577 -37 1837 Items[2].Count set value 64
@@ -1605,50 +1616,6 @@ data modify block -577 -37 1837 Items[5].Count set value 64
 data modify block -577 -37 1837 Items[6].Count set value 64
 data modify block -577 -37 1837 Items[7].Count set value 64
 data modify block -577 -37 1837 Items[8].Count set value 64
-
-# Treasure Dropper #60
-data modify block -490 11 2007 Items[0].Count set value 64
-data modify block -490 11 2007 Items[1].Count set value 64
-data modify block -490 11 2007 Items[2].Count set value 64
-data modify block -490 11 2007 Items[3].Count set value 64
-data modify block -490 11 2007 Items[4].Count set value 64
-data modify block -490 11 2007 Items[5].Count set value 64
-data modify block -490 11 2007 Items[6].Count set value 64
-data modify block -490 11 2007 Items[7].Count set value 64
-data modify block -490 11 2007 Items[8].Count set value 64
-
-# Treasure Dropper #61
-data modify block -496 15 1999 Items[0].Count set value 64
-data modify block -496 15 1999 Items[1].Count set value 64
-data modify block -496 15 1999 Items[2].Count set value 64
-data modify block -496 15 1999 Items[3].Count set value 64
-data modify block -496 15 1999 Items[4].Count set value 64
-data modify block -496 15 1999 Items[5].Count set value 64
-data modify block -496 15 1999 Items[6].Count set value 64
-data modify block -496 15 1999 Items[7].Count set value 64
-data modify block -496 15 1999 Items[8].Count set value 64
-
-# Treasure Dropper #62
-data modify block -526 12 1942 Items[0].Count set value 64
-data modify block -526 12 1942 Items[1].Count set value 64
-data modify block -526 12 1942 Items[2].Count set value 64
-data modify block -526 12 1942 Items[3].Count set value 64
-data modify block -526 12 1942 Items[4].Count set value 64
-data modify block -526 12 1942 Items[5].Count set value 64
-data modify block -526 12 1942 Items[6].Count set value 64
-data modify block -526 12 1942 Items[7].Count set value 64
-data modify block -526 12 1942 Items[8].Count set value 64
-
-# Treasure Dropper #63
-data modify block -503 31 1975 Items[0].Count set value 64
-data modify block -503 31 1975 Items[1].Count set value 64
-data modify block -503 31 1975 Items[2].Count set value 64
-data modify block -503 31 1975 Items[3].Count set value 64
-data modify block -503 31 1975 Items[4].Count set value 64
-data modify block -503 31 1975 Items[5].Count set value 64
-data modify block -503 31 1975 Items[6].Count set value 64
-data modify block -503 31 1975 Items[7].Count set value 64
-data modify block -503 31 1975 Items[8].Count set value 64
 
 ### Level Embers
 # Ember Dropper #1
@@ -1696,15 +1663,15 @@ data modify block -484 53 1988 Items[7].Count set value 64
 data modify block -484 53 1988 Items[8].Count set value 64
 
 # Ember Dropper #5
-data modify block -512 51 1962 Items[0].Count set value 64
-data modify block -512 51 1962 Items[1].Count set value 64
-data modify block -512 51 1962 Items[2].Count set value 64
-data modify block -512 51 1962 Items[3].Count set value 64
-data modify block -512 51 1962 Items[4].Count set value 64
-data modify block -512 51 1962 Items[5].Count set value 64
-data modify block -512 51 1962 Items[6].Count set value 64
-data modify block -512 51 1962 Items[7].Count set value 64
-data modify block -512 51 1962 Items[8].Count set value 64
+data modify block -513 51 1962 Items[0].Count set value 64
+data modify block -513 51 1962 Items[1].Count set value 64
+data modify block -513 51 1962 Items[2].Count set value 64
+data modify block -513 51 1962 Items[3].Count set value 64
+data modify block -513 51 1962 Items[4].Count set value 64
+data modify block -513 51 1962 Items[5].Count set value 64
+data modify block -513 51 1962 Items[6].Count set value 64
+data modify block -513 51 1962 Items[7].Count set value 64
+data modify block -513 51 1962 Items[8].Count set value 64
 
 # Ember Dropper #6
 data modify block -527 51 1974 Items[0].Count set value 64
@@ -1784,15 +1751,15 @@ data modify block -533 44 2024 Items[7].Count set value 64
 data modify block -533 44 2024 Items[8].Count set value 64
 
 # Ember Dropper #13
-data modify block -588 52 1952 Items[0].Count set value 64
-data modify block -588 52 1952 Items[1].Count set value 64
-data modify block -588 52 1952 Items[2].Count set value 64
-data modify block -588 52 1952 Items[3].Count set value 64
-data modify block -588 52 1952 Items[4].Count set value 64
-data modify block -588 52 1952 Items[5].Count set value 64
-data modify block -588 52 1952 Items[6].Count set value 64
-data modify block -588 52 1952 Items[7].Count set value 64
-data modify block -588 52 1952 Items[8].Count set value 64
+data modify block -587 52 1951 Items[0].Count set value 64
+data modify block -587 52 1951 Items[1].Count set value 64
+data modify block -587 52 1951 Items[2].Count set value 64
+data modify block -587 52 1951 Items[3].Count set value 64
+data modify block -587 52 1951 Items[4].Count set value 64
+data modify block -587 52 1951 Items[5].Count set value 64
+data modify block -587 52 1951 Items[6].Count set value 64
+data modify block -587 52 1951 Items[7].Count set value 64
+data modify block -587 52 1951 Items[8].Count set value 64
 
 # Ember Dropper #14
 data modify block -589 46 1978 Items[0].Count set value 64
@@ -1839,28 +1806,6 @@ data modify block -583 45 2013 Items[7].Count set value 64
 data modify block -583 45 2013 Items[8].Count set value 64
 
 # Ember Dropper #18
-data modify block -490 50 2016 Items[0].Count set value 64
-data modify block -490 50 2016 Items[1].Count set value 64
-data modify block -490 50 2016 Items[2].Count set value 64
-data modify block -490 50 2016 Items[3].Count set value 64
-data modify block -490 50 2016 Items[4].Count set value 64
-data modify block -490 50 2016 Items[5].Count set value 64
-data modify block -490 50 2016 Items[6].Count set value 64
-data modify block -490 50 2016 Items[7].Count set value 64
-data modify block -490 50 2016 Items[8].Count set value 64
-
-# Ember Dropper #19
-data modify block -515 46 2031 Items[0].Count set value 64
-data modify block -515 46 2031 Items[1].Count set value 64
-data modify block -515 46 2031 Items[2].Count set value 64
-data modify block -515 46 2031 Items[3].Count set value 64
-data modify block -515 46 2031 Items[4].Count set value 64
-data modify block -515 46 2031 Items[5].Count set value 64
-data modify block -515 46 2031 Items[6].Count set value 64
-data modify block -515 46 2031 Items[7].Count set value 64
-data modify block -515 46 2031 Items[8].Count set value 64
-
-# Ember Dropper #20
 data modify block -558 46 2022 Items[0].Count set value 64
 data modify block -558 46 2022 Items[1].Count set value 64
 data modify block -558 46 2022 Items[2].Count set value 64
@@ -1871,7 +1816,7 @@ data modify block -558 46 2022 Items[6].Count set value 64
 data modify block -558 46 2022 Items[7].Count set value 64
 data modify block -558 46 2022 Items[8].Count set value 64
 
-# Ember Dropper #21
+# Ember Dropper #19
 data modify block -554 51 2008 Items[0].Count set value 64
 data modify block -554 51 2008 Items[1].Count set value 64
 data modify block -554 51 2008 Items[2].Count set value 64
@@ -1882,7 +1827,7 @@ data modify block -554 51 2008 Items[6].Count set value 64
 data modify block -554 51 2008 Items[7].Count set value 64
 data modify block -554 51 2008 Items[8].Count set value 64
 
-# Ember Dropper #22
+# Ember Dropper #20
 data modify block -518 53 2011 Items[0].Count set value 64
 data modify block -518 53 2011 Items[1].Count set value 64
 data modify block -518 53 2011 Items[2].Count set value 64
@@ -1893,7 +1838,7 @@ data modify block -518 53 2011 Items[6].Count set value 64
 data modify block -518 53 2011 Items[7].Count set value 64
 data modify block -518 53 2011 Items[8].Count set value 64
 
-# Ember Dropper #23
+# Ember Dropper #21
 data modify block -558 45 1976 Items[0].Count set value 64
 data modify block -558 45 1976 Items[1].Count set value 64
 data modify block -558 45 1976 Items[2].Count set value 64
@@ -1904,7 +1849,7 @@ data modify block -558 45 1976 Items[6].Count set value 64
 data modify block -558 45 1976 Items[7].Count set value 64
 data modify block -558 45 1976 Items[8].Count set value 64
 
-# Ember Dropper #24
+# Ember Dropper #22
 data modify block -565 36 1999 Items[0].Count set value 64
 data modify block -565 36 1999 Items[1].Count set value 64
 data modify block -565 36 1999 Items[2].Count set value 64
@@ -1915,7 +1860,7 @@ data modify block -565 36 1999 Items[6].Count set value 64
 data modify block -565 36 1999 Items[7].Count set value 64
 data modify block -565 36 1999 Items[8].Count set value 64
 
-# Ember Dropper #25
+# Ember Dropper #23
 data modify block -573 36 1998 Items[0].Count set value 64
 data modify block -573 36 1998 Items[1].Count set value 64
 data modify block -573 36 1998 Items[2].Count set value 64
@@ -1926,7 +1871,7 @@ data modify block -573 36 1998 Items[6].Count set value 64
 data modify block -573 36 1998 Items[7].Count set value 64
 data modify block -573 36 1998 Items[8].Count set value 64
 
-# Ember Dropper #26
+# Ember Dropper #24
 data modify block -485 31 1962 Items[0].Count set value 64
 data modify block -485 31 1962 Items[1].Count set value 64
 data modify block -485 31 1962 Items[2].Count set value 64
@@ -1937,7 +1882,7 @@ data modify block -485 31 1962 Items[6].Count set value 64
 data modify block -485 31 1962 Items[7].Count set value 64
 data modify block -485 31 1962 Items[8].Count set value 64
 
-# Ember Dropper #27
+# Ember Dropper #25
 data modify block -478 19 2009 Items[0].Count set value 64
 data modify block -478 19 2009 Items[1].Count set value 64
 data modify block -478 19 2009 Items[2].Count set value 64
@@ -1948,7 +1893,10 @@ data modify block -478 19 2009 Items[6].Count set value 64
 data modify block -478 19 2009 Items[7].Count set value 64
 data modify block -478 19 2009 Items[8].Count set value 64
 
-# Ember Dropper #28
+# Ember Dropper #26
+# N/A, only Treasure Dropper at location
+
+# Ember Dropper #27
 data modify block -509 14 2033 Items[0].Count set value 64
 data modify block -509 14 2033 Items[1].Count set value 64
 data modify block -509 14 2033 Items[2].Count set value 64
@@ -1959,7 +1907,7 @@ data modify block -509 14 2033 Items[6].Count set value 64
 data modify block -509 14 2033 Items[7].Count set value 64
 data modify block -509 14 2033 Items[8].Count set value 64
 
-# Ember Dropper #29
+# Ember Dropper #28
 data modify block -501 16 1972 Items[0].Count set value 64
 data modify block -501 16 1972 Items[1].Count set value 64
 data modify block -501 16 1972 Items[2].Count set value 64
@@ -1970,7 +1918,7 @@ data modify block -501 16 1972 Items[6].Count set value 64
 data modify block -501 16 1972 Items[7].Count set value 64
 data modify block -501 16 1972 Items[8].Count set value 64
 
-# Ember Dropper #30
+# Ember Dropper #29
 data modify block -589 11 2032 Items[0].Count set value 64
 data modify block -589 11 2032 Items[1].Count set value 64
 data modify block -589 11 2032 Items[2].Count set value 64
@@ -1981,7 +1929,7 @@ data modify block -589 11 2032 Items[6].Count set value 64
 data modify block -589 11 2032 Items[7].Count set value 64
 data modify block -589 11 2032 Items[8].Count set value 64
 
-# Ember Dropper #31
+# Ember Dropper #30
 data modify block -598 11 1989 Items[0].Count set value 64
 data modify block -598 11 1989 Items[1].Count set value 64
 data modify block -598 11 1989 Items[2].Count set value 64
@@ -1992,7 +1940,7 @@ data modify block -598 11 1989 Items[6].Count set value 64
 data modify block -598 11 1989 Items[7].Count set value 64
 data modify block -598 11 1989 Items[8].Count set value 64
 
-# Ember Dropper #32
+# Ember Dropper #31
 data modify block -573 11 2007 Items[0].Count set value 64
 data modify block -573 11 2007 Items[1].Count set value 64
 data modify block -573 11 2007 Items[2].Count set value 64
@@ -2003,18 +1951,18 @@ data modify block -573 11 2007 Items[6].Count set value 64
 data modify block -573 11 2007 Items[7].Count set value 64
 data modify block -573 11 2007 Items[8].Count set value 64
 
-# Ember Dropper #33
-data modify block -553 10 3037 Items[0].Count set value 64
-data modify block -553 10 3037 Items[1].Count set value 64
-data modify block -553 10 3037 Items[2].Count set value 64
-data modify block -553 10 3037 Items[3].Count set value 64
-data modify block -553 10 3037 Items[4].Count set value 64
-data modify block -553 10 3037 Items[5].Count set value 64
-data modify block -553 10 3037 Items[6].Count set value 64
-data modify block -553 10 3037 Items[7].Count set value 64
-data modify block -553 10 3037 Items[8].Count set value 64
+# Ember Dropper #32
+data modify block -553 10 2037 Items[0].Count set value 64
+data modify block -553 10 2037 Items[1].Count set value 64
+data modify block -553 10 2037 Items[2].Count set value 64
+data modify block -553 10 2037 Items[3].Count set value 64
+data modify block -553 10 2037 Items[4].Count set value 64
+data modify block -553 10 2037 Items[5].Count set value 64
+data modify block -553 10 2037 Items[6].Count set value 64
+data modify block -553 10 2037 Items[7].Count set value 64
+data modify block -553 10 2037 Items[8].Count set value 64
 
-# Ember Dropper #34
+# Ember Dropper #33
 data modify block -508 9 1951 Items[0].Count set value 64
 data modify block -508 9 1951 Items[1].Count set value 64
 data modify block -508 9 1951 Items[2].Count set value 64
@@ -2025,7 +1973,7 @@ data modify block -508 9 1951 Items[6].Count set value 64
 data modify block -508 9 1951 Items[7].Count set value 64
 data modify block -508 9 1951 Items[8].Count set value 64
 
-# Ember Dropper #35
+# Ember Dropper #34
 data modify block -582 9 1955 Items[0].Count set value 64
 data modify block -582 9 1955 Items[1].Count set value 64
 data modify block -582 9 1955 Items[2].Count set value 64
@@ -2036,7 +1984,7 @@ data modify block -582 9 1955 Items[6].Count set value 64
 data modify block -582 9 1955 Items[7].Count set value 64
 data modify block -582 9 1955 Items[8].Count set value 64
 
-# Ember Dropper #36
+# Ember Dropper #35
 data modify block -569 8 1964 Items[0].Count set value 64
 data modify block -569 8 1964 Items[1].Count set value 64
 data modify block -569 8 1964 Items[2].Count set value 64
@@ -2047,7 +1995,7 @@ data modify block -569 8 1964 Items[6].Count set value 64
 data modify block -569 8 1964 Items[7].Count set value 64
 data modify block -569 8 1964 Items[8].Count set value 64
 
-# Ember Dropper #37
+# Ember Dropper #36
 data modify block -599 12 2009 Items[0].Count set value 64
 data modify block -599 12 2009 Items[1].Count set value 64
 data modify block -599 12 2009 Items[2].Count set value 64
@@ -2058,18 +2006,18 @@ data modify block -599 12 2009 Items[6].Count set value 64
 data modify block -599 12 2009 Items[7].Count set value 64
 data modify block -599 12 2009 Items[8].Count set value 64
 
-# Ember Dropper #38
-data modify block -512 11 1998 Items[0].Count set value 64
-data modify block -512 11 1998 Items[1].Count set value 64
-data modify block -512 11 1998 Items[2].Count set value 64
-data modify block -512 11 1998 Items[3].Count set value 64
-data modify block -512 11 1998 Items[4].Count set value 64
-data modify block -512 11 1998 Items[5].Count set value 64
-data modify block -512 11 1998 Items[6].Count set value 64
-data modify block -512 11 1998 Items[7].Count set value 64
-data modify block -512 11 1998 Items[8].Count set value 64
+# Ember Dropper #37
+data modify block -542 11 1998 Items[0].Count set value 64
+data modify block -542 11 1998 Items[1].Count set value 64
+data modify block -542 11 1998 Items[2].Count set value 64
+data modify block -542 11 1998 Items[3].Count set value 64
+data modify block -542 11 1998 Items[4].Count set value 64
+data modify block -542 11 1998 Items[5].Count set value 64
+data modify block -542 11 1998 Items[6].Count set value 64
+data modify block -542 11 1998 Items[7].Count set value 64
+data modify block -542 11 1998 Items[8].Count set value 64
 
-# Ember Dropper #39
+# Ember Dropper #38
 data modify block -531 16 1989 Items[0].Count set value 64
 data modify block -531 16 1989 Items[1].Count set value 64
 data modify block -531 16 1989 Items[2].Count set value 64
@@ -2080,7 +2028,7 @@ data modify block -531 16 1989 Items[6].Count set value 64
 data modify block -531 16 1989 Items[7].Count set value 64
 data modify block -531 16 1989 Items[8].Count set value 64
 
-# Ember Dropper #40
+# Ember Dropper #39
 data modify block -548 11 1976 Items[0].Count set value 64
 data modify block -548 11 1976 Items[1].Count set value 64
 data modify block -548 11 1976 Items[2].Count set value 64
@@ -2091,18 +2039,18 @@ data modify block -548 11 1976 Items[6].Count set value 64
 data modify block -548 11 1976 Items[7].Count set value 64
 data modify block -548 11 1976 Items[8].Count set value 64
 
-# Ember Dropper #41
-data modify block -530 8 2015 Items[0].Count set value 64
-data modify block -530 8 2015 Items[1].Count set value 64
-data modify block -530 8 2015 Items[2].Count set value 64
-data modify block -530 8 2015 Items[3].Count set value 64
-data modify block -530 8 2015 Items[4].Count set value 64
-data modify block -530 8 2015 Items[5].Count set value 64
-data modify block -530 8 2015 Items[6].Count set value 64
-data modify block -530 8 2015 Items[7].Count set value 64
-data modify block -530 8 2015 Items[8].Count set value 64
+# Ember Dropper #40
+data modify block -530 10 2015 Items[0].Count set value 64
+data modify block -530 10 2015 Items[1].Count set value 64
+data modify block -530 10 2015 Items[2].Count set value 64
+data modify block -530 10 2015 Items[3].Count set value 64
+data modify block -530 10 2015 Items[4].Count set value 64
+data modify block -530 10 2015 Items[5].Count set value 64
+data modify block -530 10 2015 Items[6].Count set value 64
+data modify block -530 10 2015 Items[7].Count set value 64
+data modify block -530 10 2015 Items[8].Count set value 64
 
-# Ember Dropper #42
+# Ember Dropper #41
 data modify block -528 12 2032 Items[0].Count set value 64
 data modify block -528 12 2032 Items[1].Count set value 64
 data modify block -528 12 2032 Items[2].Count set value 64
@@ -2113,18 +2061,7 @@ data modify block -528 12 2032 Items[6].Count set value 64
 data modify block -528 12 2032 Items[7].Count set value 64
 data modify block -528 12 2032 Items[8].Count set value 64
 
-# Ember Dropper #43
-data modify block -509 14 2033 Items[0].Count set value 64
-data modify block -509 14 2033 Items[1].Count set value 64
-data modify block -509 14 2033 Items[2].Count set value 64
-data modify block -509 14 2033 Items[3].Count set value 64
-data modify block -509 14 2033 Items[4].Count set value 64
-data modify block -509 14 2033 Items[5].Count set value 64
-data modify block -509 14 2033 Items[6].Count set value 64
-data modify block -509 14 2033 Items[7].Count set value 64
-data modify block -509 14 2033 Items[8].Count set value 64
-
-# Ember Dropper #44
+# Ember Dropper #42
 data modify block -526 12 1941 Items[0].Count set value 64
 data modify block -526 12 1941 Items[1].Count set value 64
 data modify block -526 12 1941 Items[2].Count set value 64
@@ -2135,7 +2072,40 @@ data modify block -526 12 1941 Items[6].Count set value 64
 data modify block -526 12 1941 Items[7].Count set value 64
 data modify block -526 12 1941 Items[8].Count set value 64
 
+# Ember Dropper #43
+data modify block -489 11 2007 Items[0].Count set value 64
+data modify block -489 11 2007 Items[1].Count set value 64
+data modify block -489 11 2007 Items[2].Count set value 64
+data modify block -489 11 2007 Items[3].Count set value 64
+data modify block -489 11 2007 Items[4].Count set value 64
+data modify block -489 11 2007 Items[5].Count set value 64
+data modify block -489 11 2007 Items[6].Count set value 64
+data modify block -489 11 2007 Items[7].Count set value 64
+data modify block -489 11 2007 Items[8].Count set value 64
+
+# Ember Dropper #44
+data modify block -496 15 1999 Items[0].Count set value 64
+data modify block -496 15 1999 Items[1].Count set value 64
+data modify block -496 15 1999 Items[2].Count set value 64
+data modify block -496 15 1999 Items[3].Count set value 64
+data modify block -496 15 1999 Items[4].Count set value 64
+data modify block -496 15 1999 Items[5].Count set value 64
+data modify block -496 15 1999 Items[6].Count set value 64
+data modify block -496 15 1999 Items[7].Count set value 64
+data modify block -496 15 1999 Items[8].Count set value 64
+
 # Ember Dropper #45
+data modify block -502 31 1975 Items[0].Count set value 64
+data modify block -502 31 1975 Items[1].Count set value 64
+data modify block -502 31 1975 Items[2].Count set value 64
+data modify block -502 31 1975 Items[3].Count set value 64
+data modify block -502 31 1975 Items[4].Count set value 64
+data modify block -502 31 1975 Items[5].Count set value 64
+data modify block -502 31 1975 Items[6].Count set value 64
+data modify block -502 31 1975 Items[7].Count set value 64
+data modify block -502 31 1975 Items[8].Count set value 64
+
+# Ember Dropper #46
 data modify block -644 1 1921 Items[0].Count set value 64
 data modify block -644 1 1921 Items[1].Count set value 64
 data modify block -644 1 1921 Items[2].Count set value 64
@@ -2146,7 +2116,7 @@ data modify block -644 1 1921 Items[6].Count set value 64
 data modify block -644 1 1921 Items[7].Count set value 64
 data modify block -644 1 1921 Items[8].Count set value 64
 
-# Ember Dropper #46
+# Ember Dropper #47
 data modify block -652 1 1892 Items[0].Count set value 64
 data modify block -652 1 1892 Items[1].Count set value 64
 data modify block -652 1 1892 Items[2].Count set value 64
@@ -2157,7 +2127,18 @@ data modify block -652 1 1892 Items[6].Count set value 64
 data modify block -652 1 1892 Items[7].Count set value 64
 data modify block -652 1 1892 Items[8].Count set value 64
 
-# Ember Dropper #47
+# Ember Dropper #48
+data modify block -591 1 1901 Items[0].Count set value 64
+data modify block -591 1 1901 Items[1].Count set value 64
+data modify block -591 1 1901 Items[2].Count set value 64
+data modify block -591 1 1901 Items[3].Count set value 64
+data modify block -591 1 1901 Items[4].Count set value 64
+data modify block -591 1 1901 Items[5].Count set value 64
+data modify block -591 1 1901 Items[6].Count set value 64
+data modify block -591 1 1901 Items[7].Count set value 64
+data modify block -591 1 1901 Items[8].Count set value 64
+
+# Ember Dropper #49
 data modify block -586 1 1888 Items[0].Count set value 64
 data modify block -586 1 1888 Items[1].Count set value 64
 data modify block -586 1 1888 Items[2].Count set value 64
@@ -2168,7 +2149,7 @@ data modify block -586 1 1888 Items[6].Count set value 64
 data modify block -586 1 1888 Items[7].Count set value 64
 data modify block -586 1 1888 Items[8].Count set value 64
 
-# Ember Dropper #48
+# Ember Dropper #50
 data modify block -606 1 1921 Items[0].Count set value 64
 data modify block -606 1 1921 Items[1].Count set value 64
 data modify block -606 1 1921 Items[2].Count set value 64
@@ -2179,7 +2160,7 @@ data modify block -606 1 1921 Items[6].Count set value 64
 data modify block -606 1 1921 Items[7].Count set value 64
 data modify block -606 1 1921 Items[8].Count set value 64
 
-# Ember Dropper #49
+# Ember Dropper #51
 data modify block -628 1 1921 Items[0].Count set value 64
 data modify block -628 1 1921 Items[1].Count set value 64
 data modify block -628 1 1921 Items[2].Count set value 64
@@ -2190,7 +2171,7 @@ data modify block -628 1 1921 Items[6].Count set value 64
 data modify block -628 1 1921 Items[7].Count set value 64
 data modify block -628 1 1921 Items[8].Count set value 64
 
-# Ember Dropper #50
+# Ember Dropper #52
 data modify block -654 -9 1892 Items[0].Count set value 64
 data modify block -654 -9 1892 Items[1].Count set value 64
 data modify block -654 -9 1892 Items[2].Count set value 64
@@ -2201,7 +2182,7 @@ data modify block -654 -9 1892 Items[6].Count set value 64
 data modify block -654 -9 1892 Items[7].Count set value 64
 data modify block -654 -9 1892 Items[8].Count set value 64
 
-# Ember Dropper #51
+# Ember Dropper #53
 data modify block -585 -9 1920 Items[0].Count set value 64
 data modify block -585 -9 1920 Items[1].Count set value 64
 data modify block -585 -9 1920 Items[2].Count set value 64
@@ -2212,7 +2193,7 @@ data modify block -585 -9 1920 Items[6].Count set value 64
 data modify block -585 -9 1920 Items[7].Count set value 64
 data modify block -585 -9 1920 Items[8].Count set value 64
 
-# Ember Dropper #52
+# Ember Dropper #54
 data modify block -623 -9 1924 Items[0].Count set value 64
 data modify block -623 -9 1924 Items[1].Count set value 64
 data modify block -623 -9 1924 Items[2].Count set value 64
@@ -2223,7 +2204,7 @@ data modify block -623 -9 1924 Items[6].Count set value 64
 data modify block -623 -9 1924 Items[7].Count set value 64
 data modify block -623 -9 1924 Items[8].Count set value 64
 
-# Ember Dropper #53
+# Ember Dropper #55
 data modify block -602 -9 1885 Items[0].Count set value 64
 data modify block -602 -9 1885 Items[1].Count set value 64
 data modify block -602 -9 1885 Items[2].Count set value 64
@@ -2234,7 +2215,7 @@ data modify block -602 -9 1885 Items[6].Count set value 64
 data modify block -602 -9 1885 Items[7].Count set value 64
 data modify block -602 -9 1885 Items[8].Count set value 64
 
-# Ember Dropper #54
+# Ember Dropper #56
 data modify block -584 -17 1927 Items[0].Count set value 64
 data modify block -584 -17 1927 Items[1].Count set value 64
 data modify block -584 -17 1927 Items[2].Count set value 64
@@ -2245,7 +2226,7 @@ data modify block -584 -17 1927 Items[6].Count set value 64
 data modify block -584 -17 1927 Items[7].Count set value 64
 data modify block -584 -17 1927 Items[8].Count set value 64
 
-# Ember Dropper #55
+# Ember Dropper #57
 data modify block -640 -19 1889 Items[0].Count set value 64
 data modify block -640 -19 1889 Items[1].Count set value 64
 data modify block -640 -19 1889 Items[2].Count set value 64
@@ -2256,7 +2237,7 @@ data modify block -640 -19 1889 Items[6].Count set value 64
 data modify block -640 -19 1889 Items[7].Count set value 64
 data modify block -640 -19 1889 Items[8].Count set value 64
 
-# Ember Dropper #56
+# Ember Dropper #58
 data modify block -642 -19 1921 Items[0].Count set value 64
 data modify block -642 -19 1921 Items[1].Count set value 64
 data modify block -642 -19 1921 Items[2].Count set value 64
@@ -2267,7 +2248,7 @@ data modify block -642 -19 1921 Items[6].Count set value 64
 data modify block -642 -19 1921 Items[7].Count set value 64
 data modify block -642 -19 1921 Items[8].Count set value 64
 
-# Ember Dropper #57
+# Ember Dropper #59
 data modify block -609 -19 1919 Items[0].Count set value 64
 data modify block -609 -19 1919 Items[1].Count set value 64
 data modify block -609 -19 1919 Items[2].Count set value 64
@@ -2278,7 +2259,7 @@ data modify block -609 -19 1919 Items[6].Count set value 64
 data modify block -609 -19 1919 Items[7].Count set value 64
 data modify block -609 -19 1919 Items[8].Count set value 64
 
-# Ember Dropper #58
+# Ember Dropper #60
 data modify block -579 -37 1835 Items[0].Count set value 64
 data modify block -579 -37 1835 Items[1].Count set value 64
 data modify block -579 -37 1835 Items[2].Count set value 64
@@ -2288,28 +2269,6 @@ data modify block -579 -37 1835 Items[5].Count set value 64
 data modify block -579 -37 1835 Items[6].Count set value 64
 data modify block -579 -37 1835 Items[7].Count set value 64
 data modify block -579 -37 1835 Items[8].Count set value 64
-
-# Ember Dropper #59
-data modify block -489 -11 2007 Items[0].Count set value 64
-data modify block -489 -11 2007 Items[1].Count set value 64
-data modify block -489 -11 2007 Items[2].Count set value 64
-data modify block -489 -11 2007 Items[3].Count set value 64
-data modify block -489 -11 2007 Items[4].Count set value 64
-data modify block -489 -11 2007 Items[5].Count set value 64
-data modify block -489 -11 2007 Items[6].Count set value 64
-data modify block -489 -11 2007 Items[7].Count set value 64
-data modify block -489 -11 2007 Items[8].Count set value 64
-
-# Ember Dropper #60
-data modify block -496 15 1999 Items[0].Count set value 64
-data modify block -496 15 1999 Items[1].Count set value 64
-data modify block -496 15 1999 Items[2].Count set value 64
-data modify block -496 15 1999 Items[3].Count set value 64
-data modify block -496 15 1999 Items[4].Count set value 64
-data modify block -496 15 1999 Items[5].Count set value 64
-data modify block -496 15 1999 Items[6].Count set value 64
-data modify block -496 15 1999 Items[7].Count set value 64
-data modify block -496 15 1999 Items[8].Count set value 64
 
 # Ember Dropper #61
 data modify block -526 12 1941 Items[0].Count set value 64
@@ -2321,17 +2280,6 @@ data modify block -526 12 1941 Items[5].Count set value 64
 data modify block -526 12 1941 Items[6].Count set value 64
 data modify block -526 12 1941 Items[7].Count set value 64
 data modify block -526 12 1941 Items[8].Count set value 64
-
-# Ember Dropper #62
-data modify block -502 31 1975 Items[0].Count set value 64
-data modify block -502 31 1975 Items[1].Count set value 64
-data modify block -502 31 1975 Items[2].Count set value 64
-data modify block -502 31 1975 Items[3].Count set value 64
-data modify block -502 31 1975 Items[4].Count set value 64
-data modify block -502 31 1975 Items[5].Count set value 64
-data modify block -502 31 1975 Items[6].Count set value 64
-data modify block -502 31 1975 Items[7].Count set value 64
-data modify block -502 31 1975 Items[8].Count set value 64
 
 ### Rusty Repairs
 data modify block -518 2 2007 Items[0].Count set value 64
