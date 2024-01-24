@@ -34,6 +34,9 @@ function do2:scoreboard/config/random_night_chance_display
 # - BOOLEAN LEVERS -
 # ==================
 
+# Dungeon Resets Faster
+setblock -525 116 1960 minecraft:oak_wall_sign[facing=north]
+data merge block -525 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":"Dungeon Resets"}','{"text":"Faster"}','{"text":""}']}}
 # Disable Treasure on Max Clank
 setblock -527 116 1960 minecraft:oak_wall_sign[facing=north]
 data merge block -527 116 1960 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bDisable Treasure"}','{"text":"§bon §oMAX §r§bclank"}','{"text":""}']}}

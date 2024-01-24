@@ -43,6 +43,10 @@ execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard
 scoreboard objectives add do2.config.ticksPerSecond dummy "Datapack tick rate."
 execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboard players set $dungeon do2.config.ticksPerSecond 20
 
+# Dungeon Config: Whether to speed up the reset process. Default: 0 (FALSE)
+scoreboard objectives add do2.config.fastReset dummy "Fast Dungeon Reset."
+execute unless score $dungeon do2.config.fastReset matches 0.. run scoreboard players set $dungeon do2.config.fastReset 0
+
 # Dungeon Config: Balance Changes
 scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"
 execute unless score $dungeon do2.config.bc.snowHazard matches 0.. run scoreboard players set $dungeon do2.config.bc.snowHazard 1
