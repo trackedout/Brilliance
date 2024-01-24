@@ -2,7 +2,26 @@
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers from dungeon to dropper room."}]
 # - End Log -
 
-# copy from dungeon all droppers into dropper room
+# - copy FROM dungeon(all droppers) TO dropper room -
+
+#Difficulty Selector
+clone -557 109 1982 -557 109 1982 -476 109 1982 replace
+clone -558 109 1982 -558 109 1982 -475 109 1982 replace
+clone -559 109 1982 -559 109 1982 -474 109 1982 replace
+clone -560 109 1982 -560 109 1982 -473 109 1982 replace
+clone -561 109 1982 -561 109 1982 -472 109 1982 replace
+# Compasses
+clone -549 106 1979 -549 106 1979 -476 109 1984 replace
+clone -549 106 1978 -549 106 1978 -475 109 1984 replace
+clone -549 106 1977 -549 106 1977 -474 109 1984 replace
+clone -549 106 1976 -549 106 1976 -473 109 1984 replace
+clone -549 106 1975 -549 106 1975 -472 109 1984 replace
+clone -549 106 1974 -549 106 1974 -471 109 1984 replace
+clone -549 106 1973 -549 106 1973 -470 109 1984 replace
+clone -549 106 1972 -549 106 1972 -469 109 1984 replace
+clone -549 106 1971 -549 106 1971 -468 109 1984 replace
+clone -549 106 1970 -549 106 1970 -467 109 1984 replace
+
 # artifacts
 clone -562 48 2033 -562 48 2033 -476 114 1958 replace
 clone -536 46 2035 -536 46 2035 -475 114 1958 replace
