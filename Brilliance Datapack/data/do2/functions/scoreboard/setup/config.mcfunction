@@ -54,3 +54,10 @@ scoreboard objectives add do2.config.bc.l2ShipTreasureLine dummy "Ships Treasure
 execute unless score $dungeon do2.config.bc.l2ShipTreasureLine matches 0.. run scoreboard players set $dungeon do2.config.bc.l2ShipTreasureLine 1
 scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT Dive Loot"
 execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1
+
+# READ/WRITE Config: When to refill dungeon
+# 0 = Never automatically.
+# 1 = Default values
+# 2 = From dropper room
+scoreboard objectives add do2.config.refillDungeonType dummy "When to Refill Dungeon"
+execute unless score $dungeon do2.config.refillDungeonType matches 0.. run scoreboard players set $dungeon do2.config.refillDungeonType 1

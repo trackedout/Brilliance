@@ -6,7 +6,8 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 scoreboard players set $dungeon do2.utility.dungeonRepair 0
 
 # - SETUP -
-function do2:dungeon_setup/refill/refill_droppers
+execute if score $dungeon do2.config.refillDungeonType matches 1 run function do2:dungeon_setup/refill/refill_droppers
+execute if score $dungeon do2.config.refillDungeonType matches 2 run function do2:dungeon_setup/dropper_utils/write_droppers
 function do2:dungeon_setup/refill/refill_berry_bushes
 function do2:dungeon_setup/refill/refill_guppy_geyser
 function do2:dungeon_setup/test_for_ravagers
