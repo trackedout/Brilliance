@@ -30,5 +30,9 @@ function do2:random_gen/random_setup
 execute if score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:redstone_wire
 execute unless score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:glass
 
+# Whether FAST reset is enabled
+execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block
+execute if score $dungeon do2.config.fastReset matches 0 run setblock -542 122 1966 minecraft:glass
+
 # Reset Current Tick.
 scoreboard players set $dungeon do2.utility.currentTick 0

@@ -3,173 +3,27 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 # - End Log -
 
 #TODO: possibly instead of setting COUNT, we set the entire ITEM.
+# (In progress ^)
 
-### Difficulty
-# Easy
-data modify block -561 109 1982 Items[0].Count set value 64
-data modify block -561 109 1982 Items[1].Count set value 64
-data modify block -561 109 1982 Items[2].Count set value 64
-data modify block -561 109 1982 Items[3].Count set value 64
-data modify block -561 109 1982 Items[4].Count set value 64
-data modify block -561 109 1982 Items[5].Count set value 64
-data modify block -561 109 1982 Items[6].Count set value 64
-data modify block -561 109 1982 Items[7].Count set value 64
-data modify block -561 109 1982 Items[8].Count set value 64
+# Difficulty
+execute positioned -557 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy
+execute positioned -558 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium
+execute positioned -559 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard
+execute positioned -560 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly
+execute positioned -561 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost
 
-# Medium
-data modify block -560 109 1982 Items[0].Count set value 64
-data modify block -560 109 1982 Items[1].Count set value 64
-data modify block -560 109 1982 Items[2].Count set value 64
-data modify block -560 109 1982 Items[3].Count set value 64
-data modify block -560 109 1982 Items[4].Count set value 64
-data modify block -560 109 1982 Items[5].Count set value 64
-data modify block -560 109 1982 Items[6].Count set value 64
-data modify block -560 109 1982 Items[7].Count set value 64
-data modify block -560 109 1982 Items[8].Count set value 64
+# Compasses
+execute positioned -549 106 1979 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_1
+execute positioned -549 106 1978 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_2
+execute positioned -549 106 1977 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_1
+execute positioned -549 106 1976 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_2
+execute positioned -549 106 1975 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_1
+execute positioned -549 106 1974 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_2
+execute positioned -549 106 1973 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_1
+execute positioned -549 106 1972 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_2
+execute positioned -549 106 1971 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_1
+execute positioned -549 106 1970 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_2
 
-# Hard
-data modify block -559 109 1982 Items[0].Count set value 64
-data modify block -559 109 1982 Items[1].Count set value 64
-data modify block -559 109 1982 Items[2].Count set value 64
-data modify block -559 109 1982 Items[3].Count set value 64
-data modify block -559 109 1982 Items[4].Count set value 64
-data modify block -559 109 1982 Items[5].Count set value 64
-data modify block -559 109 1982 Items[6].Count set value 64
-data modify block -559 109 1982 Items[7].Count set value 64
-data modify block -559 109 1982 Items[8].Count set value 64
-
-# Deadly
-data modify block -558 109 1982 Items[0].Count set value 64
-data modify block -558 109 1982 Items[1].Count set value 64
-data modify block -558 109 1982 Items[2].Count set value 64
-data modify block -558 109 1982 Items[3].Count set value 64
-data modify block -558 109 1982 Items[4].Count set value 64
-data modify block -558 109 1982 Items[5].Count set value 64
-data modify block -558 109 1982 Items[6].Count set value 64
-data modify block -558 109 1982 Items[7].Count set value 64
-data modify block -558 109 1982 Items[8].Count set value 64
-
-# Deepfrost
-data modify block -557 109 1982 Items[0].Count set value 64
-data modify block -557 109 1982 Items[1].Count set value 64
-data modify block -557 109 1982 Items[2].Count set value 64
-data modify block -557 109 1982 Items[3].Count set value 64
-data modify block -557 109 1982 Items[4].Count set value 64
-data modify block -557 109 1982 Items[5].Count set value 64
-data modify block -557 109 1982 Items[6].Count set value 64
-data modify block -557 109 1982 Items[7].Count set value 64
-data modify block -557 109 1982 Items[8].Count set value 64
-
-### Compasses
-# Dropper 1
-data modify block -549 106 1979 Items[0].Count set value 64
-data modify block -549 106 1979 Items[1].Count set value 64
-data modify block -549 106 1979 Items[2].Count set value 64
-data modify block -549 106 1979 Items[3].Count set value 64
-data modify block -549 106 1979 Items[4].Count set value 64
-data modify block -549 106 1979 Items[5].Count set value 64
-data modify block -549 106 1979 Items[6].Count set value 64
-data modify block -549 106 1979 Items[7].Count set value 64
-data modify block -549 106 1979 Items[8].Count set value 64
-
-# Dropper 2
-data modify block -549 106 1978 Items[0].Count set value 64
-data modify block -549 106 1978 Items[1].Count set value 64
-data modify block -549 106 1978 Items[2].Count set value 64
-data modify block -549 106 1978 Items[3].Count set value 64
-data modify block -549 106 1978 Items[4].Count set value 64
-data modify block -549 106 1978 Items[5].Count set value 64
-data modify block -549 106 1978 Items[6].Count set value 64
-data modify block -549 106 1978 Items[7].Count set value 64
-data modify block -549 106 1978 Items[8].Count set value 64
-
-# Dropper 3
-data modify block -549 106 1977 Items[0].Count set value 64
-data modify block -549 106 1977 Items[1].Count set value 64
-data modify block -549 106 1977 Items[2].Count set value 64
-data modify block -549 106 1977 Items[3].Count set value 64
-data modify block -549 106 1977 Items[4].Count set value 64
-data modify block -549 106 1977 Items[5].Count set value 64
-data modify block -549 106 1977 Items[6].Count set value 64
-data modify block -549 106 1977 Items[7].Count set value 64
-data modify block -549 106 1977 Items[8].Count set value 64
-
-# Dropper 4
-data modify block -549 106 1976 Items[0].Count set value 64
-data modify block -549 106 1976 Items[1].Count set value 64
-data modify block -549 106 1976 Items[2].Count set value 64
-data modify block -549 106 1976 Items[3].Count set value 64
-data modify block -549 106 1976 Items[4].Count set value 64
-data modify block -549 106 1976 Items[5].Count set value 64
-data modify block -549 106 1976 Items[6].Count set value 64
-data modify block -549 106 1976 Items[7].Count set value 64
-data modify block -549 106 1976 Items[8].Count set value 64
-
-# Dropper 5
-data modify block -549 106 1975 Items[0].Count set value 64
-data modify block -549 106 1975 Items[1].Count set value 64
-data modify block -549 106 1975 Items[2].Count set value 64
-data modify block -549 106 1975 Items[3].Count set value 64
-data modify block -549 106 1975 Items[4].Count set value 64
-data modify block -549 106 1975 Items[5].Count set value 64
-data modify block -549 106 1975 Items[6].Count set value 64
-data modify block -549 106 1975 Items[7].Count set value 64
-data modify block -549 106 1975 Items[8].Count set value 64
-
-# Dropper 6
-data modify block -549 106 1974 Items[0].Count set value 64
-data modify block -549 106 1974 Items[1].Count set value 64
-data modify block -549 106 1974 Items[2].Count set value 64
-data modify block -549 106 1974 Items[3].Count set value 64
-data modify block -549 106 1974 Items[4].Count set value 64
-data modify block -549 106 1974 Items[5].Count set value 64
-data modify block -549 106 1974 Items[6].Count set value 64
-data modify block -549 106 1974 Items[7].Count set value 64
-data modify block -549 106 1974 Items[8].Count set value 64
-
-# Dropper 7
-data modify block -549 106 1973 Items[0].Count set value 64
-data modify block -549 106 1973 Items[1].Count set value 64
-data modify block -549 106 1973 Items[2].Count set value 64
-data modify block -549 106 1973 Items[3].Count set value 64
-data modify block -549 106 1973 Items[4].Count set value 64
-data modify block -549 106 1973 Items[5].Count set value 64
-data modify block -549 106 1973 Items[6].Count set value 64
-data modify block -549 106 1973 Items[7].Count set value 64
-data modify block -549 106 1973 Items[8].Count set value 64
-
-# Dropper 8
-data modify block -549 106 1972 Items[0].Count set value 64
-data modify block -549 106 1972 Items[1].Count set value 64
-data modify block -549 106 1972 Items[2].Count set value 64
-data modify block -549 106 1972 Items[3].Count set value 64
-data modify block -549 106 1972 Items[4].Count set value 64
-data modify block -549 106 1972 Items[5].Count set value 64
-data modify block -549 106 1972 Items[6].Count set value 64
-data modify block -549 106 1972 Items[7].Count set value 64
-data modify block -549 106 1972 Items[8].Count set value 64
-
-# Dropper 9
-data modify block -549 106 1971 Items[0].Count set value 64
-data modify block -549 106 1971 Items[1].Count set value 64
-data modify block -549 106 1971 Items[2].Count set value 64
-data modify block -549 106 1971 Items[3].Count set value 64
-data modify block -549 106 1971 Items[4].Count set value 64
-data modify block -549 106 1971 Items[5].Count set value 64
-data modify block -549 106 1971 Items[6].Count set value 64
-data modify block -549 106 1971 Items[7].Count set value 64
-data modify block -549 106 1971 Items[8].Count set value 64
-
-# Dropper 10
-data modify block -549 106 1970 Items[0].Count set value 64
-data modify block -549 106 1970 Items[1].Count set value 64
-data modify block -549 106 1970 Items[2].Count set value 64
-data modify block -549 106 1970 Items[3].Count set value 64
-data modify block -549 106 1970 Items[4].Count set value 64
-data modify block -549 106 1970 Items[5].Count set value 64
-data modify block -549 106 1970 Items[6].Count set value 64
-data modify block -549 106 1970 Items[7].Count set value 64
-data modify block -549 106 1970 Items[8].Count set value 64
 
 ### Items
 # Maps
