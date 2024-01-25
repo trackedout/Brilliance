@@ -16,6 +16,8 @@ execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecra
 execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat,tag=!mobcap] at @s run tp @s ~ -200 ~
 # Ensure correct bat count for L3 & L4
 execute if score $dungeon do2.config.batDistraction matches 1 if score $dungeon do2.config.amountOfBats matches 1.. run function do2:ensure_bat_count
+# Ensure correct glow squids
+function do2:ensure_glow_squid_count
 
 
 # Kill all slimes
