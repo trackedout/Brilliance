@@ -1,0 +1,58 @@
+{
+	"01": {
+		"product_dropper_coords": "-509 104 1972",
+		"prices_hopper_coords": "-509 106 1976"
+	},
+	"02": {
+		"product_dropper_coords": "-508 104 1972",
+		"prices_hopper_coords": "-508 106 1976"
+	},
+	"03": {
+		"product_dropper_coords": "-507 104 1972",
+		"prices_hopper_coords": "-507 106 1976"
+	},
+	"04": {
+		"product_dropper_coords": "-506 104 1972",
+		"prices_hopper_coords": "-506 106 1976"
+	},
+	"05": {
+		"product_dropper_coords": "-505 104 1972",
+		"prices_hopper_coords": "-505 106 1976"
+	},
+	"06": {
+		"product_dropper_coords": "-504 104 1972",
+		"prices_hopper_coords": "-504 106 1976"
+	},
+	"07": {
+		"product_dropper_coords": "-503 104 1972",
+		"prices_hopper_coords": "-503 106 1976"
+	},
+	"08": {
+		"product_dropper_coords": "-502 104 1972",
+		"prices_hopper_coords": "-502 106 1976"
+	},
+	"09": {
+		"product_dropper_coords": "-501 104 1972",
+		"prices_hopper_coords": "-501 106 1976"
+	},
+	"10": {
+		"product_dropper_coords": "-500 104 1972",
+		"prices_hopper_coords": "-500 106 1976"
+	},
+	"11": {
+		"product_dropper_coords": "-499 104 1972",
+		"prices_hopper_coords": "-499 106 1976"
+	},
+	"12": {
+		"product_dropper_coords": "-498 104 1972",
+		"prices_hopper_coords": "-498 106 1976"
+	},
+	"13": {
+		"product_dropper_coords": "-497 104 1972",
+		"prices_hopper_coords": "-497 106 1976"
+	},
+	"14": {
+		"product_dropper_coords": "-496 104 1972",
+		"prices_hopper_coords": "-496 106 1976"
+	}
+}
