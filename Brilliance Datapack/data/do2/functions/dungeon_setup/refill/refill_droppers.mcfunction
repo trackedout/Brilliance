@@ -13,16 +13,16 @@ execute positioned -560 109 1982 run function do2:dungeon_setup/dropper_utils/de
 execute positioned -561 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost
 
 # Compasses
-execute positioned -549 106 1979 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_1
-execute positioned -549 106 1978 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_2
-execute positioned -549 106 1977 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_1
-execute positioned -549 106 1976 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_2
-execute positioned -549 106 1975 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_1
-execute positioned -549 106 1974 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_2
-execute positioned -549 106 1973 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_1
-execute positioned -549 106 1972 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_2
-execute positioned -549 106 1971 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_1
-execute positioned -549 106 1970 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_2
+execute positioned -549 106 1979 run function do2:dungeon_setup/dropper_utils/default_states/compasses/easy_1
+execute positioned -549 106 1978 run function do2:dungeon_setup/dropper_utils/default_states/compasses/easy_2
+execute positioned -549 106 1977 run function do2:dungeon_setup/dropper_utils/default_states/compasses/medium_1
+execute positioned -549 106 1976 run function do2:dungeon_setup/dropper_utils/default_states/compasses/medium_2
+execute positioned -549 106 1975 run function do2:dungeon_setup/dropper_utils/default_states/compasses/hard_1
+execute positioned -549 106 1974 run function do2:dungeon_setup/dropper_utils/default_states/compasses/hard_2
+execute positioned -549 106 1973 run function do2:dungeon_setup/dropper_utils/default_states/compasses/deadly_1
+execute positioned -549 106 1972 run function do2:dungeon_setup/dropper_utils/default_states/compasses/deadly_2
+execute positioned -549 106 1971 run function do2:dungeon_setup/dropper_utils/default_states/compasses/deepfrost_1
+execute positioned -549 106 1970 run function do2:dungeon_setup/dropper_utils/default_states/compasses/deepfrost_2
 
 
 ### Items
