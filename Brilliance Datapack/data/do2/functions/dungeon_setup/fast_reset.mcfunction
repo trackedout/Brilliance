@@ -1,6 +1,6 @@
 # - KILL ALL ENTITIES INSIDE DUNGEON -
-# Bounding box 1: (-445 25 1937, -627 64 2042)  | Level 1.
-execute as @e[type=item,x=-627,dx=182,y=25,dy=39,z=1937,dz=105] run kill @s
+# Bounding box 1: (-445 24 1937, -627 64 2042)  | Level 1.
+execute as @e[type=item,x=-627,dx=182,y=24,dy=40,z=1937,dz=105] run kill @s
 # Bounding box 2: (-625 52 2005, -640 43 1964)  | Level 1.
 execute as @e[type=item,x=-640,dx=15,y=43,dy=9,z=1964,dz=41] run kill @s
 # Bounding box 2: (-444 24 1927, -605 -8 2072)  | Level 2.
