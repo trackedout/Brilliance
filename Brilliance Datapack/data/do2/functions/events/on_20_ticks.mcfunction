@@ -19,10 +19,8 @@ execute if score $dungeon do2.config.batDistraction matches 1 if score $dungeon 
 # Ensure correct glow squids
 function do2:ensure_glow_squid_count
 
-
 # Kill all slimes
 execute as @e[type=minecraft:slime] at @s run tp @s ~ -200 ~
-
 
 #Todo: better way to run this only while a player is ON level 2. (Maybe with a scoreboard?)
 # Test if cove dripstone is broken.
