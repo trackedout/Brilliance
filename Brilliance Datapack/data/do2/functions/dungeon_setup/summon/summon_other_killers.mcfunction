@@ -3,19 +3,14 @@ execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§
 # - End Log -
 
 # One Eyed Willy
-kill @e[type=minecraft:drowned]
 execute at @e[type=area_effect_cloud,tag=L2WILLY,limit=1,sort=random] run summon minecraft:drowned ~ ~ ~ {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2WILLY"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"One Eyed Willie"}'}
 # Training Room Drowned
 summon minecraft:drowned -516 132 2028 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L0TRAIN"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"The Worst!!!"}'}
 
 # Davy Bones
-execute positioned -575.00 14.52 1984.51 run kill @e[type=minecart,distance=..2]
-kill @e[type=minecraft:stray]
 summon minecraft:minecart -576 13 1984 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Invulnerable:1b, Tags: ["L2DAVY"], id: "minecraft:stray", Health: 20.0f, Silent: 1b, CustomName: '{"text":"Davey Bones"}',HandItems:[{id: "minecraft:bow", Count: 1b, tag:{Damage: 0, Enchantments:[{lvl: 1s, id: "minecraft:unbreaking"},{lvl: 1s, id: "minecraft:power"}]}}]}]}
 
 # - Evokers -
-execute as @e[type=minecraft:evoker] at @s run kill @e[type=minecart,distance=..2]
-kill @e[type=minecraft:evoker]
 # Level 1
 summon minecraft:minecart -550 52 1977 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L1E1"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
 summon minecraft:evoker -545 45 1958 {PersistenceRequired:1b, Tags: ["evoker_spot","L1E2"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}

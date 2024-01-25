@@ -2,8 +2,6 @@
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning Teleport Markers."}]
 # - End Log -
 
-kill @e[type=area_effect_cloud,tag=no-zones]
-kill @e[type=area_effect_cloud,tag=with-zones]
 
 # WITH ZONES
 execute if score $dungeon do2.config.useRavagerZones matches 1 run function do2:dungeon_setup/teleport_killers/with_zones/summon_level_1

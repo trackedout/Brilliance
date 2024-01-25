@@ -24,6 +24,6 @@ execute unless entity @e[type=minecraft:warden,tag=L4Z1] run scoreboard players 
 execute unless entity @e[type=minecraft:warden,tag=L4Z2] run scoreboard players set $dungeon do2.tests.all_wardens_alive 0
 execute unless entity @e[type=minecraft:warden,tag=L4Z3] run scoreboard players set $dungeon do2.tests.all_wardens_alive 0
 
-execute unless score $dungeon do2.tests.all_wardens_alive matches 1 run function do2:dungeon_setup/summon_wardens
+execute unless score $dungeon do2.tests.all_wardens_alive matches 1 run function do2:dungeon_setup/summon/wardens
 scoreboard objectives remove do2.tests.all_wardens_alive
 

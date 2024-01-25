@@ -139,7 +139,7 @@ summon minecraft:area_effect_cloud -591 48 1978 {Duration: 2147483647, Tags: ["z
 summon minecraft:area_effect_cloud -586 48 1980 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -578 48 1970 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -578 50 1955 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
-summon minecraft:area_effect_cloud -585 50 1955 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
+summon minecraft:area_effect_cloud -585 52 1955 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -570 50 1950 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -567 50 1945 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:area_effect_cloud -562 49 1942 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}

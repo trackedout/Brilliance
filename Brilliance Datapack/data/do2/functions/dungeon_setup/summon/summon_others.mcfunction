@@ -12,12 +12,11 @@ execute unless entity @e[type=minecraft:axolotl,tag=AXO_4] run summon minecraft:
 execute unless entity @e[type=minecraft:sheep,tag=NO_TOUCH] run summon minecraft:sheep -600 137 1938 {Tags: ["NO_TOUCH"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Leash: {X: -600, Y: 145, Z: 1938}, Health: 8.0f, Color: 6b,Air: 300s, OnGround: 0b, Fire: -1s}
 
 # Prevent blocks placed on difficulty lamps.
-kill @e[type=minecraft:interaction,tag=lamp_blocker]
 summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
 
 # TangoCam (just in case)
 scoreboard objectives add do2.temp.doesTangoCamExist dummy
 execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
 execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute unless score $dungeon do2.temp.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon_tangocam
+execute unless score $dungeon do2.temp.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon/summon_tangocam
 scoreboard objectives remove do2.temp.doesTangoCamExist

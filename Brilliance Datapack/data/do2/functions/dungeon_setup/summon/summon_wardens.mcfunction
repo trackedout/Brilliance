@@ -2,8 +2,6 @@
 execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning Wardens."}]
 # - End Log -
 
-# Best to make sure we don't have duplicate Wardens
-kill @e[type=warden]
 
 # Level 3 Wardens
 execute at @e[type=area_effect_cloud,tag=L3Z1,limit=1,sort=random] run summon warden ~ ~ ~ {Brain : { memories : { "minecraft:dig_cooldown" : { value : {}, ttl : 1000000L } } }, PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L3Z1"],  Health: 500f, CustomName: '{"text":"Pain"}'}
