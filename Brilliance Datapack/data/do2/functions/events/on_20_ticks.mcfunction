@@ -12,11 +12,11 @@ execute unless entity @a[name=!tangocam,name=!TangoCam] if entity @a[name=tangoc
 execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[name=!tangocam,name=!TangoCam,distance=..300] run function do2:dungeon_setup/all
 
 # Kill all bats. 0 = all, 1 = L1 & L2
-execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -100 ~
-execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat,tag=!mobcap] at @s run tp @s ~ -100 ~
+execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -200 ~
+execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat,tag=!mobcap] at @s run tp @s ~ -200 ~
 
 # Kill all slimes
-execute as @e[type=minecraft:slime] at @s run tp @s ~ -70 ~
+execute as @e[type=minecraft:slime] at @s run tp @s ~ -200 ~
 
 
 #Todo: better way to run this only while a player is ON level 2. (Maybe with a scoreboard?)
