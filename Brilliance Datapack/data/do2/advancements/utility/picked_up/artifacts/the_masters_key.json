@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:37}"
+						"nbt": "{tracked:0b, CustomModelData:37, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"The Master\\'s Key (60)\"}'}}"
 					}
 				]
 			}

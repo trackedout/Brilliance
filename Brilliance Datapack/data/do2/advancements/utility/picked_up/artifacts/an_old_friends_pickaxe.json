@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:39}"
+						"nbt": "{tracked:0b, CustomModelData:39, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"An Old Friend\\'s Pickaxe (38)\"}'}}"
 					}
 				]
 			}

@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:11}"
+						"nbt": "{tracked:0b, CustomModelData:11, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"CF-135 (46)\"}'}}"
 					}
 				]
 			}

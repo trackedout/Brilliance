@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:10}"
+						"nbt": "{tracked:0b, CustomModelData:10, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Pocket Watch of Shreeping (36)\"}'}}"
 					}
 				]
 			}

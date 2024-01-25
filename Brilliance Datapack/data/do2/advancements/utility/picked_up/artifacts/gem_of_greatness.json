@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:16}"
+						"nbt": "{tracked:0b, CustomModelData:16, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Gem of Greatness (40)\"}'}}"
 					}
 				]
 			}

@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:38}"
+						"nbt": "{tracked:0b, CustomModelData:38, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"The Skadoodler (52)\"}'}}"
 					}
 				]
 			}

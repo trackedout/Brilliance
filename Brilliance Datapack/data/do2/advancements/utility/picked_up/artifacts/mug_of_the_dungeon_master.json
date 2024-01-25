@@ -8,7 +8,7 @@
 						"items": [
 							"minecraft:iron_nugget"
 						],
-						"nbt": "{tracked:0b,CustomModelData:36}"
+						"nbt": "{tracked:0b, CustomModelData:36, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Mug of the Dungeon Master (54)\"}'}}"
 					}
 				]
 			}
