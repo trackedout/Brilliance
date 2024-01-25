@@ -17,8 +17,9 @@ execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.emp
 # Remove glowing effect from Evokers.
 execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
-# Update the config display.
+# Update the various sideboards display.
 function do2:scoreboard/config/config_display
+function do2:scoreboard/stats_display
 
 # Check for triggers.
 function do2:scoreboard/triggers/checks
