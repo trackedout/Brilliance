@@ -18,8 +18,8 @@
 
 
 
-execute as @e[type=ravager,tag=L1Z1] at @e[type=area_effect_cloud,tag=L1Z1,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
-execute as @e[type=ravager,tag=L1Z2] at @e[type=area_effect_cloud,tag=L1Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
-execute as @e[type=ravager,tag=L1Z3] at @e[type=area_effect_cloud,tag=L1Z3,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
-execute as @e[type=ravager,tag=L1Z4] at @e[type=area_effect_cloud,tag=L1Z4,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
-execute as @e[type=ravager,tag=L1Z5] at @e[type=area_effect_cloud,tag=L1Z5,tag=no-zones,limit=1,sort=random] run tp @s ~ ~ ~
+execute as @e[type=ravager,tag=L1Z1] at @e[type=area_effect_cloud,tag=L1Z1,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z2] at @e[type=area_effect_cloud,tag=L1Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z3] at @e[type=area_effect_cloud,tag=L1Z3,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z4] at @e[type=area_effect_cloud,tag=L1Z4,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z5] at @e[type=area_effect_cloud,tag=L1Z5,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
