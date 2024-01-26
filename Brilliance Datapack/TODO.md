@@ -1,4 +1,6 @@
 # Other TODO:
+- Add cards/availble/*
+- Log cards played/bought/available
 - Update all area_effect_clouds to minecraft:marker.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
