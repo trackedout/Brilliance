@@ -8,3 +8,6 @@ scoreboard players enable @a do2.trigger.logLevel
 
 scoreboard objectives add do2.trigger.version trigger "detect version trigger"
 scoreboard players enable @a do2.trigger.version
+
+scoreboard objectives add do2.trigger.map trigger "detect map trigger"
+scoreboard players enable @a do2.trigger.map
