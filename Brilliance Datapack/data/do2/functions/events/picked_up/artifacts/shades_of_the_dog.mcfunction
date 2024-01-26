@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add shdPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=shdPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#33\n§fValue: §b9\n§fName: §aShades of the Dog\n§fLore:\n§o§5Eye protection worthy of a king."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=shdPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#33\n§fValue: §b9\n§fName: §aShades of the Dog\n§fLore:\n§o§5Eye protection worthy of a king."}]}},{"text":")"}]
 tag @s remove shdPickUpLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add pclPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pclPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#32\n§fValue: §b14\n§fName: §aPearl of Cleansing\n§fLore:\n§o§5Infused with strange alien powers,\nthis pearl can keep anything clean."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pclPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#32\n§fValue: §b14\n§fName: §aPearl of Cleansing\n§fLore:\n§o§5Infused with strange alien powers,\nthis pearl can keep anything clean."}]}},{"text":")"}]
 tag @s remove pclPickUpLogTarget
 # - End Log -
 

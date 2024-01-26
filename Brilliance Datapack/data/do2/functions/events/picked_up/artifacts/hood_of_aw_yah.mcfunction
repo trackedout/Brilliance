@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add hayPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hayPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#42\n§fValue: §b6\n§fName: §aHood of Aw'Yah\n§fLore:\n§o§5Wearing this hood may cause uncontrollable giggling."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hayPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#42\n§fValue: §b6\n§fName: §aHood of Aw'Yah\n§fLore:\n§o§5Wearing this hood may cause uncontrollable giggling."}]}},{"text":")"}]
 tag @s remove hayPickUpLogTarget
 # - End Log -
 

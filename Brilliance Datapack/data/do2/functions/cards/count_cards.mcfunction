@@ -6,7 +6,7 @@
 # Replace XXX with card's code.
 #------------------------------
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Counting cards inside the deck"}]
+execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[§9B§r]: Counting cards inside the deck"}]
 # - End Log -
 
 # Adding together card numbers

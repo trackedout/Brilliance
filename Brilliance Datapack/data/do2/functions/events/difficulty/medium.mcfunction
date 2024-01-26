@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: Dungeon Difficulty: §aMedium"}]
+execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"[§9B§r]: Dungeon Difficulty: §aMedium"}]
 # - End Log -
 
 # scoreboard

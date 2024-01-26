@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add hstPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hstPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#31\n§fValue: §b30\n§fName: §aThe Hidden Stache\n§fLore:\n§o§5Hidden inside you'll find an assortment of spoons\nand dapper upper lip hair."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hstPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#31\n§fValue: §b30\n§fName: §aThe Hidden Stache\n§fLore:\n§o§5Hidden inside you'll find an assortment of spoons\nand dapper upper lip hair."}]}},{"text":")"}]
 tag @s remove hstPickUpLogTarget
 # - End Log -
 

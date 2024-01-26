@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add cleoLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cleoLogTarget]"},{"text":" found ZombieCleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -631.4 2.5 1920 1.6 0"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cleoLogTarget]"},{"text":" found ZombieCleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -631.4 2.5 1920 1.6 0"}},{"text":")"}]
 tag @s remove cleoLogTarget
 # - End Log -
 

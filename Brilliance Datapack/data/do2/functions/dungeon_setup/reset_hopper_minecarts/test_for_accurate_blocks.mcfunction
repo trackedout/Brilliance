@@ -1,7 +1,7 @@
 # THIS WAS RAN MANUALLY TO ENSURE I HAD ALL COORDINATES ACCURATE. (i didn't and updated my coords so now they are)
 
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for Lodestones and Hopper Minecarts."}]
+execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for Lodestones and Hopper Minecarts."}]
 # - End Log -
 
 # Need to check if ONE lodestone doesn't exist. Best way I could do this:

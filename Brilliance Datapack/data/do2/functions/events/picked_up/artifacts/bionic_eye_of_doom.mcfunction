@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add bedPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bedPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#20\n§fValue: §b24\n§fName: §aBionic Eye of Doom\n§fLore:\n§o§5Also Omega. Probably Mega as well."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bedPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#20\n§fValue: §b24\n§fName: §aBionic Eye of Doom\n§fLore:\n§o§5Also Omega. Probably Mega as well."}]}},{"text":")"}]
 tag @s remove bedPickUpLogTarget
 # - End Log -
 

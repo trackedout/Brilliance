@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add goldenLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=goldenLogTarget]"},{"text":" found the Golden easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -643.7 -7 1915 -90 48"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=goldenLogTarget]"},{"text":" found the Golden easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -643.7 -7 1915 -90 48"}},{"text":")"}]
 tag @s remove goldenLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add ggrPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ggrPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#16\n§fValue: §b40\n§fName: §aGem of Greatness\n§fLore:\n§o§5This gem truly is great."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ggrPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#16\n§fValue: §b40\n§fName: §aGem of Greatness\n§fLore:\n§o§5This gem truly is great."}]}},{"text":")"}]
 tag @s remove ggrPickUpLogTarget
 # - End Log -
 

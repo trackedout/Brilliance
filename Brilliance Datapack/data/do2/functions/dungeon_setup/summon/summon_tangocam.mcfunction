@@ -2,7 +2,7 @@ execute if entity @a[name=TangoCam] run return 0
 execute if entity @a[name=tangocam] run return 0
 
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning TangoCam. "}]
+execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Summoning TangoCam. "}]
 # - End Log -
 
 player TangoCam spawn at -484.52 62.00 1739.16 facing 180 0 in minecraft:overworld in creative

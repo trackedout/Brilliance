@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add pearlLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pearlLogTarget]"},{"text":" found PearlescentMoon's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -618 -6 1926.3 54 3"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pearlLogTarget]"},{"text":" found PearlescentMoon's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -618 -6 1926.3 54 3"}},{"text":")"}]
 tag @s remove pearlLogTarget
 # - End Log -
 

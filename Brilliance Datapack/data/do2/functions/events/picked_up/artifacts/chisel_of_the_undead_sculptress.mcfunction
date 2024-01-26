@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add cusPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cusPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#12\n§fValue: §b19\n§fName: §aChisel of the Undead Sculptress\n§fLore:\n§o§5This macabre device bestows unlimited creativity\nand sarcasm to its wielder.  Mostly sarcasm."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=cusPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#12\n§fValue: §b19\n§fName: §aChisel of the Undead Sculptress\n§fLore:\n§o§5This macabre device bestows unlimited creativity\nand sarcasm to its wielder.  Mostly sarcasm."}]}},{"text":")"}]
 tag @s remove cusPickUpLogTarget
 # - End Log -
 

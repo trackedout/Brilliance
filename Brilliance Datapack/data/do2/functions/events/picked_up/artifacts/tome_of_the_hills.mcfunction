@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add thlPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=thlPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#29\n§fValue: §b12\n§fName: §aTome of the Hills\n§fLore:\n§o§5An infinite source of transparent wisdom."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=thlPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#29\n§fValue: §b12\n§fName: §aTome of the Hills\n§fLore:\n§o§5An infinite source of transparent wisdom."}]}},{"text":")"}]
 tag @s remove thlPickUpLogTarget
 # - End Log -
 

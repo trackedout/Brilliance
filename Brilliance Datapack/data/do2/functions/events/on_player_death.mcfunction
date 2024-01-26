@@ -2,7 +2,7 @@
 
 # - Start Log -
 tag @s add dyingLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=dyingLogTarget]"},{"text":" died."}]
+execute as @a[scores={do2.logs.spam=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=dyingLogTarget]"},{"text":" died."}]
 tag @s add dyingLogTarget
 # - End Log -
 

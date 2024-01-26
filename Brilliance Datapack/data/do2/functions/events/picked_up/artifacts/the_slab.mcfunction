@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add tslPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=tslPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#14\n§fValue: §b50\n§fName: §aThe Slab\n§fLore:\n§o§5The one that started it all. Accept no substitutes"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=tslPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#14\n§fValue: §b50\n§fName: §aThe Slab\n§fLore:\n§o§5The one that started it all. Accept no substitutes"}]}},{"text":")"}]
 tag @s remove tslPickUpLogTarget
 # - End Log -
 

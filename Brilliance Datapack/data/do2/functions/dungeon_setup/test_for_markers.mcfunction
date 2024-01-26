@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for teleport Markers."}]
+execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for teleport Markers."}]
 # - End Log -
 
 # Need to check if ONE marker is not existing. Best way I could do this:

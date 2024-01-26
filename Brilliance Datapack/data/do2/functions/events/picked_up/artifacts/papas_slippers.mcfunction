@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add ppsPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ppsPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#30\n§fValue: §b10\n§fName: §aPapa's Slippers\n§fLore:\n§o§5Sweet faces to take you sweet places"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ppsPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#30\n§fValue: §b10\n§fName: §aPapa's Slippers\n§fLore:\n§o§5Sweet faces to take you sweet places"}]}},{"text":")"}]
 tag @s remove ppsPickUpLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
-# Called when MAX CLANK is reached
+# Called when a MAX CLANK is released into the dungeon.
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=1..}] run tellraw @s ["",{"text":"[§9B§r]: Max Clank Reached. "}]
+execute as @a[scores={do2.logs.clank=2..}] run tellraw @s ["",{"text":"[§9B§r]: Max Clank released to dungeon."}]
 # - End Log -
 
 # update scoreboard

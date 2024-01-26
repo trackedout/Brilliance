@@ -11,7 +11,7 @@ setblock -536 114 1956 minecraft:oak_wall_sign[facing=east]
 data merge block -536 114 1956 {front_text:{messages:['{"text":"§bManually apply"}','{"text":"§bconfig changes"}','{"text":"§bby clicking this."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:dungeon_setup/all"}}']}}
 # Access to Logs
 setblock -536 115 1954 minecraft:oak_wall_sign[facing=east]
-data merge block -536 115 1954 {front_text:{messages:['{"text":"§aGain access to"}','{"text":"§aLevel 1 Logs"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/set_log_level/initial"}}']}}
+data merge block -536 115 1954 {front_text:{messages:['{"text":"§aGain access to"}','{"text":"§aLevel 1 Logs"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/receive_logs/documentation"}}']}}
 # Display Settings
 setblock -536 116 1958 minecraft:oak_wall_sign[facing=east]
 data merge block -536 116 1958 {front_text:{messages:['{"text":""}','{"text":"SETTINGS"}','{"text":"DISPLAYED"}','{"text":""}']}}

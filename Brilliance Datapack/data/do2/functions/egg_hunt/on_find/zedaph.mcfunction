@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add zedLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=zedLogTarget]"},{"text":" found Zedaph's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -504 46 2015 0 7"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=zedLogTarget]"},{"text":" found Zedaph's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -504 46 2015 0 7"}},{"text":")"}]
 tag @s remove zedLogTarget
 # - End Log -
 

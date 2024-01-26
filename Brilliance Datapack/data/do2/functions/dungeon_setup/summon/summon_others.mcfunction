@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for OTHER mobs ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oSheep that never touched ground§r\n - §oDifficulty Lamp Blocker§r\n - §oAxolotls§r"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for OTHER mobs ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oSheep that never touched ground§r\n - §oDifficulty Lamp Blocker§r\n - §oAxolotls§r"}]}},{"text":")"}]
 # - End Log -
 
 # Axolotls

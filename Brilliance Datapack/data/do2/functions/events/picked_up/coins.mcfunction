@@ -3,8 +3,8 @@ execute store result score @s do2.utility.coinsToGive run clear @s iron_nugget{t
 
 # - Start Log -
 tag @s add coinPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] if score @p[tag=coinPickUpLogTarget] do2.utility.coinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=coinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=coinPickUpLogTarget]","objective":"do2.utility.coinsToGive"}},{"text":" coin."}]
-execute as @a[scores={do2.utility.logLevel=2..}] unless score @p[tag=coinPickUpLogTarget] do2.utility.coinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=coinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=coinPickUpLogTarget]","objective":"do2.utility.coinsToGive"}},{"text":" coins."}]
+execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=coinPickUpLogTarget] do2.utility.coinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=coinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=coinPickUpLogTarget]","objective":"do2.utility.coinsToGive"}},{"text":" coin."}]
+execute as @a[scores={do2.logs.pickups=1..}] unless score @p[tag=coinPickUpLogTarget] do2.utility.coinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=coinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=coinPickUpLogTarget]","objective":"do2.utility.coinsToGive"}},{"text":" coins."}]
 tag @s remove coinPickUpLogTarget
 # - End Log -
 

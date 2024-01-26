@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add joinPlayerLogTarget
-execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=joinPlayerLogTarget]"},{"text":" joined the game."}]
+execute as @a[scores={do2.logs.spam=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=joinPlayerLogTarget]"},{"text":" joined the game."}]
 tag @s remove joinPlayerLogTarget
 # - End Log -
 

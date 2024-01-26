@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add asvPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=asvPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#43\n§fValue: §b7\n§fName: §aAxe of the Screamin' Void\n§fLore:\n§o§5A legendary axe that never\nstops shredding."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=asvPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#43\n§fValue: §b7\n§fName: §aAxe of the Screamin' Void\n§fLore:\n§o§5A legendary axe that never\nstops shredding."}]}},{"text":")"}]
 tag @s remove asvPickUpLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add bottomTnTLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bottomTnTLogTarget]"},{"text":" reached bottom of TnT depth charge."}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bottomTnTLogTarget]"},{"text":" reached bottom of TnT depth charge."}]
 tag @s remove bottomTnTLogTarget
 # - End Log -
 

@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Tagging all Compass Filter Minecart Hoppers."}]
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Tagging all Compass Filter Minecart Hoppers."}]
 # - End Log -
 
 

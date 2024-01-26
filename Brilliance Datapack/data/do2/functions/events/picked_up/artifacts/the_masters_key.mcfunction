@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add mkyPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=mkyPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#37\n§fValue: §b60\n§fName: §aThe Master's Key\n§fLore:\n§o§5What could it possibly open?"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=mkyPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#37\n§fValue: §b60\n§fName: §aThe Master's Key\n§fLore:\n§o§5What could it possibly open?"}]}},{"text":")"}]
 tag @s remove mkyPickUpLogTarget
 # - End Log -
 

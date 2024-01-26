@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers from dungeon to dropper room."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers from dungeon to dropper room."}]
 # - End Log -
 
 # - copy FROM dungeon(all droppers) TO dropper room -

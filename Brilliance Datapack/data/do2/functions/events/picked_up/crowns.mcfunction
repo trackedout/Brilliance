@@ -3,8 +3,8 @@ execute store result score @s do2.utility.crownsToGive run clear @s iron_nugget{
 
 # - Start Log -
 tag @s add crownPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] if score @p[tag=crownPickUpLogTarget] do2.utility.crownsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=crownPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=crownPickUpLogTarget]","objective":"do2.utility.crownsToGive"}},{"text":" crown."}]
-execute as @a[scores={do2.utility.logLevel=2..}] unless score @p[tag=crownPickUpLogTarget] do2.utility.crownsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=crownPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=crownPickUpLogTarget]","objective":"do2.utility.crownsToGive"}},{"text":" crowns."}]
+execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=crownPickUpLogTarget] do2.utility.crownsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=crownPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=crownPickUpLogTarget]","objective":"do2.utility.crownsToGive"}},{"text":" crown."}]
+execute as @a[scores={do2.logs.pickups=1..}] unless score @p[tag=crownPickUpLogTarget] do2.utility.crownsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=crownPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=crownPickUpLogTarget]","objective":"do2.utility.crownsToGive"}},{"text":" crowns."}]
 tag @s remove crownPickUpLogTarget
 # - End Log -
 

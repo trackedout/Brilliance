@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Refilling Droppers."}]
+execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[§9B§r]: Refilling Droppers."}]
 # - End Log -
 
 #TODO: possibly instead of setting COUNT, we set the entire ITEM.

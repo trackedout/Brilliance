@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add ofpPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ofpPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#39\n§fValue: §b38\n§fName: §aAn Old Friend's Pickaxe\n§fLore:\n§o§5Worn down through years of use,\nthis artifact will never be forgotten."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ofpPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#39\n§fValue: §b38\n§fName: §aAn Old Friend's Pickaxe\n§fLore:\n§o§5Worn down through years of use,\nthis artifact will never be forgotten."}]}},{"text":")"}]
 tag @s remove ofpPickUpLogTarget
 # - End Log -
 

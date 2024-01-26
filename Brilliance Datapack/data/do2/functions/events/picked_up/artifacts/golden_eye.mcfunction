@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add gdePickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=gdePickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#19\n§fValue: §b34\n§fName: §aGolden Eye\n§fLore:\n§o§5iMazing \"I\" iNscribed iNside"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=gdePickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#19\n§fValue: §b34\n§fName: §aGolden Eye\n§fLore:\n§o§5iMazing \"I\" iNscribed iNside"}]}},{"text":")"}]
 tag @s remove gdePickUpLogTarget
 # - End Log -
 

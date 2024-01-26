@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for cove dripstone."}]
+execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for cove dripstone."}]
 # - End Log -
 
 # Do nothing if tips are not broken - all other blocks must be there.

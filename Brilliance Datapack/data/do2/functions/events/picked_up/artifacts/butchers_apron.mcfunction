@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add bapPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bapPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#40\n§fValue: §b20\n§fName: §aButcher's Apron\n§fLore:\n§o§5A bloody apron for the venerable gentleman."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bapPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#40\n§fValue: §b20\n§fName: §aButcher's Apron\n§fLore:\n§o§5A bloody apron for the venerable gentleman."}]}},{"text":")"}]
 tag @s remove bapPickUpLogTarget
 # - End Log -
 

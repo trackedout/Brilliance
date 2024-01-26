@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add ggsPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ggsPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#15\n§fValue: §b32\n§fName: §aGoggles of Symmetry\n§fLore:\n§o§5Grants deceptively overpowering combat prowess.\nAlso quite fashionable."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=ggsPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#15\n§fValue: §b32\n§fName: §aGoggles of Symmetry\n§fLore:\n§o§5Grants deceptively overpowering combat prowess.\nAlso quite fashionable."}]}},{"text":")"}]
 tag @s remove ggsPickUpLogTarget
 # - End Log -
 

@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up all scoreboard objectives."}]
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up all scoreboard objectives."}]
 # - End Log -
 
 # create scoreboard objectives
@@ -56,12 +56,7 @@ scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to giv
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
 # - Logging -
-# 0 = nothing
-# 1 = basic events
-# 2 = advanced events
-# 3 = everything.
-scoreboard objectives add do2.utility.logLevel dummy "Logging Level"
-
+function do2:scoreboard/setup/logs
 
 # - Dungeon Config -
 function do2:scoreboard/setup/config

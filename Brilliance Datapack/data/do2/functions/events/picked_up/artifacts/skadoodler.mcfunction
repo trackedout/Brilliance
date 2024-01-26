@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add skaPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=skaPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#38\n§fValue: §b52\n§fName: §aThe Skadoodler\n§fLore:\n§o§5A unique device capable of creating\nunlimited -ificators. Most won't work."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=skaPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#38\n§fValue: §b52\n§fName: §aThe Skadoodler\n§fLore:\n§o§5A unique device capable of creating\nunlimited -ificators. Most won't work."}]}},{"text":")"}]
 tag @s remove skaPickUpLogTarget
 # - End Log -
 

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add wggPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=wggPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#35\n§fValue: §b22\n§fName: §aWand of Gorgeousness\n§fLore:\n§o§5Makes everything gorgeous. Of course."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=wggPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#35\n§fValue: §b22\n§fName: §aWand of Gorgeousness\n§fLore:\n§o§5Makes everything gorgeous. Of course."}]}},{"text":")"}]
 tag @s remove wggPickUpLogTarget
 # - End Log -
 

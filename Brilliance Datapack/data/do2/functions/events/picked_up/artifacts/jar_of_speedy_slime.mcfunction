@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add jssPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=jssPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#28\n§fValue: §b11\n§fName: §aJar of Speedy Slime\n§fLore:\n§o§5Drink to become an unkillable speedster!\n*Infinite totems not included"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=jssPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#28\n§fValue: §b11\n§fName: §aJar of Speedy Slime\n§fLore:\n§o§5Drink to become an unkillable speedster!\n*Infinite totems not included"}]}},{"text":")"}]
 tag @s remove jssPickUpLogTarget
 # - End Log -
 

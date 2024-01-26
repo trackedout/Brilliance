@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add scarLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=scarLogTarget]"},{"text":" found GoodTimesWithScar's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -608 3 1883 -90 9"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=scarLogTarget]"},{"text":" found GoodTimesWithScar's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -608 3 1883 -90 9"}},{"text":")"}]
 tag @s remove scarLogTarget
 # - End Log -
 

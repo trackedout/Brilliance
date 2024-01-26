@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add hybPickUpLogTarget
-execute as @a[scores={do2.utility.logLevel=2..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hybPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#18\n§fValue: §b21\n§fName: §aHypnotic Bandana\n§fLore:\n§o§5Gaze in Wonder. It seems to look back at you."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.pickups=1..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=hybPickUpLogTarget]"},{"text":" picked up an artifact. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§fID: §9#18\n§fValue: §b21\n§fName: §aHypnotic Bandana\n§fLore:\n§o§5Gaze in Wonder. It seems to look back at you."}]}},{"text":")"}]
 tag @s remove hybPickUpLogTarget
 # - End Log -
 
