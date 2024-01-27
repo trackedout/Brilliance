@@ -2,6 +2,8 @@ tellraw @s ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","co
 
 function do2:scoreboard/config/receive_logs/documentations/datapack_setup
 tellraw @s ["",{"text":""}]
+function do2:scoreboard/config/receive_logs/documentations/gamestate
+tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/dropper_room
 tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/evokers
