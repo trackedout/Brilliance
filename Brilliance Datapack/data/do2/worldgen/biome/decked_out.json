@@ -1,0 +1,32 @@
+{
+	"temperature": 0.5,
+	"downfall": 0.5,
+	"has_precipitation": false,
+	"effects": {
+		"sky_color": 8233983,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011
+	},
+	"spawners": {
+		"ambient": [
+			{
+				"type": "minecraft:bat",
+				"weight": 10,
+				"minCount": 8,
+				"maxCount": 8
+			}
+		],
+		"underground_water_creature": [
+			{
+				"type": "minecraft:glow_squid",
+				"weight": 10,
+				"minCount": 4,
+				"maxCount": 6
+			}
+		]
+	},
+	"spawn_costs": {},
+	"carvers": {},
+	"features": []
+}
