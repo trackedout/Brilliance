@@ -27,7 +27,7 @@ execute if block -625 57 2020 minecraft:lever[powered=false] if entity @e[tag=fr
 execute if block -625 57 2019 minecraft:lever[powered=true] as @e[type=area_effect_cloud,tag=L1Z2] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/l1z2
 execute if block -625 57 2019 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L1Z2] run function do2:dungeon_setup/teleport_killers/dev/turn_invisible/l1z2
 # L1Z3
-execute if block -625 57 2018 minecraft:lever[powered=true] as @e[type=area_effect_cloud,tag=L1Z3] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/l1z4
+execute if block -625 57 2018 minecraft:lever[powered=true] as @e[type=area_effect_cloud,tag=L1Z3] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/l1z3
 execute if block -625 57 2018 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L1Z3] run function do2:dungeon_setup/teleport_killers/dev/turn_invisible/l1z3
 # L1Z4
 execute if block -625 57 2017 minecraft:lever[powered=true] as @e[type=area_effect_cloud,tag=L1Z4] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/l1z4
