@@ -22,6 +22,7 @@ execute as @a[tag=do2.running] run function do2:agronet/log-event_dungeon-starte
 
 # do all scoreboard resets that happen per run.
 execute as @a[tag=do2.running] run function do2:scoreboard/player_per_run
+execute as @a[tag=do2.spectating] run function do2:scoreboard/spectator_per_run
 function do2:scoreboard/dungeon_per_run
 
 #revoke all utility advancements. These are used for additional conditions
