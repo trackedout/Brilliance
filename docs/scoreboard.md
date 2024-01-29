@@ -12,7 +12,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 2. `@s`
    1. ✅ | The score is stored on `@a[tag=do2.running]`. 
    2. ❌ | The score is stored `$dungeon`.
-   3. ⛔ | The score is stored on `@p[tag=shulker_recieved]`.
+   3. ⛔ | The score is stored on `@p[tag=shulker_received]`.
 3. `Name`
    - Name of the scoreboard objective.
 4. `Category`
