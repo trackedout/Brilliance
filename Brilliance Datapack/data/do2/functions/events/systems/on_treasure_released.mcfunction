@@ -1,4 +1,4 @@
-# Called when treasure is removed from queue to drop in the dungeon.
+# Called when treasure is removed from queue to drop in the dungeon, and is successful in sending to the dungeon's droppers.
 # - Start Log -
 execute as @a[scores={do2.logs.treasure=1..}] run tellraw @s ["",{"text":"[§9B§r]: Treasure Released. "}]
 # - End Log -

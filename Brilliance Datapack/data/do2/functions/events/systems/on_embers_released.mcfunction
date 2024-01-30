@@ -1,5 +1,4 @@
-# Ran when Frost Embers is released into the dungeon.
-# Todo: differentiate NATURAL vs CARD drops.
+# Called when Frost Embers is removed from queue to drop in the dungeon, and is successful in sending to the dungeon's droppers.
 # - Start Log -
 execute as @a[scores={do2.logs.embers=1..}] run tellraw @s ["",{"text":"[§9B§r]: Frost Embers dropped. "}]
 # - End Log -
