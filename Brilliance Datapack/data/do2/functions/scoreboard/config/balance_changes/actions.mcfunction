@@ -14,3 +14,6 @@ execute if score $dungeon do2.config.bc.l2ShipTreasureLine matches 0 run setbloc
 execute if score $dungeon do2.config.bc.balancedTnTDiveLoot matches 1 run data modify block -578 16 1967 Items set value [{Slot: 0b, id: "minecraft:stone", Count: 1b}, {Slot: 1b, id: "minecraft:stone_sword", Count: 1b}, {Slot: 2b, id: "minecraft:stone_sword", Count: 1b}, {Slot: 3b, id: "minecraft:stone_sword", Count: 1b}]
 execute if score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0 run data modify block -578 16 1967 Items set value [{Slot: 0b, id: "minecraft:stone", Count: 1b}, {Slot: 1b, id: "minecraft:stone_sword", Count: 1b}, {Slot: 2b, id: "minecraft:stone_sword", Count: 1b}, {Slot: 3b, id: "minecraft:stone_sword", Count: 1b}, {Slot: 4b, id: "minecraft:stone_sword", Count: 1b}]
 
+# Less Loot on Max Clank
+execute if score $dungeon do2.config.bc.lessLootMaxClank matches 1 run setblock -626 23 1977 minecraft:redstone_wire
+execute if score $dungeon do2.config.bc.lessLootMaxClank matches 0 run setblock -626 23 1977 minecraft:glass

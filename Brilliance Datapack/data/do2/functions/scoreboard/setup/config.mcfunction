@@ -62,6 +62,8 @@ scoreboard objectives add do2.config.bc.l2ShipTreasureLine dummy "Ships Treasure
 execute unless score $dungeon do2.config.bc.l2ShipTreasureLine matches 0.. run scoreboard players set $dungeon do2.config.bc.l2ShipTreasureLine 1
 scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT Dive Loot"
 execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1
+scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max Clank"
+execute unless score $dungeon do2.config.bc.lessLootMaxClank matches 0.. run scoreboard players set $dungeon do2.config.bc.lessLootMaxClank 1
 
 # READ/WRITE Config: When to refill dungeon
 # 0 = Never automatically.
