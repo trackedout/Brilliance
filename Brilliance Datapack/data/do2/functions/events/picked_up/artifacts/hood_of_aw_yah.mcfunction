@@ -8,7 +8,7 @@ tag @s remove hayPickUpLogTarget
 clear @s iron_nugget{tracked:0b,CustomModelData:42} 1
 
 # Give back the artifact but TRACKED this time.
-give @s minecraft:iron_nugget{CustomModelData:42, tracked:1b, display: { Lore: ['{"text":"Wearing this hood may cause "}','{"text":"uncontrollable giggling."}'],Name: '{"bold":true,"color":"gold","text":"Hood of Aw\'Yah (6)"}'}} 1
+give @s minecraft:iron_nugget{CustomModelData:42, tracked:1b, display: { Lore: ['{"text":"Wearing this hood may cause"}','{"text":"uncontrollable giggling."}'],Name: '{"bold":true,"color":"gold","text":"Hood of Aw\'Yah (6)"}'}} 1
 
 # revoke the advancement that called it.
 advancement revoke @s only do2:utility/picked_up/artifacts/hood_of_aw_yah
