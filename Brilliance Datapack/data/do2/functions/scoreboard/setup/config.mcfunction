@@ -15,7 +15,7 @@ scoreboard objectives add do2.config.resetComposters dummy "Reset Composters."
 execute unless score $dungeon do2.config.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.resetComposters 1
 
 # Dungeon Config: whether to disable treasure on max clank. Default: 0 (FALSE)
-scoreboard objectives add do2.config.maxClankTreasure dummy "Clank Disables Treasure."
+scoreboard objectives add do2.config.maxClankTreasure dummy "§1Clank §rDisables Treasure."
 execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0
 
 # Dungeon Config: Chance for NIGHT time. Default: 25%
@@ -62,7 +62,7 @@ scoreboard objectives add do2.config.bc.l2ShipTreasureLine dummy "Ships Treasure
 execute unless score $dungeon do2.config.bc.l2ShipTreasureLine matches 0.. run scoreboard players set $dungeon do2.config.bc.l2ShipTreasureLine 1
 scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT Dive Loot"
 execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1
-scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max Clank"
+scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max §1Clank"
 execute unless score $dungeon do2.config.bc.lessLootMaxClank matches 0.. run scoreboard players set $dungeon do2.config.bc.lessLootMaxClank 1
 
 # READ/WRITE Config: When to refill dungeon

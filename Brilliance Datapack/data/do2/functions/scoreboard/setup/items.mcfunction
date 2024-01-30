@@ -1,7 +1,7 @@
 # -- items --
-scoreboard objectives add do2.run.items.embers dummy "Embers picked up"
-scoreboard objectives add do2.run.items.coins dummy "Coins picked up"
-scoreboard objectives add do2.run.items.crowns dummy "Crowns picked up"
+scoreboard objectives add do2.run.items.embers dummy "§3Ember§rs picked up"
+scoreboard objectives add do2.run.items.coins dummy "§eCoins§r picked up"
+scoreboard objectives add do2.run.items.crowns dummy "§eCrowns§r picked up"
 scoreboard objectives add do2.run.items.kits dummy "Rusty Repair Kits picked up"
 scoreboard objectives add do2.run.items.pumpkins dummy "Pumpkins picked up"
 scoreboard objectives add do2.run.items.bone_meals dummy "Bone_meal pick ups"

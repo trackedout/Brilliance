@@ -37,25 +37,25 @@ scoreboard objectives add do2.logs.dropper_room dummy "Receive Logs of DROPPER R
 # 0 = Nothing
 # 1 = Max Clank Reached
 # 2 = Max Clank Reached & Clank Generated
-scoreboard objectives add do2.logs.clank dummy "Receive Logs on CLANK."
+scoreboard objectives add do2.logs.clank dummy "Receive Logs on §1CLANK§r."
 
 # Scale: Receive Notifications on HAZARD.
 # 0 = Nothing
 # 1 = Hazard Generated
 # 2 = Hazard Generated & Hazard Events
-scoreboard objectives add do2.logs.hazard dummy "Receive Logs on HAZARD."
+scoreboard objectives add do2.logs.hazard dummy "Receive Logs on §cHAZARD§r."
 
 # Scale: Receive Notifications on EMBERS.
 # 0 = Nothing
 # 1 = Embers Released
 # 2 = Embers Released & Embers Dropped
-scoreboard objectives add do2.logs.embers dummy "Receive Logs on EMBERS generated."
+scoreboard objectives add do2.logs.embers dummy "Receive Logs on §3EMBERS§r generated."
 
 # Scale: Receive Notifications on TREASURE.
 # 0 = Nothing
 # 1 = Treasure Released
 # 2 = Treasure Released & Treasure Dropped
-scoreboard objectives add do2.logs.treasure dummy "Receive Logs on TREASURE generated."
+scoreboard objectives add do2.logs.treasure dummy "Receive Logs on §eTREASURE§r generated."
 
 # Scale: Receive Notifications on PLAYER-ACTIONS.
 # 0 = Nothing

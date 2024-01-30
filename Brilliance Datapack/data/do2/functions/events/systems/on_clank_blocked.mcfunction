@@ -1,6 +1,6 @@
 # Ran when clank is BLOCKED
 # - Start Log -
-execute as @a[scores={do2.logs.blockage=1..}] run tellraw @s ["",{"text":"[§9B§r]: Clank Blocked. "}]
+execute as @a[scores={do2.logs.blockage=1..}] run tellraw @s ["",{"text":"[§9B§r]: Blocked §1Clank§r."}]
 # - End Log -
 
 # update scoreboard
