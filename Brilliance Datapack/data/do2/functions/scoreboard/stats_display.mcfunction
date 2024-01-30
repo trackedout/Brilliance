@@ -3,7 +3,7 @@ scoreboard players operation $Clank_Triggers do2.utility.statsDisplay = $dungeon
 scoreboard players operation $Clank_Blocked do2.utility.statsDisplay = $dungeon do2.run.systems.clank.blocked
 scoreboard players operation $Hazard_Triggers do2.utility.statsDisplay = $dungeon do2.run.systems.hazard.generated
 scoreboard players operation $Hazard_Blocked do2.utility.statsDisplay = $dungeon do2.run.systems.hazard.blocked
-scoreboard players operation $Hazards_Activated do2.utility.statsDisplay = $dungeon do2.run.systems.hazard.activate
+scoreboard players operation $Hazards_Activated do2.utility.statsDisplay = $dungeon do2.run.systems.hazard.activated
 scoreboard players operation $Treasures_Released do2.utility.statsDisplay = $dungeon do2.run.systems.treasure.released
 scoreboard players operation $Embers_Released do2.utility.statsDisplay = $dungeon do2.run.systems.embers.released
 execute if score @p[tag=shulker_received] do2.run.items.pork_chops matches 1.. run scoreboard players operation $Porkchops_Found do2.utility.statsDisplay = @p[tag=shulker_received] do2.run.items.pork_chops
