@@ -1,5 +1,5 @@
 # Track a success IF reached bottom first.
-execute unless score @s do2.utility.reachedBottomDepthCharge matches 1 return 0
+execute unless score @s do2.utility.reachedBottomDepthCharge matches 1 run return 0
 
 # - Start Log -
 tag @s add topTnTLogTarget

@@ -14,7 +14,7 @@ scoreboard players reset $Sweet_Berries_Found do2.utility.statsDisplay
 scoreboard players reset $Glow_Berries_Found do2.utility.statsDisplay
 
 scoreboard players operation $Game_Time do2.utility.statsDisplay = $dungeon do2.run.seconds
-execute if score $dungeon do2.run.systems.clank.generated matches 1.. run players operation $Clank_Triggers do2.utility.statsDisplay = $dungeon do2.run.systems.clank.generated
+execute if score $dungeon do2.run.systems.clank.generated matches 1.. run scoreboard players operation $Clank_Triggers do2.utility.statsDisplay = $dungeon do2.run.systems.clank.generated
 execute if score @p[tag=shulker_received] do2.run.systems.clank.blocked matches 1.. run scoreboard players operation $Clank_Blocked do2.utility.statsDisplay = @p[tag=shulker_received] do2.run.systems.clank.blocked
 execute if score $dungeon do2.run.systems.hazard.generated matches 1.. run scoreboard players operation $Hazard_Triggers do2.utility.statsDisplay = $dungeon do2.run.systems.hazard.generated
 execute if score @p[tag=shulker_received] do2.run.systems.hazard.blocked matches 1.. run scoreboard players operation $Hazard_Blocked do2.utility.statsDisplay = @p[tag=shulker_received] do2.run.systems.hazard.blocked
