@@ -1,5 +1,7 @@
 # Other TODO:
 - Add cards/availble/*
+- Track pumpkins picked up.
+- add on_bomb_crown_add/ember_add logs 
 - Log cards played/bought/available
 - Update all area_effect_clouds to minecraft:marker.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
@@ -11,7 +13,11 @@
 - Update advancements documentation to include whether the advancement has been tested to work.
     - Add missing advancements to the documentation.
 - Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
- 
+- Maybe track card vs natural stats:
+  - Hazard
+  - Clank
+  - Treasure
+
 # List of things todo AFTER builder's "repair" version is done.
 - Implement vex chasing player always.
 - Add Bdub's clock, to be the actual new clock.
