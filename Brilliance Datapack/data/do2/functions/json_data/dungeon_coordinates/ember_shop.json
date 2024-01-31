@@ -1,0 +1,382 @@
+{
+	"01": {
+		"product_dropper_coords": "-630 -20 1992",
+		"prices_hopper_coords": "-632 -18 1992",
+		"default_products": "sneak",
+		"default_price": 7,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"02": {
+		"product_dropper_coords": "-630 -20 1993",
+		"prices_hopper_coords": "-632 -18 1993",
+		"default_products": "stability",
+		"default_price": 8,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"03": {
+		"product_dropper_coords": "-630 -20 1994",
+		"prices_hopper_coords": "-632 -18 1994",
+		"default_products": "treasure_hunter",
+		"default_price": 7,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"04": {
+		"product_dropper_coords": "-630 -20 1995",
+		"prices_hopper_coords": "-632 -18 1995",
+		"default_products": "ember_seeker",
+		"default_price": 9,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"05": {
+		"product_dropper_coords": "-630 -20 1996",
+		"prices_hopper_coords": "-632 -18 1996",
+		"default_products": "moment_of_clarity",
+		"default_price": 6,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"06": {
+		"product_dropper_coords": "-630 -20 1997",
+		"prices_hopper_coords": "-632 -18 1997",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "west",
+		"dropper_facing": "west",
+		"disabled": true
+	},
+	"07": {
+		"product_dropper_coords": "-630 -20 1998",
+		"prices_hopper_coords": "-632 -18 1998",
+		"default_products": "evasion",
+		"default_price": 16,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"08": {
+		"product_dropper_coords": "-630 -20 1999",
+		"prices_hopper_coords": "-632 -18 1999",
+		"default_products": "tread_lightly",
+		"default_price": 18,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"09": {
+		"product_dropper_coords": "-630 -20 2000",
+		"prices_hopper_coords": "-632 -18 2000",
+		"default_products": "loot_and_scoot",
+		"default_price": 20,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"10": {
+		"product_dropper_coords": "-630 -20 2001",
+		"prices_hopper_coords": "-632 -18 2001",
+		"default_products": "frost_focus",
+		"default_price": 20,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"11": {
+		"product_dropper_coords": "-630 -20 2002",
+		"prices_hopper_coords": "-632 -18 2002",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "west",
+		"dropper_facing": "west",
+		"disabled": true
+	},
+	"12": {
+		"product_dropper_coords": "-630 -20 2003",
+		"prices_hopper_coords": "-632 -18 2003",
+		"default_products": "second_wind",
+		"default_price": 22,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"13": {
+		"product_dropper_coords": "-630 -20 2004",
+		"prices_hopper_coords": "-632 -18 2004",
+		"default_products": "beast_sense",
+		"default_price": 24,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"14": {
+		"product_dropper_coords": "-630 -20 2005",
+		"prices_hopper_coords": "-632 -18 2005",
+		"default_products": "bounding_strides",
+		"default_price": 26,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"15": {
+		"product_dropper_coords": "-630 -20 2006",
+		"prices_hopper_coords": "-632 -18 2006",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "west",
+		"dropper_facing": "west",
+		"disabled": true
+	},
+	"16": {
+		"product_dropper_coords": "-630 -20 2007",
+		"prices_hopper_coords": "-632 -18 2007",
+		"default_products": "reckless_charge",
+		"default_price": 28,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"17": {
+		"product_dropper_coords": "-630 -20 2008",
+		"prices_hopper_coords": "-632 -18 2008",
+		"default_products": "sprint",
+		"default_price": 30,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"18": {
+		"product_dropper_coords": "-630 -20 2009",
+		"prices_hopper_coords": "-632 -18 2009",
+		"default_products": "",
+		"default_price": 0,
+		"hopper_facing": "west",
+		"dropper_facing": "west",
+		"disabled": true
+	},
+	"19": {
+		"product_dropper_coords": "-630 -20 2010",
+		"prices_hopper_coords": "-632 -18 2010",
+		"default_products": "nimble_looting",
+		"default_price": 32,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"20": {
+		"product_dropper_coords": "-630 -20 2011",
+		"prices_hopper_coords": "-632 -18 2011",
+		"default_products": "smash_and_grab",
+		"default_price": 34,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"21": {
+		"product_dropper_coords": "-630 -20 2012",
+		"prices_hopper_coords": "-632 -18 2012",
+		"default_products": "quick_step",
+		"default_price": 36,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"22": {
+		"product_dropper_coords": "-630 -20 2013",
+		"prices_hopper_coords": "-632 -18 2013",
+		"default_products": "suit_up",
+		"default_price": 38,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"23": {
+		"product_dropper_coords": "-630 -20 2014",
+		"prices_hopper_coords": "-632 -18 2014",
+		"default_products": "adrenaline_rush",
+		"default_price": 40,
+		"hopper_facing": "west",
+		"dropper_facing": "west"
+	},
+	"24": {
+		"product_dropper_coords": "-644 -20 1992",
+		"prices_hopper_coords": "-642 -18 1992",
+		"default_products": "victory_tome",
+		"default_price": 40,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"25": {
+		"product_dropper_coords": "-644 -20 1993",
+		"prices_hopper_coords": "-642 -18 1993",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"26": {
+		"product_dropper_coords": "-644 -20 1994",
+		"prices_hopper_coords": "-642 -18 1994",
+		"default_products": "victory_tome",
+		"default_price": 27,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"27": {
+		"product_dropper_coords": "-644 -20 1995",
+		"prices_hopper_coords": "-642 -18 1995",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"28": {
+		"product_dropper_coords": "-644 -20 1996",
+		"prices_hopper_coords": "-642 -18 1996",
+		"default_products": "victory_tome",
+		"default_price": 10,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"29": {
+		"product_dropper_coords": "-644 -20 1997",
+		"prices_hopper_coords": "-642 -18 1997",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"30": {
+		"product_dropper_coords": "-644 -20 1998",
+		"prices_hopper_coords": "-642 -18 1998",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"31": {
+		"product_dropper_coords": "-644 -20 1999",
+		"prices_hopper_coords": "-642 -18 1999",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"32": {
+		"product_dropper_coords": "-644 -20 2000",
+		"prices_hopper_coords": "-642 -18 2000",
+		"default_products": "brilliance",
+		"default_price": 66,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"33": {
+		"product_dropper_coords": "-644 -20 2001",
+		"prices_hopper_coords": "-642 -18 2001",
+		"default_products": "deepfrost",
+		"default_price": 64,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"34": {
+		"product_dropper_coords": "-644 -20 2002",
+		"prices_hopper_coords": "-642 -18 2002",
+		"default_products": "fuzzy_bunny_slippers",
+		"default_price": 62,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"35": {
+		"product_dropper_coords": "-644 -20 2003",
+		"prices_hopper_coords": "-642 -18 2003",
+		"default_products": "silent_runner",
+		"default_price": 60,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"36": {
+		"product_dropper_coords": "-644 -20 2004",
+		"prices_hopper_coords": "-642 -18 2004",
+		"default_products": "cold_snap",
+		"default_price": 58,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"37": {
+		"product_dropper_coords": "-644 -20 2005",
+		"prices_hopper_coords": "-642 -18 2005",
+		"default_products": "pirates_booty",
+		"default_price": 56,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"38": {
+		"product_dropper_coords": "-644 -20 2006",
+		"prices_hopper_coords": "-642 -18 2006",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"39": {
+		"product_dropper_coords": "-644 -20 2007",
+		"prices_hopper_coords": "-642 -18 2007",
+		"default_products": [],
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	},
+	"40": {
+		"product_dropper_coords": "-644 -20 2008",
+		"prices_hopper_coords": "-642 -18 2008",
+		"default_products": "eyes_on_the_prize",
+		"default_price": 52,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"41": {
+		"product_dropper_coords": "-644 -20 2009",
+		"prices_hopper_coords": "-642 -18 2009",
+		"default_products": "speed_runner",
+		"default_price": 50,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"42": {
+		"product_dropper_coords": "-644 -20 2010",
+		"prices_hopper_coords": "-642 -18 2010",
+		"default_products": "chill_step",
+		"default_price": 48,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"43": {
+		"product_dropper_coords": "-644 -20 2011",
+		"prices_hopper_coords": "-642 -18 2011",
+		"default_products": "swagger",
+		"default_price": 46,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"44": {
+		"product_dropper_coords": "-644 -20 2012",
+		"prices_hopper_coords": "-642 -18 2012",
+		"default_products": "dungeon_repairs",
+		"default_price": 44,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"45": {
+		"product_dropper_coords": "-644 -20 2013",
+		"prices_hopper_coords": "-642 -18 2013",
+		"default_products": "eerie_silence",
+		"default_price": 42,
+		"hopper_facing": "east",
+		"dropper_facing": "east"
+	},
+	"46": {
+		"product_dropper_coords": "-644 -20 2014",
+		"prices_hopper_coords": "-642 -18 2014",
+		"default_products": "",
+		"default_price": 0,
+		"hopper_facing": "east",
+		"dropper_facing": "east",
+		"disabled": true
+	}
+}

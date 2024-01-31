@@ -1,0 +1,1074 @@
+{
+	"01": {
+		"treasure_dropper_coords": "-518 35 2002",
+		"ember_dropper_coords": "-519 35 2002",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"02": {
+		"treasure_dropper_coords": "-521 35 1982",
+		"ember_dropper_coords": "-521 35 1981",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"03": {
+		"treasure_dropper_coords": "-497 51 1980",
+		"ember_dropper_coords": "-498 51 1980",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"04": {
+		"treasure_dropper_coords": "-484 53 1989",
+		"ember_dropper_coords": "-484 53 1988",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"05": {
+		"treasure_dropper_coords": "-514 51 1962",
+		"ember_dropper_coords": "-513 51 1962",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"06": {
+		"treasure_dropper_coords": "-527 51 1973",
+		"ember_dropper_coords": "-527 51 1974",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"07": {
+		"treasure_dropper_coords": "-546 51 2008",
+		"ember_dropper_coords": "-545 51 2008",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"08": {
+		"treasure_dropper_coords": "-516 46 2031",
+		"ember_dropper_coords": "-515 46 2031",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"09": {
+		"treasure_dropper_coords": "-561 47 1942",
+		"ember_dropper_coords": "-560 47 1942",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"10": {
+		"treasure_dropper_coords": "-536 45 1948",
+		"ember_dropper_coords": "-537 45 1948",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1
+	},
+	"11": {
+		"treasure_dropper_coords": "-490 50 2017",
+		"ember_dropper_coords": "-490 50 2016",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"12": {
+		"treasure_dropper_coords": "-532 44 2024",
+		"ember_dropper_coords": "-533 44 2024",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"13": {
+		"treasure_dropper_coords": "-588 52 1951",
+		"ember_dropper_coords": "-587 52 1951",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"14": {
+		"treasure_dropper_coords": "-590 46 1978",
+		"ember_dropper_coords": "-589 46 1978",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"15": {
+		"treasure_dropper_coords": "-619 43 2027",
+		"ember_dropper_coords": "-619 43 2026",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"16": {
+		"treasure_dropper_coords": "-606 43 2024",
+		"ember_dropper_coords": "-606 43 2023",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"17": {
+		"treasure_dropper_coords": "-583 45 2012",
+		"ember_dropper_coords": "-583 45 2013",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"18": {
+		"treasure_dropper_coords": "-559 46 2022",
+		"ember_dropper_coords": "-558 46 2022",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"19": {
+		"treasure_dropper_coords": "-554 51 2007",
+		"ember_dropper_coords": "-554 51 2008",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"20": {
+		"treasure_dropper_coords": "-519 53 2011",
+		"ember_dropper_coords": "-518 53 2011",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"21": {
+		"treasure_dropper_coords": "-557 45 1976",
+		"ember_dropper_coords": "-558 45 1976",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"22": {
+		"treasure_dropper_coords": "-563 36 1999",
+		"ember_dropper_coords": "-565 36 1999",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"23": {
+		"treasure_dropper_coords": "-575 36 1998",
+		"ember_dropper_coords": "-573 36 1998",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"24": {
+		"treasure_dropper_coords": "-485 31 1963",
+		"ember_dropper_coords": "-485 31 1962",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"25": {
+		"treasure_dropper_coords": "-479 19 2009",
+		"ember_dropper_coords": "-478 19 2009",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"26": {
+		"treasure_dropper_coords": "-594 12 1954",
+		"ember_dropper_coords": "",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"27": {
+		"treasure_dropper_coords": "-509 14 2034",
+		"ember_dropper_coords": "-509 14 2033",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"28": {
+		"treasure_dropper_coords": "-502 16 1972",
+		"ember_dropper_coords": "-501 16 1972",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"29": {
+		"treasure_dropper_coords": "-590 11 2032",
+		"ember_dropper_coords": "-589 11 2032",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"30": {
+		"treasure_dropper_coords": "-598 11 1988",
+		"ember_dropper_coords": "-598 11 1989",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"31": {
+		"treasure_dropper_coords": "-574 11 2007",
+		"ember_dropper_coords": "-573 11 2007",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"32": {
+		"treasure_dropper_coords": "-553 10 2036",
+		"ember_dropper_coords": "-553 10 2037",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"33": {
+		"treasure_dropper_coords": "-507 9 1951",
+		"ember_dropper_coords": "-508 9 1951",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"34": {
+		"treasure_dropper_coords": "-581 9 1955",
+		"ember_dropper_coords": "-582 9 1955",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"35": {
+		"treasure_dropper_coords": "-568 8 1964",
+		"ember_dropper_coords": "-569 8 1964",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"36": {
+		"treasure_dropper_coords": "-597 12 2009",
+		"ember_dropper_coords": "-599 12 2009",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"37": {
+		"treasure_dropper_coords": "-541 11 1998",
+		"ember_dropper_coords": "-542 11 1998",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"38": {
+		"treasure_dropper_coords": "-531 16 1990",
+		"ember_dropper_coords": "-531 16 1989",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"39": {
+		"treasure_dropper_coords": "-548 11 1975",
+		"ember_dropper_coords": "-548 11 1976",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"halloween_pumpkin",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"40": {
+		"comment": "Drooper Coords WERE Y=8, changed to Y=10",
+		"treasure_dropper_coords": "-531 10 2016",
+		"ember_dropper_coords": "-530 10 2015",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"41": {
+		"treasure_dropper_coords": "-528 12 2031",
+		"ember_dropper_coords": "-528 12 2032",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"42": {
+		"treasure_dropper_coords": "-526 12 1942",
+		"ember_dropper_coords": "-526 12 1941",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"43": {
+		"treasure_dropper_coords": "-490 11 2007",
+		"ember_dropper_coords": "-489 11 2007",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"44": {
+		"treasure_dropper_coords": "-496 15 2000",
+		"ember_dropper_coords": "-496 15 1999",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"45": {
+		"treasure_dropper_coords": "-503 31 1975",
+		"ember_dropper_coords": "-502 31 1975",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 2,
+		"default_treasure": [
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"46": {
+		"treasure_dropper_coords": "-644 1 1920",
+		"ember_dropper_coords": "-644 1 1921",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"47": {
+		"treasure_dropper_coords": "-652 1 1893",
+		"ember_dropper_coords": "-652 1 1892",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"halloween_pumpkin",
+			"rusty_repair_kit",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"48": {
+		"treasure_dropper_coords": "-590 1 1901",
+		"ember_dropper_coords": "-591 1 1901",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"49": {
+		"treasure_dropper_coords": "-586 1 1887",
+		"ember_dropper_coords": "-586 1 1888",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"50": {
+		"treasure_dropper_coords": "-606 1 1920",
+		"ember_dropper_coords": "-606 1 1921",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"51": {
+		"treasure_dropper_coords": "-628 1 1920",
+		"ember_dropper_coords": "-628 1 1921",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"halloween_pumpkin",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"52": {
+		"treasure_dropper_coords": "-654 -9 1891",
+		"ember_dropper_coords": "-654 -9 1892",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"halloween_pumpkin",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"53": {
+		"treasure_dropper_coords": "-585 -9 1919",
+		"ember_dropper_coords": "-585 -9 1920",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"54": {
+		"treasure_dropper_coords": "-624 -9 1924",
+		"ember_dropper_coords": "-623 -9 1924",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"55": {
+		"treasure_dropper_coords": "-603 -9 1885",
+		"ember_dropper_coords": "-602 -9 1885",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"56": {
+		"treasure_dropper_coords": "-583 -17 1927",
+		"ember_dropper_coords": "-584 -17 1927",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"halloween_pumpkin",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin"
+		]
+	},
+	"57": {
+		"treasure_dropper_coords": "-640 -19 1888",
+		"ember_dropper_coords": "-640 -19 1889",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"58": {
+		"treasure_dropper_coords": "-641 -19 1921",
+		"ember_dropper_coords": "-642 -19 1921",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"halloween_pumpkin",
+			"crown",
+			"crown",
+			"coin",
+			"coin"
+		]
+	},
+	"59": {
+		"treasure_dropper_coords": "-608 -19 1919",
+		"ember_dropper_coords": "-609 -19 1919",
+		"treasure_facing": "up",
+		"ember_facing": "up",
+		"level": 3,
+		"default_treasure": [
+			"level_4_key",
+			"level_4_key",
+			"level_4_key",
+			"crown",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"60": {
+		"treasure_dropper_coords": "-577 -37 1837",
+		"ember_dropper_coords": "-579 -37 1835",
+		"treasure_facing": "west",
+		"ember_facing": "south",
+		"level": 4,
+		"default_treasure": [
+			"crown",
+			"crown",
+			"crown",
+			"crown",
+			"crown",
+			"crown",
+			"crown",
+			"crown",
+			"crown"
+		]
+	}
+	
+}

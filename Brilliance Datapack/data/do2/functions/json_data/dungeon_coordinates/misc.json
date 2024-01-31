@@ -1,0 +1,76 @@
+{
+	"Rusty Repair Loot": {
+		"dropper_coords": "-518 2 2007",
+		"facing": "west",
+		"default": [
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"Halloween Hut Loot":  {
+		"dropper_coords": "-523 12 2042",
+		"facing": "up",
+		"default": [
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"porkchop",
+			"porkchop",
+			"porkchop",
+			"crown",
+			"level_3_key",
+			"level_3_key"
+		]
+	},
+	"Pirate's Bounty":  {
+		"dropper_coords": "-574 39 1985",
+		"facing": "west",
+		"default": [
+			"tactical_approach",
+			"tactical_approach",
+			"moment_of_clarity",
+			"moment_of_clarity",
+			"pork_chop_power",
+			"pork_chop_power",
+			"pay_to_win",
+			"pay_to_win"
+		]
+	},
+	"TnT Dive Common Loot":  {
+		"dropper_coords": "-578 15 1968",
+		"facing": "south",
+		"default": [
+			"level_2_key",
+			"level_2_key",
+			"rusty_repair_kit",
+			"crown",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
+	},
+	"TnT Dive Rare Loot":  {
+		"dropper_coords": "-578 15 1970",
+		"facing": "north",
+		"default": [
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"frost_ember",
+			"crown",
+			"crown",
+			"crown",
+			"level_2_key"
+		]
+	}
+}

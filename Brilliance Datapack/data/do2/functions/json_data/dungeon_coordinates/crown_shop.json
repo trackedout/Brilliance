@@ -1,0 +1,140 @@
+{
+	"01": {
+		"product_dropper_coords": "-509 104 1972",
+		"prices_hopper_coords": "-509 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 10,
+		"default_product": "frozen_shard"
+	},
+	"02": {
+		"product_dropper_coords": "-508 104 1972",
+		"prices_hopper_coords": "-508 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": []
+	},
+	"03": {
+		"product_dropper_coords": "-507 104 1972",
+		"prices_hopper_coords": "-507 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 2,
+		"default_product": "pay_to_win"
+	},
+	"04": {
+		"product_dropper_coords": "-506 104 1972",
+		"prices_hopper_coords": "-506 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 2,
+		"default_product": "pork_chop_power"
+	},
+	"05": {
+		"product_dropper_coords": "-505 104 1972",
+		"prices_hopper_coords": "-505 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 2,
+		"default_product": "tactical_approach"
+	},
+	"06": {
+		"product_dropper_coords": "-504 104 1972",
+		"prices_hopper_coords": "-504 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": {
+			"id": "minecraft:splash_potion",
+			"tag": {
+				"Potion": "minecraft:strong_slowness"
+			},
+			"Count": 64
+		}
+	},
+	"07": {
+		"product_dropper_coords": "-503 104 1972",
+		"prices_hopper_coords": "-503 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 2,
+		"default_product": [
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
+			"level_3_key",
+			"level_3_key",
+			"level_3_key",
+			"level_4_key",
+			"level_4_key",
+			"frozen_shard"
+		]
+	},
+	"08": {
+		"product_dropper_coords": "-502 104 1972",
+		"prices_hopper_coords": "-502 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 3,
+		"default_product": [
+			"coin",
+			"coin",
+			"level_2_key",
+			"rusty_repair_kit",
+			"victory_tome",
+			"frozen_shard",
+			"moment_of_clarity",
+			"pay_to_win",
+			"tactical_approach"
+		]
+	},
+	"09": {
+		"product_dropper_coords": "-501 104 1972",
+		"prices_hopper_coords": "-501 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": []
+	},
+	"10": {
+		"product_dropper_coords": "-500 104 1972",
+		"prices_hopper_coords": "-500 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": []
+	},
+	"11": {
+		"product_dropper_coords": "-499 104 1972",
+		"prices_hopper_coords": "-499 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": []
+	},
+	"12": {
+		"product_dropper_coords": "-498 104 1972",
+		"prices_hopper_coords": "-498 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 1,
+		"default_product": []
+	},
+	"13": {
+		"product_dropper_coords": "-497 104 1972",
+		"prices_hopper_coords": "-497 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 8,
+		"default_product": "dm_lackey_coupon"
+	},
+	"14": {
+		"product_dropper_coords": "-496 104 1972",
+		"prices_hopper_coords": "-496 106 1975",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_price": 2,
+		"default_product": []
+	}
+}
