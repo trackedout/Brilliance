@@ -8,7 +8,7 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 0
 # - SETUP -
 execute if score $dungeon do2.config.refillDungeonType matches 1 run function do2:dungeon_setup/refill/refill_droppers
 execute if score $dungeon do2.config.refillDungeonType matches 2 run function do2:dungeon_setup/dropper_utils/write_droppers
-function do2:dungeon_setup/refill/refill_berry_bushes
+execute if score $dungeon do2.config.fr.refillBerries matches 1 run function do2:dungeon_setup/refill/refill_berry_bushes
 function do2:dungeon_setup/refill/refill_guppy_geyser
 function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
@@ -21,7 +21,7 @@ function do2:egg_hunt/spawn_egg_hitboxes
 function do2:dungeon_setup/summon/others
 function do2:scoreboard/config/balance_changes/actions
 function do2:dungeon_setup/decide_day_or_night
-execute if score $dungeon do2.config.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
+execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 
 # Other Setup:
 function do2:scoreboard/config/config_setup

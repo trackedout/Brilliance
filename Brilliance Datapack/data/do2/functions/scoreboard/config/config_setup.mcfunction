@@ -21,6 +21,10 @@ data merge block -538 116 1958 {front_text:{messages:['{"text":""}','{"text":"SE
 # ====================
 
 # Balance Changes Config
+setblock -537 115 1952 minecraft:oak_wall_sign[facing=south]
+data merge block -537 115 1952 {front_text:{messages:['{"text":"§6Adjust"}','{"text":"§o§1Fresh Runs\'s"}','{"text":"§6Changes"}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/fresh_runs/display"}}']}}
+
+# Balance Changes Config
 setblock -533 115 1952 minecraft:oak_wall_sign[facing=south]
 data merge block -533 115 1952 {front_text:{messages:['{"text":"§6Adjust"}','{"text":"§o§3Tracked Out\'s"}','{"text":"§6Balance Changes"}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/balance_changes/display"}}']}}
 # Bats Amount Sign

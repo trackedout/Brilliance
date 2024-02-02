@@ -13,6 +13,9 @@ execute if score $dungeon do2.config.useRavagerZones matches 1.. run function do
 execute if score $dungeon do2.config.useWardenZones matches 0 run function do2:dungeon_setup/teleport_killers/no_zones/remove_warden_zones
 execute if score $dungeon do2.config.useWardenZones matches 1.. run function do2:dungeon_setup/teleport_killers/with_zones/summon_warden_zones
 
+# Teleport isn't enabled, then don't teleport the killers
+execute unless score $dungeon do2.config.fr.teleportKillers matches 1 run return 0
+
 # Teleport ravagers & wardens based on the types of markers we have up.
 # No Zones.
 execute if entity @e[type=area_effect_cloud,tag=L1Z1,tag=no-zones] run function do2:dungeon_setup/teleport_killers/no_zones/level_1

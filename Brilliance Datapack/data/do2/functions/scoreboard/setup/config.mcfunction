@@ -10,10 +10,6 @@ execute unless score $dungeon do2.config.useRavagerZones matches 0.. run scorebo
 scoreboard objectives add do2.config.useWardenZones dummy "Use Zones Lines."
 execute unless score $dungeon do2.config.useWardenZones matches 0.. run scoreboard players set $dungeon do2.config.useWardenZones 1
 
-# Dungeon Config: whether to use reset composters every run. Default: 1 (TRUE)
-scoreboard objectives add do2.config.resetComposters dummy "Reset Composters."
-execute unless score $dungeon do2.config.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.resetComposters 1
-
 # Dungeon Config: whether to disable treasure on max clank. Default: 0 (FALSE)
 scoreboard objectives add do2.config.maxClankTreasure dummy "§8Clank §rDisables Treasure."
 execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0
@@ -64,6 +60,16 @@ scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT 
 execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1
 scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max §8Clank"
 execute unless score $dungeon do2.config.bc.lessLootMaxClank matches 0.. run scoreboard players set $dungeon do2.config.bc.lessLootMaxClank 1
+
+
+# Dungeon Config: Fresh Runs
+scoreboard objectives add do2.config.fr.teleportKillers dummy "Randomize Killers's Positions"
+execute unless score $dungeon do2.config.fr.teleportKillers matches 0.. run scoreboard players set $dungeon do2.config.fr.teleportKillers 1
+scoreboard objectives add do2.config.fr.refillBerries dummy "Refill Berry Bushes"
+execute unless score $dungeon do2.config.fr.refillBerries matches 0.. run scoreboard players set $dungeon do2.config.fr.refillBerries 1
+scoreboard objectives add do2.config.fr.resetComposters dummy "Reset Composters."
+execute unless score $dungeon do2.config.fr.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.fr.resetComposters 1
+
 
 # READ/WRITE Config: When to refill dungeon
 # 0 = Never automatically.
