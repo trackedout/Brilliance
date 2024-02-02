@@ -39,7 +39,7 @@ execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0
 execute if entity @s[tag=tracked] run return 0
 
 # - Pumpkins - (Used for trick/treating)
-execute if entity @s[nbt={Item:{id:"minecraft:carved_pumpkin"}}] run tag @s add tracked
+execute if entity @s[nbt={Item:{id:"minecraft:pumpkin"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 

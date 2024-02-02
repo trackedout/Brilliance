@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_artifact_39": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:pumpkin"
+						],
+						"nbt": "{tracked:0b, display: {Name: '{\"color\":\"dark_purple\",\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}'}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/halloween_pumpkins"
+	},
+	"parent": "do2:utility/root"
+}
