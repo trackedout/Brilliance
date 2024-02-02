@@ -1,6 +1,6 @@
 # Called when MAX CLANK is reached
 # - Start Log -
-execute as @a[scores={do2.logs.clank=1..}] run tellraw @s ["",{"text":"[§9B§r]: Reached Max §1Clank§r."}]
+execute as @a[scores={do2.logs.clank=1..}] run tellraw @s ["",{"text":"[§9B§r]: Reached Max §8Clank§r."}]
 # - End Log -
 
 # update scoreboard

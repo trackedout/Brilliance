@@ -5,7 +5,7 @@
 			"nbt": "{'CustomModelData':138}"
 		},
 		"title": "§bCommon Collector",
-		"description": "§7Craft any §8Legendary§7 card.",
+		"description": "§7Craft any §6Legendary§7 card.",
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,

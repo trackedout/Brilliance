@@ -43,7 +43,7 @@ scoreboard objectives add do2.logs.cards dummy "Receive Logs on §6CARDS§r."
 # 0 = Nothing
 # 1 = Max Clank Reached
 # 2 = Max Clank Reached & Clank Generated
-scoreboard objectives add do2.logs.clank dummy "Receive Logs on §1CLANK§r."
+scoreboard objectives add do2.logs.clank dummy "Receive Logs on §8Clank§r."
 
 # Scale: Receive Notifications on HAZARD.
 # 0 = Nothing

@@ -5,7 +5,7 @@
 			"nbt": "{'CustomModelData':133}"
 		},
 		"title": "§bClank Block Collector",
-		"description": "§7Buy §b1§7 of each non-ethereal card that blocks §1Clank§7.",
+		"description": "§7Buy §b1§7 of each non-ethereal card that blocks §8Clank§7.",
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
