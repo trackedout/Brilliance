@@ -103,5 +103,3 @@ execute positioned -641 -23 1954 run function do2:reset_dungeon/default_states/a
 execute positioned -641 -23 1953 run function do2:reset_dungeon/default_states/artifakes/ska
 execute positioned -641 -23 1952 run function do2:reset_dungeon/default_states/artifakes/mdm
 execute positioned -641 -23 1951 run function do2:reset_dungeon/default_states/artifakes/mky
-
-  Artifake droppers between  and -641 -23 1951
