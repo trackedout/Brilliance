@@ -46,9 +46,6 @@ data merge block -527 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",mes
 # Disable Treasure on Max Clank
 setblock -529 116 1960 minecraft:oak_wall_sign[facing=north]
 data merge block -529 116 1960 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bDisable Treasure"}','{"text":"§bon §oMAX §r§bclank"}','{"text":""}']}}
-# Reset Composters
-setblock -531 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -531 116 1960 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bReset Composters"}','{"text":"§bEvery Run"}','{"text":""}']}}
 # Use L1 & L2 Zones
 setblock -533 116 1960 minecraft:oak_wall_sign[facing=north]
 data merge block -533 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":""}','{"text":"Level 1 §b&","color":"#d9a334"}','{"text":"Level 2","color":"#fe3f3f"}','{"text":"Zones"}']}}
