@@ -14,5 +14,3 @@ execute as @a[tag=do2.running] unless entity @s[tag=do2.win] run function do2:ev
 
 # AGRONET
 function do2:agronet/game_end
-
-execute if score $dungeon do2.config.fastReset matches 1 run function do2:dungeon_setup/fast_reset
