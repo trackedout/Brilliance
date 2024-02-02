@@ -5,23 +5,23 @@ execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[�
 # Set droppers IN dropper room to their DEFAULT state.
 
 # Difficulty Selector
-execute positioned -476 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy
-execute positioned -475 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium
-execute positioned -474 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard
-execute positioned -473 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly
-execute positioned -472 109 1982 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost
+execute positioned -476 109 1982 run function do2:reset_dungeon/default_states/difficulty/easy
+execute positioned -475 109 1982 run function do2:reset_dungeon/default_states/difficulty/medium
+execute positioned -474 109 1982 run function do2:reset_dungeon/default_states/difficulty/hard
+execute positioned -473 109 1982 run function do2:reset_dungeon/default_states/difficulty/deadly
+execute positioned -472 109 1982 run function do2:reset_dungeon/default_states/difficulty/deepfrost
 
 # Compasses
-execute positioned -476 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_1
-execute positioned -475 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/easy_2
-execute positioned -474 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_1
-execute positioned -473 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/medium_2
-execute positioned -472 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_1
-execute positioned -471 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/hard_2
-execute positioned -470 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_1
-execute positioned -469 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deadly_2
-execute positioned -468 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_1
-execute positioned -467 109 1984 run function do2:dungeon_setup/dropper_utils/default_states/difficulty/deepfrost_2
+execute positioned -476 109 1984 run function do2:reset_dungeon/default_states/difficulty/easy_1
+execute positioned -475 109 1984 run function do2:reset_dungeon/default_states/difficulty/easy_2
+execute positioned -474 109 1984 run function do2:reset_dungeon/default_states/difficulty/medium_1
+execute positioned -473 109 1984 run function do2:reset_dungeon/default_states/difficulty/medium_2
+execute positioned -472 109 1984 run function do2:reset_dungeon/default_states/difficulty/hard_1
+execute positioned -471 109 1984 run function do2:reset_dungeon/default_states/difficulty/hard_2
+execute positioned -470 109 1984 run function do2:reset_dungeon/default_states/difficulty/deadly_1
+execute positioned -469 109 1984 run function do2:reset_dungeon/default_states/difficulty/deadly_2
+execute positioned -468 109 1984 run function do2:reset_dungeon/default_states/difficulty/deepfrost_1
+execute positioned -467 109 1984 run function do2:reset_dungeon/default_states/difficulty/deepfrost_2
 
 # Treasure
 data modify block -476 114 1967 Items set value [{Slot: 0b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 1b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 2b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 201, display: {Name: '{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}}}, {Slot: 3b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 4b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 5b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 6b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 7b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}, {Slot: 8b, id: "minecraft:iron_nugget", Count: 64b, tag: { CustomModelData: 1, display: {Name: '{"text":"❄☠ Decked Out Coin ☠❄"}'}}}]
