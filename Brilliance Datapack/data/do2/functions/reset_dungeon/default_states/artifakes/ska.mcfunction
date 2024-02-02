@@ -1,0 +1,13 @@
+# REMOVE ALL ITEMS INSIDE:
+setblock ~ ~ ~ minecraft:dropper[facing=west]{Items:[]}
+
+# Insert items. (ordered by slot)
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:0b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:1b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:2b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:3b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:4b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:5b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:6b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:7b,Count:64b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:38,display:{Lore:['{"text":"A unique device capable of creating"}','{"text":"unlimited -ificators. Most won\'t work."}'],Name:'{"bold":true,"color":"gold","text":"The Skadoodler"}'}},Slot:8b,Count:64b}
