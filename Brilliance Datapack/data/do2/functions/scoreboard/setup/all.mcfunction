@@ -38,6 +38,8 @@ scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether pl
 scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
 scoreboard objectives add do2.utility.statsDisplay dummy "Dungeon's Stats"
 scoreboard objectives add do2.utility.dungeonRepair dummy "Boolean on whether the dungeon is attempting to reload."
+scoreboard objectives add do2.utility.currentFishCount dummy "How many fishes are present in the dungeon."
+scoreboard objectives add do2.utility.fishVariant dummy "Determines what the variant the fish will be."
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 # - Agronet's utility -
 scoreboard objectives add do2.agronet.card_availible dummy "The card ID of the card availible"
