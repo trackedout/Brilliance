@@ -1,9 +1,4 @@
 # Other TODO:
-- Add dungeon_reset config to change
-  - Randomization of killers
-  - Refill berry bushes
-- add on_bomb_crown_add/ember_add logs 
-- Update all area_effect_clouds to minecraft:marker.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
