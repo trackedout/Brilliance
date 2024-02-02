@@ -1,6 +1,4 @@
-# Called when treasure is removed from queue to drop in the dungeon.
+# Called an evoker activates.
 # - Start Log -
 execute as @a[scores={do2.logs.evokers=1..}] run tellraw @s ["",{"text":"[§9B§r]: Activated Evoker. "}]
 # - End Log -
-
-#TODO: Not every evoker has this
