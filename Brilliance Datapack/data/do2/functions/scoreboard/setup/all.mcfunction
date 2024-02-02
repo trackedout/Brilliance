@@ -35,11 +35,14 @@ scoreboard objectives add do2.utility.currentTick dummy "The current tick number
 scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
-scoreboard objectives add do2.utility.card_bought dummy "The card ID the player purchased"
 scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
 scoreboard objectives add do2.utility.statsDisplay dummy "Dungeon's Stats"
 scoreboard objectives add do2.utility.dungeonRepair dummy "Boolean on whether the dungeon is attempting to reload."
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
+# - Agronet's utility -
+scoreboard objectives add do2.agronet.card_availible dummy "The card ID of the card availible"
+scoreboard objectives add do2.agronet.card_played dummy "The card ID that the dungeon has played"
+scoreboard objectives add do2.agronet.card_bought dummy "The card ID of the card the player purchased"
 # - Cycle utility -
 scoreboard objectives add do2.utility.embersToGive dummy "§3Frost Embers§r left to give"
 scoreboard objectives add do2.utility.coinsToGive dummy "§eCoins§r left to give"
