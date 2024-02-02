@@ -20,6 +20,8 @@ function do2:scoreboard/config/receive_logs/documentations/embers
 tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/treasure
 tellraw @s ["",{"text":""}]
+function do2:scoreboard/config/receive_logs/documentations/cards
+tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/spam
 tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/player_actions

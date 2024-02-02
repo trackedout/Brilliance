@@ -33,6 +33,12 @@ scoreboard objectives add do2.logs.datapack_setup dummy "Receive Logs of DATAPAC
 # - Reseting values IN Dropper Room to DEFAULT
 scoreboard objectives add do2.logs.dropper_room dummy "Receive Logs of DROPPER ROOM."
 
+# Scale: Receive Notifications on CARDS
+# 0 = Nothing
+# 1 = Card Available and Card Purchased
+# 2 = Card Bought
+scoreboard objectives add do2.logs.cards dummy "Receive Logs on §6CARDS§r."
+
 # Scale: Receive Notifications on CLANK
 # 0 = Nothing
 # 1 = Max Clank Reached
