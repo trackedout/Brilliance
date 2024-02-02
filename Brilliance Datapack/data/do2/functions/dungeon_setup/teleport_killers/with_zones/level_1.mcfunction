@@ -12,8 +12,8 @@
 # L1Z2 = 'Lasagna' & 'Hot Breath'
 # L1Z3 = 'Mr. Poopy Head'
 
-execute as @e[type=ravager,tag=L1Z1] at @e[type=area_effect_cloud,tag=L1Z1,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=ravager,tag=L1Z2] at @e[type=area_effect_cloud,tag=L1Z1,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=ravager,tag=L1Z3] at @e[type=area_effect_cloud,tag=L1Z2,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=ravager,tag=L1Z4] at @e[type=area_effect_cloud,tag=L1Z2,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=ravager,tag=L1Z5] at @e[type=area_effect_cloud,tag=L1Z3,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z1] at @e[type=marker,tag=L1Z1,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z2] at @e[type=marker,tag=L1Z1,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z3] at @e[type=marker,tag=L1Z2,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z4] at @e[type=marker,tag=L1Z2,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=ravager,tag=L1Z5] at @e[type=marker,tag=L1Z3,tag=with-zones,limit=1,sort=random] run tp @s ~ ~1 ~

@@ -3,7 +3,7 @@ execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[
 # - End Log -
 
 # One Eyed Willy
-execute at @e[type=area_effect_cloud,tag=L2WILLY,limit=1,sort=random] run summon minecraft:drowned ~ ~ ~ {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2WILLY"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"One Eyed Willie"}'}
+execute at @e[type=marker,tag=L2WILLY,limit=1,sort=random] run summon minecraft:drowned ~ ~ ~ {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2WILLY"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"One Eyed Willie"}'}
 # Training Room Drowned
 summon minecraft:drowned -516 132 2028 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L0TRAIN"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"The Worst!!!"}'}
 

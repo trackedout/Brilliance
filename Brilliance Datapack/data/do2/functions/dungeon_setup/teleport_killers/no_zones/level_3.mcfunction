@@ -8,6 +8,6 @@
 # L1Z2 = Floor 2
 # L1Z3 = Floor 3
 
-execute as @e[type=warden,tag=L3Z1] at @e[type=area_effect_cloud,tag=L3Z1,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=warden,tag=L3Z2] at @e[type=area_effect_cloud,tag=L3Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
-execute as @e[type=warden,tag=L3Z3] at @e[type=area_effect_cloud,tag=L3Z3,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=warden,tag=L3Z1] at @e[type=marker,tag=L3Z1,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=warden,tag=L3Z2] at @e[type=marker,tag=L3Z2,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~
+execute as @e[type=warden,tag=L3Z3] at @e[type=marker,tag=L3Z3,tag=no-zones,limit=1,sort=random] run tp @s ~ ~1 ~

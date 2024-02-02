@@ -1,6 +1,6 @@
 # Kill all zone markers
-execute as @e[type=minecraft:area_effect_cloud,tag=with-zones] run kill @s
-execute as @e[type=minecraft:area_effect_cloud,tag=no-zones] run kill @s
+execute as @e[type=minecraft:marker,tag=with-zones] run kill @s
+execute as @e[type=minecraft:marker,tag=no-zones] run kill @s
 
 # Summon new markers
 function do2:dungeon_setup/teleport_ravagers/with_zones/summon_level_1
