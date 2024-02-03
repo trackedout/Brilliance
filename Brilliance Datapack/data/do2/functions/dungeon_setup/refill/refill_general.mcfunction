@@ -8,8 +8,6 @@ execute positioned -583 -54 1876 run function do2:reset_dungeon/default_states/m
 execute positioned -643 -21 1988 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_east
 # Amount of Game's Lost Dropper
 execute positioned -548 116 1976 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_east
-# Notify Game is over Dropper
-execute positioned -607 122 1948 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_south
 # Ember Shop Door Despawn dropper
 execute positioned -632 -15 1986 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_south
 # Halloween Hut Despawn dropper
