@@ -1,7 +1,10 @@
 {
 	"01": {
 		"product_dropper_coords": "-509 104 1972",
-		"prices_hopper_coords": "-509 106 1975",
+		"prices_hopper_coords": [
+			"-509 106 1975",
+			"-509 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 10,
@@ -9,7 +12,10 @@
 	},
 	"02": {
 		"product_dropper_coords": "-508 104 1972",
-		"prices_hopper_coords": "-508 106 1975",
+		"prices_hopper_coords": [
+			"-508 106 1975",
+			"-508 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -17,7 +23,10 @@
 	},
 	"03": {
 		"product_dropper_coords": "-507 104 1972",
-		"prices_hopper_coords": "-507 106 1975",
+		"prices_hopper_coords": [
+			"-507 106 1975",
+			"-507 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 2,
@@ -25,7 +34,10 @@
 	},
 	"04": {
 		"product_dropper_coords": "-506 104 1972",
-		"prices_hopper_coords": "-506 106 1975",
+		"prices_hopper_coords": [
+			"-506 106 1975",
+			"-506 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 2,
@@ -33,7 +45,10 @@
 	},
 	"05": {
 		"product_dropper_coords": "-505 104 1972",
-		"prices_hopper_coords": "-505 106 1975",
+		"prices_hopper_coords": [
+			"-505 106 1975",
+			"-505 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 2,
@@ -41,7 +56,10 @@
 	},
 	"06": {
 		"product_dropper_coords": "-504 104 1972",
-		"prices_hopper_coords": "-504 106 1975",
+		"prices_hopper_coords": [
+			"-504 106 1975",
+			"-504 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -55,7 +73,10 @@
 	},
 	"07": {
 		"product_dropper_coords": "-503 104 1972",
-		"prices_hopper_coords": "-503 106 1975",
+		"prices_hopper_coords": [
+			"-503 106 1975",
+			"-503 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 2,
@@ -73,7 +94,10 @@
 	},
 	"08": {
 		"product_dropper_coords": "-502 104 1972",
-		"prices_hopper_coords": "-502 106 1975",
+		"prices_hopper_coords": [
+			"-502 106 1975",
+			"-502 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 3,
@@ -91,7 +115,10 @@
 	},
 	"09": {
 		"product_dropper_coords": "-501 104 1972",
-		"prices_hopper_coords": "-501 106 1975",
+		"prices_hopper_coords": [
+			"-501 106 1975",
+			"-501 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -99,7 +126,10 @@
 	},
 	"10": {
 		"product_dropper_coords": "-500 104 1972",
-		"prices_hopper_coords": "-500 106 1975",
+		"prices_hopper_coords": [
+			"-500 106 1975",
+			"-500 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -107,7 +137,10 @@
 	},
 	"11": {
 		"product_dropper_coords": "-499 104 1972",
-		"prices_hopper_coords": "-499 106 1975",
+		"prices_hopper_coords": [
+			"-499 106 1975",
+			"-499 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -115,7 +148,10 @@
 	},
 	"12": {
 		"product_dropper_coords": "-498 104 1972",
-		"prices_hopper_coords": "-498 106 1975",
+		"prices_hopper_coords":  [
+			"-498 106 1975",
+			"-498 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 1,
@@ -123,7 +159,10 @@
 	},
 	"13": {
 		"product_dropper_coords": "-497 104 1972",
-		"prices_hopper_coords": "-497 106 1975",
+		"prices_hopper_coords":  [
+			"-497 106 1975",
+			"-497 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 8,
@@ -131,7 +170,10 @@
 	},
 	"14": {
 		"product_dropper_coords": "-496 104 1972",
-		"prices_hopper_coords": "-496 106 1975",
+		"prices_hopper_coords":  [
+			"-496 106 1975",
+			"-496 106 1976"
+		],
 		"hopper_facing": "south",
 		"dropper_facing": "south",
 		"default_price": 2,
