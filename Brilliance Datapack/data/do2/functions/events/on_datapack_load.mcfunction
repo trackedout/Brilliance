@@ -24,3 +24,6 @@ gamerule doDaylightCycle false
 time set noon
 weather clear
 setworldspawn -547 113 1980 90
+
+# Setup GUI storage
+function do2:gui/init_storage

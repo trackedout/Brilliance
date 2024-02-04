@@ -1,3 +1,5 @@
+data modify storage do2:gui CurrentLevels set value {embers: -1, treasure: -1, hazard_block: -1, clank_block: -1, cards: -1}
+
 data modify storage do2:gui Text set value {}
 data modify storage do2:gui Text.offset.Level1 set value "" 
 data modify storage do2:gui Text.map.Level1 set value "" 
