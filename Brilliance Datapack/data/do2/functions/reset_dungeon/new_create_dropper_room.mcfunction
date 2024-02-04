@@ -12,51 +12,51 @@ fill -462 113 1967 -462 113 1980 redstone_block
 # Difficulty Selector
 setblock -475 115 1981 air replace
 setblock -475 114 1981 brown_stained_glass keep
-setblock -475 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#64361D"}','{"text":"Selectors","color":"#64361D"}','{"text":"","color":""}','{"text":"easy","color":"#00BBFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -557 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -475 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#F5681B"}','{"text":"Selectors","color":"#F5681B"}','{"text":"","color":""}','{"text":"easy","color":"#00BBFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -557 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -474 115 1981 air replace
 setblock -474 114 1981 brown_stained_glass keep
-setblock -474 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#64361D"}','{"text":"Selectors","color":"#64361D"}','{"text":"","color":""}','{"text":"medium","color":"#55FF00","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -558 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -474 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#F5681B"}','{"text":"Selectors","color":"#F5681B"}','{"text":"","color":""}','{"text":"medium","color":"#55FF00","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -558 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -473 115 1981 air replace
 setblock -473 114 1981 brown_stained_glass keep
-setblock -473 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#64361D"}','{"text":"Selectors","color":"#64361D"}','{"text":"","color":""}','{"text":"hard","color":"#FF9100","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -559 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -473 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#F5681B"}','{"text":"Selectors","color":"#F5681B"}','{"text":"","color":""}','{"text":"hard","color":"#FF9100","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -559 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -472 115 1981 air replace
 setblock -472 114 1981 brown_stained_glass keep
-setblock -472 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#64361D"}','{"text":"Selectors","color":"#64361D"}','{"text":"","color":""}','{"text":"deadly","color":"#FF0000","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -560 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -472 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#F5681B"}','{"text":"Selectors","color":"#F5681B"}','{"text":"","color":""}','{"text":"deadly","color":"#FF0000","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -560 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -471 115 1981 air replace
 setblock -471 114 1981 brown_stained_glass keep
-setblock -471 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#64361D"}','{"text":"Selectors","color":"#64361D"}','{"text":"","color":""}','{"text":"deepfrost","color":"#78008A","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -561 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -471 115 1981 oak_sign[rotation=8]{front_text:{messages:['{"text":"Difficulty","color":"#F5681B"}','{"text":"Selectors","color":"#F5681B"}','{"text":"","color":""}','{"text":"deepfrost","color":"#78008A","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -561 109 1982 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 
 # Compasses
 setblock -475 115 1984 air replace
 setblock -475 114 1984 pink_stained_glass keep
-setblock -475 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Easy","color":"#00BBFF"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1979 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -475 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Easy","color":"#00BBFF"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1979 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -474 115 1984 air replace
 setblock -474 114 1984 pink_stained_glass keep
-setblock -474 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Easy","color":"#00BBFF"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1978 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -474 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Easy","color":"#00BBFF"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1978 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -473 115 1984 air replace
 setblock -473 114 1984 pink_stained_glass keep
-setblock -473 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Medium","color":"#55FF00"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1977 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -473 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Medium","color":"#55FF00"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1977 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -472 115 1984 air replace
 setblock -472 114 1984 pink_stained_glass keep
-setblock -472 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Medium","color":"#55FF00"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1976 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -472 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Medium","color":"#55FF00"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1976 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -471 115 1984 air replace
 setblock -471 114 1984 pink_stained_glass keep
-setblock -471 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Hard","color":"#FF9100"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1975 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -471 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Hard","color":"#FF9100"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1975 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -470 115 1984 air replace
 setblock -470 114 1984 pink_stained_glass keep
-setblock -470 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Hard","color":"#FF9100"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1974 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -470 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Hard","color":"#FF9100"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1974 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -469 115 1984 air replace
 setblock -469 114 1984 pink_stained_glass keep
-setblock -469 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deadly","color":"#FF0000"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1973 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -469 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deadly","color":"#FF0000"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1973 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -468 115 1984 air replace
 setblock -468 114 1984 pink_stained_glass keep
-setblock -468 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deadly","color":"#FF0000"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1972 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -468 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deadly","color":"#FF0000"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1972 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -467 115 1984 air replace
 setblock -467 114 1984 pink_stained_glass keep
-setblock -467 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deepfrost","color":"#78008A"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1971 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -467 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deepfrost","color":"#78008A"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 1","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1971 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 setblock -466 115 1984 air replace
 setblock -466 114 1984 pink_stained_glass keep
-setblock -466 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deepfrost","color":"#78008A"}','{"text":"","color":""}','{"text":"DIFFICULTY","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1970 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -466 115 1984 oak_sign[rotation=8]{front_text:{messages:['{"text":"Deepfrost","color":"#78008A"}','{"text":"","color":""}','{"text":"Difficulty","color":""}','{"text":"Dropper 2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -549 106 1970 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 
 # Treasure
 setblock -475 115 1959 air replace
