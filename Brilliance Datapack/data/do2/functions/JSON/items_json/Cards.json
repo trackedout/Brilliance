@@ -12,7 +12,8 @@
 			"CustomModelData": 106,
 			"display": {
 				"Name": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"pay_to_win": {
@@ -28,7 +29,8 @@
 			"CustomModelData": 107,
 			"display": {
 				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"pork_chop_power": {
@@ -44,7 +46,8 @@
 			"CustomModelData": 109,
 			"display": {
 				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"tactical_approach": {
@@ -60,7 +63,8 @@
 			"CustomModelData": 108,
 			"display": {
 				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"sneak": {
@@ -76,7 +80,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"stability": {
@@ -92,7 +97,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"treasure_hunter": {
@@ -108,7 +114,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"ember_seeker": {
@@ -124,7 +131,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"evasion": {
@@ -140,7 +148,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"tread_lightly": {
@@ -156,7 +165,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"loot_and_scoot": {
@@ -172,7 +182,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"frost_focus": {
@@ -188,7 +199,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"second_wind": {
@@ -204,7 +216,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"beast_sense": {
@@ -220,7 +233,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"bounding_strides": {
@@ -236,7 +250,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"reckless_charge": {
@@ -252,7 +267,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"sprint": {
@@ -268,7 +284,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"nimble_looting": {
@@ -284,7 +301,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"smash_and_grab": {
@@ -300,7 +318,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"quick_step": {
@@ -316,7 +335,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"suit_up": {
@@ -332,7 +352,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"adrenaline_rush": {
@@ -348,7 +369,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"brilliance": {
@@ -364,7 +386,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"deepfrost": {
@@ -380,7 +403,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"fuzzy_bunny_slippers": {
@@ -396,7 +420,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"silent_runner": {
@@ -412,7 +437,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"cold_snap": {
@@ -428,7 +454,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"pirates_booty": {
@@ -444,7 +471,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"eyes_on_the_prize": {
@@ -460,7 +488,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"speed_runner": {
@@ -476,7 +505,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"chill_step": {
@@ -492,7 +522,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"swagger": {
@@ -508,7 +539,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"dungeon_repairs": {
@@ -524,7 +556,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"eerie_silence": {
@@ -540,7 +573,8 @@
 			"CustomRoleplayData": "1b",
 			"display": {
 				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	},
 	"stumble": {
@@ -556,7 +590,8 @@
 			"CustomModelData": 101,
 			"display": {
 				"Name": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'"
-			}
+			},
+			"tracked": "0b"
 		}
 	}
 }
