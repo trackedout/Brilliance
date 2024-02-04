@@ -1,7 +1,5 @@
 # Other TODO:
-- Enable First Finder loot needs to setblock THEN data merge
 - Implement playsound alternative to audioplayer
-- add tracked:0b everywhere with cards
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
