@@ -33,3 +33,7 @@ execute as @a[advancements={do2:visible/credits/credits_root=false}] run functio
 
 # Reveal Markers Control
 execute as @p[tag=marker_controller] run function do2:dungeon_setup/teleport_killers/dev/controller
+
+# Update GUI
+function do2:gui/collect_values/update_scoreboard
+function do2:gui/update_has_map_tag/invoke_update

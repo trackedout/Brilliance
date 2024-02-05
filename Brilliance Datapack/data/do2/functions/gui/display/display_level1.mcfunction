@@ -1,0 +1,2 @@
+title @s actionbar [ {"text": "", "font": "do2:gui"}, {"nbt": "Text.offset.Level1", "storage": "do2:gui"}, {"nbt": "Text.map.Level1", "storage": "do2:gui"}, {"nbt": "Text.embers.Level1", "storage": "do2:gui"}, {"nbt": "Text.treasure.Level1", "storage": "do2:gui"}, {"nbt": "Text.hazard_block.Level1", "storage": "do2:gui"}, {"nbt": "Text.clank_block.Level1", "storage": "do2:gui"}, {"nbt": "Text.cards.Level1", "storage": "do2:gui"} ]
+
