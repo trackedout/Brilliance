@@ -1,4 +1,5 @@
 # Other TODO:
+- Implement playsound alternative to audioplayer
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
@@ -14,7 +15,6 @@
   - Treasure
 
 # List of things todo AFTER builder's "repair" version is done.
-- Implement vex chasing player always.
 - Add Bdub's clock, to be the actual new clock.
   - Update all of the artifact spots that accept the clock
   - Add clock to the item whitelist.
