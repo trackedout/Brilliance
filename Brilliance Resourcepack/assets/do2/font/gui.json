@@ -1,0 +1,850 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map_blue.png",
+            "ascent": 413,
+            "height": 434,
+            "chars": [
+                "\ue110"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map.png",
+            "ascent": 413,
+            "height": 434,
+            "chars": [
+                "\ue111"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_water.png",
+            "ascent": 392,
+            "height": 392,
+            "chars": [
+                "\ue120"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_transparent.png",
+            "ascent": 392,
+            "height": 392,
+            "chars": [
+                "\ue121"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/ticks.png",
+            "ascent": 392,
+            "height": 392,
+            "chars": [
+                "\ue131\ue132\ue133\ue134\ue141\ue142\ue143\ue144"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/card_ticks.png",
+            "ascent": 392,
+            "height": 392,
+            "chars": [
+                "\ue151\ue152\ue153\ue154\ue155\ue156"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map_blue.png",
+            "ascent": 206,
+            "height": 217,
+            "chars": [
+                "\ue210"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map.png",
+            "ascent": 206,
+            "height": 217,
+            "chars": [
+                "\ue211"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_water.png",
+            "ascent": 196,
+            "height": 196,
+            "chars": [
+                "\ue220"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_transparent.png",
+            "ascent": 196,
+            "height": 196,
+            "chars": [
+                "\ue221"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/ticks.png",
+            "ascent": 196,
+            "height": 196,
+            "chars": [
+                "\ue231\ue232\ue233\ue234\ue241\ue242\ue243\ue244"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/card_ticks.png",
+            "ascent": 196,
+            "height": 196,
+            "chars": [
+                "\ue251\ue252\ue253\ue254\ue255\ue256"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map_blue.png",
+            "ascent": 117,
+            "height": 145,
+            "chars": [
+                "\ue310"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map.png",
+            "ascent": 117,
+            "height": 145,
+            "chars": [
+                "\ue311"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_water.png",
+            "ascent": 110,
+            "height": 131,
+            "chars": [
+                "\ue320"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_transparent.png",
+            "ascent": 110,
+            "height": 131,
+            "chars": [
+                "\ue321"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/ticks.png",
+            "ascent": 110,
+            "height": 131,
+            "chars": [
+                "\ue331\ue332\ue333\ue334\ue341\ue342\ue343\ue344"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/card_ticks.png",
+            "ascent": 110,
+            "height": 131,
+            "chars": [
+                "\ue351\ue352\ue353\ue354\ue355\ue356"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map_blue.png",
+            "ascent": 72,
+            "height": 108,
+            "chars": [
+                "\ue410"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/map.png",
+            "ascent": 72,
+            "height": 108,
+            "chars": [
+                "\ue411"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_water.png",
+            "ascent": 66,
+            "height": 98,
+            "chars": [
+                "\ue420"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/gui_transparent.png",
+            "ascent": 66,
+            "height": 98,
+            "chars": [
+                "\ue421"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/ticks.png",
+            "ascent": 66,
+            "height": 98,
+            "chars": [
+                "\ue431\ue432\ue433\ue434\ue441\ue442\ue443\ue444"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/card_ticks.png",
+            "ascent": 66,
+            "height": 98,
+            "chars": [
+                "\ue451\ue452\ue453\ue454\ue455\ue456"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -3,
+            "chars": [
+                "\ueb01"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -4,
+            "chars": [
+                "\ueb02"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -5,
+            "chars": [
+                "\ueb03"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -6,
+            "chars": [
+                "\ueb04"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -7,
+            "chars": [
+                "\ueb05"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -8,
+            "chars": [
+                "\ueb06"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -9,
+            "chars": [
+                "\ueb07"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -10,
+            "chars": [
+                "\ueb08"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -11,
+            "chars": [
+                "\ueb09"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -12,
+            "chars": [
+                "\ueb0a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -13,
+            "chars": [
+                "\ueb0b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -14,
+            "chars": [
+                "\ueb0c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -15,
+            "chars": [
+                "\ueb0d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -16,
+            "chars": [
+                "\ueb0e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -17,
+            "chars": [
+                "\ueb0f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -18,
+            "chars": [
+                "\ueb10"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -19,
+            "chars": [
+                "\ueb11"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -20,
+            "chars": [
+                "\ueb12"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -21,
+            "chars": [
+                "\ueb13"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -22,
+            "chars": [
+                "\ueb14"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -23,
+            "chars": [
+                "\ueb15"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -24,
+            "chars": [
+                "\ueb16"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -25,
+            "chars": [
+                "\ueb17"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -26,
+            "chars": [
+                "\ueb18"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -27,
+            "chars": [
+                "\ueb19"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -28,
+            "chars": [
+                "\ueb1a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -29,
+            "chars": [
+                "\ueb1b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -30,
+            "chars": [
+                "\ueb1c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -31,
+            "chars": [
+                "\ueb1d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -32,
+            "chars": [
+                "\ueb1e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -33,
+            "chars": [
+                "\ueb1f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -34,
+            "chars": [
+                "\ueb20"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -66,
+            "chars": [
+                "\ueb40"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -130,
+            "chars": [
+                "\ueb80"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": -257,
+            "chars": [
+                "\uebff"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 0,
+            "chars": [
+                "\uea01"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 1,
+            "chars": [
+                "\uea02"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 2,
+            "chars": [
+                "\uea03"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 3,
+            "chars": [
+                "\uea04"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 4,
+            "chars": [
+                "\uea05"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 5,
+            "chars": [
+                "\uea06"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 6,
+            "chars": [
+                "\uea07"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 7,
+            "chars": [
+                "\uea08"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 8,
+            "chars": [
+                "\uea09"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 9,
+            "chars": [
+                "\uea0a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 10,
+            "chars": [
+                "\uea0b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 11,
+            "chars": [
+                "\uea0c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 12,
+            "chars": [
+                "\uea0d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 13,
+            "chars": [
+                "\uea0e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 14,
+            "chars": [
+                "\uea0f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 15,
+            "chars": [
+                "\uea10"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 16,
+            "chars": [
+                "\uea11"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 17,
+            "chars": [
+                "\uea12"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 18,
+            "chars": [
+                "\uea13"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 19,
+            "chars": [
+                "\uea14"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 20,
+            "chars": [
+                "\uea15"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 21,
+            "chars": [
+                "\uea16"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 22,
+            "chars": [
+                "\uea17"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 23,
+            "chars": [
+                "\uea18"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 24,
+            "chars": [
+                "\uea19"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 25,
+            "chars": [
+                "\uea1a"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 26,
+            "chars": [
+                "\uea1b"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 27,
+            "chars": [
+                "\uea1c"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 28,
+            "chars": [
+                "\uea1d"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 29,
+            "chars": [
+                "\uea1e"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 30,
+            "chars": [
+                "\uea1f"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 31,
+            "chars": [
+                "\uea20"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 63,
+            "chars": [
+                "\uea40"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 127,
+            "chars": [
+                "\uea80"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "do2:gui/empty.png",
+            "ascent": -65535,
+            "height": 254,
+            "chars": [
+                "\ueaff"
+            ]
+        }
+    ]
+}
