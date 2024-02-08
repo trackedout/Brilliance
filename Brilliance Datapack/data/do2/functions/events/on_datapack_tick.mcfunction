@@ -26,3 +26,6 @@ function do2:scoreboard/stats_display
 
 # Check for triggers.
 function do2:scoreboard/triggers/checks
+
+# Summon Dev Markers
+function do2:dev/markers/edit_markers/summon_markers

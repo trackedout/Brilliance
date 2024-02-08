@@ -1,0 +1,2 @@
+give @s bee_spawn_egg{display:{Name:'{"text":"Spawn Marker","color":"dark_green"}',Lore:['{"text":"Wherever you spawn this bee,"}','{"text":"it will place a marker"}']},EntityTag:{NoGravity:1b,Silent:1b,NoAI:1b,Tags:["do2.marker_editor"]}} 1
+give @s bat_spawn_egg{display:{Name:'{"text":"Delete Marker","color":"red"}',Lore:['{"text":"Wherever you spawn this bat,"}','{"text":"it will delete the nearest marker"}']},EntityTag:{NoGravity:1b,Silent:1b,NoAI:1b,Tags:["do2.marker_editor"]}} 1
