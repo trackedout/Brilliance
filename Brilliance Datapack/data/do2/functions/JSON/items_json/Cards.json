@@ -593,5 +593,22 @@
 			},
 			"tracked": "0b"
 		}
+	},
+	"dungeon_lackey": {
+		"shorthand": "DUL",
+		"id": "minecraft:iron_nugget",
+		"tag": {
+			"NameFormat": {
+				"color": "#fed83d",
+				"OriginalName": "'{\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'",
+				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'"
+			},
+			"display": {
+				"Name": "'{\"color\":\"#FED83D\",\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'"
+			},
+			"CustomRoleplayData": "1b",
+			"CustomModelData": 141,
+			"tracked": "0b"
+		}
 	}
 }

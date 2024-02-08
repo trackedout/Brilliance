@@ -178,5 +178,11 @@
 		"dropper_facing": "south",
 		"default_price": 2,
 		"default_product": []
+	},
+	"14_p2": {
+		"product_dropper_coords": "-493 102 1972",
+		"hopper_facing": "south",
+		"dropper_facing": "south",
+		"default_product": "dungeon_lackey"
 	}
 }

@@ -530,6 +530,9 @@ setblock -461 115 1979 oak_sign[rotation=8]{front_text:{messages:['{"text":"Crow
 setblock -461 115 1980 air replace
 setblock -461 114 1980 orange_stained_glass keep
 setblock -461 115 1980 oak_sign[rotation=8]{front_text:{messages:['{"text":"Crown Shop","color":"#FFEB64"}','{"text":"","color":"#FFEB64"}','{"text":"product for sale","color":"#FFEB64"}','{"text":"#14","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -496 104 1972 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
+setblock -460 115 1967 air replace
+setblock -460 114 1967 orange_stained_glass keep
+setblock -460 115 1967 oak_sign[rotation=8]{front_text:{messages:['{"text":"Crown Shop","color":"#FFEB64"}','{"text":"","color":"#FFEB64"}','{"text":"product for sale","color":"#FFEB64"}','{"text":"#14_p2","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -493 102 1972 as @s if entity @s[tag=dropper_teleporting_allowed] run tp @s ~ ~ ~"}}']},is_waxed:1b} replace
 
 # Crown Shop Prices
 setblock -462 115 1967 air replace
