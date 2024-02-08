@@ -5,7 +5,13 @@ tag @s remove spectatorSetupLogTarget
 
 # - Remove Tags -
 tag @s remove shulker_received
+tag @s remove do2.running
+
+# - Join Spectating -
 tag @s add do2.spectating
+team join do2.spectators @s
+execute unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] run gamemode spectator
+
 
 # - RESET GENERAL -
 scoreboard players set @s do2.run.foundArtifact 0

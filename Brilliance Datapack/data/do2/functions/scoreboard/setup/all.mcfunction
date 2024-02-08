@@ -62,6 +62,9 @@ scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to giv
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
+# - Teams -
+function do2:scoreboard/setup/teams
+
 # - Logging -
 function do2:scoreboard/setup/logs
 

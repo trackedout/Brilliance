@@ -1,5 +1,7 @@
 # called at start of run (when they hit pressure plate at the end of the minecart track)
 
+execute positioned -622 49 1942 run tp @a[distance=5..,tag=!do2.spectating] ~ ~ ~
+
 # Don't allow this event to be called more than once.
 execute unless score $dungeon do2.run.players matches 0 run return 0
 
@@ -14,7 +16,7 @@ scoreboard objectives setdisplay sidebar
 function do2:agronet/game_start
 
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
-execute store result score $dungeon do2.run.players run tag @a[tag=!do2.spectating] add do2.running
+execute store result score $dungeon do2.run.players run tag @a[team=do2.players] add do2.running
 
 # === dungadungadungadungadunga ===
 execute as @a[tag=do2.running] run function do2:agronet/log-event_dungeon-started
@@ -22,7 +24,6 @@ execute as @a[tag=do2.running] run function do2:agronet/log-event_dungeon-starte
 
 # do all scoreboard resets that happen per run.
 execute as @a[tag=do2.running] run function do2:scoreboard/player_per_run
-execute as @a[tag=do2.spectating] run function do2:scoreboard/spectator_per_run
 function do2:scoreboard/dungeon_per_run
 
 #revoke all utility advancements. These are used for additional conditions

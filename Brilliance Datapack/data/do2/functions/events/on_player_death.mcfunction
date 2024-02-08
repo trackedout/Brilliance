@@ -9,6 +9,10 @@ tag @s remove dyingLogTarget
 # store run time when player dies
 scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds
 
+# join the ghosts
+team join do2.ghosts @s
+gamemode spectator
+
 # player no longer running
 tag @s remove do2.running
 
