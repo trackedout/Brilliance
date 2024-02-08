@@ -310,7 +310,7 @@
 			"CustomModelData": 37,
 			"display": {
 				"Lore": [
-					"'{\"text\":\"What could it possibly open?\"}'"
+					"'{\"text\":\"What could it possibly open? \"}'"
 				],
 				"Name": "'{\"bold\":true,\"color\":\"gold\",\"text\":\"The Master\\'s Key (60)\"}'"
 				}
@@ -346,7 +346,7 @@
 			"CustomModelData": 35,
 			"display": {
 				"Lore": [
-					"'{\"text\":\"Makes everything gorgeous. Of course.\"}'"
+					"'{\"text\":\"Makes everything gorgeous.  Of course.\"}'"
 				],
 				"Name": "'{\"bold\":true,\"color\":\"gold\",\"text\":\"Wand of Gorgeousness (22)\"}'"
 				}
