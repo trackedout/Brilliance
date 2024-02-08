@@ -26,7 +26,7 @@ execute positioned -641 17 1903 run function do2:reset_dungeon/default_states/mi
 # L4 Bomb TnT
 execute positioned -579 -39 1843 run function do2:reset_dungeon/default_states/misc/just_tnt_facing_south
 # L4's Bomb Droppers
-execute positioned -636 -51 1872 run function do2:reset_dungeon/default_states/misc/just_bombs_facing_up
+execute positioned -637 -51 1872 run function do2:reset_dungeon/default_states/misc/just_bombs_facing_up
 execute positioned -605 -49 1910 run function do2:reset_dungeon/default_states/misc/just_bombs_facing_up
 execute positioned -602 -51 1843 run function do2:reset_dungeon/default_states/misc/just_bombs_facing_up
 execute positioned -598 -51 1876 run function do2:reset_dungeon/default_states/misc/just_bombs_facing_up
