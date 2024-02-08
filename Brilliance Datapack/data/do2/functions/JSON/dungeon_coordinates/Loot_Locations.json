@@ -369,8 +369,8 @@
 	"22": {
 		"treasure_dropper_coords": "-563 36 1999",
 		"ember_dropper_coords": "-565 36 1999",
-		"treasure_facing": "up",
-		"ember_facing": "up",
+		"treasure_facing": "west",
+		"ember_facing": "east",
 		"level": 2,
 		"default_treasure": [
 			"level_3_key",
@@ -387,8 +387,8 @@
 	"23": {
 		"treasure_dropper_coords": "-575 36 1998",
 		"ember_dropper_coords": "-573 36 1998",
-		"treasure_facing": "up",
-		"ember_facing": "up",
+		"treasure_facing": "east",
+		"ember_facing": "west",
 		"level": 2,
 		"default_treasure": [
 			"level_3_key",
@@ -695,8 +695,8 @@
 		"comment": "Drooper Coords WERE Y=8, changed to Y=10",
 		"treasure_dropper_coords": "-531 10 2016",
 		"ember_dropper_coords": "-530 10 2015",
-		"treasure_facing": "up",
-		"ember_facing": "up",
+		"treasure_facing": "north",
+		"ember_facing": "west",
 		"level": 2,
 		"default_treasure": [
 			"level_3_key",
@@ -839,8 +839,8 @@
 	"48": {
 		"treasure_dropper_coords": "-590 1 1901",
 		"ember_dropper_coords": "-591 1 1901",
-		"treasure_facing": "up",
-		"ember_facing": "up",
+		"treasure_facing": "south",
+		"ember_facing": "south",
 		"level": 3,
 		"default_treasure": [
 			"level_4_key",
@@ -1059,9 +1059,6 @@
 		"ember_facing": "south",
 		"level": 4,
 		"default_treasure": [
-			"crown",
-			"crown",
-			"crown",
 			"crown",
 			"crown",
 			"crown",

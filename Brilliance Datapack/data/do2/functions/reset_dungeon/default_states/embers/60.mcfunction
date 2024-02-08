@@ -8,6 +8,3 @@ data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{Cust
 data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:3b,Count:64b}
 data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:4b,Count:64b}
 data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:5b,Count:64b}
-data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:6b,Count:64b}
-data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:7b,Count:64b}
-data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:3,display:{Name:'{"text":"❄☠ Decked Out Frost Ember ☠❄"}'},tracked:0b},Slot:8b,Count:64b}
