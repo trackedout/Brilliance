@@ -1,9 +1,6 @@
 # Other TODO:
 - Limit ghosts to only be near the player or even ON the player.
-- the Key and the Wand don't have the correct text on pickup, but the Hood does
-- Add method of editing markers. (Ravager markers need to be adjusted)
-- Add DUL dropper to crown shop config
-- Writing FROM droppers to prices CAN cause extra price, make sure to make the OTHER price hopper empty.
+- Add back in RepairCost to cards.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
