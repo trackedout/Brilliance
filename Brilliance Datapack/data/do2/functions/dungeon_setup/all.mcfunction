@@ -7,12 +7,8 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 0
 
 # - SETUP -
 
-execute if score $dungeon do2.config.refillDungeonType matches 1 run function do2:reset_dungeon/new_reset_dungeon_to_default
-execute if score $dungeon do2.config.refillDungeonType matches 2 run function do2:reset_dungeon/new_write_to_dungeon
-execute if score $dungeon do2.config.fr.refillBerries matches 1 run function do2:dungeon_setup/refill/refill_berry_bushes
+function do2:dungeon_setup/refill/all
 execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
-
-function do2:dungeon_setup/refill/refill_guppy_geyser
 function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_other_killers
