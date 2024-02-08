@@ -18,6 +18,8 @@
 # L4Z1 = dark_purple
 # L4Z3 = white
 # L4Z3 = aqua
+#
+#
 
 # - LEVEL 1 -
 # L1Z1
@@ -77,3 +79,7 @@ execute if block -625 57 2002 minecraft:lever[powered=false] if entity @e[tag=fr
 # L4Z3
 execute if block -625 57 2001 minecraft:lever[powered=true] as @e[type=marker,tag=L4Z3] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/l4z3
 execute if block -625 57 2001 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L4Z3] run function do2:dungeon_setup/teleport_killers/dev/turn_invisible/l4z3
+
+# FISH MARKERS
+execute if block -625 57 1999 minecraft:lever[powered=true] as @e[type=marker,tag=fish_marker] unless entity @s[tag=frustrated_visible] at @s run function do2:dungeon_setup/teleport_killers/dev/turn_visible/fish_marker
+execute if block -625 57 1999 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=fish_marker] run function do2:dungeon_setup/teleport_killers/dev/turn_invisible/fish_marker

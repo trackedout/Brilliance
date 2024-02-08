@@ -32,7 +32,7 @@ execute if block -634 28 1992 minecraft:redstone_block run function do2:dungeon_
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
 # Reveal Markers Control
-execute as @p[tag=marker_controller] run function do2:dungeon_setup/teleport_killers/dev/controller
+function do2dev/markers/controller
 
 # Update GUI
 function do2:gui/collect_values/update_scoreboard
