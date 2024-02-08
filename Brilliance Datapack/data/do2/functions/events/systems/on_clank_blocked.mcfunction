@@ -4,7 +4,7 @@ execute as @a[scores={do2.logs.blockage=1..}] run tellraw @s ["",{"text":"[ยง9Bย
 # - End Log -
 
 # update scoreboard
-scoreboard players add @a[tag=shulker_received] do2.run.systems.clank.blocked 1
+scoreboard players add @a[tag=do2.received_shulker] do2.run.systems.clank.blocked 1
 
 # AGRONET event
 function do2:agronet/systems/clank_blocked

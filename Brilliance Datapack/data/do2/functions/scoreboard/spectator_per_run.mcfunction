@@ -4,7 +4,7 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"
 tag @s remove spectatorSetupLogTarget
 
 # - Remove Tags -
-tag @s remove shulker_received
+tag @s remove do2.received_shulker
 tag @s remove do2.running
 
 # - Join Spectating -
