@@ -21,7 +21,7 @@ execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @a[ta
 execute as @a[x=-565,dx=23,y=111,dy=7,z=1974,dz=11] run team join do2.players @s
 
 # Set up spectators
-execute as @s[team=!do2.players] run team join do2.spectators @s
+execute as @a[team=!do2.players] run team join do2.spectators @s
 execute as @a[team=do2.spectators] run function do2:scoreboard/spectator_per_run
 
 
