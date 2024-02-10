@@ -13,7 +13,7 @@ scoreboard players set $dungeon do2.run.active 0
 execute as @a[tag=do2.running] unless entity @s[tag=do2.win] run function do2:events/on_player_loss
 
 # Reset Players
-execute as @a run function do2:reset_player
+execute as @a[name=!TangoCam,name=!tangocam] run function do2:reset_player
 
 # AGRONET
 function do2:agronet/game_end
