@@ -66,9 +66,9 @@ execute positioned -498 106 1975 run function do2:reset_dungeon/default_states/c
 execute positioned -498 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_12
 execute positioned -497 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_13
 execute positioned -497 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_13
+execute positioned -463 114 1979 run function do2:reset_dungeon/default_states/crown_shop/product_13_p2
 execute positioned -496 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_14
 execute positioned -496 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_14
-execute positioned -493 102 1972 run function do2:reset_dungeon/default_states/crown_shop/price_14_p2
 
 # Treasure
 execute positioned -518 35 2002 run function do2:reset_dungeon/default_states/treasure/01

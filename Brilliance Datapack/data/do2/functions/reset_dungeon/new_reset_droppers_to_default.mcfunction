@@ -185,8 +185,8 @@ execute positioned -461 114 1976 run function do2:reset_dungeon/default_states/c
 execute positioned -461 114 1977 run function do2:reset_dungeon/default_states/crown_shop/product_11
 execute positioned -461 114 1978 run function do2:reset_dungeon/default_states/crown_shop/product_12
 execute positioned -461 114 1979 run function do2:reset_dungeon/default_states/crown_shop/product_13
+execute positioned -463 114 1979 run function do2:reset_dungeon/default_states/crown_shop/product_13_p2
 execute positioned -461 114 1980 run function do2:reset_dungeon/default_states/crown_shop/product_14
-execute positioned -460 114 1967 run function do2:reset_dungeon/default_states/crown_shop/product_14_p2
 
 # Crown Shop Prices
 execute positioned -462 114 1967 run function do2:reset_dungeon/default_states/crown_shop/price_01
@@ -203,7 +203,6 @@ execute positioned -462 114 1977 run function do2:reset_dungeon/default_states/c
 execute positioned -462 114 1978 run function do2:reset_dungeon/default_states/crown_shop/price_12
 execute positioned -462 114 1979 run function do2:reset_dungeon/default_states/crown_shop/price_13
 execute positioned -462 114 1980 run function do2:reset_dungeon/default_states/crown_shop/price_14
-execute positioned -461 114 1967 run function do2:reset_dungeon/default_states/crown_shop/price_14_p2
 
 # Ember Shop Products
 execute positioned -458 114 1967 run function do2:reset_dungeon/default_states/ember_shop/product_01
