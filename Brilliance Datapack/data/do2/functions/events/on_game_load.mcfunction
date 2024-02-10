@@ -8,6 +8,8 @@ tag @a remove do2.running
 
 # Ensure only ONE player has the do2.received_shulker tag
 scoreboard players set $dungeon do2.utility.shulkerPlayers 0
+tag TangoCam remove do2.received_shulker
+tag tangocam remove do2.received_shulker
 execute as @a[tag=do2.received_shulker] run scoreboard players add $dungeon do2.utility.shulkerPlayers 1
 execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @r[tag=do2.received_shulker] add do2.received_shulker.temp
 execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! Players: "},{"selector":"@a[tag=do2.received_shulker]","color":"dark_purple"},{"text":" §rHas the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]

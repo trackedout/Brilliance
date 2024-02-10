@@ -1,6 +1,5 @@
 # called at start of run (when they hit pressure plate at the end of the minecart track)
-
-execute positioned -622 49 1942 run tp @a[distance=5..,tag=!do2.spectating] ~ ~ ~
+execute positioned -622 49 1942 run tp @a[distance=5..,team=do2.players] ~ ~ ~
 
 # Don't allow this event to be called more than once.
 execute unless score $dungeon do2.run.players matches 0 run return 0
