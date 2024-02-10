@@ -1,7 +1,3 @@
-# - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Teleporting ALL Killers."}]
-# - End Log -
-
 # Make sure we have markers set up.
 function do2:dungeon_setup/teleport_killers/test_for_markers
 
@@ -15,6 +11,10 @@ execute if score $dungeon do2.config.useWardenZones matches 1.. run function do2
 
 # Teleport isn't enabled, then don't teleport the killers
 execute unless score $dungeon do2.config.fr.teleportKillers matches 1 run return 0
+
+# - Start Log -
+execute as @a[scores={do2.logs.dungeon_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Teleporting ALL Killers."}]
+# - End Log -
 
 # Teleport ravagers & wardens based on the types of markers we have up.
 # No Zones.
