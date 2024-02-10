@@ -19,11 +19,12 @@ scoreboard objectives remove do2.temp.doesTangoCamExist
 scoreboard players set $dungeon do2.utility.dungeonRepair 1
 
 # One time setup:
+gamerule spawnRadius 0
 gamerule doWeatherCycle false
 gamerule doDaylightCycle false
 time set noon
 weather clear
-setworldspawn -547 113 1980 90
+setworldspawn -524 103 2167 -180
 
 # Setup GUI storage
 function do2:gui/init_storage
