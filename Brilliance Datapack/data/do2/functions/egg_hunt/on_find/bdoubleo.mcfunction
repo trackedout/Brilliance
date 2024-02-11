@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add bdubLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bdubLogTarget]"},{"text":" found Bdoubleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -532 48 1974 270 20"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=bdubLogTarget]"},{"text":" found Bdoubleo's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -532 48 1974 270 20"}},{"text":")"}]
 tag @s remove bdubLogTarget
 # - End Log -
 

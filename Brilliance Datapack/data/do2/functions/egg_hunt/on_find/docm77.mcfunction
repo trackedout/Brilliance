@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add docmLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=docmLogTarget]"},{"text":" found Docm77's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -553 14 1967 -90 20"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=docmLogTarget]"},{"text":" found Docm77's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -553 14 1967 -90 20"}},{"text":")"}]
 tag @s remove docmLogTarget
 # - End Log -
 

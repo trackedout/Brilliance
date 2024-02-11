@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add xbLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=xbLogTarget]"},{"text":" found xBCrafted's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"suggest_command","value":"/tp @s -528 14 1932 -119 10"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=xbLogTarget]"},{"text":" found xBCrafted's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -528 14 1932 -119 10"}},{"text":")"}]
 tag @s remove xbLogTarget
 # - End Log -
 
