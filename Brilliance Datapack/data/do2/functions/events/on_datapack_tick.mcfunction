@@ -20,6 +20,9 @@ execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] 
 # Have vex track players better
 execute if score $dungeon do2.config.vexTracking matches 1 run function do2:force_vex_tracking
 
+# Control Ghosts to Spectate Player
+execute as @a[team=do2.ghosts] if entity @s[gamemode=spectator] run spectate @p[team=do2.players] @s
+
 # Update the various sideboards display.
 function do2:scoreboard/config/config_display
 function do2:scoreboard/stats_display
