@@ -12,21 +12,21 @@ execute if score $dungeon do2.config.useRavagerZones matches 1 unless entity @e[
 execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L1Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L2Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 # Check if Correct Warden Zones Exist.
-execute if score $dungeon do2.config.usWardenZones matches 1 unless entity @e[type=minecraft:marker,tag=L3Z1,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute if score $dungeon do2.config.usWardenZones matches 0 unless entity @e[type=minecraft:marker,tag=L3Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useWardenZones matches 1 unless entity @e[type=minecraft:marker,tag=L4Z1,tag=with-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useWardenZones matches 0 unless entity @e[type=minecraft:marker,tag=L4Z1,tag=no-zones] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 
 # Level 1 markers
 execute unless entity @e[type=minecraft:marker,tag=L1Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:marker,tag=L1Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:marker,tag=L1Z3] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute unless entity @e[type=minecraft:marker,tag=L1Z4] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute unless entity @e[type=minecraft:marker,tag=L1Z5] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L1Z4] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L1Z5] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 # Level 2 markers
 execute unless entity @e[type=minecraft:marker,tag=L2Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:marker,tag=L2Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:marker,tag=L2Z3] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute unless entity @e[type=minecraft:marker,tag=L2Z4] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
-execute unless entity @e[type=minecraft:marker,tag=L2Z5] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L2Z4] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.useRavagerZones matches 0 unless entity @e[type=minecraft:marker,tag=L2Z5] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute unless entity @e[type=minecraft:marker,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
 # Level 3 markers
 execute unless entity @e[type=minecraft:marker,tag=L3Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 0
