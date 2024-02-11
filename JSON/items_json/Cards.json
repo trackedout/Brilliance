@@ -76,7 +76,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "gray",
+				"color": "gray",
 				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'",
 				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
 			},
@@ -94,7 +94,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "gray",
+				"color": "gray",
 				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'",
 				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
 			},
@@ -112,7 +112,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "gray",
+				"color": "gray",
 				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'",
 				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
 			},
@@ -130,7 +130,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "gray",
+				"color": "gray",
 				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'",
 				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
 			},
@@ -148,7 +148,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
 			},
@@ -166,7 +166,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
 			},
@@ -184,7 +184,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
 			},
@@ -202,7 +202,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
 			},
@@ -220,7 +220,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
 			},
@@ -238,7 +238,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
 			},
@@ -256,7 +256,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
 			},
@@ -274,7 +274,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
 			},
@@ -292,7 +292,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
 			},
@@ -310,7 +310,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
 			},
@@ -328,7 +328,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
 			},
@@ -346,7 +346,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
 			},
@@ -364,7 +364,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
 			},
@@ -382,7 +382,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#80c71f",
+				"color": "#80c71f",
 				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
 			},
@@ -400,7 +400,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
 			},
@@ -418,7 +418,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
 			},
@@ -436,7 +436,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
 			},
@@ -454,7 +454,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
 			},
@@ -472,7 +472,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
 			},
@@ -490,7 +490,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"text\":\"✧ Pirate\\'s Booty ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
 			},
@@ -508,7 +508,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
 			},
@@ -526,7 +526,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
 			},
@@ -544,7 +544,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
 			},
@@ -562,7 +562,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
 			},
@@ -580,7 +580,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
 			},
@@ -598,7 +598,7 @@
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {
-				"colorFormat": "#3c44aa",
+				"color": "#3c44aa",
 				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
 			},
