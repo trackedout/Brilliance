@@ -1,4 +1,5 @@
 # Other TODO:
+- Refill droppers refills artifakes to artifacts
 - Limit ghosts to only be near the player or even ON the player.
 - Add back in RepairCost to cards.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
