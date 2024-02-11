@@ -1,7 +1,4 @@
 # Other TODO:
-- Refill droppers refills artifakes to artifacts
-- Limit ghosts to only be near the player or even ON the player.
-- Add back in RepairCost to cards.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.
