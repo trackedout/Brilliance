@@ -94,7 +94,7 @@ execute positioned -641 -23 1961 run function do2:reset_dungeon/default_states/a
 execute positioned -641 -23 1960 run function do2:reset_dungeon/default_states/artifakes/gde
 execute positioned -641 -23 1959 run function do2:reset_dungeon/default_states/artifakes/pws
 execute positioned -641 -23 1958 run function do2:reset_dungeon/default_states/artifakes/ofp
-execute positioned -641 -23 1957 run function do2:reset_dungeon/default_states/artifakes/gog
+execute positioned -641 -23 1957 run function do2:reset_dungeon/default_states/artifakes/ggr
 execute positioned -641 -23 1956 run function do2:reset_dungeon/default_states/artifakes/cf1
 execute positioned -641 -23 1955 run function do2:reset_dungeon/default_states/artifakes/sps
 execute positioned -641 -23 1954 run function do2:reset_dungeon/default_states/artifakes/tsl

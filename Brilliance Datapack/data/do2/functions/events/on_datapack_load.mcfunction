@@ -6,7 +6,7 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§r[§9B§r]
 function do2:scoreboard/setup/all
 
 # Make all player's who may have joined already be setup
-execute as @a at @s run function do2:events/on_player_rejoin
+execute as @a at @s run function do2:events/on_player_join
 
 # TangoCam (just in case)
 scoreboard objectives add do2.temp.doesTangoCamExist dummy

@@ -1,4 +1,11 @@
 # Other TODO:
+- Remove:
+  - do2:dungeon_setup/teleport_killers/with_zones/summon_teleport_markers
+  - do2:dungeon_setup/teleport_killers/no_zones/summon_teleport_markers
+  - do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
+- Empty File:
+  - Brilliance Datapack/data/do2/functions/reset_dungeon/default_states/treasure/embers.mcfunction
+  - Brilliance Datapack/data/do2/functions/events/triggered_shrieker.mcfunction
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.

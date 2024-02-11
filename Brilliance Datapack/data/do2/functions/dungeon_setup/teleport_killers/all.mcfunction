@@ -1,5 +1,5 @@
 # Make sure we have markers set up.
-function do2:dungeon_setup/teleport_killers/test_for_markers
+function do2:dungeon_setup/test_for_markers
 
 # - Summon Zone Lines -
 # Ravager Zones:

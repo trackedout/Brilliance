@@ -18,7 +18,7 @@ function do2:agronet/game_start
 execute store result score $dungeon do2.run.players run tag @a[team=do2.players] add do2.running
 
 # === dungadungadungadungadunga ===
-execute as @a[tag=do2.running] run function do2:agronet/log-event_dungeon-started
+execute as @a[tag=do2.running] run function do2:agronet/game_start
 # =================================
 
 # do all scoreboard resets that happen per run.
