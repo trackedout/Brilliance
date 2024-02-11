@@ -1,3 +1,5 @@
+execute if entity @s[name=TangoCam] run return 0
+execute if entity @s[name=tangocam] run return 0
 # - Start Log -
 tag @s add playerSetupLogTarget
 execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
