@@ -11,6 +11,9 @@ execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"[§9B
 # Clear Sidebar
 scoreboard objectives setdisplay sidebar
 
+# Replay Mod
+function do2:replay_mod/start
+
 # AGRONET
 function do2:agronet/game_start
 

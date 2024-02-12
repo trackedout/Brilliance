@@ -17,3 +17,7 @@ execute as @a[name=!TangoCam,name=!tangocam] run function do2:reset_player
 
 # AGRONET
 function do2:agronet/game_end
+
+
+# Replay Mod
+function do2:replay_mod/stop
