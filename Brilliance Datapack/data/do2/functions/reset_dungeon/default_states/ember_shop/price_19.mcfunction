@@ -1,5 +1,5 @@
 # REMOVE ALL ITEMS INSIDE:
-setblock ~ ~ ~ minecraft:hopper[facing=west,enabled=true]{Items:[]}
+setblock ~ ~ ~ minecraft:hopper[facing=west,enabled=false]{Items:[]}
 
 # Insert items. (ordered by slot)
 data modify block ~ ~ ~ Items append value {Slot: 0b, Count:32b, id: "minecraft:iron_nugget"}

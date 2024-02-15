@@ -1,4 +1,9 @@
 # Other TODO:
+- on_player_won
+  - Track tomes, crowns, artifakes using event /add-item
+- Make a copy of credits to:
+  - Remove all references to Tracked Out
+  - 
 - Adrenaline Rush price hoppers still occasionally unlocked on reset
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
