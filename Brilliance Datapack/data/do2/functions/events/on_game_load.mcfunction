@@ -18,10 +18,10 @@ execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
 # No players have the tag
-execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @r add do2.received_shulker.temp
-execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rNo players has the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
-execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
-execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
+execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tag @r add do2.received_shulker.temp
+execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rNo players has the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
+execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
+execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
 
 
 
