@@ -4,8 +4,12 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]:
 
 # IF the player has quit the game and is back, RUN on_player_rejoin
 execute as @a unless score @s do2.utility.trackLeaves matches 0 at @s run function do2:events/on_player_join
+
 # call on player death when running do2
 execute as @a[tag=do2.running, scores={do2.run.has_died=1}] run function do2:events/on_player_death
+
+# Check if player has respawned
+execute as @e[type=player,scores={do2.utility.deathCount=1..}] run function do2:events/on_player_respawned
 
 # if all players running do2 dead, end game.
 execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end

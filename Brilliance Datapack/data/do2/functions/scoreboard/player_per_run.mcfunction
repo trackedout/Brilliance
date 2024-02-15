@@ -1,5 +1,7 @@
+# Ignore TANGOCAM
 execute if entity @s[name=TangoCam] run return 0
 execute if entity @s[name=tangocam] run return 0
+
 # - Start Log -
 tag @s add playerSetupLogTarget
 execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
@@ -21,6 +23,7 @@ scoreboard players set @s do2.run.foundArtifact 0
 scoreboard players set @s do2.run.tnt_dive 0
 scoreboard players set @s do2.run.has_won 0
 scoreboard players set @s do2.run.has_died 0
+scoreboard players set @s do2.utility.deathCount 0
 
 # - RESET ITEMS -
 scoreboard players set @s do2.run.items.embers 0
