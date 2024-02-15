@@ -35,7 +35,7 @@ execute unless entity @e[type=minecraft:ravager,tag=L0DEATHROOM] run scoreboard 
 # Training Room Ravager
 execute unless entity @e[type=minecraft:ravager,tag=L0TRAIN] run scoreboard players set $dungeon do2.tests.all_ravagers_alive 12
 
-execute unless score $dungeon do2.tests.all_ravagers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Ravager §b#"}{"color":"light_blue","score":{"name":"$dungeon","objective":"do2.tests.all_ravagers_alive"}}]
+execute unless score $dungeon do2.tests.all_ravagers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Ravager §b#"},{"color":"light_blue","score":{"name":"$dungeon","objective":"do2.tests.all_ravagers_alive"}}]
 execute unless score $dungeon do2.tests.all_ravagers_alive matches 0 run function do2:dungeon_setup/summon/ravagers
 scoreboard objectives remove do2.tests.all_ravagers_alive
 
