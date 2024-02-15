@@ -13,6 +13,7 @@ function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_other_killers
 function do2:dungeon_setup/test_for_markers
+function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags
 function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
 schedule function do2:dungeon_setup/summon/others 3t

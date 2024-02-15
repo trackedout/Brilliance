@@ -94,7 +94,7 @@ execute unless block -637 -53 1877 minecraft:lodestone run scoreboard players se
 execute unless block -590 -53 1866 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 79
 execute unless block -570 -53 1855 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 80
 
-execute unless score $dungeon do2.tests.all_lodestone_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: Lodestone  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_lodestone_spots"}},{"text":" failed."}]
+execute unless score $dungeon do2.tests.all_lodestone_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: Testing for Lodestone  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_lodestone_spots"}},{"text":" failed."}]
 scoreboard objectives remove do2.tests.all_lodestone_spots
 
 # Need to check if ONE minecart doesn't exist. Best way I could do this:
@@ -182,5 +182,5 @@ execute positioned -637 -51 1877 unless entity @e[type=minecraft:hopper_minecart
 execute positioned -590 -51 1866 unless entity @e[type=minecraft:hopper_minecart,distance=..1] run scoreboard players set $dungeon do2.tests.all_minecart_spots 79
 execute positioned -570 -51 1855 unless entity @e[type=minecraft:hopper_minecart,distance=..1] run scoreboard players set $dungeon do2.tests.all_minecart_spots 80
 
-execute unless score $dungeon do2.tests.all_minecart_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: Hopper Minecart  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_minecart_spots"}},{"text":" failed."}]
+execute unless score $dungeon do2.tests.all_minecart_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: Testing for Hopper Minecart  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_minecart_spots"}},{"text":" failed."}]
 scoreboard objectives remove do2.tests.all_minecart_spots
