@@ -11,11 +11,19 @@ scoreboard players set $dungeon do2.utility.shulkerPlayers 0
 tag TangoCam remove do2.received_shulker
 tag tangocam remove do2.received_shulker
 execute as @a[tag=do2.received_shulker] run scoreboard players add $dungeon do2.utility.shulkerPlayers 1
-execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @r[tag=do2.received_shulker] add do2.received_shulker.temp
-execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! Players: "},{"selector":"@a[tag=do2.received_shulker]","color":"dark_purple"},{"text":" §rHas the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
-execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @a[tag=do2.received_shulker] remove do2.received_shulker
-execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
-execute unless score $dungeon do2.utility.shulkerPlayers matches 1 run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
+# More than 1 players have the tag.
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @r[tag=do2.received_shulker] add do2.received_shulker.temp
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rPlayers: "},{"selector":"@a[tag=do2.received_shulker]","color":"dark_purple"},{"text":" §rHas the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker] remove do2.received_shulker
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
+# No players have the tag
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @r add do2.received_shulker.temp
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rNo players has the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n[§9B§r]: Automatically fixing this...\n[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
+
+
 
 # Join Players Bounds: (-565 118 1974) (-542 111 1985)
 execute as @a[x=-565,dx=23,y=111,dy=7,z=1974,dz=11] run team join do2.players @s
