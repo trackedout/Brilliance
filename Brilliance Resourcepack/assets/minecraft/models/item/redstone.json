@@ -146,7 +146,7 @@
 			"predicate": {
 				"custom_model_data": 1111134
 			},
-			"model": "minecraft:item/advancements/phases/phases/submit_100_tomes"
+			"model": "minecraft:item/advancements/phases/submit_100_tomes"
 		},
 		{
 			"predicate": {

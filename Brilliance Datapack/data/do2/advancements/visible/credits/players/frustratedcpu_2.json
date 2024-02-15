@@ -16,5 +16,5 @@
 			"trigger": "minecraft:impossible"
 		}
 	},
-	"parent": "do2:visible/credits/players/abalue_1"
+	"parent": "do2:visible/credits/datapack_stats"
 }

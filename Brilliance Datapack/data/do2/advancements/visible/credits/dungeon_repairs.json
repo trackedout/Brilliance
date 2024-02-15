@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:12}"
+		},
+		"title": "§2Dungeon Repairs",
+		"description": "§7Fixes to the dungeon, such as holes and broken redstone!",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/dungeon"
+}

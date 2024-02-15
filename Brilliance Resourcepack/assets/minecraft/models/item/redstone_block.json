@@ -66,6 +66,30 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 11
+			},
+			"model": "minecraft:item/advancements/credits/vanilla"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 12
+			},
+			"model": "minecraft:item/advancements/credits/repairs"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 13
+			},
+			"model": "minecraft:item/advancements/credits/optimization"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 14
+			},
+			"model": "minecraft:item/advancements/credits/organization"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 999
 			},
 			"model": "minecraft:item/advancements/credits/readme"

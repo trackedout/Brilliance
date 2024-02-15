@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2NjU2MTU2MiwKICAicHJvZmlsZUlkIiA6ICIxNzJiY2Y1MDk3MTA0YjM5YjlhZDdjZjdkOTFlYWJlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPb3N1aGtvaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZGZhYWEyZGI1OGQyMTVjNjlhZjYyYzI5ODgwNDU0MWYyYWY1OWMxOGQ0MTI5YWVkMzk3NTkxNDE4Nzg1ODZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"xcdtsUMmYv0SVViPld9kU/P9XgQBDm0DGK5APX1FoxBnFzUIDXCCXN7E7OvCHeXSENJbryO6ylH6ilml53WTgFuDsWzIYKIOqwd2pqNkxJxPsT/URylvbAmQPmCQVyU6CpN/58sZKR2BwZbxJRncrst1IEdFzVayStApn9Z1O5KEM3XSUpO0EuPQ18LThY8xt8XQ7YQya1ZFgxFwCdOSOp0CGkxD8eoEM9J5XnFmDT32E1P9pAd6y5HnNqVjUTuZpDVTxjKkzDCHLjnSNTd5EY+VW1Y+YgVBf2aYAGxgQDdYSaUy4Gq6Gfy7c8FXevoonUn/Ay5ICf5/U/ghpzfk9zHWMouX1n1ulz7znQ82wAWeHo1HOtAEIEM+u/NXy0no98b4ROOkv9Vmaa0JU3udRboqz4y1yYfQJYUup+ifpOdP381OlvZvoqq/0pIZjxKj0Vxp195mMTk2eNr54vGWQ86iBWVrP81bUveiCC73c2Ypdftvc6x8n1hRWDs1Ag7kX5yLrY3Mob7GqJUK+0kXM/Omtk2L56YFAmm1IlGbeR+zAZiOcTHIGNtSwx2m884lBOyakJ6n3eUInbhf7Qg3t/EOtS2IG9psJklTuyB0KfRqARqweuU7gIdc2xsP+GS0q4piqL+myda0YcX601RK+xJPhJbB1XIDUCNHQ9PA7tc=\"}]}, Id: [I; 388747088, -1760539847, -1179812617, -652301341], Name: \"Oosuhkoi\"}}"
+		},
+		"title": "§l§aOosuhkoi",
+		"description": "§7Got sidetracked enough to hyper focus on this.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/players/theta_line"
+}

@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:11}"
+		},
+		"title": "§9Vanilla Compatibility",
+		"description": "§7Using scoreboards and §o/playsound§r §7to remove the requirement of mods to play.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/credits/datapack"
+}
