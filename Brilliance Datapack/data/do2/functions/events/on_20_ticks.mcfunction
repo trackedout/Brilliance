@@ -21,8 +21,8 @@ function do2:mob_spawning/ensure_glow_squid_count
 # Ensure correct fish counts
 function do2:mob_spawning/ensure_fish_count
 
-# Kill all slimes
-execute as @e[type=minecraft:slime] at @s run tp @s ~ -200 ~
+# Kill all not allowed mobs.
+function do2:mob_spawning/kill_bad_mobs
 
 #Todo: better way to run this only while a player is ON level 2. (Maybe with a scoreboard?)
 # Test if cove dripstone is broken.
