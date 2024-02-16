@@ -166,7 +166,18 @@
 		"ember_dropper_coords": "-537 45 1948",
 		"treasure_facing": "up",
 		"ember_facing": "up",
-		"level": 1
+		"level": 1,
+		"default_treasure": [
+			"level_2_key",
+			"crown",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin",
+			"coin"
+		]
 	},
 	"11": {
 		"treasure_dropper_coords": "-490 50 2017",
