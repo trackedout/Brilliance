@@ -10,4 +10,4 @@ data modify block ~ ~ ~ Items append value {Slot: 3b, id: "minecraft:iron_nugget
 data modify block ~ ~ ~ Items append value {Slot: 4b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #6"}'}}, Count: 64b}
 data modify block ~ ~ ~ Items append value {Slot: 5b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #6"}'}}, Count: 64b}
 data modify block ~ ~ ~ Items append value {Slot: 6b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #6"}'}}, Count: 64b}
-data modify block ~ ~ ~ Items append value {Slot: 7b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #7"}'}}, Count: 64b}
+data modify block ~ ~ ~ Items append value {Slot: 7b, id: "minecraft:iron_nugget", tag: {RepairCost: 0, display: {Name: '{"text":"Dropper #6"}'}}, Count: 64b}
