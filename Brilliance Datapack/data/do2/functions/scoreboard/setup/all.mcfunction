@@ -44,6 +44,7 @@ scoreboard objectives add do2.utility.fishVariant dummy "Determines what the var
 scoreboard objectives add do2.utility.gui dummy "Scoreboard used by GUI replacement"
 scoreboard objectives add do2.utility.shulkerPlayers dummy "Count amount of players with do2.received_shulker tag"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
+scoreboard objectives add do2.utility.oldGamemode dummy "Player's gamemode when the dungeon started"
 # - Agronet's utility -
 scoreboard objectives add do2.agronet.card_availible dummy "The card ID of the card availible"
 scoreboard objectives add do2.agronet.card_played dummy "The card ID that the dungeon has played"

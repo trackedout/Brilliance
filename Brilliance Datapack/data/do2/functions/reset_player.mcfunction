@@ -1,3 +1,8 @@
+# - Start Log -
+tag @s add playerResetLogTarget
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting "},{"selector":"@p[tag=playerResetLogTarget]"},{"text":" gamemode, team, & tags."}]
+tag @s remove playerResetLogTarget
+
 # - Teleport players. -
 # If player is alive, teleport them right now.
 execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[team=do2.spectators,scores={do2.utility.deathCount=0}] unless entity @s[tag=do2.staff] run tp @s -526 114 1980
@@ -10,8 +15,16 @@ execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[scores
 execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[scores={do2.utility.deathCount=1..}] if entity @s[team=!do2.spectators] run tag @s add do2.respawnPlayerSpot
 
 # Proper gamemode
-execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] unless entity @s[tag=do2.staff] run gamemode survival
-execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode survival "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode survival @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=adventure] unless entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 0 run gamemode adventure @s
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 1 run gamemode survival @s
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=creative] unless entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 2 run gamemode creative @s
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 3 run gamemode spectator @s
+# If they are staff
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=adventure] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 0 run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode adventure "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode adventure @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 1 run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode survival "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode survival @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=creative] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 2 run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode creative "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode creative @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=spectator] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 3 run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode spectator "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}},{"text":" to run the command anyways."}]
+
 
 # Reset Team & Tags
 team leave @s

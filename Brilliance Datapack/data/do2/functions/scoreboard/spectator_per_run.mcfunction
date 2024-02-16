@@ -14,6 +14,12 @@ tag @s remove do2.running
 # - Join Spectating -
 tag @s add do2.spectating
 team join do2.spectators @s
+
+# Ensure gamemode
+execute if entity @s[gamemode=adventure] run scoreboard players set @s do2.utility.oldGamemode 0
+execute if entity @s[gamemode=survival] run scoreboard players set @s do2.utility.oldGamemode 2
+execute if entity @s[gamemode=creative] run scoreboard players set @s do2.utility.oldGamemode 3
+execute if entity @s[gamemode=spectator] run scoreboard players set @s do2.utility.oldGamemode 4
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] run gamemode spectator
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=creative] unless entity @s[gamemode=spectator] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode spectator "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}},{"text":" to run the command anyways."}]
 
