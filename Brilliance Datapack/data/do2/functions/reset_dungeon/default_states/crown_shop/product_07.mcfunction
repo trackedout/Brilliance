@@ -2,12 +2,12 @@
 setblock ~ ~ ~ minecraft:dropper[facing=south]{Items:[]}
 
 # Insert items. (ordered by slot)
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"2",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"2",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"2",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"3",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"3",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"3",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"4",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"l",1:"e",2:"v",3:"e",4:"l",5:"_",6:"4",7:"_",8:"k",9:"e",10:"y"}
-data modify block ~ ~ ~ Items append value {0:"f",1:"r",2:"o",3:"z",4:"e",5:"n",6:"_",7:"s",8:"h",9:"a",10:"r",11:"d"}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:201,display:{Name:'{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}},Count:64b,Slot:0b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:201,display:{Name:'{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}},Count:64b,Slot:1b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:201,display:{Name:'{"text":"❄☠ The Caves of Carnage Key ☠❄"}'}},Count:64b,Slot:2b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:203,display:{Name:'{"text":"❄☠ The Black Mines Key ☠❄"}'}},Count:64b,Slot:3b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:203,display:{Name:'{"text":"❄☠ The Black Mines Key ☠❄"}'}},Count:64b,Slot:4b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:203,display:{Name:'{"text":"❄☠ The Black Mines Key ☠❄"}'}},Count:64b,Slot:5b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:209,display:{Name:'{"text":"❄☠ The Burning Dark Key ☠❄"}'}},Count:64b,Slot:6b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{CustomModelData:209,display:{Name:'{"text":"❄☠ The Burning Dark Key ☠❄"}'}},Count:64b,Slot:7b}
+data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{NameFormat:{color:"#3ab3da",OriginalName:'{"color":"#3AB3DA","text":"❄☠ Frozen Shard ☠❄"}',ModifiedName:'{"color":"#3AB3DA","text":"❄☠ Frozen Shard ☠❄"}'},CustomRoleplayData:1b,CustomModelData:7,display:{Name:'{"color":"#3AB3DA","text":"❄☠ Frozen Shard ☠❄"}'}},Count:64b,Slot:8b}
