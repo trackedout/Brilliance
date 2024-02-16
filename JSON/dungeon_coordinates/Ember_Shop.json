@@ -28,7 +28,7 @@
 			"-633 -18 1994"
 		],
 		"default_products": "treasure_hunter",
-		"default_price": 7,
+		"default_price": 9,
 		"hopper_facing": "west",
 		"dropper_facing": "west"
 	},
@@ -39,7 +39,7 @@
 			"-633 -18 1995"
 		],
 		"default_products": "ember_seeker",
-		"default_price": 9,
+		"default_price": 10,
 		"hopper_facing": "west",
 		"dropper_facing": "west"
 	},
