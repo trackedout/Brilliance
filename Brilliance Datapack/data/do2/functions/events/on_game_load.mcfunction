@@ -24,6 +24,9 @@ execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tag @a[tag=
 execute if score $dungeon do2.utility.shulkerPlayers matches ..0 run tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp
 
 
+# Disable FastReset at first
+setblock -542 122 1966 minecraft:glass
+
 
 # Join Players Bounds: (-565 118 1974) (-542 111 1985)
 execute as @a[x=-565,dx=23,y=111,dy=7,z=1974,dz=11] run team join do2.players @s

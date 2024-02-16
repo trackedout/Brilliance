@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n                §aDisable Treasure on Max Clank\n\n§fThis config setting lets you enable/disable loot drops when a player reaches max clank.\n§lNotes§r:\n §o- Hermits had loot disabled on max clank for §b4§f/§b5 §fof §oDecked Out 2§f.\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]

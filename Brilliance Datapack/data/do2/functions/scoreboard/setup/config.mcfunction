@@ -47,13 +47,18 @@ execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboa
 scoreboard objectives add do2.config.fastReset dummy "Fast Dungeon Reset."
 execute unless score $dungeon do2.config.fastReset matches 0.. run scoreboard players set $dungeon do2.config.fastReset 0
 
-# Dungeon Config: Amount of bats in the dungeon. Default: 7 (FALSE)
+# Dungeon Config: Amount of bats in the dungeon. Default: 7
 scoreboard objectives add do2.config.amountOfBats dummy "Amount of Bats"
 execute unless score $dungeon do2.config.amountOfBats matches 0.. run scoreboard players set $dungeon do2.config.amountOfBats 7
 
-# Dungeon Config: Amount of fishes in the dungeon. Default: 10 (FALSE)
+# Dungeon Config: Amount of fishes in the dungeon. Default: 10
 scoreboard objectives add do2.config.amountOfFish dummy "Amount of Fishes"
 execute unless score $dungeon do2.config.amountOfFish matches 0.. run scoreboard players set $dungeon do2.config.amountOfFish 10
+
+# Dungeon Config: Whether to force the player's gamemode. Default: 1 (TRUE)
+scoreboard objectives add do2.config.forceGamemode dummy "Force player's gamemode"
+execute unless score $dungeon do2.config.forceGamemode matches 0.. run scoreboard players set $dungeon do2.config.forceGamemode 1
+
 
 # Dungeon Config: Balance Changes
 scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"

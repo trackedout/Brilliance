@@ -6,6 +6,10 @@ execute as @a[scores={do2.logs.gamestate=1..}] if score $dungeon do2.run.active 
 
 # called when no players are RUNNING the dungeon's instance. (all dead, all left)
 
+# Fast Reset
+execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block
+execute if score $dungeon do2.config.fastReset matches 0 run setblock -542 122 1966 minecraft:glass
+
 # Set Game to NOT be active.
 scoreboard players set $dungeon do2.run.active 0
 

@@ -12,46 +12,27 @@ data merge block -538 114 1956 {front_text:{messages:['{"text":"§bManually appl
 # Access to Logs
 setblock -538 115 1954 minecraft:oak_wall_sign[facing=east]
 data merge block -538 115 1954 {front_text:{messages:['{"text":"§aCustomize what"}','{"text":"§alogs you receive"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/receive_logs/documentation"}}']}}
-# Display Settings
-setblock -538 116 1958 minecraft:oak_wall_sign[facing=east]
-data merge block -538 116 1958 {front_text:{messages:['{"text":""}','{"text":"SETTINGS"}','{"text":"DISPLAYED"}','{"text":""}']}}
 
 # ====================
 # - SIGNS AND VALUES -
 # ====================
-
-# Balance Changes Config
-setblock -537 115 1952 minecraft:oak_wall_sign[facing=south]
-data merge block -537 115 1952 {front_text:{messages:['{"text":"§6Adjust"}','{"text":"§o§1Fresh Runs\'s"}','{"text":"§6Changes"}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/fresh_runs/display"}}']}}
-
-# Balance Changes Config
-setblock -533 115 1952 minecraft:oak_wall_sign[facing=south]
-data merge block -533 115 1952 {front_text:{messages:['{"text":"§6Adjust"}','{"text":"§o§3Tracked Out\'s"}','{"text":"§6Balance Changes"}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/balance_changes/display"}}']}}
-# Bats Amount Sign
-function do2:scoreboard/config/amount_of_bats_display
-# Egg Reward Sign.
-function do2:scoreboard/config/egg_reward_display
-# Endermite Display
-function do2:scoreboard/config/endermite_display
-# Random Night Display
-function do2:scoreboard/config/random_night_chance_display
+function do2:scoreboard/config/fresh_runs/sign
+function do2:scoreboard/config/balance_changes/sign
+function do2:scoreboard/config/amount_of_bats/sign
+function do2:scoreboard/config/egg_rewards/sign
+function do2:scoreboard/config/endermites/sign
+function do2:scoreboard/config/random_night_chance/sign
+function do2:scoreboard/config/tick_rate/sign
 
 # ==================
 # - BOOLEAN LEVERS -
 # ==================
 
-# Dungeon Resets Faster
-setblock -527 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -527 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":"Dungeon Resets"}','{"text":"Faster"}','{"text":""}']}}
-# Disable Treasure on Max Clank
-setblock -529 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -529 116 1960 {front_text:{has_glowing_text:1b,color:"light_blue",messages:['{"text":""}','{"text":"§bDisable Treasure"}','{"text":"§bon §oMAX §r§bclank"}','{"text":""}']}}
-# Use L1 & L2 Zones
-setblock -533 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -533 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":""}','{"text":"Level 1 §b&","color":"#d9a334"}','{"text":"Level 2","color":"#fe3f3f"}','{"text":"Zones"}']}}
-# Use L4 Zones
-setblock -535 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -535 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":""}','{"text":"Level 4","color":"#be00be"}','{"text":"Zones"}']}}
-# Bats Distract Wardens
-setblock -537 116 1960 minecraft:oak_wall_sign[facing=north]
-data merge block -537 116 1960 {front_text:{has_glowing_text:1b,color:"cyan",messages:['{"text":"","color":""}','{"text":"Bats"}','{"text":"Distract Wardens"}','{"text":""}']}}
+function do2:scoreboard/config/boolean_levers/update_scores
+function do2:scoreboard/config/boolean_levers/better_vex/sign
+function do2:scoreboard/config/boolean_levers/fast_reset/sign
+function do2:scoreboard/config/boolean_levers/disable_treasure/sign
+function do2:scoreboard/config/boolean_levers/force_gamemode/sign
+function do2:scoreboard/config/boolean_levers/ravager_zones/sign
+function do2:scoreboard/config/boolean_levers/warden_zones/sign
+function do2:scoreboard/config/boolean_levers/bats_distraction/sign

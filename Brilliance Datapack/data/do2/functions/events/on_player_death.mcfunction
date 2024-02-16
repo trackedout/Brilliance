@@ -11,8 +11,8 @@ scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds
 
 # join the ghosts
 team join do2.ghosts @s
-execute unless entity @s[tag=do2.staff] run gamemode spectator
-execute if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode spectator "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[tag=do2.staff] run gamemode spectator
+execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode spectator "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}},{"text":" to run the command anyways."}]
 
 # player no longer running
 tag @s remove do2.running
