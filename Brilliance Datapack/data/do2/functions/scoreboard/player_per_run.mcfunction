@@ -20,9 +20,9 @@ scoreboard players set @s do2.utility.reachedBottomDepthCharge 0
 
 # Ensure Gamemode
 execute if entity @s[gamemode=adventure] run scoreboard players set @s do2.utility.oldGamemode 0
-execute if entity @s[gamemode=survival] run scoreboard players set @s do2.utility.oldGamemode 2
-execute if entity @s[gamemode=creative] run scoreboard players set @s do2.utility.oldGamemode 3
-execute if entity @s[gamemode=spectator] run scoreboard players set @s do2.utility.oldGamemode 4
+execute if entity @s[gamemode=survival] run scoreboard players set @s do2.utility.oldGamemode 1
+execute if entity @s[gamemode=creative] run scoreboard players set @s do2.utility.oldGamemode 2
+execute if entity @s[gamemode=spectator] run scoreboard players set @s do2.utility.oldGamemode 3
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] unless entity @s[tag=do2.staff] run gamemode adventure
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode adventure "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode adventure @s"}},{"text":" to run the command anyways."}]
 
