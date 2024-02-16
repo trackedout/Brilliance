@@ -17,9 +17,10 @@ execute unless entity @e[type=minecraft:witch,tag=OneEyed] run summon minecraft:
 # Prevent blocks placed on difficulty lamps.
 summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
 
+# Prevent animation armor stands from being edited.
+summon minecraft:interaction -545 113 1980 {width: 1, height: 2, Tags:["as_blocker"]}
+summon minecraft:interaction -544 113 1980 {width: 1, height: 2, Tags:["as_blocker"]}
+
+
 # TangoCam (just in case)
-scoreboard objectives add do2.temp.doesTangoCamExist dummy
-execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute unless score $dungeon do2.temp.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon/summon_tangocam
-scoreboard objectives remove do2.temp.doesTangoCamExist
+execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:dungeon_setup/summon/summon_tangocam
