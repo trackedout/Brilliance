@@ -187,9 +187,9 @@
 		"level": 1,
 		"default_treasure": [
 			"level_2_key",
-			"crown",
-			"coin",
-			"coin",
+			"level_2_key",
+			"level_2_key",
+			"level_2_key",
 			"coin",
 			"coin",
 			"coin",
