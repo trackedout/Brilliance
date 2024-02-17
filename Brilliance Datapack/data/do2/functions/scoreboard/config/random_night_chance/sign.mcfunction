@@ -1,5 +1,5 @@
 # if ever ran manually, player receives this:
-tellraw @s ["",{"text":"§fSet config [§8Random Night Chance§f] to: "},{"color":"light_blue","score":{"name":"$dungeon","objective":"do2.config.nightTimeChance"}},{"text":"§b%"}]
+tellraw @s ["",{"text":"§fSet config [§8Random Night Chance§f] to: "},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.config.nightTimeChance"}},{"text":"§b%"}]
 
 setblock -527 115 1952 oak_wall_sign[facing=south]
 execute if score $dungeon do2.config.nightTimeChance matches ..0 run scoreboard players set $dungeon do2.config.nightTimeChance 0

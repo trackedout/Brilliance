@@ -1,5 +1,5 @@
 # if ever ran manually, player receives this:
-tellraw @s ["",{"text":"§fSet config [§fAmount of Bats§f] to: "},{"color":"light_blue","score":{"name":"$dungeon","objective":"do2.config.amountOfBats"}}]
+tellraw @s ["",{"text":"§fSet config [§fAmount of Bats§f] to: "},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.config.amountOfBats"}}]
 
 setblock -531 115 1952 minecraft:oak_wall_sign[facing=south]
 

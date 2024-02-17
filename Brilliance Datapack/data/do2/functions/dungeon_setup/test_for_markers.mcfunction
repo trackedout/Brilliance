@@ -39,7 +39,7 @@ execute unless entity @e[type=minecraft:marker,tag=L4Z3] run scoreboard players 
 # Easter Egg Markers
 execute unless entity @e[type=minecraft:armor_stand,tag=do2.egg_hunt.is_hitbox] run function do2:egg_hunt/spawn_egg_hitboxes
 
-execute unless score $dungeon do2.tests.all_markers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Teleport Marker §b#"},{"color":"light_blue","score":{"name":"$dungeon","objective":"do2.tests.all_markers_alive"}}]
+execute unless score $dungeon do2.tests.all_markers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Teleport Marker §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_markers_alive"}}]
 execute unless score $dungeon do2.tests.all_markers_alive matches 0 run function do2:dungeon_setup/summon/markers
 scoreboard objectives remove do2.tests.all_markers_alive
 
