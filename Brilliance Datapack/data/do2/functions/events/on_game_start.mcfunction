@@ -14,9 +14,6 @@ scoreboard objectives setdisplay sidebar
 # Replay Mod
 function do2:replay_mod/start
 
-# AGRONET
-function do2:agronet/game_start
-
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
 execute store result score $dungeon do2.run.players run tag @a[team=do2.players] add do2.running
 
