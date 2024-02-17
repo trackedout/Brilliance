@@ -1,0 +1,3 @@
+function do2:reset_dungeon/commands/reset/reset_crown_shop_to_default
+function do2:reset_dungeon/commands/reset/reset_ember_shop_to_default
+function do2:reset_dungeon/commands/reset/reset_dungeon_to_default
