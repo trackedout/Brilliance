@@ -32,3 +32,5 @@ tag @s remove do2.won
 tag @s remove do2.running
 tag @s remove do2.spectating
 tag @s remove do2.ghost
+
+scoreboard players set @s do2.run.has_died 0
