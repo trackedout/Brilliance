@@ -35,9 +35,9 @@ execute as @a[x=-565,dx=23,y=111,dy=7,z=1974,dz=11] run team join do2.players @s
 execute as @a[team=!do2.players] run team join do2.spectators @s
 execute as @a[team=do2.spectators] run function do2:scoreboard/spectator_per_run
 
-
-
+# Fast Reset
 execute if score $dungeon do2.config.fastReset matches 1 run function do2:dungeon_setup/fast_reset
+setblock -542 122 1966 minecraft:glass
 
 scoreboard players set $dungeon do2.utility.dungeonRepair 1
 scoreboard players set $dungeon do2.run.players 0
