@@ -6,7 +6,7 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]:
 execute as @a unless score @s do2.utility.trackLeaves matches 0 at @s run function do2:events/on_player_join
 
 # call on player death when running do2
-execute as @a[tag=do2.running, scores={do2.run.has_died=1}] run function do2:events/on_player_death
+execute as @a[team=do2.players, scores={do2.run.has_died=1}] run function do2:events/on_player_death
 
 # Check if player has respawned
 execute as @e[type=player,scores={do2.utility.deathCount=1..}] run function do2:events/on_player_respawned
