@@ -1,6 +1,7 @@
 # Other TODO:
 - on_player_won
   - Track tomes, crowns, artifakes using event /add-item
+- Add a /tellraw to teleport player's back to dropper room upon clicking sign.
 - Make a copy of credits to:
   - Remove all references to Tracked Out
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
