@@ -1,4 +1,5 @@
 # Other TODO:
+- Fresh_Runs reset cake in death room
 - on_player_won
   - Track tomes, crowns, artifakes using event /add-item
 - Add a /tellraw to teleport player's back to dropper room upon clicking sign.

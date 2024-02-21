@@ -600,14 +600,14 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'",
-				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'"
+				"OriginalName": "'{\"text\":\"=✲ Dungeon Lackey ✲=\"}'",
+				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
 			},
 			"display": {
-				"Name": "'{\"color\":\"#FED83D\",\"text\":\"≡✲ Dungeon Lackey ✲≡\"}'"
+				"Name": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
 			},
 			"CustomRoleplayData": "1b",
-			"RepairCost": "0b",
+			"RepairCost": "0",
 			"CustomModelData": 141,
 			"tracked": "0b"
 		}
