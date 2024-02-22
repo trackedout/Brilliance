@@ -57,11 +57,6 @@ execute unless block -575 7 2014 minecraft:lodestone run scoreboard players set 
 execute unless block -586 -11 1917 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 47
 execute unless block -600 -1 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 48
 execute unless block -623 -1 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 49
-execute unless block -633 -11 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots
-execute unless block -575 7 2014 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 46
-execute unless block -586 -11 1917 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 47
-execute unless block -600 -1 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 48
-execute unless block -623 -1 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 49
 execute unless block -633 -11 1890 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 50
 execute unless block -651 -1 1914 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 51
 execute unless block -604 -11 1912 minecraft:lodestone run scoreboard players set $dungeon do2.tests.all_lodestone_spots 52
@@ -182,5 +177,5 @@ execute positioned -637 -51 1877 unless entity @e[type=minecraft:hopper_minecart
 execute positioned -590 -51 1866 unless entity @e[type=minecraft:hopper_minecart,distance=..1] run scoreboard players set $dungeon do2.tests.all_minecart_spots 79
 execute positioned -570 -51 1855 unless entity @e[type=minecraft:hopper_minecart,distance=..1] run scoreboard players set $dungeon do2.tests.all_minecart_spots 80
 
-execute unless score $dungeon do2.tests.all_minecart_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: Testing for Hopper Minecart  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_minecart_spots"}},{"text":" failed."}]
+execute unless score $dungeon do2.tests.all_minecart_spots matches 0 run tellraw @a ["",{"text":"[§9B§r]: w  §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_minecart_spots"}},{"text":" failed."}]
 scoreboard objectives remove do2.tests.all_minecart_spots
