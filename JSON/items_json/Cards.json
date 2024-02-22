@@ -607,7 +607,7 @@
 				"Name": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
 			},
 			"CustomRoleplayData": "1b",
-			"RepairCost": "0",
+			"RepairCost": 0,
 			"CustomModelData": 141,
 			"tracked": "0b"
 		}
