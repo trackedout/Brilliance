@@ -2,7 +2,7 @@
 execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers to dungeon."}]
 # - End Log -
 
-# - copy FROM dropper room(all droppers) TO dungeon -
+# - copy FROM dropper room TO dungeon -
 
 
 # Difficulty Selector
@@ -157,13 +157,13 @@ clone -467 114 1973 -467 114 1973 -590 -51 1899 replace
 clone -467 114 1974 -467 114 1974 -574 -48 1910 replace
 clone -467 114 1975 -467 114 1975 -623 -52 1856 replace
 clone -467 114 1976 -467 114 1976 -607 -51 1863 replace
-clone -467 114 1977 -467 114 1977 -600 -51 1851 replace
+clone -467 114 1977 -467 114 1977 -600 -51 1852 replace
 clone -467 114 1978 -467 114 1978 -623 -54 1842 replace
 clone -466 114 1971 -466 114 1971 -599 -51 1842 replace
 clone -466 114 1972 -466 114 1972 -591 -51 1870 replace
 clone -466 114 1973 -466 114 1973 -569 -51 1884 replace
 clone -466 114 1974 -466 114 1974 -568 -51 1878 replace
-clone -466 114 1975 -466 114 1975 -636 -56 1842 replace
+clone -466 114 1975 -466 114 1975 -636 -56 1841 replace
 clone -466 114 1976 -466 114 1976 -635 -51 1877 replace
 clone -466 114 1977 -466 114 1977 -590 -51 1864 replace
 clone -466 114 1978 -466 114 1978 -570 -51 1853 replace
