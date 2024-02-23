@@ -78,6 +78,8 @@ scoreboard objectives add do2.config.fr.refillBerries dummy "Refill Berry Bushes
 execute unless score $dungeon do2.config.fr.refillBerries matches 0.. run scoreboard players set $dungeon do2.config.fr.refillBerries 1
 scoreboard objectives add do2.config.fr.resetComposters dummy "Reset Composters."
 execute unless score $dungeon do2.config.fr.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.fr.resetComposters 1
+scoreboard objectives add do2.config.fr.cakeGauntlet dummy "Reset Cake at Gauntlet."
+execute unless score $dungeon do2.config.fr.cakeGauntlet matches 0.. run scoreboard players set $dungeon do2.config.fr.cakeGauntlet 1
 
 
 # READ/WRITE Config: When to refill dungeon

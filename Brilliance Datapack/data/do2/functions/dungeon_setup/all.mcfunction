@@ -9,6 +9,7 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 0
 
 function do2:dungeon_setup/refill/all
 execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
+execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618 -47 1988 cake[bites=0]
 function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_other_killers

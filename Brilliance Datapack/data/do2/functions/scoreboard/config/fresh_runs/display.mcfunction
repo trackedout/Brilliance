@@ -2,6 +2,8 @@ tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n
 
 function do2:scoreboard/config/fresh_runs/teleport_killers
 function do2:scoreboard/config/fresh_runs/refill_berries
+function do2:scoreboard/config/fresh_runs/cake_gauntlet
 function do2:scoreboard/config/fresh_runs/reset_composters
+
 
 tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
