@@ -719,7 +719,7 @@
 	"71": {
 		"difficulty": "deepfrost",
 		"level": "4",
-		"dropper_coords": "-600 -51 1851",
+		"dropper_coords": "-600 -51 1852",
 		"lodestone_coords":"-602 -53 1851",
 		"minecart_coords": "-602 -51 1851",
 		"artifacts": [
@@ -779,7 +779,7 @@
 	"77": {
 		"difficulty": "deepfrost",
 		"level": "4",
-		"dropper_coords": "-636 -56 1842",
+		"dropper_coords": "-636 -56 1841",
 		"lodestone_coords":"-638 -58 1842",
 		"minecart_coords": "-638 -56 1842",
 		"artifacts": [

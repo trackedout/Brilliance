@@ -1,8 +1,9 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers in dropper room."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers/hoppers in dungeon."}]
 # - End Log -
 
-# Set droppers IN dropper room to their DEFAULT state.
+# - Set droppers IN dungeon to their DEFAULT state. -
+
 
 # Difficulty Selector
 execute positioned -557 109 1982 run function do2:reset_dungeon/default_states/difficulty/easy
@@ -218,20 +219,20 @@ execute positioned -590 -51 1899 run function do2:reset_dungeon/default_states/a
 execute positioned -574 -48 1910 run function do2:reset_dungeon/default_states/artifacts/68
 execute positioned -623 -52 1856 run function do2:reset_dungeon/default_states/artifacts/69
 execute positioned -607 -51 1863 run function do2:reset_dungeon/default_states/artifacts/70
-execute positioned -600 -51 1851 run function do2:reset_dungeon/default_states/artifacts/71
+execute positioned -600 -51 1852 run function do2:reset_dungeon/default_states/artifacts/71
 execute positioned -623 -54 1842 run function do2:reset_dungeon/default_states/artifacts/72
 execute positioned -599 -51 1842 run function do2:reset_dungeon/default_states/artifacts/73
 execute positioned -591 -51 1870 run function do2:reset_dungeon/default_states/artifacts/74
 execute positioned -569 -51 1884 run function do2:reset_dungeon/default_states/artifacts/75
 execute positioned -568 -51 1878 run function do2:reset_dungeon/default_states/artifacts/76
-execute positioned -636 -56 1842 run function do2:reset_dungeon/default_states/artifacts/77
+execute positioned -636 -56 1841 run function do2:reset_dungeon/default_states/artifacts/77
 execute positioned -635 -51 1877 run function do2:reset_dungeon/default_states/artifacts/78
 execute positioned -590 -51 1864 run function do2:reset_dungeon/default_states/artifacts/79
 execute positioned -570 -51 1853 run function do2:reset_dungeon/default_states/artifacts/80
 
-# Misc
+# Other
+execute positioned -518 2 2007 run function do2:reset_dungeon/default_states/misc/rusty_repair_loot
 execute positioned -523 12 2042 run function do2:reset_dungeon/default_states/misc/halloween_hut_loot
 execute positioned -574 39 1985 run function do2:reset_dungeon/default_states/misc/pirates_bounty
-execute positioned -518 2 2007 run function do2:reset_dungeon/default_states/misc/rusty_repair_loot
 execute positioned -578 15 1968 run function do2:reset_dungeon/default_states/misc/tnt_dive_common_loot
 execute positioned -578 15 1970 run function do2:reset_dungeon/default_states/misc/tnt_dive_rare_loot

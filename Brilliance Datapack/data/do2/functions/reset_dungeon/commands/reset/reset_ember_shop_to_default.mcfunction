@@ -2,8 +2,10 @@
 execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers/hoppers in ember shop."}]
 # - End Log -
 
-# Ember Shop
-# Products
+# - Set droppers IN ember shop to their DEFAULT state. -
+
+
+# Ember Shop Products
 execute positioned -630 -20 1992 run function do2:reset_dungeon/default_states/ember_shop/product_01
 execute positioned -630 -20 1993 run function do2:reset_dungeon/default_states/ember_shop/product_02
 execute positioned -630 -20 1994 run function do2:reset_dungeon/default_states/ember_shop/product_03
@@ -50,7 +52,8 @@ execute positioned -644 -20 2011 run function do2:reset_dungeon/default_states/e
 execute positioned -644 -20 2012 run function do2:reset_dungeon/default_states/ember_shop/product_44
 execute positioned -644 -20 2013 run function do2:reset_dungeon/default_states/ember_shop/product_45
 execute positioned -644 -20 2014 run function do2:reset_dungeon/default_states/ember_shop/product_46
-# Prices
+
+# Ember Shop Prices
 execute positioned -632 -18 1992 run function do2:reset_dungeon/default_states/ember_shop/price_01
 execute positioned -633 -18 1992 run function do2:reset_dungeon/default_states/ember_shop/other_price_01
 execute positioned -632 -18 1993 run function do2:reset_dungeon/default_states/ember_shop/price_02

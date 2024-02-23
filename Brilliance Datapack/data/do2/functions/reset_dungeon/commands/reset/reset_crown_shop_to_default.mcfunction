@@ -2,7 +2,10 @@
 execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers/hoppers in crown shop."}]
 # - End Log -
 
-# Crown Shop's Products
+# - Set droppers IN crown shop to their DEFAULT state. -
+
+
+# Crown Shop Products
 execute positioned -509 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_01
 execute positioned -508 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_02
 execute positioned -507 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_03
@@ -16,9 +19,10 @@ execute positioned -500 104 1972 run function do2:reset_dungeon/default_states/c
 execute positioned -499 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_11
 execute positioned -498 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_12
 execute positioned -497 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_13
+execute positioned -493 102 1972 run function do2:reset_dungeon/default_states/crown_shop/product_13_p2
 execute positioned -496 104 1972 run function do2:reset_dungeon/default_states/crown_shop/product_14
 
-# Crown Shop's Prices
+# Crown Shop Prices
 execute positioned -509 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_01
 execute positioned -509 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_01
 execute positioned -508 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_02
@@ -45,6 +49,5 @@ execute positioned -498 106 1975 run function do2:reset_dungeon/default_states/c
 execute positioned -498 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_12
 execute positioned -497 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_13
 execute positioned -497 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_13
-execute positioned -463 114 1979 run function do2:reset_dungeon/default_states/crown_shop/product_13_p2
 execute positioned -496 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_14
 execute positioned -496 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_14
