@@ -13,6 +13,10 @@ scoreboard objectives add do2.utility.gui dummy "Scoreboard used by GUI replacem
 scoreboard objectives add do2.utility.shulkerPlayers dummy "Count amount of players with do2.received_shulker tag"
 scoreboard objectives add do2.utility.trackLeaves minecraft.custom:minecraft.leave_game "Player Left Game"
 scoreboard objectives add do2.utility.oldGamemode dummy "Player's gamemode when the dungeon started"
+scoreboard objectives add do2.utility.old_position.x dummy "Player's X old location"
+scoreboard objectives add do2.utility.old_position.y dummy "Player's Y old location"
+scoreboard objectives add do2.utility.old_position.z dummy "Player's Z old location"
+scoreboard objectives add do2.utility.old_position.temp dummy "Player's old location temp"
 
 
 # - Cycle Items utility -
