@@ -1,4 +1,4 @@
-execute unless entity @s[tag=dropper_teleporting_allowed] run return 0
+execute unless entity @s[tag=do2.dropper_dev] run return 0
 
 # Store player's location
 data modify storage do2:player position set from entity @s Pos
