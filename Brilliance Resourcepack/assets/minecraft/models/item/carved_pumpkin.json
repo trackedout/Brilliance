@@ -55,6 +55,7 @@
 		{ "predicate": {"custom_model_data": 93}, "model": "do2:item/deckedoutgifts/deathroomtrophy"},
 		{ "predicate": {"custom_model_data": 94}, "model": "do2:item/ravager_running"},
 		{ "predicate": {"custom_model_data": 95}, "model": "do2:item/ravager_all_head"},
+		{ "predicate": {"custom_model_data": 96}, "model": "do2:item/ravager_model"},
 		{ "predicate": {"custom_model_data": 97}, "model": "do2:item/yeti/yeti"},
 		{ "predicate": {"custom_model_data": 98}, "model": "do2:item/deckedoutgifts/egg_hunter"},
 		{ "predicate": {"custom_model_data": 99}, "model": "do2:item/crown/riddlecrown"},
