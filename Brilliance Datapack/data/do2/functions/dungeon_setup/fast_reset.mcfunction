@@ -8,4 +8,4 @@ execute as @e[type=item,x=-605,dx=161,y=-8,dy=32,z=1927,dz=145] run kill @s
 # Level 3 & 4 | Bounding box 4: (-667 -64 1828, -511 18 1938)
 execute as @e[type=item,x=-667,dx=156,y=-64,dy=82,z=1828,dz=110] run kill @s
 # Ember Shop |  Bounding box 5: (-662 -3 1944, -614 -60 2027)
-execute as @e[type=item,x=-662,dx=48,y=-60,dy=57,z=1944,dz=83]
+execute as @e[type=item,x=-662,dx=48,y=-60,dy=57,z=1944,dz=83] run kill @s
