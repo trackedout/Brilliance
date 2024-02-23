@@ -7,9 +7,9 @@ tag @s remove respawnLogTarget
 # - End Log -
 
 execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnSpectatorSpot] unless entity @s[tag=do2.staff] run tp @s -526 114 1980
-execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnPlayerSpot] unless entity @s[tag=do2.staff] run tp @s -550 113 1982
+execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnPlayerSpot] unless entity @s[tag=do2.staff] unless entity @s[x=-552,dx=8,y=111,dy=4,z=1977,dz=6] run tp @s -550 113 1982
 execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnSpectatorSpot] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5tp "},{"selector":"@s","color":"dark_purple"},{"text":"§5-526 114 1980\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/tp @s -526 114 1980"}},{"text":" to run the command anyways."}]
-execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnPlayerSpot] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5tp "},{"selector":"@s","color":"dark_purple"},{"text":"§5-550 113 1982\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/tp @s -550 113 1982"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 if entity @s[tag=do2.respawnPlayerSpot] if entity @s[tag=do2.staff] unless entity @s[x=-552,dx=8,y=111,dy=4,z=1977,dz=6] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5tp "},{"selector":"@s","color":"dark_purple"},{"text":"§5-550 113 1982\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/tp @s -550 113 1982"}},{"text":" to run the command anyways."}]
 
 # Reset deathCount
 scoreboard players set @s do2.utility.deathCount 0
