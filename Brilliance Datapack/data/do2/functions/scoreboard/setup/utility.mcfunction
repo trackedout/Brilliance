@@ -17,6 +17,9 @@ scoreboard objectives add do2.utility.old_position.x dummy "Player's X old locat
 scoreboard objectives add do2.utility.old_position.y dummy "Player's Y old location"
 scoreboard objectives add do2.utility.old_position.z dummy "Player's Z old location"
 scoreboard objectives add do2.utility.old_position.temp dummy "Player's old location temp"
+scoreboard objectives add do2.utility.totalCrowns dummy "Counts player's crowns & coins"
+scoreboard objectives add do2.utility.coinsPerCrown dummy "for scoreboard operations"
+execute unless score $dungeon do2.utility.coinsPerCrown matches 0.. run scoreboard players set $dungeon do2.utility.coinsPerCrown 4
 
 
 # - Cycle Items utility -
