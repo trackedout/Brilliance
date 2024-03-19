@@ -905,5 +905,55 @@
                 "name": "do2:ambient/hi_cleo"
             }
         ]
+    },
+    "misc.lobby_grian": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/grian_tnt"
+            }
+        ]
+    },
+    "misc.ice_platform": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/grian_tnt"
+            },
+            {
+                "name": "do2:misc/shut_up"
+            },
+            {
+                "name": "do2:misc/tango_hotguy_1"
+            },
+            {
+                "name": "do2:misc/tango_hotguy_2"
+            },
+            {
+                "name": "do2:misc/speak_when_spoken_to"
+            },
+            {
+                "name": "do2:misc/whats_up_shorty"
+            },
+            {
+                "name": "do2:misc/flee_with_extra_flee"
+            }
+        ]
+    },
+    "misc.cast_exit": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/no"
+            }
+        ]
+    },
+    "misc.museum": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/decked_out_voice"
+            }
+        ]
     }
 }
