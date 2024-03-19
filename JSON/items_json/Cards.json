@@ -39,7 +39,7 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"✲≡ Pork Chop Power ≡✲\"}'",
+				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'",
 				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
 			},
 			"CustomRoleplayData": "1b",
@@ -56,7 +56,7 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"✲≡ Tactical Approach ≡✲\"}'",
+				"OriginalName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'",
 				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
 			},
 			"CustomRoleplayData": "1b",
