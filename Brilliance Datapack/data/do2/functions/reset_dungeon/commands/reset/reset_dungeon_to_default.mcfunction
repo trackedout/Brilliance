@@ -30,7 +30,7 @@ execute positioned -521 35 1982 run function do2:reset_dungeon/default_states/tr
 execute positioned -497 51 1980 run function do2:reset_dungeon/default_states/treasure/03
 execute positioned -484 53 1989 run function do2:reset_dungeon/default_states/treasure/04
 execute positioned -514 51 1962 run function do2:reset_dungeon/default_states/treasure/05
-execute positioned -527 51 1973 run function do2:reset_dungeon/default_states/treasure/06
+execute positioned -527 51 1974 run function do2:reset_dungeon/default_states/treasure/06
 execute positioned -546 51 2008 run function do2:reset_dungeon/default_states/treasure/07
 execute positioned -516 46 2031 run function do2:reset_dungeon/default_states/treasure/08
 execute positioned -561 47 1942 run function do2:reset_dungeon/default_states/treasure/09
@@ -92,7 +92,7 @@ execute positioned -521 35 1981 run function do2:reset_dungeon/default_states/em
 execute positioned -498 51 1980 run function do2:reset_dungeon/default_states/embers/03
 execute positioned -484 53 1988 run function do2:reset_dungeon/default_states/embers/04
 execute positioned -513 51 1962 run function do2:reset_dungeon/default_states/embers/05
-execute positioned -527 51 1974 run function do2:reset_dungeon/default_states/embers/06
+execute positioned -527 51 1975 run function do2:reset_dungeon/default_states/embers/06
 execute positioned -545 51 2008 run function do2:reset_dungeon/default_states/embers/07
 execute positioned -515 46 2031 run function do2:reset_dungeon/default_states/embers/08
 execute positioned -560 47 1942 run function do2:reset_dungeon/default_states/embers/09

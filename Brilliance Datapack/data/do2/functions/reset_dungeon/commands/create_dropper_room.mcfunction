@@ -76,7 +76,7 @@ setblock -475 114 1963 yellow_stained_glass keep
 setblock -475 115 1963 oak_sign[rotation=8]{front_text:{messages:['{"text":"Treasure","color":"#FFFF00"}','{"text":"Dropper","color":"#FFFF00"}','{"text":"","color":""}','{"text":"#05","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -514 51 1962 run function do2:reset_dungeon/commands/dropper_room/teleport_away"}}']},is_waxed:1b} replace
 setblock -475 115 1964 air replace
 setblock -475 114 1964 yellow_stained_glass keep
-setblock -475 115 1964 oak_sign[rotation=8]{front_text:{messages:['{"text":"Treasure","color":"#FFFF00"}','{"text":"Dropper","color":"#FFFF00"}','{"text":"","color":""}','{"text":"#06","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -527 51 1973 run function do2:reset_dungeon/commands/dropper_room/teleport_away"}}']},is_waxed:1b} replace
+setblock -475 115 1964 oak_sign[rotation=8]{front_text:{messages:['{"text":"Treasure","color":"#FFFF00"}','{"text":"Dropper","color":"#FFFF00"}','{"text":"","color":""}','{"text":"#06","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -527 51 1974 run function do2:reset_dungeon/commands/dropper_room/teleport_away"}}']},is_waxed:1b} replace
 setblock -475 115 1965 air replace
 setblock -475 114 1965 yellow_stained_glass keep
 setblock -475 115 1965 oak_sign[rotation=8]{front_text:{messages:['{"text":"Treasure","color":"#FFFF00"}','{"text":"Dropper","color":"#FFFF00"}','{"text":"","color":""}','{"text":"#07","color":"#00FFFF","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -546 51 2008 run function do2:reset_dungeon/commands/dropper_room/teleport_away"}}']},is_waxed:1b} replace
