@@ -12,7 +12,7 @@ execute unless entity @e[type=minecraft:axolotl,tag=AXO_4] run summon minecraft:
 execute unless entity @e[type=minecraft:sheep,tag=NO_TOUCH] run summon minecraft:sheep -600 137 1938 {Tags: ["NO_TOUCH"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Leash: {X: -600, Y: 145, Z: 1938}, Health: 8.0f, Color: 6b, Air: 300s, OnGround: 0b, Fire: -1s}
 
 # Witch named One-Eyed-Willy
-execute unless entity @e[type=minecraft:witch,tag=OneEyed] run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed-Willy"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 26.0f, Fire: -1s}
+execute unless entity @e[type=minecraft:witch,tag=OneEyed] run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed Willy"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 26.0f, Fire: -1s}
 
 # Prevent blocks placed on difficulty lamps.
 summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
