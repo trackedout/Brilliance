@@ -4,5 +4,6 @@ function do2:scoreboard/config/balance_changes/display/first_time_finders
 function do2:scoreboard/config/balance_changes/display/new_snow_hazard
 function do2:scoreboard/config/balance_changes/display/balanced_tnt_dive
 function do2:scoreboard/config/balance_changes/display/ship_treasure_line
+function do2:scoreboard/config/balance_changes/display/less_loot_max_clank
 
 tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
