@@ -1,3 +1,4 @@
 {
-	"death.attack.sonic_boom": "%1$s was obliterated by a sonically-charged shriek from %2$s"
+	"death.attack.sonic_boom": "%1$s was obliterated by a sonically-charged shriek from %2$s",
+	"record.nowPlaying": ""
 }
