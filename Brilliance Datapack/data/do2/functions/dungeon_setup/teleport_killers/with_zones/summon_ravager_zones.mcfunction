@@ -36,6 +36,6 @@ setblock -573 10 1953 minecraft:air
 setblock -563 14 1946 minecraft:pointed_dripstone
 setblock -563 15 1946 minecraft:pointed_dripstone
 setblock -565 14 1949 minecraft:pointed_dripstone
-setblock -564 15 1949 minecraft:pointed_dripstone
+setblock -564 15 1949 minecraft:pointed_dripstone[vertical_direction=down]
 
 setblock -580 14 1953 minecraft:air
