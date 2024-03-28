@@ -955,5 +955,13 @@
                 "name": "do2:misc/decked_out_voice"
             }
         ]
+    },
+    "misc.button": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/thats_joe_hills"
+            }
+        ]
     }
 }
