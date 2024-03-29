@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;-525333908,-155889674,-1947879920,-892225980],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc1MTNhNTg3ZDA3NWYxNDc1YjExODE4NzRkMGRkNzdlY2NlZTM2OTBiOWNiZjAyNGFkNmI4ODVmYzNmYWE1NyJ9fX0=\"}]}}}"
+        },
+        "title": "§4§kLobby§r§4 Design               ",
+        "description": "§7Designing a space for §khundreds of people to store their decks and wait to§r§7 play the dungeon.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "frame": "goal",
+    "parent": "do2:visible/credits/admin"
+}

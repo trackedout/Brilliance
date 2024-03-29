@@ -1,0 +1,584 @@
+{
+	"people": {
+		"4ply": {
+			"shorthand": "4ply",
+			"head": "{SkullOwner: {Id: [I; 603893056, 638996241, -1914657679, -1917160616], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NjI1MTcyNSwKICAicHJvZmlsZUlkIiA6ICIyM2ZlYWQ0MDI2MTY0ZjExOGRlMGE0NzE4ZGJhNzM1OCIsCiAgInByb2ZpbGVOYW1lIiA6ICI0UGx5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U0NTg1ZWJmYjFlMzAzNzI5MDc4ZWU3NGZmYTQwNjIwMzZkY2FlMjczNWQ3YWJiN2I2YWZkMTQ3YjJjMGI5ZWMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9\", Signature: \"Spmo/dV9UGEkB/CG/XmGJfCV7o95JpqKlFGJrVhpPZBKa8rXRA9OFVTYiOwFjw1egkrF9WAaSrueAAtQXixcwanc5Ar6xtXgXdz/fSJC+Avff+YWFn3TulISndPkBWhMMsRuumjFYkHB32ogCbNIiOEyryIAMUoE92rLs5cbLNZ9lZknbPTOTDYJujdn8XkMZPLZGVfpP5hSO0/DdUeooK0YjPJnagBbDHvuem01Nf5ZlUwTcOHo3BUymRWa+O4hivbR6vRvOpOt1k/Dw70dix0LdT/taND6cieDL9iXiIaOVcH1oNvveaDlx+llAngUcQvHKX2HG0pcUE6dTpGFqpE12AdJSZmFJMRO5EkDXrwlTJgbCB8eYS4whLFvufxKNDi6qiTYQ5XVhv7I8s+k/PXxspfP8uDI0cG0IDXcxC1BOHEUXBDctZSwvymmhdDmAT4sxOIzyUaA/X7Or9PK5FnzJ3glnLFpj+efFDDMvdTzfHL6/qjPqtYE/Y8tpjONQMa3YmjC0g8EkpWaXFCcnwf5HCD3Ln+npwKfTAS18VV36srT6VQ3dX1vMWIZxGTiFbMlJ+C4hSyW3PnjaLoZsLdrROiHKEpfgcfoMjfXn+TiO6SQAUf0nsvLdqvEBDZka1Wn2P28so9Zh9dRmoOya+ThBvK8fELszH2Y9m+p2lg=\"}]}, Name: \"4Ply\"}}",
+			"name": "4Ply      ",
+			"descriptions": [
+				"§7Deemed §dAgronet§7 into existence",
+				"§7§oPlug§r§7ged it §oin§r§7, and it started working!",
+				"§7Master communicator."
+			],
+			"children": [
+				"agronet",
+				"citadel",
+				"dunga"
+			]
+		},
+		"abalue": {
+			"shorthand": "abalue",
+			"head": "{SkullOwner: {Id: [I; -734401476, -1973008180, -2146467995, 242842058], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NTEwMTc0MiwKICAicHJvZmlsZUlkIiA6ICJkNDM5ZWMzYzhhNjY0OGNjODAwZjdmNjUwZTc5NzljYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBYmFsdWUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGVmOWU0MDg0MzgxMTE0OTdlNGFjZjJjZDQyMmVlYzdiOWRhMTAxODBmMTg3MDhkNjBlM2VkNTgzOGYyOGRiNCIKICAgIH0KICB9Cn0=\", Signature: \"NAFDtrAnXg4j05Oc3jl7HDvYDmHMaktzjwd+TBS8dUG/LkllS07EtUqKeZ8VNtclcw2R6VAakAOOZQ7EWX+Lbj/8njEL12xhDGnVG0JQW8P7Yt94JvM3djJx7SDobq37L8m5ktop7kwOnLrNuWzx3YkdbDWRYy+PxLZLpH7R5V7qqaenHrD86qtrq0wGuqlw3Y5VR2XQr+N1G8CorfQ5+RGhXuZRfgS3ZBY9S+ZneuxypYTxHpOOIkKaeQ2MjTHKayQDR+fYcjOlVPcqmtmexswjHNLg6NoZviwpf+nZvfDMftRDuKsrS5mLo63AL7/L1yK+84CE/d5iLm+gKm+pbVaXIsdZQjqvxn7KiArODcS/n3TvnXljaiu5msMw6Xx28tS6zQkPK1JILvQ2lW5x8nQTMi00dTacasJa6QZaREUxkDmAjVKzagxAnr+YjB40rvGDm32UofmPulSansmwjUefuGXsSF5NnAKXdvxDvltsEvjLqsX1+dHoTeOWzle1QnHonyXvh0syQFv2Bjohc+ZaoFjWF6jnOoDS+h987axLD0EQ2MhomJQe3DgmGWPZW73o8Mzk8l7ezCWlqgzP336k2ujoovVofX8Bh2XvKHphsxs+H4N1OWySM9wxzfFRNUFU2JPr85wKBXlmfKVK9G2cAZMbQRSruhpB8QKkCoc=\"}]},Name:\"Abalue\"}}",
+			"name": "Abalue",
+			"descriptions": [
+				"§7Somehow optimizes everything.",
+				"§7Tired of Github"
+			],
+			"children": [
+				"brilliance"
+			]
+		},
+		"aftdawn": {
+			"shorthand": "aftdawn",
+			"name": "AftDawn",
+			"head": "{SkullOwner: {Id: [I; -156955172, 1478182137, -1344069251, 1965126334], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NzM5OTEyMywKICAicHJvZmlsZUlkIiA6ICJmNmE1MGRkYzU4MWI0NGY5YWZlMzIxN2Q3NTIxNzJiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBZnREYXduIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdjNDZiYjBjYWRkN2NhOWYzZmFhYTI2MzA4ZjFlYmFlMWU0ZmJkZjBjYjI1OWIyOWE2ZmI3ZmMzMjA5M2Y3MzAiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\", Signature: \"AX9bh0zDazDIpL2Nwk+sy0bQS0UMkjS5apaVlyxC61fVZC4cKn1l0JC5zrm0MNnukmohs5VGKliSBkjmgaVDTQg8nFN2pIEXrXyK/uPUhBh9Prb++Rs844DOfJ/wTMS08ED3ge6pYtKcyOP/MoO8+b8g3QGNCYyMPvX3RI7ZXFKT/Qa6ov1FEefK2uHr9F9PvUo+buzSrm67jXa7PkjrMX3IQIYcFakPIUDPYPz8uq3TAwpU4kw3sESX9SaIkdnHqj+WC0nZ/5VsGq2HlMje3h03yVrUeKJzx/IirgmWtaPd84dbf1dsbEK0vkvOdfrGTApm3qVDzDBzfhV/ZNFDmtWhYYDMuEH9Z0YRtW4E17SVKrwqEuIf4oV/HyaFa/cNN+t5rKEtGKIVR4FIxl9rYWyjObsERhAze0YvOU97xj/2CZJKFNJF2JQ+NJUMarYXfgDMlU1skWbceNgNqw1KGLvtFcK+ngJ6DFLUzv9xlGfyRuEaPbgfxegJLWHIsiFAdLtUwlJ2RFTumvErI0bk0TBX26lSPlkY0mYoxWTFTGgKWd08I2Lx3sb3/9VFAAhIj2iNUqLSJkVQNjpOiEIn9rhmRredjXvb79WOGR6XBXLjWx3vyQin9p74y+57wkOsWi43GFTw7lxqT4DqyFgch3yFuAFLnsz7toBAxLfA9pc=\"}]}, Name: \"AftDawn\"}}",
+			"descriptions": [
+				"§7It took a while, but it eventually §odawned§r§7 on us."
+			],
+			"children": [
+				"lobby"
+			]
+		},
+		"bavadn": {
+			"shorthand": "bavadn",
+			"name": "Bavadn  ",
+			"head": "{SkullOwner: {Id: [I; -1817913602, -2100015477, -1498261455, 19902145], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2ODY0ODcyMiwKICAicHJvZmlsZUlkIiA6ICI5M2E0ZDZmZTgyZDQ0ZThiYTZiMjU4MzEwMTJmYWVjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCYXZhZG4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBkMWNjNzFmOGExY2VmMjMyMzNjMzFhMjZkMjIzNThiZjhkNDRiZWNhYTUwYzVlMDdkOTJmNmJhOGVkYTRhMCIKICAgIH0KICB9Cn0=\", Signature: \"fSy/wDLsRvIdjvtUKWcGB2e9QGMM7uyIbjPr28dYJTMeKb8XV1obVTf8e1Fv4FCOEzqM1w01R5M/5bdQKBZqmH9TGSGs92b0WZlOzABoLlDXiPMXYTCILHVO8ohk7Ux1MotLLLuQuqOrQWh3o46Vghn+niNHq4o7pEEGL6hov94iJwzUUJEh8ktPEOXEgEs9oPs7R3hZXVDDA63Fo5hupyzZK1XVu+cXvF/ADZBBVcyKmiTY9ShD6cZdiRkDvjLv7ZM3AqMxG7kkfxLb6gJX3IGAOt1EF++VJqnEDKzVOlATCHbVR0tJ0tvEsIVprmJ26TMyLnv650sGqrwEhFyma5s4h5IeY0ON3p7LslE64YuxoMi+nZ1JdWS/XtuM6V81O/oZvTw4QvX+SoY5WQLGOGif3xcgUJVK3oedKsuoYs4MGB0Nx8wa1TdIqahtUA7Va2dbDQZQYT5KIHBnu/vORGNbn1QJVsEiBlssp2WRlAYVq4N+NIiYwwMgte7ZCf5fmdb+mLnm9l+1XRRB9myr5egvLDiAmzz4l7FF2lCSl4LC53Fb1XWsuInm2RhdYWLIatR6wrVk+oQJbSYrlAFDlnTlF77/kjvhpARaPZDK3lEemEJiwpJbn6kxizWdm8u/qtXovZQKEzzDnYOtyDUx1lUAmNI5KPIUnlEJbwyozbk=\"}]}, Name: \"Bavadn\"}}",
+			"descriptions": [
+				"§7Redstone Engineer",
+				"§7Cleaned up Tango's mess!",
+				"§7Online 25 hours a day.",
+				"§7Tested every nook and cranny.",
+				"§7Partook in literally everthing."
+				
+			],
+			"children": [
+				"dungeon_repairs",
+				"dungeon_organization",
+				"dungeon_optimization",
+				"dungeon_testings",
+				"datapack"
+			]
+		},
+		"frustratedcpu": {
+			"shorthand": "frustratedcpu",
+			"name": "FrustratedCPU",
+			"head": "{SkullOwner: {Id: [I; -1383525420, -389527102, -1861656817, 2102132138], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjkzNDU0Mzk1MSwKICAicHJvZmlsZUlkIiA6ICJhZDg5MTNkNGU4Yzg0OWMyOTEwOTVmMGY3ZDRiZmRhYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGcnVzdHJhdGVkQ1BVIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwNDBkNWVlYjUwYzc3NjJhZWU1M2IyMDljNTFjNjU1ZjNlNTY1YTliYmM1ZDc2ODkyMWU1ZWI4YTlmNGRhZmMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9\", Signature: \"gdJRgbSeD6aqz51C09egtQ9N9YRzx6QtrkS3mXvuy57nPPB0IdwbqFc+JeeUDpFgimNLBFAfwSIZxwX+mrfDFNOFmeDtxRtTCrXJLfu0YgTD+Ws7U3vbJFJKvqnisq44xjUce7Shq7EwcCXXGLLvjzqycFRSQNJMSXumZSl/puSBek2o4b4xCAQjU4EweIqOqIr555X/gPPVypVzgMgNrqj/0Q20bAcA0m34yh4IFPjlF727j17ArwKLbRd/Zw3k6PUKZYMoK6pL2Sr2RbWpczHS6ObaVmGWOhd7RruOwUaaYyowd4qUdg5ZttL33JYtY7eKoK/KpUXGJSweI8K/ngbV+nMSpkcuqQLPYx/Pv8NLiIgSv8D4QiaFVwZPe4A1cs81QDab6W8trZ+d6KrP+QoXxYfbYVspY+bgBxxAkOdQnscVWQ+pJSX94yoKWRp3xplzcX/h43y1M8h0OytXEN6U+K6LIMaQk2eTZMDIIRaa8o3570jrocwhhPl25Tg5mrVR3BIpHFSP8zh0CKJ59S+E0zcxiRO0pyLl15dr1XlfJ0xNM2P5avqo+UZ5fEoo9+dHfUgv+02q4u2/sTAjqZIWu8kE9xCC+7v+ZshOizudky2jFdqP7XauPQ2QMVpvZ2kSOOInz778rbGFVSKF2V//8dsolACHyIuKDUoerSw=\"}]},Name:\"FrustratedCPU\"}}",
+			"descriptions": [
+				"§7Frustrated at minecraft commands!",
+				"§7Why is he frustrated???",
+				"§7Datapack HAS to look nice."
+			],
+			"children": [
+				"advancements",
+				"datapack",
+				"artwork"
+			]
+		},
+		"jaek95": {
+			"shorthand": "jaek95",
+			"name": "Jaek95  ",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2Nzc5MDMzMiwKICAicHJvZmlsZUlkIiA6ICI5Y2IxYzBjNTA4N2I0MmI5OTkyOTcyMWZhMjM1OTNjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJqYWVrOTUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmMxNjBmYmQxNmFkYmM0YmZmMjQwOWU3MDE4MGQ5MTEwMDJhZWJjZmE4MTFlYjZlYzNkMTA0MDc2MWFlYTZkZCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\", Signature: \"oFxoKnexwoeKaahlJNALiILfqaRowPAvLeXZBM/bigtJDgFCkM2wqviWr+1fa1N6caxcraQsQQ3bqYeeItwojfJ1LfQWt3zS+oHmL3zbUfTtFisrv53Z/bV+WlsejJbPj6sTv0FNxyEb5gwrLESs88HskUAW4sdg1zNUdJa1+sKZB6i/U0awU9ygMdsbdVeMfRnLkfpyuMPvOOb9RIhEr+33VufFSUloJN9n9BPIKwTlYtF/lbPxHvibXk1M/gHN/q1h+o4SNv3to9G7qGDAOGKbt6qubx636Mv+2n10JVZYs8s9Q0CHoUWm53SK5mZv8CtclpOPwv+x9PAVVPCKdniXEmD5EBSBzNuaLt3qcyjfzYfgAaddB7UntJUk5VWJL40JVQDpQrGy/imleILNSVQIrJV7DKpDtSbXhQBpOaDCUs+uf7GyMgxuXS5Wmv3bWxTJdIkl34GqmJytguDyBuLAc7CbyIo+J6kPTHyxVIPs+bQc/80WE/zJMorDDtL302FlfUdYzhageV3mUQp/1gKZRCfR8HF+Gd5kGOrSmMOHbCQiNchCJHka19x+ptb2Uh8F2YlproOv61adviOmkQSQkxv2CwUFwYGwAVjPzyVYgVUpu08Hpgm17fiF42SQw8HruZ5EEcMJ0Bkzdn7lgWfc5mcriav0z7CC5UMyfSQ=\"}]}, Id: [I; -1666072379, 142295737, -1725337057, -1573547072], Name: \"jaek95\"}}",
+			"descriptions": [
+				"§7Better repair man than felix.",
+				"§7Knows the dungeon better than Tango.",
+				"§7Optimizating the optimizations",
+				"§7Bug wrangler and destroyer."
+			],
+			"children": [
+				"dungeon_repairs",
+				"dungeon_organization",
+				"dungeon_optimization",
+				"dungeon_testings"
+			]
+		},
+		"kaileh57": {
+			"shorthand": "kaileh57",
+			"name": "Kaileh57       ",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2Nzk3MzUwMywKICAicHJvZmlsZUlkIiA6ICI3OGRjZWE5YzU0MTQ0ZGJmODQwMmNlN2YzNTI4NjllMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWlsZWg1NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjYwYTFmNmQ1NjJmNTJhYWViYmYxNDM0ZjFkZTE0NzkzM2EzYWZmZTBlNzY0ZmE0OWVhMDU3NTM2NjIzY2QzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"UuGGiCgxA1Wd+oE5bHHm8HE3UVZpu0rMi9WzcJoojZOoeLCz890lvJpAYqZMQE9M6Kd0BdbL4lzVn9rxAAPUJD5+HlUwP+mNQMj2ddAsAW2YoThgsRunXcz7gHymiMwck/a6rMoUpOHvevxW1Rjd/7h18dKfCeuANCzMW3CkN5LmsJbunxASzfEl1RYa2Rfc9GHxQhRKWhwXuDTPSL9v0bZe+EVD/6ucVVkqKj3Bv7gLjXCbWx/53+6OGkcUBV/HGuK3PKKJjto0I7vr05/h7U+B72Au9YBpiwfjSi0mIj535TVywipJz35kfuEr9meLUWJfkaHUKiY2U7o2QvaxgFlPj4MxwOhOyf0fQxnHael4sYQcdcL4UkV8NxChmAVBd8mMVUSh7gKBTg2kJ7Xgya6B89PBG0HH6K5sEYHNq92DtjnqWQsMqCCH19Fwm5LR0S+Vc41VdXULxUBkHNB5kP/raDIfWe7s8Mai8O/Yl67Nuv3mhVJNWyybKAZRRnQz3wbZLkE3zhv7OpT/Qe87lKg4edrNVESaOVeCFCO+eruzTUUNwP7Ho9SFzfs4xpFCeFOpEXNaC4EwLSErFhCZDG3EErzhU6vUxqqeoU+3mNpBtaq06CQauswmjLWFoet4UN/F6B652NwEdaxJUHj4uCnn+Ghx7nxLYM2d/MO4U6s=\"}]}, Id: [I; 2027743900, 1410616767, -2080190849, 891840993], Name: \"Kaileh57\"}}",
+			"descriptions": [
+				"§7Maybe."
+			],
+			"children": [
+				"dungeon_repairs"
+			]
+		},
+		"leethelemur": {
+			"shorthand": "leethelemur",
+			"name": "LeeTheLemur",
+			"head": "{SkullOwner: {Id: [I; -1919421670, 1500399100, -1718761931, -1077695550], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2ODcxODU2NCwKICAicHJvZmlsZUlkIiA6ICI4ZDk3ZjMxYTU5NmU0NWZjOTk4ZGM2MzViZmMzYWJjMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZWVUaGVMZW11ciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85NDlhMzkwMDJkNmVkNWUzYTk1YmQ3ZTFlNjZmMmE5NTJmMTQ0ZDM0NWM3ZmQ0MGFkOGZkNWFjMTUyNTcwZGY1IgogICAgfQogIH0KfQ==\", Signature: \"hhpzTsTUugR3pKq+I6WCSlBdSeZtShnwpGdwj68E64JGZ79+1u2DGU3gWVL2z6Ho4/4cZxH3csQgPZizypuSn/N3p4rWeWnxSEjmkNOAr/NMUj582U4JCfuWWxfnHpol4YljKAa/OFqtZRbygnnUhyn6u1NNNe+YbGZ0riiUE2701qkJQcXepYNDa1e3zDx3nrXN4n0c35tgwqHuT0X+TiDU4JA3qyEGVEKIpMheS+dlzmL3Iu6UdKoIAZFJ3IXdQZfDQ7PCgLWisgTDzeyokwwCJ3/4U+4ZmdY/oAwIob4Kxic6Bxybk7227bKWAh2GhPL647wy0DlxLF0sBe/VC4EtI44AKupFmYYMF48UNhqQtOTfo+i2cfmivCJM3fJHDE4gXx1FqeF6yBt5Exz4cnmq38kKSNqgyk+Vf1VUlZA8EGaEjQgkaVipK8KMVxtjvDDeCiRuxW9a/4YfE1LHnyYVAIuC2aHgwqENo9lJ27Aip6gZqwKhm2naA7j3GlhM5HQpkBWzwinAircpC8kW2lEJd0N9WB2GSWvtHTdZB8uA3SrO/X6skE0BZU4WfujeSn78Z9C7hS/T4G8qeQIgAA2jfUgmNUUU9YyF6plsqqodaP0HrbmEycdvIi4m0mX02YhT7fiptdVoJR/B2IU0PNnGo4cI2GxIzyNIv0j8rX0=\"}]}, Name: \"LeeTheLemur\"}}",
+			"descriptions": [
+				"§7We like to move it, move it, you like to? §l§oMOVE IT!"
+			],
+			"children": [
+				"dungeon_repairs"
+			]
+		},
+		"noooooo": {
+			"shorthand": "noooooo",
+			"name": "NOOOOOO",
+			"head": "{SkullOwner: {Id: [I; -526398588, 1004749219, -1143647861, 1904693028], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NzA0NjA3NSwKICAicHJvZmlsZUlkIiA6ICJlMDlmY2I4NDNiZTM0MWEzYmJkNTUxOGI3MTg3NGYyNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOT09PT09PXyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83OTk5YjI1ZWZjMmFjYmE1NTlhZDI3NzQwMjk3YjM5YjMzYmVhYTUyNmI4MjU4MWM2MWQxMmQzODA3OWFmZWY2IgogICAgfQogIH0KfQ==\", Signature: \"Be6XKu1XEUrInqT88izNMkVOtlZZ0tteE21G0wSVqkt090eXnJmq9rIJyw56qfbooDfTamR6OXFA9Dt2lZ7uDUAoewTrx35wLS+4RSHLvKV2FuM852HnAV4bJWPNx8tyA+7YvuSkSkPCcXqMCe0i/f7ZsNYCE2ppmwFSwrEwtHEoQS4P2dVB1MEs/HsG6pRstKmn8osoZdyUl0lPTReaFoY2OcXSgueCxfbr7Wj3gjllZLSij6nWCEW5unieJ7kug+Ii5kdfGZzKSSaxszsXlUCDgaQ3MovyzlAEkgG3Yh3fMjpJdQkppgQkOuGgKuLu8wf1I8Ck09zJDHwwyAVHEIsnQxbPFi57ZLTk9XI+1eEDAR95CYHAhauzaXXj3c2zc0nPU9d7ckST6czjhVoQ5V0o0/8kMjAj9mRjoyfzWpItHfMNEwLErQgRTZNtgG0rv0gsOB7C3mdUqHRRbKAY0EYJIrA7dX4hBEANAQPB2hVt8QGdJiD5W5LZ+I4R0veg5SltP98on+CDFTTHFizRPbsCygHIr6IS7rmEL/vbY5jzhc/dRVzB33SFj0IWExbCraKdrm4G3oXPHlGtE5Wnr6GfDiTGsGDsoymbEOhtm+tB3sPr0nK4inJXeKrsyo4r17B/GQxUJNz3yrL1XRSq0NzkSorbDEtVefWBQpei9sY=\"}]}, Name: \"NOOOOOO_\"}}",
+			"descriptions": [
+				"§7They ran out of ice cream.",
+				"§7Luke, I AM your father!"
+			],
+			"children": [
+				"dungeon_repairs",
+				"lobby"
+			]
+		},
+		"noxitu": {
+			"shorthand": "noxitu",
+			"name": "Noxitu",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2NjQwMDIyMywKICAicHJvZmlsZUlkIiA6ICJlNTgzM2M5NmI0NjQ0YjI3OGIzNmQ0Y2RjNWJmNDg3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3hpdHUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkxNWZlMDJhMGYxNTY3NmRlZWJmM2RlNWIzNTM3YTM2MWY4YTFhZWNjZGFiZjE2OTQ2NTM5ZTE3OTkyNDY1ZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"BWTKV8GgxaETcreZHD8UKwLlwSyGoOUkd85daZG1DT8jXCv8Wz+oYtA9bDN7JnYMdCQECxgoc4CXB3Pt1K97Xncbu9kjxS+DTKa9jEgFE4vgimbMVzHyOOuQuwuOa7fuVuk8XucuwDe5PBavn8fJ5z/LeQNxD6sndKE77iTNnPZxOaQGfjGEpULJ1LDSZfiB0yYuS2qr5gXuA+8cUTzi/ebMH7icDOd6Y9JRatzTRFUN7aMxh1fjV+Zuh3ZETwT8ev5NjN4zK/RxKwy0MDNlQWTlwPYk1CO3b/lV9tzdwJhJZCFG+Iu4jZS5HMnwNsz8B4orSdxc4aNyQA85xi0LsuRBpSx1Vq8jTH3lvRXEpJGjPNCP/BTkO1VwPhEb0vWCDRTjwqbI0+OfzSQBoyDw/jqxa4GwR1onRScvqIUbK4EnL5emC2f5LoWrtxueAhCUg8Sm4StUhIf97Zx0RbDv0HDmRCniIu2hLvpSXIMBogUkbGOU0GuPPUjZuwvD7OMkTWqWvMzXtdjr18AYPaWNXl+TeqIHNreiGazeVoWFyYwOSgw6pew4+4aqLAn0onZb6KI3SWpK/9LixKkgFn2OjTlnS2AKaWfFXPdvxhM5P2MVGVqIQ1qjV2kcUkh4i/ByWI0lHbGKxZtm7iOXBRrccnGaXSgfceAx7Ur/Kk2CtXo=\"}]}, Id: [I; -444384106, -1268495577, -1959340851, -977319820], Name: \"Noxitu\"}}",
+			"descriptions": [
+				"§7Secretly a wizard."
+			],
+			"children": [
+				"vanilla_compatibility"
+			]
+		},
+		"oosuhkoi":{
+			"shorthand": "oosuhkoi",
+			"name": "Oosuhkoi",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2NjU2MTU2MiwKICAicHJvZmlsZUlkIiA6ICIxNzJiY2Y1MDk3MTA0YjM5YjlhZDdjZjdkOTFlYWJlMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJPb3N1aGtvaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85ZGZhYWEyZGI1OGQyMTVjNjlhZjYyYzI5ODgwNDU0MWYyYWY1OWMxOGQ0MTI5YWVkMzk3NTkxNDE4Nzg1ODZhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"xcdtsUMmYv0SVViPld9kU/P9XgQBDm0DGK5APX1FoxBnFzUIDXCCXN7E7OvCHeXSENJbryO6ylH6ilml53WTgFuDsWzIYKIOqwd2pqNkxJxPsT/URylvbAmQPmCQVyU6CpN/58sZKR2BwZbxJRncrst1IEdFzVayStApn9Z1O5KEM3XSUpO0EuPQ18LThY8xt8XQ7YQya1ZFgxFwCdOSOp0CGkxD8eoEM9J5XnFmDT32E1P9pAd6y5HnNqVjUTuZpDVTxjKkzDCHLjnSNTd5EY+VW1Y+YgVBf2aYAGxgQDdYSaUy4Gq6Gfy7c8FXevoonUn/Ay5ICf5/U/ghpzfk9zHWMouX1n1ulz7znQ82wAWeHo1HOtAEIEM+u/NXy0no98b4ROOkv9Vmaa0JU3udRboqz4y1yYfQJYUup+ifpOdP381OlvZvoqq/0pIZjxKj0Vxp195mMTk2eNr54vGWQ86iBWVrP81bUveiCC73c2Ypdftvc6x8n1hRWDs1Ag7kX5yLrY3Mob7GqJUK+0kXM/Omtk2L56YFAmm1IlGbeR+zAZiOcTHIGNtSwx2m884lBOyakJ6n3eUInbhf7Qg3t/EOtS2IG9psJklTuyB0KfRqARqweuU7gIdc2xsP+GS0q4piqL+myda0YcX601RK+xJPhJbB1XIDUCNHQ9PA7tc=\"}]}, Id: [I; 388747088, -1760539847, -1179812617, -652301341], Name: \"Oosuhkoi\"}}",
+			"children": [
+				"artwork"
+			]
+		},
+		"exyum": {
+			"shorthand": "exyum",
+			"name": "exyum     ",
+			"head": "{SkullOwner: {Id: [I; 1243609891, -431603484, -1504001223, -1279137100], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NzI4Mzg4NSwKICAicHJvZmlsZUlkIiA6ICI0YTFmZmIyM2U2NDY0MGU0YTY1YWMzMzliM2MxZWFiNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJleHl1bSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81OGNlZDAyZWY1NDQ0OGJlMDkwMWNmNzYyOWI2OTJiNjQ4NGQxOTc1ZWRmNzAwYjVlOTVlNmM3ZDI2ODJjZTQ5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"Ev4EP/BHwgiVw37LeVg0rnmChVoq9CiKntwrX/me7ITGwhJwhXdLL0xaFqJLXFzbT+NpgSs59C6s/Cl++seRWk1yBGkJbc3pPdNx4RdWvM7B7dJE747BvNu2B5mqe4xyM6uIzbCf4Ogj4JJ995f/I10QMByQYwqUXE3sGZlLtEsDCv0tyMkNjaI/GAWTkQj8TYk9CIjdUx+/jJEDRVndu2oIqSKviVa/jXsPA9pBFfW5mdpdiycxMt+XKBZPf8AYWKHc0pfWGIbwzYd57b24XnnUzO458ehK7LRsDos+3Untghq3lz7NtPQqAWQu7oSRT4Tvaa8kTBmpFOHX8JCaE9S2nDkgxqvUkXKvg+dWlWdKbLNzH79ulHpkgE/bygWDVFsGH7AJK4M1AraZMZP2AQ34hwXsy26myC8av03PO55EQcl26YuNutD5soWlNzLEthxEin6rJk74IAHrIifKEfHBh3fuhcCMbjVll5MoorHQ1aAFNup/hx6Fbi4CGifKwIXQ0DtrtcVUEj2zkArQbqlqB2K8PhWDRNuT+NKftT/wyB9W6B6tNkX7vNGXCWTRq1ETKNrw50FXba5qwYF3EiPwytE90MIWmJAh5EzrEAHOdDykEvrm4SSlL+web4i+8UIjrXzMKMoYYlKsaAZDDNC/rj9KnCQjL4dcdHuMAMM=\"}]}, Name: \"exyum\"}}",
+			"descriptions": [
+				"§7Got sidetracked enough to hyper focus on this."
+			],
+			"children": [
+				"lobby"
+			]
+		},
+		"xane256": {
+			"shorthand": "xane256",
+			"name": "Xane256    ",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2Njg4NTE4MywKICAicHJvZmlsZUlkIiA6ICIzYTFhM2I2ZWFiYjg0NDhkYjFiZGIwMjAwNzNhYjZjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYYW5lMjU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3MTNmYzQ5OWUwOGZjOGQ5NTBlMDE3ZTEzNjcxNzE2YzZlNWJiNTk4ZjRkMGFhOGY2NDE5Y2JkZjlkNDczNTciCiAgICB9CiAgfQp9\", Signature: \"Pc4Qt1x+QoTwJj9hyBYT1SWrHve9C0qgjkBeZlABeukUieGkRhLL1h1lk+SCIxfEtI5a/6Af+5X+Nz+dAVPDdfTmtbeUN2xLtDNlCbQFrXrEf6+4tchFmT6XJ62bxhO/wF1QuFxIakWix+ekcURCRx0aNKoSdlAwFb96xE2Np1XBRWlft9jYHURSSbyFitwR1U8+KQMIT6MPwtYtePg5CLog9nHXu65dpL1c+hkQr7J9q0XmjGKHOdzyjZzdN4ipbpTxpDTMjkOuNhZo53J5UDgj6yHkOYG3w5dQ6dbPXA/oZzFOBf1hpZQ/Vs/3e3dHJUfNR2oHUl9ZRaDbi9CWFbpkfeXtEXtaVfhmnkLNViE+vH5iwdZcz0A5ZJJNjeuue47doHLYXO2UprCuA4YnloQPRgZ8DtgaEb/joj3qLfNRtjoMqp7v3AyLiLaPoUXY9sxeoqBk2IhpJWzfRBOgsCujr690kNsiba0XFEqBxzN+aPHJn5xhEbuZyN86KNxeTsThxxe+/s0H2eW9nrsGIRBwVO5bn32exci+kGu8cstRTSjGAH/rMV+MvoRQmzl/UmdCpAiJbPRMoMTKNF3t38fFB/6stTYwlwKqLe5SRrfQcBpNjKcNmxR4yFhdSvVd7aN/aitQxzZdqXHlBrggdE1leGMC3Cvo8JzBhlR9qKI=\"}]}, Id: [I; 974797678, -1413987187, -1312968672, 121288399], Name: \"Xane256\"}}",
+			"descriptions": [
+				"Sleep schedule somehow aligned to the other side of the world."
+			],
+			"children": [
+				"davy"
+			]
+		},
+		"softshadows": {
+			"shorthand": "softshadows",
+			"name": "softshadows",
+			"head": "{SkullOwner: {Id: [I; -1261493724, -421707137, -2010281515, -1702022073], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjM3MjY3ODM3OSwKICAicHJvZmlsZUlkIiA6ICJiNGNmMjIyNGU2ZGQ0MjdmODgyZDg5ZDU5YThkMzQ0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzb2Z0c2hhZG93cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lODUwYjY0YWVhM2M3MTQ1MjgwYjc5YzFkOTViYmQ3YTU2NWRjN2NkMTE0NzQ5NjdiMWIzYWQ2ZWZlMjkwMzBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"oyDeS9Z3HYrWRNBiY9z2904UUaYvR51R0XYhgV/un1RN4gjSWzfk0I0WjmRAlv6WVe5ZMuFXlqDU9in9tRjxsaGtratYSetfNoSlaSfIF+U6zk/wS9Bz51EN7+zeGKfzDs0zioT17jp8dB4dUwcAY5ikKmVTSOXh6IPHNjxJAYYf2HJ75I/5bND1rrklOSJwoS7BIZzzVi/hbMrgEDA8XEzq9E9p2NfeibFc7z8u6jMfzoOqSd+kpCBTtS6JX7C5185DjgMewcmE+dSWoUhFOwxG3bYbVN3cKBFwlHb/Y5UwDzeqtHwk/sJ0sTv9IPrEk6u0A3q30dQUhi8xIa6urvaFIfHUDlkJ1u5pm8+2S/wDbnrZQZhNGwyNYHUqUNkaeoKA2wJV21FWS4jZFj6OkkF70i0cW/ndpiSrcQleQZ9v6IyN3tKTsXzY+2KpQ36emZLBjOv2gjdIGag3meg0F4EB9jl4JMK7aZWaXqGd6a7Xn3ibh406H04AhdheOb4W69yTeq4i6p+jPk/PH0wFhi7qedtI6X0SKSVixIakUAC6EgPHNm5pneZ1kD+8rCnc8e7Y7qMERor3NZXgPwfeZNXt1suQnd3yWLjhGNstzzvgOFwu6s+wqj2qYoyjxUQeEXO3C9gK5qc9ObYCFiwtT0Q3YQrJ7t6g1Cl7IYWfpBc=\"}]},Name:\"softshadows\"}}",
+			"descriptions": [
+				"§7§oSoft kitty, warm kitty, little ball of fur.",
+				"§7It's not what's in the dark, it's what's §oalways§r§7 in the dark.",
+				"§7Time spent with cats, is never wasted."
+			],
+			"children": [
+				"dunga",
+				"citadel",
+				"docker"
+			]
+		},
+		"soikles": {
+			"shorthand": "soikles",
+			"name": "soikles",
+			"head": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwODk4MjMwODQxMCwKICAicHJvZmlsZUlkIiA6ICJlZjg4NDMxNmRmNGI0Nzc1YTY5OTQ5NDE1Mzc2M2M3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzb2lrbGVzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkMzZkMjIyZWM1OTYzNTZiNDI0ZjE0YjM3YzI4Y2UxMGQyMjc1ZWQ0ZDk0NDY5YTg3Yjg4NjU5MzJjODBkNTYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==\", Signature: \"J1L+2EBe/3PEXe9cs2B8qjxoczmADWbCSXSBHaOWwE6m1VZs3tM4Y+69BESc3BuyJzccgMqNojcoFVZ/6uP+jiG3B4ky3fVPk3rtEjEep+rfnRjOAPRmC6IEMjwQ11jHKCitxyCXl3m7hl7Fm9wSEReuUI6L5w5mpi0PqNypZ9nzG9yqqajOmp+oKVz+pverKj6CLxT3qLMXkpcsGJZPvGc99SEAZGXasl/dBDB8HPAwI0AfLsqPq+JequENoNmVE3EPMJIO21AHesnkzE3pi0kWU83fCYA0+4trXf2SiRiC66uyMaxLXgCvSxDzcEn2VOAvk5BqAucp6+20MHd74PxUMShksKlaTzNTM74sSQEMGZGvzu72pBFf4cQTS/CuRmHj2nce2AsLjzFRHcaTI4DhcsZRONErDIMjIaTBAQqivLvkrPyBPETYKCWHo2mkra6/TuqdG+L8MusHI49/pGgJ3auzwZri4o3NvLhZXJ2bVX+8aaHfUvd6dygrUVEdAs/rfbOG0NaTyH/lhSU18pbbPhtxqSmBrO9kAqBllIaraHuwEXnFSNpNqFuuDOr2544bkoR2loyuCa7YMMpnE1w+XBuHP+tFcU9lawXpnBTyFe3bxKvOnnv81PN/btJ9mtd4MW4oLUbvLr9e/DCCEa+JDPCrp3UOGGk34RLjBxY=\"}]}, Id: [I; -276282602, -548714635, -1499903679, 1400257652], Name: \"soikles\"}}",
+			"descriptions": [
+				"§7Achievement hunter? More like Achievement Maker!"
+			],
+			"children": [
+				"advancements"
+			]
+		},
+		"tangotek": {
+			"shorthand": "tangotek",
+			"name": "TangoTek",
+			"display": {
+				"frame": "challenge"
+			},
+			"descriptions": [
+				"§7Coldest Dungeon Master, Wizard of Redstone, and Flees with extra Flee!"
+			],
+			"head": "{SkullOwner:{Id:[I;-1851361921,-971619156,-1311775605,840022861],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI4YzVjZTRkZjNhNzJmMDNjNWIyMDg1ODI3Y2Q1NjZmZDA5NzM2ZTg2ZjEyYmU0M2ViMjQ0MjdkZDcxNDMifX19\"}]},Name:\"TangoTek\"}}",
+			"children": []
+		},
+		"theta_line": {
+			"shorthand": "theta_line",
+			"name": "Theta_Line",
+			"head": "{SkullOwner: {Id: [I; 2020260806, 638206414, -1304603543, -1145718371], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2NTY0ODM1MSwKICAicHJvZmlsZUlkIiA6ICI3ODZhYmJjNjI2MGE0MWNlYjIzZDU0NjliYmI1Yjk5ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGV0YV9MaW5lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlOTA3ZjZlOTVkNzQ3NDkzNmYzYmE5ZjRjNDQ2YjhjNTNhNzEyZTkwMWI3NDM3ZTE3Mjc1OWY4MTllMzA3MzgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9\", Signature: \"gwhhq4XjNN+8Lh/D8/njDXCO6PTSZhBh43LO0tavcmiOaeB1zwUbxrIo50XYfN5au6oVjBE3ujl3nMW6dcSqFu6FQpKMGG1S1uBODPwIUyjg4IlAC0yub7wihkxMqWzJh/K2VllWIbQ7vUbWKm4mR8i1ae2+wcVRsBfTqSR/Jjt+p9KFZoyWU6PAZrCi2tVytAQc2pV76IspB2Zx+QPFeUJ5MPJDon2D+K7+uxMfURdFABXbZV9zmf+Eo0WRtkFJSaHTARe0EiKKJwA54j92PVP61MYPO9VxipxeX+1APWUNubdP3FpzsA4mJvx8LoECIuNuUJ5mWAR/JJ3sb4zX+iS0L2tFV08XXmUB+PHP1uUftif9LZWuxndFUmRVhFdzEe4cAILlgBy7qQSAGOyjAAAPb7gdASw3ZSG2ry+vXKBu8o3otI7HfNZYt52y8k9kkngfk6uVvP6l4uDWJj5QNRj0yi+iZhTzMgHi5MLiR7wyUuu9Ghs27hwThHv0vMU0iBl9XpfwMbmev862aOIY3FHtIhiKiMCUnbD5ElECPBP+ke6CCpAzYxM/905txF0wEUxCmBRdcOl/YdrE79JNU4z6ES9Q2J3/754p440XLvcLlgNWmpQJKGMbUjU8r2oEFhjHII/ZgHvp0/ZtDIGj+5Hj/Idx36iy/YuSFNTW0m8=\"}]},Name:\"Theta_Line\"}}",
+			"descriptions": [
+				"§7\"Yes of §ocourse§r§7 I can change the art for the 100th time!\""
+			],
+			"children": [
+				"artwork"
+			]
+		},
+		"xenotm": {
+			"shorthand": "xenotm",
+			"name": "XenoTM",
+			"head": "{SkullOwner: {Id: [I; 73141412, 1455443093, -1089403534, 342444787], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk2ODU3NjkwMCwKICAicHJvZmlsZUlkIiA6ICIwNDVjMGNhNDU2YzA0Yzk1YmYxMTA1NzIxNDY5NGFmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJYZW5vVE0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYzN2RmMGFkMzdkOTc3MDZhOTdiZGY1ZjViOGIxYmZjYmRkYTkzYzBjMDBiM2UwNjg0MTIxM2YyYTVjNjU5YiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"bUwk4XEesfKmDKdh9k4fODYYseIrDM1YwVE20jkhjjdF8GljdA6iYdIz5B8rhJAloUiZ56sXl5BMHf918FimEj7xNLzP7fh6uj2H1uQR710TMMA9RaxF360QPgJ1GQm5IQEAx25s9PwPot4E+sTVzvTCV+CGD2+m6QQcsqjyKmuBqdT9mCkfjvW0noDrghCflEAeYkebOlqoOWdKxasfsYdqeyqt/VFxnL/uzrpH/YgJd/BdJHw/nuqdBDmprWuwI3KrW9EdWZSdtPluTcyD1TQde1TFcPIcCoDzJdwVI/6tY1/5i8qne31ohtqnOa1N4xGdvo1ZudcWSH4wdMAaxjilHXHCFZZ3s6EeB1loO0EIwXJzm6Ru6EeocIzSy8dVADPtggnqGrxN9h4+JphWocyq3hre4khPY9K375T0ob8zPWqe9ZXngLvEe3OPsmOhGS9lL2iBEXk3ne2FU0WiBg7gZNzHnrTt1RbTpClEiIKnPiOOr0GVxmFFwk2x95Rd5bKr8D0uT8Aj2roHWsLzpsvpR0YjV1wDTyRZLapejqMy52s6pil1Y+L7kXLq42euZVw9jtB4pDSkUAD9QBOPFQ4n8pmXQI9Tk8jqkEcYfsm8b6HkR7v944Em1Q0DiogndcGpyiYuam4DgfArNJGkSYC2S8/HQeEv0sLKlOKE70c=\"}]}, Name: \"XenoTM\"}}",
+			"descriptions": [
+				"§7Solved problems before we even knew they existed!",
+				"§7Where even the entrance to a dungeon becomes a work of art!"
+			],
+			"children": [
+				"dungeon_repairs",
+				"dungeon_organization"
+			]
+		},
+		"hixx27": {
+			"shorthand": "hixx27",
+			"name": "Hixx27",
+			"head": " SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcxMTY2MjMzNzM3NywKICAicHJvZmlsZUlkIiA6ICJmN2QxN2FiZmQ5Mjk0ZjFhOTAxMGIwNzhiYTdhMTg0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIaXh4MjciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE0YWY3MTg0NTVkNGFhYjUyOGU3YTYxZjg2ZmEyNWU2YTM2OWQxNzY4ZGNiMTNmN2RmMzE5YTcxM2ViODEwYiIKICAgIH0KICB9Cn0=\", Signature: \"el6Cf61K2OFVx0NHWMFT2Q+7g6sXho6tnslT51aXAMu1MjzZ2DWOb0BPJ0qFl+rHnpiuLsIZvOsYGT8IBfDfyaPWAdDUF2bFElc/s26M1eA2Pz5rh50hvr4iOp/cst51V9aNFZp8+VrRqw9jMzXtKFxE3nym74U8N1rJtnhEHYnkFMBTlKfRY0C06EdwjppETd37kTfc89dU6CsNHA2TfxyX4EMIqigK5STRfsugrOVJ8joGe3HGwT171R61nZnv49ZOPPWnGIksOMh0wXhqCqbC8RLOK7I1KZt9DwGuyYr3UoOf0AWUaogRT466yiu5dAMmF9PD173xy9uQacG7xJcOTJsKf+52HCKfhz6uVzOx/DDLyRdttfQ/isfKZkqP7QcqIpUxhrGu2JBOJ3hQKg4cNv52jFId+EtjZZ3hidAV0A6UdEskNk442WTAaOlW/uWQTfkgiu1tZ7aBwEvi2B1Jf7+Pn8vQp6oGZUD5ziOCgH2bBFiDIZUBzmuj/C5qokzLa2tSXpskmOnX4VXE3eAaHwdZ6U5apZWr99ZrRpNV9ahdSczHDQ4RP+9+kRf5UbZ3atR0UdJPG9ajl1EENGV5mhbkWDXcrn5Xj/QT2VgZZOa0v66TZaXLjF/z6b9rUaKTK2L01W9DQ7UfMkRx5US8WQ6ANErwA88OLDK1Vnc=\"}]}, Id: [I; -137266497, -651604198, -1877954440, -1166403506], Name: \"Hixx27\"}}",
+			"descriptions": [
+				"Always finding ways to abuse the dungeon."
+			],
+			"children": [
+				"dungeon_testing"
+			]
+		}
+	},
+	"projects": {
+		"infrastructure": {
+			"name": "Infrastructure",
+			"display": {
+				"title": "§6Backend Infrastructure ",
+				"description": "§7Anything and everything that happens behind the scenes",
+				"icon": "infra"
+			},
+			"shorthand": "infrastructure",
+			"children": [
+				"dunga",
+				"citadel",
+				"agronet",
+				"davy"
+			]
+		},
+		"dunga": {
+			"name": "Infrastructure's API: Dunga Dunga",
+			"display": {
+				"title": "§6Dunga Dunga     ",
+				"description": "§7The API of Tracked out, controls data and dungeons!",
+				"icon": "api"
+			},
+			"shorthand": "dunga",
+			"children": [
+				"4ply",
+				"softshadows"
+			]
+		},
+		"citadel": {
+			"name": "Infrastructure's Fabric Plugin: Citadel",
+			"display": {
+				"title": "§dCitadel    ",
+				"description": "§7The fabric plugin that lets the Lobby, communicate with §6Dunga Dunga§7.",
+				"icon": "plug"
+			},
+			"shorthand": "citadel",
+			"children": [
+				"4ply",
+				"softshadows"
+			]
+		},
+		"agronet": {
+			"name": "Infrastructure's Fabric Mod: Agronet",
+			"shorthand": "agronet",
+			"display": {
+				"title": "§eAgronet      ",
+				"description": "§7The mod that lets §9Brilliance§7 communicate with §6Dunga Dunga§7.",
+				"icon": "tools"
+			},
+			"children": [
+				"4ply"
+			]
+		},
+		"davy": {
+			"name": "Infrastructure's Docker Setup: Davy Bones",
+			"shorthand": "davy",
+			"display": {
+				"title": "§8Davy Bones         ",
+				"description": "§7§oDocker§r§7. For non-nerds, this is a easy way to have 6 §lseparate§r§7 servers running on a single server",
+				"icon": "docker"
+			},
+			"children": [
+				"xane256",
+				"softshadows"
+			]
+		},
+		
+		"lobby": {
+			"name": "Decked Out 2's Main Lobby",
+			"shorthand": "lobby",
+			"display": {
+				"title": "§4Lobby Design",
+				"description": "§7Designing a space for hundreds of people to store their decks and wait to play the dungeon.",
+				"icon": "lobby"
+			},
+			"children": [
+				"exyum",
+				"noooooo",
+				"aftdawn"
+			]
+		},
+		
+		"dungeon": {
+			"name": "Changes to the dungeon.",
+			"shorthand": "dungeon",
+			"display": {
+				"title": "§2Dungeon Changes",
+				"description": "§7Modifications to the Dungeon so §ohundreds§r§7 of people can play!",
+				"icon": "dungeon_block"
+			},
+			"children": [
+				"dungeon_repairs",
+				"dungeon_organization",
+				"dungeon_optimization",
+				"dungeon_testing"
+			]
+		},
+		"dungeon_repairs": {
+			"name": "Repairs to the dungeon.",
+			"shorthand": "dungeon_repairs",
+			"display": {
+				"title": "§2Dungeon Repairs",
+				"description": "§7Fixes to the dungeon, such as holes and broken redstone!",
+				"icon": "gear_repair"
+			},
+			"children": [
+				"bavadn",
+				"jaek95",
+				"noooooo",
+				"xenotm",
+				"leethelemur",
+				"kaileh57"
+			]
+		},
+		"dungeon_organization": {
+			"name": "Organizing and documenting the dungeon",
+			"shorthand": "dungeon_organization",
+			"display": {
+				"title": "§2Dungeon Organization",
+				"description": "§7Added Organization to the dungeon so it's easier to repair and add things to.",
+				"icon": "pie_chart"
+			},
+			"children": [
+				"bavadn",
+				"jaek95",
+				"xenotm"
+			]
+		},
+		"dungeon_optimization": {
+			"name": "Optimizations to the dungeon increasing it's speed.",
+			"shorthand": "dungeon_optimization",
+			"display": {
+				"title": "§2Dungeon Optimizations!",
+				"description": "§7Optimizations to the dungeon so it's faster and has less lag.",
+				"icon": "stopwatch"
+			},
+			"children": [
+				"bavadn",
+				"jaek95"
+			]
+		},
+		"dungeon_testing": {
+			"name": "Frequent testing of the dungeon finding and reporting issues.",
+			"shorthand": "dungeon_testing",
+			"display": {
+				"title": "§2Dungeon Testing",
+				"description": "§7Testing the repairs and figuring out new issues.",
+				"icon": "test_notes"
+			},
+			"children": [
+				"bavadn",
+				"jaek95",
+				"hixx27"
+			]
+		},
+		
+		"brilliance": {
+			"name": "Changes to the dungeon.",
+			"shorthand": "brilliance",
+			"display": {
+				"title": "§9Brilliance  ",
+				"description": "§7The Datapack and Resource pack a lot of the custom things on TO-DO2",
+				"icon": "folder"
+			},
+			"children": [
+				"advancements",
+				"datapack",
+				"artwork",
+				"vanilla_compatibility"
+			]
+		},
+		"advancements": {
+			"name": "Creating and automating advancements.",
+			"shorthand": "advancements",
+			"display": {
+				"title": "§9Advancements",
+				"description": "§7Everyone likes a good achievement system!",
+				"icon": "achievement"
+			},
+			"children": [
+				"soikles",
+				"frustratedcpu",
+				"abalue"
+			]
+		},
+		"datapack": {
+			"name": "Maintaining the dungeon and keeping it automated!",
+			"shorthand": "datapack",
+			"display": {
+				"title": "§9Automation",
+				"description": "§7Data tracking, dungeon resetting, automation, everything...",
+				"icon": "stats"
+			},
+			"children": [
+				"frustratedcpu",
+				"abalue",
+				"bavadn"
+			]
+		},
+		"artwork": {
+			"name": "Creating or finding custom artwork to fit the Advancements.",
+			"shorthand": "artwork",
+			"display": {
+				"title": "§9Artwork",
+				"description": "§7The artwork that makes this datapack look nice!",
+				"icon": "paint"
+			},
+			"children": [
+				"theta_line",
+				"oosuhkoi",
+				"frustratedcpu"
+			]
+		},
+		"vanilla_compatibility": {
+			"name": "Creating alternative means to play the game in vanilla MC.",
+			"shorthand": "vanilla_compatibility",
+			"display": {
+				"title": "§9Vanilla Compatibility",
+				"description": "§7Using scoreboards and §o/playsound§r §7to remove the requirement of mods to play.",
+				"icon": "creeper"
+			},
+			"children": [
+				"noxitu"
+			]
+		}
+	},
+	"other": {
+		"credits_root": {
+			"shorthand": "credits_root",
+			"display": {
+				"icon": {
+					"item": "minecraft:redstone_block",
+					"nbt": "{CustomModelData:2}"
+				},
+				"title": "§2Credits    ",
+				"description": "§7This is a list of ALL the people who helped make §3Decked Out 2§7 Expanded.",
+				"background": "do2:textures/gui/advancements/backgrounds/stone_bricks.png"
+			},
+			"children": [
+				"tangotek",
+				"warning"
+			]
+		},
+		"warning": {
+			"shorthand": "warning",
+			"display": {
+				"icon": {
+					"item": "minecraft:redstone_block",
+					"nbt": "{CustomModelData:999}"
+				},
+				"title": "§eNOT FINALIZED              ",
+				"description": "§3https://bit.ly/41F3rkg\n§7Every player will be able to customize their head/description, and each team will be able to customize their ROOT.",
+				"frame": "challenge"
+			},
+			"children": [
+				"admin"
+			]
+		},
+		"admin":  {
+			"shorthand": "admin",
+			"name": "softshadows",
+			"head": "{SkullOwner: {Id: [I; -1261493724, -421707137, -2010281515, -1702022073], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjM3MjY3ODM3OSwKICAicHJvZmlsZUlkIiA6ICJiNGNmMjIyNGU2ZGQ0MjdmODgyZDg5ZDU5YThkMzQ0NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzb2Z0c2hhZG93cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lODUwYjY0YWVhM2M3MTQ1MjgwYjc5YzFkOTViYmQ3YTU2NWRjN2NkMTE0NzQ5NjdiMWIzYWQ2ZWZlMjkwMzBkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=\", Signature: \"oyDeS9Z3HYrWRNBiY9z2904UUaYvR51R0XYhgV/un1RN4gjSWzfk0I0WjmRAlv6WVe5ZMuFXlqDU9in9tRjxsaGtratYSetfNoSlaSfIF+U6zk/wS9Bz51EN7+zeGKfzDs0zioT17jp8dB4dUwcAY5ikKmVTSOXh6IPHNjxJAYYf2HJ75I/5bND1rrklOSJwoS7BIZzzVi/hbMrgEDA8XEzq9E9p2NfeibFc7z8u6jMfzoOqSd+kpCBTtS6JX7C5185DjgMewcmE+dSWoUhFOwxG3bYbVN3cKBFwlHb/Y5UwDzeqtHwk/sJ0sTv9IPrEk6u0A3q30dQUhi8xIa6urvaFIfHUDlkJ1u5pm8+2S/wDbnrZQZhNGwyNYHUqUNkaeoKA2wJV21FWS4jZFj6OkkF70i0cW/ndpiSrcQleQZ9v6IyN3tKTsXzY+2KpQ36emZLBjOv2gjdIGag3meg0F4EB9jl4JMK7aZWaXqGd6a7Xn3ibh406H04AhdheOb4W69yTeq4i6p+jPk/PH0wFhi7qedtI6X0SKSVixIakUAC6EgPHNm5pneZ1kD+8rCnc8e7Y7qMERor3NZXgPwfeZNXt1suQnd3yWLjhGNstzzvgOFwu6s+wqj2qYoyjxUQeEXO3C9gK5qc9ObYCFiwtT0Q3YQrJ7t6g1Cl7IYWfpBc=\"}]},Name:\"softshadows\"}}",
+			"descriptions": [
+				"§7Managed the entire team of TO-DO2"
+			],
+			"children": [
+				"dungeon",
+				"brilliance",
+				"infrastructure",
+				"lobby"
+			]
+		}
+	},
+	"icons": {
+		"tools": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:5}"
+		},
+		"plug": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:6}"
+		},
+		"api": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:3}"
+		},
+		"docker": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:4}"
+		},
+		"lobby": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-525333908,-155889674,-1947879920,-892225980],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc1MTNhNTg3ZDA3NWYxNDc1YjExODE4NzRkMGRkNzdlY2NlZTM2OTBiOWNiZjAyNGFkNmI4ODVmYzNmYWE1NyJ9fX0=\"}]}}}"
+		},
+		"dungeon_block": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-273749838,911231355,-1441596748,1365127794],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwMjVjMjdiZDFlNTdmMzI1ZGQwNDFmMDM3OGFkYWZiNDIzNGIzZWI4OTlkZWNiYWFkM2MyOTYzOWE1NzllOCJ9fX0=\"}]}}}"
+		},
+		"gear_repair": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:12}"
+		},
+		"pie_chart": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:14}"
+		},
+		"stopwatch": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:13}"
+		},
+		"test_notes": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:15}"
+		},
+		"folder": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:1}"
+		},
+		"achievement": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:8}"
+		},
+		"stats": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:10}"
+		},
+		"paint": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:9}"
+		},
+		"creeper": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:11}"
+		},
+		"infra": {
+			"item": "minecraft:redstone_block",
+			"nbt": "{CustomModelData:16}"
+		}
+	},
+	"credits_root": "credits_root"
+}

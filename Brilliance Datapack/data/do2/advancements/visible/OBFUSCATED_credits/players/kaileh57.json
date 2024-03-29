@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2Nzk3MzUwMywKICAicHJvZmlsZUlkIiA6ICI3OGRjZWE5YzU0MTQ0ZGJmODQwMmNlN2YzNTI4NjllMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYWlsZWg1NyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zYjYwYTFmNmQ1NjJmNTJhYWViYmYxNDM0ZjFkZTE0NzkzM2EzYWZmZTBlNzY0ZmE0OWVhMDU3NTM2NjIzY2QzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"UuGGiCgxA1Wd+oE5bHHm8HE3UVZpu0rMi9WzcJoojZOoeLCz890lvJpAYqZMQE9M6Kd0BdbL4lzVn9rxAAPUJD5+HlUwP+mNQMj2ddAsAW2YoThgsRunXcz7gHymiMwck/a6rMoUpOHvevxW1Rjd/7h18dKfCeuANCzMW3CkN5LmsJbunxASzfEl1RYa2Rfc9GHxQhRKWhwXuDTPSL9v0bZe+EVD/6ucVVkqKj3Bv7gLjXCbWx/53+6OGkcUBV/HGuK3PKKJjto0I7vr05/h7U+B72Au9YBpiwfjSi0mIj535TVywipJz35kfuEr9meLUWJfkaHUKiY2U7o2QvaxgFlPj4MxwOhOyf0fQxnHael4sYQcdcL4UkV8NxChmAVBd8mMVUSh7gKBTg2kJ7Xgya6B89PBG0HH6K5sEYHNq92DtjnqWQsMqCCH19Fwm5LR0S+Vc41VdXULxUBkHNB5kP/raDIfWe7s8Mai8O/Yl67Nuv3mhVJNWyybKAZRRnQz3wbZLkE3zhv7OpT/Qe87lKg4edrNVESaOVeCFCO+eruzTUUNwP7Ho9SFzfs4xpFCeFOpEXNaC4EwLSErFhCZDG3EErzhU6vUxqqeoU+3mNpBtaq06CQauswmjLWFoet4UN/F6B652NwEdaxJUHj4uCnn+Ghx7nxLYM2d/MO4U6s=\"}]}, Id: [I; 2027743900, 1410616767, -2080190849, 891840993], Name: \"Kaileh57\"}}"
+        },
+        "title": "kaileh57 ",
+        "description": "§7Maybe.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/credits/players/leethelemur"
+}

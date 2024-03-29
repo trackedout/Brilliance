@@ -90,6 +90,18 @@
 		},
 		{
 			"predicate": {
+				"custom_model_data": 15
+			},
+			"model": "minecraft:item/advancements/credits/dungeon_testing"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 16
+			},
+			"model": "minecraft:item/advancements/credits/infrastructure"
+		},
+		{
+			"predicate": {
 				"custom_model_data": 999
 			},
 			"model": "minecraft:item/advancements/credits/readme"

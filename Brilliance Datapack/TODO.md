@@ -1,6 +1,6 @@
 # Other TODO:
-- Make a copy of credits to:
-  - Remove all references to Tracked Out
+- Remove glowing from witch
+- update config documentation book
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2NjQwMDIyMywKICAicHJvZmlsZUlkIiA6ICJlNTgzM2M5NmI0NjQ0YjI3OGIzNmQ0Y2RjNWJmNDg3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3hpdHUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkxNWZlMDJhMGYxNTY3NmRlZWJmM2RlNWIzNTM3YTM2MWY4YTFhZWNjZGFiZjE2OTQ2NTM5ZTE3OTkyNDY1ZCIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0=\", Signature: \"BWTKV8GgxaETcreZHD8UKwLlwSyGoOUkd85daZG1DT8jXCv8Wz+oYtA9bDN7JnYMdCQECxgoc4CXB3Pt1K97Xncbu9kjxS+DTKa9jEgFE4vgimbMVzHyOOuQuwuOa7fuVuk8XucuwDe5PBavn8fJ5z/LeQNxD6sndKE77iTNnPZxOaQGfjGEpULJ1LDSZfiB0yYuS2qr5gXuA+8cUTzi/ebMH7icDOd6Y9JRatzTRFUN7aMxh1fjV+Zuh3ZETwT8ev5NjN4zK/RxKwy0MDNlQWTlwPYk1CO3b/lV9tzdwJhJZCFG+Iu4jZS5HMnwNsz8B4orSdxc4aNyQA85xi0LsuRBpSx1Vq8jTH3lvRXEpJGjPNCP/BTkO1VwPhEb0vWCDRTjwqbI0+OfzSQBoyDw/jqxa4GwR1onRScvqIUbK4EnL5emC2f5LoWrtxueAhCUg8Sm4StUhIf97Zx0RbDv0HDmRCniIu2hLvpSXIMBogUkbGOU0GuPPUjZuwvD7OMkTWqWvMzXtdjr18AYPaWNXl+TeqIHNreiGazeVoWFyYwOSgw6pew4+4aqLAn0onZb6KI3SWpK/9LixKkgFn2OjTlnS2AKaWfFXPdvxhM5P2MVGVqIQ1qjV2kcUkh4i/ByWI0lHbGKxZtm7iOXBRrccnGaXSgfceAx7Ur/Kk2CtXo=\"}]}, Id: [I; -444384106, -1268495577, -1959340851, -977319820], Name: \"Noxitu\"}}"
+        },
+        "title": "noxitu ",
+        "description": "§7Secretly a wizard.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/credits/vanilla_compatibility"
+}

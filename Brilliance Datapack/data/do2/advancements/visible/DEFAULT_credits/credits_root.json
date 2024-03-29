@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_block",
+            "nbt": "{CustomModelData:2}"
+        },
+        "title": "§2Credits               ",
+        "description": "§7This is a list of ALL the people who helped make §3Decked Out 2§7 Expanded.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "do2:textures/gui/advancements/backgrounds/stone_bricks.png"
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone_block",
+            "nbt": "{CustomModelData:9}"
+        },
+        "title": "§9Artwork      ",
+        "description": "§7The artwork that makes this datapack look nice!",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "frame": "goal",
+    "parent": "do2:visible/credits/brilliance"
+}
