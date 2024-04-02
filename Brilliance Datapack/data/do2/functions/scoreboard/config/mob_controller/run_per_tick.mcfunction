@@ -9,7 +9,7 @@ execute if block -517 115 1940 minecraft:bamboo_button[powered=true] run functio
 
 
 
-
+# Run the per ticks
 execute if score $dungeon do2.config.mc.levelEditing matches 1 run function do2:scoreboard/config/mob_controller/per_tick/l1
 execute if score $dungeon do2.config.mc.levelEditing matches 2 run function do2:scoreboard/config/mob_controller/per_tick/l2
 execute if score $dungeon do2.config.mc.levelEditing matches 3 run function do2:scoreboard/config/mob_controller/per_tick/l3
