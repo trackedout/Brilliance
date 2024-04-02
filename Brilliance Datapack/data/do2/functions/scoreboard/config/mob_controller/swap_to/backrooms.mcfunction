@@ -1,4 +1,5 @@
 # Setup lamps
+fill -521 115 1940 -517 115 1940 minecraft:bamboo_button[powered=false,facing=south]
 fill -521 116 1939 -517 116 1939 minecraft:redstone_lamp[lit=false]
 setblock -517 116 1939 minecraft:redstone_lamp[lit=true]
 
