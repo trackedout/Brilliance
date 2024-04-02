@@ -7,5 +7,6 @@ scoreboard players set $dungeon do2.config.mc.levelEditing 1
 execute if score $dungeon do2.config.mc.level1Zones matches 0 run setblock -530 120 1939 minecraft:structure_block[mode=load]{z:1939,x:-530,y:120,name:"minecraft:config.mc.l1_no_zones",sizeX:8,sizeY:8,sizeZ:11,posZ:0,posX:0,posY:-7,powered:0b,mode:"LOAD"}
 execute if score $dungeon do2.config.mc.level1Zones matches 1 run setblock -530 120 1939 minecraft:structure_block[mode=load]{z:1939,x:-530,y:120,name:"minecraft:config.mc.l1_has_zones",sizeX:8,sizeY:8,sizeZ:11,posZ:0,posX:0,posY:-7,powered:0b,mode:"LOAD"}
 setblock -529 120 1939 minecraft:redstone_block
+setblock -529 120 1939 air
 
 
