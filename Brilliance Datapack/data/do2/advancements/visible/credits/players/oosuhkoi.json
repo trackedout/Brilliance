@@ -15,5 +15,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "parent": "do2:visible/credits/theta_line"
+    "parent": "do2:visible/credits/players/theta_line"
 }
