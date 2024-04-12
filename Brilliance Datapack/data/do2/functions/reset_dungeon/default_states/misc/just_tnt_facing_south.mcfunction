@@ -1,5 +1,5 @@
 # REMOVE ALL ITEMS INSIDE:
-setblock ~ ~ ~ minecraft:dropper[facing=south]{Items:[]}
+setblock ~ ~ ~ minecraft:dispenser[facing=south]{Items:[]}
 
 # Insert items. (ordered by slot)
 data modify block ~ ~ ~ Items append value {id:"minecraft:tnt",Slot:0b,Count:64b}
