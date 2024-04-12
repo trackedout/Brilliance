@@ -33,6 +33,54 @@ summon minecraft:interaction -544 113 1980 {width: 1, height: 2, Tags:["as_block
 # Prevent items from being inserted or removed from the deck shulker breaker hopper.
 summon minecraft:interaction -564.50 113.01 1980.50 {width: 1.0, height: 1.0, Tags:["hopper_blocker"]} 
 
+# Prevent players from interacting with the dispensers or trapdoors of the entry door model.
+summon minecraft:interaction -624.50 48.00 1956.50 {width: 3.02f, height: 2.0f, Tags:["water_blocker"]}
+summon minecraft:interaction -617.50 48.00 1956.50 {width: 3.02f, height: 2.0f, Tags:["water_blocker"]}
+
+# Prevent players from interacting with the dispensers of the L4 lava hazard trap.
+summon minecraft:interaction -652.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -649.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -646.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -643.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -640.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -637.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -634.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -631.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -628.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -625.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -622.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -619.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -616.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -613.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -610.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -607.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -604.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -601.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -598.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -597.50 -48.99 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+
+summon minecraft:interaction -593.50 -48.99 1848.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1851.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1854.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1857.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1860.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1863.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1866.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1869.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1872.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1875.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1878.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+
+summon minecraft:interaction -593.50 -48.99 1909.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1906.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1903.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1900.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1897.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1894.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1891.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1888.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1885.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+summon minecraft:interaction -593.50 -48.99 1884.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
 
 # TangoCam (just in case)
 execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:dungeon_setup/summon/summon_tangocam
