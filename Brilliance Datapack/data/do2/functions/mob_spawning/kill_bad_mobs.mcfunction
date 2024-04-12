@@ -14,3 +14,6 @@ execute as @e[type=minecraft:spider,tag=!do2.manually_spawned] at @s run tp @s ~
 execute as @e[type=minecraft:creeper,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 execute as @e[type=minecraft:enderman,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 execute as @e[type=minecraft:skeleton,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
+# Wandering Traders
+execute as @e[type=minecraft:wandering_trader,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
+execute as @e[type=minecraft:trader_llama,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
