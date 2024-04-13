@@ -1,6 +1,6 @@
 # COUNT CARDS INSIDE DUNGEON HERE:
 # /execute as:
-# @p[tag=received_shulker]
+# @p[tag=do2.received_shulker]
 # Modify:
 # do2.run.cards.deck.XXX
 # Replace XXX with card's code.
