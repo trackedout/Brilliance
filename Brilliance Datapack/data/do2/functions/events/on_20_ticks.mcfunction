@@ -31,9 +31,6 @@ execute if block -634 28 1992 minecraft:redstone_block run function do2:dungeon_
 # IF player DOESN'T have the credits tab, set up ALL advancement's roots
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
-# Reveal Markers Control
-function do2:dev/markers/controller
-
 # Update GUI
 function do2:gui/collect_values/update_scoreboard
 function do2:gui/update_has_map_tag/invoke_update

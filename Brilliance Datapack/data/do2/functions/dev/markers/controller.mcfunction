@@ -1,3 +1,6 @@
+# NOTE: no longer used, now Mob Controller level selector has this functionality.
+# Leaving this file here JIC, will remove at end.
+
 
 # L1Z1 = red
 # L1Z2 = green
