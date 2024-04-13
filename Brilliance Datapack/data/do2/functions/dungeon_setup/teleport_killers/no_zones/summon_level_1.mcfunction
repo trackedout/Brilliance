@@ -23,7 +23,6 @@ summon minecraft:marker -590 48 2003 {Duration: 2147483647, Tags: ["zone_marker"
 summon minecraft:marker -580 48 2000 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:marker -600 45 2024 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:marker -611 46 1973 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
-summon minecraft:marker -619 55 2031 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:marker -612 45 2015 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:marker -607 45 2021 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}
 summon minecraft:marker -584 44 2032 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L1Z1"]}

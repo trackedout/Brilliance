@@ -141,7 +141,7 @@ summon minecraft:marker -610 -17 1884 {Duration: 2147483647, Tags: ["zone_marker
 summon minecraft:marker -613 -17 1889 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
 summon minecraft:marker -606 -17 1887 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
 summon minecraft:marker -602 -17 1890 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
-summon minecraft:marker -605 -17 1894 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
+summon minecraft:marker -606 -17 1894 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
 summon minecraft:marker -610 -17 1894 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
 summon minecraft:marker -619 -17 1894 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
 summon minecraft:marker -618 -17 1888 {Duration: 2147483647, Tags: ["zone_marker", "no-zones", "L3Z3"]}
