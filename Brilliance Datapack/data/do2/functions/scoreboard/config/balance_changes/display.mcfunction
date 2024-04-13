@@ -5,5 +5,6 @@ function do2:scoreboard/config/balance_changes/display/balanced_tnt_dive
 function do2:scoreboard/config/balance_changes/display/ship_treasure_line
 function do2:scoreboard/config/balance_changes/display/less_loot_max_clank
 function do2:scoreboard/config/balance_changes/display/suit_up_res
+function do2:scoreboard/config/balance_changes/display/staircase_embers
 
 tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]

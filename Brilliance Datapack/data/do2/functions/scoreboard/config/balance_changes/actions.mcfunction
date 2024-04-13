@@ -42,3 +42,12 @@ execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -581 5 
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -599 39 1996 minecraft:beacon{Primary:11,Secondary:-1}
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -579 5 2044 minecraft:beacon{Primary:11,Secondary:-1}
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -498 12 2042 minecraft:beacon{Primary:11,Secondary:-1}
+
+# Staircase Embers
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 1 run setblock -601 -24 1916 minecraft:calcite
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 1 run setblock -601 8 1941 minecraft:calcite
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 1 run setblock -601 18 1968 minecraft:calcite
+
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 -24 1916 minecraft:glass
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 8 1941 minecraft:glass
+execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 18 1968 minecraft:glass

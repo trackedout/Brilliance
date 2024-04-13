@@ -70,7 +70,9 @@ execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run 
 scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max §8Clank"
 execute unless score $dungeon do2.config.bc.lessLootMaxClank matches 0.. run scoreboard players set $dungeon do2.config.bc.lessLootMaxClank 1
 scoreboard objectives add do2.config.bc.suitUpRes dummy "Suit Up Resistance"
-execute unless score $dungeon do2.config.bc.suitUpRes matches 0.. run scoreboard players set $dungeon do2.config.bc.suitUpRes 0 
+execute unless score $dungeon do2.config.bc.suitUpRes matches 0.. run scoreboard players set $dungeon do2.config.bc.suitUpRes 0
+scoreboard objectives add do2.config.bc.staircaseEmbers dummy "Staircase Embers"
+exeute unless score $dungeon do2.config.bc.staircaseEmbers matches 0.. run scoreboard players set $dungeon do2.config.bc.staircaseEmbers 0
 
 
 # Dungeon Config: Fresh Runs
