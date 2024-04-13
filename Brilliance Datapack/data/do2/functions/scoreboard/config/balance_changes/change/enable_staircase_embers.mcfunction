@@ -4,4 +4,4 @@ setblock -601 -24 1916 minecraft:calcite
 setblock -601 8 1941 minecraft:calcite
 setblock -601 18 1968 minecraft:calcite
 
-tellraw @s {"text":"Setting §u§lSuit Up Resistance§r to: §aENABLED"}
+tellraw @s {"text":"Setting §u§lStaircase Embers§r to: §aENABLED"}
