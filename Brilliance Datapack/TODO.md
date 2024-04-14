@@ -1,6 +1,6 @@
 # Other TODO:
-- Instead of random, give received_shulker to the closest person to the shulker breaker at the time of on_game_load
-- Remove glowing from witch
+- Maybe have a config that let's user's change daylight/weather cycle.
+  - Currently enabled by default.
 - update config documentation book
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
@@ -11,7 +11,7 @@
 - Update advancements documentation to include whether the advancement has been tested to work.
     - Add missing advancements to the documentation.
 - Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
-- Remove dev/markers/controller
+- Remove dev/markers/controller eventually.
 - Remove dev blocks at -626 58 2020
 - Maybe track card vs natural stats:
   - Hazard
