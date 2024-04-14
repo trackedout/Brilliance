@@ -1,0 +1,218 @@
+{
+	"pages": [
+		{
+			"id": "TITLE_PAGE",
+			"JSON": [
+				"    Tracked Out's\n§1§oDecked Out 2§r Settings!\n\n",
+				{
+					"text": "§1[INFO]",
+					"hoverEvent": {
+						"action": "show_text",
+						"contents": [
+							{
+								"text": "§oNote, you can §o§lCLICK§r or §o§lHOVER§r on any text wrapped in brackets: §1[LIKE THIS]",
+								"italic": "true"
+							}
+						]
+					}
+				},
+				"\n\n§lBack Wall:§r\nBasic Tools.",
+				{
+					"text": "§1[PG >>BACK_WALL<<]",
+					"clickEvent": {
+						"action": "change_page",
+						"value": ">>BACK_WALL<<"
+					}
+				},
+				"\n\n§lLeft Wall:\n§rLever Switches",
+				{
+					"text": "§1[PG >>LEVER_SWITCHES<<]",
+					"clickEvent": {
+						"action": "change_page",
+						"value": ">>LEVER_SWITCHES<<"
+					}
+				},
+				"\n\n§lRight Wall:\n§rCustom Values",
+				{
+					"text": "§1[PG >>CUSTOM_VALUES<<]",
+					"clickEvent": {
+						"action": "change_page",
+						"value": ">>CUSTOM_VALUES<<"
+					}
+				}
+			]
+		},
+		{
+			"id": "BACK_WALL",
+			"JSON": [
+				"      §lBack Wall\n§r===================\n\n",
+				">>!MANUAL_APPLY<<",
+				"\n\n",
+				">>!VERSION<<",
+				"\n\n",
+				">>!DEV_LOGS<<"
+			]
+			
+		},
+		{
+			"id": "MANUAL_APPLY",
+			"JSON": [
+				"  §l§oApply Changes§r\n===================\n\nNormally the changes you make to the settings are only applied when a player starts a run.\n\nHowever clicking this sign lets you manually apply changes should you like to.\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "VERSION",
+			"JSON": [
+				"§l§oBrilliance Version§r\n===================\n\n>>DATAPACK_NAME<< is the name of the datapack that runs and maintains >>DECKED_OUT_NAME<<\n\nYou may right click the sign to learn it's current version and a link to where the latest version is\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "DEV_LOGS",
+			"JSON": [
+				"    §l§oDev Logging§r\n===================\n\nFor debuggers and tech-savvy players, the datapack attempts to log everything that it is doing,\n\nClick the sign to customize what logs you'd like to receive.\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		
+		{
+			"id": "LEVER_SWITCHES",
+			"JSON": [
+				"      §lLeft Wall§r\n===================\n\n",
+				">>!VEX_TRACKING<<",
+				"\n\n",
+				">>!FAST_RESET<<",
+				"\n\n",
+				">>!FORCE_GAMEMODE<<",
+				"\n\n",
+				">>!TREASURE_CLANK<<",
+				"\n\n",
+				">>!WARDEN_BATS<<",
+				"\n\n"
+			
+			]
+		},
+		{
+			"id": "VEX_TRACKING",
+			"JSON": [
+				"   §l§oVex Tracking§r\n===================\n\nWhen turned on, vex will slowly move towards the closest player until they are within range. >>DATAPACK_NAME<< implemented this as a balancing option to improve the danger of vexes without editing their AI\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "FAST_RESET",
+			"JSON": [
+				"  §l§oDUNGEON RESET§r\n===================\n\nWhen turned on, will reset the dungeon faster, by killing all items and speeding up the wait time between runs.\n\n\n\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "FORCE_GAMEMODE",
+			"JSON": [
+				"  §l§oForce Gamemode§r\n===================\n\nAllow adjusting all player's gamemode depending on whether that are playing >>DECKED_OUT_NAME<< or not. After game is over, >>DATAPACK_NAME<< will revert their gamemode back to what it was before game started.\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "TREASURE_CLANK",
+			"JSON": [
+				" §o§lTreasure Clank§r\n===================\n\nWhen turned on, the game will stop dropping treasure when Max Clank is reached.\n\nThis is how the hermits played for the first 4/5th >>DECKED_OUT_NAME<<\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "WARDEN_BATS",
+			"JSON": [
+				"    §o§lWarden Bats§r\n===================\nThis enables bats to spawn in >>LEVEL_3<< and >>LEVEL_4<<.\n\nBats distract Wardens, provoking them and subsequently having Wardens ignore players.\n\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		
+		{
+			"id": "CUSTOM_VALUES",
+			"JSON": [
+				"      §lRight Wall§r\n===================\n\n",
+				">>!FRESH_RUNS<<",
+				"\n",
+				">>!EGG_REWARDS<<",
+				"\n\n",
+				">>!BALANCE_CHANGES<<",
+				"\n",
+				">>!BAT_COUNT<<",
+				"\n\n",
+				">>!ENDERMITE_COUNT<<",
+				"\n",
+				">>!NIGHT_CHANCE<<",
+				"\n\n",
+				">>!DATAPACK_TICKS<<"
+			]
+		},
+		{
+			"id": "FRESH_RUNS",
+			"JSON": [
+				"     §l§oFresh Runs§r\n===================\n\nClicking this sign lets you change the changes >>TRACKED_OUT<< implemented to keep every run of >>DECKED_OUT_NAME<< feeling fresh and as if the dungeon was hasn't been played by anybody else.\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "EGG_REWARDS",
+			"JSON": [
+				"    §l§oEgg Rewards§r\n===================\n\nClicking this sign lets you adjust how the dungeon rewards you for finding the hidden Hermit Easter Eggs.\n\n\n\n\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "BALANCE_CHANGES",
+			"JSON": [
+				"  §l§oBalance Changes§r\n===================\n\nClicking this sign lets you change the balance changes >>TRACKED_OUT<< implemented to\n>>DECKED_OUT_NAME<<\n\n\n\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "BAT_COUNT",
+			"JSON": [
+				"      §o§lBat Count§r\n===================\n\nThis lets you change how many bats can exist on both >>LEVEL_3<< and >>LEVEL_4<<.\n\n",
+				{
+					"text": "§1[MOBCAP]",
+					"hoverEvent": {
+						"action": "show_text",
+						"contents": [
+							{
+								"text": "The mob cap for §7BATS§r is 15.\nOnly 15 bats can exist in the world at a time."
+							}
+						]
+					}
+				},
+				"\n\nNote:",
+				">>!WARDEN_BATS<<",
+				" must be enabled to allow bats to spawn.\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "ENDERMITE_COUNT",
+			"JSON": [
+				"  §o§lEndermite Count§r\n===================\n\nThis setting allows you to customize how many endermites exist in >>LEVEL_2<<'s dripleaf parkour area.\n\n>>DECKED_OUT_NAME<< started with 3 endermites, but only ended with 1.\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "NIGHT_CHANCE",
+			"JSON": [
+				"    §l§oNight Chance§r\n===================\n\nThis setting lets you customizes the chance for night time. \n\nNight allows >>WILLY<< to see the player outside of water.\n§oNote§r: Hermits occasionally played at night time.\n",
+				">>TABLE_CONTENTS<<"
+			]
+		},
+		{
+			"id": "DATAPACK_TICKS",
+			"JSON": [
+				"   §l§oDatapack Ticks§r\n===================\n\nThis settings lets you adjust how often the datapack ticks.\n\nHigher number reduces how often it runs, potentially reducing lag on low-end machines.\n\n",
+				">>TABLE_CONTENTS<<"
+			]
+		}
+	],
+	"title": "Config Settings",
+	"author": ">>TRACKED_OUT<<",
+	"display": "{\"Lore\": [\"[\\\"§5§oDescription of §o§lEVERY§r§5§o single\\\"]\",\"[\\\"§5§oconfig option for §o>>DECKED_OUT_NAME<<§r§5§o.\\\"]\"]}"
+}
