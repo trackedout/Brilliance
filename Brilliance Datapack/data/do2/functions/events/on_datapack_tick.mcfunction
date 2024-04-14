@@ -37,7 +37,7 @@ function do2:scoreboard/stats_display
 function do2:scoreboard/triggers/checks
 
 # Run the mob controller panel
-function do2:scoreboard/config/mob_controller/run_per_tick
+function do2:scoreboard/config/level_controller/run_per_tick
 
 # Summon Dev Markers
 function do2:dev/markers/edit_markers/summon_markers

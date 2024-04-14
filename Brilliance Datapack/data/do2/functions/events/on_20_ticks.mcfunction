@@ -34,3 +34,11 @@ execute as @a[advancements={do2:visible/credits/credits_root=false}] run functio
 # Update GUI
 function do2:gui/collect_values/update_scoreboard
 function do2:gui/update_has_map_tag/invoke_update
+
+# Attempt every 5 second updates:
+scoreboard players set $dungeon do2.utility.checkTick 5
+scoreboard players operation $five_seconds do2.config.ticksPerSecond = $dungeon do2.config.ticksPerSecond
+scoreboard players operation $five_seconds do2.config.ticksPerSecond *= $dungeon do2.utility.checkTick
+scoreboard players operation $dungeon_five do2.utility.checkTick = $dungeon do2.utility.currentTick
+scoreboard players operation $dungeon_five do2.utility.checkTick %= $five_seconds do2.config.ticksPerSecond
+execute if score $dungeon_five do2.utility.checkTick matches 0 run function do2:events/on_100_ticks

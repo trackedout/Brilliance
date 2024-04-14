@@ -22,9 +22,11 @@ execute as @a[team=do2.players] if entity @s[tag=do2.win] run function do2:agron
 # Reset Players
 execute as @a[name=!TangoCam,name=!tangocam] run function do2:reset_player
 
+# Unlock Settings
+function do2:scoreboard/config/config_unlock
+
 # AGRONET
 function do2:agronet/game_end
-
 
 # Replay Mod
 function do2:replay_mod/stop

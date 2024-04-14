@@ -21,3 +21,6 @@ function do2:scoreboard/triggers/on_player_join
 
 # If player is at worldspawn when joining
 execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~ ~ 180 -20
+
+# If player is in the settings room while it's locked.
+execute if score $dungeon do2.run.active matches 1 run function do2:scoreboard/config/config_lock

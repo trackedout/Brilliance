@@ -1,16 +1,13 @@
 # Other TODO:
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
+  - Need Mob Amount & Names implemented.
 - Check to see if I can change user's cursor upon hovering a CLICKABLE link/bttn
-- Disable room controller when dungeon is online.
 - Log Lock/Unlock settings room.
 - Log level interface changes
-- Every 5s update markers upon lever change.
 - Have dropper config book have LINKS to each of the dropper types.
-
 - Maybe have a config that lets the users change daylight/weather cycle.
   - Currently, these are enabled by default.
-- update config documentation book
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.

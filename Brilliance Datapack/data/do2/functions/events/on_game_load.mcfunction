@@ -28,3 +28,5 @@ execute as @a[team=do2.spectators] run function do2:scoreboard/spectator_per_run
 scoreboard players set $dungeon do2.utility.dungeonRepair 1
 scoreboard players set $dungeon do2.run.players 0
 
+# Lock Up Settings
+function do2:scoreboard/config/config_unlock
