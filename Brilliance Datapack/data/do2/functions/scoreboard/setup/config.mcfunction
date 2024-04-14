@@ -2,14 +2,6 @@
 scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
 execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
 
-# Dungeon Config: whether to use ravager zones or not. Default: 1 (TRUE)
-scoreboard objectives add do2.config.useRavagerZones dummy "Use Zones Lines."
-execute unless score $dungeon do2.config.useRavagerZones matches 0.. run scoreboard players set $dungeon do2.config.useRavagerZones 1
-
-# Dungeon Config: whether to use warden zones or not. Default: 1 (TRUE)
-scoreboard objectives add do2.config.useWardenZones dummy "Use Zones Lines."
-execute unless score $dungeon do2.config.useWardenZones matches 0.. run scoreboard players set $dungeon do2.config.useWardenZones 1
-
 # Dungeon Config: whether to disable treasure on max clank. Default: 0 (FALSE)
 scoreboard objectives add do2.config.maxClankTreasure dummy "§8Clank §rDisables Treasure."
 execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0

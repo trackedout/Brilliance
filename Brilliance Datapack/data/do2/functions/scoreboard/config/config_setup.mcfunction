@@ -33,6 +33,4 @@ function do2:scoreboard/config/boolean_levers/better_vex/sign
 function do2:scoreboard/config/boolean_levers/fast_reset/sign
 function do2:scoreboard/config/boolean_levers/disable_treasure/sign
 function do2:scoreboard/config/boolean_levers/force_gamemode/sign
-function do2:scoreboard/config/boolean_levers/ravager_zones/sign
-function do2:scoreboard/config/boolean_levers/warden_zones/sign
 function do2:scoreboard/config/boolean_levers/bats_distraction/sign

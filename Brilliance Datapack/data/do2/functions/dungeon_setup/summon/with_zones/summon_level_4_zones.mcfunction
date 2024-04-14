@@ -1,4 +1,3 @@
-
 # Level 4
 setblock -611 -47 1882 minecraft:polished_deepslate_stairs[facing=south,half=top]
 setblock -611 -47 1881 minecraft:polished_deepslate_slab[type=top]
