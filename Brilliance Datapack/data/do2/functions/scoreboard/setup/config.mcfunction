@@ -32,7 +32,7 @@ execute unless score $dungeon do2.config.tickRate matches 0.. run scoreboard pla
 execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard players set $dungeon do2.utility.currentTick 0
 
 # Dungeon Config: How many ticks per second.
-scoreboard objectives add do2.config.ticksPerSecond dummy "Datapack tick rate."
+scoreboard objectives add do2.config.ticksPerSecond dummy "Ticks per second."
 execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboard players set $dungeon do2.config.ticksPerSecond 20
 
 # Dungeon Config: Whether to speed up the reset process. Default: 0 (FALSE)

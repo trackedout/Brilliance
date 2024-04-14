@@ -1,5 +1,5 @@
-execute if score $dungeon do2.config.mc.level1Zones matches 0 if block -525 115 1944 lever[powered=true] run function do2:scoreboard/config/mob_controller/swap_to/change_zones
-execute if score $dungeon do2.config.mc.level1Zones matches 1 if block -525 115 1944 lever[powered=false] run function do2:scoreboard/config/mob_controller/swap_to/change_zones
+execute if score $dungeon do2.config.mc.level1Zones matches 0 if block -525 115 1944 lever[powered=true] run function do2:scoreboard/config/level_controller/swap_to/change_zones
+execute if score $dungeon do2.config.mc.level1Zones matches 1 if block -525 115 1944 lever[powered=false] run function do2:scoreboard/config/level_controller/swap_to/change_zones
 
 
 # - TURN VISIBLE -
