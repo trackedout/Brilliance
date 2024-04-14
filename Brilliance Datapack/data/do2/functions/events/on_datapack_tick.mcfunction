@@ -20,6 +20,8 @@ execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.emp
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
 execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+# Remove glowing effect from Witches.
+execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:witch] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
 # Have vex track players better
 execute if score $dungeon do2.config.vexTracking matches 1 run function do2:force_vex_tracking
