@@ -4,6 +4,14 @@ execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[Â
 
 # - Create New Dropper Room -
 
+# Category Colors
+fill -476 113 1958 -469 113 1969 minecraft:yellow_concrete
+fill -467 113 1958 -463 113 1966 minecraft:lime_concrete
+fill -454 113 1967 -460 113 1991 minecraft:blue_concrete
+fill -465 113 1970 -476 113 1979 minecraft:purple_concrete
+fill -476 113 1980 -465 113 1985 minecraft:red_concrete
+fill -464 113 1967 -461 113 1982 minecraft:orange_concrete
+
 # Lock Hoppers
 fill -456 113 1967 -456 113 1989 redstone_block
 fill -459 113 1967 -459 113 1989 redstone_block

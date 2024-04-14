@@ -1,8 +1,17 @@
 # Other TODO:
 - Go into detail of the Fresh Runs, & Balance Changes in the config book.
 - Finish the level interface book.
+- Check to see if I can change user's cursor upon hover a CLICKABLE link/bttn
 - Disable room controller when dungeon is online.
 - Every 5s update markers upon lever change.
+- Dropper management "difficulty" droppers have wrong dropper numbers.
+- Have dropper config book have LINKS to each of the dropper types.
+- Move dropper categories:
+  - Crown Shop Z+1 X-1
+  - Ember Shop Z+1
+- In the dropper_room book. Colors don't reset before even with: \[ §r'' ]
+    - Try seeing if putting invis characters before & after the \[ §r ]
+    - Or putting \[ §0 ] after the \[ §r ]
 - Maybe have a config that lets the users change daylight/weather cycle.
   - Currently, these are enabled by default.
 - update config documentation book

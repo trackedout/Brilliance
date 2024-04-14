@@ -10,8 +10,7 @@
 						"action": "show_text",
 						"contents": [
 							{
-								"text": "§oNote, you can §o§lCLICK§r or §o§lHOVER§r on any text wrapped in brackets: §1[LIKE THIS]",
-								"italic": "true"
+								"text": "§oNote, you can §o§lCLICK§r or §o§lHOVER§r on any text wrapped in brackets: §1[LIKE THIS]"
 							}
 						]
 					}
