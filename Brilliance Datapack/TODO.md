@@ -25,6 +25,7 @@
   - Hazard
   - Clank
   - Treasure
+- Prune on_exit_button.mcfunction for single player worlds
 
 # List of things todo AFTER builder's "repair" version is done.
 - Add Bdub's clock, to be the actual new clock.
