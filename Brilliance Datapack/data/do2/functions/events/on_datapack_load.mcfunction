@@ -26,7 +26,7 @@ time set noon
 weather clear
 
 # Portal Spawn - setworldspawn -524 103 2167
-setworldspawn -547 113 1980
+setworldspawn -547 115 1980
 
 # Setup GUI storage
 function do2:gui/init_storage
