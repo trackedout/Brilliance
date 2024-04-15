@@ -27,12 +27,17 @@ weather clear
 
 
 # Check if I'm on the server or not.
+scoreboard players set $dungeon do2.utility.onServer 0
 function do2:agronet/test_for_agronet
 
 # If server has agronet, than set worldspawn to be the deck area.
 # Otherwise set worldspawn to be the portal
 execute if score $dungeon do2.utility.onServer matches 0 run setworldspawn -524 103 2167
 execute if score $dungeon do2.utility.onServer matches 1 run setworldspawn -547 115 1980
+
+# If server has agronet, pay for a use of the dungeon. NOTE: If it's on the server, only one use
+execute if score $dungeon do2.utility.onServer matches 1 run setblock -538 109 1974 minecraft:redstone_block
+execute if score $dungeon do2.utility.onServer matches 0 run setblock -538 109 1974 air
 
 # Setup GUI storage
 function do2:gui/init_storage

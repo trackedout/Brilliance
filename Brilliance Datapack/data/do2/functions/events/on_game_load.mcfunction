@@ -30,3 +30,6 @@ scoreboard players set $dungeon do2.run.players 0
 
 # Lock Up Settings
 function do2:scoreboard/config/config_unlock
+
+# Make sure that any previous force payments are removed
+setblock -538 109 1974 air
