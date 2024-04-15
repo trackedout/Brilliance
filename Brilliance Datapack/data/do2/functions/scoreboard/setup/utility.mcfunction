@@ -21,6 +21,9 @@ scoreboard objectives add do2.utility.totalCrowns dummy "Counts player's crowns 
 scoreboard objectives add do2.utility.coinsPerCrown dummy "for scoreboard operations"
 execute unless score $dungeon do2.utility.coinsPerCrown matches 0.. run scoreboard players set $dungeon do2.utility.coinsPerCrown 4
 
+scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
+execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0
+
 
 # - Cycle Items utility -
 scoreboard objectives add do2.utility.embersToGive dummy "§3Frost Embers§r left to give"

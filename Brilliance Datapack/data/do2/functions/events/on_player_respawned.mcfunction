@@ -18,5 +18,8 @@ scoreboard players set @s do2.utility.deathCount 0
 tag @s remove do2.respawnSpectatorSpot
 tag @s remove do2.respawnPlayerSpot
 
-# If player is at worldspawn for some reason
+# If player is at PORTAL spawn for some reason
 execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~ ~ 180 -20
+
+# If player is at LOBBY worldspawn for some reason
+execute positioned -547 113 1980 if entity @s[distance=..2] at @s run tp @s ~ ~ ~ 90 0

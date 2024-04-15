@@ -25,8 +25,14 @@ gamerule doDaylightCycle true
 time set noon
 weather clear
 
-# Portal Spawn - setworldspawn -524 103 2167
-setworldspawn -547 115 1980
+
+# Check if I'm on the server or not.
+function do2:agronet/test_for_agronet
+
+# If server has agronet, than set worldspawn to be the deck area.
+# Otherwise set worldspawn to be the portal
+execute if score $dungeon do2.utility.onServer matches 0 run setworldspawn -524 103 2167
+execute if score $dungeon do2.utility.onServer matches 1 run setworldspawn -547 115 1980
 
 # Setup GUI storage
 function do2:gui/init_storage
