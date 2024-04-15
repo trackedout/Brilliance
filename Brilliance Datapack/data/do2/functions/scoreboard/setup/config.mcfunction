@@ -51,6 +51,14 @@ execute unless score $dungeon do2.config.amountOfFish matches 0.. run scoreboard
 scoreboard objectives add do2.config.forceGamemode dummy "Force player's gamemode"
 execute unless score $dungeon do2.config.forceGamemode matches 0.. run scoreboard players set $dungeon do2.config.forceGamemode 1
 
+# Dungeon Config: Whether to force the player's food level. Default: 1 (TRUE)
+scoreboard objectives add do2.config.forceFood dummy "Force player's food"
+execute unless score $dungeon do2.config.forceFood matches 0.. run scoreboard players set $dungeon do2.config.forceFood 1
+scoreboard objectives add do2.config.targetFoodLevel dummy "What to try to set players's food level to"
+execute unless score $dungeon do2.config.targetFoodLevel matches 0.. run scoreboard players set $dungeon do2.config.targetFoodLevel 20
+scoreboard objectives add do2.config.targetSaturationLevel dummy "What to try to set players's saturation level to"
+execute unless score $dungeon do2.config.targetSaturationLevel matches 0.. run scoreboard players set $dungeon do2.config.targetSaturationLevel 13
+
 
 # Dungeon Config: Balance Changes
 scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"

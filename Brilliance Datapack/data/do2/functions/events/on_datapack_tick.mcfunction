@@ -29,6 +29,9 @@ execute if score $dungeon do2.config.vexTracking matches 1 run function do2:forc
 # Control Ghosts to Spectate Player
 execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.ghosts] at @s if entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] run spectate @p[team=do2.players] @s
 
+# Force player's food.
+execute if score $dungeon do2.config.forceFood matches 1 as @a[scores={do2.utility.shouldForceFood=1}] run function do2:dungeon_setup/control_player_saturation
+
 # Update the various sideboards display.
 function do2:scoreboard/config/config_display
 function do2:scoreboard/stats_display

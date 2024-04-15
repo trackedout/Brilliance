@@ -21,8 +21,10 @@ execute store result score $dungeon do2.run.players run tag @a[team=do2.players]
 execute as @a[tag=do2.running] run function do2:agronet/game_start
 # =================================
 
+# Adjust scoreboards
 scoreboard players set $dungeon do2.run.active 1
 function do2:scoreboard/dungeon_per_run
+scoreboard players set @a[team=do2.players] do2.utility.shouldForceFood 0
 
 #revoke all utility advancements. These are used for additional conditions
 advancement revoke @a from do2:utility/root
