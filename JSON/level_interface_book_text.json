@@ -44,7 +44,9 @@
 		{
 			"id": "LEVEL_SELECTOR",
 			"JSON": [
-				"    §lButton Panel\n§r===================\n\nThis is a level selector panel. This let's you choose which level to edit using the >>!LEVEL_MODIFIER<<.\n\n§oNote§r: Only one level may be edited at a time."
+				"    §lButton Panel\n§r===================\n\nThis is a level selector panel. This let's you choose which level to edit using the ",
+				">>!LEVEL_MODIFIER<<",
+				".\n\n§oNote§r: Only one level may be edited at a time."
 			]
 			
 		},
