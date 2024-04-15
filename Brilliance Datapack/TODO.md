@@ -1,11 +1,13 @@
 # Other TODO:
+- Add CanPlaceOn to shulkers
+- Detect if Agronet exists using a custom file that uses an agronet command and a set scoreboard.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
 - Check to see if I can change user's cursor upon hovering a CLICKABLE link/bttn
 - Log Lock/Unlock settings room.
 - Log level interface changes
-- Have dropper config book have LINKS to each of the dropper types.
+- Have dropper config book have LINKS to each of the dropper categories.
 - Maybe have a config that lets the users change daylight/weather cycle.
   - Currently, these are enabled by default.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
@@ -17,7 +19,7 @@
 - Update advancements documentation to include whether the advancement has been tested to work.
     - Add missing advancements to the documentation.
 - Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
-- Remove dev/markers/controller eventually.
+- Remove file at "dev/markers/controller.mcfunction" eventually.
 - Remove dev blocks at -626 58 2020
 - Maybe track card vs natural stats:
   - Hazard
