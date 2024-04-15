@@ -24,3 +24,6 @@ execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~
 
 # If player is in the settings room while it's locked.
 execute if score $dungeon do2.run.active matches 1 run function do2:scoreboard/config/config_lock
+
+# If player is at lobby  worldspawn when joining
+execute positioned -547 113 1980 if entity @s[distance=..3] at @s run tp @s ~ ~ ~ 90 0

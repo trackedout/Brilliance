@@ -42,6 +42,12 @@ execute positioned -625 59 1945 run function do2:reset_dungeon/default_states/mi
 execute positioned -627 59 1945 run function do2:reset_dungeon/default_states/misc/just_porkchops
 execute positioned -629 59 1945 run function do2:reset_dungeon/default_states/misc/suit_up_pants
 execute positioned -630 59 1945 run function do2:reset_dungeon/default_states/misc/suit_up_shirt
+
+# Staircase Embers (Config Addition)
+execute positioned -474 63 1983 run function do2:reset_dungeon/default_states/misc/just_embers_facing_south
+execute positioned -593 13 1933 run function do2:reset_dungeon/default_states/misc/just_embers_facing_east
+execute positioned -651 -18 1907 run function do2:reset_dungeon/default_states/misc/just_embers_facing_north
+
 # Artifact Embers
 execute positioned -633 -20 1952 run function do2:reset_dungeon/default_states/misc/just_embers_facing_east
 execute positioned -633 -20 1953 run function do2:reset_dungeon/default_states/misc/just_embers_facing_east
