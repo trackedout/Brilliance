@@ -4,10 +4,6 @@ kill @e[type=marker,tag=L4Z2]
 kill @e[type=marker,tag=L4Z3]
 
 # - Zone 1 - (75 spots)
-summon minecraft:marker -649 -49 1893 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
-summon minecraft:marker -649 -49 1888 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
-summon minecraft:marker -649 -49 1885 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
-summon minecraft:marker -653 -49 1887 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
 summon minecraft:marker -652 -49 1881 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
 summon minecraft:marker -618 -49 1881 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
 summon minecraft:marker -618 -49 1886 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L4Z1"]}
