@@ -21,3 +21,6 @@ function do2:scoreboard/triggers/on_player_join
 
 # If player is at worldspawn when joining
 execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~ ~ 180 -20
+
+# If player is at lobby  worldspawn when joining
+execute positioned -547 113 1980 if entity @s[distance=..3] at @s run tp @s ~ ~ ~ 90 0
