@@ -10,13 +10,14 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 0
 function do2:dungeon_setup/refill/all
 execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618 -47 1988 cake[bites=0]
+
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for §lall§r killers."}]
-# - End Log -
+execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for required entities. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - Teleport Markers\n - Ravagers\n - Wardens\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
 function do2:dungeon_setup/test_for_ravagers
 function do2:dungeon_setup/test_for_wardens
 function do2:dungeon_setup/test_for_other_killers
 function do2:dungeon_setup/test_for_markers
+# - End Log -
 
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags
