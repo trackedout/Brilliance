@@ -35,9 +35,9 @@ function do2:agronet/test_for_agronet
 execute if score $dungeon do2.utility.onServer matches 0 run setworldspawn -524 103 2167
 execute if score $dungeon do2.utility.onServer matches 1 run setworldspawn -547 115 1980
 
-# If server has agronet, pay for a use of the dungeon. NOTE: If it's on the server, only one use
-execute if score $dungeon do2.utility.onServer matches 1 run setblock -538 109 1974 minecraft:redstone_block
-execute if score $dungeon do2.utility.onServer matches 0 run setblock -538 109 1974 air
+# If server has agronet, unlock the iron door. NOTE: If it's on the server, only one use
+execute if score $dungeon do2.utility.onServer matches 1 run setblock -551 119 1977 minecraft:redstone_block
+execute if score $dungeon do2.utility.onServer matches 0 run setblock -551 119 1977 air
 
 # Setup GUI storage
 function do2:gui/init_storage
