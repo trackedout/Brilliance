@@ -1,6 +1,6 @@
 # Change "received_shulker" to "do2.received_shulker"
-execute as @a[tag=received_shulker] run tag @s add do2.received_shulker
-execute as @a[tag=received_shulker] run tag @s remove received_shulker
+execute as @a[tag=do2.received_shulker] run tag @s add do2.received_shulker
+execute as @a[tag=do2.received_shulker] run tag @s remove received_shulker
 
 
 # Count players with the tags
