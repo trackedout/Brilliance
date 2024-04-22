@@ -4,7 +4,7 @@ execute store result score @s do2.utility.bonemealsToGive run clear @s bone_meal
 # - Start Log -
 tag @s add bonemealPickUpLogTarget
 execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=bonemealPickUpLogTarget] do2.utility.bonemealsToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=bonemealPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=bonemealPickUpLogTarget]","objective":"do2.utility.bonemealsToGive"}},{"text":" bonemeal."}]
-execute as @a[scores={do2.logs.pickups=1..}] unless score @p[tag=bonemealPickUpLogTarget] do2.utility.bonemealsToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=bonemealPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=bonemealPickUpLogTarget]","objective":"do2.utility.bonemealsToGive"}},{"text":" bonemeals."}]
+execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=bonemealPickUpLogTarget] do2.utility.bonemealsToGive matches 2.. run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=bonemealPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=bonemealPickUpLogTarget]","objective":"do2.utility.bonemealsToGive"}},{"text":" bonemeals."}]
 tag @s remove bonemealPickUpLogTarget
 # - End Log -
 
