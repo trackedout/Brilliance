@@ -1,4 +1,7 @@
 # Other TODO:
+- Make obvious buttons
+  - Make info () and italic.
+  - Make buttons gray [] and bolded
 - Add CanPlaceOn to shulkers
 - Detect if Agronet exists using a custom file that uses an agronet command and a set scoreboard.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
@@ -36,6 +39,7 @@
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
     - **_(Builders need to hide egg first)_**
 # List of unfinished things in the advancements that are here.
+    - Looting Scooting didn't give
 
 ## Display:
 - SURVIVAL
@@ -62,6 +66,9 @@
     - Don't have lifetime totals.
 - submit_tomes
     - Don't have tomes submissions.
+- end_more_embers_than_artifact
+  - Currently not automated.
+
 
 
 ## Testing Automation

@@ -7,8 +7,8 @@
 		"title": "§bArchaeologist",
 		"description": "§7Find every §8Artifact§7 on §2Level 4§7: §dBurning Dark§7.",
 		"frame": "challenge",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {

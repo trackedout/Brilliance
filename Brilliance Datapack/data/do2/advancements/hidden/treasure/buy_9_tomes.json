@@ -6,7 +6,7 @@
 		"title": "§bTomes or Bust",
 		"description": "§7Buy §b9 §9Tomes§7 in a single shop visit.",
 		"frame": "task",
-		"show_toast": false,
+		"show_toast": true,
 		"announce_to_chat": false,
 		"hidden": false
 	},

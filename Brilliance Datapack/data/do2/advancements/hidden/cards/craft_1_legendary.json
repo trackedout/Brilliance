@@ -8,7 +8,7 @@
 		"description": "§7Craft any §6Legendary§7 card.",
 		"frame": "challenge",
 		"show_toast": true,
-		"announce_to_chat": true,
+		"announce_to_chat": false,
 		"hidden": true
 	},
 	"criteria": {

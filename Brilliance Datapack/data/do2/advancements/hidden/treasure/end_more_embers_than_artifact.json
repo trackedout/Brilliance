@@ -6,8 +6,8 @@
 		"title": "§bGame the System",
 		"description": "§7Win a run with more §ofloor §r§3Frost Embers§7 than your artifact is worth.",
 		"frame": "goal",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {

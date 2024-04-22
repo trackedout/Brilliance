@@ -7,8 +7,8 @@
 		"title": "§bExcavator",
 		"description": "§7Find every §8Artifact§7 on §2Level 3§7: §0Black Mines§7.",
 		"frame": "goal",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {

@@ -7,8 +7,8 @@
 		"title": "§bStonks",
 		"description": "§7Exit the dungeon with over §b250§7 total lifetime §6Crowns§7.",
 		"frame": "challenge",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {

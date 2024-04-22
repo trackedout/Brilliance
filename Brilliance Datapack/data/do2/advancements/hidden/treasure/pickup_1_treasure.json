@@ -7,8 +7,8 @@
 		"title": "§bLootin' 'n' Scootin'",
 		"description": "§7Pick up any floor ember or treasure.",
 		"frame": "task",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {

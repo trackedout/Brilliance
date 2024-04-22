@@ -7,8 +7,8 @@
 		"title": "§bLibrary",
 		"description": "§7Exit the dungeon with over §b100§7 total lifetime §9Tomes§7.",
 		"frame": "goal",
-		"show_toast": false,
-		"announce_to_chat": false,
+		"show_toast": true,
+		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
