@@ -1,9 +1,10 @@
 # Other TODO:
+- Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
+- on_game_end happens if any trash item is submitted.
+  - Move cmd -633 -14 1983 to -633 -14 1985
 - Make obvious buttons
   - Make info () and italic.
   - Make buttons gray [] and bolded
-- Add CanPlaceOn to shulkers
-- Detect if Agronet exists using a custom file that uses an agronet command and a set scoreboard.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
@@ -39,7 +40,7 @@
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
     - **_(Builders need to hide egg first)_**
 # List of unfinished things in the advancements that are here.
-    - Looting Scooting didn't give
+ - do2.run.deepest_floor not automated
 
 ## Display:
 - SURVIVAL
