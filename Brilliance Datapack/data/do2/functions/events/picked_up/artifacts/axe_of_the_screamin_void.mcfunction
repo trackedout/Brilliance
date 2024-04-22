@@ -16,3 +16,4 @@ advancement revoke @s only do2:utility/picked_up/artifacts/axe_of_the_screamin_v
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 43
 scoreboard players add @s do2.artifacts.ASV 1
+scoreboard players set $dungeon do2.utility.artifactValue 7

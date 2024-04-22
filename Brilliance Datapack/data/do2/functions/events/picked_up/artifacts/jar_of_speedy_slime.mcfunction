@@ -16,3 +16,4 @@ advancement revoke @s only do2:utility/picked_up/artifacts/jar_of_speedy_slime
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 28
 scoreboard players add @s do2.artifacts.JSS 1
+scoreboard players set $dungeon do2.utility.artifactValue 11

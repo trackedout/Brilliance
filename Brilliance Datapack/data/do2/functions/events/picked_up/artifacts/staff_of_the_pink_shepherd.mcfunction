@@ -16,3 +16,4 @@ advancement revoke @s only do2:utility/picked_up/artifacts/staff_of_the_pink_she
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 44
 scoreboard players add @s do2.artifacts.SPS 1
+scoreboard players set $dungeon do2.utility.artifactValue 48

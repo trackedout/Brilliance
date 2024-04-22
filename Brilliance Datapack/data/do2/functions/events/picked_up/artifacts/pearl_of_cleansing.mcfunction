@@ -16,3 +16,4 @@ advancement revoke @s only do2:utility/picked_up/artifacts/pearl_of_cleansing
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 32
 scoreboard players add @s do2.artifacts.PCL 1
+scoreboard players set $dungeon do2.utility.artifactValue 14

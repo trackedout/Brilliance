@@ -16,3 +16,4 @@ advancement revoke @s only do2:utility/picked_up/artifacts/pocket_watch_of_shree
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 10
 scoreboard players add @s do2.artifacts.PWS 1
+scoreboard players set $dungeon do2.utility.artifactValue 36
