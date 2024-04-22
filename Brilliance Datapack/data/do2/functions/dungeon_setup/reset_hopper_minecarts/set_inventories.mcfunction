@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[§9B§r]: RESETTING Compass Filter Minecart Hoppers."}]
+execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: RESETTING Compass Filter Minecart Hoppers."}]
 # - End Log -
 
 # SET all inventory to be [NOTHING, 4xSTICK, 4xSTICK, 4xSTICK, 4xSTICK]

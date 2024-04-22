@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for OTHER mobs ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oAxolotls§r\n - §oSheep that never touched ground§r\n - §oAdventure PIG!§r\n - §oStart plate zombie§r\n - §oRedstone iron golem§r\n - §oDifficulty lamp blocker§r\n - §oLobby door armor stand blockers§r\n - §oDeck shulker breaker hopper blocker§r\n - §oHidden Witch§r"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Testing for OTHER mobs ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oAxolotls§r\n - §oSheep that never touched ground§r\n - §oAdventure PIG!§r\n - §oStart plate zombie§r\n - §oRedstone iron golem§r\n - §oDifficulty lamp blocker§r\n - §oLobby door armor stand blockers§r\n - §oDeck shulker breaker hopper blocker§r\n - §oHidden Witch§r"}]}},{"text":")"}]
 # - End Log -
 
 # Axolotls

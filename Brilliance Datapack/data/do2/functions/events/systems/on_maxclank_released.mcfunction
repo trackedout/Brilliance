@@ -1,6 +1,6 @@
 # Called when a MAX CLANK is released into the dungeon.
 # - Start Log -
-execute as @a[scores={do2.logs.clank=2..}] run tellraw @s ["",{"text":"[§9B§r]: Released Max §8Clank§r."}]
+execute as @a[scores={do2.logs.clank=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Released Max §8Clank§r."}]
 # - End Log -
 
 # update scoreboard

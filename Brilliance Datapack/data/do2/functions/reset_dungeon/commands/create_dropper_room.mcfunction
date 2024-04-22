@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Creating Dropper Room."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Creating Dropper Room."}]
 # - End Log -
 
 # - Create New Dropper Room -

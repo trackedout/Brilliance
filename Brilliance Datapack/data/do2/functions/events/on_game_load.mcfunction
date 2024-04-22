@@ -1,6 +1,6 @@
 # Ran when the shulkerbox is PUT into the system.
 # - Start Log -
-execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"[§9B§r]: Game has been activated. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rRedstone line to detect shulker box placing has been activated."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Game has been activated. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rRedstone line to detect shulker box placing has been activated."}]}},{"text":")"}]
 # - End Log -
 
 tag @a remove do2.spectating

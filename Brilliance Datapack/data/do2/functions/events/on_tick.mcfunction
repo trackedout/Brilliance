@@ -6,7 +6,7 @@ scoreboard players operation $dungeon do2.utility.checkTick %= $dungeon do2.conf
 execute if score $dungeon do2.utility.checkTick matches 0 run function do2:events/on_datapack_tick
 
 # - Start Log -
-execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]: Game ticked. ("},{"score":{"name":"$dungeon","objective":"do2.utility.checkTick"},"color":"aqua"},{"text":"§r/"},{"score":{"name":"$dungeon","objective":"do2.config.tickRate"},"color":"aqua"},{"text":"§r)"}]
+execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Game ticked. ("},{"score":{"name":"$dungeon","objective":"do2.utility.checkTick"},"color":"aqua"},{"text":"§r/"},{"score":{"name":"$dungeon","objective":"do2.config.tickRate"},"color":"aqua"},{"text":"§r)"}]
 # - End Log -
 
 # Attempt to run per second event.

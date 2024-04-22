@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for Compass Filter Minecart Hoppers."}]
+execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Testing for Compass Filter Minecart Hoppers."}]
 # - End Log -
 
 

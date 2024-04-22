@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up all scoreboard objectives."}]
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Setting up all scoreboard objectives."}]
 # - End Log -
 
 # create scoreboard objectives

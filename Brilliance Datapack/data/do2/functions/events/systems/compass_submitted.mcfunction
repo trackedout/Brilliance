@@ -1,6 +1,6 @@
 # Called when a compass is submitted at a dropoff point.
 # - Start Log -
-execute as @a[scores={do2.logs.player_actions=1..}] run tellraw @s ["",{"text":"[§9B§r]: Submitted Compass. "}]
+execute as @a[scores={do2.logs.player_actions=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Submitted Compass. "}]
 # - End Log -
 
 # AGRONET EVENT

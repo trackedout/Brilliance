@@ -5,7 +5,7 @@ execute positioned -622 49 1942 run tp @a[distance=7..,team=do2.players] ~ ~ ~
 execute unless score $dungeon do2.run.players matches 0 run return 0
 
 # - Start Log -
-execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"[§9B§r]: Game has started. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rPlayer stepped on pressure plate."}]}},{"text":")"}]
+execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Game has started. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rPlayer stepped on pressure plate."}]}},{"text":")"}]
 # - End Log -
 
 # Clear Sidebar

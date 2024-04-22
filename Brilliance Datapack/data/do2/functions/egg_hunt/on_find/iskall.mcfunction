@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add iskallLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=iskallLogTarget]"},{"text":" found iskall85's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -537.2 47 1973.7 -115 7"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=iskallLogTarget]"},{"text":" found iskall85's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -537.2 47 1973.7 -115 7"}},{"text":")"}]
 tag @s remove iskallLogTarget
 # - End Log -
 

@@ -4,7 +4,7 @@ execute if entity @s[name=tangocam] run return 0
 
 # - Start Log -
 tag @s add playerSetupLogTarget
-execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
 tag @s remove playerSetupLogTarget
 
 # reset player's threecoursemeal track
@@ -24,7 +24,7 @@ execute if entity @s[gamemode=survival] run scoreboard players set @s do2.utilit
 execute if entity @s[gamemode=creative] run scoreboard players set @s do2.utility.oldGamemode 2
 execute if entity @s[gamemode=spectator] run scoreboard players set @s do2.utility.oldGamemode 3
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] unless entity @s[tag=do2.staff] run gamemode adventure
-execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode adventure "},{"selector":"@s","color":"dark_purple"},{"text":"\n[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode adventure @s"}},{"text":" to run the command anyways."}]
+execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=survival] unless entity @s[gamemode=adventure] if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"§f[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode adventure "},{"selector":"@s","color":"dark_purple"},{"text":"\n§f[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode adventure @s"}},{"text":" to run the command anyways."}]
 
 # - RESET GENERAL -
 scoreboard players set @s do2.run.foundArtifact 0

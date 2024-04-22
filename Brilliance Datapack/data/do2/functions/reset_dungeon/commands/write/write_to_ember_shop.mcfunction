@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Copying droppers to ember shop."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Copying droppers to ember shop."}]
 # - End Log -
 
 # - copy FROM dropper room TO ember shop -

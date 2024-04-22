@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting droppers/hoppers in ember shop."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting droppers/hoppers in ember shop."}]
 # - End Log -
 
 # - Set droppers IN ember shop to their DEFAULT state. -

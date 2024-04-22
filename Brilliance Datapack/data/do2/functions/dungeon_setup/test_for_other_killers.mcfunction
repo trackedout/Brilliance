@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for 'other' killers ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"§f[§9B§r]: Testing for 'other' killers ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
 # - End Log -
 
 
@@ -54,6 +54,6 @@ execute unless entity @e[type=minecraft:evoker,tag=L2E8] run scoreboard players 
 execute unless entity @e[type=minecraft:evoker,tag=L2E9] run scoreboard players set $dungeon do2.tests.all_killers_alive 24
 execute unless entity @e[type=minecraft:evoker,tag=L2E10] run scoreboard players set $dungeon do2.tests.all_killers_alive 25
 
-execute unless score $dungeon do2.tests.all_killers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing 'Other' Killer §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_killers_alive"}}]
+execute unless score $dungeon do2.tests.all_killers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Missing 'Other' Killer §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_killers_alive"}}]
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 run function do2:dungeon_setup/summon/other_killers
 scoreboard objectives remove do2.tests.all_killers_alive

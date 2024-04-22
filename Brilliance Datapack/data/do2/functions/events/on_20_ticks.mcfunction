@@ -1,7 +1,7 @@
 # Should be once a second, but could be longer depending on TPS
 
 # - Start Log -
-execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]: Running a 20 tick mark. "}]
+execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Running a 20 tick mark. "}]
 # - End Log -
 
 # Kill TangoCam if no player's are on the server.

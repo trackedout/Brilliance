@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add welsLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=welsLogTarget]"},{"text":" found Welsknight's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -626 48 2000 90 10"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=welsLogTarget]"},{"text":" found Welsknight's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -626 48 2000 90 10"}},{"text":")"}]
 tag @s remove welsLogTarget
 # - End Log -
 

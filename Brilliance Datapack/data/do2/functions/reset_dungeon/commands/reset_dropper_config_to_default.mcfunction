@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"[§9B§r]: Resetting Dropper Room to default values."}]
+execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting Dropper Room to default values."}]
 # - End Log -
 
 # - reset dropper room droppers to default values -

@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§r[§9B§r]: Datapack loaded."
+execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§f[§9B§r]: Datapack loaded."
 # - End Log -
 
 # Setup scoreboard

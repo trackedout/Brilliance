@@ -1,6 +1,6 @@
 # Called when hazard is added to the queue.
 # - Start Log -
-execute as @a[scores={do2.logs.hazard=1..}] run tellraw @s ["",{"text":"[§9B§r]: Generated §cHazard§r."}]
+execute as @a[scores={do2.logs.hazard=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Generated §cHazard§r."}]
 # - End Log -
 
 # update scoreboard

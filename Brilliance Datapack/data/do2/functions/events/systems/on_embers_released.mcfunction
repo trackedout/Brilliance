@@ -1,6 +1,6 @@
 # Called when Frost Embers is removed from queue to drop in the dungeon, and is successful in sending to the dungeon's droppers.
 # - Start Log -
-execute as @a[scores={do2.logs.embers=1..}] run tellraw @s ["",{"text":"[§9B§r]: Released §3Frost Embers§r."}]
+execute as @a[scores={do2.logs.embers=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Released §3Frost Embers§r."}]
 # - End Log -
 
 # update scoreboard

@@ -1,6 +1,6 @@
 # - Start Log -
 tag @s add stressLogTarget
-execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=stressLogTarget]"},{"text":" found StressMonster101's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -551 50 2027 90 8"}},{"text":")"}]
+execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=stressLogTarget]"},{"text":" found StressMonster101's easter egg ("},{"text":"§b§o§nTeleport Me","clickEvent":{"action":"run_command","value":"/tp @s -551 50 2027 90 8"}},{"text":")"}]
 tag @s remove stressLogTarget
 # - End Log -
 

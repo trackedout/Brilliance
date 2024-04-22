@@ -3,8 +3,8 @@ execute store result score @s do2.utility.pumpkinsToGive run clear @s pumpkin{tr
 
 # - Start Log -
 tag @s add pumpkinPickUpLogTarget
-execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=pumpkinPickUpLogTarget] do2.utility.pumpkinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pumpkinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=pumpkinPickUpLogTarget]","objective":"do2.utility.pumpkinsToGive"}},{"text":" halloween pumpkin."}]
-execute as @a[scores={do2.logs.pickups=1..}] unless score @p[tag=pumpkinPickUpLogTarget] do2.utility.pumpkinsToGive matches 1 run tellraw @s ["",{"text":"[§9B§r]: "},{"selector":"@p[tag=pumpkinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=pumpkinPickUpLogTarget]","objective":"do2.utility.pumpkinsToGive"}},{"text":" halloween pumpkins."}]
+execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=pumpkinPickUpLogTarget] do2.utility.pumpkinsToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=pumpkinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=pumpkinPickUpLogTarget]","objective":"do2.utility.pumpkinsToGive"}},{"text":" halloween pumpkin."}]
+execute as @a[scores={do2.logs.pickups=1..}] unless score @p[tag=pumpkinPickUpLogTarget] do2.utility.pumpkinsToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=pumpkinPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=pumpkinPickUpLogTarget]","objective":"do2.utility.pumpkinsToGive"}},{"text":" halloween pumpkins."}]
 tag @s remove pumpkinPickUpLogTarget
 # - End Log -
 
