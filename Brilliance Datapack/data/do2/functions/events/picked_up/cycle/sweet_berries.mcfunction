@@ -4,6 +4,7 @@ give @s minecraft:sweet_berries{tracked:1b} 1
 
 # track a berry pick up
 scoreboard players add @s do2.run.items.sweet_berries 1
+scoreboard players add $dungeon do2.run.items.sweet_berries 1
 
 #track we gave a berry to the players
 scoreboard players remove @s do2.utility.berriesToGive 1

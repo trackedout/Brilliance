@@ -3,6 +3,7 @@ give @s minecraft:iron_nugget{ tracked: 1b,  CustomModelData: 208, display: {Nam
 
 # track a bomb pick up
 scoreboard players add @s do2.run.items.bombs 1
+scoreboard players add $dungeon do2.run.items.bombs 1
 
 #track we gave a bomb to the players
 scoreboard players remove @s do2.utility.bombsToGive 1

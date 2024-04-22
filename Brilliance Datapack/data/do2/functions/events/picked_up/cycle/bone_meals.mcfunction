@@ -3,6 +3,7 @@ give @s minecraft:bone_meal{CanPlaceOn:["cave_vines_plant", "sweet_berry_bush"],
 
 # track a bone_meal pick up
 scoreboard players add @s do2.run.items.bone_meals 1
+scoreboard players add $dungeon do2.run.items.bone_meals 1
 
 #track we gave a bone_meal to the players
 scoreboard players remove @s do2.utility.bonemealsToGive 1

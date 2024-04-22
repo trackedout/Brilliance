@@ -3,6 +3,7 @@ give @s minecraft:glow_berries{tracked:1b, display: {Name: '{"text":"❄☠ Glow
 
 # track a glow_berries pick up
 scoreboard players add @s do2.run.items.glow_berries 1
+scoreboard players add $dungeon do2.run.items.glow_berries 1
 
 #track we gave a glow_berries to the players
 scoreboard players remove @s do2.utility.glowberriesToGive 1

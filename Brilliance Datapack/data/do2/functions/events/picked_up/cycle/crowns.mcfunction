@@ -3,6 +3,7 @@ give @s minecraft:iron_nugget{tracked:1b,  CustomModelData: 2, display: {Name: '
 
 # track a crown pick up
 scoreboard players add @s do2.run.items.crowns 1
+scoreboard players add $dungeon do2.run.items.crowns 1
 
 #track we gave a crown to the players
 scoreboard players remove @s do2.utility.crownsToGive 1

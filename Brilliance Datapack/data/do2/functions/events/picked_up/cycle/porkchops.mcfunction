@@ -3,6 +3,7 @@ give @s minecraft:cooked_porkchop{tracked:1b} 1
 
 # track a porkchop pick up
 scoreboard players add @s do2.run.items.pork_chops 1
+scoreboard players add $dungeon do2.run.items.pork_chops 1
 
 #track we gave a porkchop to the players
 scoreboard players remove @s do2.utility.chopsToGive 1

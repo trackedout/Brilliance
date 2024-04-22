@@ -3,6 +3,7 @@ give @s minecraft:pumpkin{tracked:1b, display: {Name: '{"color":"dark_purple","t
 
 # track a pumpkin pick up
 scoreboard players add @s do2.run.items.pumpkins 1
+scoreboard players add $dungeon do2.run.items.pumpkins 1
 
 #track we gave a pumpkin to the players
 scoreboard players remove @s do2.utility.pumpkinsToGive 1

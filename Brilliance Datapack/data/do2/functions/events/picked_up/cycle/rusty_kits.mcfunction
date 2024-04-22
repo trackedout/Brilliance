@@ -3,6 +3,7 @@ give @s minecraft:iron_ingot{tracked: 1b,  CustomModelData: 2, display: {Name: '
 
 # track a rusty_kit pick up
 scoreboard players add @s do2.run.items.kits 1
+scoreboard players add $dungeon do2.run.items.kits 1
 
 #track we gave a rusty_kit to the players
 scoreboard players remove @s do2.utility.kitsToGive 1

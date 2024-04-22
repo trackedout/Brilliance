@@ -3,6 +3,7 @@ give @s minecraft:iron_nugget{tracked: 1b,  CustomModelData: 203, display: {Name
 
 # track a level_3_key pick up
 scoreboard players add @s do2.run.items.key_3 1
+scoreboard players add $dungeon do2.run.items.key_3 1
 
 #track we gave a level_3_key to the players
 scoreboard players remove @s do2.utility.key_3ToGive 1
