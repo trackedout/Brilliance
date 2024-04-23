@@ -43,6 +43,16 @@ execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.DUL r
 # Adding together card numbers
 # Amount of cards in deck:
 
+# set card totals to 0
+scoreboard players set @s do2.run.cards.deck.commons 0
+scoreboard players set @s do2.run.cards.deck.uncommons 0
+scoreboard players set @s do2.run.cards.deck.rares 0
+scoreboard players set @s do2.run.cards.deck.rares 0
+scoreboard players set @s do2.run.cards.deck.legendaries 0
+scoreboard players set @s do2.run.cards.deck.ethereals 0
+scoreboard players set @s do2.run.cards.deck.permanents 0
+scoreboard players set @s do2.run.cards.deck.total 0
+
 # - Common -
 scoreboard players operation @s do2.run.cards.deck.commons += @s do2.run.cards.deck.MOC
 scoreboard players operation @s do2.run.cards.deck.commons += @s do2.run.cards.deck.SNE
