@@ -1,0 +1,82 @@
+{
+	"providers":
+	[
+		{
+			"type": "bitmap",
+			"file": "do2:font/disabled_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE001"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/empty_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE002"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/enable_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE003"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/list_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE004"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/refill_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE005"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/reset_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE006"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/info_text.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE007"
+			]
+		}
+	]
+}

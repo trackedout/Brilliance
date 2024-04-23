@@ -1,0 +1,44 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "do2:font/do_coin.png",
+			"ascent": 7,
+			"height": 8,
+			"space": 16,
+			"chars": [
+				"\uE0A1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/do_crown.png",
+			"ascent": 7,
+			"height": 8,
+			"space": 16,
+			"chars": [
+				"\uE0A2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/do_ember.png",
+			"ascent": 7,
+			"height": 8,
+			"space": 16,
+			"chars": [
+				"\uE0A3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/do_frozenshard6.png",
+			"ascent": 7,
+			"height": 8,
+			"space": 16,
+			"chars": [
+				"\uE0A4"
+			]
+		}
+	]
+}

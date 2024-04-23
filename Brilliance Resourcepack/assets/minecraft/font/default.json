@@ -1,0 +1,24 @@
+{
+	"providers": [
+		{
+			"type": "reference",
+			"id": "do2:custom_icons"
+		},
+		{
+			"type": "reference",
+			"id": "do2:buttons"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/space"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/default"
+		},
+		{
+			"type": "reference",
+			"id": "minecraft:include/unifont"
+		}
+	]
+}
