@@ -1,7 +1,7 @@
 
 # Easter Eggs
 # note, we could just use "checking if they have the advancement" to see if they've found the egg, instead of a scoreboard.
-
+scoreboard objectives add do2.eggs.total dummy "Amount of eggs found"
 scoreboard objectives add do2.eggs.bdubs dummy "Find the Bdubsegg"
 scoreboard objectives add do2.eggs.grian dummy "Find the Gregg"
 scoreboard objectives add do2.eggs.cub dummy "Find the Cubfanegg"

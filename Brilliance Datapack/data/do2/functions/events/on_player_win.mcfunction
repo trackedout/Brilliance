@@ -16,9 +16,13 @@ scoreboard players set @s do2.run.has_won 1
 scoreboard players add @s do2.wins 1
 scoreboard players add @s do2.win_streak 1
 scoreboard players set @s do2.loss_streak 0
+scoreboard players add $dungeon do2.wins 1
+scoreboard players add $dungeon do2.win_streak 1
+scoreboard players set $dungeon do2.loss_streak 0
 
 # set do2.highest_win_streak if do2.win_streak is >= than it.
 execute if score @s do2.win_streak >= @s do2.highest_win_streak run scoreboard players operation @s do2.highest_win_streak = @s do2.win_streak
+execute if score $dungeon do2.win_streak >= $dungeon do2.highest_win_streak run scoreboard players operation $dungeon do2.highest_win_streak = $dungeon do2.win_streak
 
 # store run time when player dies
 scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds

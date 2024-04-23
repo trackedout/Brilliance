@@ -4,6 +4,8 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§f[§9B§r]
 
 # Setup scoreboard
 function do2:scoreboard/setup/all
+# Setup stats room
+function do2:statistics_room/setup
 
 # Make all player's who may have joined already be setup
 execute as @a at @s run function do2:events/on_player_join

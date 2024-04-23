@@ -7,7 +7,8 @@ execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"
 tag @s remove topTnTLogTarget
 # - End Log -
 
-scoreboard players add @s do2.utility.depth_charge_success 1
+scoreboard players add @s do2.depth_charge_success 1
+scoreboard players add $dungeon do2.depth_charge_success 1
 scoreboard players set @s do2.utility.do2.run.tnt_dive 1
 execute if entity @s[advancements={do2:hidden/adventuring/survive_tnt_dive=false}] run advancement grant @s only do2:hidden/adventuring/survive_tnt_dive
 # Set reachedBottomDepthCharge to "2" so no more depth charges can be acquired this run.

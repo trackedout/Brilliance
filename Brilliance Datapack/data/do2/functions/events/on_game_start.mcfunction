@@ -25,6 +25,8 @@ execute as @a[tag=do2.running] run function do2:agronet/game_start
 scoreboard players set $dungeon do2.run.active 1
 function do2:scoreboard/dungeon_per_run
 scoreboard players set @a[team=do2.players] do2.utility.shouldForceFood 0
+scoreboard players add @a[team=do2.players] do2.runs 1
+scoreboard players add $dungeon do2.runs 1
 
 #revoke all utility advancements. These are used for additional conditions
 advancement revoke @a from do2:utility/root
