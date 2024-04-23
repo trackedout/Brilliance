@@ -14,6 +14,9 @@ execute as @a[x=-565,dx=23,y=111,dy=7,z=1974,dz=11] run team join do2.players @s
 # Ensure only ONE player has the do2.received_shulker tag
 function do2:dungeon_setup/ensure_received_shulker_tag
 
+# Count Cards inside of deck
+execute as @p[tag=do2.received_shulker] run function do2:cards/count_cards
+
 # Fast Reset
 execute if score $dungeon do2.config.fastReset matches 1 run function do2:dungeon_setup/fast_reset
 execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block

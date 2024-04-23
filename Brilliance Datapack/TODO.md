@@ -67,8 +67,6 @@
     - Don't have lifetime totals.
 - submit_tomes
     - Don't have tomes submissions.
-- end_more_embers_than_artifact
-  - Currently not automated.
 
 
 
