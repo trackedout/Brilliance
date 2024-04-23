@@ -139,11 +139,15 @@ data merge block -547 116 1976 {Items:[]}
 # Items on player when in death room.
 data merge block -642 -54 2017 {Items:[]}
 data merge block -642 -54 2016 {Items:[]}
+data merge block -642 -54 2015 {Items:[]}
 data merge block -642 -53 2016 {Items:[]}
 data merge block -642 -53 2015 {Items:[]}
+data merge block -642 -53 2014 {Items:[]}
 data merge block -642 -52 2015 {Items:[]}
 data merge block -642 -52 2014 {Items:[]}
+data merge block -642 -52 2013 {Items:[]}
 data merge block -642 -51 2014 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
+data merge block -642 -51 2012 {Items:[]}
 
 tellraw @s ["",{"text":"\n§fAll §lStat Containers §r§fhave been reset."}]
