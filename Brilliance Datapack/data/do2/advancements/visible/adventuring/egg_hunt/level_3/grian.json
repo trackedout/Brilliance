@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 27}"
         },
-        "title": "§bGrEgg",
-        "description": "§7Find GrEgg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bGrian Egg",
+        "description": "§7Find Grian Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,

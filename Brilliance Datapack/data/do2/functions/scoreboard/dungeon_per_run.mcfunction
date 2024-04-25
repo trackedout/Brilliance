@@ -2,6 +2,7 @@
 execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"[§9B§r]: Setting up dungeon per run scores."}]
 # - End Log -
 
+scoreboard players set $dungeon do2.run.deepest_floor 0
 scoreboard players set $dungeon do2.utility.artifactValue 0
 scoreboard players set $dungeon do2.run.player_deaths 0
 scoreboard players set $dungeon do2.run.ticks 0

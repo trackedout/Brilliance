@@ -1,14 +1,12 @@
 # Other TODO:
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
-- on_game_end happens if any trash item is submitted.
-  - Move cmd -633 -14 1983 to -633 -14 1985
-- Make obvious buttons
-  - Make info () and italic.
-  - Make buttons gray [] and bolded
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
+- Fish markers have same issue as ravager markers, can be duplicated as it takes several ticks to summon markers so it can attempt to summon 99 of them for multiple ticks letting them stack up.
 - Check to see if I can change user's cursor upon hovering a CLICKABLE link/bttn
+    - Logs buttons
+    - Buttons in books
 - Advancements with extra spacing for description visibility ISN'T needed in the /hidden/ versions.
 - Have dropper config book have LINKS to each of the dropper categories.
 - Maybe have a config that lets the users change daylight/weather cycle.
@@ -23,11 +21,11 @@
     - Add missing advancements to the documentation.
 - Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
 - Remove file at "dev/markers/controller.mcfunction" eventually.
-- Remove dev blocks at -626 58 2020
 - Maybe track card vs natural stats:
   - Hazard
   - Clank
   - Treasure
+- Egg Hunter has weird mask as icon. Same with easter bunny.
 
 # Log Todo:
 triggered_shrieker
@@ -47,8 +45,6 @@ triggered_shrieker
 - Update all of the compasses filters to the new CustomModelData.
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
     - **_(Builders need to hide egg first)_**
-# List of unfinished things in the advancements that are here.
- - do2.run.deepest_floor not automated
 
 ## Display:
 - SURVIVAL

@@ -15,8 +15,10 @@
 			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
 				"damage": {
-					"source_entity": {
-						"type": "minecraft:tnt"
+					"type": {
+						"direct_entity": {
+							"type": "minecraft:tnt"
+						}
 					}
 				}
 			}

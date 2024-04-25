@@ -16,7 +16,7 @@ execute as @s[advancements={do2:visible/cards/craft_1_legendary=false,do2:hidden
 execute as @s[advancements={do2:visible/cards/enter_5_cards=false,do2:hidden/cards/enter_5_cards=true}] run advancement grant @s only do2:visible/cards/enter_5_cards
 execute as @s[advancements={do2:visible/cards/enter_20_cards=false,do2:hidden/cards/enter_20_cards=true}] run advancement grant @s only do2:visible/cards/enter_20_cards
 execute as @s[advancements={do2:visible/cards/enter_30_cards=false,do2:hidden/cards/enter_30_cards=true}] run advancement grant @s only do2:visible/cards/enter_30_cards
-execute as @s[advancements={do2:visible/cards/enter_30_ne_cards=false,do2:hidden/cards/enter_30_ne_cards=true}] run advancement grant @s only do2:visible/cards/enter_30_ne_cards
+execute as @s[advancements={do2:visible/cards/enter_30_nc_cards=false,do2:hidden/cards/enter_30_nc_cards=true}] run advancement grant @s only do2:visible/cards/enter_30_nc_cards
 execute as @s[advancements={do2:visible/cards/enter_40_cards=false,do2:hidden/cards/enter_40_cards=true}] run advancement grant @s only do2:visible/cards/enter_40_cards
 execute as @s[advancements={do2:visible/cards/get_deck_box=false,do2:hidden/cards/get_deck_box=true}] run advancement grant @s only do2:visible/cards/get_deck_box
 execute as @s[advancements={do2:visible/cards/play_5_moc=false,do2:hidden/cards/play_5_moc=true}] run advancement grant @s only do2:visible/cards/play_5_moc

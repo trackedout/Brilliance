@@ -10,7 +10,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_3/pearlescent  moon",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/pearlescentmoon",
     "criteria": {
         "auto": {
             "trigger": "minecraft:location",

@@ -46,21 +46,21 @@
 										"entity": "this",
 										"predicate": {
 											"type": "minecraft:player",
-											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:201}]}"
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:201}}]}"
 										}
 									},
 									{
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:203}]}"
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:203}}]}"
 										}
 									},
 									{
 										"condition": "minecraft:entity_properties",
 										"entity": "this",
 										"predicate": {
-											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:209}]}"
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:209}}]}"
 										}
 									}
 								]

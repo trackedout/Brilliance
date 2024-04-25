@@ -4,7 +4,7 @@
             "item": "minecraft:redstone",
             "nbt": "{CustomModelData:1111126}"
         },
-        "title": "§bPerfect Win Streak",
+        "title": "§bDouble Digits",
         "description":  "§7Win §b10§7 games of §o§3Decked Out 2§r§7 §nin a row§r§7.",
         "frame": "challenge",
         "show_toast": true,

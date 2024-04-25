@@ -1,26 +1,31 @@
 {
 	"_comment": "This triggers UPON player reaching the TOP of the TnT depth charge.",
 	"criteria": {
-		"reach_under_tnt_depth_charge": {
+		"reach_top_tnt_depth_charge": {
 			"trigger": "minecraft:location",
 			"conditions": {
-				"position": {
-					"x": {
-						"min": -585,
-						"max": -575
-					},
-					"y": {
-						"min": 45,
-						"max": 47
-					},
-					"z": {
-						"min": 1953,
-						"max": 1971
+				"player": {
+					"location": {
+						"position": {
+							"x": {
+								"min": -585,
+								"max": -575
+							},
+							"y": {
+								"min": 45,
+								"max": 47
+							},
+							"z": {
+								"min": 1953,
+								"max": 1971
+							}
+						}
 					}
 				}
 			}
 		}
 	},
+	
 	"rewards": {
 		"function": "do2:events/dungeon/on_reached_top_tnt_depth_charge"
 	},
