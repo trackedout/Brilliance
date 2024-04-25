@@ -10,25 +10,14 @@
 						"max": -575
 					},
 					"y": {
-						"min": 46,
+						"min": 45,
 						"max": 47
 					},
 					"z": {
 						"min": 1953,
 						"max": 1971
 					}
-				},
-				"player": [
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						"scores": {
-							"do2.cards.bought.MOC": {
-								"min": 1
-							}
-						}
-					}
-				]
+				}
 			}
 		}
 	},
