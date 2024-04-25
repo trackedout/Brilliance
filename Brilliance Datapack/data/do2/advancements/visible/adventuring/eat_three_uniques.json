@@ -19,7 +19,7 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
-                        "do2.adv.threecoursemeal": 1
+                        "do2.run.threecoursemeal": 1
                     }
                 }
             ]
@@ -33,7 +33,7 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
-                        "do2.adv.threecoursemeal": 2
+                        "do2.run.threecoursemeal": 2
                     }
                 }
             ]
@@ -47,7 +47,7 @@
                     "condition": "minecraft:entity_scores",
                     "entity": "this",
                     "scores": {
-                        "do2.adv.threecoursemeal": 3
+                        "do2.run.threecoursemeal": 3
                     }
                 }
             ]

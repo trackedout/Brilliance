@@ -8,7 +8,7 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"
 tag @s remove playerSetupLogTarget
 
 # reset player's threecoursemeal track
-scoreboard players set @s do2.adv.threecoursemeal 0
+scoreboard players set @s do2.run.threecoursemeal 0
 execute unless entity @s[advancements={do2:hidden/adventuring/eat_three_uniques=true}] run advancement revoke @s only do2:visible/adventuring/eat_three_uniques
 
 # reset player's play_5_moc on 1 run.

@@ -1,5 +1,5 @@
 # three course meal
-scoreboard players set @s do2.adv.threecoursemeal 0
+scoreboard players set @s do2.run.threecoursemeal 0
 advancement revoke @s only do2:hidden/adventuring/eat_three_uniques
 advancement revoke @s only do2:visible/adventuring/eat_three_uniques
 advancement revoke @s only do2:utility/eat_three_uniques/cod
