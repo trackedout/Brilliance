@@ -23,8 +23,8 @@ execute if score $dungeon do2.utility.shulkerPlayers matches 2.. unless entity @
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. unless entity @p[tag=do2.received_shulker.temp1] if entity @p[tag=do2.received_shulker.temp2] run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rPlayers: "},{"selector":"@a[tag=do2.received_shulker]","color":"dark_purple"},{"text":" §rHas the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n§f[§9B§r]: Automatically fixing this...\n§f[§9B§r]: §4(§r§oCouldn't find any active players, giving it to random player instead§r§4)§r\n§f[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp2]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. unless entity @p[tag=do2.received_shulker.temp1] if entity @p[tag=do2.received_shulker.temp2] run tag @a[tag=do2.received_shulker] remove do2.received_shulker
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. unless entity @p[tag=do2.received_shulker.temp1] if entity @p[tag=do2.received_shulker.temp2] run tag @a[tag=do2.received_shulker.temp2] add do2.received_shulker
-tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp1
-tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp2
+tag @a[tag=do2.received_shulker.temp1] remove do2.received_shulker.temp1
+tag @a[tag=do2.received_shulker.temp2] remove do2.received_shulker.temp2
 
 
 # -- No players have the tag. --
@@ -36,5 +36,5 @@ execute if score $dungeon do2.utility.shulkerPlayers matches ..0 if entity @p[ta
 execute if score $dungeon do2.utility.shulkerPlayers matches ..0 unless entity @p[tag=do2.received_shulker.temp1] run tag @r[name=!tangocam,name=!TangoCam] add do2.received_shulker.temp
 execute if score $dungeon do2.utility.shulkerPlayers matches ..0 unless entity @p[tag=do2.received_shulker.temp1] if entity @p[tag=do2.received_shulker.temp2] run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rNo players has the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n§f[§9B§r]: Automatically fixing this...\n§f[§9B§r]: §4(§r§oCouldn't find any active players, giving it to random player instead§r§4)§r\n§f[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
 execute if score $dungeon do2.utility.shulkerPlayers matches ..0 unless entity @p[tag=do2.received_shulker.temp1] if entity @p[tag=do2.received_shulker.temp2] run tag @a[tag=do2.received_shulker.temp] add do2.received_shulker
-tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp1
-tag @a[tag=do2.received_shulker.temp] remove do2.received_shulker.temp2
+tag @a[tag=do2.received_shulker.temp1] remove do2.received_shulker.temp1
+tag @a[tag=do2.received_shulker.temp2] remove do2.received_shulker.temp2
