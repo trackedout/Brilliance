@@ -4,7 +4,7 @@
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111140}"
 		},
-		"title": "§bAlaska",
+		"title": "§bArctic",
 		"description": "§7Have at least §b30 §fSnow Layers§7 on the scoreboard.",
 		"frame": "goal",
 		"show_toast": true,

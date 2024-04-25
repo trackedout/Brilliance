@@ -4,7 +4,7 @@
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111138}"
 		},
-		"title": "§bBlizzard",
+		"title": "§bSnowed In",
 		"description": "§7Have at least §b20 §fSnow Layers§7 on the scoreboard.",
 		"frame": "task",
 		"show_toast": false,

@@ -11,11 +11,11 @@ summon minecraft:armor_stand -561.7 11.67 1936.5 { Tags:["do2.egg_hunt.is_hitbox
 summon minecraft:armor_stand -539.3 35.67 2004.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_impulse_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -534.7 46.67 1972.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_iskall_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -541.5 17.67 1983.7 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_joehills_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
-summon minecraft:armor_stand -620.5 -7.33 1928.3 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_pearlescent_moon_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
+summon minecraft:armor_stand -620.5 -7.33 1928.3 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_pearlescentmoon_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -553.5 49.67 2027.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_stress_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
-summon minecraft:armor_stand -539.5 18.67 2010.3 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_vintage_beef_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
+summon minecraft:armor_stand -539.5 18.67 2010.3 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_vintagebeef_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -627.5 47.67 2000.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_welsknight_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -525.7 13.67 1931.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_xbcrafted_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -656.5 3.67 1914.3 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_xisuma_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
 summon minecraft:armor_stand -503.5 45.67 2018.5 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_zedaph_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
-summon minecraft:armor_stand -631.5 2.34 1925.2 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_zombie_cleo_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }
+summon minecraft:armor_stand -631.5 2.34 1925.2 { Tags:["do2.egg_hunt.is_hitbox", "do2.egg_hunt.is_zombiecleo_hitbox"],Invisible: true, Invulnerable: true, NoAI: true, NoGravity: true }

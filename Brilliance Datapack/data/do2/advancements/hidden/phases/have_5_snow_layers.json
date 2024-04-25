@@ -4,7 +4,7 @@
 			"item": "minecraft:redstone",
 			"nbt": "{'CustomModelData': 1111135}"
 		},
-		"title": "§bSnow Flurries",
+		"title": "§bSnowmen",
 		"description": "§7Have at least §b5 §fSnow Layers§7 on the scoreboard.",
 		"frame": "task",
 		"show_toast": true,

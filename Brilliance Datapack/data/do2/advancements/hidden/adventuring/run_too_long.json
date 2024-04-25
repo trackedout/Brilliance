@@ -20,8 +20,7 @@
 						"entity": "this",
 						"scores": {
 							"do2.run.seconds": 3600
-						},
-						"nbt": "{Tags:[\"do2.running\"]}"
+						}
 					}
 				]
 			}

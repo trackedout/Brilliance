@@ -15,37 +15,35 @@
 		"pickup_1_treasure": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
-				"conditions": {
-					"player": [
-						{
-							"condition": "any_of",
-							"terms": [
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"type": "minecraft:player",
-										"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:1}]}"
-									}
-								},
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:2}]}"
-									}
-								},
-								{
-									"condition": "minecraft:entity_properties",
-									"entity": "this",
-									"predicate": {
-										"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",CustomModelData:3}]}"
-									}
+				"player": [
+					{
+						"condition": "any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"type": "minecraft:player",
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:1,tracked:0b}}]}"
 								}
-							]
-						}
-					]
-				}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:2,tracked:0b}}]}"
+								}
+							},
+							{
+								"condition": "minecraft:entity_properties",
+								"entity": "this",
+								"predicate": {
+									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:3,tracked:0b}}]}"
+								}
+							}
+						]
+					}
+				]
 			}
 		}
 	},
