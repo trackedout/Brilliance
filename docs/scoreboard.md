@@ -1,7 +1,10 @@
+# WARNING!!!
+## This is crazily outdated. (Last updated in febuary. I'm working on updating this page however)
+
 # Brilliance Scoreboard
 Brilliance uses a ton of scoreboard objectives for a vast amount of things. This list should document and describe every single scoreboard objective.
 <br><br>
-Agronet transfers EVERYTHING that isn't marked as `Utility`.
+Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 
 
 #### Table's Key:
@@ -13,6 +16,7 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
    1. ✅ | The score is stored on `@a[tag=do2.running]`. 
    2. ❌ | The score is stored `$dungeon`.
    3. ⛔ | The score is stored on `@p[tag=do2.received_shulker]`.
+   3. ⭕ | The score is stored on both `@a[tag=do2.running]` & `$dungeon`. 
 3. `Name`
    - Name of the scoreboard objective.
 4. `Category`
@@ -25,7 +29,6 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 
 | Auto | @s  | Name                                 | Category | Description                                                                                                |
 |:----:|:---:|:-------------------------------------|:--------:|:-----------------------------------------------------------------------------------------------------------|
-|  ❌   |  ❌  | do2.config.useZones                  |  Config  | Boolean on whether the run is using Ravager Zones.                                                         |
 |  ❌   |  ❌  | do2.config.eggRewards                |  Config  | Boolean on whether the run rewards the player for finding easter eggs.                                     |
 |  ❌   |  ❌  | do2.config.tickRate                  |  Config  | Determine how fast you want the datapack to run. Slower is more optimized.                                 |
 |  ✅   |  ❌  | do2.utility.configDisplay            | Utility  | Used to show the current settings of the dungeon.                                                          |
@@ -48,7 +51,6 @@ Agronet transfers EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ✅  | do2.run.seconds                      | Current  | Time on how long the player's run lasted. From pressure plate press to either Death or Artifact Submission |
 |  ✅   |  ✅  | do2.run.difficulty                   | Current  | The dungeon's run difficulty                                                                               | 
 |  ✅   |  ✅  | do2.run.deepest_floor                | Current  | The deepest floor the player has reached.                                                                  |
-|  ✅   |  ✅  | do2.run.tnt_dive                     | Current  | Whether the player has succeeded the TnT depth charge this run.                                            |
 |  ✅   |  ✅  | do2.run.has_won                      | Current  | Whether the player has won the run.                                                                        |
 |  ✅   |  ✅  | do2.run.has_died                     | Utility  | Whether the player has died.                                                                               |
 |  ✅   |  ❌  | do2.run.player_deaths                | Utility  | How many of the player have died.                                                                          |

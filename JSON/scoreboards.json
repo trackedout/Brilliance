@@ -1,0 +1,2450 @@
+{
+	"do2.tests.all_markers_alive": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all teleport markers entities exist."
+	},
+	"do2.tests.all_killers_alive": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all other killers exist."
+	},
+	"do2.tests.all_ravagers_alive": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all ravagers exist."
+	},
+	"do2.tests.all_wardens_alive": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all wardens exist."
+	},
+	"do2.tests.all_lodestone_spots": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all lodestones exist."
+	},
+	"do2.tests.all_minecart_spots": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all minecarts exist."
+	},
+	"do2.tests.all_filters": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if all compass filters exist."
+	},
+	"do2.tests.doesTangoCamExist": {
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "tests",
+		"description": "Used to temporarily test if TangoCam exists."
+	},
+	"do2.run.threecoursemeal": {
+		"auto": 1,
+		"target": "runners",
+		"category": "current",
+		"description": "Used to track how many UNIQUE foods the player has eaten this run."
+	},
+	"do2.runs": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The total amount of runs the target has."
+	},
+	"do2.wins": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The total amount of wins the target has."
+	},
+	"do2.losses": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The total amount of losses the target has."
+	},
+	"do2.shards": {
+		"auto": 0,
+		"target": "N/A",
+		"category": "totals",
+		"description": "The total amount of Frozen Shards the target has collected."
+	},
+	"do2.crowns": {
+		"auto": 0,
+		"target": "N/A",
+		"category": "totals",
+		"description": "The total amount of Crowns the target has collected."
+	},
+	"do2.embers": {
+		"auto": 0,
+		"target": "N/A",
+		"category": "totals",
+		"description": "The total amount of Frost Embers the target has collected."
+	},
+	"do2.highest_win_streak": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The highest win streak the target has."
+	},
+	"do2.win_streak": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The current win streak the target has."
+	},
+	"do2.highest_loss_streak": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The highest loss streak the target has."
+	},
+	"do2.loss_streak": {
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The current loss streak the target has."
+	},
+	"do2.depth_charge_success": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.active": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.empty": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.ticks": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.seconds": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.difficulty": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.deepest_floor": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.has_won": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.has_died": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.player_deaths": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.players": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.agronet.card_availible": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.agronet.card_played": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.agronet.card_bought": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.endermiteCount": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.maxClankTreasure": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.nightTimeChance": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.vexTracking": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.eggRewards": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.batDistraction": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.tickRate": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.ticksPerSecond": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.fastReset": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.amountOfBats": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.amountOfFish": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.forceGamemode": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.forceFood": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.targetFoodLevel": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.targetSaturationLevel": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.snowHazard": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.l2ShipTreasureLine": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.balancedTnTDiveLoot": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.lessLootMaxClank": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.suitUpRes": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.bc.staircaseEmbers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.fr.teleportKillers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.fr.refillBerries": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.fr.resetComposters": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.fr.cakeGauntlet": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.refillDungeonType": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.mc.levelEditing": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.mc.level1Zones": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.mc.level2Zones": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.config.mc.level4Zones": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.total": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.bdubs": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.grian": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.cub": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.docm": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.gold": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.jevin": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.zedaph": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.beef": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.xisuma": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.xb": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.hypno": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.joe": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.cleo": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.iskall": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.pearl": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.scar": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.wels": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.stress": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.impulse": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.eggs.false": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.embers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.coins": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.crowns": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.kits": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.pumpkins": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.bone_meals": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.glow_berries": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.sweet_berries": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.pork_chops": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.key_2": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.key_3": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.key_4": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.items.bombs": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.pickups": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.evokers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.gamestate": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.datapack_setup": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.dropper_room": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.cards": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.clank": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.hazard": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.embers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.treasure": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.player_actions": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.dungeon_setup": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.logs.spam": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.clank.generated": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.clank.blocked": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.hazard.generated": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.hazard.blocked": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.embers.released": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.maxclank.released": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.treasure.released": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.systems.hazard.activated": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.deathCount": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.randomNum": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.currentTick": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.checkTick": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.advancementOrdering": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.reachedBottomDepthCharge": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.configDisplay": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.statsDisplay": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.dungeonRepair": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.currentFishCount": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.fishVariant": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.gui": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.shulkerPlayers": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.trackLeaves": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.oldGamemode": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.old_position.x": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.old_position.y": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.old_position.z": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.old_position.temp": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.totalCrowns": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.coinsPerCrown": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.shouldForceFood": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.playersFood": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.playersSaturation": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.artifactValue": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.statsScreen": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.onServer": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.embersToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.coinsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.crownsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.kitsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.pumpkinsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.berriesToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.bombsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.bonemealsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.glowberriesToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.chopsToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.key_2ToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.key_3ToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.utility.key_4ToGive": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.convertedArtifake": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.foundArtifact": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.HAY": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.ASV": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.MGW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.SHD": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.PPS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.JSS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.THL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.DLP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.PCL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.HGT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.CUS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.BAP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.HYB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.WGG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.KNH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.BED": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.HST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.GGS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.GDE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.PWS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.OFP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.GGR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.CF1": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.SPS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.TSL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.SKA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.MDM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifacts.MKY": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.HAY": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.ASV": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.MGW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.SHD": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.PPS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.JSS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.THL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.DLP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.PCL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.HGT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.CUS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.BAP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.HYB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.WGG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.KNH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.BED": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.HST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.GGS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.GDE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.PWS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.OFP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.GGR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.CF1": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.SPS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.TSL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.SKA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.MDM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.artifakes.MKY": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.EVA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.TRL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.LAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.FRF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SEW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.BES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.BST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.REC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SPT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.NIL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SAG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.QUI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SUU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.ADR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.EES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.DUR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SWA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.CHS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SPR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.EOP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.PIB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.HAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.COS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.SIR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.FBS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.DEF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.availible.BRI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.1TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.3TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.5TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.MOC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SNE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.STA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.TRH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.EMS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.EVA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.TRL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.LAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.FRF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SEW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.BES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.BST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.REC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SPT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.NIL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SAG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.QUI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SUU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.ADR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.EES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.DUR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SWA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.CHS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SPR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.EOP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.PIB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.HAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.COS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.SIR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.FBS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.DEF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.BRI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.P2W": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.TAA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.POP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.STU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.bought.DUL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.1TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.3TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.5TM": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.MOC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SNE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.STA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.TRH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.EMS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.EVA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.TRL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.LAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.FRF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SEW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.BES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.BST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.REC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SPT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.NIL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SAG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.QUI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SUU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.ADR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.EES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.DUR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SWA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.CHS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SPR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.EOP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.PIB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.HAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.COS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.SIR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.FBS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.DEF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.BRI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.P2W": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.TAA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.POP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.STU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.cards.bought.DUL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.MOC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SNE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.STA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.TRH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.EMS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.EVA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.TRL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.LAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.FRF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SEW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.BES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.BST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.REC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SPT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.NIL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SAG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.QUI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SUU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.ADR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.EES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.DUR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SWA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.CHS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SPR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.EOP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.PIB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.HAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.COS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.SIR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.FBS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.DEF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.BRI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.P2W": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.TAA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.POP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.STU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.played.DUL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.total": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.commons": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.uncommons": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.rares": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.legendaries": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.ethereals": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.permanents": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.MOC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SNE": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.STA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.TRH": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.EMS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.EVA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.TRL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.LAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.FRF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SEW": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.BES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.BST": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.REC": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SPT": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.NIL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SAG": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.QUI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SUU": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.ADR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.EES": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.DUR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SWA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.CHS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SPR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.EOP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.PIB": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.HAS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.COS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.SIR": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.FBS": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.DEF": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.BRI": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.P2W": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.TAA": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.POP": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.run.cards.deck.DUL": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.trigger.logs": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.trigger.version": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.trigger.map": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.trigger.playsound": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	},
+	"do2.trigger.gui": {
+		"auto": 0,
+		"target": "unknown",
+		"category": "unknown",
+		"description": "unknown"
+	}
+}

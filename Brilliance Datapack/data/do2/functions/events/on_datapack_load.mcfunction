@@ -11,11 +11,11 @@ function do2:statistics_room/setup
 execute as @a at @s run function do2:events/on_player_join
 
 # TangoCam (just in case)
-scoreboard objectives add do2.temp.doesTangoCamExist dummy
-execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.temp.doesTangoCamExist 1
-execute unless score $dungeon do2.temp.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon/summon_tangocam
-scoreboard objectives remove do2.temp.doesTangoCamExist
+scoreboard objectives add do2.tests.doesTangoCamExist dummy
+execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.tests.doesTangoCamExist 1
+execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.tests.doesTangoCamExist 1
+execute unless score $dungeon do2.tests.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon/summon_tangocam
+scoreboard objectives remove do2.tests.doesTangoCamExist
 
 # Attempt to run dungeon_setup
 scoreboard players set $dungeon do2.utility.dungeonRepair 1
