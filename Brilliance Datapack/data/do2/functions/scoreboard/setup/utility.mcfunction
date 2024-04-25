@@ -4,8 +4,6 @@ scoreboard objectives add do2.utility.currentTick dummy "The current tick number
 scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."
 scoreboard objectives add do2.utility.reachedBottomDepthCharge dummy "Whether player has reached the Bottom of the TnT Depth Charge"
-scoreboard objectives add do2.utility.configDisplay dummy "Dungeon's Settings"
-scoreboard objectives add do2.utility.statsDisplay dummy "Dungeon's Stats"
 scoreboard objectives add do2.utility.dungeonRepair dummy "Boolean on whether the dungeon is attempting to reload."
 scoreboard objectives add do2.utility.currentFishCount dummy "How many fishes are present in the dungeon."
 scoreboard objectives add do2.utility.fishVariant dummy "Determines what the variant the fish will be."

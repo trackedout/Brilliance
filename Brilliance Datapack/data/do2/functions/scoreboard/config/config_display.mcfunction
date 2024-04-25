@@ -1,8 +1,0 @@
-scoreboard players operation $Egg_Rewards do2.utility.configDisplay = $dungeon do2.config.eggRewards
-scoreboard players operation $Endermites do2.utility.configDisplay = $dungeon do2.config.endermiteCount
-scoreboard players operation $Bat_Distraction do2.utility.configDisplay = $dungeon do2.config.batDistraction
-scoreboard players operation $Tick_Rate do2.utility.configDisplay = $dungeon do2.config.tickRate
-scoreboard players operation $Reset_Composters do2.utility.configDisplay = $dungeon do2.config.fr.resetComposters
-scoreboard players operation $Disable_MaxClank_Loot do2.utility.configDisplay = $dungeon do2.config.maxClankTreasure
-scoreboard players operation $Night_Chance do2.utility.configDisplay = $dungeon do2.config.nightTimeChance
-scoreboard players operation $Faster_Resets do2.utility.configDisplay = $dungeon do2.config.fastReset

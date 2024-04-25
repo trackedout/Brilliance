@@ -45,7 +45,7 @@ Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ✅  | do2.loss_streak                      | Current  | The player's current Loss Streak.                                                                          |
 |  ✅   |  ✅  | do2.depth_charge_success             |  Totals  | Total amount of the player's Successes when diving the TnT depth charge                                    |
 |  ✅   |  ❌  | do2.run.active                       | Utility  | Boolean on whether the Dungeon is running.                                                                 |
-|  ✅   |  ❌  | do2.run.empty                        | Utility  | Time on how long the Dungeon hasn't had players inside the dungeon.                                        |
+|  ✅   |  ❌  | do2.run.timeWithNoPlayers                        | Utility  | Time on how long the Dungeon hasn't had players inside the dungeon.                                        |
 |  ✅   |  ❌  | do2.run.ticks                        | Utility  | Time on how long the server has been running for                                                           |
 |  ✅   |  ❌  | do2.run.seconds                      | Utility  | Time on how long the run lasted. From pressure plate press to Artifact Submission.                         |
 |  ✅   |  ✅  | do2.run.seconds                      | Current  | Time on how long the player's run lasted. From pressure plate press to either Death or Artifact Submission |

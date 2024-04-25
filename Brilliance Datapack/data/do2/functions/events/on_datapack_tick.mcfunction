@@ -15,7 +15,7 @@ execute as @e[type=player,scores={do2.utility.deathCount=1..}] run function do2:
 execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
 
 # if no players running do2 but game active for 5 minutes, end game.
-execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.empty matches 300 run function do2:events/on_game_end
+execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.timeWithNoPlayers matches 300 run function do2:events/on_game_end
 
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
@@ -31,10 +31,6 @@ execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.ghos
 
 # Force player's food.
 execute if score $dungeon do2.config.forceFood matches 1 as @a[scores={do2.utility.shouldForceFood=1}] run function do2:dungeon_setup/control_player_saturation
-
-# Update the various sideboards display.
-function do2:scoreboard/config/config_display
-function do2:scoreboard/stats_display
 
 # Check for triggers.
 function do2:scoreboard/triggers/checks

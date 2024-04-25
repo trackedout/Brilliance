@@ -18,7 +18,7 @@ scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Suc
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"
-scoreboard objectives add do2.run.empty dummy "AFK Timer"
+scoreboard objectives add do2.run.timeWithNoPlayers dummy "AFK Timer"
 scoreboard objectives add do2.run.ticks dummy "Server Tick Counter"
 scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
 scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"

@@ -7,6 +7,7 @@
 - Check to see if I can change user's cursor upon hovering a CLICKABLE link/bttn
     - Logs buttons
     - Buttons in books
+- Add a forceFood config lever.
 - Advancements with extra spacing for description visibility ISN'T needed in the /hidden/ versions.
 - Have dropper config book have LINKS to each of the dropper categories.
 - Maybe have a config that lets the users change daylight/weather cycle.

@@ -114,1186 +114,1174 @@
 		"description": "The current loss streak the target has."
 	},
 	"do2.depth_charge_success": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "The total amount of Depth Charge Successes."
 	},
 	"do2.run.active": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "Whether the dungeon is currently active."
 	},
-	"do2.run.empty": {
+	"do2.run.timeWithNoPlayers": {
 		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"target": "$dungeon",
+		"category": "current",
+		"description": "Amount of time the dungeon hasn't had active players."
 	},
 	"do2.run.ticks": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "Counting until 20th tick to add a second."
 	},
 	"do2.run.seconds": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How long the run has been running for."
 	},
 	"do2.run.difficulty": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "The difficulty the run is playing on."
 	},
 	"do2.run.deepest_floor": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "The deepest floor the artifact was submitted on."
 	},
 	"do2.run.has_won": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "current",
+		"description": "Whether the runner has won or not."
 	},
 	"do2.run.has_died": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "current",
+		"description": "Whether the runner has died or not."
 	},
 	"do2.run.player_deaths": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How many players have died this run."
 	},
 	"do2.run.players": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How many players are playing this run."
 	},
 	"do2.agronet.card_availible": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "agronet",
+		"description": "Used to tell agronet what card was availible."
 	},
 	"do2.agronet.card_played": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "agronet",
+		"description": "Used to tell agronet what card was played."
 	},
 	"do2.agronet.card_bought": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "agronet",
+		"description": "Used to tell agronet what card was bought."
 	},
 	"do2.config.endermiteCount": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many endermites can exist in Level 2."
 	},
 	"do2.config.maxClankTreasure": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether treasure can drop after max clank is reached."
 	},
 	"do2.config.nightTimeChance": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "The chance for the dungeon to set the time to night."
 	},
 	"do2.config.vexTracking": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether vex tracks players at ALL times."
 	},
 	"do2.config.eggRewards": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "What rewards finding easter eggs give you."
 	},
 	"do2.config.batDistraction": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether bats are allowed in L3 and L4."
 	},
 	"do2.config.tickRate": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many minecraft ticks, before the majority of the datapack runs."
 	},
 	"do2.config.ticksPerSecond": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many ticks the server runs per second."
 	},
 	"do2.config.fastReset": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to quickly reset the dungeon upon game ending."
 	},
 	"do2.config.amountOfBats": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many bats allowed on L3 or L4 at a time."
 	},
 	"do2.config.amountOfFish": {
 		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"target": "$dungeon",
+		"category": "config",
+		"description": "The amount of fish allowed to exist."
 	},
 	"do2.config.forceGamemode": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to try to force player's gamemode upon game start/stop."
 	},
 	"do2.config.forceFood": {
 		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to force the player's food at saturation level to be a certain value."
 	},
 	"do2.config.targetFoodLevel": {
 		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many food bars the player's food should be."
 	},
 	"do2.config.targetSaturationLevel": {
 		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"target": "$dungeon",
+		"category": "config",
+		"description": "How many saturation levels the player's saturation should be."
 	},
 	"do2.config.bc.snowHazard": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to use a new hazard in the hidden L1 shortcut."
 	},
 	"do2.config.bc.l2ShipTreasureLine": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether treasure can drop on L2's ship when player is on L2."
 	},
 	"do2.config.bc.balancedTnTDiveLoot": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to balance the TnT dive loot more."
 	},
 	"do2.config.bc.lessLootMaxClank": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to have Max Clank have a 50% chance to stop loot."
 	},
 	"do2.config.bc.suitUpRes": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether the card Suit Up grants resistance."
 	},
 	"do2.config.bc.staircaseEmbers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether embers should drop on each staircase."
 	},
 	"do2.config.fr.teleportKillers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether the killers should be spread out for each run."
 	},
 	"do2.config.fr.refillBerries": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to refill all berry bushes each run."
 	},
 	"do2.config.fr.resetComposters": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to empty out all composters each run."
 	},
 	"do2.config.fr.cakeGauntlet": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether to set the cake in the death gauntlet to full each run."
 	},
 	"do2.config.refillDungeonType": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "The type decides how should the dungeon be refilled."
 	},
 	"do2.config.mc.levelEditing": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "What level the interface is displaying to be edited."
 	},
 	"do2.config.mc.level1Zones": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether zones should be used on L1."
 	},
 	"do2.config.mc.level2Zones": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether zones should be used on L2."
 	},
 	"do2.config.mc.level4Zones": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "config",
+		"description": "Whether zones should be used on L4."
 	},
 	"do2.eggs.total": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "totals",
+		"description": "How many eggs the players have found."
 	},
 	"do2.eggs.bdubs": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Bdub's egg."
 	},
 	"do2.eggs.grian": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Grian's egg."
 	},
 	"do2.eggs.cub": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Cub's egg."
 	},
 	"do2.eggs.docm": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Docm's egg."
 	},
 	"do2.eggs.gold": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found the Golden egg."
 	},
 	"do2.eggs.jevin": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Jevin's egg."
 	},
 	"do2.eggs.zedaph": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Zed's egg."
 	},
 	"do2.eggs.beef": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Beef's egg."
 	},
 	"do2.eggs.xisuma": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Xisuma's egg."
 	},
 	"do2.eggs.xb": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found XB's egg."
 	},
 	"do2.eggs.hypno": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Hypno's egg."
 	},
 	"do2.eggs.joe": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Joe's egg."
 	},
 	"do2.eggs.cleo": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Cleo's egg."
 	},
 	"do2.eggs.iskall": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Iskall's egg."
 	},
 	"do2.eggs.pearl": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Pearl's egg."
 	},
 	"do2.eggs.scar": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Scar's egg."
 	},
 	"do2.eggs.wels": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Wels' egg."
 	},
 	"do2.eggs.stress": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Stress's egg."
 	},
 	"do2.eggs.impulse": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found Impulse's egg."
 	},
 	"do2.eggs.false": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "Whether the player has found False's egg."
 	},
 	"do2.run.items.embers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Frost Embers collected this run."
 	},
 	"do2.run.items.coins": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Coins collected this run."
 	},
 	"do2.run.items.crowns": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Crowns collected this run."
 	},
 	"do2.run.items.kits": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Rusty Repair Kits collected this run."
 	},
 	"do2.run.items.pumpkins": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Pumpkins collected this run."
 	},
 	"do2.run.items.bone_meals": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Bone Meals collected this run."
 	},
 	"do2.run.items.glow_berries": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Glow Berries collected this run."
 	},
 	"do2.run.items.sweet_berries": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Sweet Berries collected this run."
 	},
 	"do2.run.items.pork_chops": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many cooked porkchops collected this run."
 	},
 	"do2.run.items.key_2": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many L2 Keys collected this run."
 	},
 	"do2.run.items.key_3": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many L3 Keys collected this run."
 	},
 	"do2.run.items.key_4": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many L4 Keys collected this run."
 	},
 	"do2.run.items.bombs": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "both",
+		"category": "current",
+		"description": "How many Bombs collected this run."
 	},
 	"do2.logs.pickups": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Pickups"
 	},
 	"do2.logs.evokers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Evokers"
 	},
 	"do2.logs.gamestate": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Gamestate"
 	},
 	"do2.logs.datapack_setup": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Datapack Setup"
 	},
 	"do2.logs.dropper_room": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Dropper Room"
 	},
 	"do2.logs.cards": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Cards"
 	},
 	"do2.logs.clank": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Clank"
 	},
 	"do2.logs.hazard": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Hazard"
 	},
 	"do2.logs.embers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Embers"
 	},
 	"do2.logs.treasure": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Treasure"
 	},
 	"do2.logs.player_actions": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Player Actions"
 	},
 	"do2.logs.dungeon_setup": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Dungeon Setup"
 	},
 	"do2.logs.spam": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "config",
+		"description": "How strongly players want the logs relating to; Spam"
 	},
 	"do2.run.systems.clank.generated": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much clank was generated this run."
 	},
 	"do2.run.systems.clank.blocked": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much clank was blocked this run."
 	},
 	"do2.run.systems.hazard.generated": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much hazard was generated this run."
 	},
 	"do2.run.systems.hazard.blocked": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much hazard was blocked this run."
 	},
 	"do2.run.systems.embers.released": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much embers was released this run."
 	},
 	"do2.run.systems.maxclank.released": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much clank surpassed max clank this run."
 	},
 	"do2.run.systems.treasure.released": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much treasure was released this run."
 	},
 	"do2.run.systems.hazard.activated": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "current",
+		"description": "How much hazard was activated this run."
 	},
 	"do2.utility.deathCount": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Checking who has died."
 	},
 	"do2.utility.randomNum": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Score used to generated random numbers"
 	},
 	"do2.utility.currentTick": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Score used to count ticks."
 	},
 	"do2.utility.checkTick": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Score used to check tick count."
 	},
 	"do2.utility.advancementOrdering": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Score used to denote when ordering advancements."
 	},
 	"do2.utility.reachedBottomDepthCharge": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
-	},
-	"do2.utility.configDisplay": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
-	},
-	"do2.utility.statsDisplay": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "Score used to denote what level of the TnT depth charge player has reached."
 	},
 	"do2.utility.dungeonRepair": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Score used to denote when attempting todo a Dungeon Repair."
 	},
 	"do2.utility.currentFishCount": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Used to count how many tropical fish exist."
 	},
 	"do2.utility.fishVariant": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Used to count what variant of fish to spawn."
 	},
 	"do2.utility.gui": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "GUI",
+		"category": "utility",
+		"description": "score used for ALL of the GUI's operations."
 	},
 	"do2.utility.shulkerPlayers": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Used to count how many players with the tag do2.received_shulker"
 	},
 	"do2.utility.trackLeaves": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to detect when a player rejoins."
 	},
 	"do2.utility.oldGamemode": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to store player's gamemode before game forced their gamemode"
 	},
 	"do2.utility.old_position.x": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to store player's old X location before teleporting them."
 	},
 	"do2.utility.old_position.y": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to store player's old Y location before teleporting them."
 	},
 	"do2.utility.old_position.z": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to store player's old Z location before teleporting them."
 	},
 	"do2.utility.old_position.temp": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to modify player's old location before teleporting them."
 	},
 	"do2.utility.totalCrowns": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to count crowns converted from coins."
 	},
 	"do2.utility.coinsPerCrown": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Used to store how many coins are converted per crown."
 	},
 	"do2.utility.shouldForceFood": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Used to check whether player can have their food forced."
 	},
 	"do2.utility.playersFood": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Player's food level"
 	},
 	"do2.utility.playersSaturation": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "utility",
+		"description": "Player's saturation level"
 	},
 	"do2.utility.artifactValue": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Value of artifact submitted."
 	},
 	"do2.utility.statsScreen": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "What screen the statistics room is displaying."
 	},
 	"do2.utility.onServer": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "$dungeon",
+		"category": "utility",
+		"description": "Whether Brilliance can detect Agronet."
 	},
 	"do2.utility.embersToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Frost Embers need to be given back."
 	},
 	"do2.utility.coinsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Coins need to be given back."
 	},
 	"do2.utility.crownsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Crowns need to be given back."
 	},
 	"do2.utility.kitsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Rusty Repair Kits need to be given back."
 	},
 	"do2.utility.pumpkinsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Pumpkins need to be given back."
 	},
 	"do2.utility.berriesToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Sweet Berries need to be given back."
 	},
 	"do2.utility.bombsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Bombs need to be given back."
 	},
 	"do2.utility.bonemealsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Bone Meals need to be given back."
 	},
 	"do2.utility.glowberriesToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Glow Berries need to be given back."
 	},
 	"do2.utility.chopsToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked Cooked Porkchops need to be given back."
 	},
 	"do2.utility.key_2ToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked L2 Keys need to be given back."
 	},
 	"do2.utility.key_3ToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked L3 Keys need to be given back."
 	},
 	"do2.utility.key_4ToGive": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "utility",
+		"description": "How many tracked L4 Keys need to be given back."
 	},
 	"do2.run.convertedArtifake": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "shulker",
+		"category": "current",
+		"description": "Whether the artifact has been converted into an artifake this run."
 	},
 	"do2.run.foundArtifact": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "runners",
+		"category": "current",
+		"description": "Whether the artifact has been found this run."
 	},
 	"do2.artifacts.HAY": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HAY artifacts found."
 	},
 	"do2.artifacts.ASV": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many ASV artifacts found."
 	},
 	"do2.artifacts.MGW": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MGW artifacts found."
 	},
 	"do2.artifacts.SHD": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SHD artifacts found."
 	},
 	"do2.artifacts.PPS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PPS artifacts found."
 	},
 	"do2.artifacts.JSS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many JSS artifacts found."
 	},
 	"do2.artifacts.THL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many THL artifacts found."
 	},
 	"do2.artifacts.DLP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many DLP artifacts found."
 	},
 	"do2.artifacts.PCL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PCL artifacts found."
 	},
 	"do2.artifacts.HGT": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HGT artifacts found."
 	},
 	"do2.artifacts.CUS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many CUS artifacts found."
 	},
 	"do2.artifacts.BAP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many BAP artifacts found."
 	},
 	"do2.artifacts.HYB": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HYB artifacts found."
 	},
 	"do2.artifacts.WGG": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many WGG artifacts found."
 	},
 	"do2.artifacts.KNH": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many KNH artifacts found."
 	},
 	"do2.artifacts.BED": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many BED artifacts found."
 	},
 	"do2.artifacts.HST": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HST artifacts found."
 	},
 	"do2.artifacts.GGS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GGS artifacts found."
 	},
 	"do2.artifacts.GDE": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GDE artifacts found."
 	},
 	"do2.artifacts.PWS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PWS artifacts found."
 	},
 	"do2.artifacts.OFP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many OFP artifacts found."
 	},
 	"do2.artifacts.GGR": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GGR artifacts found."
 	},
 	"do2.artifacts.CF1": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many CF1 artifacts found."
 	},
 	"do2.artifacts.SPS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SPS artifacts found."
 	},
 	"do2.artifacts.TSL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many TSL artifacts found."
 	},
 	"do2.artifacts.SKA": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SKA artifacts found."
 	},
 	"do2.artifacts.MDM": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MDM artifacts found."
 	},
 	"do2.artifacts.MKY": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MKY artifacts found."
 	},
 	"do2.artifakes.HAY": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HAY artifacts have been converted."
 	},
 	"do2.artifakes.ASV": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many ASV artifacts have been converted."
 	},
 	"do2.artifakes.MGW": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MGW artifacts have been converted."
 	},
 	"do2.artifakes.SHD": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SHD artifacts have been converted."
 	},
 	"do2.artifakes.PPS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PPS artifacts have been converted."
 	},
 	"do2.artifakes.JSS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many JSS artifacts have been converted."
 	},
 	"do2.artifakes.THL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many THL artifacts have been converted."
 	},
 	"do2.artifakes.DLP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many DLP artifacts have been converted."
 	},
 	"do2.artifakes.PCL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PCL artifacts have been converted."
 	},
 	"do2.artifakes.HGT": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HGT artifacts have been converted."
 	},
 	"do2.artifakes.CUS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many CUS artifacts have been converted."
 	},
 	"do2.artifakes.BAP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many BAP artifacts have been converted."
 	},
 	"do2.artifakes.HYB": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HYB artifacts have been converted."
 	},
 	"do2.artifakes.WGG": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many WGG artifacts have been converted."
 	},
 	"do2.artifakes.KNH": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many KNH artifacts have been converted."
 	},
 	"do2.artifakes.BED": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many BED artifacts have been converted."
 	},
 	"do2.artifakes.HST": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many HST artifacts have been converted."
 	},
 	"do2.artifakes.GGS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GGS artifacts have been converted."
 	},
 	"do2.artifakes.GDE": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GDE artifacts have been converted."
 	},
 	"do2.artifakes.PWS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many PWS artifacts have been converted."
 	},
 	"do2.artifakes.OFP": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many OFP artifacts have been converted."
 	},
 	"do2.artifakes.GGR": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many GGR artifacts have been converted."
 	},
 	"do2.artifakes.CF1": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many CF1 artifacts have been converted."
 	},
 	"do2.artifakes.SPS": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SPS artifacts have been converted."
 	},
 	"do2.artifakes.TSL": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many TSL artifacts have been converted."
 	},
 	"do2.artifakes.SKA": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many SKA artifacts have been converted."
 	},
 	"do2.artifakes.MDM": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MDM artifacts have been converted."
 	},
 	"do2.artifakes.MKY": {
-		"auto": 0,
-		"target": "unknown",
-		"category": "unknown",
-		"description": "unknown"
+		"auto": 1,
+		"target": "players",
+		"category": "totals",
+		"description": "How many MKY artifacts have been converted."
 	},
 	"do2.run.cards.availible.EVA": {
 		"auto": 0,
