@@ -9,8 +9,7 @@
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
 - Check to see if I can change user's cursor upon hovering a CLICKABLE link/bttn
-- Log Lock/Unlock settings room.
-- Log level interface changes
+
 - Have dropper config book have LINKS to each of the dropper categories.
 - Maybe have a config that lets the users change daylight/weather cycle.
   - Currently, these are enabled by default.
@@ -29,7 +28,16 @@
   - Hazard
   - Clank
   - Treasure
-- Prune on_exit_button.mcfunction for single player worlds
+
+# Log Todo:
+triggered_shrieker
+- determine how to log this
+  compass_submitted
+- Add option for log to let receiver TP to compass spot
+  on_reached_top_tnt_depth_charge
+- Add option for log to let receiver TP to depth charge
+- Log Lock/Unlock settings room.
+- Log level interface changes
 
 # List of things todo AFTER builder's "repair" version is done.
 - Add Bdub's clock, to be the actual new clock.

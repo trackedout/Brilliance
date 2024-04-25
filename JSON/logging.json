@@ -1,0 +1,339 @@
+{
+	"categories": {
+		"datapack_setup": {
+			"readme": [
+				["Notification of when resetting a player",1],
+				["Notification of when datapack loads",1],
+				["Notification of when setting up $dungeon for a run",1],
+				["Notification of when setting up players for a run",1],
+				["Notification of when setting up spectators for a run",1]
+			],
+			"tooltip": {
+				"name": "§aDatapack Setup",
+				"names": ["Receive logs when:"],
+				"values":[
+					["- Player resets",1],
+					["- Datapack is loaded",1],
+					["- $dungeon per run scores setup",1],
+					["- Players per run scores setup",1],
+					["- Spectators per run scores setup",1]
+				]
+			}
+		},
+		"gamestate": {
+			"readme": [
+				["Notification of the game loading.",1],
+				["Notification of the game starting.",1],
+				["Notification of the game's difficulty being chosen.",1],
+				["Notification of a player escaping the dungeon.",1],
+				["Notification of a player exiting the dungeon.",1],
+				["Notification of a player loses.",1],
+				["Notification of a player winning.",1]
+			],
+			"tooltip": {
+				"name": "§2Gamestates",
+				"names": ["Receive logs when gamestate changes;"],
+				"values":[
+					["- Game starts loading",1],
+					["- Game ends",1],
+					["- Difficulty chosen",1],
+					["- A player escapes the dungeon",1],
+					["- A player exits the dungeon",1],
+					["- A player loses",1],
+					["- A player wins",1]
+				]
+			}
+		},
+		"evokers": {
+			"readme": [
+				["Notification of an Evoker activating",1]
+			],
+			"tooltip": {
+				"name": "§7Evokers",
+				"names": ["Receive logs when:"],
+				"values":[
+					["- An Evoker activates",1]
+				]
+			}
+		},
+		"cards": {
+			"readme": [
+				["Notification of when a card is available for purchase.",1],
+				["Notification of when a card is purchased.",1],
+				["Notification of when a tome is purchased.",1],
+				["Notification of when a card is played.",2]
+			],
+			"tooltip": {
+				"name": "§6Cards",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:"],
+				"values":[
+					["- A card is available for purchase",1],
+					["- A card is purchased",1],
+					["- A tome is purchased",1],
+					["- A card is played",2]
+				]
+			}
+		},
+		"pickups": {
+			"readme": [
+				["Notification of player picking up an \"Artifact\"",1],
+				["Notification of player picking up \"Bombs\"",2],
+				["Notification of player picking up \"Bone Meals\"",2],
+				["Notification of player picking up \"Coins\"",2],
+				["Notification of player picking up \"Crowns\"",2],
+				["Notification of player picking up \"Frost Embers\"",2],
+				["Notification of player picking up \"Glow Berries\"",2],
+				["Notification of player picking up \"Level 2 Keys\"",2],
+				["Notification of player picking up \"Level 3 Keys\"",2],
+				["Notification of player picking up \"Level 4 Keys\"",2],
+				["Notification of player picking up \"Cooked Porkchops\"",2],
+				["Notification of player picking up \"Rusty Repair Kits\"",2],
+				["Notification of player picking up \"Sweet Berries\"",2]
+			],
+			"tooltip": {
+				"name": "§3Pickups",
+				"names": ["Receive logs when a player picks up:","Receive >>L1<< logs as well as when a player picks up:"],
+				"values":[
+					["- An Artifact",1],
+					["- Keys",2],
+					["- Food",2],
+					["- Treasure",2]
+				]
+			}
+		},
+		"embers": {
+			"readme": [
+				["Notification of Frost Embers added to bomb loot pool.",1],
+				["Notification of Frost Embers sent to dungeon to be dropped.",1],
+				["Notification of Frost Embers attempting to be dropped.",2],
+				["Notification of Frost Embers DROPPER activating",3]
+			],
+			"tooltip": {
+				"name": "§bFrost Embers",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:"],
+				"values":[
+					["- Frost Ember added to bomb loot pool",1],
+					["- Frost Ember successful drop attempts",1],
+					["- Frost Ember drop attempts",2],
+					["- Frost Ember DROPPER activations",3]
+				]
+			}
+		},
+		"treasure": {
+			"readme": [
+				["Notification of Treasure added to bomb loot pool.",1],
+				["Notification of Treasure sent to dungeon to be dropped.",1],
+				["Notification of Treasure attempting to be dropped.",2],
+				["Notification of Treasure DROPPER activating",3]
+			],
+			"tooltip": {
+				"name": "§eTreasure",
+				"names": ["Receive logs when:"],
+				"values":[
+					["- Treasure added to bomb loot pool",1],
+					["- Treasure successful drop attempts",1],
+					["- Treasure drop attempts",2],
+					["- Treasure DROPPER activations",3]
+				]
+			}
+		},
+		"clank": {
+			"readme": [
+				["Notification of an Clank being blocked.",1],
+				["Notification of when Max Clank is reached.",1],
+				["Notification of when Max Clank is surpassed.",2],
+				["Notification of an Clank being generated.",2],
+				["Notification of a Shrieker being activated",3]
+			],
+			"tooltip": {
+				"name": "§8Clank",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:"],
+				"values":[
+					["- Clank is blocked",1],
+					["- Max Clank reached.",1],
+					["- Clank is generated",2],
+					["- Max Clank surpassed",2],
+					["- Shrieker Activated",3]
+				]
+			}
+		},
+		"hazard": {
+			"readme": [
+				["Notification of an Hazard being blocked.",1],
+				["Notification of an Hazard being generated.",1],
+				["Notification of an Hazard Locations being activated.",2],
+				["Notification of an Hazard being attempting to be generated.",3]
+			],
+			"tooltip": {
+				"name": "§cHazard",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:"],
+				"values":[
+					["- Hazard is blocked",1],
+					["- Hazard is generated",1],
+					["- Hazard locations activations",2],
+					["- Hazard is attempted",3]
+				]
+			}
+		},
+		"dropper_room": {
+			"readme": [
+				["Notification of when dropper room is created.",1],
+				["Notification of when dungeon droppers copied to dropper room.",1],
+				["Notification of when resetting dropper room to default.",1],
+				["Notification of when copying from dropper room to Crown Shop.",1],
+				["Notification of when copying from dropper room to Ember Shop.",1],
+				["Notification of when copying from dropper room to Dungeon.",1],
+				["Notification of when resetting Crown Shop to default values.",2],
+				["Notification of when resetting Ember Shop to default values.",2],
+				["Notification of when resetting Dungeon to default values.",2]
+			],
+			"tooltip": {
+				"name": "§dDropper Room",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:"],
+				"values":[
+					["- Creating dropper room",1],
+					["- Reading from dungeon",1],
+					["- Resetting dropper room to default",1],
+					["- Copying to Crown Shop from dropper room",1],
+					["- Copying to Ember Shop from dropper room",1],
+					["- Copying to Dungeon from dropper room",1],
+					["- Resetting Crown Shop to default",2],
+					["- Resetting Ember Shop to default",2],
+					["- Resetting Dungeon to default",2]
+				]
+			}
+		},
+		"player_actions": {
+			"readme": [
+				["Notification of when a player submits their compass.",1],
+				["Notification of when a player submits a bomb.",1],
+				["Notification of when a player submits a pumpkin.",1],
+				["Notification of when a player repairs rusty.",1],
+				["Notification of when a player converts an artifact.",2],
+				["Notification of when a player gets Tricked.",2],
+				["Notification of when a player gets Treated.",2],
+				["Notification of when a player submits a DM's key.",2],
+				["Notification of when a player submits a floor key.",2],
+				["Notification of when a player reaches the bottom of the TnT dive.",3],
+				["Notification of when a player returns to the top of the TnT dive.",3],
+				["Notification of when a yeti appears.",3],
+				["Notification of when a player finds an easter egg.",3]
+			],
+			"tooltip": {
+				"name": "§1Player Actions",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:"],
+				"values":[
+					["- A player submits their compass.",1],
+					["- A player submits a bomb.",1],
+					["- A player submits a pumpkin.",1],
+					["- A player repairs rusty.",1],
+					["- A player converts an artifact",2],
+					["- A player gets Tricked",2],
+					["- A player gets Treated",2],
+					["- A player submits a DM's key.",2],
+					["- A player submits a Floor key.",2],
+					["- A player reaches the bottom of the TnT dive",3],
+					["- A player returns to the top of the TnT dive",3],
+					["- A yeti appears",3],
+					["- A player finds an easter egg",3]
+				]
+			}
+		},
+		"spam": {
+			"readme": [
+				["Notification of a player dying. ",1],
+				["Notification of a player joining. ",1],
+				["Notification of a player respawning. ",1],
+				["Notification of a datapack tick. ",2],
+				["Notification of a once per 20 ticks. ",2],
+				["Notification of a once per 100 ticks. ",2],
+				["Notification of a game tick. ",2]
+			],
+			"tooltip": {
+				"name": "§4Log Spam",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:"],
+				"values":[
+					["- A player joins",1],
+					["- A player dies",1],
+					["- A player respawns",1],
+					["- A game tick occurs",2],
+					["- A datapack tick occurs",2],
+					["- A once per 20th tick occurs",2],
+					["- A once per 100th tick occurs",2]
+				]
+			}
+		},
+		"dungeon_setup": {
+			"readme": [
+				["Notification of when dungeon setup starts.",1],
+				["Notification of time of day dungeon decided on.",1],
+				["Notification of when killers are teleported.",1],
+				["Notification of when balance changes are implemented.",1],
+				["Notification of when Droppers are refilled.",2],
+				["Notification of when Berry Bushes are refilled.",2],
+				["Notification of when Compass Minecarts are emptied.",2],
+				["Notification of when Cove Dripstone are repaired.",2],
+				["Notification of when Composters are reset.",2],
+				["Notification of when Cards are counted.",2],
+				["Notification of when checking Lodestones existence.",2],
+				["Notification of when summoning teleport markers.",3],
+				["Notification of when summoning other killers.",3],
+				["Notification of when summoning ravagers.",3],
+				["Notification of when summoning wardens.",3],
+				["Notification of when summoning TangoCam.",3],
+				["Notification of when teleport markers are missing.",3],
+				["Notification of when other killers are missing.",3],
+				["Notification of when ravagers are missing.",3],
+				["Notification of when wardens are missing.",3],
+				["Notification of when testing for teleport markers.",4],
+				["Notification of when testing for other killers.",4],
+				["Notification of when testing for ravagers.",4],
+				["Notification of when testing for wardens.",4]
+				
+			],
+			"tooltip": {
+				"name": "§5Dungeon Setup",
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:","Receive >>L3<< logs as well as when:"],
+				"values":[
+					["- Starting dungeon setup.",1],
+					["- Time of day decided.",1],
+					["- Teleporting Killers",1],
+					["- Setting up balance changes",1],
+					["- Refilling droppers in dungeon",2],
+					["- Refilling berry bushes",2],
+					["- Emptying Compass Minecarts",2],
+					["- Cove Dripstone repaired",2],
+					["- Composters reset.",2],
+					["- Upon counting the cards.",2],
+					["- Ensuring proper lodestones & minecarts",2],
+					["- Summoning required entities",3],
+					["- Testing for required entities.",3],
+					["- Missing Entities",3],
+					["- Testing for Teleport Markers",4],
+					["- Testing for Other Killers",4],
+					["- Testing for Ravagers",4],
+					["- Testing for Wardens",4]
+				]
+			}
+		},
+		"_dev": {
+			"readme": [
+				["Notification of when datapack tags all minecarts",1],
+				["Notification of when datapack creates scoreboard objectives",1],
+				["Notification of when datapack creates triggers objectives",1]
+			],
+			"tooltip": {
+				"name": "Dev",
+				"names": ["Receive logs when:"],
+				"values":[
+					["- Minecarts are tagged",1],
+					["- Scoreboard objectives added",1],
+					["- Trigger objectives added",1]
+				]
+			}
+		}
+		
+	}
+	
+	
+}

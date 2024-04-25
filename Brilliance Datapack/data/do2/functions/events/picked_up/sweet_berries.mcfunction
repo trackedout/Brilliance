@@ -3,8 +3,8 @@ execute store result score @s do2.utility.berriesToGive run clear @s sweet_berri
 
 # - Start Log -
 tag @s add berriesPickUpLogTarget
-execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=berriesPickUpLogTarget] do2.utility.berriesToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=berriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=berriesPickUpLogTarget]","objective":"do2.utility.berriesToGive"}},{"text":" sweet berry."}]
-execute as @a[scores={do2.logs.pickups=1..}] if score @p[tag=berriesPickUpLogTarget] do2.utility.berriesToGive matches 2.. run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=berriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=berriesPickUpLogTarget]","objective":"do2.utility.berriesToGive"}},{"text":" sweet berries."}]
+execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=berriesPickUpLogTarget] do2.utility.berriesToGive matches 1 run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=berriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=berriesPickUpLogTarget]","objective":"do2.utility.berriesToGive"}},{"text":" sweet berry."}]
+execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=berriesPickUpLogTarget] do2.utility.berriesToGive matches 2.. run tellraw @s ["",{"text":"§f[§9B§r]: "},{"selector":"@p[tag=berriesPickUpLogTarget]"},{"text":" picked up §b"},{"color":"aqua","score":{"name":"@p[tag=berriesPickUpLogTarget]","objective":"do2.utility.berriesToGive"}},{"text":" sweet berries."}]
 tag @s remove berriesPickUpLogTarget
 # - End Log -
 

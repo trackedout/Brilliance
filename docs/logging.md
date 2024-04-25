@@ -1,92 +1,104 @@
 # Logging
 
-|        Log Category         | Description                                                            | Extra info                                  | File                                                                                                                                                                                                        | 
-|:---------------------------:|------------------------------------------------------------------------|---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| do2.logs.playeractions = 1  | Notification of player repairing rusty                                 | N/A                                         | [on_rusty_repair.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_rusty_repair.mcfunction "on_rusty_repair.mcfunction")                                                          |
-| do2.logs.playeractions = 1  | Notification of the door bomb submitted                                | N/A                                         | [on_door_bomb.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_door_bomb.mcfunction "on_door_bomb.mcfunction")                                                                   |
-| do2.logs.playeractions = 1  | Notification of player submitting pumpkins to witch hut.               | N/A                                         | [on_trick_or_treat.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_trick_or_treat.mcfunction "on_trick_or_treat.mcfunction")                                                    |
-| do2.logs.playeractions = 1  | Notification of a compass submitted                                    | N/A                                         | [compass_submitted.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/compass_submitted.mcfunction "compass_submitted.mcfunction")                                                    |
-| do2.logs.playeractions = 2  | Notification of artifact being converted.                              | N/A                                         | [on_artifact_converted_to_artifake.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_artifact_converted_to_artifake.mcfunction "on_artifact_converted_to_artifake.mcfunction")            |
-| do2.logs.playeractions = 2  | Notification of player submitting pumpkins to witch hut, RESULT: Treat | N/A                                         | [on_treat.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_treat.mcfunction "on_treat.mcfunction")                                                                               |
-| do2.logs.playeractions = 2  | Notification of player submitting pumpkins to witch hut, RESULT: Trick | N/A                                         | [on_trick.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_trick.mcfunction "on_trick.mcfunction")                                                                               |
-| do2.logs.playeractions = 2  | Notification of a Key being used.                                      | N/A                                         | [/on_key_submitted/](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_key_submitted "on_key_submitted")                                                                                      |
-| do2.logs.playeractions = 3  | Notification of a Yeti appearing                                       | N/A                                         | [on_yeti.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_yeti.mcfunction "on_yeti.mcfunction")                                                                                          |
-| do2.logs.playeractions = 3  | Notification of an easter egg being found.                             | N/A                                         | [/on_find/](./../Brilliance%20Datapack/data/do2/functions/egg_hunt/on_find "on_find")                                                                                                                       |
-| do2.logs.playeractions = 3  | Notification of player reaching bottom of TnT depth dive               | N/A                                         | [on_reached_bottom_tnt_depth_charge.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_reached_bottom_tnt_depth_charge.mcfunction "on_reached_bottom_tnt_depth_charge.mcfunction") |
-| do2.logs.playeractions = 3  | Notification of player surviving TnT depth dive                        | N/A                                         | [on_reached_top_tnt_depth_charge.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/dungeon/on_reached_top_tnt_depth_charge.mcfunction "on_reached_top_tnt_depth_charge.mcfunction")          |
-|   do2.logs.gamestate = 1    | Notification of the game loading.                                      | What counts as game loading                 | [on_game_load.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_game_load.mcfunction "on_game_load.mcfunction")                                                                           |
-|   do2.logs.gamestate = 1    | Notification of the game ending.                                       | How the game ended.                         | [on_game_end.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_game_end.mcfunction "on_game_end.mcfunction")                                                                              |
-|   do2.logs.gamestate = 1    | Notification of the game starting.                                     | What counts as game starting                | [on_game_start.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_game_start.mcfunction "on_game_start.mcfunction")                                                                        |
-|   do2.logs.gamestate = 1    | Notification of a player exiting the dungeon.                          | N/A                                         | [on_player_exited_dungeon.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_player_exited_dungeon.mcfunction "on_player_exited_dungeon.mcfunction")                                       |
-|   do2.logs.gamestate = 1    | Notification of a player losing.                                       | What counts as losing.                      | [on_player_loss.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_player_loss.mcfunction "on_player_loss.mcfunction")                                                                     |
-|   do2.logs.gamestate = 1    | Notification of a player winning.                                      | What counts as winning.                     | [on_player_win.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_player_win.mcfunction "on_player_win.mcfunction")                                                                        |
-|   do2.logs.gamestate = 1    | Notification of using Dungeon Difficulty                               | N/A                                         | [/difficulty/](./../Brilliance%20Datapack/data/do2/functions/events/difficulty "difficulty")                                                                                                                |
-|     do2.logs.clank = 1      | Notification of max clank reached                                      | N/A                                         | [on_maxclank_released.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_maxclank_released.mcfunction "on_maxclank_released.mcfunction")                                           |
-|     do2.logs.clank = 2      | Notification of clank generated                                        | N/A                                         | [on_clank_generated.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_clank_generated.mcfunction "on_clank_generated.mcfunction")                                                 |
-|    do2.logs.blockage = 1    | Notification of a hazard blocked                                       | N/A                                         | [on_hazard_blocked.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_hazard_blocked.mcfunction "on_hazard_blocked.mcfunction")                                                    |
-|    do2.logs.blockage = 1    | Notification of a clank blocked                                        | N/A                                         | [on_clank_blocked.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_clank_blocked.mcfunction "on_clank_blocked.mcfunction")                                                       |
-|     do2.logs.hazard = 1     | Notification of hazard generated                                       | N/A                                         | [on_hazard_generated.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_hazard_generated.mcfunction "on_hazard_generated.mcfunction")                                              |
-|     do2.logs.hazard = 2     | Notification of a hazard event                                         | N/A                                         | [on_hazard_event.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_hazard_event.mcfunction "on_hazard_event.mcfunction")                                                          |
-|     do2.logs.embers = 1     | Notification of a embers released                                      | N/A                                         | [on_embers_released.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_embers_released.mcfunction "on_embers_released.mcfunction")                                                 |
-|     do2.logs.embers = 2     | Notification of a embers dropped                                       | N/A                                         | [on_embers_dropped.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_embers_dropped.mcfunction "on_embers_dropped.mcfunction")                                                    |
-|    do2.logs.treasure = 1    | Notification of treasure released                                      | N/A                                         | [on_treasure_released.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_treasure_released.mcfunction "on_treasure_released.mcfunction")                                           |
-|    do2.logs.treasure = 2    | Notification of treasure dropped                                       | N/A                                         | [on_treasure_dropped.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/on_treasure_dropped.mcfunction "on_treasure_dropped.mcfunction")                                              |
-|    do2.logs.pickups = 1     | Notification of player picking up "Bombs"                              | N/A                                         | [bombs.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/bombs.mcfunction "bombs.mcfunction")                                                                                      |
-|    do2.logs.pickups = 1     | Notification of player picking up "Bone Meals"                         | N/A                                         | [bone_meals.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/bone_meals.mcfunction "bone_meals.mcfunction")                                                                       |
-|    do2.logs.pickups = 1     | Notification of player picking up "Coins"                              | N/A                                         | [coins.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/coins.mcfunction "coins.mcfunction")                                                                                      |
-|    do2.logs.pickups = 1     | Notification of player picking up "Crowns"                             | N/A                                         | [crowns.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/crowns.mcfunction "crowns.mcfunction")                                                                                   |
-|    do2.logs.pickups = 1     | Notification of player picking up "Embers"                             | N/A                                         | [embers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/embers.mcfunction "embers.mcfunction")                                                                                   |
-|    do2.logs.pickups = 1     | Notification of player picking up "Glow Berries"                       | N/A                                         | [glow_berries.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/glow_berries.mcfunction "glow_berries.mcfunction")                                                                 |
-|    do2.logs.pickups = 1     | Notification of player picking up "Level 2 Keys"                       | N/A                                         | [key_2.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/key_2.mcfunction "key_2.mcfunction")                                                                                      |
-|    do2.logs.pickups = 1     | Notification of player picking up "Level 3 Keys"                       | N/A                                         | [key_3.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/key_3.mcfunction "key_3.mcfunction")                                                                                      |
-|    do2.logs.pickups = 1     | Notification of player picking up "Level 4 Keys"                       | N/A                                         | [key_4.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/key_4.mcfunction "key_4.mcfunction")                                                                                      |
-|    do2.logs.pickups = 1     | Notification of player picking up "Cooked Porkchops"                   | N/A                                         | [porkchops.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/porkchops.mcfunction "porkchops.mcfunction")                                                                          |
-|    do2.logs.pickups = 1     | Notification of player picking up "Rusty Repair Kits"                  | N/A                                         | [rusty_kits.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/rusty_kits.mcfunction "rusty_kits.mcfunction")                                                                       |
-|    do2.logs.pickups = 1     | Notification of player picking up "Sweet Berries"                      | N/A                                         | [sweet_berries.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/sweet_berries.mcfunction "sweet_berries.mcfunction")                                                              |
-|    do2.logs.pickups = 1     | Notification of player picking up an "Artifact"                        | The Artifact's details.                     | [artifacts](./../Brilliance%20Datapack/data/do2/functions/events/picked_up/artifacts "artifacts")                                                                                                           |
-| do2.logs.dungeon_setup = 1  | Notification of time of day.                                           | Percentages used.                           | [decide_day_or_night.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/decide_day_or_night.mcfunction "decide_day_or_night.mcfunction")                                               |
-| do2.logs.dungeon_setup = 1  | Notification of balance changes being applied                          | N/A                                         | [actions.mcfunction](./../Brilliance%20Datapack/data/do2/functions/scoreboard/config/balance_changes/actions.mcfunction "actions.mcfunction")                                                               |
-| do2.logs.dungeon_setup = 1  | Notification of dungeon being set up.                                  | N/A                                         | [all.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/all.mcfunction "all.mcfunction")                                                                                               |
-| do2.logs.dungeon_setup = 1  | Notification of Teleporting all killers.                               | N/A                                         | [all.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/teleport_killers/all.mcfunction "all.mcfunction")                                                                              |
-| do2.logs.dungeon_setup = 2  | Notification of Fixing the Cove's Dripstone                            | N/A                                         | [fix_cove_dripstone.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/fix_cove_dripstone.mcfunction "fix_cove_dripstone.mcfunction")                                                  |
-| do2.logs.dungeon_setup = 2  | Notification of Resetting Composters                                   | N/A                                         | [reset_composters.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/reset_composters.mcfunction "fix_cove_dripstone.mcfunction")                                                      |
-| do2.logs.dungeon_setup = 2  | Notification of Counting Cards inside player's deck.                   | N/A                                         | [count_cards.mcfunction](./../Brilliance%20Datapack/data/do2/functions/cards/count_cards.mcfunction "count_cards.mcfunction")                                                                               |
-| do2.logs.dungeon_setup = 2  | Notification of testing Minecart Compass Filters.                      | N/A                                         | [test_for_accurate_blocks.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks.mcfunction "test_for_accurate_blocks.mcfunction")         |
-| do2.logs.dungeon_setup = 2  | Notification of resetting Minecart Compass Filters.                    | N/A                                         | [set_inventories.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/reset_hopper_minecarts/set_inventories.mcfunction "set_inventories.mcfunction")                                    |
-| do2.logs.dungeon_setup = 2  | Notification of refilling berry bushes.                                | N/A                                         | [refill_berry_bushes.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/refill/refill_berry_bushes.mcfunction "refill_berry_bushes.mcfunction")                                        |
-| do2.logs.dungeon_setup = 2  | Notification of refilling droppers.                                    | N/A                                         | [refill_droppers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/refill/refill_droppers.mcfunction "refill_droppers.mcfunction")                                                    |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning TangoCam.                            | N/A                                         | [summon_tangocam.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_tangocam.mcfunction "summon_tangocam.mcfunction")                                                    |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning Other mobs.                          | What counts as 'other' mobs                 | [summon_others.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_others.mcfunction "summon_others.mcfunction")                                                          |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning teleport markers.                    | N/A                                         | [summon_markers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_markers.mcfunction "summon_markers.mcfunction")                                                       |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning 'other' killers                      | What counts as 'other' killers              | [summon_other_killers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_other_killers.mcfunction "summon_other_killers.mcfunction")                                     |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning ravagers                             | N/A                                         | [summon_ravagers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_ravagers.mcfunction "summon_ravagers.mcfunction")                                                    |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon summoning wardens                              | N/A                                         | [summon_wardens.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/summon/summon_wardens.mcfunction "summon_wardens.mcfunction")                                                       |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon testing for teleport markers                   | N/A                                         | [test_for_markers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/test_for_markers.mcfunction "test_for_markers.mcfunction")                                                        |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon testing for other killers                      | N/A                                         | [test_for_other_killers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/test_for_other_killers.mcfunction "test_for_other_killers.mcfunction")                                      |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon testing for ravagers                           | N/A                                         | [test_for_ravagers.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/test_for_ravagers.mcfunction "test_for_ravagers.mcfunction")                                                     |
-| do2.logs.dungeon_setup = 3  | Notification of dungeon testing for wardens                            | N/A                                         | [test_for_wardens.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/test_for_wardens.mcfunction "test_for_wardens.mcfunction")                                                        |
-| do2.logs.datapack_setup = 1 | Notification of datapack being loaded.                                 | N/A                                         | [on_datapack_load.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_datapack_load.mcfunction "on_datapack_load.mcfunction")                                                               |
-| do2.logs.datapack_setup = 1 | Notification of scoreboard setup                                       | N/A                                         | [all.mcfunction](./../Brilliance%20Datapack/data/do2/functions/scoreboard/setup/all.mcfunction "all.mcfunction")                                                                                            |
-| do2.logs.datapack_setup = 1 | Notification of $dungeon's per run scores setup                        | N/A                                         | [dungeon_per_run.mcfunction](./../Brilliance%20Datapack/data/do2/functions/scoreboard/dungeon_per_run.mcfunction "dungeon_per_run.mcfunction")                                                              |
-| do2.logs.datapack_setup = 1 | Notification of player's per run scores setup                          | N/A                                         | [player_per_run.mcfunction](./../Brilliance%20Datapack/data/do2/functions/scoreboard/player_per_run.mcfunction "player_per_run.mcfunction")                                                                 |
-| do2.logs.datapack_setup = 1 | Notification of triggers setup.                                        | N/A                                         | [setup.mcfunction](./../Brilliance%20Datapack/data/do2/functions/scoreboard/triggers/setup.mcfunction "setup.mcfunction")                                                                                   |
-| do2.logs.datapack_setup = 1 | Notification of tagging Minecart Compass Filters.                      | N/A                                         | [tag_minecarts.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/reset_hopper_minecarts/tag_minecarts.mcfunction "tag_minecarts.mcfunction")                                          |
-|      do2.logs.spam = 1      | Notification of a player dying.                                        | N/A                                         | [on_player_death.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_player_death.mcfunction "on_player_death.mcfunction")                                                                  |
-|      do2.logs.spam = 1      | Notification of a game tick.                                           | N/A                                         | [on_tick.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_tick.mcfunction "on_tick.mcfunction")                                                                                          |
-|      do2.logs.spam = 1      | Notification of a _datapack_ tick.                                     | How many in game ticks for a datapack tick. | [on_datapack_tick.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_datapack_tick.mcfunction "on_datapack_tick.mcfunction")                                                               |
-|      do2.logs.spam = 1      | Notification of a 20 seconded tick.                                    | N/A                                         | [on_20_ticks.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/on_20_ticks.mcfunction "on_20_ticks.mcfunction")                                                                              |
-|      do2.logs.spam = 1      | Notification of dungeon testing for cove dripstone                     | N/A                                         | [test_for_cove_dripstone.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/test_for_cove_dripstone.mcfunction "test_for_cove_dripstone.mcfunction")                                   |
-|              2              | Notification of dungeon fixing cove dripstone.                         | N/A                                         | [fix_cove_dripstone.mcfunction](./../Brilliance%20Datapack/data/do2/functions/dungeon_setup/fix_cove_dripstone.mcfunction "fix_cove_dripstone.mcfunction")                                                  |
-|    do2.logs.evokers = 1     | Notification of dungeon activating evokers                             | N/A                                         | [evoker_activated.mcfunction](./../Brilliance%20Datapack/data/do2/functions/events/systems/evoker_activated.mcfunction "evoker_activated.mcfunction")                                                       |
-
-
-# Todo:
-on_max_clank
- - Need to know if this repeats to change logs from being a one time event vs a multi event.
- - I THINK this is run whenever clank is triggered but max clank is reached. 
-triggered_shrieker
- - determine how to log this
-compass_submitted
- - Add option for log to let receiver TP to compass spot
-on_reached_top_tnt_depth_charge
- - Add option for log to let receiver TP to depth charge
+|  Log Category  | Level | Description |
+|:--------------:|:-----:|-------------|
+| datapack_setup | 1 | Notification of when resetting a player |
+| datapack_setup | 1 | Notification of when datapack loads |
+| datapack_setup | 1 | Notification of when setting up $dungeon for a run |
+| datapack_setup | 1 | Notification of when setting up players for a run |
+| datapack_setup | 1 | Notification of when setting up spectators for a run |
+| gamestate | 1 | Notification of the game loading. |
+| gamestate | 1 | Notification of the game starting. |
+| gamestate | 1 | Notification of the game's difficulty being chosen. |
+| gamestate | 1 | Notification of a player escaping the dungeon. |
+| gamestate | 1 | Notification of a player exiting the dungeon. |
+| gamestate | 1 | Notification of a player loses. |
+| gamestate | 1 | Notification of a player winning. |
+| evokers | 1 | Notification of an Evoker activating |
+| cards | 1 | Notification of when a card is available for purchase. |
+| cards | 1 | Notification of when a card is purchased. |
+| cards | 1 | Notification of when a tome is purchased. |
+| cards | 2 | Notification of when a card is played. |
+| pickups | 1 | Notification of player picking up an "Artifact" |
+| pickups | 2 | Notification of player picking up "Bombs" |
+| pickups | 2 | Notification of player picking up "Bone Meals" |
+| pickups | 2 | Notification of player picking up "Coins" |
+| pickups | 2 | Notification of player picking up "Crowns" |
+| pickups | 2 | Notification of player picking up "Frost Embers" |
+| pickups | 2 | Notification of player picking up "Glow Berries" |
+| pickups | 2 | Notification of player picking up "Level 2 Keys" |
+| pickups | 2 | Notification of player picking up "Level 3 Keys" |
+| pickups | 2 | Notification of player picking up "Level 4 Keys" |
+| pickups | 2 | Notification of player picking up "Cooked Porkchops" |
+| pickups | 2 | Notification of player picking up "Rusty Repair Kits" |
+| pickups | 2 | Notification of player picking up "Sweet Berries" |
+| embers | 1 | Notification of Frost Embers added to bomb loot pool. |
+| embers | 1 | Notification of Frost Embers sent to dungeon to be dropped. |
+| embers | 2 | Notification of Frost Embers attempting to be dropped. |
+| embers | 3 | Notification of Frost Embers DROPPER activating |
+| treasure | 1 | Notification of Treasure added to bomb loot pool. |
+| treasure | 1 | Notification of Treasure sent to dungeon to be dropped. |
+| treasure | 2 | Notification of Treasure attempting to be dropped. |
+| treasure | 3 | Notification of Treasure DROPPER activating |
+| clank | 1 | Notification of an Clank being blocked. |
+| clank | 1 | Notification of when Max Clank is reached. |
+| clank | 2 | Notification of when Max Clank is surpassed. |
+| clank | 2 | Notification of an Clank being generated. |
+| clank | 3 | Notification of a Shrieker being activated |
+| hazard | 1 | Notification of an Hazard being blocked. |
+| hazard | 1 | Notification of an Hazard being generated. |
+| hazard | 2 | Notification of an Hazard Locations being activated. |
+| hazard | 3 | Notification of an Hazard being attempting to be generated. |
+| dropper_room | 1 | Notification of when dropper room is created. |
+| dropper_room | 1 | Notification of when dungeon droppers copied to dropper room. |
+| dropper_room | 1 | Notification of when resetting dropper room to default. |
+| dropper_room | 1 | Notification of when copying from dropper room to Crown Shop. |
+| dropper_room | 1 | Notification of when copying from dropper room to Ember Shop. |
+| dropper_room | 1 | Notification of when copying from dropper room to Dungeon. |
+| dropper_room | 2 | Notification of when resetting Crown Shop to default values. |
+| dropper_room | 2 | Notification of when resetting Ember Shop to default values. |
+| dropper_room | 2 | Notification of when resetting Dungeon to default values. |
+| player_actions | 1 | Notification of when a player submits their compass. |
+| player_actions | 1 | Notification of when a player submits a bomb. |
+| player_actions | 1 | Notification of when a player submits a pumpkin. |
+| player_actions | 1 | Notification of when a player repairs rusty. |
+| player_actions | 2 | Notification of when a player converts an artifact. |
+| player_actions | 2 | Notification of when a player gets Tricked. |
+| player_actions | 2 | Notification of when a player gets Treated. |
+| player_actions | 2 | Notification of when a player submits a DM's key. |
+| player_actions | 2 | Notification of when a player submits a floor key. |
+| player_actions | 3 | Notification of when a player reaches the bottom of the TnT dive. |
+| player_actions | 3 | Notification of when a player returns to the top of the TnT dive. |
+| player_actions | 3 | Notification of when a yeti appears. |
+| player_actions | 3 | Notification of when a player finds an easter egg. |
+| spam | 1 | Notification of a player dying.  |
+| spam | 1 | Notification of a player joining.  |
+| spam | 1 | Notification of a player respawning.  |
+| spam | 2 | Notification of a datapack tick.  |
+| spam | 2 | Notification of a once per 20 ticks.  |
+| spam | 2 | Notification of a once per 100 ticks.  |
+| spam | 2 | Notification of a game tick.  |
+| dungeon_setup | 1 | Notification of when dungeon setup starts. |
+| dungeon_setup | 1 | Notification of time of day dungeon decided on. |
+| dungeon_setup | 1 | Notification of when killers are teleported. |
+| dungeon_setup | 1 | Notification of when balance changes are implemented. |
+| dungeon_setup | 2 | Notification of when Droppers are refilled. |
+| dungeon_setup | 2 | Notification of when Berry Bushes are refilled. |
+| dungeon_setup | 2 | Notification of when Compass Minecarts are emptied. |
+| dungeon_setup | 2 | Notification of when Cove Dripstone are repaired. |
+| dungeon_setup | 2 | Notification of when Composters are reset. |
+| dungeon_setup | 2 | Notification of when Cards are counted. |
+| dungeon_setup | 2 | Notification of when checking Lodestones existence. |
+| dungeon_setup | 3 | Notification of when summoning teleport markers. |
+| dungeon_setup | 3 | Notification of when summoning other killers. |
+| dungeon_setup | 3 | Notification of when summoning ravagers. |
+| dungeon_setup | 3 | Notification of when summoning wardens. |
+| dungeon_setup | 3 | Notification of when summoning TangoCam. |
+| dungeon_setup | 3 | Notification of when teleport markers are missing. |
+| dungeon_setup | 3 | Notification of when other killers are missing. |
+| dungeon_setup | 3 | Notification of when ravagers are missing. |
+| dungeon_setup | 3 | Notification of when wardens are missing. |
+| dungeon_setup | 4 | Notification of when testing for teleport markers. |
+| dungeon_setup | 4 | Notification of when testing for other killers. |
+| dungeon_setup | 4 | Notification of when testing for ravagers. |
+| dungeon_setup | 4 | Notification of when testing for wardens. |

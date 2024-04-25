@@ -1,6 +1,6 @@
 # Ran when hazard is BLOCKED
 # - Start Log -
-execute as @a[scores={do2.logs.blockage=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Blocked §cHazard§r."}]
+execute as @a[scores={do2.logs.hazard=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Blocked §cHazard§r."}]
 # - End Log -
 
 # update scoreboard
