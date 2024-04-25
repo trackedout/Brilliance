@@ -12,7 +12,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"enter_30_ne_cards": {
+		"enter_30_nc_cards": {
 			"trigger": "minecraft:tick",
 			"conditions": {
 				"player": [
@@ -23,19 +23,16 @@
 							"do2.run.cards.deck.total": {
 								"min": 30
 							},
-							"do2.run.cards.deck.MOC": {
+							"do2.run.cards.deck.SNE": {
 								"max": 0
 							},
-							"do2.run.cards.deck.P2W": {
+							"do2.run.cards.deck.TRH": {
 								"max": 0
 							},
-							"do2.run.cards.deck.TAA": {
+							"do2.run.cards.deck.STA": {
 								"max": 0
 							},
-							"do2.run.cards.deck.POP": {
-								"max": 0
-							},
-							"do2.run.cards.deck.DUL": {
+							"do2.run.cards.deck.EMS": {
 								"max": 0
 							}
 						}
