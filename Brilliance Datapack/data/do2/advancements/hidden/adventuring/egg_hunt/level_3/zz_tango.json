@@ -5,13 +5,13 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 41}"
         },
-        "title": "§bTrackedOut exclusive.",
-        "description": "§7Find the Tango egg, hidden in the TrackedOut version of §o§3Decked Out 2§r§7.",
+        "title": "§bTangoTek Egg.",
+        "description": "§7The TangoTek Egg isn't present in this version of §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zombie_cleo",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/zombiecleo",
     "criteria": {
         "auto": {
             "trigger": "minecraft:impossible"

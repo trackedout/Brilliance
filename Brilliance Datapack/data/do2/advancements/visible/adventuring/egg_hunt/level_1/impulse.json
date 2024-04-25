@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 29}"
         },
-        "title": "§bImpulse Egg",
-        "description": "§7Find Impulse Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bImpulseSV Egg",
+        "description": "§7Find ImpulseSV Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,

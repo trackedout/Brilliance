@@ -10,7 +10,7 @@
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_2/vintage_beef",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_2/vintagebeef",
     "criteria": {
         "auto": {
             "trigger": "minecraft:location",

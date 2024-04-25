@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 33}"
         },
-        "title": "§bPearlescent Moon Egg",
-        "description": "§7Find Pearlescent Moon Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bPearlescentMoon Egg",
+        "description": "§7Find PearlescentMoon Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,

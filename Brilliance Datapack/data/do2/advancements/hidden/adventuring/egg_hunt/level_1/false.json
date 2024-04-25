@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 26}"
         },
-        "title": "§bFalse Egg",
-        "description": "§7Find the False Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bFalseSymmetry Egg",
+        "description": "§7Find the FalseSymmetry Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

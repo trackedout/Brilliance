@@ -2,16 +2,16 @@
     "display": {
         "icon": {
             "item": "minecraft:carved_pumpkin",
-            "nbt": "{'CustomModelData': 23}"
+            "nbt": "{'CustomModelData': 22}"
         },
-        "title": "§bZombie Cleo Egg",
-        "description": "§7Find the Zombie Cleo Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bVintageBeef Egg",
+        "description": "§bFind the Vintage Beef Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
         "hidden": false
     },
-    "parent": "do2:visible/adventuring/egg_hunt/level_3/xisuma",
+    "parent": "do2:visible/adventuring/egg_hunt/level_2/joehills",
     "criteria": {
         "auto": {
             "trigger": "minecraft:impossible"

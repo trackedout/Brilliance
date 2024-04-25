@@ -2,15 +2,15 @@
     "display": {
         "icon": {
             "item": "minecraft:carved_pumpkin",
-            "nbt": "{'CustomModelData': 22}"
+            "nbt": "{'CustomModelData': 33}"
         },
-        "title": "§bVintage Beef Egg",
-        "description": "§7Find the Vintage Beef Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bPearlescentMoon Egg",
+        "description": "§7Find the PearlescentMoon Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true
     },
-    "parent": "do2:hidden/adventuring/egg_hunt/level_2/joehills",
+    "parent": "do2:hidden/adventuring/egg_hunt/level_3/grian",
     "criteria": {
         "auto": {
             "trigger": "minecraft:location",
@@ -19,7 +19,7 @@
                     "type_specific": {
                         "type": "player",
                         "looking_at": {
-                            "nbt": "{Tags:[\"do2.egg_hunt.is_vintage_beef_hitbox\"]}",
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_pearlescentmoon_hitbox\"]}",
                             "distance": {
                                 "absolute": {
                                     "min": 0,
@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/on_find/vintage_beef"
+        "function": "do2:egg_hunt/on_find/pearlescentmoon"
     }
 }

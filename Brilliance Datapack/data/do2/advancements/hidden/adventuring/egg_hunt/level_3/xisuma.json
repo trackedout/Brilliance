@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 38}"
         },
-        "title": "§bXisuma Egg",
-        "description": "§7Find the Xisuma Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bXisumavoid Egg",
+        "description": "§7Find the Xisumavoid Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": true,
         "announce_to_chat": true

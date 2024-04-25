@@ -4,8 +4,8 @@
             "item": "minecraft:carved_pumpkin",
             "nbt": "{'CustomModelData': 30}"
         },
-        "title": "§bIskall Egg",
-        "description": "§7Find Iskall Egg hidden in §o§3Decked Out 2§r§7.",
+        "title": "§bIskall85 Egg",
+        "description": "§7Find Iskall85 Egg hidden in §o§3Decked Out 2§r§7.",
         "frame": "goal",
         "show_toast": false,
         "announce_to_chat": false,
