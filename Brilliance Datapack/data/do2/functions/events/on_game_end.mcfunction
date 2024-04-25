@@ -15,6 +15,7 @@ scoreboard players set $dungeon do2.run.active 0
 
 # if player DIDN'T win, then it's a loss:
 execute as @a[team=do2.players] unless entity @s[tag=do2.win] run function do2:events/on_player_loss
+execute as @a[team=do2.ghosts] unless entity @s[tag=do2.win] run function do2:events/on_player_loss
 
 # Track crowns player collected.
 execute as @a[team=do2.players] if entity @s[tag=do2.win] run function do2:agronet/add_crowns
