@@ -6,6 +6,10 @@
 		},
 		{
 			"type": "reference",
+			"id": "do2:empty_spaces"
+		},
+		{
+			"type": "reference",
 			"id": "do2:buttons"
 		},
 		{

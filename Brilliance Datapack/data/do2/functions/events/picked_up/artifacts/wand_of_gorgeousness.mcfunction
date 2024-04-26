@@ -16,4 +16,6 @@ advancement revoke @s only do2:utility/picked_up/artifacts/wand_of_gorgeousness
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 35
 scoreboard players add @s do2.artifacts.WGG 1
-scoreboard players set $dungeon do2.utility.artifactValue 22
+scoreboard players set $dungeon do2.run.foundArtifact 35
+scoreboard players add $dungeon do2.artifacts.WGG 1
+scoreboard players set $dungeon do2.run.artifactValue 22

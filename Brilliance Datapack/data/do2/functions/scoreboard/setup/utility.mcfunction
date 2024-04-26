@@ -15,13 +15,14 @@ scoreboard objectives add do2.utility.old_position.x dummy "Player's X old locat
 scoreboard objectives add do2.utility.old_position.y dummy "Player's Y old location"
 scoreboard objectives add do2.utility.old_position.z dummy "Player's Z old location"
 scoreboard objectives add do2.utility.old_position.temp dummy "Player's old location temp"
+scoreboard objectives add do2.utility.floorEmbers dummy "Used to get the player's floor ember"
 scoreboard objectives add do2.utility.totalCrowns dummy "Counts player's crowns & coins"
 scoreboard objectives add do2.utility.coinsPerCrown dummy "for scoreboard operations"
 scoreboard objectives add do2.utility.shouldForceFood dummy "Boolean on whether game is wants to force the player's food at the moment."
 scoreboard objectives add do2.utility.playersFood food "Check player's food levels"
 scoreboard objectives add do2.utility.playersSaturation dummy "Check player's saturation levels"
 execute unless score $dungeon do2.utility.coinsPerCrown matches 0.. run scoreboard players set $dungeon do2.utility.coinsPerCrown 4
-scoreboard objectives add do2.utility.artifactValue dummy "How many embers the artifact was worth."
+scoreboard objectives add do2.run.artifactValue dummy "How many embers the artifact was worth."
 scoreboard objectives add do2.utility.statsScreen dummy "What screen the stats are showing right now"
 execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard players set $dungeon do2.utility.statsScreen 0
 

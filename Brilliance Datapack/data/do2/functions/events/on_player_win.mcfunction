@@ -11,6 +11,7 @@ tag @s remove winLogTarget
 tag @s remove do2.running
 tag @s add do2.won
 scoreboard players set @s do2.run.has_won 1
+scoreboard players set $dungeon do2.run.has_won 1
 
 # Note that they won
 scoreboard players add @s do2.wins 1

@@ -16,4 +16,6 @@ advancement revoke @s only do2:utility/picked_up/artifacts/cf-135
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 11
 scoreboard players add @s do2.artifacts.CF1 1
-scoreboard players set $dungeon do2.utility.artifactValue 46
+scoreboard players set $dungeon do2.run.foundArtifact 11
+scoreboard players add $dungeon do2.artifacts.CF1 1
+scoreboard players set $dungeon do2.run.artifactValue 46

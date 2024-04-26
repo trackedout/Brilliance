@@ -16,4 +16,6 @@ advancement revoke @s only do2:utility/picked_up/artifacts/chisel_of_the_undead_
 # track an artifact pick up
 scoreboard players set @s do2.run.foundArtifact 12
 scoreboard players add @s do2.artifacts.CUS 1
-scoreboard players set $dungeon do2.utility.artifactValue 19
+scoreboard players set $dungeon do2.run.foundArtifact 12
+scoreboard players add $dungeon do2.artifacts.CUS 1
+scoreboard players set $dungeon do2.run.artifactValue 19

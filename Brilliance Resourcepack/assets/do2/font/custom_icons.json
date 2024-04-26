@@ -2,42 +2,38 @@
 	"providers": [
 		{
 			"type": "bitmap",
-			"file": "do2:font/do_coin.png",
-			"ascent": 7,
-			"height": 8,
-			"space": 16,
+			"file": "do2:font/icons16.png",
+			"ascent": 8,
+			"height": 9,
 			"chars": [
-				"\uE0A1"
+				"\uE0A1\uE0A2\uE0A3\uE0A4\uE0A5"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/do_crown.png",
-			"ascent": 7,
-			"height": 8,
-			"space": 16,
+			"file": "do2:font/icons32.png",
+			"ascent": 8,
+			"height": 9,
 			"chars": [
-				"\uE0A2"
+				"\uE0A6\uE0A7\uE0A8\uE0A9\uE0AA\uE0AB\uE0AC\uE0AD\uE0AE\uE0AF\uE0B0\uE0B1\uE0B2\uE0B3\uE0B4\uE0B5\uE0B6\uE0B7\uE0B8\uE0B9\uE0BA\uE0BB\uE0BC\uE0BD\uE0BE\uE0BF\uE0C0\uE0C1\uE0C2\uE0C3"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/do_ember.png",
-			"ascent": 7,
-			"height": 8,
-			"space": 16,
+			"file": "do2:font/icons64.png",
+			"ascent": 8,
+			"height": 9,
 			"chars": [
-				"\uE0A3"
+				"\uE0C4\uE0C5\uE0C6\uE0C7\uE0C8\uE0C9"
 			]
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/do_frozenshard6.png",
-			"ascent": 7,
-			"height": 8,
-			"space": 16,
+			"file": "do2:font/odd_size_icons.png",
+			"ascent": 8,
+			"height": 9,
 			"chars": [
-				"\uE0A4"
+				"\uE0CA\uE0CB"
 			]
 		}
 	]

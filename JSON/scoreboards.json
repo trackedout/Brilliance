@@ -839,7 +839,7 @@
 		"category": "utility",
 		"description": "Player's saturation level"
 	},
-	"do2.utility.artifactValue": {
+	"do2.run.artifactValue": {
 		"auto": 1,
 		"target": "$dungeon",
 		"category": "utility",

@@ -162,12 +162,13 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟢    | do2.utility.old_position.y           | utility  | Used to store player's old Y location before teleporting them.                                   |
 |  ✅   |   🟢    | do2.utility.old_position.z           | utility  | Used to store player's old Z location before teleporting them.                                   |
 |  ✅   |   🟢    | do2.utility.old_position.temp        | utility  | Used to modify player's old location before teleporting them.                                    |
+|  ✅   |   🟢    | do2.utility.floorEmbers              | utility  | Used to count how many floor embers the player has picked up.                                    |
 |  ✅   |   🟢    | do2.utility.totalCrowns              | utility  | Used to count crowns converted from coins.                                                       |
 |  ✅   |   🔴    | do2.utility.coinsPerCrown            | utility  | Used to store how many coins are converted per crown.                                            |
 |  ✅   |   🟢    | do2.utility.shouldForceFood          | utility  | Used to check whether player can have their food forced.                                         |
 |  ✅   |   🟢    | do2.utility.playersFood              | utility  | Player's food level                                                                              |
 |  ✅   |   🟢    | do2.utility.playersSaturation        | utility  | Player's saturation level                                                                        |
-|  ✅   |   🔴    | do2.utility.artifactValue            | utility  | Value of artifact submitted.                                                                     |
+|  ✅   |   🔴    | do2.run.artifactValue                | current  | Value of artifact submitted.                                                                     |
 |  ✅   |   🔴    | do2.utility.statsScreen              | utility  | What screen the statistics room is displaying.                                                   |
 |  ✅   |   🔴    | do2.utility.onServer                 | utility  | Whether Brilliance can detect Agronet.                                                           |
 |  ✅   |   🔵    | do2.utility.embersToGive             | utility  | How many tracked Frost Embers need to be given back.                                             |
@@ -184,63 +185,63 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🔵    | do2.utility.key_3ToGive              | utility  | How many tracked L3 Keys need to be given back.                                                  |
 |  ✅   |   🔵    | do2.utility.key_4ToGive              | utility  | How many tracked L4 Keys need to be given back.                                                  |
 |  ✅   |   🟣    | do2.run.convertedArtifake            | current  | Whether the artifact has been converted into an artifake this run.                               |
-|  ✅   |   🔵    | do2.run.foundArtifact                | current  | Whether the artifact has been found this run.                                                    |
-|  ✅   |   🟢    | do2.artifacts.HAY                    |  totals  | How many HAY artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.ASV                    |  totals  | How many ASV artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.MGW                    |  totals  | How many MGW artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.SHD                    |  totals  | How many SHD artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.PPS                    |  totals  | How many PPS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.JSS                    |  totals  | How many JSS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.THL                    |  totals  | How many THL artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.DLP                    |  totals  | How many DLP artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.PCL                    |  totals  | How many PCL artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.HGT                    |  totals  | How many HGT artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.CUS                    |  totals  | How many CUS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.BAP                    |  totals  | How many BAP artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.HYB                    |  totals  | How many HYB artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.WGG                    |  totals  | How many WGG artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.KNH                    |  totals  | How many KNH artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.BED                    |  totals  | How many BED artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.HST                    |  totals  | How many HST artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.GGS                    |  totals  | How many GGS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.GDE                    |  totals  | How many GDE artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.PWS                    |  totals  | How many PWS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.OFP                    |  totals  | How many OFP artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.GGR                    |  totals  | How many GGR artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.CF1                    |  totals  | How many CF1 artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.SPS                    |  totals  | How many SPS artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.TSL                    |  totals  | How many TSL artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.SKA                    |  totals  | How many SKA artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.MDM                    |  totals  | How many MDM artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifacts.MKY                    |  totals  | How many MKY artifacts found.                                                                    |
-|  ✅   |   🟢    | do2.artifakes.HAY                    |  totals  | How many HAY artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.ASV                    |  totals  | How many ASV artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.MGW                    |  totals  | How many MGW artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.SHD                    |  totals  | How many SHD artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.PPS                    |  totals  | How many PPS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.JSS                    |  totals  | How many JSS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.THL                    |  totals  | How many THL artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.DLP                    |  totals  | How many DLP artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.PCL                    |  totals  | How many PCL artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.HGT                    |  totals  | How many HGT artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.CUS                    |  totals  | How many CUS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.BAP                    |  totals  | How many BAP artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.HYB                    |  totals  | How many HYB artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.WGG                    |  totals  | How many WGG artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.KNH                    |  totals  | How many KNH artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.BED                    |  totals  | How many BED artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.HST                    |  totals  | How many HST artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.GGS                    |  totals  | How many GGS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.GDE                    |  totals  | How many GDE artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.PWS                    |  totals  | How many PWS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.OFP                    |  totals  | How many OFP artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.GGR                    |  totals  | How many GGR artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.CF1                    |  totals  | How many CF1 artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.SPS                    |  totals  | How many SPS artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.TSL                    |  totals  | How many TSL artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.SKA                    |  totals  | How many SKA artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.MDM                    |  totals  | How many MDM artifacts have been converted.                                                      |
-|  ✅   |   🟢    | do2.artifakes.MKY                    |  totals  | How many MKY artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.run.foundArtifact                | current  | Whether the artifact has been found this run.                                                    |
+|  ✅   |   🟤    | do2.artifacts.HAY                    |  totals  | How many HAY artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.ASV                    |  totals  | How many ASV artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.MGW                    |  totals  | How many MGW artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.SHD                    |  totals  | How many SHD artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.PPS                    |  totals  | How many PPS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.JSS                    |  totals  | How many JSS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.THL                    |  totals  | How many THL artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.DLP                    |  totals  | How many DLP artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.PCL                    |  totals  | How many PCL artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.HGT                    |  totals  | How many HGT artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.CUS                    |  totals  | How many CUS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.BAP                    |  totals  | How many BAP artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.HYB                    |  totals  | How many HYB artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.WGG                    |  totals  | How many WGG artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.KNH                    |  totals  | How many KNH artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.BED                    |  totals  | How many BED artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.HST                    |  totals  | How many HST artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.GGS                    |  totals  | How many GGS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.GDE                    |  totals  | How many GDE artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.PWS                    |  totals  | How many PWS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.OFP                    |  totals  | How many OFP artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.GGR                    |  totals  | How many GGR artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.CF1                    |  totals  | How many CF1 artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.SPS                    |  totals  | How many SPS artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.TSL                    |  totals  | How many TSL artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.SKA                    |  totals  | How many SKA artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.MDM                    |  totals  | How many MDM artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifacts.MKY                    |  totals  | How many MKY artifacts found.                                                                    |
+|  ✅   |   🟤    | do2.artifakes.HAY                    |  totals  | How many HAY artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.ASV                    |  totals  | How many ASV artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.MGW                    |  totals  | How many MGW artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.SHD                    |  totals  | How many SHD artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.PPS                    |  totals  | How many PPS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.JSS                    |  totals  | How many JSS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.THL                    |  totals  | How many THL artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.DLP                    |  totals  | How many DLP artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.PCL                    |  totals  | How many PCL artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.HGT                    |  totals  | How many HGT artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.CUS                    |  totals  | How many CUS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.BAP                    |  totals  | How many BAP artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.HYB                    |  totals  | How many HYB artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.WGG                    |  totals  | How many WGG artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.KNH                    |  totals  | How many KNH artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.BED                    |  totals  | How many BED artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.HST                    |  totals  | How many HST artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.GGS                    |  totals  | How many GGS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.GDE                    |  totals  | How many GDE artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.PWS                    |  totals  | How many PWS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.OFP                    |  totals  | How many OFP artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.GGR                    |  totals  | How many GGR artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.CF1                    |  totals  | How many CF1 artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.SPS                    |  totals  | How many SPS artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.TSL                    |  totals  | How many TSL artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.SKA                    |  totals  | How many SKA artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.MDM                    |  totals  | How many MDM artifacts have been converted.                                                      |
+|  ✅   |   🟤    | do2.artifakes.MKY                    |  totals  | How many MKY artifacts have been converted.                                                      |
 |  ✅   |   🟤    | do2.run.cards.available.EVA          | current  | Whether the card evasion was available to purchase this run.                                     |
 |  ✅   |   🟤    | do2.run.cards.available.TRL          | current  | Whether the card tread lightly was available to purchase this run.                               |
 |  ✅   |   🟤    | do2.run.cards.available.LAS          | current  | Whether the card loot and scoot was available to purchase this run.                              |

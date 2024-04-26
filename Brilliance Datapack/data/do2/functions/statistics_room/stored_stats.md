@@ -19,4 +19,12 @@
  - Frost Embers Escaped With
  - Frost Embers Spent
 
+# Last Run:
+ - Run Number
+ - Win/Loss
+ - Difficulty
+ - do2.run.seconds
+ - do2.run.items.embers
+ - do2.run.items.crowns
+
 # Suggested stats Should be Tracked:
