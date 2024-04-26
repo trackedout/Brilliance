@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Available: ("},{"text":"§aFuzzy Bunny Slippers","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:"#3c44aa",OriginalName:'{"color":"#3C44AA","text":"≡ Fuzzy Bunny Slippers ≡"}',ModifiedName:'{"color":"#3C44AA","text":"≡ Fuzzy Bunny Slippers ≡"}'},CustomModelData:133,CustomRoleplayData:1b,display:{Name:'{"color":"#3C44AA","text":"≡ Fuzzy Bunny Slippers ≡"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Available: ("},{"text":"§aFuzzy Bunny Slippers","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:\"#3c44aa\",OriginalName:'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}',ModifiedName:'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'},CustomModelData:133,CustomRoleplayData:1b,display:{Name:'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 # Note that this card has been available.

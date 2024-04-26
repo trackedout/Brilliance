@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aStumble","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{OriginalName:'{"color":"dark_red","font":"minecraft:default","text":"✲ Stumble ✲"}',ModifiedName:'{"color":"dark_red","font":"minecraft:default","text":"✲ Stumble ✲"}',color:"dark_red",font:"minecraft:default"},CustomModelData:101,display:{Name:'{"color":"dark_red","font":"minecraft:default","text":"✲ Stumble ✲"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aStumble","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{OriginalName:'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}',ModifiedName:'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}',color:\"dark_red\",font:\"minecraft:default\"},CustomModelData:101,display:{Name:'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 # Note a card has been played.

@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aSpeed Runner","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:"#3c44aa",OriginalName:'{"color":"#3C44AA","text":"≡ Speed Runner ≡"}',ModifiedName:'{"color":"#3C44AA","text":"≡ Speed Runner ≡"}'},CustomModelData:125,CustomRoleplayData:1b,display:{Name:'{"color":"#3C44AA","text":"≡ Speed Runner ≡"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aSpeed Runner","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:\"#3c44aa\",OriginalName:'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}',ModifiedName:'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'},CustomModelData:125,CustomRoleplayData:1b,display:{Name:'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 # Note a card has been played.

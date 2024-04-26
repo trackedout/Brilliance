@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aSmash And Grab","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:"#80c71f",OriginalName:'{"color":"#80C71F","text":"✧ Smash and Grab ✧"}',ModifiedName:'{"color":"#80C71F","text":"✧ Smash and Grab ✧"}'},CustomModelData:118,CustomRoleplayData:1b,display:{Name:'{"color":"#80C71F","text":"✧ Smash and Grab ✧"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Played: ("},{"text":"§aSmash And Grab","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:\"#80c71f\",OriginalName:'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}',ModifiedName:'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'},CustomModelData:118,CustomRoleplayData:1b,display:{Name:'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 # Note a card has been played.

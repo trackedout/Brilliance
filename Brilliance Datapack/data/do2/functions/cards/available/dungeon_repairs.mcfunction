@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Available: ("},{"text":"§aDungeon Repairs","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:"#3c44aa",OriginalName:'{"color":"#3C44AA","text":"✧ Dungeon Repairs ✧"}',ModifiedName:'{"color":"#3C44AA","text":"✧ Dungeon Repairs ✧"}'},CustomModelData:128,CustomRoleplayData:1b,display:{Name:'{"color":"#3C44AA","text":"✧ Dungeon Repairs ✧"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Available: ("},{"text":"§aDungeon Repairs","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:\"#3c44aa\",OriginalName:'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}',ModifiedName:'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'},CustomModelData:128,CustomRoleplayData:1b,display:{Name:'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 # Note that this card has been available.
