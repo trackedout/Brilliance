@@ -150,4 +150,71 @@ data merge block -642 -51 2014 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
 data merge block -642 -51 2012 {Items:[]}
 
+# Permenant Cards Played (TO-DO2 Addition)
+data merge block -544 36 1914 {Items:[]}
+data merge block -545 36 1914 {Items:[]}
+data merge block -546 36 1914 {Items:[]}
+data merge block -547 36 1914 {Items:[]}
+data merge block -548 36 1914 {Items:[]}
+data merge block -549 36 1914 {Items:[]}
+data merge block -550 36 1914 {Items:[]}
+data merge block -551 36 1914 {Items:[]}
+data merge block -552 36 1914 {Items:[]}
+data merge block -553 36 1914 {Items:[]}
+data merge block -554 36 1914 {Items:[]}
+data merge block -555 36 1914 {Items:[]}
+data merge block -556 36 1914 {Items:[]}
+data merge block -557 36 1914 {Items:[]}
+data merge block -558 36 1914 {Items:[]}
+
+# Non-Permenant Cards Played (TO-DO2 Addition)
+data merge block -570 28 1923 {Items:[]}
+data merge block -571 28 1923 {Items:[]}
+data merge block -572 28 1923 {Items:[]}
+data merge block -573 28 1923 {Items:[]}
+data merge block -574 28 1923 {Items:[]}
+data merge block -575 28 1923 {Items:[]}
+data merge block -576 28 1923 {Items:[]}
+data merge block -577 28 1923 {Items:[]}
+data merge block -578 28 1923 {Items:[]}
+data merge block -579 28 1923 {Items:[]}
+data merge block -580 28 1923 {Items:[]}
+data merge block -581 28 1923 {Items:[]}
+data merge block -582 28 1923 {Items:[]}
+data merge block -583 28 1923 {Items:[]}
+data merge block -584 28 1923 {Items:[]}
+data merge block -585 28 1923 {Items:[]}
+data merge block -586 28 1923 {Items:[]}
+data merge block -587 28 1923 {Items:[]}
+data merge block -588 28 1923 {Items:[]}
+data merge block -589 28 1923 {Items:[]}
+data merge block -590 28 1923 {Items:[]}
+data merge block -591 28 1923 {Items:[]}
+data merge block -592 28 1923 {Items:[]}
+data merge block -593 28 1923 {Items:[]}
+data merge block -594 28 1923 {Items:[]}
+data merge block -595 28 1923 {Items:[]}
+data merge block -596 28 1923 {Items:[]}
+data merge block -597 28 1923 {Items:[]}
+data merge block -598 28 1923 {Items:[]}
+data merge block -599 28 1923 {Items:[]}
+data merge block -600 28 1923 {Items:[]}
+data merge block -601 28 1923 {Items:[]}
+data merge block -602 28 1923 {Items:[]}
+data merge block -603 28 1923 {Items:[]}
+data merge block -604 28 1923 {Items:[]}
+data merge block -605 28 1923 {Items:[]}
+data merge block -606 28 1923 {Items:[]}
+data merge block -607 28 1923 {Items:[]}
+data merge block -608 28 1923 {Items:[]}
+data merge block -609 28 1923 {Items:[]}
+data merge block -610 28 1923 {Items:[]}
+data merge block -611 28 1923 {Items:[]}
+data merge block -612 28 1923 {Items:[]}
+data merge block -613 28 1923 {Items:[]}
+data merge block -614 28 1923 {Items:[]}
+data merge block -615 28 1923 {Items:[]}
+data merge block -616 28 1923 {Items:[]}
+data merge block -617 28 1923 {Items:[]}
+
 tellraw @s ["",{"text":"\n§fAll §lStat Containers §r§fhave been reset."}]
