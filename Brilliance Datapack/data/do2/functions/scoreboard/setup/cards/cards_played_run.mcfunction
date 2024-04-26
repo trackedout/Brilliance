@@ -1,3 +1,6 @@
+# What cards was played.
+# FOR THIS RUN
+
 scoreboard objectives add do2.run.cards.played.MOC dummy "Moment of Clarity"
 scoreboard objectives add do2.run.cards.played.SNE dummy "Sneak"
 scoreboard objectives add do2.run.cards.played.STA dummy "Stability"
@@ -24,7 +27,6 @@ scoreboard objectives add do2.run.cards.played.CHS dummy "Chill Step"
 scoreboard objectives add do2.run.cards.played.SPR dummy "Speed Runner"
 scoreboard objectives add do2.run.cards.played.EOP dummy "Eyes on the Prize"
 scoreboard objectives add do2.run.cards.played.PIB dummy "Pirate's Booty"
-scoreboard objectives add do2.run.cards.played.HAS dummy "Haste"
 scoreboard objectives add do2.run.cards.played.COS dummy "Cold Snap"
 scoreboard objectives add do2.run.cards.played.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.played.FBS dummy "Fuzzy Bunny Slippers"

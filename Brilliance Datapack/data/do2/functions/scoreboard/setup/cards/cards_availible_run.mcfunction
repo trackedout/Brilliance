@@ -1,4 +1,5 @@
 # Cards that popped up to be available for purchase in the shop.
+# FOR THIS RUN
 
 scoreboard objectives add do2.run.cards.available.EVA dummy "Evasion"
 scoreboard objectives add do2.run.cards.available.TRL dummy "Tread Lightly"
@@ -21,7 +22,6 @@ scoreboard objectives add do2.run.cards.available.CHS dummy "Chill Step"
 scoreboard objectives add do2.run.cards.available.SPR dummy "Speed Runner"
 scoreboard objectives add do2.run.cards.available.EOP dummy "Eyes on the Prize"
 scoreboard objectives add do2.run.cards.available.PIB dummy "Pirate's Booty"
-scoreboard objectives add do2.run.cards.available.HAS dummy "Haste"
 scoreboard objectives add do2.run.cards.available.COS dummy "Cold Snap"
 scoreboard objectives add do2.run.cards.available.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.available.FBS dummy "Fuzzy Bunny Slippers"

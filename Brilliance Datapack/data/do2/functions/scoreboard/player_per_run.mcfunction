@@ -75,7 +75,6 @@ scoreboard players set @s do2.run.cards.played.CHS 0
 scoreboard players set @s do2.run.cards.played.SPR 0
 scoreboard players set @s do2.run.cards.played.EOP 0
 scoreboard players set @s do2.run.cards.played.PIB 0
-scoreboard players set @s do2.run.cards.played.HAS 0
 scoreboard players set @s do2.run.cards.played.COS 0
 scoreboard players set @s do2.run.cards.played.SIR 0
 scoreboard players set @s do2.run.cards.played.FBS 0
@@ -118,7 +117,6 @@ scoreboard players set @s do2.run.cards.bought.CHS 0
 scoreboard players set @s do2.run.cards.bought.SPR 0
 scoreboard players set @s do2.run.cards.bought.EOP 0
 scoreboard players set @s do2.run.cards.bought.PIB 0
-scoreboard players set @s do2.run.cards.bought.HAS 0
 scoreboard players set @s do2.run.cards.bought.COS 0
 scoreboard players set @s do2.run.cards.bought.SIR 0
 scoreboard players set @s do2.run.cards.bought.FBS 0

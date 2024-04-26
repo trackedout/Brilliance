@@ -84,7 +84,6 @@ scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.dec
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.SPR
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.EOP
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.PIB
-scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.HAS
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.COS
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.SIR
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.FBS
