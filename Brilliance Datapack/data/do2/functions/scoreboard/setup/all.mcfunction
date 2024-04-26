@@ -29,7 +29,7 @@ scoreboard objectives add do2.run.player_deaths dummy "How many players have die
 scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - Agronet's utility -
-scoreboard objectives add do2.agronet.card_availible dummy "The card ID of the card availible"
+scoreboard objectives add do2.agronet.card_available dummy "The card ID of the card available"
 scoreboard objectives add do2.agronet.card_played dummy "The card ID that the dungeon has played"
 scoreboard objectives add do2.agronet.card_bought dummy "The card ID of the card the player purchased"
 
@@ -53,7 +53,7 @@ function do2:scoreboard/setup/systems
 function do2:scoreboard/setup/easter_eggs
 
 # - cards -
-function do2:scoreboard/setup/cards/cards_availible
+function do2:scoreboard/setup/cards/cards_available
 function do2:scoreboard/setup/cards/cards_bought
 function do2:scoreboard/setup/cards/cards_bought_total
 function do2:scoreboard/setup/cards/cards_played

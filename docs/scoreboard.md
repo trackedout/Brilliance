@@ -96,33 +96,33 @@ Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ✅  | do2.eggs.xb                          |  Totals  | Boolean on whether player has found the xBegg.                                                             |
 |  ✅   |  ✅  | do2.eggs.xisuma                      |  Totals  | Boolean on whether player has found the Eggsuma.                                                           |
 |  ✅   |  ✅  | do2.eggs.zedaph                      |  Totals  | Boolean on whether player has found the Zedaphegg.                                                         |
-|  ⛔   |  ❌  | do2.run.cards.availible.EVA          | Current  | Boolean on whether the card "Evasion" is availible for purchase.                                           |
-|  ⛔   |  ❌  | do2.run.cards.availible.TRL          | Current  | Boolean on whether the card "Tread Lightly" is availible for purchase.                                     |
-|  ⛔   |  ❌  | do2.run.cards.availible.LAS          | Current  | Boolean on whether the card "Loot and Scoot" is availible for purchase.                                    |
-|  ⛔   |  ❌  | do2.run.cards.availible.FRF          | Current  | Boolean on whether the card "Frost Focus" is availible for purchase.                                       |
-|  ⛔   |  ❌  | do2.run.cards.availible.SEW          | Current  | Boolean on whether the card "Second Wind" is availible for purchase.                                       |
-|  ⛔   |  ❌  | do2.run.cards.availible.BES          | Current  | Boolean on whether the card "Beast Sense" is availible for purchase.                                       |
-|  ⛔   |  ❌  | do2.run.cards.availible.BST          | Current  | Boolean on whether the card "Bounding Strides" is availible for purchase.                                  |
-|  ⛔   |  ❌  | do2.run.cards.availible.REC          | Current  | Boolean on whether the card "Reckless Charge" is availible for purchase.                                   |
-|  ⛔   |  ❌  | do2.run.cards.availible.SPT          | Current  | Boolean on whether the card "Sprint" is availible for purchase.                                            |
-|  ⛔   |  ❌  | do2.run.cards.availible.NIL          | Current  | Boolean on whether the card "Nimble Looting" is availible for purchase.                                    |
-|  ⛔   |  ❌  | do2.run.cards.availible.SAG          | Current  | Boolean on whether the card "Smash and Grab" is availible for purchase.                                    |
-|  ⛔   |  ❌  | do2.run.cards.availible.QUI          | Current  | Boolean on whether the card "Quickstep" is availible for purchase.                                         |
-|  ⛔   |  ❌  | do2.run.cards.availible.SUU          | Current  | Boolean on whether the card "Suit Up" is availible for purchase.                                           |
-|  ⛔   |  ❌  | do2.run.cards.availible.ADR          | Current  | Boolean on whether the card "Adrenaline Rush" is availible for purchase.                                   |
-|  ⛔   |  ❌  | do2.run.cards.availible.EES          | Current  | Boolean on whether the card "Eerie Silence" is availible for purchase.                                     |
-|  ⛔   |  ❌  | do2.run.cards.availible.DUR          | Current  | Boolean on whether the card "Dungeon Repairs" is availible for purchase.                                   |
-|  ⛔   |  ❌  | do2.run.cards.availible.SWA          | Current  | Boolean on whether the card "Swagger" is availible for purchase.                                           |
-|  ⛔   |  ❌  | do2.run.cards.availible.CHS          | Current  | Boolean on whether the card "Chill Step" is availible for purchase.                                        |
-|  ⛔   |  ❌  | do2.run.cards.availible.SPR          | Current  | Boolean on whether the card "Speed Runner" is availible for purchase.                                      |
-|  ⛔   |  ❌  | do2.run.cards.availible.EOP          | Current  | Boolean on whether the card "Eyes on the Prize" is availible for purchase.                                 |
-|  ⛔   |  ❌  | do2.run.cards.availible.PIB          | Current  | Boolean on whether the card "Pirate's Booty" is availible for purchase.                                    |
-|  ⛔   |  ❌  | do2.run.cards.availible.HAS          | Current  | Boolean on whether the card "Haste" is availible for purchase.                                             |
-|  ⛔   |  ❌  | do2.run.cards.availible.COS          | Current  | Boolean on whether the card "Cold Snap" is availible for purchase.                                         |
-|  ⛔   |  ❌  | do2.run.cards.availible.SIR          | Current  | Boolean on whether the card "Silent Runner" is availible for purchase.                                     |
-|  ⛔   |  ❌  | do2.run.cards.availible.FBS          | Current  | Boolean on whether the card "Fuzzy Bunny Slippers" is availible for purchase.                              |
-|  ⛔   |  ❌  | do2.run.cards.availible.DEF          | Current  | Boolean on whether the card "Deepfrost" is availible for purchase.                                         |
-|  ⛔   |  ❌  | do2.run.cards.availible.BRI          | Current  | Boolean on whether the card "Brilliance" is availible for purchase.                                        |
+|  ⛔   |  ❌  | do2.run.cards.available.EVA          | Current  | Boolean on whether the card "Evasion" is available for purchase.                                           |
+|  ⛔   |  ❌  | do2.run.cards.available.TRL          | Current  | Boolean on whether the card "Tread Lightly" is available for purchase.                                     |
+|  ⛔   |  ❌  | do2.run.cards.available.LAS          | Current  | Boolean on whether the card "Loot and Scoot" is available for purchase.                                    |
+|  ⛔   |  ❌  | do2.run.cards.available.FRF          | Current  | Boolean on whether the card "Frost Focus" is available for purchase.                                       |
+|  ⛔   |  ❌  | do2.run.cards.available.SEW          | Current  | Boolean on whether the card "Second Wind" is available for purchase.                                       |
+|  ⛔   |  ❌  | do2.run.cards.available.BES          | Current  | Boolean on whether the card "Beast Sense" is available for purchase.                                       |
+|  ⛔   |  ❌  | do2.run.cards.available.BST          | Current  | Boolean on whether the card "Bounding Strides" is available for purchase.                                  |
+|  ⛔   |  ❌  | do2.run.cards.available.REC          | Current  | Boolean on whether the card "Reckless Charge" is available for purchase.                                   |
+|  ⛔   |  ❌  | do2.run.cards.available.SPT          | Current  | Boolean on whether the card "Sprint" is available for purchase.                                            |
+|  ⛔   |  ❌  | do2.run.cards.available.NIL          | Current  | Boolean on whether the card "Nimble Looting" is available for purchase.                                    |
+|  ⛔   |  ❌  | do2.run.cards.available.SAG          | Current  | Boolean on whether the card "Smash and Grab" is available for purchase.                                    |
+|  ⛔   |  ❌  | do2.run.cards.available.QUI          | Current  | Boolean on whether the card "Quickstep" is available for purchase.                                         |
+|  ⛔   |  ❌  | do2.run.cards.available.SUU          | Current  | Boolean on whether the card "Suit Up" is available for purchase.                                           |
+|  ⛔   |  ❌  | do2.run.cards.available.ADR          | Current  | Boolean on whether the card "Adrenaline Rush" is available for purchase.                                   |
+|  ⛔   |  ❌  | do2.run.cards.available.EES          | Current  | Boolean on whether the card "Eerie Silence" is available for purchase.                                     |
+|  ⛔   |  ❌  | do2.run.cards.available.DUR          | Current  | Boolean on whether the card "Dungeon Repairs" is available for purchase.                                   |
+|  ⛔   |  ❌  | do2.run.cards.available.SWA          | Current  | Boolean on whether the card "Swagger" is available for purchase.                                           |
+|  ⛔   |  ❌  | do2.run.cards.available.CHS          | Current  | Boolean on whether the card "Chill Step" is available for purchase.                                        |
+|  ⛔   |  ❌  | do2.run.cards.available.SPR          | Current  | Boolean on whether the card "Speed Runner" is available for purchase.                                      |
+|  ⛔   |  ❌  | do2.run.cards.available.EOP          | Current  | Boolean on whether the card "Eyes on the Prize" is available for purchase.                                 |
+|  ⛔   |  ❌  | do2.run.cards.available.PIB          | Current  | Boolean on whether the card "Pirate's Booty" is available for purchase.                                    |
+|  ⛔   |  ❌  | do2.run.cards.available.HAS          | Current  | Boolean on whether the card "Haste" is available for purchase.                                             |
+|  ⛔   |  ❌  | do2.run.cards.available.COS          | Current  | Boolean on whether the card "Cold Snap" is available for purchase.                                         |
+|  ⛔   |  ❌  | do2.run.cards.available.SIR          | Current  | Boolean on whether the card "Silent Runner" is available for purchase.                                     |
+|  ⛔   |  ❌  | do2.run.cards.available.FBS          | Current  | Boolean on whether the card "Fuzzy Bunny Slippers" is available for purchase.                              |
+|  ⛔   |  ❌  | do2.run.cards.available.DEF          | Current  | Boolean on whether the card "Deepfrost" is available for purchase.                                         |
+|  ⛔   |  ❌  | do2.run.cards.available.BRI          | Current  | Boolean on whether the card "Brilliance" is available for purchase.                                        |
 |  ⛔   |  ❌  | do2.run.cards.bought.1TM             | Current  | Boolean on whether the option to buy  "1 Tome" was purchased this run.                                     |
 |  ⛔   |  ❌  | do2.run.cards.bought.3TM             | Current  | Boolean on whether the option to buy  "3 Tome" was purchased this run.                                     |
 |  ⛔   |  ❌  | do2.run.cards.bought.5TM             | Current  | Boolean on whether the option to buy  "5 Tome" was purchased this run.                                     |

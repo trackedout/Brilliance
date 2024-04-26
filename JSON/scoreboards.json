@@ -179,11 +179,11 @@
 		"category": "current",
 		"description": "How many players are playing this run."
 	},
-	"do2.agronet.card_availible": {
+	"do2.agronet.card_available": {
 		"auto": 1,
 		"target": "$dungeon",
 		"category": "agronet",
-		"description": "Used to tell agronet what card was availible."
+		"description": "Used to tell agronet what card was available."
 	},
 	"do2.agronet.card_played": {
 		"auto": 1,
@@ -1283,163 +1283,163 @@
 		"category": "totals",
 		"description": "How many MKY artifacts have been converted."
 	},
-	"do2.run.cards.availible.EVA": {
+	"do2.run.cards.available.EVA": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.TRL": {
+	"do2.run.cards.available.TRL": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.LAS": {
+	"do2.run.cards.available.LAS": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.FRF": {
+	"do2.run.cards.available.FRF": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SEW": {
+	"do2.run.cards.available.SEW": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.BES": {
+	"do2.run.cards.available.BES": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.BST": {
+	"do2.run.cards.available.BST": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.REC": {
+	"do2.run.cards.available.REC": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SPT": {
+	"do2.run.cards.available.SPT": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.NIL": {
+	"do2.run.cards.available.NIL": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SAG": {
+	"do2.run.cards.available.SAG": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.QUI": {
+	"do2.run.cards.available.QUI": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SUU": {
+	"do2.run.cards.available.SUU": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.ADR": {
+	"do2.run.cards.available.ADR": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.EES": {
+	"do2.run.cards.available.EES": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.DUR": {
+	"do2.run.cards.available.DUR": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SWA": {
+	"do2.run.cards.available.SWA": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.CHS": {
+	"do2.run.cards.available.CHS": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SPR": {
+	"do2.run.cards.available.SPR": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.EOP": {
+	"do2.run.cards.available.EOP": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.PIB": {
+	"do2.run.cards.available.PIB": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.HAS": {
+	"do2.run.cards.available.HAS": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.COS": {
+	"do2.run.cards.available.COS": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.SIR": {
+	"do2.run.cards.available.SIR": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.FBS": {
+	"do2.run.cards.available.FBS": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.DEF": {
+	"do2.run.cards.available.DEF": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.availible.BRI": {
+	"do2.run.cards.available.BRI": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",

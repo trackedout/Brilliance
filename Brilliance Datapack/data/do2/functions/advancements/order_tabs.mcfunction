@@ -6,7 +6,7 @@ execute as @s[advancements={do2:visible/credits/credits_root=false,do2:visible/e
 execute as @s[advancements={do2:visible/credits/credits_root=false,do2:visible/empty/empty_root=true}] run function do2:advancements/grant_visible/all
 
 
-# Attempt to grant advancements from LAST to FIRST, so they fail and wait until next tick to be availible.
+# Attempt to grant advancements from LAST to FIRST, so they fail and wait until next tick to be available.
 # Since this is run while the player DOESN'T have the 'credits' tab, it grants the 'credits' tab FIRST,
 # but it will fail UNLESS the 'empty' tab has been granted, which won't be granted unless the 'dlc' tab is granted.
 # this continues, with each root failing until the first tab is granted automatically, upon which there is no more lines of code and this function ends
