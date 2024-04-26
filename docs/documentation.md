@@ -1,3 +1,7 @@
+<br><br><br><br><br>
+# WARNING THIS IS WILDLY OUTDATED. 
+#### (Last updated January 2024, 200+ commits have been done since then)
+<br><br><br><br><br>
 # Brilliance Datapack
 
 Brilliance is the companion datapack for the *Tracked Out: Decked Out* server. It serves multiple purposes in running the Decked Out 2 dungeon and assisting with the general overall gameplay. Some of the key features include: providing player advancements and rewards in the dungeon, processing gameplay events and tracking and sending data with agronet to dunga-dunga. This document serves to provide a comprehensive overview of all the features to allow other teams understand how it works.
@@ -7,6 +11,7 @@ Brilliance is the companion datapack for the *Tracked Out: Decked Out* server. I
 ## Advancements
 
 For all functions related to maintaining advancements. This doesn't include granting advancements which are mostly found in the Events section.
+
 
 ### [checks/](./../Brilliance%20Datapack/data/do2/functions/advancements/checks)
 

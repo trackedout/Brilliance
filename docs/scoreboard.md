@@ -1,9 +1,8 @@
 # Brilliance Scoreboard
-Brilliance uses a ton of scoreboard objectives for a vast amount of things. This list should document and describe every single scoreboard objective.
+Brilliance uses a massive amount of scoreboard objectives for a vast amount of things.<br>Hopefully this list will explain and describe every single scoreboard objective for you.
 <br><br>
-Agronet should transfer EVERYTHING that isn't marked as `Utility`.
-
-
+### Agronet should store and transfer everything marked in category: `Totals`
+<br><br>
 #### Table's Key:
 1. `Auto`
    1. ✅ | We fully automate this objective in the datapack.
@@ -12,18 +11,18 @@ Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 2. `Target`
    1. 🟢 | The score is stored on `@a`. 
    1. 🔵 | The score is stored on `@a[tag=do2.running]`. 
-   2. 🔴 | The score is stored `$dungeon`.
+   2. 🔴 | The score is stored on `$dungeon`.
    3. 🟣 | The score is stored on `@p[tag=do2.received_shulker]`.
    3. 🟤 | The score is stored on both `@a[tag=do2.running]` & `$dungeon`. 
 3. `Name`
    - Name of the scoreboard objective.
 4. `Category`
-   1. `Totals`  | This Number can ONLY go up from across runs.
-   2. `Current` | Changes depending on the run.
-   3. `Utility` | This never gets transferred by Agronet
-   4. `Config`  | This is config settings to determine how the run is played. 
+   1. `Totals`  | These scores can ONLY go <b>up</b> from across runs.
+   2. `Current` | These scores only track what is going on for the <b>current</b> run.
+   3. `Utility` | These are used by the datapack to process complicated math and/or checks.
+   4. `Config`  | These are used to modify how the datapack and the dungeon run.
 5. `Description`
-   - A brief description of the scoreboard objective's purpose
+   - A brief description of the scoreboard objective's purpose.
    
    
 | Auto | Target  | Name                                 | Category | Description                                                                                                |
