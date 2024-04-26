@@ -31,5 +31,5 @@ execute if score @s do2.agronet.card_available matches 29 run card-available dee
 execute if score @s do2.agronet.card_available matches 30 run card-available brilliance
 execute if score @s do2.agronet.card_available matches 31 run card-available pay-to-win
 execute if score @s do2.agronet.card_available matches 32 run card-available tactical-approach
-execute if score @s do2.agronet.card_available matches 33 run card-available porkchop-power
+execute if score @s do2.agronet.card_available matches 33 run card-available pork-chop-power
 execute if score @s do2.agronet.card_available matches 34 run card-available stumble

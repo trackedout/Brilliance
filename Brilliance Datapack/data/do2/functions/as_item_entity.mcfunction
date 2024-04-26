@@ -15,7 +15,7 @@ execute if entity @s[tag=tracked] run return 0
 # 8. Glow_berries
 
 
-# - Iron Nugget - (all cards, treasures, and most of DO2.
+# - Iron Nugget - (all cards, treasures, and most of DO2)
 # Too many CustomModelData ids to track them all, so we AREN'T using CustomModelData for this one.
 execute if entity @s[nbt={Item:{id:"minecraft:iron_nugget"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
@@ -43,7 +43,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:pumpkin"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 
-# - Porkchops - (Given by porkchop power OR by trick/treating)
+# - Porkchops - (Given by pork chop power OR by trick/treating)
 execute if entity @s[nbt={Item:{id:"minecraft:cooked_porkchops"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0

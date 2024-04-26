@@ -43,5 +43,5 @@ scoreboard objectives add do2.run.cards.deck.BRI dummy "Brilliance"
 
 scoreboard objectives add do2.run.cards.deck.P2W dummy "Pay to Win"
 scoreboard objectives add do2.run.cards.deck.TAA dummy "Tactical Approach"
-scoreboard objectives add do2.run.cards.deck.PCP dummy "Porkchop Power"
+scoreboard objectives add do2.run.cards.deck.PCP dummy "Pork Chop Power"
 scoreboard objectives add do2.run.cards.deck.DUL dummy "Dungeon Lackey"
