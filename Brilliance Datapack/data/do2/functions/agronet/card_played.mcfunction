@@ -31,5 +31,5 @@ execute if score @s do2.agronet.card_played matches 29 run card-played deepfrost
 execute if score @s do2.agronet.card_played matches 30 run card-played brilliance
 execute if score @s do2.agronet.card_played matches 31 run card-played pay-to-win
 execute if score @s do2.agronet.card_played matches 32 run card-played tactical-approach
-execute if score @s do2.agronet.card_played matches 33 run card-played porkchop-power
+execute if score @s do2.agronet.card_played matches 33 run card-played pork-chop-power
 execute if score @s do2.agronet.card_played matches 34 run card-played stumble

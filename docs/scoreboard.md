@@ -195,7 +195,7 @@ Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ❌  | do2.cards.bought.BRI                 |  Totals  | Total amount of times the card "Brilliance" was purchased.                                                 |
 |  ✅   |  ⛔  | do2.run.cards.played.P2W             | Current  | Total amount of times the card "Pay to Win" was played this run.                                           |
 |  ✅   |  ⛔  | do2.run.cards.played.TAA             | Current  | Total amount of times the card "Tactical Approach" was played this run.                                    |
-|  ✅   |  ⛔  | do2.run.cards.played.PCP             | Current  | Total amount of times the card "Porkchop Power" was played this run.                                       |
+|  ✅   |  ⛔  | do2.run.cards.played.PCP             | Current  | Total amount of times the card "Pork Chop Power" was played this run.                                       |
 |  ✅   |  ⛔  | do2.run.cards.played.DUL             | Current  | Total amount of times the card "Dungeon Lackey" was played this run.                                       |
 |  ✅   |  ⛔  | do2.run.cards.played.STU             | Current  | Total amount of times the card "Stumble" was played this run.                                              |
 |  ✅   |  ⛔  | do2.run.cards.played.MOC             | Current  | Total amount of times the card "Moment of Clarity" was played this run.                                    |
@@ -232,7 +232,7 @@ Agronet should transfer EVERYTHING that isn't marked as `Utility`.
 |  ✅   |  ⛔  | do2.run.cards.played.BRI             | Current  | Total amount of times the card "Brilliance" was played this run.                                           |
 |  ❌   |  ⛔  | do2.run.cards.deck.P2W               | Current  | Amount of the cards "Pay to Win" Inside player's deck.                                                     |
 |  ❌   |  ⛔  | do2.run.cards.deck.TAA               | Current  | Amount of the cards "Tactical Approach" Inside player's deck.                                              |
-|  ❌   |  ⛔  | do2.run.cards.deck.PCP               | Current  | Amount of the cards "Porkchop Power" Inside player's deck.                                                 |
+|  ❌   |  ⛔  | do2.run.cards.deck.PCP               | Current  | Amount of the cards "Pork Chop Power" Inside player's deck.                                                 |
 |  ❌   |  ⛔  | do2.run.cards.deck.DUL               | Current  | Amount of the cards "Dungeon Lackey" Inside player's deck.                                                 |
 |  ❌   |  ⛔  | do2.run.cards.deck.MOC               | Current  | Amount of the cards "Moment of Clarity" Inside player's deck.                                              |
 |  ❌   |  ⛔  | do2.run.cards.deck.SNE               | Current  | Amount of the cards "Sneak" Inside player's deck.                                                          |

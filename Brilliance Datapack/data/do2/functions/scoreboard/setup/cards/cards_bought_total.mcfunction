@@ -41,7 +41,7 @@ scoreboard objectives add do2.cards.bought.BRI dummy "Brilliance"
 # legendaries added here
 scoreboard objectives add do2.cards.bought.P2W dummy "Pay to Win"
 scoreboard objectives add do2.cards.bought.TAA dummy "Tactical Approach"
-scoreboard objectives add do2.cards.bought.PCP dummy "Porkchop Power"
+scoreboard objectives add do2.cards.bought.PCP dummy "Pork Chop Power"
 scoreboard objectives add do2.cards.bought.STU dummy "Stumble"
 scoreboard objectives add do2.cards.bought.DUL dummy "Dungeon Lackey"
 

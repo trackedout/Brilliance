@@ -12,7 +12,7 @@ data merge block -554 107 1975 {Items:[]}
 data merge block -554 107 1973 {Items:[]}
 data merge block -554 107 1971 {Items:[]}
 
-# Porkchop Power (Played Count)
+# Pork Chop Power (Played Count)
 data merge block -547 39 1912 {Items:[]}
 # Tactical Approach (Played Count)
 data merge block -556 39 1912 {Items:[]}
