@@ -34,7 +34,7 @@
 		}
 	},
 	"pork_chop_power": {
-		"shorthand": "POP",
+		"shorthand": "PCP",
 		"id": "minecraft:iron_nugget",
 		"tag": {
 			"NameFormat": {

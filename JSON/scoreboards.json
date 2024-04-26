@@ -1667,7 +1667,7 @@
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.bought.POP": {
+	"do2.run.cards.bought.PCP": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
@@ -1907,7 +1907,7 @@
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.cards.bought.POP": {
+	"do2.cards.bought.PCP": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
@@ -2129,7 +2129,7 @@
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.played.POP": {
+	"do2.run.cards.played.PCP": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",
@@ -2393,7 +2393,7 @@
 		"category": "unknown",
 		"description": "unknown"
 	},
-	"do2.run.cards.deck.POP": {
+	"do2.run.cards.deck.PCP": {
 		"auto": 0,
 		"target": "unknown",
 		"category": "unknown",

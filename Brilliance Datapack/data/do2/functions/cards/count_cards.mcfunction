@@ -5,7 +5,7 @@ execute as @a[scores={do2.logs.dungeon_setup=2..}] run tellraw @s ["",{"text":"[
 # - Card Amounts -
 execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.MOC run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:106}}].Count
 execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.P2W run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:107}}].Count
-execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.POP run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:109}}].Count
+execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.PCP run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:109}}].Count
 execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.TAA run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:108}}].Count
 execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.SNE run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:102}}].Count
 execute store result score @p[tag=do2.received_shulker] do2.run.cards.deck.STA run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:105}}].Count
@@ -99,13 +99,13 @@ scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.dec
 scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.MOC
 scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.P2W
 scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.TAA
-scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.POP
+scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.PCP
 scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.DUL
 
 # - Permanents -
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.DUL
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.TAA
-scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.POP
+scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.PCP
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.SUU
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.SPR
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.SIR

@@ -82,7 +82,7 @@ scoreboard players set @s do2.run.cards.played.BRI 0
 # TODO: reset legendaries cards played here
 scoreboard players set @s do2.run.cards.played.P2W 0
 scoreboard players set @s do2.run.cards.played.TAA 0
-scoreboard players set @s do2.run.cards.played.POP 0
+scoreboard players set @s do2.run.cards.played.PCP 0
 scoreboard players set @s do2.run.cards.played.STU 0
 scoreboard players set @s do2.run.cards.played.DUL 0
 
@@ -125,6 +125,6 @@ scoreboard players set @s do2.run.cards.bought.BRI 0
 # TODO: reset legendaries bought here
 scoreboard players set @s do2.run.cards.bought.P2W 0
 scoreboard players set @s do2.run.cards.bought.TAA 0
-scoreboard players set @s do2.run.cards.bought.POP 0
+scoreboard players set @s do2.run.cards.bought.PCP 0
 scoreboard players set @s do2.run.cards.bought.STU 0
 scoreboard players set @s do2.run.cards.bought.DUL 0
