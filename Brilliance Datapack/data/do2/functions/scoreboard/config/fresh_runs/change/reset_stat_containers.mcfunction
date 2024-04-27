@@ -217,4 +217,7 @@ data merge block -615 28 1923 {Items:[]}
 data merge block -616 28 1923 {Items:[]}
 data merge block -617 28 1923 {Items:[]}
 
+# Non-Card Items Played (TO-DO2 Addition)
+data merge block -622 37 1915 {Items:[]}
+
 tellraw @s ["",{"text":"\n§fAll §lStat Containers §r§fhave been reset."}]
