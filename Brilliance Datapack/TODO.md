@@ -2,7 +2,9 @@
 - Automate do2.lifetime.spent.crowns
 - Automate do2.lifetime.coinsconverted
 - Automate do2.lifetime.escaped.crowns
+  - Actually... is this score needed? It's essentially crowns spent + whatever crowns they have on them.
 - Automate do2.lifetime.escaped.embers
+  - Actually... is this score needed? It's essentially embers spent...
 - Fresh runs, reset_stat_containers contains a link to the document. Shou**ld the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
