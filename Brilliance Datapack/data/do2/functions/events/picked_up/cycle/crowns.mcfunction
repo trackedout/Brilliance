@@ -2,7 +2,9 @@
 give @s minecraft:iron_nugget{tracked:1b,  CustomModelData: 2, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}
 
 # track a crown pick up
+scoreboard players add @s do2.lifetime.pickedup.crowns 1
 scoreboard players add @s do2.run.items.crowns 1
+scoreboard players add $dungeon do2.lifetime.pickedup.crowns 1
 scoreboard players add $dungeon do2.run.items.crowns 1
 
 #track we gave a crown to the players

@@ -25,6 +25,7 @@ execute unless score $dungeon do2.utility.coinsPerCrown matches 0.. run scoreboa
 scoreboard objectives add do2.run.artifactValue dummy "How many embers the artifact was worth."
 scoreboard objectives add do2.utility.statsScreen dummy "What screen the stats are showing right now"
 execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard players set $dungeon do2.utility.statsScreen 0
+scoreboard objectives add do2.utility.priceChecker dummy "Used to count the price of cards in shops"
 
 scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
 execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0

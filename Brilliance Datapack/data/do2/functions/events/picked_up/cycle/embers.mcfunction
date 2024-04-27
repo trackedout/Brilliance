@@ -3,7 +3,9 @@ give @s minecraft:iron_nugget{tracked: 1b,  CustomModelData: 3, display: {Name: 
 
 # track a ember pick up
 scoreboard players add @s do2.run.items.embers 1
+scoreboard players add @s do2.lifetime.pickedup.embers 1
 scoreboard players add $dungeon do2.run.items.embers 1
+scoreboard players add $dungeon do2.lifetime.pickedup.embers 1
 
 #track we gave a ember to the players
 scoreboard players remove @s do2.utility.embersToGive 1

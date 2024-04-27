@@ -39,7 +39,6 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.runs                             |  totals  | The total amount of runs the target has.                                                         |
 |  ✅   |   🟤    | do2.wins                             |  totals  | The total amount of wins the target has.                                                         |
 |  ✅   |   🟤    | do2.losses                           |  totals  | The total amount of losses the target has.                                                       |
-|  ❌   |   N/A   | do2.shards                           |  totals  | The total amount of Frozen Shards the target has collected.                                      |
 |  ❌   |   N/A   | do2.crowns                           |  totals  | The total amount of Crowns the target has collected.                                             |
 |  ❌   |   N/A   | do2.embers                           |  totals  | The total amount of Frost Embers the target has collected.                                       |
 |  ✅   |   🟤    | do2.highest_win_streak               |  totals  | The highest win streak the target has.                                                           |

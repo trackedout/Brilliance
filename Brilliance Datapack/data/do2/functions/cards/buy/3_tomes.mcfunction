@@ -4,6 +4,8 @@ execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B�
 
 execute as @p[tag=do2.received_shulker] run scoreboard players add @s do2.cards.bought.3TM 1
 execute as @p[tag=do2.received_shulker] run scoreboard players set @s do2.run.cards.bought.3TM 1
+execute as @p[tag=do2.received_shulker] run scoreboard players operation @s do2.lifetime.spent.embers += $dungeon do2.cards.price.3TM
+scoreboard players operation $dungeon do2.lifetime.spent.embers += $dungeon do2.cards.price.3TM
 
 # Agronet Event Handling
 scoreboard players set $dungeon do2.agronet.card_bought -2

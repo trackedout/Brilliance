@@ -9,6 +9,9 @@ execute as @p[tag=do2.received_shulker] run scoreboard players set @s do2.run.ca
 execute as @p[tag=do2.received_shulker] run scoreboard players add $dungeon do2.cards.bought.SUU 1
 execute as @p[tag=do2.received_shulker] run scoreboard players set $dungeon do2.run.cards.bought.SUU 1
 
+execute as @p[tag=do2.received_shulker] run scoreboard players operation @s do2.lifetime.spent.embers += $dungeon do2.cards.price.SUU
+scoreboard players operation $dungeon do2.lifetime.spent.embers += $dungeon do2.cards.price.SUU
+
 # Agronet Event Handling
 scoreboard players set $dungeon do2.agronet.card_bought 17
 execute as @p[tag=do2.received_shulker] run function do2:agronet/card_bought

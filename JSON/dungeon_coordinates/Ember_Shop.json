@@ -195,7 +195,7 @@
 			"-632 -18 2009",
 			"-633 -18 2009"
 		],
-		"default_products": "",
+		"default_products": [],
 		"default_price": 0,
 		"hopper_facing": "west",
 		"dropper_facing": "west",
@@ -511,7 +511,7 @@
 			"-642 -18 2014",
 			"-641 -18 2014"
 		],
-		"default_products": "",
+		"default_products": [],
 		"default_price": 0,
 		"hopper_facing": "east",
 		"dropper_facing": "east",

@@ -1,18 +1,9 @@
 # Other TODO:
-- Reduce the amount of scoreboard needed for CARDS.
-  - First Idea:
-  - Each card will add a binary digit. +1, +2, +4, +8, +16. 
-  - Then to Figure out what cards are stored do it in reverse. If it's >16 remove 16 and note that card was stored.
-    - Good for:
-      - "do2.run.cards.available" score.do2.run.cards.available
-      - "do2.run.cards.bought" score.
-    - Looking for solution to reducing:
-      - "do2.run.cards.played" scores.
-      - "do2.run.deck.cards" scores.
-      - "do2.cards.bought" totals instead of per run.
-      - "do2.cards.available" totals instead of per run. (new scores)
-      - "do2.cards.played" totals instead of per run. (new scores)
-- Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
+- Automate do2.lifetime.spent.crowns
+- Automate do2.lifetime.coinsconverted
+- Automate do2.lifetime.escaped.crowns
+- Automate do2.lifetime.escaped.embers
+- Fresh runs, reset_stat_containers contains a link to the document. Shou**ld the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.

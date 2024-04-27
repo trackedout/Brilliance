@@ -7,14 +7,21 @@ execute as @a[scores={do2.logs.dev=1..}] run tellraw @s ["",{"text":"§f[§9B§r
 scoreboard objectives add do2.runs dummy "Total Runs"
 scoreboard objectives add do2.wins dummy "Total Wins"
 scoreboard objectives add do2.losses dummy "Total Losses"
-scoreboard objectives add do2.shards dummy "Total Frozen Shards Collected"
-scoreboard objectives add do2.crowns dummy "Total §eCrowns§r Collected"
-scoreboard objectives add do2.embers dummy "Total §3Frost Embers§r Collected"
 scoreboard objectives add do2.highest_win_streak dummy "Highest Win Streak"
 scoreboard objectives add do2.win_streak dummy "Current Win Streak"
 scoreboard objectives add do2.highest_loss_streak dummy "Highest Loss Streak"
 scoreboard objectives add do2.loss_streak dummy "Current Loss Streak"
 scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Successes"
+
+# - treasure lifetimes -
+scoreboard objectives add do2.lifetime.pickedup.crowns dummy "Total §eCrowns§r Picked Up"
+scoreboard objectives add do2.lifetime.escaped.crowns dummy "Total §eCrowns§r Escaped With."
+scoreboard objectives add do2.lifetime.spent.crowns dummy "Total §eCrowns§r Spent"
+scoreboard objectives add do2.lifetime.coinsconverted dummy "Total §eCoins§r Converted"
+scoreboard objectives add do2.lifetime.pickedup.coins dummy "Total §eCoins§r Converted"
+scoreboard objectives add do2.lifetime.pickedup.embers dummy "Total §3Frost Embers§r Picked Up"
+scoreboard objectives add do2.lifetime.escaped.embers dummy "Total §3Frost Embers§r Escaped With."
+scoreboard objectives add do2.lifetime.spent.embers dummy "Total §3Frost Embers§r Spent"
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"
@@ -60,6 +67,7 @@ function do2:scoreboard/setup/cards/cards_bought_total
 function do2:scoreboard/setup/cards/cards_played_run
 function do2:scoreboard/setup/cards/cards_played_total
 function do2:scoreboard/setup/cards/inside_deck
+function do2:scoreboard/setup/cards/cards_price
 
 # - items -
 function do2:scoreboard/setup/items
