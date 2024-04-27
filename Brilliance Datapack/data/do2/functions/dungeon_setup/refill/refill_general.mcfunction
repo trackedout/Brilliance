@@ -120,6 +120,9 @@ execute positioned -615 29 1923 run function do2:reset_dungeon/default_states/mi
 execute positioned -616 29 1923 run function do2:reset_dungeon/default_states/misc/just_non_permenant_facing_down
 execute positioned -617 29 1923 run function do2:reset_dungeon/default_states/misc/just_non_permenant_facing_down
 
+# Non-Card Items Played droppers (TO-DO2 Addition)
+execute positioned -622 37 1915 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_up
+
 # Staircase Embers (TO-DO2 Config Addition)
 execute positioned -474 63 1983 run function do2:reset_dungeon/default_states/misc/just_embers_facing_south
 execute positioned -593 13 1933 run function do2:reset_dungeon/default_states/misc/just_embers_facing_east
