@@ -150,7 +150,7 @@ data merge block -642 -51 2014 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
 data merge block -642 -51 2012 {Items:[]}
 
-# Permenant Cards Played (TO-DO2 Addition)
+# permanent Cards Played (TO-DO2 Addition)
 data merge block -544 36 1914 {Items:[]}
 data merge block -545 36 1914 {Items:[]}
 data merge block -546 36 1914 {Items:[]}
@@ -167,7 +167,7 @@ data merge block -556 36 1914 {Items:[]}
 data merge block -557 36 1914 {Items:[]}
 data merge block -558 36 1914 {Items:[]}
 
-# Non-Permenant Cards Played (TO-DO2 Addition)
+# Non-permanent Cards Played (TO-DO2 Addition)
 data merge block -570 28 1923 {Items:[]}
 data merge block -571 28 1923 {Items:[]}
 data merge block -572 28 1923 {Items:[]}
