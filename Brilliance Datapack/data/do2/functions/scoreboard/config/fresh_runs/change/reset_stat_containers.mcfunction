@@ -126,12 +126,12 @@ data merge block -643 -14 2013 {Items:[]}
 data merge block -643 -14 2014 {Items:[]}
 
 # Crowns Earned
-data merge block -644 -15 1989 {Items:[]}
+data merge block -643 -15 1988 {Items:[]}
 # Coins Earned
-data merge block -646 -16 1988 {Items:[]}
+data merge block -646 -17 1988 {Items:[]}
 data merge block -647 -17 1988 {Items:[]}
 # Non-Coins/Crowns submitted
-data merge block -645 -13 1989 {Items:[]}
+data merge block -645 -13 1987 {Items:[]}
 
 # Games Lost
 data merge block -547 116 1976 {Items:[]}
