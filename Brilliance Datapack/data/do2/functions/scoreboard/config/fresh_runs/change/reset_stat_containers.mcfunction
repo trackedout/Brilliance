@@ -11,6 +11,8 @@ data merge block -554 107 1977 {Items:[]}
 data merge block -554 107 1975 {Items:[]}
 data merge block -554 107 1973 {Items:[]}
 data merge block -554 107 1971 {Items:[]}
+# Difficulty hopper. Non-nugget Item
+data merge block -554 107 1969 {Items:[]}
 
 # Pork Chop Power (Played Count)
 data merge block -547 39 1912 {Items:[]}
@@ -22,6 +24,14 @@ data merge block -557 39 1912 {Items:[]}
 data merge block -576 35 1916 {Items:[]}
 # Pay to Win (Played Count)
 data merge block -584 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -592 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -600 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -608 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -616 35 1916 {Items:[]}
 
 # Keys used L2 -> L4
 data merge block -490 52 1991 {Items:[]}
