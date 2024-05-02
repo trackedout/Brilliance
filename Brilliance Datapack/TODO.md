@@ -5,6 +5,14 @@
   - Actually... is this score needed? It's essentially crowns spent + whatever crowns they have on them.
 - Automate do2.lifetime.escaped.embers
   - Actually... is this score needed? It's essentially embers spent...
+- Track embers DROPPED in dungeon
+- Track embers ATTEMPTED to be RELEASED.
+- Track treasure DROPPED in dungoen
+- Track treasure ATTEMPTED to be RELEASED.
+- Thing to change for the automatic restock system, The dropper at (-513 37 1992) needs to be moved one block lower. It is facing upwards and only contains keys to L2.
+- Add command blocks to crown shop to trigger upon item purchased.
+  - Used to track crowns spent.
+  - Used for mystery box loot advancements.
 - Fresh runs, reset_stat_containers contains a link to the document. Shou**ld the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.

@@ -261,7 +261,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.run.cards.available.CHS          | current  | Whether the card chill step was available to purchase this run.                                  |
 |  ✅   |   🟤    | do2.run.cards.available.SPR          | current  | Whether the card speed runner was available to purchase this run.                                |
 |  ✅   |   🟤    | do2.run.cards.available.EOP          | current  | Whether the card eyes on the prize was available to purchase this run.                           |
-|  ✅   |   🟤    | do2.run.cards.available.PIB          | current  | Whether the card pirates booty was available to purchase this run.                               |
+|  ✅   |   🟤    | do2.run.cards.available.PIB          | current  | Whether the card pirate's booty was available to purchase this run.                              |
 |  ✅   |   🟤    | do2.run.cards.available.COS          | current  | Whether the card cold snap was available to purchase this run.                                   |
 |  ✅   |   🟤    | do2.run.cards.available.SIR          | current  | Whether the card silent runner was available to purchase this run.                               |
 |  ✅   |   🟤    | do2.run.cards.available.FBS          | current  | Whether the card fuzzy bunny slippers was available to purchase this run.                        |
@@ -295,7 +295,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.run.cards.bought.CHS             | current  | Whether the card chill step was purchased this run.                                              |
 |  ✅   |   🟤    | do2.run.cards.bought.SPR             | current  | Whether the card speed runner was purchased this run.                                            |
 |  ✅   |   🟤    | do2.run.cards.bought.EOP             | current  | Whether the card eyes on the prize was purchased this run.                                       |
-|  ✅   |   🟤    | do2.run.cards.bought.PIB             | current  | Whether the card pirates booty was purchased this run.                                           |
+|  ✅   |   🟤    | do2.run.cards.bought.PIB             | current  | Whether the card pirate's booty was purchased this run.                                          |
 |  ✅   |   🟤    | do2.run.cards.bought.COS             | current  | Whether the card cold snap was purchased this run.                                               |
 |  ✅   |   🟤    | do2.run.cards.bought.SIR             | current  | Whether the card silent runner was purchased this run.                                           |
 |  ✅   |   🟤    | do2.run.cards.bought.FBS             | current  | Whether the card fuzzy bunny slippers was purchased this run.                                    |
@@ -334,7 +334,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.cards.bought.CHS                 |  totals  | How many times the card chill step has been purchased in total.                                  |
 |  ✅   |   🟤    | do2.cards.bought.SPR                 |  totals  | How many times the card speed runner has been purchased in total.                                |
 |  ✅   |   🟤    | do2.cards.bought.EOP                 |  totals  | How many times the card eyes on the prize has been purchased in total.                           |
-|  ✅   |   🟤    | do2.cards.bought.PIB                 |  totals  | How many times the card pirates booty has been purchased in total.                               |
+|  ✅   |   🟤    | do2.cards.bought.PIB                 |  totals  | How many times the card pirate's booty has been purchased in total.                              |
 |  ✅   |   🟤    | do2.cards.bought.COS                 |  totals  | How many times the card cold snap has been purchased in total.                                   |
 |  ✅   |   🟤    | do2.cards.bought.SIR                 |  totals  | How many times the card silent runner has been purchased in total.                               |
 |  ✅   |   🟤    | do2.cards.bought.FBS                 |  totals  | How many times the card fuzzy bunny slippers has been purchased in total.                        |
@@ -370,7 +370,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.run.cards.played.CHS             | current  | How many of the card chill step have been played this run.                                       |
 |  ✅   |   🟤    | do2.run.cards.played.SPR             | current  | How many of the card speed runner have been played this run.                                     |
 |  ✅   |   🟤    | do2.run.cards.played.EOP             | current  | How many of the card eyes on the prize have been played this run.                                |
-|  ✅   |   🟤    | do2.run.cards.played.PIB             | current  | How many of the card pirates booty have been played this run.                                    |
+|  ✅   |   🟤    | do2.run.cards.played.PIB             | current  | How many of the card pirate's booty have been played this run.                                   |
 |  ✅   |   🟤    | do2.run.cards.played.COS             | current  | How many of the card cold snap have been played this run.                                        |
 |  ✅   |   🟤    | do2.run.cards.played.SIR             | current  | How many of the card silent runner have been played this run.                                    |
 |  ✅   |   🟤    | do2.run.cards.played.FBS             | current  | How many of the card fuzzy bunny slippers have been played this run.                             |
@@ -413,7 +413,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.run.cards.deck.CHS               | current  | How many of the card chill step was in the deck this run.                                        |
 |  ✅   |   🟤    | do2.run.cards.deck.SPR               | current  | How many of the card speed runner was in the deck this run.                                      |
 |  ✅   |   🟤    | do2.run.cards.deck.EOP               | current  | How many of the card eyes on the prize was in the deck this run.                                 |
-|  ✅   |   🟤    | do2.run.cards.deck.PIB               | current  | How many of the card pirates booty was in the deck this run.                                     |
+|  ✅   |   🟤    | do2.run.cards.deck.PIB               | current  | How many of the card pirate's booty was in the deck this run.                                    |
 |  ✅   |   🟤    | do2.run.cards.deck.COS               | current  | How many of the card cold snap was in the deck this run.                                         |
 |  ✅   |   🟤    | do2.run.cards.deck.SIR               | current  | How many of the card silent runner was in the deck this run.                                     |
 |  ✅   |   🟤    | do2.run.cards.deck.FBS               | current  | How many of the card fuzzy bunny slippers was in the deck this run.                              |
@@ -449,7 +449,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.cards.available.CHS              |  totals  | How many times the card chill step was available to purchase in total.                           |
 |  ✅   |   🟤    | do2.cards.available.SPR              |  totals  | How many times the card speed runner was available to purchase in total.                         |
 |  ✅   |   🟤    | do2.cards.available.EOP              |  totals  | How many times the card eyes on the prize was available to purchase in total.                    |
-|  ✅   |   🟤    | do2.cards.available.PIB              |  totals  | How many times the card pirates booty was available to purchase in total.                        |
+|  ✅   |   🟤    | do2.cards.available.PIB              |  totals  | How many times the card pirate's booty was available to purchase in total.                       |
 |  ✅   |   🟤    | do2.cards.available.COS              |  totals  | How many times the card cold snap was available to purchase in total.                            |
 |  ✅   |   🟤    | do2.cards.available.SIR              |  totals  | How many times the card silent runner was available to purchase in total.                        |
 |  ✅   |   🟤    | do2.cards.available.FBS              |  totals  | How many times the card fuzzy bunny slippers was available to purchase in total.                 |
@@ -480,7 +480,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.cards.played.CHS                 |  totals  | How many times the card chill step has been played in total.                                     |
 |  ✅   |   🟤    | do2.cards.played.SPR                 |  totals  | How many times the card speed runner has been played in total.                                   |
 |  ✅   |   🟤    | do2.cards.played.EOP                 |  totals  | How many times the card eyes on the prize has been played in total.                              |
-|  ✅   |   🟤    | do2.cards.played.PIB                 |  totals  | How many times the card pirates booty has been played in total.                                  |
+|  ✅   |   🟤    | do2.cards.played.PIB                 |  totals  | How many times the card pirate's booty has been played in total.                                 |
 |  ✅   |   🟤    | do2.cards.played.COS                 |  totals  | How many times the card cold snap has been played in total.                                      |
 |  ✅   |   🟤    | do2.cards.played.SIR                 |  totals  | How many times the card silent runner has been played in total.                                  |
 |  ✅   |   🟤    | do2.cards.played.FBS                 |  totals  | How many times the card fuzzy bunny slippers has been played in total.                           |
