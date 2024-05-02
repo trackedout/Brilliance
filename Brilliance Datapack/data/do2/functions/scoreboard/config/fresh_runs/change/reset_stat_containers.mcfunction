@@ -11,6 +11,8 @@ data merge block -554 107 1977 {Items:[]}
 data merge block -554 107 1975 {Items:[]}
 data merge block -554 107 1973 {Items:[]}
 data merge block -554 107 1971 {Items:[]}
+# Difficulty hopper. Non-nugget Item
+data merge block -554 107 1969 {Items:[]}
 
 # Pork Chop Power (Played Count)
 data merge block -547 39 1912 {Items:[]}
@@ -22,6 +24,14 @@ data merge block -557 39 1912 {Items:[]}
 data merge block -576 35 1916 {Items:[]}
 # Pay to Win (Played Count)
 data merge block -584 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -592 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -600 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -608 35 1916 {Items:[]}
+# Open Ethereal Bay - 3rd Lvl (Played Count)
+data merge block -616 35 1916 {Items:[]}
 
 # Keys used L2 -> L4
 data merge block -490 52 1991 {Items:[]}
@@ -126,12 +136,12 @@ data merge block -643 -14 2013 {Items:[]}
 data merge block -643 -14 2014 {Items:[]}
 
 # Crowns Earned
-data merge block -644 -15 1989 {Items:[]}
+data merge block -643 -15 1988 {Items:[]}
 # Coins Earned
-data merge block -646 -16 1988 {Items:[]}
+data merge block -646 -17 1988 {Items:[]}
 data merge block -647 -17 1988 {Items:[]}
 # Non-Coins/Crowns submitted
-data merge block -645 -13 1989 {Items:[]}
+data merge block -645 -13 1987 {Items:[]}
 
 # Games Lost
 data merge block -547 116 1976 {Items:[]}
@@ -150,7 +160,7 @@ data merge block -642 -51 2014 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
 data merge block -642 -51 2012 {Items:[]}
 
-# Permenant Cards Played (TO-DO2 Addition)
+# permanent Cards Played (TO-DO2 Addition)
 data merge block -544 36 1914 {Items:[]}
 data merge block -545 36 1914 {Items:[]}
 data merge block -546 36 1914 {Items:[]}
@@ -167,7 +177,7 @@ data merge block -556 36 1914 {Items:[]}
 data merge block -557 36 1914 {Items:[]}
 data merge block -558 36 1914 {Items:[]}
 
-# Non-Permenant Cards Played (TO-DO2 Addition)
+# Non-permanent Cards Played (TO-DO2 Addition)
 data merge block -570 28 1923 {Items:[]}
 data merge block -571 28 1923 {Items:[]}
 data merge block -572 28 1923 {Items:[]}
