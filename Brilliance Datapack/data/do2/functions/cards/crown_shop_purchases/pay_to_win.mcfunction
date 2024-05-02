@@ -1,5 +1,5 @@
 #  - Start Log -
-execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Bought: ("},{"text":"§aPay To Win","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:"#fed83d",OriginalName:'{"text":"✲ Pay to Win ✲"}',ModifiedName:'{"color":"#FED83D","text":"✲ Pay to Win ✲"}'},CustomRoleplayData:1b,CustomModelData:107,display:{Name:'{"color":"#FED83D","text":"✲ Pay to Win ✲"}'},tracked:0b}}"}},{"text":")"}]
+execute as @a[scores={do2.logs.cards=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Card Bought: ("},{"text":"§aPay To Win","hoverEvent":{"action":"show_item","value":"{id:'minecraft:iron_nugget', Count:1, tag:{NameFormat:{color:\"#fed83d\",OriginalName:'{\"text\":\"✲ Pay to Win ✲\"}',ModifiedName:'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'},CustomRoleplayData:1b,CustomModelData:107,display:{Name:'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'},tracked:0b}}"}},{"text":")"}]
 # - End Log -
 
 return

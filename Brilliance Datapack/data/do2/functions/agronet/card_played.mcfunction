@@ -33,3 +33,4 @@ execute if score @s do2.agronet.card_played matches 31 run card-played pay-to-wi
 execute if score @s do2.agronet.card_played matches 32 run card-played tactical-approach
 execute if score @s do2.agronet.card_played matches 33 run card-played pork-chop-power
 execute if score @s do2.agronet.card_played matches 34 run card-played stumble
+execute if score @s do2.agronet.card_played matches 35 run card-played dungeon-lackey
