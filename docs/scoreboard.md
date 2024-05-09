@@ -426,8 +426,8 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟢    | do2.trigger.logs                     | utility  | Detection used to check players running /trigger. Used to display log options.                   |
 |  ✅   |   🟢    | do2.trigger.version                  | utility  | Detection used to check players running /trigger. Used to display Brilliance Version.            |
 |  ✅   |   🟢    | do2.trigger.map                      | utility  | Detection used to check players running /trigger. Gives you the MC filled map of the game stats. |
-|  ✅   |   🟢    | do2.trigger.playsound                | utility  | Detection used to check players running /trigger. Let's you customize the SOUND settings.        |
-|  ✅   |   🟢    | do2.trigger.gui                      | utility  | Detection used to check players running /trigger. Let's you customize the GUI settings.          |
+|  ✅   |   🟢    | do2.trigger.playsound                | utility  | Detection used to check players running /trigger. Lets you customize the SOUND settings.        |
+|  ✅   |   🟢    | do2.trigger.gui                      | utility  | Detection used to check players running /trigger. Lets you customize the GUI settings.          |
 |  ❌   | unknown | do2.tendriltravels                   | unknown  | unknown                                                                                          |
 |  ✅   |   🟤    | do2.cards.available.EVA              |  totals  | How many times the card evasion was available to purchase in total.                              |
 |  ✅   |   🟤    | do2.cards.available.TRL              |  totals  | How many times the card tread lightly was available to purchase in total.                        |
