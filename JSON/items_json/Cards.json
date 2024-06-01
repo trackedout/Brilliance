@@ -22,7 +22,7 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"✲ Pay to Win ✲\"}'",
+				"OriginalName": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'",
 				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
 			},
 			"CustomRoleplayData": "1b",
@@ -464,7 +464,7 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#3c44aa",
-				"OriginalName": "'{\"text\":\"✧ Pirate\\'s Booty ✧\"}'",
+				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'",
 				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
 			},
 			"CustomModelData": 130,
@@ -600,7 +600,7 @@
 		"tag": {
 			"NameFormat": {
 				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"=✲ Dungeon Lackey ✲=\"}'",
+				"OriginalName": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'",
 				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
 			},
 			"display": {
