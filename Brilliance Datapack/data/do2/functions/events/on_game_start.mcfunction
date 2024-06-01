@@ -8,6 +8,9 @@ execute unless score $dungeon do2.run.players matches 0 run return 0
 execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Game has started. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rPlayer stepped on pressure plate."}]}},{"text":")"}]
 # - End Log -
 
+# set day/night
+function do2:dungeon_setup/decide_day_or_night
+
 # Clear Sidebar
 scoreboard objectives setdisplay sidebar
 

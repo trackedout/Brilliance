@@ -26,7 +26,6 @@ schedule function do2:dungeon_setup/summon/others 3t
 schedule function do2:dungeon_setup/teleport_killers/all 3t
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/balance_changes/actions
-function do2:dungeon_setup/decide_day_or_night
 
 # Other Setup:
 function do2:scoreboard/config/config_setup
