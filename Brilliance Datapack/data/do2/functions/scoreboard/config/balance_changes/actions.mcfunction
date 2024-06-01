@@ -22,21 +22,21 @@ execute if score $dungeon do2.config.bc.lessLootMaxClank matches 0 run setblock 
 execute unless score $dungeon do2.config.bc.suitUpRes matches 0 run setblock -555 25 1917 minecraft:stripped_warped_hyphae
 execute if score $dungeon do2.config.bc.suitUpRes matches 0 run setblock -555 25 1917 minecraft:glass
 
-setblock -500 3 1946 minecraft:air
+setblock -492 3 1942 minecraft:air
 setblock -614 -25 1881 minecraft:air
 setblock -581 5 1942 minecraft:air
 setblock -599 39 1996 minecraft:air
 setblock -579 5 2044 minecraft:air
 setblock -498 12 2042 minecraft:air
 
-execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -500 3 1946 minecraft:beacon{Primary:11,Secondary:11}
+execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -492 3 1942 minecraft:beacon{Primary:11,Secondary:11}
 execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -614 -25 1881 minecraft:beacon{Primary:11,Secondary:11}
 execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -581 5 1942 minecraft:beacon{Primary:11,Secondary:11}
 execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -599 39 1996 minecraft:beacon{Primary:11,Secondary:11}
 execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -579 5 2044 minecraft:beacon{Primary:11,Secondary:11}
 execute unless score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -498 12 2042 minecraft:beacon{Primary:11,Secondary:11}
 
-execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -500 3 1946 minecraft:beacon{Primary:11,Secondary:-1}
+execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -492 3 1942 minecraft:beacon{Primary:11,Secondary:-1}
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -614 -25 1881 minecraft:beacon{Primary:11,Secondary:-1}
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -581 5 1942 minecraft:beacon{Primary:11,Secondary:-1}
 execute if score $dungeon do2.config.bc.suitUpRes matches 1 run setblock -599 39 1996 minecraft:beacon{Primary:11,Secondary:-1}
