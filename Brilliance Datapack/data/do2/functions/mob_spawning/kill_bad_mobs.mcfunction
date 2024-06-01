@@ -17,3 +17,5 @@ execute as @e[type=minecraft:skeleton,tag=!do2.manually_spawned] at @s run tp @s
 # Wandering Traders
 execute as @e[type=minecraft:wandering_trader,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 execute as @e[type=minecraft:trader_llama,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
+# Pillagers
+execute as @e[type=minecraft:pillager,tag=!do2.manually_spawned] at @s run tp @s ~ ~-200 ~
