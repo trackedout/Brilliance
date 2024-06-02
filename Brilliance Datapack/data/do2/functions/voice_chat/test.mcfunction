@@ -1,1 +1,0 @@
-execute store result score @s do2.utility.voice_chat as @s run voicechat test @s
