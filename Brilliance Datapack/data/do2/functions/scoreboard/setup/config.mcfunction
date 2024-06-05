@@ -51,6 +51,10 @@ execute unless score $dungeon do2.config.amountOfFish matches 0.. run scoreboard
 scoreboard objectives add do2.config.forceGamemode dummy "Force player's gamemode"
 execute unless score $dungeon do2.config.forceGamemode matches 0.. run scoreboard players set $dungeon do2.config.forceGamemode 1
 
+# Dungeon Config: Whether to enable day/night cycle. Default: 1 (TRUE)
+scoreboard objectives add do2.config.useDaylightCycle dummy "Use Day/Night Cycles"
+execute unless score $dungeon do2.config.useDaylightCycle matches 0.. run scoreboard players set $dungeon do2.config.useDaylightCycle 1
+
 # Dungeon Config: Whether to force the player's food level. Default: 1 (TRUE)
 scoreboard objectives add do2.config.forceFood dummy "Force player's food"
 execute unless score $dungeon do2.config.forceFood matches 0.. run scoreboard players set $dungeon do2.config.forceFood 1
