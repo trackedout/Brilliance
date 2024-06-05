@@ -39,7 +39,7 @@ function do2:scoreboard/triggers/checks
 function do2:scoreboard/config/level_controller/run_per_tick
 
 # Summon Dev Markers
-function do2:dev/markers/edit_markers/summon_markers
+#function do2:dev/markers/edit_markers/summon_markers
 
 # Statistics
 function do2:statistics_room/on_tick
