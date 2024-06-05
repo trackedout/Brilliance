@@ -6,3 +6,6 @@
 # atm, this makes all NOT-DEAD players win.
 # This could mean a player is a winner but still die in the dungeon.
 execute as @a[team=do2.players] run function do2:events/on_player_win
+
+# AGRONET
+function do2:agronet/game_won

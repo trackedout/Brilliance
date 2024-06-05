@@ -19,3 +19,6 @@ tag @s remove do2.running
 # set do2.highest_loss_streak if do2.loss_streak is >= than it.
 execute if score @s do2.loss_streak >= @s do2.highest_loss_streak run scoreboard players operation @s do2.highest_loss_streak = @s do2.loss_streak
 execute if score $dungeon do2.loss_streak >= $dungeon do2.highest_loss_streak run scoreboard players operation $dungeon do2.highest_loss_streak = $dungeon do2.loss_streak
+
+# AGRONET
+function do2:agronet/game_lost
