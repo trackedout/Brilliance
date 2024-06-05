@@ -1,0 +1,1 @@
+execute store result score @s do2.utility.voiceChat as @s run voicechat help
