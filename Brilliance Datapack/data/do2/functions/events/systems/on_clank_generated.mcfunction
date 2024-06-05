@@ -6,6 +6,7 @@ execute as @a[scores={do2.logs.clank=2..}] run tellraw @s ["",{"text":"§f[§9B�
 
 # update scoreboard
 scoreboard players add $dungeon do2.run.systems.clank.generated 1
+scoreboard players add $dungeon do2.systems.clank.generated 1
 
 # AGRONET event
 function do2:agronet/systems/clank_generated

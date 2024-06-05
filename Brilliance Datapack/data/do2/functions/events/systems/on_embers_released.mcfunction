@@ -5,6 +5,7 @@ execute as @a[scores={do2.logs.embers=1..}] run tellraw @s ["",{"text":"§f[§9B
 
 # update scoreboard
 scoreboard players add $dungeon do2.run.systems.embers.released 1
+scoreboard players add $dungeon do2.systems.embers.released 1
 
 # AGRONET event
 function do2:agronet/systems/embers_released

@@ -14,5 +14,6 @@ execute unless entity @a[tag=do2.inStatsRoom] run return 0
 # Eventually able to swap tabs of stats
 execute if score $dungeon do2.utility.statsScreen matches 0 run function do2:statistics_room/summon_general
 execute if score $dungeon do2.utility.statsScreen matches 1 run function do2:statistics_room/summon_treasures
-execute if score $dungeon do2.utility.statsScreen matches 2 run function do2:statistics_room/summon_frost_embers
+execute if score $dungeon do2.utility.statsScreen matches 2 run function do2:statistics_room/summon_runs
 execute if score $dungeon do2.utility.statsScreen matches 3 run function do2:statistics_room/summon_last_run
+execute if score $dungeon do2.utility.statsScreen matches 5 run function do2:statistics_room/summon_spoilers
