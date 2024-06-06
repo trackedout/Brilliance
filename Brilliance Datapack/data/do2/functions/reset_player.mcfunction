@@ -25,6 +25,8 @@ execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[ga
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=creative] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 2 run tellraw @s ["",{"text":"§f[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode creative "},{"selector":"@s","color":"dark_purple"},{"text":"\n§f[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode creative @s"}},{"text":" to run the command anyways."}]
 execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[gamemode=spectator] if entity @s[tag=do2.staff] if score @s do2.utility.oldGamemode matches 3 run tellraw @s ["",{"text":"§f[§9B§r]: You have the tag [§bdo2.staff§r] and has stopped:\n - §5gamemode spectator "},{"selector":"@s","color":"dark_purple"},{"text":"\n§f[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/gamemode spectator @s"}},{"text":" to run the command anyways."}]
 
+# If player is spectator AND we're on a server. Leave them on spectator mode.
+execute if entity @s[team=do2.spectators] if score $dungeon do2.utility.onServer matches 1 unless entity @s[tag=do2.staff] run gamemode spectator @s
 
 # Reset Team & Tags
 team leave @s
