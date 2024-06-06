@@ -9,7 +9,7 @@ execute positioned -643 -21 1988 run function do2:reset_dungeon/default_states/m
 # Amount of Game's Lost dropper
 execute positioned -548 116 1976 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_east
 # Ember Shop Door Despawn dropper
-execute positioned -632 -15 1986 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_south
+execute positioned -631 -15 1987 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_south
 # L1 Basement Key dropper
 execute positioned -513 37 1992 run function do2:reset_dungeon/default_states/misc/just_level_two_keys_facing_up
 # Spectral Arrow Trap droppers
@@ -189,3 +189,9 @@ execute positioned -641 -23 1954 run function do2:reset_dungeon/default_states/a
 execute positioned -641 -23 1953 run function do2:reset_dungeon/default_states/artifakes/ska
 execute positioned -641 -23 1952 run function do2:reset_dungeon/default_states/artifakes/mdm
 execute positioned -641 -23 1951 run function do2:reset_dungeon/default_states/artifakes/mky
+
+# Death Room Coin Conversion dropper (TO-DO2 Addition)
+execute positioned -646 -15 1987 run function do2:reset_dungeon/default_states/misc/just_coins_facing_south
+
+# Decked Out Gauntlet Survivor Trophy dropper (TO-DO2 Addition)
+execute positioned -635 -53 2020 run function do2:reset_dungeon/default_states/misc/just_gauntlet_trophies_facing_down

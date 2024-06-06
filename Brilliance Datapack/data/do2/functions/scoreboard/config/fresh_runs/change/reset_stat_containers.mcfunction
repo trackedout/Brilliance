@@ -136,17 +136,54 @@ data merge block -643 -14 2013 {Items:[]}
 data merge block -643 -14 2014 {Items:[]}
 
 # Crowns Earned
+data merge block -641 -16 1988 {Items:[]}
+data merge block -642 -16 1988 {Items:[]}
+data merge block -643 -16 1988 {Items:[]}
 data merge block -643 -15 1988 {Items:[]}
 # Coins Earned
-data merge block -646 -17 1988 {Items:[]}
+data merge block -650 -21 1987 {Items:[]}
+data merge block -649 -21 1987 {Items:[]}
+data merge block -648 -21 1987 {Items:[]}
+data merge block -648 -20 1987 {Items:[]}
+data merge block -649 -20 1987 {Items:[]}
+data merge block -650 -20 1987 {Items:[]}
+data merge block -650 -19 1987 {Items:[]}
+data merge block -649 -19 1987 {Items:[]}
+data merge block -648 -19 1987 {Items:[]}
+data merge block -648 -18 1987 {Items:[]}
+data merge block -649 -18 1987 {Items:[]}
+data merge block -648 -17 1987 {Items:[]}
+data merge block -648 -17 1988 {Items:[]}
 data merge block -647 -17 1988 {Items:[]}
+data merge block -646 -17 1988 {Items:[]}
+data merge block -646 -16 1988 {Items:[]}
+# Coins Earned Death Room (TO-DO2 Addition)
+data merge block -641 -53 2009 {Items:[]}
+data merge block -642 -53 2009 {Items:[]}
+data merge block -642 -53 2008 {Items:[{Slot:0b,id:"minecraft:iron_nugget",tag:{tracked:1b,display:{Name:'{"text":"❄☠ Decked Out Coin ☠❄"}'},CustomModelData:1},Count:1b}]}
 # Non-Coins/Crowns submitted
 data merge block -645 -13 1987 {Items:[]}
 
 # Games Lost
 data merge block -547 116 1976 {Items:[]}
 
-# Items on player when in death room.
+# Items on player when in death room
+data merge block -641 -55 2018 {Items:[]}
+data merge block -641 -55 2017 {Items:[]}
+data merge block -641 -55 2016 {Items:[]}
+data merge block -641 -54 2017 {Items:[]}
+data merge block -641 -54 2016 {Items:[]}
+data merge block -641 -54 2015 {Items:[]}
+data merge block -641 -53 2016 {Items:[]}
+data merge block -641 -53 2015 {Items:[]}
+data merge block -641 -53 2014 {Items:[]}
+data merge block -641 -52 2015 {Items:[]}
+data merge block -641 -52 2014 {Items:[]}
+data merge block -641 -52 2013 {Items:[]}
+data merge block -641 -51 2013 {Items:[]}
+data merge block -642 -55 2018 {Items:[]}
+data merge block -642 -55 2017 {Items:[]}
+data merge block -642 -55 2016 {Items:[]}
 data merge block -642 -54 2017 {Items:[]}
 data merge block -642 -54 2016 {Items:[]}
 data merge block -642 -54 2015 {Items:[]}
@@ -156,11 +193,10 @@ data merge block -642 -53 2014 {Items:[]}
 data merge block -642 -52 2015 {Items:[]}
 data merge block -642 -52 2014 {Items:[]}
 data merge block -642 -52 2013 {Items:[]}
-data merge block -642 -51 2014 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
 data merge block -642 -51 2012 {Items:[]}
-
-# permanent Cards Played (TO-DO2 Addition)
+data merge block -642 -51 2011 {Items:[]}
+# Permanent Cards Played (TO-DO2 Addition)
 data merge block -544 36 1914 {Items:[]}
 data merge block -545 36 1914 {Items:[]}
 data merge block -546 36 1914 {Items:[]}
@@ -178,12 +214,27 @@ data merge block -557 36 1914 {Items:[]}
 data merge block -558 36 1914 {Items:[]}
 
 # Non-permanent Cards Played (TO-DO2 Addition)
+data merge block -570 26 1924 {Items:[]}
+data merge block -570 26 1923 {Items:[]}
+data merge block -570 27 1923 {Items:[]}
 data merge block -570 28 1923 {Items:[]}
+data merge block -571 26 1924 {Items:[]}
+data merge block -571 26 1923 {Items:[]}
+data merge block -571 27 1923 {Items:[]}
 data merge block -571 28 1923 {Items:[]}
+data merge block -572 26 1924 {Items:[]}
+data merge block -572 26 1923 {Items:[]}
+data merge block -572 27 1923 {Items:[]}
 data merge block -572 28 1923 {Items:[]}
 data merge block -573 28 1923 {Items:[]}
+data merge block -574 26 1924 {Items:[]}
+data merge block -574 26 1923 {Items:[]}
+data merge block -574 27 1923 {Items:[]}
 data merge block -574 28 1923 {Items:[]}
 data merge block -575 28 1923 {Items:[]}
+data merge block -576 26 1924 {Items:[]}
+data merge block -576 26 1923 {Items:[]}
+data merge block -576 27 1923 {Items:[]}
 data merge block -576 28 1923 {Items:[]}
 data merge block -577 28 1923 {Items:[]}
 data merge block -578 28 1923 {Items:[]}
@@ -209,6 +260,12 @@ data merge block -597 28 1923 {Items:[]}
 data merge block -598 28 1923 {Items:[]}
 data merge block -599 28 1923 {Items:[]}
 data merge block -600 28 1923 {Items:[]}
+data merge block -601 24 1924 {Items:[]}
+data merge block -601 24 1923 {Items:[]}
+data merge block -601 25 1923 {Items:[]}
+data merge block -601 26 1924 {Items:[]}
+data merge block -601 26 1923 {Items:[]}
+data merge block -601 27 1923 {Items:[]}
 data merge block -601 28 1923 {Items:[]}
 data merge block -602 28 1923 {Items:[]}
 data merge block -603 28 1923 {Items:[]}

@@ -21,6 +21,9 @@ execute as @p[tag=do2.received_shulker] run function do2:cards/count_cards
 kill @e[type=minecart,x=-561,y=119,z=1972,dx=-13,dy=-55,dz=-46]
 kill @e[type=minecart,x=-560,y=64,z=1943,dx=-58,dy=-16,dz=-13]
 
+# Reset lecterns inside and out of the dungeon iff no player is within distance to read them
+function do2:reset_dungeon/reset_lecterns
+
 # Fast Reset
 execute if score $dungeon do2.config.fastReset matches 1 run function do2:dungeon_setup/fast_reset
 execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block
