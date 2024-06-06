@@ -16,7 +16,7 @@ advancement revoke @s from do2:visible/survival/survival_root
 advancement revoke @s from do2:visible/adventuring/adventuring_root
 
 execute if score $dungeon do2.run.active matches 1 unless entity @s[tag=do2.running] run function do2:scoreboard/spectator_per_run
-
+execute if score $dungeon do2.run.active matches 1 unless entity @s[tag=do2.running] run tag @s remove do2.received_shulker
 function do2:scoreboard/triggers/on_player_join
 
 function do2:voice_chat/check
