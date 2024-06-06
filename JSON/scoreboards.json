@@ -84,7 +84,7 @@
 		"description": "The total amount of Crowns the target has escaped with."
 	},
 	"do2.lifetime.spent.crowns": {
-		"auto": 0,
+		"auto": 1,
 		"target": "both",
 		"category": "totals",
 		"description": "The total amount of Crowns the target has spent."
@@ -96,7 +96,7 @@
 		"description": "The total amount of Coins the target has picked up."
 	},
 	"do2.lifetime.coinsconverted": {
-		"auto": 0,
+		"auto": 1,
 		"target": "both",
 		"category": "totals",
 		"description": "The total amount of Coins the target has Converted."

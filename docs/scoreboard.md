@@ -41,9 +41,9 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.losses                           |  totals  | The total amount of losses the target has.                                                       |
 |  ✅   |   🟤    | do2.lifetime.pickedup.crowns         |  totals  | The total amount of Crowns the target has picked up.                                             |
 |  ❌   |   🟤    | do2.lifetime.escaped.crowns          |  totals  | The total amount of Crowns the target has escaped with.                                          |
-|  ❌   |   🟤    | do2.lifetime.spent.crowns            |  totals  | The total amount of Crowns the target has spent.                                                 |
+|  ✅   |   🟤    | do2.lifetime.spent.crowns            |  totals  | The total amount of Crowns the target has spent.                                                 |
 |  ✅   |   🟤    | do2.lifetime.pickedup.coins          |  totals  | The total amount of Coins the target has picked up.                                              |
-|  ❌   |   🟤    | do2.lifetime.coinsconverted          |  totals  | The total amount of Coins the target has Converted.                                              |
+|  ✅   |   🟤    | do2.lifetime.coinsconverted          |  totals  | The total amount of Coins the target has Converted.                                              |
 |  ✅   |   🟤    | do2.lifetime.pickedup.embers         |  totals  | The total amount of Frost Embers the target has picked up.                                       |
 |  ❌   |   🟤    | do2.lifetime.escaped.embers          |  totals  | The total amount of Frost Embers the target has escaped with.                                    |
 |  ✅   |   🟤    | do2.lifetime.spent.embers            |  totals  | The total amount of Frost Embers the target has spent.                                           |

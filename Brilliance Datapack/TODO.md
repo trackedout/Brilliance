@@ -1,6 +1,5 @@
 # Other TODO:
-- Automate do2.lifetime.spent.crowns
-- Automate do2.lifetime.coinsconverted
+- Randomly determine TIME of day, instead of just day/night
 - Automate do2.lifetime.escaped.crowns
   - Actually... is this score needed? It's essentially crowns spent + whatever crowns they have on them.
 - Automate do2.lifetime.escaped.embers
@@ -9,11 +8,10 @@
 - Track embers ATTEMPTED to be RELEASED.
 - Track treasure DROPPED in dungoen
 - Track treasure ATTEMPTED to be RELEASED.
-- Thing to change for the automatic restock system, The dropper at (-513 37 1992) needs to be moved one block lower. It is facing upwards and only contains keys to L2.
 - Add command blocks to crown shop to trigger upon item purchased.
   - Used to track crowns spent.
   - Used for mystery box loot advancements.
-- Fresh runs, reset_stat_containers contains a link to the document. Shou**ld the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
+- Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
@@ -22,10 +20,7 @@
     - Logs buttons
     - Buttons in books
 - Add a forceFood config lever.
-- Advancements with extra spacing for description visibility ISN'T needed in the /hidden/ versions.
 - Have dropper config book have LINKS to each of the dropper categories.
-- Maybe have a config that lets the users change daylight/weather cycle.
-  - Currently, these are enabled by default.
 - Debate adding either `tracked:0b` or `tracked:1b` to egg rewards.
     - `tracked:0b` counts the crowns as floor crowns. Makes it easier to find out total crowns this run.
     - `tracked:1b` counts the crowns as already tracked crowns.

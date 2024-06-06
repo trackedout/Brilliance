@@ -206,6 +206,7 @@
 		"player_actions": {
 			"readme": [
 				["Notification of when a player submits their compass.",1],
+				["Notification of when a player converts coins to a crown.",1],
 				["Notification of when a player submits a bomb.",1],
 				["Notification of when a player submits a pumpkin.",1],
 				["Notification of when a player repairs rusty.",1],
