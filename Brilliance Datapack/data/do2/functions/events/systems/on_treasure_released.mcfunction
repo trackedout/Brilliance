@@ -4,6 +4,8 @@ execute as @a[scores={do2.logs.treasure=1..}] run tellraw @s ["",{"text":"§f[§
 # - End Log -
 
 # update scoreboard
+scoreboard players add @a[tag=do2.received_shulker] do2.run.systems.treasure.released 1
+scoreboard players add @a[tag=do2.received_shulker] do2.systems.treasure.released 1
 scoreboard players add $dungeon do2.run.systems.treasure.released 1
 scoreboard players add $dungeon do2.systems.treasure.released 1
 

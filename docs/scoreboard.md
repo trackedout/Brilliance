@@ -68,6 +68,8 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ⛔   |   🔴    | do2.config.endermiteCount            |  config  | How many endermites can exist in Level 2.                                                        |
 |  ⛔   |   🔴    | do2.config.maxClankTreasure          |  config  | Whether treasure can drop after max clank is reached.                                            |
 |  ⛔   |   🔴    | do2.config.nightTimeChance           |  config  | The chance for the dungeon to set the time to night.                                             |
+|  ⛔   |   🔴    | do2.config.useDaylightCycle          |  config  | Whether the doDaylightCycle gamerule is true                                                     |
+|  ⛔   |   🔴    | do2.config.useWeatherCycle           |  config  | Whether the doWeatherCycle gamerule is true                                                      |
 |  ⛔   |   🔴    | do2.config.vexTracking               |  config  | Whether vex tracks players at ALL times.                                                         |
 |  ⛔   |   🔴    | do2.config.eggRewards                |  config  | What rewards finding easter eggs give you.                                                       |
 |  ⛔   |   🔴    | do2.config.batDistraction            |  config  | Whether bats are allowed in L3 and L4.                                                           |
@@ -150,6 +152,14 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🔴    | do2.run.systems.maxclank.released    | current  | How much clank surpassed max clank this run.                                                     |
 |  ✅   |   🔴    | do2.run.systems.treasure.released    | current  | How much treasure was released this run.                                                         |
 |  ✅   |   🔴    | do2.run.systems.hazard.activated     | current  | How much hazard was activated this run.                                                          |
+|  ✅   |   🟤    | do2.systems.clank.generated          |  totals  | How much clank was generated in total.                                                           |
+|  ✅   |   🟤    | do2.systems.clank.blocked            |  totals  | How much clank was blocked in total.                                                             |
+|  ✅   |   🟤    | do2.systems.hazard.generated         |  totals  | How much hazard was generated in total.                                                          |
+|  ✅   |   🟤    | do2.systems.hazard.blocked           |  totals  | How much hazard was blocked in total.                                                            |
+|  ✅   |   🟤    | do2.systems.embers.released          |  totals  | How many embers was released to the dungeon in total.                                            |
+|  ✅   |   🟤    | do2.systems.maxclank.released        |  totals  | How many clank surpassed maxclank in total.                                                      |
+|  ✅   |   🟤    | do2.systems.treasure.released        |  totals  | How many treasure was released to the dungeon in total.                                          |
+|  ✅   |   🟤    | do2.systems.hazard.activated         |  totals  | How many hazard was activated in total.                                                          |
 |  ✅   |   🟢    | do2.utility.deathCount               | utility  | Checking who has died.                                                                           |
 |  ✅   |   🔴    | do2.utility.randomNum                | utility  | Score used to generated random numbers                                                           |
 |  ✅   |   🔴    | do2.utility.currentTick              | utility  | Score used to count ticks.                                                                       |
@@ -497,29 +507,34 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.cards.played.PCP                 |  totals  | How many times the card pork chop power has been played in total.                                |
 |  ✅   |   🟤    | do2.cards.played.STU                 |  totals  | How many times the card stumble has been played in total.                                        |
 |  ✅   |   🟤    | do2.cards.played.DUL                 |  totals  | How many times the card dungeon lackey has been played in total.                                 |
-|  ✅   | dungeon | do2.cards.price.EVA                  | utility  | How much the card evasion costs to purchase.                                                     |
-|  ✅   | dungeon | do2.cards.price.TRL                  | utility  | How much the card tread lightly costs to purchase.                                               |
-|  ✅   | dungeon | do2.cards.price.LAS                  | utility  | How much the card loot and scoot costs to purchase.                                              |
-|  ✅   | dungeon | do2.cards.price.FRF                  | utility  | How much the card frost focus costs to purchase.                                                 |
-|  ✅   | dungeon | do2.cards.price.SEW                  | utility  | How much the card second wind costs to purchase.                                                 |
-|  ✅   | dungeon | do2.cards.price.BES                  | utility  | How much the card beast sense costs to purchase.                                                 |
-|  ✅   | dungeon | do2.cards.price.BST                  | utility  | How much the card bounding strides costs to purchase.                                            |
-|  ✅   | dungeon | do2.cards.price.REC                  | utility  | How much the card reckless charge costs to purchase.                                             |
-|  ✅   | dungeon | do2.cards.price.SPT                  | utility  | How much the card sprint costs to purchase.                                                      |
-|  ✅   | dungeon | do2.cards.price.NIL                  | utility  | How much the card nimble looting costs to purchase.                                              |
-|  ✅   | dungeon | do2.cards.price.SAG                  | utility  | How much the card smash and grab costs to purchase.                                              |
-|  ✅   | dungeon | do2.cards.price.QUI                  | utility  | How much the card quick step costs to purchase.                                                  |
-|  ✅   | dungeon | do2.cards.price.SUU                  | utility  | How much the card suit up costs to purchase.                                                     |
-|  ✅   | dungeon | do2.cards.price.ADR                  | utility  | How much the card adrenaline rush costs to purchase.                                             |
-|  ✅   | dungeon | do2.cards.price.EES                  | utility  | How much the card eerie silence costs to purchase.                                               |
-|  ✅   | dungeon | do2.cards.price.DUR                  | utility  | How much the card dungeon repairs costs to purchase.                                             |
-|  ✅   | dungeon | do2.cards.price.SWA                  | utility  | How much the card swagger costs to purchase.                                                     |
-|  ✅   | dungeon | do2.cards.price.CHS                  | utility  | How much the card chill step costs to purchase.                                                  |
-|  ✅   | dungeon | do2.cards.price.SPR                  | utility  | How much the card speed runner costs to purchase.                                                |
-|  ✅   | dungeon | do2.cards.price.EOP                  | utility  | How much the card eyes on the prize costs to purchase.                                           |
-|  ✅   | dungeon | do2.cards.price.PIB                  | utility  | How much the card pirate's booty costs to purchase.                                              |
-|  ✅   | dungeon | do2.cards.price.COS                  | utility  | How much the card cold snap costs to purchase.                                                   |
-|  ✅   | dungeon | do2.cards.price.SIR                  | utility  | How much the card silent runner costs to purchase.                                               |
-|  ✅   | dungeon | do2.cards.price.FBS                  | utility  | How much the card fuzzy bunny slippers costs to purchase.                                        |
-|  ✅   | dungeon | do2.cards.price.DEF                  | utility  | How much the card deepfrost costs to purchase.                                                   |
-|  ✅   | dungeon | do2.cards.price.BRI                  | utility  | How much the card brilliance costs to purchase.                                                  |
+|  ✅   |   🔴    | do2.cards.price.EVA                  | utility  | How much the card evasion costs to purchase.                                                     |
+|  ✅   |   🔴    | do2.cards.price.TRL                  | utility  | How much the card tread lightly costs to purchase.                                               |
+|  ✅   |   🔴    | do2.cards.price.LAS                  | utility  | How much the card loot and scoot costs to purchase.                                              |
+|  ✅   |   🔴    | do2.cards.price.FRF                  | utility  | How much the card frost focus costs to purchase.                                                 |
+|  ✅   |   🔴    | do2.cards.price.SEW                  | utility  | How much the card second wind costs to purchase.                                                 |
+|  ✅   |   🔴    | do2.cards.price.BES                  | utility  | How much the card beast sense costs to purchase.                                                 |
+|  ✅   |   🔴    | do2.cards.price.BST                  | utility  | How much the card bounding strides costs to purchase.                                            |
+|  ✅   |   🔴    | do2.cards.price.REC                  | utility  | How much the card reckless charge costs to purchase.                                             |
+|  ✅   |   🔴    | do2.cards.price.SPT                  | utility  | How much the card sprint costs to purchase.                                                      |
+|  ✅   |   🔴    | do2.cards.price.NIL                  | utility  | How much the card nimble looting costs to purchase.                                              |
+|  ✅   |   🔴    | do2.cards.price.SAG                  | utility  | How much the card smash and grab costs to purchase.                                              |
+|  ✅   |   🔴    | do2.cards.price.QUI                  | utility  | How much the card quick step costs to purchase.                                                  |
+|  ✅   |   🔴    | do2.cards.price.SUU                  | utility  | How much the card suit up costs to purchase.                                                     |
+|  ✅   |   🔴    | do2.cards.price.ADR                  | utility  | How much the card adrenaline rush costs to purchase.                                             |
+|  ✅   |   🔴    | do2.cards.price.EES                  | utility  | How much the card eerie silence costs to purchase.                                               |
+|  ✅   |   🔴    | do2.cards.price.DUR                  | utility  | How much the card dungeon repairs costs to purchase.                                             |
+|  ✅   |   🔴    | do2.cards.price.SWA                  | utility  | How much the card swagger costs to purchase.                                                     |
+|  ✅   |   🔴    | do2.cards.price.CHS                  | utility  | How much the card chill step costs to purchase.                                                  |
+|  ✅   |   🔴    | do2.cards.price.SPR                  | utility  | How much the card speed runner costs to purchase.                                                |
+|  ✅   |   🔴    | do2.cards.price.EOP                  | utility  | How much the card eyes on the prize costs to purchase.                                           |
+|  ✅   |   🔴    | do2.cards.price.PIB                  | utility  | How much the card pirate's booty costs to purchase.                                              |
+|  ✅   |   🔴    | do2.cards.price.COS                  | utility  | How much the card cold snap costs to purchase.                                                   |
+|  ✅   |   🔴    | do2.cards.price.SIR                  | utility  | How much the card silent runner costs to purchase.                                               |
+|  ✅   |   🔴    | do2.cards.price.FBS                  | utility  | How much the card fuzzy bunny slippers costs to purchase.                                        |
+|  ✅   |   🔴    | do2.cards.price.DEF                  | utility  | How much the card deepfrost costs to purchase.                                                   |
+|  ✅   |   🔴    | do2.cards.price.BRI                  | utility  | How much the card brilliance costs to purchase.                                                  |
+|  ✅   |   🔴    | do2.cards.price.1TM                  | utility  | How much the 1 Tome costs to purchase.                                                           |
+|  ✅   |   🔴    | do2.cards.price.3TM                  | utility  | How much the 3 Tomes costs to purchase.                                                          |
+|  ✅   |   🔴    | do2.cards.price.5TM                  | utility  | How much the 5 Tomes costs to purchase.                                                          |
+|  ✅   |   🔴    | do2.utility.priceChecker             | utility  | Used to count how much a card costs dynamically.                                                 |
+|  ❌   |   🟢    | do2.utility.voiceChat                | utility  | Used to check if Voice Chat mod is installed on the player.                                      |
