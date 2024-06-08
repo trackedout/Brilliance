@@ -24,6 +24,9 @@ kill @e[type=minecart,x=-560,y=64,z=1943,dx=-58,dy=-16,dz=-13]
 # Reset lecterns inside and out of the dungeon iff no player is within distance to read them
 function do2:reset_dungeon/reset_lecterns
 
+# Reset the delay of the spider spawners inside the dungeon
+function do2:reset_dungeon/reset_spawners
+
 # Fast Reset
 execute if score $dungeon do2.config.fastReset matches 1 run function do2:dungeon_setup/fast_reset
 execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block
