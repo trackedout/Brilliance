@@ -1,5 +1,5 @@
 # REMOVE ALL ITEMS INSIDE:
-setblock ~ ~ ~ minecraft:dropper[facing=up]{Items:[]}
+setblock ~ ~ ~ minecraft:dropper[facing=south]{Items:[]}
 
 # Insert items. (ordered by slot)
 data modify block ~ ~ ~ Items append value {id:"minecraft:iron_nugget",tag:{tracked: 1b,CustomModelData: 1,display:{Name:'{"text":"❄☠ Decked Out Coin ☠❄"}'}},Slot:0b,Count:64b}

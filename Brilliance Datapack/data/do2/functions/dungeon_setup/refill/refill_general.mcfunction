@@ -9,7 +9,7 @@ execute positioned -643 -21 1988 run function do2:reset_dungeon/default_states/m
 # Amount of Game's Lost dropper
 execute positioned -548 116 1976 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_east
 # Ember Shop Door Despawn dropper
-execute positioned -631 -15 1987 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_south
+execute positioned -631 -15 1987 run function do2:reset_dungeon/default_states/misc/just_iron_nuggets_facing_west
 # L1 Basement Key dropper
 execute positioned -513 37 1992 run function do2:reset_dungeon/default_states/misc/just_level_two_keys_facing_up
 # Spectral Arrow Trap droppers
