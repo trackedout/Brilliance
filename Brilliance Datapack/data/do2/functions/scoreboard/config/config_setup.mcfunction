@@ -31,6 +31,8 @@ function do2:scoreboard/config/tick_rate/sign
 function do2:scoreboard/config/boolean_levers/update_scores
 function do2:scoreboard/config/boolean_levers/better_vex/sign
 function do2:scoreboard/config/boolean_levers/fast_reset/sign
-function do2:scoreboard/config/boolean_levers/disable_treasure/sign
 function do2:scoreboard/config/boolean_levers/force_gamemode/sign
+function do2:scoreboard/config/boolean_levers/disable_treasure/sign
+function do2:scoreboard/config/boolean_levers/use_daylight_cycle/sign
+function do2:scoreboard/config/boolean_levers/use_weather_cycle/sign
 function do2:scoreboard/config/boolean_levers/bats_distraction/sign
