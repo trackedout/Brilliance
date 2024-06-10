@@ -36,6 +36,7 @@ execute if score $dungeon do2.config.fastReset matches 0 run setblock -542 122 1
 execute as @a[team=do2.players] run function do2:scoreboard/player_per_run
 function do2:scoreboard/dungeon_per_run
 scoreboard players set @a[team=do2.players] do2.utility.shouldForceFood 1
+scoreboard players set $dungeon do2.run.active 1
 
 # Set up spectators
 execute as @a[team=!do2.players] run team join do2.spectators @s
