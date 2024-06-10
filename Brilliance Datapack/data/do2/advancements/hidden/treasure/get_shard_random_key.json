@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111159}"
 		},
 		"title": "§bRandom Key Jackpot",
 		"description": "§7Get a §3Frozen Shard§7 from a random key purchase at the crown shop.",
 		"frame": "task",
 		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"announce_to_chat": false,
+		"hidden": true
 	},
 	"criteria": {
 		"get_shard_from_crowns_mystery_box": {

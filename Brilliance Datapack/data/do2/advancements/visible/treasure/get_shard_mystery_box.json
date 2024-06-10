@@ -1,14 +1,15 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
-		},
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111159}"
+		},,
 		"title": "§bBargain Buy",
 		"description": "§7Get a §3Frozen Shard§7 from a mystery box at the crown shop.",
 		"frame": "task",
 		"show_toast": false,
 		"announce_to_chat": false,
-		"hidden": false
+		"hidden": true
 	},
 	"criteria": {
 		"get_shard_from_crowns_mystery_box": {

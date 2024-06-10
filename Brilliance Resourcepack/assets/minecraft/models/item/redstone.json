@@ -291,6 +291,12 @@
 				"custom_model_data": 1111158
 			},
 			"model": "minecraft:item/advancements/treasure/lifetime_embers_2500"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111159
+			},
+			"model": "minecraft:item/advancements/treasure/mystery_box"
 		}
 	
 	]
