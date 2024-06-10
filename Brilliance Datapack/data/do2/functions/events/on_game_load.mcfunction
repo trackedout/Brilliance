@@ -46,7 +46,14 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 1
 scoreboard players set $dungeon do2.run.players 0
 
 # Lock Up Settings
-function do2:scoreboard/config/config_unlock
+function do2:scoreboard/config/config_lock
 
 # Make sure that the redstone block keeping the iron door open is removed
-setblock -551 119 1977
+setblock -551 119 1977 air
+
+# Set user's preferred difficulty
+execute if score $dungeon do2.run.difficulty matches 1 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 1
+execute if score $dungeon do2.run.difficulty matches 2 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 2
+execute if score $dungeon do2.run.difficulty matches 3 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 3
+execute if score $dungeon do2.run.difficulty matches 4 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 4
+execute if score $dungeon do2.run.difficulty matches 5 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 5

@@ -110,3 +110,6 @@ scoreboard objectives add do2.config.mc.level2Zones dummy "Whether level 2 shoul
 execute unless score $dungeon do2.config.mc.level2Zones matches 0.. run scoreboard players set $dungeon do2.config.mc.level2Zones 1
 scoreboard objectives add do2.config.mc.level4Zones dummy "Whether level 4 should have zones"
 execute unless score $dungeon do2.config.mc.level4Zones matches 0.. run scoreboard players set $dungeon do2.config.mc.level4Zones 1
+
+# Player Config: Player's last used Dungeon Difficulty.
+scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"
