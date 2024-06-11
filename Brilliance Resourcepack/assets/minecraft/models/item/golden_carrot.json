@@ -4,8 +4,8 @@
     "layer0": "minecraft:item/golden_carrot"
   },
   "overrides": [
-	{ "predicate": {"custom_model_data": 4}, "model": "do2:item/scarland_popcorn"},
-    { "predicate": {"custom_model_data": 9}, "model": "do2:item/scarpancakes"},
-    { "predicate": {"custom_model_data": 10}, "model": "do2:item/scarpancakeswsyrup"}
+	{ "predicate": {"custom_model_data": 4}, "model": "hermitcraft:item/scarland_popcorn"},
+    { "predicate": {"custom_model_data": 9}, "model": "hermitcraft:item/scarpancakes"},
+    { "predicate": {"custom_model_data": 10}, "model": "hermitcraft:item/scarpancakeswsyrup"}
   ]
 }

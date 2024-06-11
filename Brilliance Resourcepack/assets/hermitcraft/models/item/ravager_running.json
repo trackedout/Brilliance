@@ -5,7 +5,7 @@
         128
     ], 
     "textures": {
-        "main": "do2:item/ravager_running"
+        "main": "hermitcraft:item/ravager_running"
     }, 
     "elements": [
         {

@@ -4,6 +4,6 @@
     "layer0": "minecraft:item/chicken"
   },
   "overrides": [
-    { "predicate": {"custom_model_data": 1}, "model": "do2:item/buttercupcookie"}
+    { "predicate": {"custom_model_data": 1}, "model": "hermitcraft:item/buttercupcookie"}
   ]
 }

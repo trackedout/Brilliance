@@ -2,7 +2,7 @@
 	"credit": "Made by LiteHorizon using Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "do2:item/ravager"
+		"0": "hermitcraft:item/ravager"
 	},
 	"elements": [
 		{
