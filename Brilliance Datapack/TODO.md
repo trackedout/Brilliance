@@ -7,10 +7,7 @@
 - Track embers DROPPED in dungeon
 - Track embers ATTEMPTED to be RELEASED.
 - Track treasure DROPPED in dungoen
-- Track treasure ATTEMPTED to be RELEASED.
-- Add command blocks to crown shop to trigger upon item purchased.
-  - Used to track crowns spent.
-  - Used for mystery box loot advancements.
+- Track treasure ATTEMPTED to be RELEASED._
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
@@ -27,15 +24,12 @@
     - **_Currently_**: is `tracked:1b` just so the crowns aren't broken until we discuss this.
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
 - Check credit list to add ALL players to the credits tab.
-- Update advancements documentation to include whether the advancement has been tested to work.
-    - Add missing advancements to the documentation.
 - Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
 - Remove file at "dev/markers/controller.mcfunction" eventually.
 - Maybe track card vs natural stats:
   - Hazard
   - Clank
   - Treasure
-- Egg Hunter has weird mask as icon. Same with easter bunny.
 
 # Log Todo:
 triggered_shrieker
@@ -71,7 +65,7 @@ triggered_shrieker
     - end_more_embers_than_artifact
         - Need Icon
     - get_shard_mystery_box & get_shard_random_key
-        - Need Icon
+        - Need Separate Icons if possible
     - buy_9_tomes
         - Need Icon
 ## Automation

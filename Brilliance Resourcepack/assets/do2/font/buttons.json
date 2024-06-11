@@ -3,7 +3,7 @@
 	[
 		{
 			"type": "bitmap",
-			"file": "do2:font/disabled_button.png",
+			"file": "do2:font/fake_buttons/disable_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -14,7 +14,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/empty_button.png",
+			"file": "do2:font/fake_buttons/empty_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -25,7 +25,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/enable_button.png",
+			"file": "do2:font/fake_buttons/enable_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -36,7 +36,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/list_button.png",
+			"file": "do2:font/fake_buttons/list_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -47,7 +47,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/refill_button.png",
+			"file": "do2:font/fake_buttons/refill_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -58,7 +58,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/reset_button.png",
+			"file": "do2:font/fake_buttons/reset_button.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -69,13 +69,167 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/info_text.png",
+			"file": "do2:font/fake_buttons/info_text.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
 			"chars":
 			[
 				"\uE007"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/0_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE008"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/1_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE009"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/2_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE010"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/3_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE011"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/disable_log_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE012"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/level_1_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE013"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/level_2_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE014"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/level_3_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE015"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/level_4_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE016"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/no_res_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE017"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/res_1_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE018"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/res_2_button.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE019"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/ship_level_1.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE020"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/ship_level_2.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE021"
 			]
 		}
 	]

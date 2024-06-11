@@ -1,4 +1,5 @@
-tellraw @s ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","color":"gold"},{"text":"\nCustomize The Types of Logs you wish to receive.\n\n"}]
+tellraw @s ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","color":"gold"},{"text":"\nClick the buttons to customize the types of §oDeveloper Logs§r you wish to receive.\n\n"}]
+
 function do2:scoreboard/config/receive_logs/documentations/datapack_setup
 tellraw @s ["",{"text":""}]
 function do2:scoreboard/config/receive_logs/documentations/gamestate

@@ -59,6 +59,7 @@
 | dropper_room | 2 | Notification of when resetting Ember Shop to default values. |
 | dropper_room | 2 | Notification of when resetting Dungeon to default values. |
 | player_actions | 1 | Notification of when a player submits their compass. |
+| player_actions | 1 | Notification of when a player converts coins to a crown. |
 | player_actions | 1 | Notification of when a player submits a bomb. |
 | player_actions | 1 | Notification of when a player submits a pumpkin. |
 | player_actions | 1 | Notification of when a player repairs rusty. |
