@@ -22,8 +22,11 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 1
 
 # One time setup:
 gamerule spawnRadius 0
-gamerule doWeatherCycle true
-gamerule doDaylightCycle true
+execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle true
+execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle false
+execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle true
+execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle false
+
 time set noon
 weather clear
 
