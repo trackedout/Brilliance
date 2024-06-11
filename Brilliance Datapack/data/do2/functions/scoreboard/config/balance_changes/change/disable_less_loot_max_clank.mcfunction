@@ -1,3 +1,4 @@
+execute at @s run playsound minecraft:ui.button.click player @s ~ ~ ~ 1
 scoreboard players set $dungeon do2.config.bc.lessLootMaxClank 0
 setblock -626 23 1977 minecraft:glass
 
