@@ -6,4 +6,4 @@ execute as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":"[§9B
 scoreboard players set $dungeon do2.run.difficulty 3
 
 # agronet
-function do2:agronet/difficulty/hard
+execute as @p[tag=do2.received_shulker] run function do2:agronet/difficulty/hard
