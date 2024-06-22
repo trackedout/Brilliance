@@ -1,0 +1,28 @@
+name: zip-and-release
+on: [ push ]
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      - name: Extract datapack version
+        run: |
+          version=$(awk '/DATAPACK VERSION NUMBER/ { print $5 }' "Brilliance Datapack/data/do2/functions/version.mcfunction")
+          echo "BRILLIANCE_VERSION=${version}" >> "$GITHUB_ENV"
+
+      - name: Create zip
+        run: cd "Brilliance Datapack" && zip -r brilliance-datapack.zip .
+
+      - name: Create Github release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          make_latest: true
+          tag_name: ${{ env.BRILLIANCE_VERSION }}
+          files: |
+            Brilliance Datapack/brilliance-datapack.zip
