@@ -12,16 +12,16 @@ execute as @a[team=do2.players, scores={do2.run.has_died=1}] run function do2:ev
 execute as @e[type=player,scores={do2.utility.deathCount=1..}] run function do2:events/on_player_respawned
 
 # if all players running do2 dead, end game.
-execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
+execute if score $dungeon do2.run.active matches 2 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
 
 # if no players running do2 but game active for 5 minutes, end game.
-execute if score $dungeon do2.run.active matches 1 if score $dungeon do2.run.timeWithNoPlayers matches 300 run function do2:events/on_game_end
+execute if score $dungeon do2.run.active matches 2 if score $dungeon do2.run.timeWithNoPlayers matches 300 run function do2:events/on_game_end
 
 # Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
-execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+execute if score $dungeon do2.run.active matches 2 as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 # Remove glowing effect from Witches.
-execute if score $dungeon do2.run.active matches 1 as @e[type=minecraft:witch] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
+execute if score $dungeon do2.run.active matches 2 as @e[type=minecraft:witch] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
 # Have vex track players better
 execute if score $dungeon do2.config.vexTracking matches 1 run function do2:force_vex_tracking

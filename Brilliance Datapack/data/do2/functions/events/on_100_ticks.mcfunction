@@ -7,7 +7,7 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]:
 
 # Lock/Unlock Settings room
 execute if score $dungeon do2.run.active matches 0 run function do2:scoreboard/config/config_unlock
-execute if score $dungeon do2.run.active matches 1 run function do2:scoreboard/config/config_lock
+execute if score $dungeon do2.run.active matches 1.. run function do2:scoreboard/config/config_lock
 
 # Check if anything needs to be updated due to Level Controller changes.
 # TODO: also update mob names, and amount.

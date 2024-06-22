@@ -1,5 +1,5 @@
 execute unless entity @s[tag=do2.received_shulker] run return 0
-execute if score $dungeon do2.run.active matches 1 run return 0
+execute if score $dungeon do2.run.active matches 1.. run return 0
 
 
 data merge block -557 113 1987 {Items:[]}

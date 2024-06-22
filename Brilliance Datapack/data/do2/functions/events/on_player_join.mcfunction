@@ -15,8 +15,8 @@ advancement revoke @s from do2:visible/cards/cards_root
 advancement revoke @s from do2:visible/survival/survival_root
 advancement revoke @s from do2:visible/adventuring/adventuring_root
 
-execute if score $dungeon do2.run.active matches 1 unless entity @s[tag=do2.running] run function do2:scoreboard/spectator_per_run
-execute if score $dungeon do2.run.active matches 1 unless entity @s[tag=do2.running] run tag @s remove do2.received_shulker
+execute if score $dungeon do2.run.active matches 1.. unless entity @s[tag=do2.running] run function do2:scoreboard/spectator_per_run
+execute if score $dungeon do2.run.active matches 1.. unless entity @s[tag=do2.running] run tag @s remove do2.received_shulker
 function do2:scoreboard/triggers/on_player_join
 
 function do2:voice_chat/check
@@ -24,7 +24,7 @@ execute if score @s do2.utility.voiceChat matches 0 run tag @s add do2.tags.audi
 execute unless score @s do2.utility.voiceChat matches 0 run tag @s remove do2.tags.audio.enabled
 
 # If player is in the settings room while game is active, lock the settings room. Ensure player gets TP'ed out
-execute if score $dungeon do2.run.active matches 1 run function do2:scoreboard/config/config_lock
+execute if score $dungeon do2.run.active matches 1.. run function do2:scoreboard/config/config_lock
 
 # If player is at LOBBY worldspawn when joining, Teleport them rotated properly
 execute positioned -547 113 1980 if entity @s[distance=..5] at @s run tp @s ~ ~ ~ 90 0
@@ -33,4 +33,4 @@ execute positioned -547 113 1980 if entity @s[distance=..5] at @s run tp @s ~ ~ 
 execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~ ~ 180 -20
 
 # If game hasn't started. Swap the difficulty, to the user's last used difficulty.
-execute unless score $dungeon do2.run.active matches 1 as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
+execute unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
