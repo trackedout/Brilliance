@@ -11,6 +11,9 @@ execute as @a[team=do2.players, scores={do2.run.has_died=1}] run function do2:ev
 # Check if player has respawned
 execute as @e[type=player,scores={do2.utility.deathCount=1..}] run function do2:events/on_player_respawned
 
+# Give playsound tag according to player Voice Chat status
+execute as @e[type=player] run function do2:voice_chat/set
+
 # if all players running do2 dead, end game.
 execute if score $dungeon do2.run.active matches 2 if score $dungeon do2.run.player_deaths = $dungeon do2.run.players run function do2:events/on_game_end
 

@@ -19,10 +19,6 @@ execute if score $dungeon do2.run.active matches 1.. unless entity @s[tag=do2.ru
 execute if score $dungeon do2.run.active matches 1.. unless entity @s[tag=do2.running] run tag @s remove do2.received_shulker
 function do2:scoreboard/triggers/on_player_join
 
-function do2:voice_chat/check
-execute if score @s do2.utility.voiceChat matches 0 run tag @s add do2.tags.audio.enabled
-execute unless score @s do2.utility.voiceChat matches 0 run tag @s remove do2.tags.audio.enabled
-
 # If player is in the settings room while game is active, lock the settings room. Ensure player gets TP'ed out
 execute if score $dungeon do2.run.active matches 1.. run function do2:scoreboard/config/config_lock
 
