@@ -1,6 +1,9 @@
 execute unless entity @s[tag=do2.received_shulker] run return 0
 execute if score $dungeon do2.run.active matches 1.. run return 0
 
+execute if score $dungeon do2.config.dungeonDifficulty matches 1 run return 0
+scoreboard players set $dungeon do2.config.dungeonDifficulty 1
+
 # Default to easy difficulty
 execute unless score @s do2.config.dungeonDifficulty matches 0.. run scoreboard players set @s do2.config.dungeonDifficulty 0
 
