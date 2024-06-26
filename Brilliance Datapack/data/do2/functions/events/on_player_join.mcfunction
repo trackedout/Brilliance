@@ -29,4 +29,4 @@ execute positioned -547 113 1980 if entity @s[distance=..5] at @s run tp @s ~ ~ 
 execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~ ~ 180 -20
 
 # If game hasn't started. Swap the difficulty, to the user's last used difficulty.
-execute unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
+execute if score $dungeon do2.utility.onServer matches 1 unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
