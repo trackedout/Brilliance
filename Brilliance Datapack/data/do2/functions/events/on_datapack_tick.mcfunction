@@ -27,8 +27,8 @@ execute if score $dungeon do2.run.active matches 2 as @e[type=minecraft:witch] i
 execute if score $dungeon do2.config.vexTracking matches 1 run function do2:force_vex_tracking
 
 # Control Ghosts to Spectate Player
-execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.ghosts] at @s if entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] run spectate @p[team=do2.players] @s
-execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.spectators] at @s if entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] run spectate @p[team=do2.players] @s
+execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.ghosts] at @s if entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] unless entity @s[name=TangoCam] unless entity @s[name=tangocam] run spectate @p[team=do2.players] @s
+execute if score $dungeon do2.config.forceGamemode matches 1 as @a[team=do2.spectators] at @s if entity @s[gamemode=spectator] unless entity @s[tag=do2.staff] unless entity @s[name=TangoCam] unless entity @s[name=tangocam] run spectate @p[team=do2.players] @s
 
 # If we're on the server, game isn't active. Enforce spectators to stay in lobby.
 execute unless entity @e[team=do2.players] if score $dungeon do2.utility.onServer matches 1 as @a[gamemode=spectator,name=!tangocam,name=!TangoCam] at @s run function do2:ensure_spectator_location
