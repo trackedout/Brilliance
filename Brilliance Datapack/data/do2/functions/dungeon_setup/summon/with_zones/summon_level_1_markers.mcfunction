@@ -128,12 +128,10 @@ summon minecraft:marker -541 40 1979 {Duration: 2147483647, Tags: ["zone_marker"
 summon minecraft:marker -541 45 1994 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -535 37 1987 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -541 45 1987 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
-summon minecraft:marker -587 48 1999 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -578 48 1996 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -582 48 1991 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -589 48 1988 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -592 48 1993 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
-summon minecraft:marker -591 48 1984 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -578 48 1989 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -591 48 1978 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -586 48 1980 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
@@ -165,7 +163,6 @@ summon minecraft:marker -526 37 2004 {Duration: 2147483647, Tags: ["zone_marker"
 summon minecraft:marker -518 37 2002 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -594 48 1981 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 summon minecraft:marker -597 48 1977 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
-summon minecraft:marker -593 48 1975 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z2"]}
 
 # - Zone 3 - (38 spots)
 summon minecraft:marker -548 54 1982 {Duration: 2147483647, Tags: ["zone_marker", "with-zones", "L1Z3"]}
