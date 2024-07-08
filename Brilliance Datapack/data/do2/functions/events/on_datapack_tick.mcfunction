@@ -40,7 +40,7 @@ execute if score $dungeon do2.config.forceFood matches 1 as @a[scores={do2.utili
 function do2:scoreboard/triggers/checks
 
 # Run the mob controller panel
-function do2:scoreboard/config/level_controller/run_per_tick
+function do2:level_controller/run_per_tick
 
 # Summon Dev Markers
 #function do2:dev/markers/edit_markers/summon_markers
