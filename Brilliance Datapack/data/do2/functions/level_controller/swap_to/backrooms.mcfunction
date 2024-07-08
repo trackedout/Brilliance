@@ -1,3 +1,6 @@
+# Clone Storage
+function do2:level_controller/clone_storages
+
 # Setup lamps
 fill -521 115 1940 -517 115 1940 minecraft:bamboo_button[powered=false,facing=south]
 fill -521 116 1939 -517 116 1939 minecraft:redstone_lamp[lit=false]
@@ -9,4 +12,5 @@ setblock -529 120 1939 minecraft:redstone_block
 setblock -529 120 1939 air
 
 
-
+# Clone Storage
+clone -519 123 1942 -519 122 1946 -529 114 1942
