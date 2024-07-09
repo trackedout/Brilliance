@@ -27,6 +27,9 @@ scoreboard objectives add do2.utility.statsScreen dummy "What screen the stats a
 execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard players set $dungeon do2.utility.statsScreen 0
 scoreboard objectives add do2.utility.priceChecker dummy "Used to count the price of cards in shops"
 scoreboard objectives add do2.utility.receivedJackpot dummy "Used to count the keys in loot boxes to see if Jackpot was won"
+scoreboard objectives add do2.utility.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.mobGeneration dummy "Used to count how many mobs to generate"
 
 scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
 execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0

@@ -106,6 +106,17 @@ scoreboard objectives add do2.config.mc.level2Zones dummy "Whether level 2 shoul
 execute unless score $dungeon do2.config.mc.level2Zones matches 0.. run scoreboard players set $dungeon do2.config.mc.level2Zones 1
 scoreboard objectives add do2.config.mc.level4Zones dummy "Whether level 4 should have zones"
 execute unless score $dungeon do2.config.mc.level4Zones matches 0.. run scoreboard players set $dungeon do2.config.mc.level4Zones 1
+scoreboard objectives add do2.config.mc.level1Zone1MobCount dummy "How many mobs in L1 Z1"
+execute unless score $dungeon do2.config.mc.level1Zone1MobCount matches 0.. run scoreboard players set $dungeon do2.config.mc.level1Zone1MobCount 1
+scoreboard objectives add do2.config.mc.level1Zone2MobCount dummy "How many mobs in L1 Z2"
+execute unless score $dungeon do2.config.mc.level1Zone2MobCount matches 0.. run scoreboard players set $dungeon do2.config.mc.level1Zone2MobCount 1
+scoreboard objectives add do2.config.mc.level1Zone3MobCount dummy "How many mobs in L1 Z3"
+execute unless score $dungeon do2.config.mc.level1Zone3MobCount matches 0.. run scoreboard players set $dungeon do2.config.mc.level1Zone3MobCount 1
+scoreboard objectives add do2.config.mc.level1Zone4MobCount dummy "How many mobs in L1 Z4"
+execute unless score $dungeon do2.config.mc.level1Zone4MobCount matches 0.. run scoreboard players set $dungeon do2.config.mc.level1Zone4MobCount 1
+scoreboard objectives add do2.config.mc.level1Zone5MobCount dummy "How many mobs in L1 Z5"
+execute unless score $dungeon do2.config.mc.level1Zone5MobCount matches 0.. run scoreboard players set $dungeon do2.config.mc.level1Zone5MobCount 1
+
 
 # Player Config: Player's last used Dungeon Difficulty.
 scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"

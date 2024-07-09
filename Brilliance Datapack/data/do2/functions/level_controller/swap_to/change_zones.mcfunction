@@ -1,3 +1,6 @@
+# Clone Storage
+function do2:level_controller/clone_storages
+
 # Level 1
 execute if score $dungeon do2.config.mc.levelEditing matches 1 if score $dungeon do2.config.mc.level1Zones matches 1 run scoreboard players set $dungeon do2.config.mc.level1Zones 2
 execute if score $dungeon do2.config.mc.levelEditing matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run scoreboard players set $dungeon do2.config.mc.level1Zones 1
