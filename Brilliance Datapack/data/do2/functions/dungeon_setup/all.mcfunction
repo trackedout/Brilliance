@@ -29,7 +29,6 @@ function do2:scoreboard/config/balance_changes/actions
 
 # Other Setup:
 function do2:scoreboard/config/config_setup
-function do2:random_gen/random_setup
 
 # Whether Max Clank Disables Treasure
 execute if score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:redstone_wire

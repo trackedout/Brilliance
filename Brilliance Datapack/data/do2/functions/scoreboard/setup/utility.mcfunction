@@ -1,6 +1,7 @@
 scoreboard objectives add do2.utility.deathCount deathCount "Check whether player has died."
 scoreboard objectives add do2.utility.playerCount dummy "How many players are in the server"
 scoreboard objectives add do2.utility.randomNum dummy "Random Number Generator"
+scoreboard objectives add do2.utility.randomNumberRange dummy "Limit of how high the random number can go."
 scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
 scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
 scoreboard objectives add do2.utility.advancementOrdering dummy "Boolean on whether the advancements are being revoked and granted per tick."

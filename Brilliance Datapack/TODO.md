@@ -2,8 +2,7 @@
 - Randomly determine TIME of day, instead of just day/night
 - Automate do2.lifetime.escaped.crowns
   - Actually... is this score needed? It's essentially crowns spent + whatever crowns they have on them.
-- Automate do2.lifetime.escaped.embers
-  - Actually... is this score needed? It's essentially embers spent...
+
 - Track embers DROPPED in dungeon
 - Track embers ATTEMPTED to be RELEASED.
 - Track treasure DROPPED in dungoen
