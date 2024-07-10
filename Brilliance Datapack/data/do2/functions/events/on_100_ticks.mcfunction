@@ -15,3 +15,7 @@ execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setu
 execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_wardens
 execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_other_killers
 execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_markers
+
+# Count players on the server.
+scoreboard players set $dungeon do2.utility.playerCount 0
+execute as @a[name=!tangocam,name=!TangoCam] run scoreboard players add $dungeon do2.utility.playerCount 1

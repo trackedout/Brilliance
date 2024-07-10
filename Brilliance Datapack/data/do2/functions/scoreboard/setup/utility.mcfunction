@@ -1,4 +1,5 @@
 scoreboard objectives add do2.utility.deathCount deathCount "Check whether player has died."
+scoreboard objectives add do2.utility.playerCount dummy "How many players are in the server"
 scoreboard objectives add do2.utility.randomNum dummy "Random Number Generator"
 scoreboard objectives add do2.utility.currentTick dummy "The current tick number."
 scoreboard objectives add do2.utility.checkTick dummy "Used for checking ticks."
