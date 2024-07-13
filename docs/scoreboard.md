@@ -52,7 +52,7 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🟤    | do2.highest_loss_streak              |  totals  | The highest loss streak the target has.                                                          |
 |  ✅   |   🟤    | do2.loss_streak                      |  totals  | The current loss streak the target has.                                                          |
 |  ✅   |   🟤    | do2.depth_charge_success             |  totals  | The total amount of Depth Charge Successes.                                                      |
-|  ✅   |   🔴    | do2.run.active                       | current  | Whether the dungeon is currently active.                                                         |
+|  ✅   |   🔴    | do2.run.active                       | current  | Whether the dungeon is currently active or loading.                                              |
 |  ✅   |   🔴    | do2.run.timeWithNoPlayers            | current  | Amount of time the dungeon hasn't had active players.                                            |
 |  ✅   |   🔴    | do2.run.ticks                        | current  | Counting until 20th tick to add a second.                                                        |
 |  ✅   |   🔴    | do2.run.seconds                      | current  | How long the run has been running for.                                                           |
@@ -82,6 +82,8 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ❌   |   🔴    | do2.config.forceFood                 |  config  | Whether to force the player's food at saturation level to be a certain value.                    |
 |  ❌   |   🔴    | do2.config.targetFoodLevel           |  config  | How many food bars the player's food should be.                                                  |
 |  ❌   |   🔴    | do2.config.targetSaturationLevel     |  config  | How many saturation levels the player's saturation should be.                                    |
+|  ❌   |   🔴    | do2.config.useWorldCycle             |  config  | Used to control whether daylight and weather cycles are enabled.                                 |
+|  ❌   |   🟢    | do2.config.dungeonDifficulty         |  config  | Used to remember what difficulty the player last played at.                                      |
 |  ⛔   |   🔴    | do2.config.bc.snowHazard             |  config  | Whether to use a new hazard in the hidden L1 shortcut.                                           |
 |  ⛔   |   🔴    | do2.config.bc.l2ShipTreasureLine     |  config  | Whether treasure can drop on L2's ship when player is on L2.                                     |
 |  ⛔   |   🔴    | do2.config.bc.balancedTnTDiveLoot    |  config  | Whether to balance the TnT dive loot more.                                                       |
@@ -538,3 +540,12 @@ Brilliance uses a massive amount of scoreboard objectives for a vast amount of t
 |  ✅   |   🔴    | do2.cards.price.5TM                  | utility  | How much the 5 Tomes costs to purchase.                                                          |
 |  ✅   |   🔴    | do2.utility.priceChecker             | utility  | Used to count how much a card costs dynamically.                                                 |
 |  ❌   |   🟢    | do2.utility.voiceChat                | utility  | Used to check if Voice Chat mod is installed on the player.                                      |
+|  ✅   |   🟢    | do2.tests.playerInLocation           | utility  | Used to ensure player stays in lobby at while game isn't in progress                             |
+|  ✅   |   🔴    | do2.config.mc.levelZoneMobCount      |  config  | Used to control how many mobs are in each zone.                                                  |
+|  ✅   |   🔴    | do2.utility.playerCount              | utility  | Used to count how many players are on the server at a time.                                      |
+|  ✅   |   🔴    | do2.utility.randomNumberRange        | utility  | Used to determine the high value of a random number.                                             |
+|  ✅   |   🔴    | do2.utility.receivedJackpot          | utility  | Used to check whether a jackpot was won from the crown shops.                                    |
+|  ✅   |   🔴    | do2.utility.mobCountCounterTest      | utility  | Used to help count how many mobs are meant to be in each zone.                                   |
+|  ✅   |   🔴    | do2.utility.mobCountCounterTotal     | utility  | Used to store the count how many mobs are meant to be in each zone.                              |
+|  ✅   |   🔴    | do2.utility.mobGeneration            | utility  | Used to check whether the amount of mobs generate match the mobs needed.                         |
+|  ✅   |   🔴    | do2.utility.mobNamesCount            | utility  | Used to count how many names are inside a list of names.                                         |
