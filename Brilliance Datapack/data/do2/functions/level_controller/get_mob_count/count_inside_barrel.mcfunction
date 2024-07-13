@@ -1,4 +1,3 @@
-
 scoreboard players set $dungeon do2.utility.mobCountCounterTotal 0
 
 # Count each slot
