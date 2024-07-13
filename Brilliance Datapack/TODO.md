@@ -1,14 +1,14 @@
 # Other TODO:
+- Barrels with items in it, drop their items when level controller swaps around.
+- Add Level 3, Level 4 & Backrooms to level controller mob control.
+- Config Info "booklet" needs to be updated with the new force saturation level
+  - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Randomly determine TIME of day, instead of just day/night
-- Automate do2.lifetime.escaped.crowns
-  - Actually... is this score needed? It's essentially crowns spent + whatever crowns they have on them.
-
 - Track embers DROPPED in dungeon
 - Track embers ATTEMPTED to be RELEASED.
-- Track treasure DROPPED in dungoen
+- Track treasure DROPPED in dungeon
 - Track treasure ATTEMPTED to be RELEASED._
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
-- Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
 - Fish markers have same issue as ravager markers, can be duplicated as it takes several ticks to summon markers so it can attempt to summon 99 of them for multiple ticks letting them stack up.
