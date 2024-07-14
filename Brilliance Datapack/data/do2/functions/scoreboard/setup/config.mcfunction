@@ -98,6 +98,8 @@ scoreboard objectives add do2.config.refillDungeonType dummy "When to Refill Dun
 execute unless score $dungeon do2.config.refillDungeonType matches 0.. run scoreboard players set $dungeon do2.config.refillDungeonType 1
 
 # Dungeon Config: Mob Controller
+scoreboard objectives add do2.config.mc.controlSummons dummy "Whether to use the new level controller mobs"
+execute unless score $dungeon do2.config.mc.controlSummons matches 0.. run scoreboard players set $dungeon do2.config.mc.controlSummons 0
 scoreboard objectives add do2.config.mc.levelEditing dummy "Which level is currently being edited"
 execute unless score $dungeon do2.config.mc.levelEditing matches 0.. run scoreboard players set $dungeon do2.config.mc.levelEditing 1
 scoreboard objectives add do2.config.mc.level1Zones dummy "Whether level 1 should have zones"
