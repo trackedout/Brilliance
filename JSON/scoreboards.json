@@ -1719,7 +1719,7 @@
         "auto": 1,
         "target": "both",
         "category": "current",
-        "description": "Whether the card pirate's booty was purchased this run."
+        "description": "Whether the card pirates booty was purchased this run."
     },
     "do2.run.cards.bought.COS": {
         "auto": 1,
@@ -1953,7 +1953,7 @@
         "auto": 1,
         "target": "both",
         "category": "totals",
-        "description": "How many times the card pirate's booty has been purchased in total."
+        "description": "How many times the card pirates booty has been purchased in total."
     },
     "do2.cards.bought.COS": {
         "auto": 1,
@@ -2169,7 +2169,7 @@
         "auto": 1,
         "target": "both",
         "category": "current",
-        "description": "How many of the card pirate's booty have been played this run."
+        "description": "How many of the card pirates booty have been played this run."
     },
     "do2.run.cards.played.COS": {
         "auto": 1,
@@ -2427,7 +2427,7 @@
         "auto": 1,
         "target": "both",
         "category": "current",
-        "description": "How many of the card pirate's booty was in the deck this run."
+        "description": "How many of the card pirates booty was in the deck this run."
     },
     "do2.run.cards.deck.COS": {
         "auto": 1,
@@ -2643,7 +2643,7 @@
         "auto": 1,
         "target": "both",
         "category": "totals",
-        "description": "How many times the card pirate's booty was available to purchase in total."
+        "description": "How many times the card pirates booty was available to purchase in total."
     },
     "do2.cards.available.COS": {
         "auto": 1,
@@ -2829,7 +2829,7 @@
         "auto": 1,
         "target": "both",
         "category": "totals",
-        "description": "How many times the card pirate's booty has been played in total."
+        "description": "How many times the card pirates booty has been played in total."
     },
     "do2.cards.played.COS": {
         "auto": 1,
@@ -3015,7 +3015,7 @@
         "auto": 1,
         "target": "$dungeon",
         "category": "utility",
-        "description": "How much the card pirate's booty costs to purchase."
+        "description": "How much the card Pirates booty costs to purchase."
     },
     "do2.cards.price.COS": {
         "auto": 1,
