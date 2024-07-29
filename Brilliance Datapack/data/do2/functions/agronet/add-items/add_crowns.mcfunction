@@ -3,7 +3,6 @@ scoreboard players operation @s do2.utility.totalCrowns /= $dungeon do2.utility.
 scoreboard players operation @s do2.utility.totalCrowns += @s do2.run.items.crowns
 
 # Def a better way to do this XD
-execute if score @s do2.utility.totalCrowns matches 0 run add-item crown 0
 execute if score @s do2.utility.totalCrowns matches 1 run add-item crown 1
 execute if score @s do2.utility.totalCrowns matches 2 run add-item crown 2
 execute if score @s do2.utility.totalCrowns matches 3 run add-item crown 3
