@@ -15,13 +15,15 @@ scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Suc
 
 # - treasure lifetimes -
 scoreboard objectives add do2.lifetime.pickedup.crowns dummy "Total §eCrowns§r Picked Up"
-scoreboard objectives add do2.lifetime.escaped.crowns dummy "Total §eCrowns§r Escaped With."
+scoreboard objectives add do2.lifetime.escaped.crowns dummy "Total §eCrowns§r Escaped With"
 scoreboard objectives add do2.lifetime.spent.crowns dummy "Total §eCrowns§r Spent"
 scoreboard objectives add do2.lifetime.coinsconverted dummy "Total §eCoins§r Converted"
 scoreboard objectives add do2.lifetime.pickedup.coins dummy "Total §eCoins§r Converted"
 scoreboard objectives add do2.lifetime.pickedup.embers dummy "Total §3Frost Embers§r Picked Up"
-scoreboard objectives add do2.lifetime.escaped.embers dummy "Total §3Frost Embers§r Escaped With."
+scoreboard objectives add do2.lifetime.escaped.embers dummy "Total §3Frost Embers§r Escaped With"
 scoreboard objectives add do2.lifetime.spent.embers dummy "Total §3Frost Embers§r Spent"
+scoreboard objectives add do2.lifetime.escaped.tomes dummy "Total §eTomes§r Escaped With"
+scoreboard objectives add do2.lifetime.spent.tomes dummy "Total §3Tomes§r Spent Or Submitted"
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"

@@ -1,6 +1,7 @@
-# execute if score $dungeon do2.agronet.card_bought matches -3 run add-item victory-tome 5
-# execute if score $dungeon do2.agronet.card_bought matches -2 run add-item victory-tome 3
-# execute if score $dungeon do2.agronet.card_bought matches -1 run add-item victory-tome 1
+execute if score $dungeon do2.agronet.card_bought matches -3 run add-item victory-tome 5
+execute if score $dungeon do2.agronet.card_bought matches -2 run add-item victory-tome 3
+execute if score $dungeon do2.agronet.card_bought matches -1 run add-item victory-tome 1
+
 execute if score $dungeon do2.agronet.card_bought matches 0 run card-bought moment-of-clarity
 execute if score $dungeon do2.agronet.card_bought matches 1 run card-bought sneak
 execute if score $dungeon do2.agronet.card_bought matches 2 run card-bought stability
