@@ -78,7 +78,7 @@
         "description": "The total amount of Crowns the target has picked up."
     },
     "do2.lifetime.escaped.crowns": {
-        "auto": 0,
+        "auto": 1,
         "target": "both",
         "category": "totals",
         "description": "The total amount of Crowns the target has escaped with."
@@ -118,6 +118,18 @@
         "target": "both",
         "category": "totals",
         "description": "The total amount of Frost Embers the target has spent."
+    },
+    "do2.lifetime.escaped.tomes": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "The total amount of Tomes the target has escaped with."
+    },
+    "do2.lifetime.spent.tomes": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "The total amount of Tomes the target has spent or submitted."
     },
     "do2.highest_win_streak": {
         "auto": 1,
