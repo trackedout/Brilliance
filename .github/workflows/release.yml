@@ -26,3 +26,4 @@ jobs:
           tag_name: ${{ env.BRILLIANCE_VERSION }}
           files: |
             Brilliance Datapack/brilliance-datapack.zip
+            JSON/scoreboards.json
