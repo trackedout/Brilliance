@@ -4,6 +4,9 @@
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Randomly determine TIME of day, instead of just day/night
+- Update Brilliance's main readme.
+- Add a config to LIMIT people from receiving logs. (atm it's freely available from the /trigger cmd)
+- Fix on_crown_acquired to not log EVERY crown but instead a total of crowns, once. 
 - Track embers DROPPED in dungeon
 - Track embers ATTEMPTED to be RELEASED.
 - Track treasure DROPPED in dungeon

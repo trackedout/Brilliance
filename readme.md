@@ -1,19 +1,21 @@
-The datapack is in charge of ALL data tracking. We also store that data permanently, for trackedout we use a 3rd party mod to tap into this data and send it over to our databases for our trackers to use the data.
+# Brilliance
+### Datapack & Resourcepack
+Brilliance is the name given to this datapack and resourcepack. It's combined effort of multiple people to help automate Decked Out 2, a minigame created by TangoTek.
 
-#### Advancement preview:
-<img width="50%" src="current_preview.png"> 
+The Resourcepack is essential in adding the many custom models, sounds, and textures required for this game to be clear and intuitive.
 
-### File structure:
-- use numbers instead of words to keep sorting the files easier
-  - (two comes before one, but 1 comes before 2)
-- use underscore_case for file names. It increases readability.
-- use simple naming for file names, so everyone knows what that file actually is.
-- keep file names in lowercase, as MC requires it.
-- try to keep file name consistency even if it doesn't make sense.
-  - ("win 1 times" isn't grammatically correct, but it matches every other advancement it's paired with)
-- try to keep file names to stay alphabetically ordered.
-  - ("difficulty_deadly" comes before "difficuly_easy", while "difficulty_1" comes before "difficulty_4" )
+A brief list of what the Datapack controls:
+ * Advancements 
+ * Stat Tracking
+ * Settings to adjust gameplay
+ * Automating the dungeon
+ * Vanilla Compatibility
 
-# Resource Pack
- - Required for custom model data, hopefully we can have some custom art for the majority of our advancements!
- - Required for advancement's custom blocks.
+While as brief this description is, it's an entirely complicated system that may be difficult to understand for developers.<br>
+For additional documentation of some systems see the following:
+ * [Advancement Documentation](./docs/advancements.md)
+ * [Debugging Logs](./docs/logging.md)
+ * [Scoreboard Documentation](./docs/scoreboard.md)
+ * (TODO:) JSON documentation
+
+### Resourcepack

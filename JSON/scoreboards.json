@@ -3142,5 +3142,11 @@
         "target": "$dungeon",
         "category": "utility",
         "description": "Used to count how many names are inside a list of names."
+    },
+    "do2.config.mc.controlSummons": {
+        "auto": 0,
+        "target": "unknown",
+        "category": "unknown",
+        "description": "unknown"
     }
 }
