@@ -1,7 +1,23 @@
+# Crowns spent "Frozen Shard" -> "Refresh the Shop"
+data merge block -509 110 1974 {Items:[]}
+data merge block -508 110 1974 {Items:[]}
+data merge block -507 110 1974 {Items:[]}
+data merge block -506 110 1974 {Items:[]}
+data merge block -505 110 1974 {Items:[]}
+data merge block -504 110 1974 {Items:[]}
+data merge block -503 110 1974 {Items:[]}
+data merge block -502 110 1974 {Items:[]}
+data merge block -501 110 1974 {Items:[]}
+data merge block -500 110 1974 {Items:[]}
+data merge block -499 110 1974 {Items:[]}
+data merge block -498 110 1974 {Items:[]}
+data merge block -497 110 1974 {Items:[]}
+data merge block -496 110 1974 {Items:[]}
+
 # Shards inserted
 data merge block -532 108 1980 {Items:[]}
 data merge block -531 108 1980 {Items:[]}
-# Run Count
+# Run count
 data merge block -539 110 1980 {Items:[]}
 data merge block -540 110 1980 {Items:[]}
 
@@ -14,23 +30,23 @@ data merge block -554 107 1971 {Items:[]}
 # Difficulty hopper. Non-nugget Item
 data merge block -554 107 1969 {Items:[]}
 
-# Pork Chop Power (Played Count)
+# Pork Chop Power (count of played)
 data merge block -547 39 1912 {Items:[]}
-# Tactical Approach (Played Count)
+# Tactical Approach (count of played)
 data merge block -556 39 1912 {Items:[]}
-# Dungeon Lackey (Played Count)
+# Dungeon Lackey (count of played)
 data merge block -557 39 1912 {Items:[]}
-# Moment of Clarity (Played Count)
+# Moment of Clarity (count of played)
 data merge block -576 35 1916 {Items:[]}
-# Pay to Win (Played Count)
+# Pay to Win (count of played)
 data merge block -584 35 1916 {Items:[]}
-# Open Ethereal Bay - 3rd Lvl (Played Count)
+# Open Ethereal bay - 3rd Lvl (count of played)
 data merge block -592 35 1916 {Items:[]}
-# Open Ethereal Bay - 3rd Lvl (Played Count)
+# Open Ethereal bay - 3rd Lvl (count of played)
 data merge block -600 35 1916 {Items:[]}
-# Open Ethereal Bay - 3rd Lvl (Played Count)
+# Open Ethereal bay - 3rd Lvl (count of played)
 data merge block -608 35 1916 {Items:[]}
-# Open Ethereal Bay - 3rd Lvl (Played Count)
+# Open Ethereal bay - 3rd Lvl (count of played)
 data merge block -616 35 1916 {Items:[]}
 
 # Keys used L2 -> L4
@@ -40,17 +56,17 @@ data merge block -592 12 1948 {Items:[]}
 data merge block -591 12 1948 {Items:[]}
 data merge block -638 -19 1900 {Items:[]}
 
-# Pumpkins Submitted
+# Pumpkins submitted
 data merge block -521 12 2048 {Items:[]}
-# Bombs Submitted
+# Bombs submitted
 data merge block -580 -52 1856 {Items:[]}
-# DM's Key Submitted
+# "The Master's Key"s submitted
 data merge block -604 -60 1879 {Items:[]}
 
-# Forgotten Hideout Embers
+# Forgotten hideout embers
 data merge block -607 -59 1888 {Items:[]}
 
-# Artifacts Submitted Aw Yah -> DM's Key
+# Artifacts submitted "Hood of Aw'Yah" -> "The Master's Key"
 data merge block -636 -22 1978 {Items:[]}
 data merge block -636 -22 1977 {Items:[]}
 data merge block -636 -22 1976 {Items:[]}
@@ -80,13 +96,13 @@ data merge block -636 -22 1953 {Items:[]}
 data merge block -636 -22 1952 {Items:[]}
 data merge block -636 -22 1951 {Items:[]}
 
-# Non Artifacts Submitted
+# Non-artifacts submitted
 data merge block -637 -20 1949 {Items:[]}
-# Non Artifact Embers
+# Non-artifact embers
 data merge block -637 -28 1984 {Items:[]}
 data merge block -637 -28 1985 {Items:[]}
 
-# Embers Spent Sneak -> Adrenaline Rush
+# Embers spent "Sneak" -> "Adrenaline Rush"
 data merge block -631 -14 1992 {Items:[]}
 data merge block -631 -14 1993 {Items:[]}
 data merge block -631 -14 1994 {Items:[]}
@@ -110,7 +126,7 @@ data merge block -631 -14 2011 {Items:[]}
 data merge block -631 -14 2012 {Items:[]}
 data merge block -631 -14 2013 {Items:[]}
 data merge block -631 -14 2014 {Items:[]}
-# Embers Spent 3 Tomes -> Eerie Silence
+# Embers spent "3 Tomes" -> "Eerie Silence"
 data merge block -643 -14 1992 {Items:[]}
 data merge block -643 -14 1993 {Items:[]}
 data merge block -643 -14 1994 {Items:[]}
@@ -135,12 +151,12 @@ data merge block -643 -14 2012 {Items:[]}
 data merge block -643 -14 2013 {Items:[]}
 data merge block -643 -14 2014 {Items:[]}
 
-# Crowns Earned
+# Crowns earned
 data merge block -641 -16 1988 {Items:[]}
 data merge block -642 -16 1988 {Items:[]}
 data merge block -643 -16 1988 {Items:[]}
 data merge block -643 -15 1988 {Items:[]}
-# Coins Earned
+# Coins earned
 data merge block -650 -21 1987 {Items:[]}
 data merge block -649 -21 1987 {Items:[]}
 data merge block -648 -21 1987 {Items:[]}
@@ -157,17 +173,17 @@ data merge block -648 -17 1988 {Items:[]}
 data merge block -647 -17 1988 {Items:[]}
 data merge block -646 -17 1988 {Items:[]}
 data merge block -646 -16 1988 {Items:[]}
-# Coins Earned Death Room (TO-DO2 Addition)
+# Coins earned death room (TO-DO2 Addition)
 data merge block -641 -53 2009 {Items:[]}
 data merge block -642 -53 2009 {Items:[]}
 data merge block -642 -53 2008 {Items:[{Slot:0b,id:"minecraft:iron_nugget",tag:{tracked:1b,display:{Name:'{"text":"❄☠ Decked Out Coin ☠❄"}'},CustomModelData:1},Count:1b}]}
-# Non-Coins/Crowns submitted
+# Non-coins/crowns submitted
 data merge block -645 -13 1987 {Items:[]}
 
-# Games Lost
+# Games lost
 data merge block -547 116 1976 {Items:[]}
 
-# Items on player when in death room
+# Players' items from death room
 data merge block -641 -55 2018 {Items:[]}
 data merge block -641 -55 2017 {Items:[]}
 data merge block -641 -55 2016 {Items:[]}
@@ -196,7 +212,7 @@ data merge block -642 -52 2013 {Items:[]}
 data merge block -642 -51 2013 {Items:[]}
 data merge block -642 -51 2012 {Items:[]}
 data merge block -642 -51 2011 {Items:[]}
-# Permanent Cards Played (TO-DO2 Addition)
+# Permanent cards played (TO-DO2 Addition)
 data merge block -544 36 1914 {Items:[]}
 data merge block -545 36 1914 {Items:[]}
 data merge block -546 36 1914 {Items:[]}
@@ -213,7 +229,7 @@ data merge block -556 36 1914 {Items:[]}
 data merge block -557 36 1914 {Items:[]}
 data merge block -558 36 1914 {Items:[]}
 
-# Non-permanent Cards Played (TO-DO2 Addition)
+# Non-permanent cards played (TO-DO2 Addition)
 data merge block -570 26 1924 {Items:[]}
 data merge block -570 26 1923 {Items:[]}
 data merge block -570 27 1923 {Items:[]}
@@ -284,7 +300,7 @@ data merge block -615 28 1923 {Items:[]}
 data merge block -616 28 1923 {Items:[]}
 data merge block -617 28 1923 {Items:[]}
 
-# Non-Card Items Played (TO-DO2 Addition)
+# Non-card items played (TO-DO2 Addition)
 data merge block -622 37 1915 {Items:[]}
 
 tellraw @s ["",{"text":"\n§fAll §lStat Containers §r§fhave been reset."}]
