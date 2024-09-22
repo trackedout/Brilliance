@@ -23,21 +23,21 @@ execute unless entity @e[type=minecraft:zombie,tag=Start] run summon minecraft:z
 # Redstone iron golem
 execute unless entity @e[type=minecraft:iron_golem,tag=Redstone] run summon minecraft:iron_golem -505.3 36 1944.5 {Tags: ["Redstone","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 100.0f, PlayerCreated: 0b, Fire: -1s}
 
-# Prevent blocks placed on difficulty lamps.
-summon minecraft:interaction -559 113.95 1987.50 {width: 5.1, height: 1.1, Tags:["lamp_blocker"]}
+# Prevent blocks placed on difficulty lamps
+summon minecraft:interaction -559 113.95 1987.50 {width: 5.1f, height: 1.1f, Tags:["lamp_blocker"]}
 
-# Prevent animation armor stands from being edited.
-summon minecraft:interaction -545 113 1980 {width: 1, height: 2, Tags:["as_blocker"]}
-summon minecraft:interaction -544 113 1980 {width: 1, height: 2, Tags:["as_blocker"]}
+# Prevent animation armor stands from being edited
+summon minecraft:interaction -545 113 1980 {width: 1.0f, height: 2.0f, Tags:["as_blocker"]}
+summon minecraft:interaction -544 113 1980 {width: 1.0f, height: 2.0f, Tags:["as_blocker"]}
 
-# Prevent items from being inserted or removed from the deck shulker breaker hopper.
-summon minecraft:interaction -564.50 113.01 1980.50 {width: 1.0, height: 1.0, Tags:["hopper_blocker"]} 
+# Prevent items from being inserted or removed from the deck shulker breaker hopper
+summon minecraft:interaction -564.50 113.01 1980.50 {width: 1.0f, height: 1.0f, Tags:["hopper_blocker"]} 
 
-# Prevent players from interacting with the dispensers or trapdoors of the entry door model.
+# Prevent players from interacting with the dispensers or trapdoors of the entry door model
 summon minecraft:interaction -624.50 48.00 1956.50 {width: 3.02f, height: 2.0f, Tags:["water_blocker"]}
 summon minecraft:interaction -617.50 48.00 1956.50 {width: 3.02f, height: 2.0f, Tags:["water_blocker"]}
 
-# Prevent players from interacting with the dispensers of the L4 lava hazard trap.
+# Prevent players from interacting with the dispensers of the L4 lava hazard trap
 summon minecraft:interaction -652.50 -49.01 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
 summon minecraft:interaction -649.50 -49.01 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
 summon minecraft:interaction -646.50 -49.01 1881.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
@@ -82,6 +82,16 @@ summon minecraft:interaction -593.50 -49.01 1891.50 {width: 3.0f, height: 0.02f,
 summon minecraft:interaction -593.50 -49.01 1888.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
 summon minecraft:interaction -593.50 -49.01 1885.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
 summon minecraft:interaction -593.50 -49.01 1884.50 {width: 3.0f, height: 0.02f, Tags:["lava_blocker"]}
+
+# Prevent players from interacting with the trapdoor below the parrot in the L2 pirate ship
+summon minecraft:interaction -576.50 17.81 2010.50 {width: 1.002f, height: 0.188f, Tags:["parrot_blocker"]}
+
+# Prevent players from interacting with the dropper for lodestone location #46
+summon minecraft:interaction -573.50 16.00 2014.50 {width: 1.0f, height: 1.0f, Tags:["dropper_blocker"]}
+
+# Prevent players from interacting with the trapdoors in the ceiling of the bottom floor L3 storage room
+summon minecraft:interaction -642.00 -12.20 1889.00 {width: 2.0f, height: 0.2f, Tags:["trapdoor_blocker"]}
+summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, Tags:["trapdoor_blocker"]}
 
 # TangoCam (just in case)
 execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:dungeon_setup/summon/summon_tangocam
