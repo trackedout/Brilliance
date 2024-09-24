@@ -80,7 +80,7 @@ execute unless score $dungeon do2.config.bc.staircaseEmbers matches 0.. run scor
 
 
 # Dungeon Config: Fresh Runs
-scoreboard objectives add do2.config.fr.teleportKillers dummy "Randomize Killers's Positions"
+scoreboard objectives add do2.config.fr.teleportKillers dummy "Randomize Killers' Positions"
 execute unless score $dungeon do2.config.fr.teleportKillers matches 0.. run scoreboard players set $dungeon do2.config.fr.teleportKillers 1
 scoreboard objectives add do2.config.fr.refillBerries dummy "Refill Berry Bushes"
 execute unless score $dungeon do2.config.fr.refillBerries matches 0.. run scoreboard players set $dungeon do2.config.fr.refillBerries 1
