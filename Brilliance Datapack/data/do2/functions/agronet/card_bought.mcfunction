@@ -1,7 +1,9 @@
+# Item Bought
 execute if score $dungeon do2.agronet.card_bought matches -3 run add-item victory-tome 5
 execute if score $dungeon do2.agronet.card_bought matches -2 run add-item victory-tome 3
 execute if score $dungeon do2.agronet.card_bought matches -1 run add-item victory-tome 1
 
+# Card Bought
 execute if score $dungeon do2.agronet.card_bought matches 0 run card-bought moment-of-clarity
 execute if score $dungeon do2.agronet.card_bought matches 1 run card-bought sneak
 execute if score $dungeon do2.agronet.card_bought matches 2 run card-bought stability
@@ -33,3 +35,9 @@ execute if score $dungeon do2.agronet.card_bought matches 27 run card-bought sil
 execute if score $dungeon do2.agronet.card_bought matches 28 run card-bought fuzzy-bunny-slippers
 execute if score $dungeon do2.agronet.card_bought matches 29 run card-bought deepfrost
 execute if score $dungeon do2.agronet.card_bought matches 30 run card-bought brilliance
+
+# Card Gained in Dungeon
+execute if score $dungeon do2.agronet.card_bought matches 31 run card-bought moment-of-clarity
+execute if score $dungeon do2.agronet.card_bought matches 32 run card-bought pork-chop-power
+execute if score $dungeon do2.agronet.card_bought matches 33 run card-bought pay-to-win
+execute if score $dungeon do2.agronet.card_bought matches 34 run card-bought tactical-approach
