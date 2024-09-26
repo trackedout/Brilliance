@@ -37,10 +37,3 @@ advancement revoke @a from do2:utility/root
 # Make TangoCam spectator.
 gamemode spectator TangoCam
 gamemode spectator tangocam
-
-# Set user's preferred difficulty
-execute if score $dungeon do2.run.difficulty matches 1 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 1
-execute if score $dungeon do2.run.difficulty matches 2 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 2
-execute if score $dungeon do2.run.difficulty matches 3 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 3
-execute if score $dungeon do2.run.difficulty matches 4 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 4
-execute if score $dungeon do2.run.difficulty matches 5 as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 5

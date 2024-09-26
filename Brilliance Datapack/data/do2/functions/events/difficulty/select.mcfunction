@@ -1,0 +1,11 @@
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"green","text":"❄☠ Level 1 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/easy
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"yellow","text":"❄☠ Level 1 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/easy
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"yellow","text":"❄☠ Level 2 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/medium
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"gold","text":"❄☠ Level 2 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/medium
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"gold","text":"❄☠ Level 3⇈ Artifact ☠❄"}'}}}}] run function do2:events/difficulty/hard
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"gold","text":"❄☠ Level 3⮂ Artifact ☠❄"}'}}}}] run function do2:events/difficulty/hard
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"#B02E26","text":"❄☠ Level 3⇈ Artifact ☠❄"}'}}}}] run function do2:events/difficulty/hard
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"#B02E26","text":"❄☠ Level 3⮂ Artifact ☠❄"}'}}}}] run function do2:events/difficulty/hard
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"#B02E26","text":"❄☠ Level 3⇊ Artifact ☠❄"}'}}}}] run function do2:events/difficulty/hard
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"#B02E26","text":"❄☠ Level 4 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/deepfrost
+execute positioned -622 62 1944 if entity @e[type=item,distance=..1,nbt={Item:{tag:{display:{Name:'{"color":"#3AB3DA","text":"❄☠ Level 4 Artifact ☠❄"}'}}}}] run function do2:events/difficulty/deepfrost
