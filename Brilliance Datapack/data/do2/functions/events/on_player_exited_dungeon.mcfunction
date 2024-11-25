@@ -7,9 +7,3 @@ tag @s remove exitedLogTarget
 # - End Log -
 
 kill @e[type=vex]
-
-scoreboard players operation @s do2.lifetime.escaped.embers += @s do2.run.items.embers
-scoreboard players operation $dungeon do2.lifetime.escaped.embers += @s do2.run.items.embers
-scoreboard players operation @s do2.lifetime.escaped.crowns += @s do2.run.items.crowns
-scoreboard players operation $dungeon do2.lifetime.escaped.crowns += @s do2.run.items.crowns
-
