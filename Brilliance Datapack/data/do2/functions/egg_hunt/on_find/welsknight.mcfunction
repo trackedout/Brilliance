@@ -17,9 +17,9 @@ execute unless score $dungeon do2.config.eggRewards matches 1.. run return 0
 # - Play a barrel open sound
 # - Set barrel contents to have the items,
 # - Set player to note they HAVE received their rewards
-execute if score $dungeon do2.config.eggRewards matches 1 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 5b, tag: { CustomModelData: 2, tracked:1b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
-execute if score $dungeon do2.config.eggRewards matches 2 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 5b, tag: { CustomModelData: 2, tracked:1b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
-execute if score $dungeon do2.config.eggRewards matches 3 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 1b, tag: { CustomModelData: 2, tracked:1b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
+execute if score $dungeon do2.config.eggRewards matches 1 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 5b, tag: { CustomModelData: 2, tracked:0b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
+execute if score $dungeon do2.config.eggRewards matches 2 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 5b, tag: { CustomModelData: 2, tracked:0b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
+execute if score $dungeon do2.config.eggRewards matches 3 run data modify block -627 47 2000 Items set value [{Slot: 13b, id: "minecraft:iron_nugget", Count: 1b, tag: { CustomModelData: 2, tracked:0b, display: {Name: '{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]
 
 playsound minecraft:block.barrel.open master @s -627 47 2000
 scoreboard players set @s do2.eggs.wels 2
