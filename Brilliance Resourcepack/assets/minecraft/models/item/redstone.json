@@ -8,295 +8,295 @@
 			"predicate": {
 				"custom_model_data": 1111111
 			},
-			"model": "minecraft:item/advancements/tabs/eyes"
+			"model": "do2:item/advancements/tabs/eyes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111112
 			},
-			"model": "minecraft:item/advancements/tabs/trackedout"
+			"model": "do2:item/advancements/tabs/trackedout"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111113
 			},
-			"model": "minecraft:item/advancements/tabs/treasure"
+			"model": "do2:item/advancements/tabs/treasure"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111114
 			},
-			"model": "minecraft:item/advancements/tabs/survival"
+			"model": "do2:item/advancements/tabs/survival"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111115
 			},
-			"model": "minecraft:item/advancements/tabs/phases"
+			"model": "do2:item/advancements/tabs/phases"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111116
 			},
-			"model": "minecraft:item/advancements/tabs/cards"
+			"model": "do2:item/advancements/tabs/cards"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111117
 			},
-			"model": "minecraft:item/advancements/survival/difficulty_1"
+			"model": "do2:item/advancements/survival/difficulty_1"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111118
 			},
-			"model": "minecraft:item/advancements/survival/difficulty_2"
+			"model": "do2:item/advancements/survival/difficulty_2"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111119
 			},
-			"model": "minecraft:item/advancements/survival/difficulty_3"
+			"model": "do2:item/advancements/survival/difficulty_3"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111120
 			},
-			"model": "minecraft:item/advancements/survival/difficulty_4"
+			"model": "do2:item/advancements/survival/difficulty_4"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111121
 			},
-			"model": "minecraft:item/advancements/survival/difficulty_5"
+			"model": "do2:item/advancements/survival/difficulty_5"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111122
 			},
-			"model": "minecraft:item/advancements/adventure/water_tnt"
+			"model": "do2:item/advancements/adventure/water_tnt"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111123
 			},
-			"model": "minecraft:item/advancements/survival/winstreak_3"
+			"model": "do2:item/advancements/survival/winstreak_3"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111124
 			},
-			"model": "minecraft:item/advancements/survival/winstreak_5"
+			"model": "do2:item/advancements/survival/winstreak_5"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111125
 			},
-			"model": "minecraft:item/advancements/survival/winstreak_7"
+			"model": "do2:item/advancements/survival/winstreak_7"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111126
 			},
-			"model": "minecraft:item/advancements/survival/winstreak_10"
+			"model": "do2:item/advancements/survival/winstreak_10"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111127
 			},
-			"model": "minecraft:item/advancements/adventure/3_keys"
+			"model": "do2:item/advancements/adventure/3_keys"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111128
 			},
-			"model": "minecraft:item/advancements/adventure/4_keys"
+			"model": "do2:item/advancements/adventure/4_keys"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111129
 			},
-			"model": "minecraft:item/advancements/phases/submit_1_tome"
+			"model": "do2:item/advancements/phases/submit_1_tome"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111130
 			},
-			"model": "minecraft:item/advancements/phases/submit_5_tomes"
+			"model": "do2:item/advancements/phases/submit_5_tomes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111131
 			},
-			"model": "minecraft:item/advancements/phases/submit_10_tomes"
+			"model": "do2:item/advancements/phases/submit_10_tomes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111132
 			},
-			"model": "minecraft:item/advancements/phases/submit_25_tomes"
+			"model": "do2:item/advancements/phases/submit_25_tomes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111133
 			},
-			"model": "minecraft:item/advancements/phases/submit_50_tomes"
+			"model": "do2:item/advancements/phases/submit_50_tomes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111134
 			},
-			"model": "minecraft:item/advancements/phases/submit_100_tomes"
+			"model": "do2:item/advancements/phases/submit_100_tomes"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111135
 			},
-			"model": "minecraft:item/advancements/phases/5_snow_layers"
+			"model": "do2:item/advancements/phases/5_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111136
 			},
-			"model": "minecraft:item/advancements/phases/10_snow_layers"
+			"model": "do2:item/advancements/phases/10_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111137
 			},
-			"model": "minecraft:item/advancements/phases/15_snow_layers"
+			"model": "do2:item/advancements/phases/15_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111138
 			},
-			"model": "minecraft:item/advancements/phases/20_snow_layers"
+			"model": "do2:item/advancements/phases/20_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111139
 			},
-			"model": "minecraft:item/advancements/phases/25_snow_layers"
+			"model": "do2:item/advancements/phases/25_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111140
 			},
-			"model": "minecraft:item/advancements/phases/30_snow_layers"
+			"model": "do2:item/advancements/phases/30_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111141
 			},
-			"model": "minecraft:item/advancements/phases/40_snow_layers"
+			"model": "do2:item/advancements/phases/40_snow_layers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111142
 			},
-			"model": "minecraft:item/advancements/cards/cards_in_deck_5"
+			"model": "do2:item/advancements/cards/cards_in_deck_5"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111143
 			},
-			"model": "minecraft:item/advancements/cards/cards_in_deck_20"
+			"model": "do2:item/advancements/cards/cards_in_deck_20"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111144
 			},
-			"model": "minecraft:item/advancements/cards/cards_in_deck_30"
+			"model": "do2:item/advancements/cards/cards_in_deck_30"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111145
 			},
-			"model": "minecraft:item/advancements/cards/cards_in_deck_40"
+			"model": "do2:item/advancements/cards/cards_in_deck_40"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111146
 			},
-			"model": "minecraft:item/advancements/cards/cards_in_deck_30_nc"
+			"model": "do2:item/advancements/cards/cards_in_deck_30_nc"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111147
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_crowns_25"
+			"model": "do2:item/advancements/treasure/lifetime_crowns_25"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111148
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_crowns_50"
+			"model": "do2:item/advancements/treasure/lifetime_crowns_50"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111149
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_crowns_100"
+			"model": "do2:item/advancements/treasure/lifetime_crowns_100"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111150
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_crowns_250"
+			"model": "do2:item/advancements/treasure/lifetime_crowns_250"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111151
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_tomes_25"
+			"model": "do2:item/advancements/treasure/lifetime_tomes_25"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111152
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_tomes_50"
+			"model": "do2:item/advancements/treasure/lifetime_tomes_50"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111153
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_tomes_100"
+			"model": "do2:item/advancements/treasure/lifetime_tomes_100"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111154
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_tomes_250"
+			"model": "do2:item/advancements/treasure/lifetime_tomes_250"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111155
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_embers_250"
+			"model": "do2:item/advancements/treasure/lifetime_embers_250"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111156
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_embers_500"
+			"model": "do2:item/advancements/treasure/lifetime_embers_500"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111157
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_embers_1000"
+			"model": "do2:item/advancements/treasure/lifetime_embers_1000"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111158
 			},
-			"model": "minecraft:item/advancements/treasure/lifetime_embers_2500"
+			"model": "do2:item/advancements/treasure/lifetime_embers_2500"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 1111159
 			},
-			"model": "minecraft:item/advancements/treasure/mystery_box"
+			"model": "do2:item/advancements/treasure/mystery_box"
 		}
 	
 	]

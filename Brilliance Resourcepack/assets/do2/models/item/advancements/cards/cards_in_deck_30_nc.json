@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "do2:item/advancements/cards/cards_in_deck_30_nc"
+	}
+}

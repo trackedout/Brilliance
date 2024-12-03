@@ -8,103 +8,103 @@
 			"predicate": {
 				"custom_model_data": 1
 			},
-			"model": "minecraft:item/advancements/credits/folder"
+			"model": "do2:item/advancements/credits/folder"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 2
 			},
-			"model": "minecraft:item/advancements/tabs/credits"
+			"model": "do2:item/advancements/tabs/credits"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 3
 			},
-			"model": "minecraft:item/advancements/credits/the_api"
+			"model": "do2:item/advancements/credits/the_api"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 4
 			},
-			"model": "minecraft:item/advancements/credits/docker"
+			"model": "do2:item/advancements/credits/docker"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 5
 			},
-			"model": "minecraft:item/advancements/credits/mod"
+			"model": "do2:item/advancements/credits/mod"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 6
 			},
-			"model": "minecraft:item/advancements/credits/plugin"
+			"model": "do2:item/advancements/credits/plugin"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 7
 			},
-			"model": "minecraft:item/advancements/credits/servers"
+			"model": "do2:item/advancements/credits/servers"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 8
 			},
-			"model": "minecraft:item/advancements/credits/advancements"
+			"model": "do2:item/advancements/credits/advancements"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 9
 			},
-			"model": "minecraft:item/advancements/credits/art"
+			"model": "do2:item/advancements/credits/art"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 10
 			},
-			"model": "minecraft:item/advancements/credits/stats"
+			"model": "do2:item/advancements/credits/stats"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 11
 			},
-			"model": "minecraft:item/advancements/credits/vanilla"
+			"model": "do2:item/advancements/credits/vanilla"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 12
 			},
-			"model": "minecraft:item/advancements/credits/repairs"
+			"model": "do2:item/advancements/credits/repairs"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 13
 			},
-			"model": "minecraft:item/advancements/credits/optimization"
+			"model": "do2:item/advancements/credits/optimization"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 14
 			},
-			"model": "minecraft:item/advancements/credits/organization"
+			"model": "do2:item/advancements/credits/organization"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 15
 			},
-			"model": "minecraft:item/advancements/credits/dungeon_testing"
+			"model": "do2:item/advancements/credits/dungeon_testing"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 16
 			},
-			"model": "minecraft:item/advancements/credits/infrastructure"
+			"model": "do2:item/advancements/credits/infrastructure"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 999
 			},
-			"model": "minecraft:item/advancements/credits/readme"
+			"model": "do2:item/advancements/credits/readme"
 		}
 	]
 }

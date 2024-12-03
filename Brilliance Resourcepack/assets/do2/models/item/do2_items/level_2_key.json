@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "do2:item/do2_items/level_2_key"
+	}
+}
