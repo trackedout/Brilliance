@@ -1,56 +1,216 @@
-{
-	"ravagers": [
-		"Lasagna",
-		"Laser Beams!",
-		"Meatball",
-		"Snausages",
-		"Greed",
-		"MrsTango",
-		"Beast #002",
-		"Skill Issue",
-		"Nugget",
-		"Taco",
-		"Hugs and Kisses",
-		"Bad Luck. No really...it was bad luck",
-		"Beast #007",
-		"Pumpkin",
-		"Poor Life Choices",
-		"Jellie",
-		"Hot Breath",
-		"Tango's Cough",
-		"Beast #003",
-		"Unknown Ravager",
-		"Stumbles",
-		"Shracker",
-		"Beast #004",
-		"Froomkins",
-		"big butts and I cannot lie",
-		"Commander Drool",
-		"Jimmy Jingles",
-		"Deadly Blueberries",
-		"Tinkers",
-		"Flubsy Skadeedles",
-		"Waffles",
-		"Ladders",
-		"Doughnuts",
-		"Wubsy",
-		"Munchies",
-		"Miss Management",
-		"Beast #025",
-		"Sir Fluffykins of the Dungeon",
-		"Skadoodles",
-		"Beast #029",
-		"Dunga Dunga Dunga",
-		"Captain Snoodle Pants",
-		"Mr. Poopy Head",
-		"Trolly McTrollface"
-	],
-	"wardens": [
-		"Panic",
-		"Pancakes",
-		"Pain",
-		"Pinky",
-		"Blinky",
-		"Inky"
-	]
-}
+[
+	{
+		"name":"Bad luck. No really...it was bad luck",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Beast #002",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Beast #003",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Beast #025",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Mr. Poopy Head",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Captain Snoodle Pants",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Commander Drool",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Greed",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Hot Breath",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Hugs and Kisses",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Lasagna",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Miss Management",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"MrsTango",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Munchies",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Laser Beams!",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Poor Life Choices",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Pumpkin",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Skill Issue",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Stumbles",
+		"mob": "ravager",
+		"level": 1
+	},
+	{
+		"name":"Tango's Cough",
+		"mob": "ravager",
+		"level": 1
+	},
+	
+	{
+		"name":"Beast #007",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Beast #029",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"big butts and I cannot lie",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Dunga Dunga Dunga",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Froomkins",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Meatball",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Nugget",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Shracker",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Beast #004",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Sir Fluffykins of the Dungeon",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Skadoodles",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Snausages",
+		"mob": "ravager",
+		"level": 2
+	},
+	{
+		"name":"Taco",
+		"mob": "ravager",
+		"level": 2
+	},
+	
+	{
+		"name":"Panic",
+		"mob": "warden",
+		"level": 3
+	},
+	{
+		"name":"Pain",
+		"mob": "warden",
+		"level": 3
+	},
+	{
+		"name":"Pancakes",
+		"mob": "warden",
+		"level": 3
+	},
+	
+	{
+		"name":"Pinky",
+		"mob": "warden",
+		"level": 4
+	},
+	{
+		"name":"Inky",
+		"mob": "warden",
+		"level": 4
+	},
+	{
+		"name":"Blinky",
+		"mob": "warden",
+		"level": 4
+	},
+	
+	{
+		"name":"One Eyed Willie",
+		"mob": "drowned",
+		"level": 2
+	},
+	{
+		"name":"The Worst!!!",
+		"mob": "drowned",
+		"level": 0
+	},
+	{
+		"name":"Jellie",
+		"mob": "ravager",
+		"level": 0
+	}
+]
