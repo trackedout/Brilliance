@@ -3,8 +3,8 @@
 	"parent": "minecraft:item/carved_pumpkin",
 	"texture_size": [80, 80],
 	"textures": {
-		"0": "custom:item/scarhat",
-		"particle": "custom:item/scarhat"
+		"0": "hermitcraft:item/scarhat",
+		"particle": "hermitcraft:item/scarhat"
 	},
 	"elements": [
 		{
