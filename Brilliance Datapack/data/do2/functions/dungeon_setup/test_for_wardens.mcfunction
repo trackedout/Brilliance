@@ -6,9 +6,9 @@ execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"[
 # Warden named 'Panic' should be tagged with L3Z2
 # Warden named 'Pancakes' should be tagged with L3Z3
 
-# Warden named 'Blinky' should be tagged with L3Z1
-# Warden named 'Inky' should be tagged with L3Z2
-# Warden named 'Pinky' should be tagged with L3Z3
+# Warden named 'Blinky' should be tagged with L4Z1
+# Warden named 'Inky' should be tagged with L4Z2
+# Warden named 'Pinky' should be tagged with L4Z3
 
 
 # Need to check if ONE warden is not existing. Best way I could do this:

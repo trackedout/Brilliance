@@ -11,7 +11,7 @@ function do2:dungeon_setup/refill/all
 execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618 -47 1988 cake[bites=0]
 
-function do2:level_controller/clone_storages
+function do2:level_controller/save_storages
 function do2:level_controller/get_mob_count/count_mobs
 function do2:level_controller/get_mob_names/get_mob_names
 function do2:dungeon_setup/summon/ravagers

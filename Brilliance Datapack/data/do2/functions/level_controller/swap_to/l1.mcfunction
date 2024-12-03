@@ -11,6 +11,6 @@ execute if score $dungeon do2.config.mc.level1Zones matches 1 run setblock -530 
 setblock -529 120 1939 minecraft:redstone_block
 setblock -529 120 1939 air
 
-# Clone Storage
+# Load Storage
 execute if score $dungeon do2.config.mc.level1Zones matches 0 run clone -527 126 1942 -527 125 1946 -529 114 1942
 execute if score $dungeon do2.config.mc.level1Zones matches 1 run clone -527 123 1942 -527 122 1946 -529 114 1942

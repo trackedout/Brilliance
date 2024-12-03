@@ -6,7 +6,7 @@ execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"[
 # Ravager named 'Laser Beams' should be tagged with L1Z2
 # Ravager named 'Lasagna' should be tagged with L1Z3
 # Ravager named 'Hot Breath' should be tagged with L1Z4
-# Ravager named 'Mr. Poopy Head' should be tagged with L1Z4
+# Ravager named 'Mr. Poopy Head' should be tagged with L1Z5
 # Ravager named 'Skadoodles' should be tagged with L2Z1
 # Ravager named 'Snausages' should be tagged with L2Z2
 # Ravager named 'big butts and I cannot lie' should be tagged with L2Z3

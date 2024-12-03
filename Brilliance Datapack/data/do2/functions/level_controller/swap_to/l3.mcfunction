@@ -11,5 +11,5 @@ setblock -529 120 1939 minecraft:redstone_block
 setblock -529 120 1939 air
 
 
-# Clone Storage
+# Load Storage
 clone -523 123 1942 -523 122 1946 -529 114 1942
