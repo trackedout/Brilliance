@@ -255,9 +255,9 @@
 		}
 	},
 	"PWS": {
-		"id": "minecraft:iron_nugget",
+		"id": "minecraft:clock",
 		"tag": {
-			"CustomModelData": 10,
+			"CustomModelData": 1,
 			"display": {
 				"Lore": [
 					"'{\"text\":\"Perfect sleeping every time.\"}'"
