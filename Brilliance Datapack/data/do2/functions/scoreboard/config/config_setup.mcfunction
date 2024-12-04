@@ -36,3 +36,13 @@ function do2:scoreboard/config/boolean_levers/disable_treasure/sign
 function do2:scoreboard/config/boolean_levers/use_world_cycles/sign
 function do2:scoreboard/config/boolean_levers/force_food/sign
 function do2:scoreboard/config/boolean_levers/bats_distraction/sign
+
+# ====================
+# - LEVEL CONTROLLER -
+# ====================
+# Reset Selected to Default
+setblock -522 115 1950 minecraft:warped_wall_sign[facing=east]
+data merge block -522 115 1950 {front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oReset selected"}','{"text":"to defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:level_controller/reset_to_default/reset_current"}}']}}
+# Reset All to Default
+setblock -522 115 1951 minecraft:warped_wall_sign[facing=east]
+data merge block -522 115 1950 {front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oReset all"}','{"text":"to defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:level_controller/reset_to_default/reset_all"}}']}}
