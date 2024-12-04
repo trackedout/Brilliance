@@ -32,4 +32,4 @@ execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~
 execute if score $dungeon do2.utility.onServer matches 1 unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
 
 # Give playsound tag according to player Voice Chat status
-schedule function do2:voice_chat/set 5t
+schedule function do2:voice_chat/set 5t append

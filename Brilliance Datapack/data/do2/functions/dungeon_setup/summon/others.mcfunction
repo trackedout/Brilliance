@@ -8,4 +8,4 @@ kill @e[type=minecraft:interaction,tag=parrot_blocker]
 kill @e[type=minecraft:interaction,tag=dropper_blocker]
 kill @e[type=minecraft:interaction,tag=trapdoor_blocker]
 
-schedule function do2:dungeon_setup/summon/summon_others 3t
+schedule function do2:dungeon_setup/summon/summon_others 3t append

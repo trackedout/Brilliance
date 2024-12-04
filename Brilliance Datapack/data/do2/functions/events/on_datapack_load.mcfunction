@@ -18,7 +18,7 @@ execute unless score $dungeon do2.tests.doesTangoCamExist matches 1 run function
 scoreboard objectives remove do2.tests.doesTangoCamExist
 
 # Attempt to run dungeon_setup
-scoreboard players set $dungeon do2.utility.dungeonRepair 1
+schedule function do2:postpone_dungeon_setup 1s append
 
 # One time setup:
 gamerule spawnRadius 0

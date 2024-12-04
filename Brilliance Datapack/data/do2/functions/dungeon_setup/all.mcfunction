@@ -27,8 +27,8 @@ function do2:dungeon_setup/test_for_markers
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags
 function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
-schedule function do2:dungeon_setup/summon/others 3t
-schedule function do2:dungeon_setup/teleport_killers/all 3t
+schedule function do2:dungeon_setup/summon/others 3t append
+schedule function do2:dungeon_setup/teleport_killers/all 3t append
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/balance_changes/actions
 
