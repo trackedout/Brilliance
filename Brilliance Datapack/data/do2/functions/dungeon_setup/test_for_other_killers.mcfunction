@@ -26,7 +26,7 @@ scoreboard players set $dungeon do2.tests.all_killers_alive 0
 # Check for One Eyed Willy
 execute unless entity @e[type=minecraft:drowned,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_killers_alive 1
 # Check for Training Room Drowned
-execute unless entity @e[type=minecraft:drowned,tag=L0TRAIN] run scoreboard players set $dungeon do2.tests.all_killers_alive 2
+execute unless entity @e[type=minecraft:drowned,tag=L0Z2] run scoreboard players set $dungeon do2.tests.all_killers_alive 2
 # Check for Davy Bones
 execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players set $dungeon do2.tests.all_killers_alive 3
 # Check for Evokers

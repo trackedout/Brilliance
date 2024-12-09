@@ -1,14 +1,14 @@
 
 # If no more mobs need to be made, return
-execute if score $dungeon do2.utility.mobGeneration matches ..0 run return 0
+execute if score $dungeon do2.utility.mc.mobGenerationCount matches ..0 run return 0
 
-# Summon a ravager
-summon minecraft:ravager -500 70 2000 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["newly_generated_mob","mob_being_worked_on"],  Health: 100f, CustomName: '{"text":"NAME-NOT-INCLUDED"}', Fire: -1s}
+# Summon mob
+function do2:level_controller/generate_mobs/summon_correct_mob
 
 # Count how many names are in the list.
-execute store result score $dungeon do2.utility.mobNamesCount run data get storage do2:mobs mobNames
+execute store result score $dungeon do2.utility.mc.mobNamesCount run data get storage do2:mobs mobNames
 # Generate a random number, Min = 0, Max = Amount of names in the list
-scoreboard players operation $dungeon do2.utility.randomNumberRange = $dungeon do2.utility.mobNamesCount
+scoreboard players operation $dungeon do2.utility.randomNumberRange = $dungeon do2.utility.mc.mobNamesCount
 function do2:random_gen/generate_random_number
 
 # Remove names until do2:tests array[0] becomes the randomly chosen name.
@@ -28,7 +28,7 @@ data modify storage do2:mobs mobNames set from storage do2:tests newArray
 
 # Note a mob has been generated
 tag @e[tag=mob_being_worked_on] remove mob_being_worked_on
-scoreboard players remove $dungeon do2.utility.mobGeneration 1
+scoreboard players remove $dungeon do2.utility.mc.mobGenerationCount 1
 
 # delete testing items
 execute if score $dungeon do2.tests.arrayIndex matches ..0 run data remove storage do2:tests array
@@ -36,4 +36,5 @@ execute if score $dungeon do2.tests.arrayIndex matches ..0 run data remove stora
 scoreboard objectives remove do2.tests.arrayIndex
 
 # If more mobs need to be summoned, run this function again
-execute if score $dungeon do2.utility.mobGeneration matches 1.. run function do2:level_controller/generate_mobs/generate_enough_ravagers
+execute if score $dungeon do2.utility.mc.mobGenerationCount matches 1.. run function do2:level_controller/generate_mobs/generate_enough_mobs
+execute if score $dungeon do2.utility.mc.mobGenerationCount matches ..0 run scoreboard players set $dungeon do2.utility.mc.mobGenerationType 0

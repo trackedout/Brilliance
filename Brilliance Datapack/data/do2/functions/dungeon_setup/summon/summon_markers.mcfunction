@@ -17,5 +17,8 @@ execute if score $dungeon do2.config.mc.level4Zones matches 0 run function do2:d
 function do2:dungeon_setup/summon/no_zones/summon_level_3_markers
 function do2:dungeon_setup/summon/no_zones/summon_willy_markers
 
+# Training Room Markers
+function do2:dungeon_setup/summon/no_zones/summon_training
+
 # Turn invisible *all* markers.
 function do2:dev/markers/turn_invisible/all

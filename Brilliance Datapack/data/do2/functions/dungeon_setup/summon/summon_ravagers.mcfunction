@@ -27,4 +27,4 @@ execute if score $dungeon do2.config.mc.controlSummons matches 0 if score $dunge
 # Death Gauntlet Ravager
 summon minecraft:ravager -632 -48 1990 {PersistenceRequired:1b, Tags: ["L0DEATHROOM"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}
 # Training Room Ravager
-summon minecraft:ravager -483 132 2006 {PersistenceRequired:1b, Tags: ["L0TRAIN"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"Jellie"}', Fire: -1s}
+summon minecraft:ravager -483 132 2006 {PersistenceRequired:1b, Tags: ["L0Z1"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"Jellie"}', Fire: -1s}

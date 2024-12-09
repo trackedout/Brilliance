@@ -5,7 +5,7 @@ execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"Â
 # One Eyed Willy
 execute at @e[type=marker,tag=L2WILLY,limit=1,sort=random] run summon minecraft:drowned ~ ~ ~ {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2WILLY"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"One Eyed Willie"}'}
 # Training Room Drowned
-summon minecraft:drowned -516 132 2028 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L0TRAIN"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"The Worst!!!"}'}
+summon minecraft:drowned -516 132 2028 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L0Z2"], HandDropChances: [0.0f, 0.0f], Health: 20.0f, HandItems: [{id: "minecraft:trident", Count: 1b}, {}], CustomName: '{"text":"The Worst!!!"}'}
 
 # Davy Bones
 summon minecraft:minecart -576 13 1984 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Invulnerable:1b, Tags: ["L2DAVY"], id: "minecraft:stray", Health: 20.0f, Silent: 1b, CustomName: '{"text":"Davey Bones"}',HandItems:[{id: "minecraft:bow", Count: 1b, tag:{Damage: 0, Enchantments:[{lvl: 1s, id: "minecraft:unbreaking"},{lvl: 1s, id: "minecraft:power"}]}}]}]}

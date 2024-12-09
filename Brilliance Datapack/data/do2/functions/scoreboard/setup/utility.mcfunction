@@ -20,23 +20,26 @@ scoreboard objectives add do2.utility.old_position.temp dummy "Player's old loca
 scoreboard objectives add do2.utility.floorEmbers dummy "Used to get the player's floor ember"
 scoreboard objectives add do2.utility.totalCrowns dummy "Counts player's crowns & coins"
 scoreboard objectives add do2.utility.coinsPerCrown dummy "for scoreboard operations"
-scoreboard objectives add do2.utility.shouldForceFood dummy "Boolean on whether game is wants to force the player's food at the moment."
-scoreboard objectives add do2.utility.playersFood food "Check player's food levels"
-scoreboard objectives add do2.utility.playersSaturation dummy "Check player's saturation levels"
 execute unless score $dungeon do2.utility.coinsPerCrown matches 0.. run scoreboard players set $dungeon do2.utility.coinsPerCrown 4
+scoreboard objectives add do2.utility.shouldForceFood dummy "Boolean on whether game is forcing current player's food at the moment."
+scoreboard objectives add do2.utility.playersFood food "Tracking player's food levels"
+scoreboard objectives add do2.utility.playersSaturation dummy "Tracking player's saturation levels"
 scoreboard objectives add do2.run.artifactValue dummy "How many embers the artifact was worth."
 scoreboard objectives add do2.utility.statsScreen dummy "What screen the stats are showing right now"
 execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard players set $dungeon do2.utility.statsScreen 0
 scoreboard objectives add do2.utility.priceChecker dummy "Used to count the price of cards in shops"
 scoreboard objectives add do2.utility.receivedJackpot dummy "Used to count the keys in loot boxes to see if Jackpot was won"
-scoreboard objectives add do2.utility.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
-scoreboard objectives add do2.utility.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
-scoreboard objectives add do2.utility.mobGeneration dummy "Used to count how many mobs to generate"
-scoreboard objectives add do2.utility.mobNamesCount dummy "Used to count how many mobs names exist."
 scoreboard objectives add do2.utility.playersExperience dummy "Used to count how much experience players have."
-
 scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
 execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0
+
+# - Mob Controller - (level_controller)
+scoreboard objectives add do2.utility.mc.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.mc.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.mc.mobGenerationCount dummy "Used to count how many mobs to generate"
+scoreboard objectives add do2.utility.mc.mobGenerationType dummy "Used to tell which mob is being generated."
+scoreboard objectives add do2.utility.mc.mobNamesCount dummy "Used to count how many mobs names exist."
+scoreboard objectives add do2.utility.mc.collectingLogs dummy "Boolean if collecting warnings from mob controller in order to group them up."
 
 
 # - Cycle Items utility -

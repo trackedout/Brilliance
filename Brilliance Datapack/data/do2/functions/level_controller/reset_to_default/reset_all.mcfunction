@@ -6,6 +6,9 @@ particle minecraft:explosion -528 116 1944 0 1 -2 0 30 force
 place template do2:config.mc.storages_default -527 122 1942 none none 1 0
 
 # Reset CURRENT storage
+# L0
+execute if score $dungeon do2.config.mc.levelEditing matches 0 run function do2:level_controller/reset_to_default/individual/backrooms
+
 # L1
 execute if score $dungeon do2.config.mc.levelEditing matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:level_controller/reset_to_default/individual/l1_no_zones
 execute if score $dungeon do2.config.mc.levelEditing matches 1 if score $dungeon do2.config.mc.level1Zones matches 1 run function do2:level_controller/reset_to_default/individual/l1_zones
@@ -19,5 +22,3 @@ execute if score $dungeon do2.config.mc.levelEditing matches 3 run function do2:
 # L4
 execute if score $dungeon do2.config.mc.levelEditing matches 4 run function do2:level_controller/reset_to_default/individual/l4
 
-# L5
-execute if score $dungeon do2.config.mc.levelEditing matches 5 run function do2:level_controller/reset_to_default/individual/backrooms

@@ -1,4 +1,7 @@
 # Other TODO:
+- Egg Hunt advancements can trigger by spectators.
+- Check for TOO MANY mobs to correct them.
+- Rusty Repaired advancement
 - Limit mobs per level to 30 for level controller.
 - Add Level 3, Level 4 & Backrooms to level controller mob control.
 - Config Info "booklet" needs to be updated with the new force saturation level
