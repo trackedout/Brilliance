@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"play_5_moc": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

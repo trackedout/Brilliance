@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_eerie_silence": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

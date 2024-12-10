@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"lifetime_tomes_100": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

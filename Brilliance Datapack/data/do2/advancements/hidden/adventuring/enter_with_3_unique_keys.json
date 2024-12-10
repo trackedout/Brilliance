@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"have_3_unique_floor_keys": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

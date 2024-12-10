@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"find_all_egg": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"convert_into_artifake": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

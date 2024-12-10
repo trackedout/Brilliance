@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"lifetime_embers_2500": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

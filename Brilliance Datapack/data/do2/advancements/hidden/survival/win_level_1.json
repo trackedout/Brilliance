@@ -12,7 +12,7 @@
     },
     "criteria": {
         "win_level_1": {
-            "trigger": "minecraft:tick",
+            "trigger": "minecraft:location",
             "conditions": {
                 "player": [
                     {

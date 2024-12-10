@@ -12,7 +12,7 @@
   },
   "criteria": {
     "ate_one_food": {
-        "trigger": "minecraft:tick",
+        "trigger": "minecraft:location",
         "conditions": {
             "player": [
                 {
@@ -26,7 +26,7 @@
         }
     },
     "ate_two_food": {
-        "trigger": "minecraft:tick",
+        "trigger": "minecraft:location",
         "conditions": {
             "player": [
                 {
@@ -40,7 +40,7 @@
         }
     },
     "ate_three_food": {
-        "trigger": "minecraft:tick",
+        "trigger": "minecraft:location",
         "conditions": {
             "player": [
                 {

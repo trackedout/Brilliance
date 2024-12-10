@@ -12,7 +12,7 @@
 	},
 	"criteria": {
 		"visit_a_tendril": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

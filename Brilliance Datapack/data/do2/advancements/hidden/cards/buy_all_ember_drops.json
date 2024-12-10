@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_all_ember_drops": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

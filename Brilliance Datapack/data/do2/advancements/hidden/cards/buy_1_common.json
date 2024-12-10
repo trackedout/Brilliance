@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_1_common": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

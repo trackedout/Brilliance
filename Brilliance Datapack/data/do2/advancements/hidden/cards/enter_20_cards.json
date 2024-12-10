@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"enter_20_cards": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

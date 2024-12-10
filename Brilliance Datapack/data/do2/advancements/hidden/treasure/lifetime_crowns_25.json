@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"lifetime_crowns_25": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

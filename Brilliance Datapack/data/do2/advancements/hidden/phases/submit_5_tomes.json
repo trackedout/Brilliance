@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"submit_1_tome": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

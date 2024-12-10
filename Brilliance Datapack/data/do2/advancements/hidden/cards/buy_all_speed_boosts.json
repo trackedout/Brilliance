@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_all_speed_boosts": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

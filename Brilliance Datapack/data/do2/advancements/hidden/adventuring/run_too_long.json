@@ -12,7 +12,7 @@
 	},
 	"criteria": {
 		"stay_in_dungeon_for_over_an_hour": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

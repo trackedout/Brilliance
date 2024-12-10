@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_all_hazard_blocks": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_all_utility": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

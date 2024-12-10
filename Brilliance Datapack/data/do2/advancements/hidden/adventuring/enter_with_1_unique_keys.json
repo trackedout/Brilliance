@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"holds_key_1": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

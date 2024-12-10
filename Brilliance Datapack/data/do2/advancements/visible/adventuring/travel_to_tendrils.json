@@ -12,7 +12,7 @@
 	},
 	"criteria": {
 		"visit_tendril_1": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -28,7 +28,7 @@
 			}
 		},
 		"visit_tendril_2": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -44,7 +44,7 @@
 			}
 		},
 		"visit_tendril_3": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -60,7 +60,7 @@
 			}
 		},
 		"visit_tendril_4": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -76,7 +76,7 @@
 			}
 		},
 		"visit_tendril_5": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -92,7 +92,7 @@
 			}
 		},
 		"visit_tendril_6": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -108,7 +108,7 @@
 			}
 		},
 		"visit_tendril_7": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -124,7 +124,7 @@
 			}
 		},
 		"visit_tendril_8": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -140,7 +140,7 @@
 			}
 		},
 		"visit_tendril_9": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
