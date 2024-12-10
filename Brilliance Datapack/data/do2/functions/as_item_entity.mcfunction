@@ -1,5 +1,6 @@
 # Ignore already tracked items.
 execute if entity @s[nbt={Item:{tag:{tracked:1b}}}] run tag @s add tracked
+execute if entity @s[nbt={Item:{tag:{tracked:0b}}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run return 0
 
 # - WHITELIST -
@@ -10,9 +11,11 @@ execute if entity @s[tag=tracked] run return 0
 # 3. Compasses
 # 4. Sweet Berries
 # 5. Pumpkins
-# 6. Porkchops
-# 7. Bone_meal
-# 8. Glow_berries
+# 6. Clocks
+# 7. Porkchops
+# 8. Bone_meal
+# 9. Glow_berries
+
 
 
 # - Iron Nugget - (all cards, treasures, and most of DO2)
@@ -40,6 +43,11 @@ execute if entity @s[tag=tracked] run return 0
 
 # - Pumpkins - (Used for trick/treating)
 execute if entity @s[nbt={Item:{id:"minecraft:pumpkin"}}] run tag @s add tracked
+execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
+execute if entity @s[tag=tracked] run return 0
+
+# - Clocks - (Bdub's artifact)
+execute if entity @s[nbt={Item:{id:"minecraft:clock"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 
