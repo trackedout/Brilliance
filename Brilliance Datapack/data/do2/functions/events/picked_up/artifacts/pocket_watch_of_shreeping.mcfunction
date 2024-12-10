@@ -5,7 +5,7 @@ tag @s remove pwsPickUpLogTarget
 # - End Log -
 
 # is called when player picks up the artifact
-clear @s iron_nugget{tracked:0b,CustomModelData:10} 1
+clear @s clock{tracked:0b,CustomModelData:1} 1
 
 # Give back the artifact but TRACKED this time.
 give @s minecraft:clock{CustomModelData:1, tracked:1b, display: { Lore: ['{"text":"Perfect sleeping every time."}'],Name: '{"bold":true,"color":"gold","text":"Pocket Watch of Shreeping (36)"}'}} 1
