@@ -19,7 +19,8 @@
 					{
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
-						"nbt": "{Tags:[\"do2.running\"]}",
+						
+					"team": "do2.players",
 						"scores": {
 							"do2.run.foundArtifact": {
 								"min": 1

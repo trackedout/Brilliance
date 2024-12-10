@@ -27,7 +27,8 @@
 									"do2:utility/reach_bottom_tnt_depth_charge": true
 								}
 							},
-							"nbt": "{Tags:[\"do2.running\"]}",
+							
+					"team": "do2.players",
 							"location": {
 								"position": {
 									"x": 0,
