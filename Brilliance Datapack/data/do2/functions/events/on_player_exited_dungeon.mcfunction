@@ -7,3 +7,5 @@ tag @s remove exitedLogTarget
 # - End Log -
 
 kill @e[type=vex]
+
+execute if score $dungeon do2.run.active matches 2 run scoreboard players set $dungeon do2.run.active 3

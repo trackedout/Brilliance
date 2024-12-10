@@ -45,6 +45,17 @@
 					}
 				]
 			}
+		},
+		"gamestate_check": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "reference",
+						"name": "do2:dungeon/gamestate_running"
+					}
+				]
+			}
 		}
 	},
 	"parent": "do2:hidden/treasure/treasure_root"

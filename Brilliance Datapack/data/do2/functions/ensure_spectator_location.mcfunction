@@ -1,6 +1,6 @@
 execute if entity @s[tag=do2.staff] run return 0
 execute if entity @p[team=do2.players] run return 0
-execute if score $dungeon do2.run.active matches 2.. run return 0
+execute if score $dungeon do2.run.active matches 2 run return 0
 
 # Need to check if ONE tag is not existing. Best way I could do this:
 scoreboard objectives add do2.tests.playerInLocation dummy
