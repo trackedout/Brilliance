@@ -18,7 +18,9 @@ scoreboard players set $dungeon do2.run.systems.hazard.generated 0
 scoreboard players set $dungeon do2.run.systems.hazard.blocked 0
 scoreboard players set $dungeon do2.run.systems.hazard.activated 0
 scoreboard players set $dungeon do2.run.systems.treasure.released 0
+scoreboard players set $dungeon do2.run.systems.treasure.attempts 0
 scoreboard players set $dungeon do2.run.systems.embers.released 0
+scoreboard players set $dungeon do2.run.systems.embers.attempts 0
 
 
 # - RESET ITEMS -

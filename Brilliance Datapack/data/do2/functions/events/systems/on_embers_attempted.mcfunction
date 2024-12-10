@@ -2,3 +2,9 @@
 # - Start Log -
 execute as @a[scores={do2.logs.embers=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Attempted §3Frost Embers§r."}]
 # - End Log -
+
+# update scoreboard
+scoreboard players add @a[tag=do2.received_shulker] do2.run.systems.embers.attempts 1
+scoreboard players add @a[tag=do2.received_shulker] do2.systems.embers.attempts 1
+scoreboard players add $dungeon do2.run.systems.embers.attempts 1
+scoreboard players add $dungeon do2.systems.embers.attempts 1
