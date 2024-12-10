@@ -11,10 +11,12 @@ execute as @s[advancements={do2:visible/adventuring/find_a_egg=false,do2:hidden/
 execute as @s[advancements={do2:visible/adventuring/find_all_eggs=false,do2:hidden/adventuring/find_all_eggs=true}] run advancement grant @s only do2:visible/adventuring/find_all_eggs
 execute as @s[advancements={do2:visible/adventuring/have_4_unique_keys=false,do2:hidden/adventuring/have_4_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/have_4_unique_keys
 execute as @s[advancements={do2:visible/adventuring/open_basalt_door=false,do2:hidden/adventuring/open_basalt_door=true}] run advancement grant @s only do2:visible/adventuring/open_basalt_door
+execute as @s[advancements={do2:visible/adventuring/repair_rusty=false,do2:hidden/adventuring/repair_rusty=true}] run advancement grant @s only do2:visible/adventuring/repair_rusty
 execute as @s[advancements={do2:visible/adventuring/run_too_long=false,do2:hidden/adventuring/run_too_long=true}] run advancement grant @s only do2:visible/adventuring/run_too_long
 execute as @s[advancements={do2:visible/adventuring/string_pickup=false,do2:hidden/adventuring/string_pickup=true}] run advancement grant @s only do2:visible/adventuring/string_pickup
 execute as @s[advancements={do2:visible/adventuring/survive_tnt_dive=false,do2:hidden/adventuring/survive_tnt_dive=true}] run advancement grant @s only do2:visible/adventuring/survive_tnt_dive
 execute as @s[advancements={do2:visible/adventuring/take_tnt_damage=false,do2:hidden/adventuring/take_tnt_damage=true}] run advancement grant @s only do2:visible/adventuring/take_tnt_damage
+execute as @s[advancements={do2:visible/adventuring/travel_to_a_tendril=false,do2:hidden/adventuring/travel_to_a_tendril=true}] run advancement grant @s only do2:visible/adventuring/travel_to_a_tendril
 execute as @s[advancements={do2:visible/adventuring/travel_to_tendrils=false,do2:hidden/adventuring/travel_to_tendrils=true}] run advancement grant @s only do2:visible/adventuring/travel_to_tendrils
 execute as @s[advancements={do2:visible/adventuring/use_dm_key=false,do2:hidden/adventuring/use_dm_key=true}] run advancement grant @s only do2:visible/adventuring/use_dm_key
 execute as @s[advancements={do2:visible/adventuring/yeti_scare=false,do2:hidden/adventuring/yeti_scare=true}] run advancement grant @s only do2:visible/adventuring/yeti_scare

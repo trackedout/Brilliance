@@ -1,29 +1,31 @@
 {
-  "criteria": {
-    "visit_a_tendril": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "nbt": "{Tags:[\"do2.running\"]}",
-              "location": {
-                "position": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 0
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  },
-  "rewards": {
-    "function": "do2:advancements/checks/visit_tendrils"
-  },
-  "parent": "do2:utility/root"
+	"criteria": {
+		"visit_a_tendril": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"team": "do2.players",
+					"location": {
+						"position": {
+							"x": {
+								"min": -622,
+								"max": -620
+							},
+							"y": {
+								"min": -33,
+								"max": -31
+							},
+							"z": {
+								"min": 1899,
+								"max": 1900
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:advancements/checks/visit_tendrils"
+	}
 }

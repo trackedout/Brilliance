@@ -1,14 +1,14 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:sculk"
+			"item": "minecraft:sculk_catalyst"
 		},
-		"title": "§bTendril Traveler",
-		"description": "§7Travel to the end of all nine §5Level Four§7 tendrils.",
-		"frame": "challenge",
+		"title": "§bTendril Discovery",
+		"description": "§7Stumble upon a §5Level Four§7 tendril.",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": false,
-		"hidden": false
+		"hidden": true
 	},
 	"criteria": {
 		"visit_a_tendril": {
@@ -21,7 +21,7 @@
 						"team": "do2.players",
 						"scores": {
 							"do2.tendriltravels": {
-								"min": 9
+								"min": 1
 							}
 						}
 					}
@@ -29,5 +29,5 @@
 			}
 		}
 	},
-	"parent": "do2:hidden/adventuring/travel_to_a_tendril"
+	"parent": "do2:hidden/adventuring/open_basalt_door"
 }

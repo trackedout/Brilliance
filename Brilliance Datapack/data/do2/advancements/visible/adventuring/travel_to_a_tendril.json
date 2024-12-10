@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_catalyst"
+		},
+		"title": "§bTendril Discovery",
+		"description": "§7Stumble upon a §5Level Four§7 tendril.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"visit_a_tendril": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/open_basalt_door"
+}

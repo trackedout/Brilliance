@@ -128,3 +128,15 @@ scoreboard players set @s do2.run.cards.bought.TAA 0
 scoreboard players set @s do2.run.cards.bought.PCP 0
 scoreboard players set @s do2.run.cards.bought.STU 0
 scoreboard players set @s do2.run.cards.bought.DUL 0
+
+# - RESET PER RUN SYSTEMS -
+scoreboard players set @s do2.run.systems.hazard.blocked 0
+scoreboard players set @s do2.run.systems.hazard.generated 0
+scoreboard players set @s do2.run.systems.hazard.activated 0
+scoreboard players set @s do2.run.systems.clank.blocked 0
+scoreboard players set @s do2.run.systems.clank.generated 0
+scoreboard players set @s do2.run.systems.maxclank.released 0
+scoreboard players set @s do2.run.systems.embers.released 0
+scoreboard players set @s do2.run.systems.embers.attempts 0
+scoreboard players set @s do2.run.systems.treasure.released 0
+scoreboard players set @s do2.run.systems.treasure.attempts 0
