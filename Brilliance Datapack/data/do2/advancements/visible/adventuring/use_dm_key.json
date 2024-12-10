@@ -11,6 +11,7 @@
 		"announce_to_chat": false,
 		"hidden": true
 	},
+	"comment1": "SET LOCATION TO INSIDE DM'S ROOM",
 	"criteria": {
 		"enter_dm_room": {
 			"trigger": "minecraft:impossible"

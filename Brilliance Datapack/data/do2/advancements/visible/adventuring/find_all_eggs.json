@@ -12,8 +12,325 @@
 		"hidden": false
 	},
 	"criteria": {
-		"find_all_eggs": {
-			"trigger": "minecraft:impossible"
+		"bdubs": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.bdubs": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"grian": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.grian": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"cub": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.cub": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"gold": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.gold": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"jevin": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.jevin": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"zedaph": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.zedaph": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"beef": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.beef": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"xisuma": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.xisuma": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"xb": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.xb": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"hypno": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.hypno": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"joe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.joe": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"cleo": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.cleo": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"iskall": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.iskall": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"pearl": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.pearl": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"scar": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.scar": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"wels": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.wels": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"stress": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.stress": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"impulse": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.impulse": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"false": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.false": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"docm": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.eggs.docm": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
 		}
 	},
 	"parent": "do2:visible/adventuring/find_a_egg"

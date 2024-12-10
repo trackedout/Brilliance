@@ -12,7 +12,14 @@
 	},
 	"criteria": {
 		"take_tnt_dmg": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:entity_hurt_player",
+			"conditions": {
+				"damage": {
+					"source_entity": {
+						"type": "minecraft:tnt"
+					}
+				}
+			}
 		}
 	},
 	"parent": "do2:visible/adventuring/adventuring_root"

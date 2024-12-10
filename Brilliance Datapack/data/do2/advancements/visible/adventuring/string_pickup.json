@@ -11,8 +11,21 @@
 		"hidden": false
 	},
 	"criteria": {
+		
 		"pick_up_string": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:string"
+						]
+					}
+				],
+				"player": {
+					"nbt": "{Tags:[\"do2.running\"]}"
+				}
+			}
 		}
 	},
 	"parent": "do2:visible/adventuring/adventuring_root"
