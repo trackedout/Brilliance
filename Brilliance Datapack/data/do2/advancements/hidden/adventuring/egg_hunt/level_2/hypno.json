@@ -16,6 +16,7 @@
             "trigger": "minecraft:location",
             "conditions": {
                 "player": {
+                    "team": "do2.players",
                     "type_specific": {
                         "type": "player",
                         "looking_at": {
