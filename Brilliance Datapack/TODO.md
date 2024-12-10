@@ -1,19 +1,14 @@
 # Other TODO:
-- Egg Hunt advancements can trigger by spectators.
+- Rename Level Controller to Mob Controller.
+- level controller has no preset names for wardens and drowned. In case player somehow goes over default number of names.
+- Backroom zone markers need to be populated.
+- Numbered Ravager currently only counts ravagers in their ZONE, not across the entire level. Need to fix, and exclude special mobs in the count.
 - Check for TOO MANY mobs to correct them.
-- Rusty Repaired advancement
-- Limit mobs per level to 30 for level controller.
-- Add Level 3, Level 4 & Backrooms to level controller mob control.
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
-- Randomly determine TIME of day, instead of just day/night
 - Update Brilliance's main readme.
 - Add a config to LIMIT people from receiving logs. (atm it's freely available from the /trigger cmd)
 - Fix on_crown_acquired to not log EVERY crown but instead a total of crowns, once. 
-- Track embers DROPPED in dungeon
-- Track embers ATTEMPTED to be RELEASED.
-- Track treasure DROPPED in dungeon
-- Track treasure ATTEMPTED to be RELEASED.
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Finish the level interface book.
   - Need Mob Amount & Names implemented.
@@ -21,7 +16,6 @@
 - Have dropper config book have LINKS to each of the dropper categories.
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
 - Check credit list to add ALL players to the credits tab.
-- Move all HERMITCRAFT items from resourcepack/assets/do2 to resourcepack/assets/hermitcraft
 - Remove file at "dev/markers/controller.mcfunction" eventually.
 - Maybe track card vs natural stats:
   - Hazard
@@ -36,14 +30,8 @@ triggered_shrieker
   on_reached_top_tnt_depth_charge
 - Add option for log to let receiver TP to depth charge
 - Log Lock/Unlock settings room.
-- Log level interface changes
 
 # List of things todo AFTER builder's "repair" version is done.
-- Add Bdub's clock, to be the actual new clock.
-  - Update all of the artifact spots that accept the clock
-  - Add clock to the item whitelist.
-- Update all of the compasses to the new CustomModelData.
-- Update all of the compasses filters to the new CustomModelData.
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
     - **_(Builders need to hide egg first)_**
 
@@ -70,11 +58,6 @@ triggered_shrieker
     - Don't have data tracking for crafting legendaries yet.
 - lifetime_tomes, lifetime_crowns, lifetime_embers
     - Don't have lifetime totals.
-- submit_tomes
-    - Don't have tomes submissions.
 
 
-
-## Testing Automation
-We really need to test every single advancement to make sure they work exactly as how they should.
 

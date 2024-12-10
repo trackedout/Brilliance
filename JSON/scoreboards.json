@@ -257,18 +257,6 @@
         "category": "config",
         "description": "The chance for the dungeon to set the time to night."
     },
-    "do2.config.useDaylightCycle": {
-        "auto": 2,
-        "target": "$dungeon",
-        "category": "config",
-        "description": "Whether the doDaylightCycle gamerule is true"
-    },
-    "do2.config.useWeatherCycle": {
-        "auto": 2,
-        "target": "$dungeon",
-        "category": "config",
-        "description": "Whether the doWeatherCycle gamerule is true"
-    },
     "do2.config.vexTracking": {
         "auto": 2,
         "target": "$dungeon",
@@ -442,6 +430,12 @@
         "target": "$dungeon",
         "category": "config",
         "description": "Whether zones should be used on L4."
+    },
+    "do2.config.mc.controlSummons": {
+        "auto": 2,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether to use legacy system or the new level controller."
     },
     "do2.eggs.total": {
         "auto": 1,
@@ -1527,7 +1521,7 @@
         "auto": 1,
         "target": "both",
         "category": "current",
-        "description": "Whether the card pirate's booty was available to purchase this run."
+        "description": "Whether the card pirates booty was available to purchase this run."
     },
     "do2.run.cards.available.COS": {
         "auto": 1,
@@ -2526,10 +2520,10 @@
         "description": "Detection used to check players running /trigger. Lets you customize the GUI settings."
     },
     "do2.tendriltravels": {
-        "auto": 0,
-        "target": "unknown",
-        "category": "unknown",
-        "description": "unknown"
+        "auto": 1,
+        "target": "players",
+        "category": "totals",
+        "description": "Used to denote how many tendrils the player has visited."
     },
     "do2.cards.available.EVA": {
         "auto": 1,
@@ -3119,34 +3113,88 @@
         "category": "utility",
         "description": "Used to check whether a jackpot was won from the crown shops."
     },
-    "do2.utility.mobCountCounterTest": {
+    "do2.tests.amountOfRavagers": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "tests",
+        "description": "used to count how many ravagers already are summoned in order to generate an numbered name."
+    },
+    "do2.tests.arrayIndex": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "tests",
+        "description": "Used for array manipulation for Mob Controller."
+    },
+    "do2.rustyrepairs": {
+        "auto": 1,
+        "target": "players",
+        "category": "totals",
+        "description": "Used to track how many"
+    },
+    "do2.run.systems.embers.attempts": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Used to track how much embers attempted to drop in the dungeon in this run."
+    },
+    "do2.run.systems.treasure.attempts": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Used to track how much treasure attempted to drop in the dungeon in this run."
+    },
+    "do2.systems.embers.attempts": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Used to track the total of how much embers attempted to drop in the dungeon."
+    },
+    "do2.systems.treasure.attempts": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Used to track the total of how much treasure attempted to drop in the dungeon."
+    },
+    "do2.utility.playersExperience": {
         "auto": 1,
         "target": "$dungeon",
         "category": "utility",
-        "description": "Used to help count how many mobs are meant to be in each zone."
+        "description": "Used to check player's exp in order to give them 1 level if they dont have one."
     },
-    "do2.utility.mobCountCounterTotal": {
+    "do2.utility.mc.mobCountCounterTest": {
         "auto": 1,
         "target": "$dungeon",
         "category": "utility",
-        "description": "Used to store the count how many mobs are meant to be in each zone."
+        "description": "Used to add to the total count of how many mobs are wanted in a zone."
     },
-    "do2.utility.mobGeneration": {
+    "do2.utility.mc.mobCountCounterTotal": {
         "auto": 1,
         "target": "$dungeon",
         "category": "utility",
-        "description": "Used to check whether the amount of mobs generate match the mobs needed."
+        "description": "Used to total up the count of how many mobs are wanted in a zone."
     },
-    "do2.utility.mobNamesCount": {
+    "do2.utility.mc.mobGenerationCount": {
         "auto": 1,
         "target": "$dungeon",
         "category": "utility",
-        "description": "Used to count how many names are inside a list of names."
+        "description": "Count of how many mobs the Mob Controller needs to generate in it's zone."
     },
-    "do2.config.mc.controlSummons": {
-        "auto": 0,
-        "target": "unknown",
-        "category": "unknown",
-        "description": "unknown"
+    "do2.utility.mc.mobGenerationType": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "What kind of mob is being worked on in the Mob Controller's zone."
+    },
+    "do2.utility.mc.mobNamesCount": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How many mob names are in the zone the Mob Controller is working on."
+    },
+    "do2.utility.mc.collectingLogs": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "Whether the Mob Controller is collecting logs to bundle up."
     }
 }
