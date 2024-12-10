@@ -15,23 +15,26 @@
 		"pickup_1_treasure": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "$dungeon"
+							},
+							"score": "do2.run.active"
+						},
+						"range": 2
+					}
+				],
 				"items": [
 					{
 						"items": [
 							"minecraft:iron_nugget"
 						],
 						"nbt": "{CustomModelData:2,tracked:0b}"
-					}
-				]
-			}
-		},
-		"gamestate_check": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"player": [
-					{
-						"condition": "reference",
-						"name": "do2:dungeon/gamestate_running"
 					}
 				]
 			}
