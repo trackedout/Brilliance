@@ -7,8 +7,8 @@
 		"title": "§bYou've Got a Friend in Me",
 		"description": "§7Show §6Rusty §7some love.",
 		"frame": "task",
-		"show_toast": true,
-		"announce_to_chat": true,
+		"show_toast": false,
+		"announce_to_chat": false,
 		"hidden": false
 	},
 	"criteria": {
