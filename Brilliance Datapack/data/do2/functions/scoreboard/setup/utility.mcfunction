@@ -33,7 +33,7 @@ scoreboard objectives add do2.utility.playersExperience dummy "Used to count how
 scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
 execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0
 
-# - Mob Controller - (level_controller)
+# - Mob Controller - (mob_controller)
 scoreboard objectives add do2.utility.mc.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
 scoreboard objectives add do2.utility.mc.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
 scoreboard objectives add do2.utility.mc.mobGenerationCount dummy "Used to count how many mobs to generate"
