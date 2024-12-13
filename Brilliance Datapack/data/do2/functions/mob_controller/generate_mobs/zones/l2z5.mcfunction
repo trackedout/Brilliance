@@ -11,7 +11,7 @@ execute if score $l2z5 do2.config.mc.levelZoneMobCount matches ..0 run scoreboar
 # Check for sufficient mob NAMES
 execute if score $dungeon do2.utility.mc.mobNamesCount < $l2z5 do2.config.mc.levelZoneMobCount if score $dungeon do2.utility.mc.collectingLogs matches 1 run data modify storage do2:mobs mobNameCountErrors append value 'L2Z5'
 execute if score $dungeon do2.utility.mc.mobNamesCount < $l2z5 do2.config.mc.levelZoneMobCount if score $dungeon do2.utility.mc.collectingLogs matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Not enough L2Z5's mob names for L2Z5's mob count. Adding random names to fix."}]
-execute if score $dungeon do2.utility.mc.mobNamesCount < $l2z5 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/ravager_names
+execute if score $dungeon do2.utility.mc.mobNamesCount < $l2z5 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/ravager_add_name_to_list
 
 # Generate enough mobs.
 scoreboard players set $dungeon do2.utility.mc.mobGenerationType 1

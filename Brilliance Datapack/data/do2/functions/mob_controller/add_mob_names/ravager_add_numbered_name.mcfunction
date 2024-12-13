@@ -1,7 +1,11 @@
-# TODO: Currently only counts ravagers in their ZONE, not across the entire level. Need to fix, and exclude special mobs in the count.
 # Count Ravagers
 scoreboard objectives add do2.tests.amountOfRavagers dummy
-execute store result score $dungeon do2.tests.amountOfRavagers run data get storage do2:mobs mobNames
+scoreboard players set $dungeon do2.tests.amountOfRavagers 0
+
+# Count number of ravagers.
+execute as @e[type=ravager] run scoreboard players add $dungeon do2.tests.amountOfRavagers 1
+# Subtract 2 from that number. To no longer count backroom ravager & deathroom ravager.
+scoreboard players remove $dungeon do2.tests.amountOfRavagers 2
 
 # Humans count from 1, computers count from 0. Add a fix.
 scoreboard players add $dungeon do2.tests.amountOfRavagers 1
@@ -17,4 +21,4 @@ scoreboard objectives remove do2.tests.amountOfRavagers
 scoreboard players remove $dungeon do2.tests.amountOfRavagers 1
 
 # If there STILL isn't enough mobNames for the amount of names needed, loop this function.
-execute if score $dungeon do2.utility.mc.mobNamesCount < $l1z1 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/add_numbered_ravager_name
+execute if score $dungeon do2.utility.mc.mobNamesCount < $l1z1 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/ravager_add_numbered_name

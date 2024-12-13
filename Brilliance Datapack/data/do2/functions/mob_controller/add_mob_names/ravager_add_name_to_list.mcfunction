@@ -1,5 +1,5 @@
 # If there are no MORE preset names left, add an ID'ed numbered name.
-execute unless data storage do2:mobs preset_names[0] run function do2:mob_controller/add_mob_names/add_numbered_ravager_name
+execute unless data storage do2:mobs preset_names[0] run function do2:mob_controller/add_mob_names/ravager_add_numbered_name
 execute unless data storage do2:mobs preset_names[0] run return 0
 
 # Generate a random number, Min = 0, Max = Amount of names in the list
@@ -25,4 +25,4 @@ data modify storage do2:mobs preset_names set from storage do2:tests newArray
 
 
 # If there STILL isn't enough mobNames for the amount of names needed, loop this function.
-execute if score $dungeon do2.utility.mc.mobNamesCount < $l1z1 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/add_ravager_name_to_list
+execute if score $dungeon do2.utility.mc.mobNamesCount < $l1z1 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/ravager_add_name_to_list
