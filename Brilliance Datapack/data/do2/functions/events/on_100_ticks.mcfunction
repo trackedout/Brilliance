@@ -9,12 +9,9 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"[§9B§r]:
 execute if score $dungeon do2.run.active matches 0 run function do2:scoreboard/config/config_unlock
 execute if score $dungeon do2.run.active matches 1.. run function do2:scoreboard/config/config_lock
 
-# Check if anything needs to be updated due to Level Controller changes.
-# TODO: also update mob names, and amount.
-# TODO: update these tests, after level controller is fixed.
-#execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_ravagers
-#execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_wardens
-#execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_other_killers
+execute if score $dungeon do2.config.mc.controlSummons matches 0 if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_ravagers
+execute if score $dungeon do2.config.mc.controlSummons matches 0 if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_wardens
+execute if score $dungeon do2.config.mc.controlSummons matches 0 if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_other_killers
 execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/test_for_markers
 
 # Count players on the server.
