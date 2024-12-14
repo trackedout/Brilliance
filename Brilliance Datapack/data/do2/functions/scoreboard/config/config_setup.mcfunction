@@ -37,12 +37,12 @@ function do2:scoreboard/config/boolean_levers/use_world_cycles/sign
 function do2:scoreboard/config/boolean_levers/force_food/sign
 function do2:scoreboard/config/boolean_levers/bats_distraction/sign
 
-# ====================
-# - LEVEL CONTROLLER -
-# ====================
+# ==================
+# - MOB CONTROLLER -
+# ==================
 # Reset Selected to Default
 setblock -522 115 1950 minecraft:warped_wall_sign[facing=east]
-data merge block -522 115 1950 {front_text:{messages:['{"text":"§b§oReset selected"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:level_controller/reset_to_default/reset_current"}}']}}
+data merge block -522 115 1950 {front_text:{messages:['{"text":"§b§oReset selected"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:mob_controller/reset_to_default/reset_current"}}']}}
 # Reset All to Default
 setblock -522 115 1951 minecraft:warped_wall_sign[facing=east]
-data merge block -522 115 1951 {front_text:{messages:['{"text":"§b§oReset all"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:level_controller/reset_to_default/reset_all"}}']}}
+data merge block -522 115 1951 {front_text:{messages:['{"text":"§b§oReset all"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:mob_controller/reset_to_default/reset_all"}}']}}

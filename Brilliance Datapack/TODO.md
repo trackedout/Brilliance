@@ -1,6 +1,5 @@
 # Other TODO:
-- Rename Level Controller to Mob Controller.
-- level controller has no preset names for wardens and drowned. In case player somehow goes over default number of names.
+- mob controller has no preset names for wardens and drowned. In case player somehow goes over default number of names.
 - Backroom zone markers need to be populated.
 - Numbered Ravager currently only counts ravagers in their ZONE, not across the entire level. Need to fix, and exclude special mobs in the count.
 - Check for TOO MANY mobs to correct them.

@@ -1,4 +1,3 @@
-
 # If no more mobs need to be made, return
 execute if score $dungeon do2.utility.mc.mobGenerationCount matches ..0 run return 0
 

@@ -4,17 +4,17 @@ execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[
 
 
 #L1
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/zones/l1z1
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/zones/l1z2
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/zones/l1z3
-execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:level_controller/generate_mobs/zones/l1z4
-execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:level_controller/generate_mobs/zones/l1z5
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/zones/l1z1
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/zones/l1z2
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/zones/l1z3
+execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l1z4
+execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l1z5
 #L2
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/l2z1
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/l2z2
-execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:level_controller/generate_mobs/l2z3
-execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:level_controller/generate_mobs/zones/l2z4
-execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:level_controller/generate_mobs/zones/l2z5
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/l2z1
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/l2z2
+execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs/l2z3
+execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l2z4
+execute if score $dungeon do2.config.mc.controlSummons matches 1 if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l2z5
 
 
 #L1
