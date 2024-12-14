@@ -47,4 +47,3 @@ execute unless score $l3z3 do2.config.mc.levelZoneMobCount matches 0.. run score
 execute unless score $l4z1 do2.config.mc.levelZoneMobCount matches 0.. run scoreboard players set $l4z1 do2.config.mc.levelZoneMobCount 1
 execute unless score $l4z2 do2.config.mc.levelZoneMobCount matches 0.. run scoreboard players set $l4z2 do2.config.mc.levelZoneMobCount 1
 execute unless score $l4z3 do2.config.mc.levelZoneMobCount matches 0.. run scoreboard players set $l4z3 do2.config.mc.levelZoneMobCount 1
-execute unless score $dungeon do2.config.dungeonDifficulty matches 0.. run scoreboard players set $dungeon do2.config.dungeonDifficulty 1
