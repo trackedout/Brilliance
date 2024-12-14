@@ -3,7 +3,8 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§f[§9B§r]
 # - End Log -
 
 # Check if I'm on the server or not.
-scoreboard players set $dungeon do2.utility.onServer 0
+scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
+execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0
 function do2:agronet/test_for_agronet
 # Setup scoreboard
 function do2:scoreboard/setup/all
