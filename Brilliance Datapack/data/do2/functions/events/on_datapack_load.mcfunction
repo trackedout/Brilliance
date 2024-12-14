@@ -2,6 +2,9 @@
 execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§f[§9B§r]: Datapack loaded."
 # - End Log -
 
+# Check if I'm on the server or not.
+scoreboard players set $dungeon do2.utility.onServer 0
+function do2:agronet/test_for_agronet
 # Setup scoreboard
 function do2:scoreboard/setup/all
 # Setup stats room
@@ -30,10 +33,6 @@ execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule do
 time set noon
 weather clear
 
-
-# Check if I'm on the server or not.
-scoreboard players set $dungeon do2.utility.onServer 0
-function do2:agronet/test_for_agronet
 
 # If server has agronet, than set worldspawn to be the deck area.
 # Otherwise set worldspawn to be the portal
