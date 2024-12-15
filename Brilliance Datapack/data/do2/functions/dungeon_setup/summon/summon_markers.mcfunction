@@ -18,7 +18,7 @@ function do2:dungeon_setup/summon/no_zones/summon_level_3_markers
 function do2:dungeon_setup/summon/no_zones/summon_willy_markers
 
 # Training Room Markers
-function do2:dungeon_setup/summon/no_zones/summon_training
+function do2:dungeon_setup/summon/no_zones/summon_training_markers
 
 # Turn invisible *all* markers.
 function do2:dev/markers/turn_invisible/all

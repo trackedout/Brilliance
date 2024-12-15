@@ -2,7 +2,7 @@
 function do2:mob_controller/save_storages
 function do2:mob_controller/get_mob_count/count_mobs
 function do2:mob_controller/get_mob_names/get_mob_names
-function do2:mob_controller/add_mob_names/ravager_default_names
+function do2:mob_controller/add_mob_names/ravager_names
 scoreboard players set $dungeon do2.utility.mc.collectingLogs 1
 data modify storage do2:mobs mobCountErrors set value []
 data modify storage do2:mobs mobNameCountErrors set value []

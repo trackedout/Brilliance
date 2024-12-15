@@ -1,4 +1,4 @@
-function do2:dev/markers/turn_invisible/fish_markers
+function do2:dev/markers/turn_invisible/fish_marker
 function do2:dev/markers/turn_invisible/l1z1
 function do2:dev/markers/turn_invisible/l1z2
 function do2:dev/markers/turn_invisible/l1z3

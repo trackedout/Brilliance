@@ -62,7 +62,7 @@ function do2:scoreboard/setup/systems
 function do2:scoreboard/setup/easter_eggs
 
 # - cards -
-function do2:scoreboard/setup/cards/run_cards_available
+function do2:scoreboard/setup/cards/cards_available_run
 function do2:scoreboard/setup/cards/cards_available_total
 function do2:scoreboard/setup/cards/cards_bought_run
 function do2:scoreboard/setup/cards/cards_bought_total

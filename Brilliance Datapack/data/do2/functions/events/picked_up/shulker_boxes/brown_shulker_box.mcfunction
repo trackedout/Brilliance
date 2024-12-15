@@ -76,7 +76,5 @@ execute at @s run item replace block ~ 316 ~ container.0 from entity @s inventor
 execute at @s if data block ~ 316 ~ Items[{Slot:0b,id:"minecraft:brown_shulker_box"}] run function do2:events/picked_up/shulker_boxes/shulker_adjustments/adjust_slot_36
 
 
-function do2:events/picked_up/shulker_boxes/shulker_adjustments/adjust_slot
-
 execute at @s run setblock ~ 316 ~ air replace
 advancement revoke @s only do2:utility/picked_up/shulker_boxes/brown_shulker_box

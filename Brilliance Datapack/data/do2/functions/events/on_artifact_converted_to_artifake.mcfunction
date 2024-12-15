@@ -5,7 +5,7 @@ execute as @a[scores={do2.logs.player_actions=2..}] run tellraw @s ["",{"text":"
 execute as @p[tag=do2.received_shulker] as @p[tag=do2.received_shulker] run scoreboard players set @s do2.run.convertedArtifake 1
 
 # Agronet handling
-function do2:agronet/add_artifake
+function do2:agronet/add_items/add_artifake
 
 # NOW: determine WHICH artifact got converted.
 
