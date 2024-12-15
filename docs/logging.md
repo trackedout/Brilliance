@@ -2,7 +2,7 @@
 Brilliance logs almost all interactions with the game, and nearly everything that Brilliance does.
 <br>As you can imagine, this is extremely useful for debugging the game. It's easily accessible from the config room inside the dungeon. Alternatively running the command `/trigger do2.trigger.logs` can enable your logs.
 
-Since there is a very **large** amount of availible logs, the menu allows you to customize which logs you want to receive, split into categories and then additionally split into levels of priority. You can choose which categories and priority of logs you wish to receive. `1` being highest priority logs  and `0` disabling all logs.
+Since there is a very **large** amount of available logs, the menu allows you to customize which logs you want to receive, split into categories and then additionally split into levels of priority. You can choose which categories and priority of logs you wish to receive. `1` being highest priority logs  and `0` disabling all logs.
 
 The menu in-game has it's own description of what level of priority will log, but the full completed list is accessible from this table below.<br><br>
 
