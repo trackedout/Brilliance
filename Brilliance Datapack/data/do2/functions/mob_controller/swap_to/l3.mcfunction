@@ -1,13 +1,9 @@
-# Setup lamps
-fill -521 115 1940 -517 115 1940 minecraft:bamboo_button[powered=false,facing=south]
-fill -521 116 1939 -517 116 1939 minecraft:redstone_lamp[lit=false]
+function do2:mob_controller/swap_to/setup
 setblock -519 116 1939 minecraft:redstone_lamp[lit=true]
-scoreboard players set $dungeon do2.config.mc.levelEditing 3
+scoreboard players set $dungeon do2.config.mc.levelEditing 30
 
-fill -525 115 1944 -525 116 1944 air replace
-fill -528 118 1946 -528 116 1942 air replace
-fill -529 115 1946 -529 114 1942 air replace
-place template do2:config.mc.l3_no_zones -530 113 1939 none none 1
+# Place Template
+place template do2:config.mc.l3 -531 113 1939 none none 1
 
 # Load Storage
-clone -523 123 1942 -523 122 1946 -529 114 1942
+clone -522 123 1942 -522 122 1946 -530 114 1942

@@ -15,7 +15,6 @@
 - Have dropper config book have LINKS to each of the dropper categories.
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
 - Check credit list to add ALL players to the credits tab.
-- Remove file at "dev/markers/controller.mcfunction" eventually.
 - Maybe track card vs natural stats:
   - Hazard
   - Clank

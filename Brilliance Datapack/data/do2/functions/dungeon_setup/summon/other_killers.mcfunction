@@ -1,7 +1,7 @@
 # - Make sure we don't have duplicates -
 # One Eyed Willie
 kill @e[type=minecraft:drowned]
-# Davy Bones
+# Davey Bones
 execute positioned -575.00 14.52 1984.51 run kill @e[type=minecart,distance=..2]
 kill @e[type=minecraft:stray]
 # Evokers

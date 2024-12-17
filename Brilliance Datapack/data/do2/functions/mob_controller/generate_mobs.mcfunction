@@ -3,6 +3,8 @@ function do2:mob_controller/save_storages
 function do2:mob_controller/get_mob_count/count_mobs
 function do2:mob_controller/get_mob_names/get_mob_names
 function do2:mob_controller/add_mob_names/ravager_names
+function do2:mob_controller/add_mob_names/warden_names
+function do2:mob_controller/add_mob_names/drowned_names
 scoreboard players set $dungeon do2.utility.mc.collectingLogs 1
 data modify storage do2:mobs mobCountErrors set value []
 data modify storage do2:mobs mobNameCountErrors set value []
@@ -37,7 +39,6 @@ kill @e[type=drowned,tag=L2WILLY]
 # L0
 function do2:mob_controller/generate_mobs/zones/l0z1
 function do2:mob_controller/generate_mobs/zones/l0z2
-function do2:mob_controller/generate_mobs/zones/l2willie
 
 
 # L1
@@ -55,6 +56,8 @@ function do2:mob_controller/generate_mobs/zones/l2z3
 execute if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l2z4
 execute if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:mob_controller/generate_mobs/zones/l2z5
 
+# L2_other
+function do2:mob_controller/generate_mobs/zones/l2willie
 
 # L3
 function do2:mob_controller/generate_mobs/zones/l3z1

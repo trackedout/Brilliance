@@ -21,4 +21,4 @@ function do2:dungeon_setup/summon/no_zones/summon_willie_markers
 function do2:dungeon_setup/summon/no_zones/summon_training_markers
 
 # Turn invisible *all* markers.
-function do2:dev/markers/turn_invisible/all
+function do2:mob_controller/marker_visibility/turn_invisible/all
