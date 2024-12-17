@@ -8,6 +8,8 @@ data modify storage do2:mobs mobCountErrors set value []
 data modify storage do2:mobs mobNameCountErrors set value []
 
 # kill all old mobs
+kill @e[tag=newly_generated_mob]
+kill @e[tag=mob_being_worked_on]
 kill @e[type=ravager,tag=L0Z1]
 kill @e[type=drowned,tag=L0Z2]
 kill @e[type=drowned,tag=L2WILLY]
@@ -32,7 +34,6 @@ kill @e[type=warden,tag=L4Z3]
 kill @e[tag=L0TRAIN]
 
 # L0
-
 function do2:mob_controller/generate_mobs/zones/l0z1
 function do2:mob_controller/generate_mobs/zones/l0z2
 function do2:mob_controller/generate_mobs/zones/l2willy
