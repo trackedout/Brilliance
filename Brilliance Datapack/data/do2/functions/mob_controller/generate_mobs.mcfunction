@@ -66,6 +66,8 @@ function do2:mob_controller/generate_mobs/zones/l4z1
 function do2:mob_controller/generate_mobs/zones/l4z2
 function do2:mob_controller/generate_mobs/zones/l4z3
 
+# Other Mobs
+function do2:mob_controller/generate_mobs/check_other_mobs
 
 # Display any errors
 execute store result score $dungeon do2.utility.mc.collectingLogs run data get storage do2:mobs mobCountErrors
