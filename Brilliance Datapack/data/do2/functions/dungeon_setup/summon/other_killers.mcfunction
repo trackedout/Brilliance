@@ -1,5 +1,5 @@
 # - Make sure we don't have duplicates -
-# One Eyed Willy
+# One Eyed Willie
 kill @e[type=minecraft:drowned]
 # Davy Bones
 execute positioned -575.00 14.52 1984.51 run kill @e[type=minecart,distance=..2]

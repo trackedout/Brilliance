@@ -57,9 +57,9 @@ execute if block -625 57 2011 minecraft:lever[powered=false] if entity @e[tag=fr
 # L2Z5
 execute if block -625 57 2010 minecraft:lever[powered=true] as @e[type=marker,tag=L2Z5] unless entity @s[tag=frustrated_visible] at @s run function do2:dev/markers/turn_visible/l2z5
 execute if block -625 57 2010 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L2Z5] run function do2:dev/markers/turn_invisible/l2z5
-# L2WILLY
-execute if block -625 57 2009 minecraft:lever[powered=true] as @e[type=marker,tag=L2WILLY] unless entity @s[tag=frustrated_visible] at @s run function do2:dev/markers/turn_visible/l2willy
-execute if block -625 57 2009 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L2WILLY] run function do2:dev/markers/turn_invisible/l2willy
+# L2WILLIE
+execute if block -625 57 2009 minecraft:lever[powered=true] as @e[type=marker,tag=L2WILLIE] unless entity @s[tag=frustrated_visible] at @s run function do2:dev/markers/turn_visible/l2willie
+execute if block -625 57 2009 minecraft:lever[powered=false] if entity @e[tag=frustrated_visible,tag=L2WILLIE] run function do2:dev/markers/turn_invisible/l2willie
 
 # - LEVEL 3 -
 # L3Z1

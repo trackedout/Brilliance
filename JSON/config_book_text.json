@@ -199,7 +199,7 @@
 		{
 			"id": "NIGHT_CHANCE",
 			"JSON": [
-				"    §l§oNight Chance§r\n===================\n\nThis setting lets you customizes the chance for night time. \n\nNight allows >>WILLY<< to see the player outside of water.\n§oNote§r: Hermits occasionally played at night time.\n",
+				"    §l§oNight Chance§r\n===================\n\nThis setting lets you customizes the chance for night time. \n\nNight allows >>WILLIE<< to see the player outside of water.\n§oNote§r: Hermits occasionally played at night time.\n",
 				">>TABLE_CONTENTS<<"
 			]
 		},

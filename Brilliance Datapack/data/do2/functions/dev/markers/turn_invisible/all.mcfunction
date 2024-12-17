@@ -9,7 +9,7 @@ function do2:dev/markers/turn_invisible/l2z2
 function do2:dev/markers/turn_invisible/l2z3
 function do2:dev/markers/turn_invisible/l2z4
 function do2:dev/markers/turn_invisible/l2z5
-function do2:dev/markers/turn_invisible/l2willy
+function do2:dev/markers/turn_invisible/l2willie
 function do2:dev/markers/turn_invisible/l3z1
 function do2:dev/markers/turn_invisible/l3z2
 function do2:dev/markers/turn_invisible/l3z3

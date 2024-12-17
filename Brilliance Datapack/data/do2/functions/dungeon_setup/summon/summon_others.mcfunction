@@ -14,8 +14,8 @@ execute unless entity @e[type=minecraft:sheep,tag=NO_TOUCH] run summon minecraft
 # Adventure PIG!
 execute unless entity @e[type=minecraft:pig,tag=NO_TOUCH] run summon minecraft:pig -524 110 2010 {Tags: ["NO_TOUCH"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 8.0f, Color: 6b, Air: 300s, OnGround: 0b, Fire: -1s, CustomName: '{"text":"Adventure PIG!"}'}
 
-# Witch named One-Eyed-Willy
-execute unless entity @e[type=minecraft:witch,tag=OneEyed] run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed Willy"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 26.0f, Fire: -1s}
+# Witch named One-Eyed-Willie
+execute unless entity @e[type=minecraft:witch,tag=OneEyed] run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed Willie"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 26.0f, Fire: -1s}
 
 # Start plate zombie
 execute unless entity @e[type=minecraft:zombie,tag=Start] run summon minecraft:zombie -622.5 45 1938.5 {Tags: ["Start","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 20.0f, Fire: -1s}

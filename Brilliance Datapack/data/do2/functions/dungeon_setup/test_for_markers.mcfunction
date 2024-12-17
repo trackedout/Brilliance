@@ -26,7 +26,7 @@ execute unless entity @e[type=minecraft:marker,tag=L2Z2] run scoreboard players 
 execute unless entity @e[type=minecraft:marker,tag=L2Z3] run scoreboard players set $dungeon do2.tests.all_markers_alive 14
 execute if score $dungeon do2.config.mc.level2Zones matches 0 unless entity @e[type=minecraft:marker,tag=L2Z4] run scoreboard players set $dungeon do2.tests.all_markers_alive 15
 execute if score $dungeon do2.config.mc.level2Zones matches 0 unless entity @e[type=minecraft:marker,tag=L2Z5] run scoreboard players set $dungeon do2.tests.all_markers_alive 16
-execute unless entity @e[type=minecraft:marker,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_markers_alive 17
+execute unless entity @e[type=minecraft:marker,tag=L2WILLIE] run scoreboard players set $dungeon do2.tests.all_markers_alive 17
 # Level 3 markers
 execute unless entity @e[type=minecraft:marker,tag=L3Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 18
 execute unless entity @e[type=minecraft:marker,tag=L3Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 19

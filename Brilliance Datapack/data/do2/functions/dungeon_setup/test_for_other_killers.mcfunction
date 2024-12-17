@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"§f[§9B§r]: Testing for 'other' killers ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
+execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"§f[§9B§r]: Testing for 'other' killers ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - §oOne Eyed Willie§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
 # - End Log -
 
 
@@ -23,8 +23,8 @@ execute if score $dungeon do2.config.endermiteCount matches 6.. unless entity @e
 scoreboard objectives add do2.tests.all_killers_alive dummy
 scoreboard players set $dungeon do2.tests.all_killers_alive 0
 
-# Check for One Eyed Willy
-execute unless entity @e[type=minecraft:drowned,tag=L2WILLY] run scoreboard players set $dungeon do2.tests.all_killers_alive 1
+# Check for One Eyed Willie
+execute unless entity @e[type=minecraft:drowned,tag=L2WILLIE] run scoreboard players set $dungeon do2.tests.all_killers_alive 1
 # Check for Training Room Drowned
 execute unless entity @e[type=minecraft:drowned,tag=L0Z2] run scoreboard players set $dungeon do2.tests.all_killers_alive 2
 # Check for Davy Bones

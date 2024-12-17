@@ -13,7 +13,7 @@ execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618
 
 execute if score $dungeon do2.config.mc.controlSummons matches 1 run function do2:mob_controller/generate_mobs
 # - Start Log -
-execute if score $dungeon do2.config.mc.controlSummons matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for required entities. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - Teleport Markers\n - Ravagers\n - Wardens\n - §oOne Eyed Willy§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
+execute if score $dungeon do2.config.mc.controlSummons matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for required entities. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - Teleport Markers\n - Ravagers\n - Wardens\n - §oOne Eyed Willie§r\n - §oDavy Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
 execute if score $dungeon do2.config.mc.controlSummons matches 0 run function do2:dungeon_setup/test_for_ravagers
 execute if score $dungeon do2.config.mc.controlSummons matches 0 run function do2:dungeon_setup/test_for_wardens
 execute if score $dungeon do2.config.mc.controlSummons matches 0 run function do2:dungeon_setup/test_for_other_killers

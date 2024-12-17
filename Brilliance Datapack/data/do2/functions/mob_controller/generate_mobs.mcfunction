@@ -12,7 +12,7 @@ kill @e[tag=newly_generated_mob]
 kill @e[tag=mob_being_worked_on]
 kill @e[type=ravager,tag=L0Z1]
 kill @e[type=drowned,tag=L0Z2]
-kill @e[type=drowned,tag=L2WILLY]
+kill @e[type=drowned,tag=L2WILLIE]
 kill @e[type=ravager,tag=L1Z1]
 kill @e[type=ravager,tag=L1Z2]
 kill @e[type=ravager,tag=L1Z3]
@@ -32,11 +32,12 @@ kill @e[type=warden,tag=L4Z3]
 
 # For backwards compatibility
 kill @e[tag=L0TRAIN]
+kill @e[type=drowned,tag=L2WILLY]
 
 # L0
 function do2:mob_controller/generate_mobs/zones/l0z1
 function do2:mob_controller/generate_mobs/zones/l0z2
-function do2:mob_controller/generate_mobs/zones/l2willy
+function do2:mob_controller/generate_mobs/zones/l2willie
 
 
 # L1

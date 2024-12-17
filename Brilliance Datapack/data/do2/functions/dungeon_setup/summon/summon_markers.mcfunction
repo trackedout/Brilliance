@@ -13,9 +13,9 @@ execute if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:d
 execute if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:dungeon_setup/summon/no_zones/summon_level_2_markers
 execute if score $dungeon do2.config.mc.level4Zones matches 0 run function do2:dungeon_setup/summon/no_zones/summon_level_4_markers
 
-# L3 and Willy have no zones.
+# L3 and Willie have no zones.
 function do2:dungeon_setup/summon/no_zones/summon_level_3_markers
-function do2:dungeon_setup/summon/no_zones/summon_willy_markers
+function do2:dungeon_setup/summon/no_zones/summon_willie_markers
 
 # Training Room Markers
 function do2:dungeon_setup/summon/no_zones/summon_training_markers
