@@ -1,7 +1,8 @@
 # Other TODO:
-- mob controller has no preset names for wardens and drowned. In case player somehow goes over default number of names.
-- Backroom zone markers need to be populated.
-- Numbered Ravager currently only counts ravagers in their ZONE, not across the entire level. Need to fix, and exclude special mobs in the count.
+- Update mob spawners to have a random number between 0-40s (time is in ticks)
+- Stats room is missing several features. Needs updating, especially with the new scores.
+- DavyBones & Mites need to be moved to mob_controller
+- Fish markers needs to be controlled from backrooms
 - Check for TOO MANY mobs to correct them.
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
@@ -47,15 +48,12 @@ triggered_shrieker
 - TREASURE
     - end_more_embers_than_artifact
         - Need Icon
-    - get_shard_mystery_box & get_shard_random_key
-        - Need Separate Icons if possible
     - buy_9_tomes
         - Need Icon
 ## Automation
 - craft_1_legendary
     - Don't have data tracking for crafting legendaries yet.
-- lifetime_tomes, lifetime_crowns, lifetime_embers
-    - Don't have lifetime totals.
+
 
 
 
