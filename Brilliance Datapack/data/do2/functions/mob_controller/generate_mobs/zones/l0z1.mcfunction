@@ -2,6 +2,7 @@
 execute store result score $dungeon do2.utility.mc.mobNamesCount run data get storage do2:mobs level0_zone1
 scoreboard players operation $dungeon do2.utility.mc.mobGenerationCount = $l0z1 do2.config.mc.levelZoneMobCount
 data modify storage do2:mobs mobNames set from storage do2:mobs level0_zone1
+scoreboard players set $dungeon do2.utility.mc.mobGenerationType 1
 
 # - Check for issues -
 # Check for mob AMOUNT count
@@ -14,7 +15,6 @@ execute if score $dungeon do2.utility.mc.mobNamesCount < $l0z1 do2.config.mc.lev
 execute if score $dungeon do2.utility.mc.mobNamesCount < $l0z1 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/ravager_add_name_to_list
 
 # Generate enough mobs.
-scoreboard players set $dungeon do2.utility.mc.mobGenerationType 1
 function do2:mob_controller/generate_mobs/generate_enough_mobs
 
 # Finish

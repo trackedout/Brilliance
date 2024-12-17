@@ -1,5 +1,5 @@
 # If there are no MORE preset names left, add an ID'ed numbered name.
-execute unless data storage do2:mobs preset_names[0] run function do2:mob_controller/add_mob_names/ravager_add_numbered_name
+execute unless data storage do2:mobs preset_names[0] run function do2:mob_controller/add_mob_names/add_numbered_name
 execute unless data storage do2:mobs preset_names[0] run return 0
 
 # Generate a random number, Min = 0, Max = Amount of names in the list

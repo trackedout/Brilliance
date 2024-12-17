@@ -2,6 +2,7 @@
 execute store result score $dungeon do2.utility.mc.mobNamesCount run data get storage do2:mobs level4_zone3
 scoreboard players operation $dungeon do2.utility.mc.mobGenerationCount = $l4z3 do2.config.mc.levelZoneMobCount
 data modify storage do2:mobs mobNames set from storage do2:mobs level4_zone3
+scoreboard players set $dungeon do2.utility.mc.mobGenerationType 2
 
 # - Check for issues -
 # Check for mob AMOUNT count
@@ -11,10 +12,9 @@ execute if score $l4z3 do2.config.mc.levelZoneMobCount matches ..0 run scoreboar
 # Check for sufficient mob NAMES
 execute if score $dungeon do2.utility.mc.mobNamesCount < $l4z3 do2.config.mc.levelZoneMobCount if score $dungeon do2.utility.mc.collectingLogs matches 1 run data modify storage do2:mobs mobNameCountErrors append value 'L4Z3'
 execute if score $dungeon do2.utility.mc.mobNamesCount < $l4z3 do2.config.mc.levelZoneMobCount if score $dungeon do2.utility.mc.collectingLogs matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Not enough L4Z3's mob names for L4Z3's mob count. Adding random names to fix."}]
-execute if score $dungeon do2.utility.mc.mobNamesCount < $l4z3 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/warden_names
+execute if score $dungeon do2.utility.mc.mobNamesCount < $l4z3 do2.config.mc.levelZoneMobCount run function do2:mob_controller/add_mob_names/add_name_to_list
 
 # Generate enough mobs.
-scoreboard players set $dungeon do2.utility.mc.mobGenerationType 2
 function do2:mob_controller/generate_mobs/generate_enough_mobs
 
 # Finish
