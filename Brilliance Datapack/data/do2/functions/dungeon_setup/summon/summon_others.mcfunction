@@ -90,8 +90,11 @@ summon minecraft:interaction -576.50 17.81 2010.50 {width: 1.002f, height: 0.188
 summon minecraft:interaction -573.50 16.00 2014.50 {width: 1.0f, height: 1.0f, Tags:["dropper_blocker"]}
 
 # Prevent players from interacting with the trapdoors in the ceiling of the bottom floor L3 storage room
-summon minecraft:interaction -642.00 -12.20 1889.00 {width: 2.0f, height: 0.2f, Tags:["trapdoor_blocker"]}
-summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, Tags:["trapdoor_blocker"]}
+summon minecraft:interaction -642.00 -12.20 1889.00 {width: 2.0f, height: 0.2f, Tags:["ceiling_blocker"]}
+summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, Tags:["ceiling_blocker"]}
+
+# Prevent players from interacting with the trapdoor in the foreman's office under snow layers
+summon minecraft:interaction -582.5 -3.19 1922.5 {width: 1.002f, height: 0.188f, Tags:["trapdoor_blocker"]}
 
 # TangoCam (just in case)
 execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:dungeon_setup/summon/summon_tangocam
