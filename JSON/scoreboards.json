@@ -971,6 +971,12 @@
         "category": "utility",
         "description": "Whether Brilliance can detect Agronet."
     },
+    "do2.utility.onInstance": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "Whether Brilliance can detect 'is-dungeon-instance'."
+    },
     "do2.utility.embersToGive": {
         "auto": 1,
         "target": "runners",

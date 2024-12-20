@@ -576,6 +576,7 @@ The name immediately after the `do2.` will generally be describing it's category
 |  ✅   |   🟢   | do2.utility.old_position.y           | utility  | Used to store player's old Y location before teleporting them.                                   |
 |  ✅   |   🟢   | do2.utility.old_position.z           | utility  | Used to store player's old Z location before teleporting them.                                   |
 |  ✅   |   🔴   | do2.utility.onServer                 | utility  | Whether Brilliance can detect Agronet.                                                           |
+|  ✅   |   🔴   | do2.utility.onInstance               | utility  | Whether Brilliance can detect 'is-dungeon-instance'.                                             |
 |  ✅   |   🔴   | do2.utility.playerCount              | utility  | Used to count how many players are on the server at a time.                                      |
 |  ✅   |   🔴   | do2.utility.playersExperience        | utility  | Used to check player's exp in order to give them 1 level if they dont have one.                  |
 |  ✅   |   🟢   | do2.utility.playersFood              | utility  | Player's food level                                                                              |
