@@ -30,10 +30,6 @@ execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard
 scoreboard objectives add do2.utility.priceChecker dummy "Used to count the price of cards in shops"
 scoreboard objectives add do2.utility.receivedJackpot dummy "Used to count the keys in loot boxes to see if Jackpot was won"
 scoreboard objectives add do2.utility.playersExperience dummy "Used to count how much experience players have."
-scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
-execute unless score $dungeon do2.utility.onServer matches 0.. run scoreboard players set $dungeon do2.utility.onServer 0
-scoreboard objectives add do2.utility.onInstance dummy "Checking if this Brilliance is loaded on an instance"
-execute unless score $dungeon do2.utility.onInstance matches 0.. run scoreboard players set $dungeon do2.utility.onInstance 0
 
 
 # - Mob Controller - (mob_controller)
