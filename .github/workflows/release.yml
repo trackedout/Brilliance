@@ -27,3 +27,6 @@ jobs:
           files: |
             Brilliance Datapack/brilliance-datapack.zip
             JSON/scoreboards.json
+            JSON/items_json/Cards.json
+            JSON/items_json/Artifacts.json
+            JSON/items_json/Items.json
