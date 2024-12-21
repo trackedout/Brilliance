@@ -15,19 +15,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
+					"team": "do2.players",
 					"location": {
 						"position": {
 							"x": {
 								"min": -620,
-								"max": -616
+								"max": -615
 							},
 							"y": {
 								"min": -49,
-								"max": -47
+								"max": -45
 							},
 							"z": {
-								"min": 1984,
-								"max": 1988
+								"min": 1983,
+								"max": 1989
 							}
 						}
 					}
