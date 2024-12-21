@@ -1,6 +1,5 @@
 # Ignore TANGOCAM
-execute if entity @s[name=TangoCam] run return 0
-execute if entity @s[name=tangocam] run return 0
+execute if entity @s[tag=do2.fakePlayer] run return 0
 
 # - Start Log -
 tag @s add playerSetupLogTarget

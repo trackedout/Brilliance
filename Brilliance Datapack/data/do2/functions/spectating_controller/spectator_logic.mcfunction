@@ -10,6 +10,6 @@ execute as @a[team=do2.spectators] if score $dungeon do2.run.active matches 3 at
 
 
 # Game isn't active YET.
-execute if score $dungeon do2.run.active matches 0..1 run as @a[gamemode=spectator,name=!tangocam,name=!TangoCam] at @s run function do2:spectating_controller/stay_in_lobby
+execute if score $dungeon do2.run.active matches 0..1 run as @a[gamemode=spectator,tag=!do2.fakePlayer] at @s run function do2:spectating_controller/stay_in_lobby
 # Game is over, but purchases are private.
-execute if score $dungeon do2.run.active matches 3 run as @a[team=do2.spectators,name=!tangocam,name=!TangoCam] at @s run function do2:spectating_controller/stay_in_lobby
+execute if score $dungeon do2.run.active matches 3 run as @a[team=do2.spectators,tag=!do2.fakePlayer] at @s run function do2:spectating_controller/stay_in_lobby

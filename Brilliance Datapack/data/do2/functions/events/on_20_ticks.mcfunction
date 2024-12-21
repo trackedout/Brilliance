@@ -5,11 +5,11 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"§f[§9B§
 # - End Log -
 
 # Kill TangoCam if no player's are on the server.
-execute unless entity @a[name=!tangocam,name=!TangoCam] if entity @a[name=TangoCam] run kill TangoCam
-execute unless entity @a[name=!tangocam,name=!TangoCam] if entity @a[name=tangocam] run kill tangocam
+execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=TangoCam] run kill TangoCam
+execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=tangocam] run kill tangocam
 
 # Only do dungeon repair IF: an actual player is loading the dungeon.
-execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[name=!tangocam,name=!TangoCam,distance=..300] run function do2:dungeon_setup/all
+execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[tag=!do2.fakePlayer,distance=..300] run function do2:dungeon_setup/all
 
 # Kill all bats. 0 = all, 1 = L1 & L2
 execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -200 ~
