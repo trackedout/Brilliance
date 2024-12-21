@@ -1,7 +1,7 @@
 # Other TODO:
-- Update mob spawners to have a random number between 0-40s (time is in ticks)
-- Stats room is missing several features. Needs updating, especially with the new scores.
+- Allow ghosts to spectate their allies in shop freely.
 - DavyBones & Mites need to be moved to mob_controller
+- Stats room is missing several features. Needs updating, especially with the new scores.
 - Fish markers needs to be controlled from backrooms
 - Check for TOO MANY mobs to correct them.
 - Config Info "booklet" needs to be updated with the new force saturation level
