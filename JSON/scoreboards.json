@@ -243,37 +243,87 @@
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "How many endermites can exist in Level 2."
+        "description": "How many endermites can exist in Level 2.",
+        "values": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6"
+        }
     },
     "do2.config.maxClankTreasure": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether treasure can drop after max clank is reached."
+        "description": "Whether treasure can drop after max clank is reached.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.nightTimeChance": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "The chance for the dungeon to set the time to night."
+        "description": "The chance for the dungeon to set the time to night.",
+        "values": {
+            "0": "0",
+            "5": "5",
+            "10": "10",
+            "15": "15",
+            "20": "20",
+            "25": "25",
+            "30": "30",
+            "35": "35",
+            "40": "40",
+            "45": "45",
+            "50": "50",
+            "55": "55",
+            "60": "60",
+            "65": "65",
+            "70": "70",
+            "75": "75",
+            "80": "80",
+            "85": "85",
+            "90": "90",
+            "95": "95",
+            "100": "100"
+        }
     },
     "do2.config.vexTracking": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether vex tracks players at ALL times."
+        "description": "Whether vex tracks players at ALL times.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.eggRewards": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "What rewards finding easter eggs give you."
+        "description": "What rewards finding easter eggs give you.",
+        "values":{
+            "0": "No rewards",
+            "1": "Original",
+            "2": "Classic",
+            "3": "Balanced"
+        }
     },
     "do2.config.batDistraction": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether bats are allowed in L3 and L4."
+        "description": "Whether bats are allowed in L3 and L4.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.tickRate": {
         "auto": 2,
@@ -291,115 +341,265 @@
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to quickly reset the dungeon upon game ending."
+        "description": "Whether to quickly reset the dungeon upon game ending.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.amountOfBats": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "How many bats allowed on L3 or L4 at a time."
+        "description": "How many bats allowed on L3 or L4 at a time.",
+        "values": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "11": "11",
+            "12": "12",
+            "13": "13",
+            "14": "14",
+            "15": "15"
+        }
     },
     "do2.config.amountOfFish": {
         "auto": 0,
         "target": "$dungeon",
         "category": "config",
-        "description": "The amount of fish allowed to exist."
+        "description": "The amount of fish allowed to exist.",
+        "values": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "11": "11",
+            "12": "12",
+            "13": "13",
+            "14": "14",
+            "15": "15",
+            "16": "16",
+            "17": "17",
+            "18": "18",
+            "19": "19",
+            "20": "20"
+        }
     },
     "do2.config.forceGamemode": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to try to force player's gamemode upon game start/stop."
+        "description": "Whether to try to force player's gamemode upon game start/stop.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.forceFood": {
         "auto": 0,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to force the player's food at saturation level to be a certain value."
+        "description": "Whether to force the player's food at saturation level to be a certain value.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.targetFoodLevel": {
         "auto": 0,
         "target": "$dungeon",
         "category": "config",
-        "description": "How many food bars the player's food should be."
+        "description": "How many food bars the player's food should be.",
+        "values": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "11": "11",
+            "12": "12",
+            "13": "13",
+            "14": "14",
+            "15": "15",
+            "16": "16",
+            "17": "17",
+            "18": "18",
+            "19": "19",
+            "20": "20"
+        }
     },
     "do2.config.targetSaturationLevel": {
         "auto": 0,
         "target": "$dungeon",
         "category": "config",
-        "description": "How many saturation levels the player's saturation should be."
+        "description": "How many saturation levels the player's saturation should be.",
+        "values": {
+            "0": "0",
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10",
+            "11": "11",
+            "12": "12",
+            "13": "13",
+            "14": "14",
+            "15": "15",
+            "16": "16",
+            "17": "17",
+            "18": "18",
+            "19": "19",
+            "20": "20"
+        }
     },
     "do2.config.useWorldCycle": {
         "auto": 0,
         "target": "$dungeon",
         "category": "config",
-        "description": "Used to control whether daylight and weather cycles are enabled."
+        "description": "Used to control whether daylight and weather cycles are enabled.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.dungeonDifficulty": {
         "auto": 0,
         "target": "players",
         "category": "config",
-        "description": "Used to remember what difficulty the player last played at."
+        "description": "Used to remember what difficulty the player last played at.",
+        "values": {
+            "0": "easy",
+            "1": "medium",
+            "2": "hard",
+            "3": "deadly",
+            "4": "deepfrost"
+        }
     },
     "do2.config.bc.snowHazard": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to use a new hazard in the hidden L1 shortcut."
+        "description": "Whether to use a new hazard in the hidden L1 shortcut.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.bc.l2ShipTreasureLine": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether treasure can drop on L2's ship when player is on L2."
+        "description": "Whether treasure can drop on L2's ship when player is on L2.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.bc.balancedTnTDiveLoot": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to balance the TnT dive loot more."
+        "description": "Whether to balance the TnT dive loot more.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.bc.lessLootMaxClank": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to have Max Clank have a 50% chance to stop loot."
+        "description": "Whether to have Max Clank have a 50% chance to stop loot.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.bc.suitUpRes": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether the card Suit Up grants resistance."
+        "description": "Whether the card Suit Up grants resistance.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.bc.staircaseEmbers": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether embers should drop on each staircase."
+        "description": "Whether embers should drop on each staircase.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.fr.teleportKillers": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether the killers should be spread out for each run."
+        "description": "Whether the killers should be spread out for each run.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.fr.refillBerries": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to refill all berry bushes each run."
+        "description": "Whether to refill all berry bushes each run.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.fr.resetComposters": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to empty out all composters each run."
+        "description": "Whether to empty out all composters each run.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.fr.cakeGauntlet": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether to set the cake in the death gauntlet to full each run."
+        "description": "Whether to set the cake in the death gauntlet to full each run.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.refillDungeonType": {
         "auto": 2,
@@ -417,19 +617,31 @@
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether zones should be used on L1."
+        "description": "Whether zones should be used on L1.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.mc.level2Zones": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether zones should be used on L2."
+        "description": "Whether zones should be used on L2.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.mc.level4Zones": {
         "auto": 2,
         "target": "$dungeon",
         "category": "config",
-        "description": "Whether zones should be used on L4."
+        "description": "Whether zones should be used on L4.",
+        "values":{
+            "0": "false",
+            "1": "true"
+        }
     },
     "do2.config.mc.controlSummons": {
         "auto": 2,

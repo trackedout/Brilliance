@@ -1,4 +1,5 @@
 # Other TODO:
+- do2.config.fr.teleportKillers isn't used in new system and needs to be updated todo so.
 - Allow ghosts to spectate their allies in shop freely.
 - DavyBones & Mites need to be moved to mob_controller
 - Stats room is missing several features. Needs updating, especially with the new scores.
