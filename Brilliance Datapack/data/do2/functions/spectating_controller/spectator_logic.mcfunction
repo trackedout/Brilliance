@@ -6,6 +6,7 @@ execute if score $dungeon do2.run.active matches 2 as @a[team=do2.spectators] ru
 # Enforce spectators to stay in lobby. (INSTANCE ONLY)
 execute unless score $dungeon do2.utility.onInstance matches 1 run return 0
 execute as @a[team=do2.spectators] if score $dungeon do2.run.active matches 3 at @s if entity @p[team=do2.players,distance=..1] unless entity @s[tag=do2.staff] run tellraw @s {"text":"Game is over, you are unable to spectate purchases.","color":"light_purple"}
+execute as @a[team=do2.spectators] if score $dungeon do2.run.active matches 3 at @s if entity @p[team=do2.players,distance=..1] unless entity @s[tag=do2.staff] run spectate
 execute as @a[team=do2.spectators] if score $dungeon do2.run.active matches 3 at @s if entity @p[team=do2.players,distance=..1] unless entity @s[tag=do2.staff] run tp @s -524 114 1980
 
 

@@ -1,4 +1,6 @@
 # Other TODO:
+- onInstance is being set to 1
+- checking for onInstance/Server is double checked 5s later, should do the same with files that depend on these checks.
 - Add is_waxed:1b to all non-clickable signs
 - do2.config.fr.teleportKillers isn't used in new system and needs to be updated todo so.
 - Allow ghosts to spectate their allies in shop freely.
