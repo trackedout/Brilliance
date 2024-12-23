@@ -20,9 +20,14 @@ data merge block -559 113 1988 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
 data merge block -560 113 1988 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
 data merge block -561 113 1988 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
 
+#  Check for Deepfrost_allowed
+execute unless score $dungeon do2.config.eggsUnlockDeepfrost matches 1 run function do2:dungeon_setup/unlock_deepfrost
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 run function do2:dungeon_setup/lock_deepfrost
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @s[advancements={do2:hidden/adventuring/find_all_eggs=true}] run function do2:dungeon_setup/unlock_deepfrost
+
 # Default to easy difficulty
-execute if score @s do2.config.dungeonDifficulty matches 0 run data merge block -557 113 1988 {Items:[]}
-execute if score @s do2.config.dungeonDifficulty matches 0 run data merge block -557 113 1987 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
+execute unless score @s do2.config.dungeonDifficulty matches 0 run data merge block -557 113 1988 {Items:[]}
+execute unless score @s do2.config.dungeonDifficulty matches 0 run data merge block -557 113 1987 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}
 
 execute if score @s do2.config.dungeonDifficulty matches 1 run data merge block -557 113 1988 {Items:[]}
 execute if score @s do2.config.dungeonDifficulty matches 1 run data merge block -557 113 1987 {Items:[{Slot:0b,id:"minecraft:stone",Count:1b}]}

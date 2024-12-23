@@ -46,6 +46,8 @@ scoreboard objectives add do2.config.forceFood dummy "Force player's food"
 scoreboard objectives add do2.config.targetFoodLevel dummy "What to try to set players's food level to"
 scoreboard objectives add do2.config.targetSaturationLevel dummy "What to try to set players's saturation level to"
 
+# Dungeon Config: Whether to force egg findings for deepfrost difficulty.
+scoreboard objectives add do2.config.eggsUnlockDeepfrost dummy "Eggs unlock deepfrost"
 
 # Dungeon Config: Balance Changes
 scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"
