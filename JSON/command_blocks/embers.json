@@ -3,7 +3,7 @@
         "coords": "-642 -21 1921",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -11,7 +11,7 @@
         "coords": "-640 -21 1889",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -19,7 +19,7 @@
         "coords": "-583 1 1890",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=south"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -27,7 +27,7 @@
         "coords": "-592 1 1900",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=west"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -35,7 +35,7 @@
         "coords": "-601 -11 1883",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -43,7 +43,7 @@
         "coords": "-623 -11 1924",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -51,7 +51,7 @@
         "coords": "-609 -21 1919",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -59,7 +59,7 @@
         "coords": "-586 -10 1920",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=west"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -67,7 +67,7 @@
         "coords": "-605 0 1921",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=east"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -75,7 +75,7 @@
         "coords": "-628 -1 1921",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -83,7 +83,7 @@
         "coords": "-643 0 1921",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=east"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -91,7 +91,7 @@
         "coords": "-658 -10 1895",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=south"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -99,7 +99,7 @@
         "coords": "-652 0 1891",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -107,7 +107,7 @@
         "coords": "-584 -19 1927",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -115,7 +115,7 @@
         "coords": "-582 7 1955",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -123,7 +123,7 @@
         "coords": "-598 9 1989",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -131,7 +131,7 @@
         "coords": "-573 9 2007",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -139,7 +139,7 @@
         "coords": "-569 6 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -147,7 +147,7 @@
         "coords": "-548 9 1976",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -155,7 +155,7 @@
         "coords": "-526 10 1941",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -163,7 +163,7 @@
         "coords": "-508 7 1951",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -171,7 +171,7 @@
         "coords": "-496 13 1999",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -179,7 +179,7 @@
         "coords": "-489 9 2007",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -187,7 +187,7 @@
         "coords": "-509 12 2033",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -195,7 +195,7 @@
         "coords": "-530 11 2015",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -203,7 +203,7 @@
         "coords": "-542 9 1998",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -211,7 +211,7 @@
         "coords": "-553 8 2037",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -219,7 +219,7 @@
         "coords": "-589 9 2032",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -227,7 +227,7 @@
         "coords": "-599 10 2009",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -235,7 +235,7 @@
         "coords": "-528 10 2032",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -243,7 +243,7 @@
         "coords": "-478 17 2009",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -251,7 +251,7 @@
         "coords": "-501 14 1972",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -259,7 +259,7 @@
         "coords": "-531 14 1989",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -267,7 +267,7 @@
         "coords": "-502 29 1975",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -275,7 +275,7 @@
         "coords": "-573 37 1998",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -283,7 +283,7 @@
         "coords": "-565 37 2000",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -291,7 +291,7 @@
         "coords": "-519 34 2003",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -299,7 +299,7 @@
         "coords": "-488 47 2015",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -307,7 +307,7 @@
         "coords": "-515 44 2031",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -315,7 +315,7 @@
         "coords": "-534 42 2021",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -323,7 +323,7 @@
         "coords": "-545 50 2007",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -331,7 +331,7 @@
         "coords": "-518 51 2011",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -339,7 +339,7 @@
         "coords": "-521 33 1981",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -347,7 +347,7 @@
         "coords": "-485 29 1962",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -355,7 +355,7 @@
         "coords": "-558 45 2023",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=south"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -363,7 +363,7 @@
         "coords": "-583 43 2013",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -371,7 +371,7 @@
         "coords": "-606 41 2023",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -379,7 +379,7 @@
         "coords": "-618 43 2025",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -387,7 +387,7 @@
         "coords": "-589 44 1978",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -395,7 +395,7 @@
         "coords": "-587 49 1952",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=up"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -403,7 +403,7 @@
         "coords": "-558 43 1976",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -411,7 +411,7 @@
         "coords": "-554 49 2008",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -419,7 +419,7 @@
         "coords": "-560 45 1942",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -427,7 +427,7 @@
         "coords": "-537 43 1948",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -435,7 +435,7 @@
         "coords": "-513 49 1962",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -443,7 +443,7 @@
         "coords": "-498 49 1980",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -451,7 +451,7 @@
         "coords": "-486 52 1987",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=west"
         ],
         "command": "function do2:events/systems/ember_dropped"
     },
@@ -459,7 +459,7 @@
         "coords": "-527 49 1975",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "function do2:events/systems/ember_dropped"
     }

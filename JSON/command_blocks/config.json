@@ -1,9 +1,33 @@
 [
     {
+        "coords": "-480 116 1971",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "scoreboard players set $dungeon do2.config.refillDungeonType 0"
+    },
+    {
+        "coords": "-479 116 1971",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "scoreboard players set $dungeon do2.config.refillDungeonType 2"
+    },
+    {
+        "coords": "-478 116 1971",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "scoreboard players set $dungeon do2.config.refillDungeonType 1"
+    },
+    {
         "coords": "-525 116 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/tick_rate_increase"
     },
@@ -11,7 +35,7 @@
         "coords": "-525 114 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/tick_rate_decrease"
     },
@@ -19,7 +43,7 @@
         "coords": "-527 114 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/random_night_chance/decrease"
     },
@@ -27,7 +51,7 @@
         "coords": "-529 114 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/endermites/decrease"
     },
@@ -35,7 +59,7 @@
         "coords": "-531 114 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/amount_of_bats/decrease"
     },
@@ -43,7 +67,7 @@
         "coords": "-531 116 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/amount_of_bats/increase"
     },
@@ -51,7 +75,7 @@
         "coords": "-529 116 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/endermites/increase"
     },
@@ -59,15 +83,23 @@
         "coords": "-527 116 1950",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=north"
         ],
         "command": "/function do2:scoreboard/config/random_night_chance/increase"
+    },
+    {
+        "coords": "-537 114 1964",
+        "type": "command_block",
+        "types": [
+            "facing=down"
+        ],
+        "command": "scoreboard players set $dungeon do2.config.batDistraction 0"
     },
     {
         "coords": "-535 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/force_food/enable"
     },
@@ -75,7 +107,7 @@
         "coords": "-535 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/force_food/disable"
     },
@@ -83,7 +115,7 @@
         "coords": "-533 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/use_world_cycles/disable"
     },
@@ -91,7 +123,7 @@
         "coords": "-533 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/use_world_cycles/enable"
     },
@@ -99,7 +131,7 @@
         "coords": "-531 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/disable_treasure/enable"
     },
@@ -107,7 +139,7 @@
         "coords": "-531 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/disable_treasure/disable"
     },
@@ -115,7 +147,7 @@
         "coords": "-529 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/force_gamemode/enable"
     },
@@ -123,7 +155,7 @@
         "coords": "-529 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/force_gamemode/disable"
     },
@@ -131,7 +163,7 @@
         "coords": "-527 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/fast_reset/enable"
     },
@@ -139,7 +171,7 @@
         "coords": "-527 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/fast_reset/disable"
     },
@@ -147,7 +179,7 @@
         "coords": "-525 114 1963",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/better_vex/enable"
     },
@@ -155,7 +187,7 @@
         "coords": "-525 114 1964",
         "type": "command_block",
         "types": [
-            "facing=true"
+            "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/better_vex/disable"
     }
