@@ -1,4 +1,5 @@
 # Other TODO:
+- silence mobs when player isn't on their level. Exclude shop and starting area.
 - onInstance is being set to 1
 - checking for onInstance/Server is double checked 5s later, should do the same with files that depend on these checks.
 - Add is_waxed:1b to all non-clickable signs

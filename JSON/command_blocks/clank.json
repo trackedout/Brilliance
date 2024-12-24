@@ -1,0 +1,826 @@
+[
+    {
+        "coords": "-658 -8 1932",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-653 -19 1912",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-635 -24 1892",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-584 -9 1873",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-603 -10 1918",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-621 -11 1918",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-635 -1 1915",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-625 -12 1893",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-616 -1 1894",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-630 -1 1887",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-642 -1 1892",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-596 1 1906",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-588 12 1970",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-579 10 1971",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-570 11 1994",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-578 4 1976",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-557 11 1968",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-552 10 1989",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-546 13 1956",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-538 11 1957",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-477 15 1954",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-502 13 1987",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-496 14 1992",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-488 15 1996",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-494 11 2010",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-513 13 2028",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-511 11 2016",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-510 13 2014",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-537 12 2024",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-539 7 2008",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-565 9 2022",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-568 10 2021",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-582 12 2016",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-529 11 2046",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-490 17 2026",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-492 16 2023",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-481 19 2010",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-468 19 1993",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-507 16 1976",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-510 10 1964",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-518 9 1953",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-530 9 1958",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-530 12 1971",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-519 13 1992",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-527 16 2000",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-567 9 1958",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-564 6 1948",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-459 17 2016",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-455 22 2024",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-452 21 2010",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-455 18 1988",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-457 16 1977",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-457 17 1963",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-463 16 1960",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-468 17 1972",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-519 22 1963",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-472 28 1988",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-544 38 2007",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-535 35 1995",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-526 35 1997",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-529 35 1988",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-510 44 2024",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-532 44 2027",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-539 51 2007",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-524 51 2009",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-512 50 1999",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-503 51 1998",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-520 46 2019",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-554 48 2037",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-562 45 2030",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-572 45 2033",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-581 46 2018",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-595 39 2016",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-604 42 2020",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-612 41 2024",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-622 41 2005",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-618 43 2001",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-609 42 1977",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-611 43 1970",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-578 44 1986",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-578 46 1996",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-567 46 1996",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-588 46 2007",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-609 43 2010",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-571 46 1958",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-561 46 1971",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-565 46 1984",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-548 38 1986",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-543 44 1993",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-543 44 1990",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-547 51 1979",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-543 43 1959",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-502 52 1968",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-494 51 1979",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-503 49 1985",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-503 51 1987",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-525 49 1997",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/evoker_activated"
+    },
+    {
+        "coords": "-530 52 1995",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-529 51 1985",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-526 51 1979",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-521 51 1982",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-538 51 1975",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    },
+    {
+        "coords": "-526 51 1989",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/on_shrieker"
+    }
+]

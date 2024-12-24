@@ -1,0 +1,642 @@
+[
+    {
+        "coords": "-569 -53 1883",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-568 -53 1877",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-569 -53 1853",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-590 -53 1898",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-591 -51 1871",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-590 -53 1863",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-599 -51 1841",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-600 -51 1850",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-607 -51 1864",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-637 -51 1887",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-623 -51 1889",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-635 -51 1878",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-624 -52 1856",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-636 -56 1843",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-623 -54 1841",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-600 -52 1890",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-602 -49 1911",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-574 -50 1911",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-659 -14 1923",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-649 -21 1893",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-624 -19 1890",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-613 -19 1890",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-590 -26 1898",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-582 -19 1897",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-581 -11 1892",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-597 -1 1890",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-598 -9 1882",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-604 -10 1915",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-603 -21 1925",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-590 -11 1921",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-650 -1 1916",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-635 -11 1891",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-623 -1 1891",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-630 -21 1920",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-589 11 1987",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-572 11 2013",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-572 9 1943",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-574 8 1966",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-575 11 1995",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-550 8 1969",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-534 10 1940",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-519 10 1945",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-475 13 1962",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-490 13 2001",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-554 8 2023",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-570 10 2026",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-599 8 2034",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-520 12 2024",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-503 15 2032",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-485 18 2037",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-480 25 1993",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-536 14 2003",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-518 10 1982",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-452 16 1978",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-486 19 2008",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-506 23 1957",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-545 36 1995",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-520 33 2001",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-499 42 2014",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-489 50 2020",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-512 44 2030",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-536 44 2034",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-543 49 2015",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-517 52 2007",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-516 33 1984",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-563 46 2033",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-550 38 1983",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-556 50 2006",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-549 50 1973",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-594 48 1966",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-572 55 1944",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-553 45 1955",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-542 42 1940",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-528 43 1957",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-511 50 1957",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-506 49 1962",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-505 49 1980",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-497 49 1994",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-537 44 1966",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    },
+    {
+        "coords": "-525 49 1970",
+        "type": "command_block",
+        "types": [
+            "facing=true"
+        ],
+        "command": "function do2:events/systems/compass_submitted"
+    }
+]
