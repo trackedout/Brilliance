@@ -20,9 +20,12 @@ execute positioned -549 106 1976 run function do2:reset_dungeon/default_states/c
 execute positioned -549 106 1975 run function do2:reset_dungeon/default_states/compasses/hard_1
 execute positioned -549 106 1974 run function do2:reset_dungeon/default_states/compasses/hard_2
 execute positioned -549 106 1973 run function do2:reset_dungeon/default_states/compasses/deadly_1
-execute positioned -549 106 1972 run function do2:reset_dungeon/default_states/compasses/deadly_2
-execute positioned -549 106 1971 run function do2:reset_dungeon/default_states/compasses/deepfrost_1
-execute positioned -549 106 1970 run function do2:reset_dungeon/default_states/compasses/deepfrost_2
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] positioned -549 106 1972 run function do2:reset_dungeon/default_states/compasses/deadly_2
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] positioned -549 106 1971 run function do2:reset_dungeon/default_states/compasses/deepfrost_1
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] positioned -549 106 1970 run function do2:reset_dungeon/default_states/compasses/deepfrost_2
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 positioned -549 106 1972 run function do2:reset_dungeon/default_states/compasses/deadly_2
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 positioned -549 106 1971 run function do2:reset_dungeon/default_states/compasses/deepfrost_1
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 positioned -549 106 1970 run function do2:reset_dungeon/default_states/compasses/deepfrost_2
 
 # Treasure
 execute positioned -518 35 2002 run function do2:reset_dungeon/default_states/treasure/01
