@@ -1,615 +1,650 @@
 {
-	"moment_of_clarity": {
-		"shorthand": "MOC",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "gray",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'",
-				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 106,
-			"display": {
-				"Name": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"pay_to_win": {
-		"shorthand": "P2W",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"✲ Pay to Win ✲\"}'",
-				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 107,
-			"display": {
-				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"pork_chop_power": {
-		"shorthand": "PCP",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#fed83d",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'",
-				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 109,
-			"display": {
-				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"tactical_approach": {
-		"shorthand": "TAA",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#fed83d",
-				"OriginalName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'",
-				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 108,
-			"display": {
-				"Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"sneak": {
-		"shorthand": "SNE",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "gray",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'",
-				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
-			},
-			"CustomModelData": 102,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"stability": {
-		"shorthand": "STA",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "gray",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'",
-				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
-			},
-			"CustomModelData": 105,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"treasure_hunter": {
-		"shorthand": "TRH",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "gray",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'",
-				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
-			},
-			"CustomModelData": 103,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"ember_seeker": {
-		"shorthand": "EMS",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "gray",
-				"OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'",
-				"ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
-			},
-			"CustomModelData": 104,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"evasion": {
-		"shorthand": "EVA",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
-			},
-			"CustomModelData": 110,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"tread_lightly": {
-		"shorthand": "TRL",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
-			},
-			"CustomModelData": 113,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"loot_and_scoot": {
-		"shorthand": "LAS",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
-			},
-			"CustomModelData": 111,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"frost_focus": {
-		"shorthand": "FRF",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
-			},
-			"CustomModelData": 112,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"second_wind": {
-		"shorthand": "SEW",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
-			},
-			"CustomModelData": 114,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"beast_sense": {
-		"shorthand": "BES",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
-			},
-			"CustomModelData": 115,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"bounding_strides": {
-		"shorthand": "BST",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
-			},
-			"CustomModelData": 116,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"reckless_charge": {
-		"shorthand": "REC",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
-			},
-			"CustomModelData": 119,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"sprint": {
-		"shorthand": "SPT",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
-			},
-			"CustomModelData": 117,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"nimble_looting": {
-		"shorthand": "NIL",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
-			},
-			"CustomModelData": 120,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"smash_and_grab": {
-		"shorthand": "SAG",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
-			},
-			"CustomModelData": 118,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"quick_step": {
-		"shorthand": "QUI",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
-			},
-			"CustomModelData": 121,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"suit_up": {
-		"shorthand": "SUU",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
-			},
-			"CustomModelData": 122,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"adrenaline_rush": {
-		"shorthand": "ADR",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#80c71f",
-				"OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
-			},
-			"CustomModelData": 123,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"brilliance": {
-		"shorthand": "BRI",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
-			},
-			"CustomModelData": 135,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"deepfrost": {
-		"shorthand": "DEF",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
-			},
-			"CustomModelData": 134,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"fuzzy_bunny_slippers": {
-		"shorthand": "FBS",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
-			},
-			"CustomModelData": 133,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"silent_runner": {
-		"shorthand": "SIR",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
-			},
-			"CustomModelData": 132,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"cold_snap": {
-		"shorthand": "COS",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
-			},
-			"CustomModelData": 131,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"pirates_booty": {
-		"shorthand": "PIB",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"text\":\"✧ Pirate\\'s Booty ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
-			},
-			"CustomModelData": 130,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"eyes_on_the_prize": {
-		"shorthand": "EOP",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
-			},
-			"CustomModelData": 129,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"speed_runner": {
-		"shorthand": "SPR",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
-			},
-			"CustomModelData": 125,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"chill_step": {
-		"shorthand": "CHS",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
-			},
-			"CustomModelData": 127,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"swagger": {
-		"shorthand": "SWA",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
-			},
-			"CustomModelData": 124,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"dungeon_repairs": {
-		"shorthand": "DUR",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
-			},
-			"CustomModelData": 128,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"eerie_silence": {
-		"shorthand": "EES",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3c44aa",
-				"OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'",
-				"ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
-			},
-			"CustomModelData": 126,
-			"CustomRoleplayData": "1b",
-			"display": {
-				"Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"stumble": {
-		"shorthand": "STU",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"OriginalName": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'",
-				"ModifiedName": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'",
-				"color": "dark_red",
-				"font": "minecraft:default"
-			},
-			"CustomModelData": 101,
-			"display": {
-				"Name": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'"
-			},
-			"tracked": "0b"
-		}
-	},
-	"dungeon_lackey": {
-		"shorthand": "DUL",
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#fed83d",
-				"OriginalName": "'{\"text\":\"=✲ Dungeon Lackey ✲=\"}'",
-				"ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
-			},
-			"display": {
-				"Name": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"RepairCost": 0,
-			"CustomModelData": 141,
-			"tracked": "0b"
-		}
-	}
+  "moment_of_clarity": {
+    "shorthand": "MOC",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 5,
+    "tag": {
+      "NameFormat": {
+        "color": "gray",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'",
+        "ModifiedName": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 106,
+      "display": {
+        "Name": "'{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "pay_to_win": {
+    "shorthand": "P2W",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#fed83d",
+        "OriginalName": "'{\"text\":\"✲ Pay to Win ✲\"}'",
+        "ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 107,
+      "display": {
+        "Name": "'{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "pork_chop_power": {
+    "shorthand": "PCP",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#fed83d",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'",
+        "ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 109,
+      "display": {
+        "Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "tactical_approach": {
+    "shorthand": "TAA",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#fed83d",
+        "OriginalName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'",
+        "ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 108,
+      "display": {
+        "Name": "'{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "sneak": {
+    "shorthand": "SNE",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 5,
+    "tag": {
+      "NameFormat": {
+        "color": "gray",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'",
+        "ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
+      },
+      "CustomModelData": 102,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "stability": {
+    "shorthand": "STA",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 5,
+    "tag": {
+      "NameFormat": {
+        "color": "gray",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'",
+        "ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
+      },
+      "CustomModelData": 105,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "treasure_hunter": {
+    "shorthand": "TRH",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 5,
+    "tag": {
+      "NameFormat": {
+        "color": "gray",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'",
+        "ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
+      },
+      "CustomModelData": 103,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "ember_seeker": {
+    "shorthand": "EMS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 5,
+    "tag": {
+      "NameFormat": {
+        "color": "gray",
+        "OriginalName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'",
+        "ModifiedName": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
+      },
+      "CustomModelData": 104,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "evasion": {
+    "shorthand": "EVA",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
+      },
+      "CustomModelData": 110,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "tread_lightly": {
+    "shorthand": "TRL",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
+      },
+      "CustomModelData": 113,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "loot_and_scoot": {
+    "shorthand": "LAS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
+      },
+      "CustomModelData": 111,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "frost_focus": {
+    "shorthand": "FRF",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
+      },
+      "CustomModelData": 112,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "second_wind": {
+    "shorthand": "SEW",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
+      },
+      "CustomModelData": 114,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "beast_sense": {
+    "shorthand": "BES",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
+      },
+      "CustomModelData": 115,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "bounding_strides": {
+    "shorthand": "BST",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
+      },
+      "CustomModelData": 116,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "reckless_charge": {
+    "shorthand": "REC",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
+      },
+      "CustomModelData": 119,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "sprint": {
+    "shorthand": "SPT",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
+      },
+      "CustomModelData": 117,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "nimble_looting": {
+    "shorthand": "NIL",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
+      },
+      "CustomModelData": 120,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "smash_and_grab": {
+    "shorthand": "SAG",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
+      },
+      "CustomModelData": 118,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "quick_step": {
+    "shorthand": "QUI",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
+      },
+      "CustomModelData": 121,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "suit_up": {
+    "shorthand": "SUU",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
+      },
+      "CustomModelData": 122,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "adrenaline_rush": {
+    "shorthand": "ADR",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#80c71f",
+        "OriginalName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
+      },
+      "CustomModelData": 123,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "brilliance": {
+    "shorthand": "BRI",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
+      },
+      "CustomModelData": 135,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "deepfrost": {
+    "shorthand": "DEF",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
+      },
+      "CustomModelData": 134,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "fuzzy_bunny_slippers": {
+    "shorthand": "FBS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
+      },
+      "CustomModelData": 133,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "silent_runner": {
+    "shorthand": "SIR",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
+      },
+      "CustomModelData": 132,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "cold_snap": {
+    "shorthand": "COS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
+      },
+      "CustomModelData": 131,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "pirates_booty": {
+    "shorthand": "PIB",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"text\":\"✧ Pirate\\'s Booty ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
+      },
+      "CustomModelData": 130,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate\\'s Booty ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "eyes_on_the_prize": {
+    "shorthand": "EOP",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
+      },
+      "CustomModelData": 129,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "speed_runner": {
+    "shorthand": "SPR",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
+      },
+      "CustomModelData": 125,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "chill_step": {
+    "shorthand": "CHS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
+      },
+      "CustomModelData": 127,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "swagger": {
+    "shorthand": "SWA",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
+      },
+      "CustomModelData": 124,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "dungeon_repairs": {
+    "shorthand": "DUR",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
+      },
+      "CustomModelData": 128,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "eerie_silence": {
+    "shorthand": "EES",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 3,
+    "tag": {
+      "NameFormat": {
+        "color": "#3c44aa",
+        "OriginalName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
+      },
+      "CustomModelData": 126,
+      "CustomRoleplayData": "1b",
+      "display": {
+        "Name": "'{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "stumble": {
+    "shorthand": "STU",
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "NameFormat": {
+        "OriginalName": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'",
+        "ModifiedName": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'",
+        "color": "dark_red",
+        "font": "minecraft:default"
+      },
+      "CustomModelData": 101,
+      "display": {
+        "Name": "'{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}'"
+      },
+      "tracked": "0b"
+    }
+  },
+  "dungeon_lackey": {
+    "shorthand": "DUL",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#fed83d",
+        "OriginalName": "'{\"text\":\"=✲ Dungeon Lackey ✲=\"}'",
+        "ModifiedName": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#FED83D\",\"text\":\"=✲ Dungeon Lackey ✲=\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "RepairCost": 0,
+      "CustomModelData": 141,
+      "tracked": "0b"
+    }
+  }
 }
