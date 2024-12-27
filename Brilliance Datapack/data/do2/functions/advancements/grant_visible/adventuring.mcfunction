@@ -7,6 +7,7 @@ execute as @s[advancements={do2:visible/adventuring/eat_glow_berries=false,do2:h
 execute as @s[advancements={do2:visible/adventuring/eat_three_uniques=false,do2:hidden/adventuring/eat_three_uniques=true}] run advancement grant @s only do2:visible/adventuring/eat_three_uniques
 execute as @s[advancements={do2:visible/adventuring/enter_with_1_unique_keys=false,do2:hidden/adventuring/enter_with_1_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/enter_with_1_unique_keys
 execute as @s[advancements={do2:visible/adventuring/enter_with_3_unique_keys=false,do2:hidden/adventuring/enter_with_3_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/enter_with_3_unique_keys
+execute as @s[advancements={do2:visible/adventuring/find_17_eggs=false,do2:hidden/adventuring/find_17_eggs=true}] run advancement grant @s only do2:visible/adventuring/find_17_eggs
 execute as @s[advancements={do2:visible/adventuring/find_a_egg=false,do2:hidden/adventuring/find_a_egg=true}] run advancement grant @s only do2:visible/adventuring/find_a_egg
 execute as @s[advancements={do2:visible/adventuring/find_all_eggs=false,do2:hidden/adventuring/find_all_eggs=true}] run advancement grant @s only do2:visible/adventuring/find_all_eggs
 execute as @s[advancements={do2:visible/adventuring/have_4_unique_keys=false,do2:hidden/adventuring/have_4_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/have_4_unique_keys
