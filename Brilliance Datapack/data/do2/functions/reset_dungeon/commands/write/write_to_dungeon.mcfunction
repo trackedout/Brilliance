@@ -20,9 +20,9 @@ clone -472 114 1984 -472 114 1984 -549 106 1976 replace
 clone -471 114 1984 -471 114 1984 -549 106 1975 replace
 clone -470 114 1984 -470 114 1984 -549 106 1974 replace
 clone -469 114 1984 -469 114 1984 -549 106 1973 replace
-execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] run clone -468 114 1984 -468 114 1984 -549 106 1972 replace
-execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] run clone -468 114 1984 -468 114 1984 -549 106 1971 replace
-execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_all_eggs=true}] run clone -467 114 1984 -467 114 1984 -549 106 1970 replace
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_17_eggs=true}] run clone -468 114 1984 -468 114 1984 -549 106 1972 replace
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_17_eggs=true}] run clone -468 114 1984 -468 114 1984 -549 106 1971 replace
+execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 1 if entity @p[tag=do2.received_shulker,advancements={do2:hidden/adventuring/find_17_eggs=true}] run clone -467 114 1984 -467 114 1984 -549 106 1970 replace
 execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 run clone -468 114 1984 -468 114 1984 -549 106 1972 replace
 execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 run clone -468 114 1984 -468 114 1984 -549 106 1971 replace
 execute if score $dungeon do2.config.eggsUnlockDeepfrost matches 0 run clone -466 114 1984 -466 114 1984 -549 106 1970 replace
