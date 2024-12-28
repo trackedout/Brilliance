@@ -4,11 +4,8 @@ execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"
 tag @s remove hypnoLogTarget
 # - End Log -
 
-# Grant "find any egg advancement."
-function do2:egg_hunt/found_an_egg
-
 # Set that this player has found the egg.
-execute if score @s do2.eggs.hypno matches 0 run scoreboard players set @s do2.eggs.hypno 1
+execute unless score @s do2.eggs.hypno matches 1.. run scoreboard players set @s do2.eggs.hypno 1
 
 # Grant "find any egg advancement."
 function do2:egg_hunt/found_an_egg

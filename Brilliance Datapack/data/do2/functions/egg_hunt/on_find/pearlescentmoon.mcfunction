@@ -5,7 +5,7 @@ tag @s remove pearlLogTarget
 # - End Log -
 
 # Set that this player has found the egg.
-execute if score @s do2.eggs.pearl matches 0 run scoreboard players set @s do2.eggs.pearl 1
+execute unless score @s do2.eggs.pearl matches 1.. run scoreboard players set @s do2.eggs.pearl 1
 
 # Grant "find any egg advancement."
 function do2:egg_hunt/found_an_egg

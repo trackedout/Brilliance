@@ -5,7 +5,7 @@ tag @s remove cubLogTarget
 # - End Log -
 
 # Set that this player has found the egg.
-execute if score @s do2.eggs.cub matches 0 run scoreboard players set @s do2.eggs.cub 1
+execute unless score @s do2.eggs.cub matches 1.. run scoreboard players set @s do2.eggs.cub 1
 
 # Grant "find any egg advancement."
 function do2:egg_hunt/found_an_egg

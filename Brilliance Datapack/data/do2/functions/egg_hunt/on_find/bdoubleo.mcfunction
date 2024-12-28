@@ -6,7 +6,7 @@ tag @s remove bdubLogTarget
 
 
 # Set that this player has found the egg.
-execute if score @s do2.eggs.bdubs matches 0 run scoreboard players set @s do2.eggs.bdubs 1
+execute unless score @s do2.eggs.bdubs matches 1.. run scoreboard players set @s do2.eggs.bdubs 1
 
 # Grant "find any egg advancement."
 function do2:egg_hunt/found_an_egg
