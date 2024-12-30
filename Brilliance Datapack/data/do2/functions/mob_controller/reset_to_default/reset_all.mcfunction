@@ -2,8 +2,8 @@
 playsound minecraft:block.anvil.place player @a -526 115 1944 0.2 0.1 0
 particle minecraft:explosion -528 116 1944 0 1 -2 0 30 force
 
-# Reset STORAGES to default,
-place template do2:config.mc.storages_default -528 122 1942 none none 1 0
+# Reset STORAGES to default
+place template do2:config.mc.storages_default -530 121 1940 none none 1 0
 
 # Reset CURRENT storage
 # L0
