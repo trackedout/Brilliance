@@ -61,6 +61,7 @@
 				["Notification of when a card is available for purchase.",1],
 				["Notification of when a card is purchased.",1],
 				["Notification of when a tome is purchased.",1],
+				["Notification of when crowns are spent.",1],
 				["Notification of when a card is played.",2]
 			],
 			"tooltip": {
@@ -70,6 +71,7 @@
 					["- A card is available for purchase",1],
 					["- A card is purchased",1],
 					["- A tome is purchased",1],
+					["- Crowns are spent",1],
 					["- A card is played",2]
 				]
 			}
@@ -218,7 +220,8 @@
 				["Notification of when a player reaches the bottom of the TnT dive.",3],
 				["Notification of when a player returns to the top of the TnT dive.",3],
 				["Notification of when a yeti appears.",3],
-				["Notification of when a player finds an easter egg.",3]
+				["Notification of when a player finds an easter egg.",3],
+				["Notification of when a player changes areas.",3]
 			],
 			"tooltip": {
 				"name": "§1Player Actions",
@@ -236,7 +239,8 @@
 					["- A player reaches the bottom of the TnT dive",3],
 					["- A player returns to the top of the TnT dive",3],
 					["- A yeti appears",3],
-					["- A player finds an easter egg",3]
+					["- A player finds an easter egg",3],
+					["- A player changes areas",3]
 				]
 			}
 		},

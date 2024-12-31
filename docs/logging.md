@@ -24,6 +24,7 @@ The menu in-game has it's own description of what level of priority will log, bu
 | cards | 1 | Notification of when a card is available for purchase. |
 | cards | 1 | Notification of when a card is purchased. |
 | cards | 1 | Notification of when a tome is purchased. |
+| cards | 1 | Notification of when crowns are spent. |
 | cards | 2 | Notification of when a card is played. |
 | pickups | 1 | Notification of player picking up an "Artifact" |
 | pickups | 2 | Notification of player picking up "Bombs" |
@@ -78,6 +79,7 @@ The menu in-game has it's own description of what level of priority will log, bu
 | player_actions | 3 | Notification of when a player returns to the top of the TnT dive. |
 | player_actions | 3 | Notification of when a yeti appears. |
 | player_actions | 3 | Notification of when a player finds an easter egg. |
+| player_actions | 3 | Notification of when a player changes areas. |
 | spam | 1 | Notification of a player dying.  |
 | spam | 1 | Notification of a player joining.  |
 | spam | 1 | Notification of a player respawning.  |

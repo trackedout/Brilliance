@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting droppers/hoppers in crown shop."}]
+execute as @a[scores={do2.logs.dropper_room=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting droppers/hoppers in crown shop."}]
 # - End Log -
 
 # - Set droppers IN crown shop to their DEFAULT state. -

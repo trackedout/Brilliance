@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.dropper_room=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting droppers/hoppers in dungeon."}]
+execute as @a[scores={do2.logs.dropper_room=2..}] run tellraw @s ["",{"text":"§f[§9B§r]: Resetting droppers/hoppers in dungeon."}]
 # - End Log -
 
 # - Set droppers IN dungeon to their DEFAULT state. -

@@ -1,4 +1,8 @@
 # Other TODO:
+- Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
+  - Could hack, and check player's location ON artifact submission, but best if individualize.
+- Refactor files to be less of a mess and more organized. (Needs cmd block data)
+- Move random & array manipulation files to a utility directory
 - silence mobs when player isn't on their level. Exclude shop and starting area.
 - onInstance is being set to 1
 - checking for onInstance/Server is double checked 5s later, should do the same with files that depend on these checks.
