@@ -1,6 +1,18 @@
 [
     {
         "coords": [
+            -645,
+            -21,
+            2003
+        ],
+        "type": "command_block",
+        "types": [
+            "facing=north"
+        ],
+        "command": "function do2:cards/buy/silent_runner"
+    },
+    {
+        "coords": [
             -629,
             -21,
             2014

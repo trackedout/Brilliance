@@ -1,6 +1,18 @@
 [
     {
         "coords": [
+            -548,
+            49,
+            1979
+        ],
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/systems/hazard_event/5"
+    },
+    {
+        "coords": [
             -581,
             -53,
             1891

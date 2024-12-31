@@ -1,6 +1,18 @@
 [
     {
         "coords": [
+            -629,
+            -20,
+            1987
+        ],
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:interactions.ember_shop_open master @s"
+    },
+    {
+        "coords": [
             -631,
             47,
             1945

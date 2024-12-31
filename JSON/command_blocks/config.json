@@ -1,6 +1,18 @@
 [
     {
         "coords": [
+            -537,
+            114,
+            1963
+        ],
+        "type": "command_block",
+        "types": [
+            "facing=down"
+        ],
+        "command": "scoreboard players set $dungeon do2.config.batDistraction 1"
+    },
+    {
+        "coords": [
             -642,
             -19,
             1983
