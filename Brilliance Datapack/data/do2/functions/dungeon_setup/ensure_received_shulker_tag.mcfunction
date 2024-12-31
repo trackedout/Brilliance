@@ -11,7 +11,7 @@ execute as @a[tag=do2.received_shulker] run scoreboard players add $dungeon do2.
 
 # -- More than 1 players have the tag. --
 # Give the tag to the closest ACTIVE player to the shulker's breaker.
-execute if score $dungeon do2.utility.shulkerPlayers matches 2.. positioned -566 114 1980 run tag @p[team=do2.players,tag!=do2.fakePlayer] add do2.received_shulker.temp1
+execute if score $dungeon do2.utility.shulkerPlayers matches 2.. positioned -566 114 1980 run tag @p[team=do2.players,tag=!do2.fakePlayer] add do2.received_shulker.temp1
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. if entity @p[tag=do2.received_shulker.temp1] run tellraw @a ["",{"text":"[§9B§r]: §4WARNING!!! §rPlayers: "},{"selector":"@a[tag=do2.received_shulker]","color":"dark_purple"},{"text":" §rHas the tag [§b§odo2.received_shulker§r]. Expected only 1 player to have this tag.\n§f[§9B§r]: Automatically fixing this...\n§f[§9B§r]: Only "},{"selector":"@a[tag=do2.received_shulker.temp1]","color":"dark_purple"},{"text":" §rhas tag [§b§odo2.received_shulker§r]."}]
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. if entity @p[tag=do2.received_shulker.temp1] run tag @a[tag=do2.received_shulker] remove do2.received_shulker
 execute if score $dungeon do2.utility.shulkerPlayers matches 2.. if entity @p[tag=do2.received_shulker.temp1] run tag @a[tag=do2.received_shulker.temp1] add do2.received_shulker
