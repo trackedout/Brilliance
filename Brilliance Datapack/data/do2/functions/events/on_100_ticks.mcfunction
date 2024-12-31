@@ -17,3 +17,6 @@ execute if score $dungeon do2.run.active matches 0 run function do2:dungeon_setu
 # Count players on the server.
 scoreboard players set $dungeon do2.utility.playerCount 0
 execute as @a[tag=!do2.fakePlayer] run scoreboard players add $dungeon do2.utility.playerCount 1
+
+# Enable/Disable certain triggers
+execute as @a run function do2:scoreboard/triggers/on_player_join
