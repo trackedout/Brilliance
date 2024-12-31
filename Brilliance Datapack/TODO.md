@@ -3,7 +3,6 @@
   - Could hack, and check player's location ON artifact submission, but best if individualize.
 - Refactor files to be less of a mess and more organized. (Needs cmd block data)
 - Move random & array manipulation files to a utility directory
-- silence mobs when player isn't on their level. Exclude shop and starting area.
 - onInstance is being set to 1
 - checking for onInstance/Server is double checked 5s later, should do the same with files that depend on these checks.
 - Add is_waxed:1b to all non-clickable signs
@@ -16,7 +15,6 @@
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Update Brilliance's main readme.
-- Add a config to LIMIT people from receiving logs. (atm it's freely available from the /trigger cmd)
 - Fix on_crown_acquired to not log EVERY crown but instead a total of crowns, once. 
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
 - Finish the level interface book.
