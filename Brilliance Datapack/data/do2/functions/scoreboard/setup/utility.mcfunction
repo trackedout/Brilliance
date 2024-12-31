@@ -32,6 +32,8 @@ scoreboard objectives add do2.utility.receivedJackpot dummy "Used to count the k
 scoreboard objectives add do2.utility.playersExperience dummy "Used to count how much experience players have."
 scoreboard objectives add do2.utility.setNormalScoreDefaults dummy "Used to check whether the scoreboard defaults have been set."
 scoreboard objectives add do2.utility.setTrackedOutScoreDefaults dummy "Used to check whether Tracked Out's scoreboard defaults have been set."
+scoreboard objectives add do2.utility.dungeonLocation dummy "Used to check what 'area' in the dungeon the player is in."
+scoreboard objectives add do2.utility.oldDungeonLocation dummy "Used to check what 'area' in the dungeon the player was in."
 
 
 # - Mob Controller - (mob_controller)

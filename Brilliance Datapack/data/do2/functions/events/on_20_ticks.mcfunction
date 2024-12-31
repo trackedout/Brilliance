@@ -24,6 +24,10 @@ function do2:mob_spawning/ensure_fish_count
 # Kill all not allowed mobs.
 function do2:mob_spawning/kill_bad_mobs
 
+# Figure out where players are
+execute as @a[tag=!do2.fakePlayer] at @s run function do2:locate_player
+
+
 #Todo: better way to run this only while a player is ON level 2. (Maybe with a scoreboard?)
 # Test if cove dripstone is broken.
 execute if block -634 28 1992 minecraft:redstone_block run function do2:dungeon_setup/test_for_cove_dripstone
