@@ -30,6 +30,8 @@ execute unless score $dungeon do2.utility.statsScreen matches 0.. run scoreboard
 scoreboard objectives add do2.utility.priceChecker dummy "Used to count the price of cards in shops"
 scoreboard objectives add do2.utility.receivedJackpot dummy "Used to count the keys in loot boxes to see if Jackpot was won"
 scoreboard objectives add do2.utility.playersExperience dummy "Used to count how much experience players have."
+scoreboard objectives add do2.utility.setNormalScoreDefaults dummy "Used to check whether the scoreboard defaults have been set."
+scoreboard objectives add do2.utility.setTrackedOutScoreDefaults dummy "Used to check whether Tracked Out's scoreboard defaults have been set."
 
 
 # - Mob Controller - (mob_controller)

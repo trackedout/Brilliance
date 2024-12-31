@@ -86,5 +86,5 @@ scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty
 # ================
 # - SET DEFAULTS -
 # ================
-function do2:scoreboard/setup/config_defaults
-execute if score $dungeon do2.utility.onServer matches 1 run function do2:scoreboard/setup/tracked_out_config_defaults
+execute unless score $dungeon do2.utility.setNormalScoreDefaults matches 1 run function do2:scoreboard/setup/config_defaults
+execute unless score $dungeon do2.utility.setTrackedOutScoreDefaults matches 1 if score $dungeon do2.utility.onServer matches 1 run function do2:scoreboard/setup/tracked_out_config_defaults
