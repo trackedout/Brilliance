@@ -10,4 +10,4 @@ scoreboard players enable @s do2.trigger.version
 scoreboard players enable @s do2.trigger.map
 scoreboard players enable @s do2.trigger.playsound
 scoreboard players enable @s do2.trigger.gui
-scoreboard players enable @s[team=do2.players] do2.trigger.silenceWardens
+#scoreboard players enable @s[team=do2.players] do2.trigger.silenceWardens

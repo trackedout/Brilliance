@@ -1,5 +1,5 @@
 scoreboard players set @s do2.trigger.silenceWardens 0
-scoreboard players enable @s[team=do2.players] do2.trigger.silenceWardens
+#scoreboard players enable @s[team=do2.players] do2.trigger.silenceWardens
 
 execute if score @s do2.config.silenceWardens matches 1 run scoreboard players set @s do2.config.silenceWardens 2
 execute if score @s do2.config.silenceWardens matches 0 run scoreboard players set @s do2.config.silenceWardens 1

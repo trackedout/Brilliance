@@ -19,4 +19,4 @@ scoreboard objectives add do2.trigger.gui trigger "detect gui trigger"
 scoreboard players enable @a do2.trigger.gui
 
 scoreboard objectives add do2.trigger.silenceWardens trigger "detect silenceWardens trigger"
-scoreboard players enable @a[team=do2.players] do2.trigger.silenceWardens
+#scoreboard players enable @a[team=do2.players] do2.trigger.silenceWardens
