@@ -4,3 +4,4 @@ execute as @a unless entity @s[scores={do2.trigger.version=0}] run function do2:
 execute as @a unless entity @s[scores={do2.trigger.map=0}] run function do2:scoreboard/triggers/t_map
 execute as @a unless entity @s[scores={do2.trigger.playsound=0}] run function do2:scoreboard/triggers/t_playsound
 execute as @a unless entity @s[scores={do2.trigger.gui=0}] run function do2:scoreboard/triggers/t_gui
+execute as @a unless entity @s[scores={do2.trigger.silenceWardens=0}] run function do2:scoreboard/triggers/t_silence_wardens

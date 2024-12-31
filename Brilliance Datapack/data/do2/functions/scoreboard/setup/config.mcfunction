@@ -82,6 +82,8 @@ scoreboard objectives add do2.config.mc.levelZoneMobCount dummy "How many mobs s
 
 # Player Config: Player's last used Dungeon Difficulty.
 scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"
+# Player Config: Silence wardens when unneeded.
+scoreboard objectives add do2.config.silenceWardens dummy "Silent Wardens"
 
 # ================
 # - SET DEFAULTS -
