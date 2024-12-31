@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-631 47 1945",
+        "coords": [
+            -631,
+            47,
+            1945
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -8,7 +12,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:misc.button master @s"
     },
     {
-        "coords": "-621 45 1951",
+        "coords": [
+            -621,
+            45,
+            1951
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -16,7 +24,11 @@
         "command": "schedule function do2:audio/play/level01_door_open 16t append"
     },
     {
-        "coords": "-609 45 1944",
+        "coords": [
+            -609,
+            45,
+            1944
+        ],
         "type": "chain_command_block",
         "types": [
             "facing=south"
@@ -25,7 +37,11 @@
         "auto": true
     },
     {
-        "coords": "-626 -20 1998",
+        "coords": [
+            -626,
+            -20,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -33,7 +49,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 1999",
+        "coords": [
+            -626,
+            -20,
+            1999
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -41,7 +61,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2000",
+        "coords": [
+            -626,
+            -20,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -49,7 +73,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2001",
+        "coords": [
+            -626,
+            -20,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -57,7 +85,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2002",
+        "coords": [
+            -626,
+            -20,
+            2002
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -65,7 +97,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2003",
+        "coords": [
+            -626,
+            -20,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -73,7 +109,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2004",
+        "coords": [
+            -626,
+            -20,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -81,7 +121,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2005",
+        "coords": [
+            -626,
+            -20,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -89,7 +133,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2006",
+        "coords": [
+            -626,
+            -20,
+            2006
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -97,7 +145,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2007",
+        "coords": [
+            -626,
+            -20,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -105,7 +157,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2008",
+        "coords": [
+            -626,
+            -20,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -113,7 +169,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2009",
+        "coords": [
+            -626,
+            -20,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -121,7 +181,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2010",
+        "coords": [
+            -626,
+            -20,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -129,7 +193,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2011",
+        "coords": [
+            -626,
+            -20,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -137,7 +205,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2012",
+        "coords": [
+            -626,
+            -20,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -145,7 +217,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2013",
+        "coords": [
+            -626,
+            -20,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -153,7 +229,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-626 -20 2014",
+        "coords": [
+            -626,
+            -20,
+            2014
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -161,7 +241,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 1998",
+        "coords": [
+            -648,
+            -20,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -169,7 +253,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 1999",
+        "coords": [
+            -648,
+            -20,
+            1999
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -177,7 +265,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2000",
+        "coords": [
+            -648,
+            -20,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -185,7 +277,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2001",
+        "coords": [
+            -648,
+            -20,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -193,7 +289,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2002",
+        "coords": [
+            -648,
+            -20,
+            2002
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -201,7 +301,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2003",
+        "coords": [
+            -648,
+            -20,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -209,7 +313,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2004",
+        "coords": [
+            -648,
+            -20,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -217,7 +325,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2005",
+        "coords": [
+            -648,
+            -20,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -225,7 +337,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2006",
+        "coords": [
+            -648,
+            -20,
+            2006
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -233,7 +349,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2007",
+        "coords": [
+            -648,
+            -20,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -241,7 +361,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2008",
+        "coords": [
+            -648,
+            -20,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -249,7 +373,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2009",
+        "coords": [
+            -648,
+            -20,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -257,7 +385,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2010",
+        "coords": [
+            -648,
+            -20,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -265,7 +397,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2011",
+        "coords": [
+            -648,
+            -20,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -273,7 +409,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2012",
+        "coords": [
+            -648,
+            -20,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -281,7 +421,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2013",
+        "coords": [
+            -648,
+            -20,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -289,7 +433,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-648 -20 2014",
+        "coords": [
+            -648,
+            -20,
+            2014
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -297,7 +445,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:events.card_reveal master @s"
     },
     {
-        "coords": "-645 -20 1988",
+        "coords": [
+            -645,
+            -20,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -305,7 +457,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:interactions.dungeon_taunt master @s"
     },
     {
-        "coords": "-640 -20 1981",
+        "coords": [
+            -640,
+            -20,
+            1981
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -313,7 +469,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:interactions.ember_shop_opening master @s"
     },
     {
-        "coords": "-646 -13 1990",
+        "coords": [
+            -646,
+            -13,
+            1990
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -321,7 +481,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:interactions.crown_conversion master @s"
     },
     {
-        "coords": "-637 -19 2006",
+        "coords": [
+            -637,
+            -19,
+            2006
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -329,7 +493,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:interactions.purchase master @s"
     },
     {
-        "coords": "-531 -57 1912",
+        "coords": [
+            -531,
+            -57,
+            1912
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -337,7 +505,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..176] at @s run playsound do2:ambient.drone_deepfrost master @s"
     },
     {
-        "coords": "-533 -57 1915",
+        "coords": [
+            -533,
+            -57,
+            1915
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -345,7 +517,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..180] at @s run playsound do2:ambient.drone master @s"
     },
     {
-        "coords": "-537 -56 1918",
+        "coords": [
+            -537,
+            -56,
+            1918
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -353,7 +529,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..176] at @s run playsound do2:ambient.cave_gust master @s"
     },
     {
-        "coords": "-536 -55 1921",
+        "coords": [
+            -536,
+            -55,
+            1921
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -361,7 +541,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.deep_frost master @s"
     },
     {
-        "coords": "-536 -55 1922",
+        "coords": [
+            -536,
+            -55,
+            1922
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -369,7 +553,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.quickstep master @s"
     },
     {
-        "coords": "-536 -55 1923",
+        "coords": [
+            -536,
+            -55,
+            1923
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -377,7 +565,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.brilliance master @s"
     },
     {
-        "coords": "-536 -55 1928",
+        "coords": [
+            -536,
+            -55,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -385,7 +577,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.stumble master @s"
     },
     {
-        "coords": "-531 -55 1928",
+        "coords": [
+            -531,
+            -55,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -393,7 +589,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.cash_cow master @s"
     },
     {
-        "coords": "-531 -55 1926",
+        "coords": [
+            -531,
+            -55,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -401,7 +601,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.sprint master @s"
     },
     {
-        "coords": "-531 -55 1924",
+        "coords": [
+            -531,
+            -55,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -409,7 +613,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.beast_sense master @s"
     },
     {
-        "coords": "-531 -55 1922",
+        "coords": [
+            -531,
+            -55,
+            1922
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -417,7 +625,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.loot_and_scoot master @s"
     },
     {
-        "coords": "-526 -55 1924",
+        "coords": [
+            -526,
+            -55,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -425,7 +637,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.avalanche master @s"
     },
     {
-        "coords": "-526 -55 1925",
+        "coords": [
+            -526,
+            -55,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -433,7 +649,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.bounding_strides master @s"
     },
     {
-        "coords": "-526 -55 1926",
+        "coords": [
+            -526,
+            -55,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -441,7 +661,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.second_wind master @s"
     },
     {
-        "coords": "-526 -55 1928",
+        "coords": [
+            -526,
+            -55,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -449,7 +673,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.cold_snap master @s"
     },
     {
-        "coords": "-541 -55 1921",
+        "coords": [
+            -541,
+            -55,
+            1921
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -457,7 +685,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.evasion master @s"
     },
     {
-        "coords": "-541 -55 1923",
+        "coords": [
+            -541,
+            -55,
+            1923
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -465,7 +697,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.nimble_looting master @s"
     },
     {
-        "coords": "-541 -55 1924",
+        "coords": [
+            -541,
+            -55,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -473,7 +709,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.eyes_on_the_prize master @s"
     },
     {
-        "coords": "-541 -55 1926",
+        "coords": [
+            -541,
+            -55,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -481,7 +721,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.dungeon_repairs master @s"
     },
     {
-        "coords": "-546 -55 1928",
+        "coords": [
+            -546,
+            -55,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -489,7 +733,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.adrenaline_rush master @s"
     },
     {
-        "coords": "-546 -55 1927",
+        "coords": [
+            -546,
+            -55,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -497,7 +745,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.pay_to_win master @s"
     },
     {
-        "coords": "-546 -55 1926",
+        "coords": [
+            -546,
+            -55,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -505,7 +757,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.smash_and_grab master @s"
     },
     {
-        "coords": "-546 -55 1925",
+        "coords": [
+            -546,
+            -55,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -513,7 +769,11 @@
         "command": "schedule function do2:audio/play/cards_reckless_charge 12t append"
     },
     {
-        "coords": "-546 -55 1924",
+        "coords": [
+            -546,
+            -55,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -521,7 +781,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.swagger master @s"
     },
     {
-        "coords": "-546 -55 1923",
+        "coords": [
+            -546,
+            -55,
+            1923
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -529,7 +793,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.frost_focus master @s"
     },
     {
-        "coords": "-546 -55 1921",
+        "coords": [
+            -546,
+            -55,
+            1921
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -537,7 +805,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.tread_lightly master @s"
     },
     {
-        "coords": "-551 -55 1921",
+        "coords": [
+            -551,
+            -55,
+            1921
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -545,7 +817,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.stability master @s"
     },
     {
-        "coords": "-551 -55 1922",
+        "coords": [
+            -551,
+            -55,
+            1922
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -553,7 +829,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.sneak master @s"
     },
     {
-        "coords": "-551 -55 1923",
+        "coords": [
+            -551,
+            -55,
+            1923
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -561,7 +841,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.ember_seeker master @s"
     },
     {
-        "coords": "-551 -55 1924",
+        "coords": [
+            -551,
+            -55,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -569,7 +853,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.eerie_silence master @s"
     },
     {
-        "coords": "-551 -55 1925",
+        "coords": [
+            -551,
+            -55,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -577,7 +865,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.treasure_hunter master @s"
     },
     {
-        "coords": "-551 -55 1926",
+        "coords": [
+            -551,
+            -55,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -585,7 +877,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.chill_step master @s"
     },
     {
-        "coords": "-551 -55 1927",
+        "coords": [
+            -551,
+            -55,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -593,7 +889,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.moment_of_clarity master @s"
     },
     {
-        "coords": "-551 -55 1928",
+        "coords": [
+            -551,
+            -55,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -601,7 +901,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..177] at @s run playsound do2:cards.pirates_booty master @s"
     },
     {
-        "coords": "-546 -55 1931",
+        "coords": [
+            -546,
+            -55,
+            1931
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -609,7 +913,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.heartbeat master @s"
     },
     {
-        "coords": "-545 -55 1934",
+        "coords": [
+            -545,
+            -55,
+            1934
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -617,7 +925,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.heartbeat master @s"
     },
     {
-        "coords": "-546 -55 1934",
+        "coords": [
+            -546,
+            -55,
+            1934
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -625,7 +937,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.heartbeat master @s"
     },
     {
-        "coords": "-547 -56 1953",
+        "coords": [
+            -547,
+            -56,
+            1953
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -633,7 +949,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.clank_blocked master @s"
     },
     {
-        "coords": "-541 -56 1953",
+        "coords": [
+            -541,
+            -56,
+            1953
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -641,7 +961,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.hazard_blocked master @s"
     },
     {
-        "coords": "-542 -56 1953",
+        "coords": [
+            -542,
+            -56,
+            1953
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -649,7 +973,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..170] at @s run playsound do2:events.hazard master @s"
     },
     {
-        "coords": "-525 -31 1937",
+        "coords": [
+            -525,
+            -31,
+            1937
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -657,7 +985,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..220] at @s run playsound do2:events.artifact_retrived master @s"
     },
     {
-        "coords": "-656 -10 1929",
+        "coords": [
+            -656,
+            -10,
+            1929
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -665,7 +997,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:ambient.wood master @s"
     },
     {
-        "coords": "-655 -17 1884",
+        "coords": [
+            -655,
+            -17,
+            1884
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -673,7 +1009,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:ambient.wood master @s"
     },
     {
-        "coords": "-637 -22 1893",
+        "coords": [
+            -637,
+            -22,
+            1893
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -681,7 +1021,11 @@
         "command": "schedule function do2:audio/play/level04_door_open 16t append"
     },
     {
-        "coords": "-587 -4 1877",
+        "coords": [
+            -587,
+            -4,
+            1877
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -689,7 +1033,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:ambient.wood master @s"
     },
     {
-        "coords": "-602 -22 1928",
+        "coords": [
+            -602,
+            -22,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -697,7 +1045,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..80] at @s run playsound do2:ambient.metal master @s"
     },
     {
-        "coords": "-619 31 1920",
+        "coords": [
+            -619,
+            31,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -705,7 +1057,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..180] at @s run playsound do2:events.recycle master @s"
     },
     {
-        "coords": "-593 20 1955",
+        "coords": [
+            -593,
+            20,
+            1955
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -713,7 +1069,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:misc.cast_exit master @s"
     },
     {
-        "coords": "-533 10 2054",
+        "coords": [
+            -533,
+            10,
+            2054
+        ],
         "type": "chain_command_block",
         "types": [
             "facing=up"
@@ -722,7 +1082,11 @@
         "auto": true
     },
     {
-        "coords": "-531 10 2054",
+        "coords": [
+            -531,
+            10,
+            2054
+        ],
         "type": "chain_command_block",
         "types": [
             "facing=up"
@@ -731,7 +1095,11 @@
         "auto": true
     },
     {
-        "coords": "-520 10 2044",
+        "coords": [
+            -520,
+            10,
+            2044
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -739,7 +1107,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:halloween.enterance master @s"
     },
     {
-        "coords": "-526 8 2047",
+        "coords": [
+            -526,
+            8,
+            2047
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -747,7 +1119,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:halloween.success master @s"
     },
     {
-        "coords": "-523 26 1983",
+        "coords": [
+            -523,
+            26,
+            1983
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -755,7 +1131,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:ambient.wood master @s"
     },
     {
-        "coords": "-514 56 2011",
+        "coords": [
+            -514,
+            56,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -763,7 +1143,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:misc.ice_platform master @s"
     },
     {
-        "coords": "-598 68 2000",
+        "coords": [
+            -598,
+            68,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -771,7 +1155,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..47] at @s run playsound do2:ambient.ice master @s"
     },
     {
-        "coords": "-602 149 2045",
+        "coords": [
+            -602,
+            149,
+            2045
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -779,7 +1167,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..40] at @s run playsound do2:misc.museum master @s"
     },
     {
-        "coords": "-555 63 1963",
+        "coords": [
+            -555,
+            63,
+            1963
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -787,7 +1179,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..38] at @s run playsound do2:ambient.ice master @s"
     },
     {
-        "coords": "-527 68 2001",
+        "coords": [
+            -527,
+            68,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -795,7 +1191,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..41] at @s run playsound do2:ambient.ice master @s"
     },
     {
-        "coords": "-575 88 1939",
+        "coords": [
+            -575,
+            88,
+            1939
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -803,7 +1203,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:ambient.warden_emerge master @s"
     },
     {
-        "coords": "-586 80 1943",
+        "coords": [
+            -586,
+            80,
+            1943
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -811,7 +1215,11 @@
         "command": "schedule function do2:audio/play/ambient_cave_wind 12t append"
     },
     {
-        "coords": "-499 109 1994",
+        "coords": [
+            -499,
+            109,
+            1994
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -819,7 +1227,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..30] at @s run playsound do2:misc.lobby_grian master @s"
     },
     {
-        "coords": "-502 105 1978",
+        "coords": [
+            -502,
+            105,
+            1978
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -827,7 +1239,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..50] at @s run playsound do2:interactions.purchase master @s"
     },
     {
-        "coords": "-539 116 1968",
+        "coords": [
+            -539,
+            116,
+            1968
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -835,7 +1251,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..400] at @s run playsound do2:events.dungeon_is_ready master @s"
     },
     {
-        "coords": "-539 109 1977",
+        "coords": [
+            -539,
+            109,
+            1977
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -843,7 +1263,11 @@
         "command": "schedule function do2:audio/play/open_main_door 14t append"
     },
     {
-        "coords": "-519 125 1983",
+        "coords": [
+            -519,
+            125,
+            1983
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -851,7 +1275,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..16] at @s run playsound do2:events.hazard_blocked master @s"
     },
     {
-        "coords": "-519 122 1983",
+        "coords": [
+            -519,
+            122,
+            1983
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -859,7 +1287,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..16] at @s run playsound do2:events.hazard master @s"
     },
     {
-        "coords": "-522 122 1987",
+        "coords": [
+            -522,
+            122,
+            1987
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -867,7 +1299,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..16] at @s run playsound do2:cards.stumble master @s"
     },
     {
-        "coords": "-522 122 1989",
+        "coords": [
+            -522,
+            122,
+            1989
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -875,7 +1311,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..16] at @s run playsound do2:events.clank_blocked master @s"
     },
     {
-        "coords": "-522 122 1991",
+        "coords": [
+            -522,
+            122,
+            1991
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -883,7 +1323,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..16] at @s run playsound do2:events.artifact_retrived master @s"
     },
     {
-        "coords": "-547 119 1992",
+        "coords": [
+            -547,
+            119,
+            1992
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -891,7 +1335,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..32] at @s run playsound do2:interactions.take_your_items master @s"
     },
     {
-        "coords": "-557 118 1986",
+        "coords": [
+            -557,
+            118,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -899,7 +1347,11 @@
         "command": "execute if block ~ ~-3 ~ minecraft:repeater[powered=true] as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.difficulty.easy master @s"
     },
     {
-        "coords": "-558 118 1986",
+        "coords": [
+            -558,
+            118,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -907,7 +1359,11 @@
         "command": "execute if block ~ ~-3 ~ minecraft:repeater[powered=true] as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.difficulty.medium master @s"
     },
     {
-        "coords": "-559 118 1986",
+        "coords": [
+            -559,
+            118,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -915,7 +1371,11 @@
         "command": "execute if block ~ ~-3 ~ minecraft:repeater[powered=true] as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.difficulty.hard master @s"
     },
     {
-        "coords": "-560 118 1986",
+        "coords": [
+            -560,
+            118,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -923,7 +1383,11 @@
         "command": "execute if block ~ ~-3 ~ minecraft:repeater[powered=true] as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.difficulty.deadly master @s"
     },
     {
-        "coords": "-561 118 1986",
+        "coords": [
+            -561,
+            118,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -931,7 +1395,11 @@
         "command": "execute if block ~ ~-3 ~ minecraft:repeater[powered=true] as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.difficulty.deepfrost master @s"
     },
     {
-        "coords": "-572 113 1978",
+        "coords": [
+            -572,
+            113,
+            1978
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -939,7 +1407,11 @@
         "command": "execute as @a[tag=do2.tags.audio.enabled,distance=..20] at @s run playsound do2:interactions.install_deck master @s"
     },
     {
-        "coords": "-551 119 1970",
+        "coords": [
+            -551,
+            119,
+            1970
+        ],
         "type": "command_block",
         "types": [
             "facing=south"

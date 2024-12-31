@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-641 -21 1921",
+        "coords": [
+            -641,
+            -21,
+            1921
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -8,7 +12,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-640 -21 1888",
+        "coords": [
+            -640,
+            -21,
+            1888
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -16,7 +24,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-583 0 1885",
+        "coords": [
+            -583,
+            0,
+            1885
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -24,7 +36,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-589 1 1900",
+        "coords": [
+            -589,
+            1,
+            1900
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -32,7 +48,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-604 -11 1883",
+        "coords": [
+            -604,
+            -11,
+            1883
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -40,7 +60,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-624 -11 1924",
+        "coords": [
+            -624,
+            -11,
+            1924
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -48,7 +72,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-608 -21 1919",
+        "coords": [
+            -608,
+            -21,
+            1919
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -56,7 +84,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-586 -10 1919",
+        "coords": [
+            -586,
+            -10,
+            1919
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -64,7 +96,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-605 0 1920",
+        "coords": [
+            -605,
+            0,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -72,7 +108,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-628 -1 1920",
+        "coords": [
+            -628,
+            -1,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -80,7 +120,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-643 0 1920",
+        "coords": [
+            -643,
+            0,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -88,7 +132,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-658 -10 1888",
+        "coords": [
+            -658,
+            -10,
+            1888
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -96,7 +144,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-652 0 1894",
+        "coords": [
+            -652,
+            0,
+            1894
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -104,7 +156,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-583 -19 1927",
+        "coords": [
+            -583,
+            -19,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -112,7 +168,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-581 7 1955",
+        "coords": [
+            -581,
+            7,
+            1955
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -120,7 +180,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-594 11 1955",
+        "coords": [
+            -594,
+            11,
+            1955
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -128,7 +192,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-598 9 1988",
+        "coords": [
+            -598,
+            9,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -136,7 +204,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-574 9 2007",
+        "coords": [
+            -574,
+            9,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -144,7 +216,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-568 6 1964",
+        "coords": [
+            -568,
+            6,
+            1964
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -152,7 +228,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-548 9 1975",
+        "coords": [
+            -548,
+            9,
+            1975
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -160,7 +240,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-526 10 1942",
+        "coords": [
+            -526,
+            10,
+            1942
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -168,7 +252,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-507 7 1951",
+        "coords": [
+            -507,
+            7,
+            1951
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -176,7 +264,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-496 13 2000",
+        "coords": [
+            -496,
+            13,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -184,7 +276,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-490 9 2007",
+        "coords": [
+            -490,
+            9,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -192,7 +288,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-509 12 2034",
+        "coords": [
+            -509,
+            12,
+            2034
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -200,7 +300,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-531 11 2017",
+        "coords": [
+            -531,
+            11,
+            2017
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -208,7 +312,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-541 9 1998",
+        "coords": [
+            -541,
+            9,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -216,7 +324,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-553 8 2036",
+        "coords": [
+            -553,
+            8,
+            2036
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -224,7 +336,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-590 9 2032",
+        "coords": [
+            -590,
+            9,
+            2032
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -232,7 +348,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-597 10 2009",
+        "coords": [
+            -597,
+            10,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -240,7 +360,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-528 10 2031",
+        "coords": [
+            -528,
+            10,
+            2031
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -248,7 +372,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-480 18 2009",
+        "coords": [
+            -480,
+            18,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -256,7 +384,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-502 14 1972",
+        "coords": [
+            -502,
+            14,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -264,7 +396,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-531 14 1990",
+        "coords": [
+            -531,
+            14,
+            1990
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -272,7 +408,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-503 29 1975",
+        "coords": [
+            -503,
+            29,
+            1975
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -280,7 +420,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-575 37 1998",
+        "coords": [
+            -575,
+            37,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -288,7 +432,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-563 37 2000",
+        "coords": [
+            -563,
+            37,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -296,7 +444,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-518 34 2003",
+        "coords": [
+            -518,
+            34,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -304,7 +456,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-488 47 2019",
+        "coords": [
+            -488,
+            47,
+            2019
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -312,7 +468,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-516 44 2031",
+        "coords": [
+            -516,
+            44,
+            2031
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -320,7 +480,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-531 42 2021",
+        "coords": [
+            -531,
+            42,
+            2021
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -328,7 +492,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-546 50 2007",
+        "coords": [
+            -546,
+            50,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -336,7 +504,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-519 51 2011",
+        "coords": [
+            -519,
+            51,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -344,7 +516,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-521 33 1982",
+        "coords": [
+            -521,
+            33,
+            1982
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -352,7 +528,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-485 29 1963",
+        "coords": [
+            -485,
+            29,
+            1963
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -360,7 +540,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-559 45 2023",
+        "coords": [
+            -559,
+            45,
+            2023
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -368,7 +552,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-583 43 2012",
+        "coords": [
+            -583,
+            43,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -376,7 +564,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-606 41 2024",
+        "coords": [
+            -606,
+            41,
+            2024
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -384,7 +576,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-618 43 2028",
+        "coords": [
+            -618,
+            43,
+            2028
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -392,7 +588,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-590 44 1978",
+        "coords": [
+            -590,
+            44,
+            1978
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -400,7 +600,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-589 51 1948",
+        "coords": [
+            -589,
+            51,
+            1948
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -408,7 +612,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-557 43 1976",
+        "coords": [
+            -557,
+            43,
+            1976
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -416,7 +624,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-554 49 2007",
+        "coords": [
+            -554,
+            49,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -424,7 +636,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-561 45 1942",
+        "coords": [
+            -561,
+            45,
+            1942
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -432,7 +648,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-536 43 1948",
+        "coords": [
+            -536,
+            43,
+            1948
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -440,7 +660,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-514 49 1962",
+        "coords": [
+            -514,
+            49,
+            1962
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -448,7 +672,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-497 49 1980",
+        "coords": [
+            -497,
+            49,
+            1980
+        ],
         "type": "command_block",
         "types": [
             "facing=down"
@@ -456,7 +684,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-485 53 1990",
+        "coords": [
+            -485,
+            53,
+            1990
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -464,7 +696,11 @@
         "command": "function do2:events/systems/treasure_dropped"
     },
     {
-        "coords": "-527 49 1974",
+        "coords": [
+            -527,
+            49,
+            1974
+        ],
         "type": "command_block",
         "types": [
             "facing=down"

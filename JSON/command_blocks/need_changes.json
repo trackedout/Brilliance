@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-610 29 1960",
+        "coords": [
+            -610,
+            29,
+            1960
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -8,7 +12,11 @@
         "command": "function do2:agronet/systems/on_clank_blocked"
     },
     {
-        "coords": "-637 -28 1987",
+        "coords": [
+            -637,
+            -28,
+            1987
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -16,7 +24,11 @@
         "command": "loot replace block -637 -28 1985 container.0 27 loot minecraft:empty"
     },
     {
-        "coords": "-638 -28 1987",
+        "coords": [
+            -638,
+            -28,
+            1987
+        ],
         "type": "chain_command_block",
         "types": [
             "facing=west"

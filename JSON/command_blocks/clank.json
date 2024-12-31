@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-581 -54 1917",
+        "coords": [
+            -581,
+            -54,
+            1917
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -8,7 +12,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-579 -56 1901",
+        "coords": [
+            -579,
+            -56,
+            1901
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -16,7 +24,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-579 -56 1885",
+        "coords": [
+            -579,
+            -56,
+            1885
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -24,7 +36,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-579 -56 1869",
+        "coords": [
+            -579,
+            -56,
+            1869
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -32,7 +48,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-580 -56 1852",
+        "coords": [
+            -580,
+            -56,
+            1852
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -40,7 +60,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-594 -54 1920",
+        "coords": [
+            -594,
+            -54,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -48,7 +72,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-597 -56 1906",
+        "coords": [
+            -597,
+            -56,
+            1906
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -56,7 +84,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-597 -56 1893",
+        "coords": [
+            -597,
+            -56,
+            1893
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -64,7 +96,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-597 -56 1877",
+        "coords": [
+            -597,
+            -56,
+            1877
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -72,7 +108,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-597 -56 1861",
+        "coords": [
+            -597,
+            -56,
+            1861
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -80,7 +120,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-615 -56 1856",
+        "coords": [
+            -615,
+            -56,
+            1856
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -88,7 +132,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-614 -56 1840",
+        "coords": [
+            -614,
+            -56,
+            1840
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -96,7 +144,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-614 -56 1871",
+        "coords": [
+            -614,
+            -56,
+            1871
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -104,7 +156,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-614 -57 1888",
+        "coords": [
+            -614,
+            -57,
+            1888
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -112,7 +168,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-615 -56 1903",
+        "coords": [
+            -615,
+            -56,
+            1903
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -120,7 +180,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-614 -54 1919",
+        "coords": [
+            -614,
+            -54,
+            1919
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -128,7 +192,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-630 -54 1919",
+        "coords": [
+            -630,
+            -54,
+            1919
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -136,7 +204,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-631 -57 1909",
+        "coords": [
+            -631,
+            -57,
+            1909
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -144,7 +216,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-645 -54 1919",
+        "coords": [
+            -645,
+            -54,
+            1919
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -152,7 +228,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-646 -57 1902",
+        "coords": [
+            -646,
+            -57,
+            1902
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -160,7 +240,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-646 -56 1886",
+        "coords": [
+            -646,
+            -56,
+            1886
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -168,7 +252,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-631 -57 1893",
+        "coords": [
+            -631,
+            -57,
+            1893
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -176,7 +264,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-630 -57 1878",
+        "coords": [
+            -630,
+            -57,
+            1878
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -184,7 +276,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-631 -57 1861",
+        "coords": [
+            -631,
+            -57,
+            1861
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -192,7 +288,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-631 -60 1845",
+        "coords": [
+            -631,
+            -60,
+            1845
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -200,7 +300,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-597 -55 1845",
+        "coords": [
+            -597,
+            -55,
+            1845
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -208,7 +312,11 @@
         "command": "function do2:events/systems/shrieker_l4"
     },
     {
-        "coords": "-658 -8 1932",
+        "coords": [
+            -658,
+            -8,
+            1932
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -216,7 +324,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-653 -19 1912",
+        "coords": [
+            -653,
+            -19,
+            1912
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -224,7 +336,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-635 -24 1892",
+        "coords": [
+            -635,
+            -24,
+            1892
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -232,7 +348,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-584 -9 1873",
+        "coords": [
+            -584,
+            -9,
+            1873
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -240,7 +360,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-603 -10 1918",
+        "coords": [
+            -603,
+            -10,
+            1918
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -248,7 +372,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-621 -11 1918",
+        "coords": [
+            -621,
+            -11,
+            1918
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -256,7 +384,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-635 -1 1915",
+        "coords": [
+            -635,
+            -1,
+            1915
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -264,7 +396,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-625 -12 1893",
+        "coords": [
+            -625,
+            -12,
+            1893
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -272,7 +408,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-616 -1 1894",
+        "coords": [
+            -616,
+            -1,
+            1894
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -280,7 +420,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-630 -1 1887",
+        "coords": [
+            -630,
+            -1,
+            1887
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -288,7 +432,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-642 -1 1892",
+        "coords": [
+            -642,
+            -1,
+            1892
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -296,7 +444,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-596 1 1906",
+        "coords": [
+            -596,
+            1,
+            1906
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -304,7 +456,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-588 12 1970",
+        "coords": [
+            -588,
+            12,
+            1970
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -312,7 +468,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-579 10 1971",
+        "coords": [
+            -579,
+            10,
+            1971
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -320,7 +480,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-570 11 1994",
+        "coords": [
+            -570,
+            11,
+            1994
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -328,7 +492,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-578 4 1976",
+        "coords": [
+            -578,
+            4,
+            1976
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -336,7 +504,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-557 11 1968",
+        "coords": [
+            -557,
+            11,
+            1968
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -344,7 +516,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-552 10 1989",
+        "coords": [
+            -552,
+            10,
+            1989
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -352,7 +528,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-546 13 1956",
+        "coords": [
+            -546,
+            13,
+            1956
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -360,7 +540,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-538 11 1957",
+        "coords": [
+            -538,
+            11,
+            1957
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -368,7 +552,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-477 15 1954",
+        "coords": [
+            -477,
+            15,
+            1954
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -376,7 +564,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-502 13 1987",
+        "coords": [
+            -502,
+            13,
+            1987
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -384,7 +576,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-496 14 1992",
+        "coords": [
+            -496,
+            14,
+            1992
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -392,7 +588,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-488 15 1996",
+        "coords": [
+            -488,
+            15,
+            1996
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -400,7 +600,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-494 11 2010",
+        "coords": [
+            -494,
+            11,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -408,7 +612,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-513 13 2028",
+        "coords": [
+            -513,
+            13,
+            2028
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -416,7 +624,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-511 11 2016",
+        "coords": [
+            -511,
+            11,
+            2016
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -424,7 +636,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-510 13 2014",
+        "coords": [
+            -510,
+            13,
+            2014
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -432,7 +648,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-537 12 2024",
+        "coords": [
+            -537,
+            12,
+            2024
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -440,7 +660,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-539 7 2008",
+        "coords": [
+            -539,
+            7,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -448,7 +672,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-565 9 2022",
+        "coords": [
+            -565,
+            9,
+            2022
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -456,7 +684,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-568 10 2021",
+        "coords": [
+            -568,
+            10,
+            2021
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -464,7 +696,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-582 12 2016",
+        "coords": [
+            -582,
+            12,
+            2016
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -472,7 +708,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-529 11 2046",
+        "coords": [
+            -529,
+            11,
+            2046
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -480,7 +720,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-490 17 2026",
+        "coords": [
+            -490,
+            17,
+            2026
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -488,7 +732,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-492 16 2023",
+        "coords": [
+            -492,
+            16,
+            2023
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -496,7 +744,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-481 19 2010",
+        "coords": [
+            -481,
+            19,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -504,7 +756,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-468 19 1993",
+        "coords": [
+            -468,
+            19,
+            1993
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -512,7 +768,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-507 16 1976",
+        "coords": [
+            -507,
+            16,
+            1976
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -520,7 +780,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-510 10 1964",
+        "coords": [
+            -510,
+            10,
+            1964
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -528,7 +792,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-518 9 1953",
+        "coords": [
+            -518,
+            9,
+            1953
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -536,7 +804,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-530 9 1958",
+        "coords": [
+            -530,
+            9,
+            1958
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -544,7 +816,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-530 12 1971",
+        "coords": [
+            -530,
+            12,
+            1971
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -552,7 +828,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-519 13 1992",
+        "coords": [
+            -519,
+            13,
+            1992
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -560,7 +840,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-527 16 2000",
+        "coords": [
+            -527,
+            16,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -568,7 +852,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-567 9 1958",
+        "coords": [
+            -567,
+            9,
+            1958
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -576,7 +864,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-564 6 1948",
+        "coords": [
+            -564,
+            6,
+            1948
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -584,7 +876,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-459 17 2016",
+        "coords": [
+            -459,
+            17,
+            2016
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -592,7 +888,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-455 22 2024",
+        "coords": [
+            -455,
+            22,
+            2024
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -600,7 +900,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-452 21 2010",
+        "coords": [
+            -452,
+            21,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -608,7 +912,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-455 18 1988",
+        "coords": [
+            -455,
+            18,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -616,7 +924,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-457 16 1977",
+        "coords": [
+            -457,
+            16,
+            1977
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -624,7 +936,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-457 17 1963",
+        "coords": [
+            -457,
+            17,
+            1963
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -632,7 +948,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-463 16 1960",
+        "coords": [
+            -463,
+            16,
+            1960
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -640,7 +960,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-468 17 1972",
+        "coords": [
+            -468,
+            17,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -648,7 +972,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-519 22 1963",
+        "coords": [
+            -519,
+            22,
+            1963
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -656,7 +984,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-472 28 1988",
+        "coords": [
+            -472,
+            28,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -664,7 +996,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-544 38 2007",
+        "coords": [
+            -544,
+            38,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -672,7 +1008,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-535 35 1995",
+        "coords": [
+            -535,
+            35,
+            1995
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -680,7 +1020,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-526 35 1997",
+        "coords": [
+            -526,
+            35,
+            1997
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -688,7 +1032,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-529 35 1988",
+        "coords": [
+            -529,
+            35,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -696,7 +1044,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-510 44 2024",
+        "coords": [
+            -510,
+            44,
+            2024
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -704,7 +1056,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-532 44 2027",
+        "coords": [
+            -532,
+            44,
+            2027
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -712,7 +1068,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-539 51 2007",
+        "coords": [
+            -539,
+            51,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -720,7 +1080,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-524 51 2009",
+        "coords": [
+            -524,
+            51,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -728,7 +1092,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-512 50 1999",
+        "coords": [
+            -512,
+            50,
+            1999
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -736,7 +1104,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-503 51 1998",
+        "coords": [
+            -503,
+            51,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -744,7 +1116,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-520 46 2019",
+        "coords": [
+            -520,
+            46,
+            2019
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -752,7 +1128,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-554 48 2037",
+        "coords": [
+            -554,
+            48,
+            2037
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -760,7 +1140,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-562 45 2030",
+        "coords": [
+            -562,
+            45,
+            2030
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -768,7 +1152,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-572 45 2033",
+        "coords": [
+            -572,
+            45,
+            2033
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -776,7 +1164,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-581 46 2018",
+        "coords": [
+            -581,
+            46,
+            2018
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -784,7 +1176,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-595 39 2016",
+        "coords": [
+            -595,
+            39,
+            2016
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -792,7 +1188,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-604 42 2020",
+        "coords": [
+            -604,
+            42,
+            2020
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -800,7 +1200,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-612 41 2024",
+        "coords": [
+            -612,
+            41,
+            2024
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -808,7 +1212,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-622 41 2005",
+        "coords": [
+            -622,
+            41,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -816,7 +1224,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-618 43 2001",
+        "coords": [
+            -618,
+            43,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -824,7 +1236,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-609 42 1977",
+        "coords": [
+            -609,
+            42,
+            1977
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -832,7 +1248,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-611 43 1970",
+        "coords": [
+            -611,
+            43,
+            1970
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -840,7 +1260,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-578 44 1986",
+        "coords": [
+            -578,
+            44,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -848,7 +1272,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-578 46 1996",
+        "coords": [
+            -578,
+            46,
+            1996
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -856,7 +1284,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-567 46 1996",
+        "coords": [
+            -567,
+            46,
+            1996
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -864,7 +1296,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-588 46 2007",
+        "coords": [
+            -588,
+            46,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -872,7 +1308,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-609 43 2010",
+        "coords": [
+            -609,
+            43,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -880,7 +1320,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-571 46 1958",
+        "coords": [
+            -571,
+            46,
+            1958
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -888,7 +1332,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-561 46 1971",
+        "coords": [
+            -561,
+            46,
+            1971
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -896,7 +1344,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-565 46 1984",
+        "coords": [
+            -565,
+            46,
+            1984
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -904,7 +1356,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-548 38 1986",
+        "coords": [
+            -548,
+            38,
+            1986
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -912,7 +1368,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-543 44 1993",
+        "coords": [
+            -543,
+            44,
+            1993
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -920,7 +1380,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-543 44 1990",
+        "coords": [
+            -543,
+            44,
+            1990
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -928,7 +1392,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-547 51 1979",
+        "coords": [
+            -547,
+            51,
+            1979
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -936,7 +1404,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-543 43 1959",
+        "coords": [
+            -543,
+            43,
+            1959
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -944,7 +1416,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-502 52 1968",
+        "coords": [
+            -502,
+            52,
+            1968
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -952,7 +1428,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-494 51 1979",
+        "coords": [
+            -494,
+            51,
+            1979
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -960,7 +1440,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-503 49 1985",
+        "coords": [
+            -503,
+            49,
+            1985
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -968,7 +1452,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-503 51 1987",
+        "coords": [
+            -503,
+            51,
+            1987
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -976,7 +1464,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-525 49 1997",
+        "coords": [
+            -525,
+            49,
+            1997
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -984,7 +1476,11 @@
         "command": "function do2:events/systems/evoker_activated"
     },
     {
-        "coords": "-530 52 1995",
+        "coords": [
+            -530,
+            52,
+            1995
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -992,7 +1488,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-529 51 1985",
+        "coords": [
+            -529,
+            51,
+            1985
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -1000,7 +1500,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-526 51 1979",
+        "coords": [
+            -526,
+            51,
+            1979
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -1008,7 +1512,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-521 51 1982",
+        "coords": [
+            -521,
+            51,
+            1982
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -1016,7 +1524,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-538 51 1975",
+        "coords": [
+            -538,
+            51,
+            1975
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -1024,7 +1536,11 @@
         "command": "function do2:events/systems/on_shrieker"
     },
     {
-        "coords": "-526 51 1989",
+        "coords": [
+            -526,
+            51,
+            1989
+        ],
         "type": "command_block",
         "types": [
             "facing=east"

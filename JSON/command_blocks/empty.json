@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-622 24 1989",
+        "coords": [
+            -622,
+            24,
+            1989
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -8,7 +12,11 @@
         "command": ""
     },
     {
-        "coords": "-630 24 1988",
+        "coords": [
+            -630,
+            24,
+            1988
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -16,7 +24,11 @@
         "command": ""
     },
     {
-        "coords": "-615 31 1927",
+        "coords": [
+            -615,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -24,7 +36,11 @@
         "command": ""
     },
     {
-        "coords": "-611 31 1927",
+        "coords": [
+            -611,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -32,7 +48,11 @@
         "command": ""
     },
     {
-        "coords": "-607 31 1927",
+        "coords": [
+            -607,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -40,7 +60,11 @@
         "command": ""
     },
     {
-        "coords": "-603 31 1927",
+        "coords": [
+            -603,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -48,7 +72,11 @@
         "command": ""
     },
     {
-        "coords": "-599 31 1927",
+        "coords": [
+            -599,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -56,7 +84,11 @@
         "command": ""
     },
     {
-        "coords": "-591 31 1927",
+        "coords": [
+            -591,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -64,7 +96,11 @@
         "command": ""
     },
     {
-        "coords": "-578 27 1927",
+        "coords": [
+            -578,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -72,7 +108,11 @@
         "command": ""
     },
     {
-        "coords": "-586 27 1927",
+        "coords": [
+            -586,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -80,7 +120,11 @@
         "command": ""
     },
     {
-        "coords": "-598 27 1927",
+        "coords": [
+            -598,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -88,7 +132,11 @@
         "command": ""
     },
     {
-        "coords": "-610 27 1927",
+        "coords": [
+            -610,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -96,7 +144,11 @@
         "command": ""
     },
     {
-        "coords": "-610 23 1925",
+        "coords": [
+            -610,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -104,7 +156,11 @@
         "command": ""
     },
     {
-        "coords": "-606 23 1925",
+        "coords": [
+            -606,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -112,7 +168,11 @@
         "command": ""
     },
     {
-        "coords": "-602 23 1925",
+        "coords": [
+            -602,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -120,7 +180,11 @@
         "command": ""
     },
     {
-        "coords": "-598 23 1925",
+        "coords": [
+            -598,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -128,7 +192,11 @@
         "command": ""
     },
     {
-        "coords": "-590 23 1925",
+        "coords": [
+            -590,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=east"

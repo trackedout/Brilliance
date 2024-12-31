@@ -1,6 +1,10 @@
 [
     {
-        "coords": "-629 -21 2014",
+        "coords": [
+            -629,
+            -21,
+            2014
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -8,7 +12,11 @@
         "command": "function do2:cards/buy/adrenaline_rush"
     },
     {
-        "coords": "-629 -21 2013",
+        "coords": [
+            -629,
+            -21,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -16,7 +24,11 @@
         "command": "function do2:cards/buy/suit_up"
     },
     {
-        "coords": "-629 -21 2012",
+        "coords": [
+            -629,
+            -21,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -24,7 +36,11 @@
         "command": "function do2:cards/buy/quick_step"
     },
     {
-        "coords": "-629 -21 2011",
+        "coords": [
+            -629,
+            -21,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -32,7 +48,11 @@
         "command": "function do2:cards/buy/smash_and_grab"
     },
     {
-        "coords": "-629 -21 2010",
+        "coords": [
+            -629,
+            -21,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -40,7 +60,11 @@
         "command": "function do2:cards/buy/nimble_looting"
     },
     {
-        "coords": "-629 -21 2008",
+        "coords": [
+            -629,
+            -21,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -48,7 +72,11 @@
         "command": "function do2:cards/buy/sprint"
     },
     {
-        "coords": "-629 -21 2007",
+        "coords": [
+            -629,
+            -21,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -56,7 +84,11 @@
         "command": "function do2:cards/buy/reckless_charge"
     },
     {
-        "coords": "-629 -21 2005",
+        "coords": [
+            -629,
+            -21,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -64,7 +96,11 @@
         "command": "function do2:cards/buy/bounding_strides"
     },
     {
-        "coords": "-629 -21 2004",
+        "coords": [
+            -629,
+            -21,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -72,7 +108,11 @@
         "command": "function do2:cards/buy/beast_sense"
     },
     {
-        "coords": "-629 -21 2003",
+        "coords": [
+            -629,
+            -21,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -80,7 +120,11 @@
         "command": "function do2:cards/buy/second_wind"
     },
     {
-        "coords": "-629 -21 2001",
+        "coords": [
+            -629,
+            -21,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -88,7 +132,11 @@
         "command": "function do2:cards/buy/frost_focus"
     },
     {
-        "coords": "-629 -21 2000",
+        "coords": [
+            -629,
+            -21,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -96,7 +144,11 @@
         "command": "function do2:cards/buy/loot_and_scoot"
     },
     {
-        "coords": "-629 -21 1999",
+        "coords": [
+            -629,
+            -21,
+            1999
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -104,7 +156,11 @@
         "command": "function do2:cards/buy/tread_lightly"
     },
     {
-        "coords": "-629 -21 1998",
+        "coords": [
+            -629,
+            -21,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -112,7 +168,11 @@
         "command": "function do2:cards/buy/evasion"
     },
     {
-        "coords": "-629 -21 1996",
+        "coords": [
+            -629,
+            -21,
+            1996
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -120,7 +180,11 @@
         "command": "function do2:cards/buy/moment_of_clarity"
     },
     {
-        "coords": "-629 -21 1995",
+        "coords": [
+            -629,
+            -21,
+            1995
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -128,7 +192,11 @@
         "command": "function do2:cards/buy/ember_seeker"
     },
     {
-        "coords": "-629 -21 1994",
+        "coords": [
+            -629,
+            -21,
+            1994
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -136,7 +204,11 @@
         "command": "function do2:cards/buy/treasure_hunter"
     },
     {
-        "coords": "-629 -21 1993",
+        "coords": [
+            -629,
+            -21,
+            1993
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -144,7 +216,11 @@
         "command": "function do2:cards/buy/stability"
     },
     {
-        "coords": "-629 -21 1992",
+        "coords": [
+            -629,
+            -21,
+            1992
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -152,7 +228,11 @@
         "command": "function do2:cards/buy/sneak"
     },
     {
-        "coords": "-645 -21 2013",
+        "coords": [
+            -645,
+            -21,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -160,7 +240,11 @@
         "command": "function do2:cards/buy/eerie_silence"
     },
     {
-        "coords": "-645 -21 2012",
+        "coords": [
+            -645,
+            -21,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -168,7 +252,11 @@
         "command": "function do2:cards/buy/dungeon_repairs"
     },
     {
-        "coords": "-645 -21 2011",
+        "coords": [
+            -645,
+            -21,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -176,7 +264,11 @@
         "command": "function do2:cards/buy/swagger"
     },
     {
-        "coords": "-645 -21 2010",
+        "coords": [
+            -645,
+            -21,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -184,7 +276,11 @@
         "command": "function do2:cards/buy/chill_step"
     },
     {
-        "coords": "-645 -21 2009",
+        "coords": [
+            -645,
+            -21,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -192,7 +288,11 @@
         "command": "function do2:cards/buy/speed_runner"
     },
     {
-        "coords": "-645 -21 2008",
+        "coords": [
+            -645,
+            -21,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -200,7 +300,11 @@
         "command": "function do2:cards/buy/eyes_on_the_prize"
     },
     {
-        "coords": "-645 -21 2005",
+        "coords": [
+            -645,
+            -21,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -208,7 +312,11 @@
         "command": "function do2:cards/buy/pirates_booty"
     },
     {
-        "coords": "-645 -21 2004",
+        "coords": [
+            -645,
+            -21,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -216,7 +324,11 @@
         "command": "function do2:cards/buy/cold_snap"
     },
     {
-        "coords": "-645 -21 2002",
+        "coords": [
+            -645,
+            -21,
+            2002
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -224,7 +336,11 @@
         "command": "function do2:cards/buy/fuzzy_bunny_slippers"
     },
     {
-        "coords": "-645 -21 2001",
+        "coords": [
+            -645,
+            -21,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -232,7 +348,11 @@
         "command": "function do2:cards/buy/deepfrost"
     },
     {
-        "coords": "-645 -21 2000",
+        "coords": [
+            -645,
+            -21,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -240,7 +360,11 @@
         "command": "function do2:cards/buy/brilliance"
     },
     {
-        "coords": "-645 -21 1996",
+        "coords": [
+            -645,
+            -21,
+            1996
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -248,7 +372,11 @@
         "command": "function do2:cards/buy/1_tome"
     },
     {
-        "coords": "-651 -21 1994",
+        "coords": [
+            -651,
+            -21,
+            1994
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -256,7 +384,11 @@
         "command": "function do2:cards/buy/3_tomes"
     },
     {
-        "coords": "-651 -21 1990",
+        "coords": [
+            -651,
+            -21,
+            1990
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -264,7 +396,11 @@
         "command": "function do2:cards/buy/5_tomes"
     },
     {
-        "coords": "-625 -11 2014",
+        "coords": [
+            -625,
+            -11,
+            2014
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -272,7 +408,11 @@
         "command": "function do2:cards/available/adrenaline_rush"
     },
     {
-        "coords": "-625 -11 2013",
+        "coords": [
+            -625,
+            -11,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -280,7 +420,11 @@
         "command": "function do2:cards/available/suit_up"
     },
     {
-        "coords": "-625 -11 2012",
+        "coords": [
+            -625,
+            -11,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -288,7 +432,11 @@
         "command": "function do2:cards/available/quick_step"
     },
     {
-        "coords": "-625 -11 2011",
+        "coords": [
+            -625,
+            -11,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -296,7 +444,11 @@
         "command": "function do2:cards/available/smash_and_grab"
     },
     {
-        "coords": "-625 -11 2010",
+        "coords": [
+            -625,
+            -11,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -304,7 +456,11 @@
         "command": "function do2:cards/available/nimble_looting"
     },
     {
-        "coords": "-625 -11 2008",
+        "coords": [
+            -625,
+            -11,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -312,7 +468,11 @@
         "command": "function do2:cards/available/sprint"
     },
     {
-        "coords": "-625 -11 2007",
+        "coords": [
+            -625,
+            -11,
+            2007
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -320,7 +480,11 @@
         "command": "function do2:cards/available/reckless_charge"
     },
     {
-        "coords": "-625 -11 2005",
+        "coords": [
+            -625,
+            -11,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -328,7 +492,11 @@
         "command": "function do2:cards/available/bounding_strides"
     },
     {
-        "coords": "-625 -11 2004",
+        "coords": [
+            -625,
+            -11,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -336,7 +504,11 @@
         "command": "function do2:cards/available/beast_sense"
     },
     {
-        "coords": "-625 -11 2003",
+        "coords": [
+            -625,
+            -11,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -344,7 +516,11 @@
         "command": "function do2:cards/available/second_wind"
     },
     {
-        "coords": "-625 -11 2001",
+        "coords": [
+            -625,
+            -11,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -352,7 +528,11 @@
         "command": "function do2:cards/available/frost_focus"
     },
     {
-        "coords": "-625 -11 2000",
+        "coords": [
+            -625,
+            -11,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -360,7 +540,11 @@
         "command": "function do2:cards/available/loot_and_scoot"
     },
     {
-        "coords": "-625 -11 1999",
+        "coords": [
+            -625,
+            -11,
+            1999
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -368,7 +552,11 @@
         "command": "function do2:cards/available/tread_lightly"
     },
     {
-        "coords": "-625 -11 1998",
+        "coords": [
+            -625,
+            -11,
+            1998
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -376,7 +564,11 @@
         "command": "function do2:cards/available/evasion"
     },
     {
-        "coords": "-649 -11 2000",
+        "coords": [
+            -649,
+            -11,
+            2000
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -384,7 +576,11 @@
         "command": "function do2:cards/available/brilliance"
     },
     {
-        "coords": "-649 -11 2001",
+        "coords": [
+            -649,
+            -11,
+            2001
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -392,7 +588,11 @@
         "command": "function do2:cards/available/deepfrost"
     },
     {
-        "coords": "-649 -11 2002",
+        "coords": [
+            -649,
+            -11,
+            2002
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -400,7 +600,11 @@
         "command": "function do2:cards/available/fuzzy_bunny_slippers"
     },
     {
-        "coords": "-649 -11 2003",
+        "coords": [
+            -649,
+            -11,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -408,7 +612,11 @@
         "command": "function do2:cards/available/silent_runner"
     },
     {
-        "coords": "-649 -11 2004",
+        "coords": [
+            -649,
+            -11,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -416,7 +624,11 @@
         "command": "function do2:cards/available/cold_snap"
     },
     {
-        "coords": "-649 -11 2005",
+        "coords": [
+            -649,
+            -11,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -424,7 +636,11 @@
         "command": "function do2:cards/available/pirates_booty"
     },
     {
-        "coords": "-649 -11 2008",
+        "coords": [
+            -649,
+            -11,
+            2008
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -432,7 +648,11 @@
         "command": "function do2:cards/available/eyes_on_the_prize"
     },
     {
-        "coords": "-649 -11 2009",
+        "coords": [
+            -649,
+            -11,
+            2009
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -440,7 +660,11 @@
         "command": "function do2:cards/available/speed_runner"
     },
     {
-        "coords": "-649 -11 2010",
+        "coords": [
+            -649,
+            -11,
+            2010
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -448,7 +672,11 @@
         "command": "function do2:cards/available/chill_step"
     },
     {
-        "coords": "-649 -11 2011",
+        "coords": [
+            -649,
+            -11,
+            2011
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -456,7 +684,11 @@
         "command": "function do2:cards/available/swagger"
     },
     {
-        "coords": "-649 -11 2012",
+        "coords": [
+            -649,
+            -11,
+            2012
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -464,7 +696,11 @@
         "command": "function do2:cards/available/dungeon_repairs"
     },
     {
-        "coords": "-649 -11 2013",
+        "coords": [
+            -649,
+            -11,
+            2013
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -472,7 +708,11 @@
         "command": "function do2:cards/available/eerie_silence"
     },
     {
-        "coords": "-637 -54 2006",
+        "coords": [
+            -637,
+            -54,
+            2006
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -480,7 +720,11 @@
         "command": "function do2:cards/gained_in_dungeon/tactical_approach"
     },
     {
-        "coords": "-637 -54 2005",
+        "coords": [
+            -637,
+            -54,
+            2005
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -488,7 +732,11 @@
         "command": "function do2:cards/gained_in_dungeon/pay_to_win"
     },
     {
-        "coords": "-637 -54 2004",
+        "coords": [
+            -637,
+            -54,
+            2004
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -496,7 +744,11 @@
         "command": "function do2:cards/gained_in_dungeon/pork_chop-power"
     },
     {
-        "coords": "-637 -54 2003",
+        "coords": [
+            -637,
+            -54,
+            2003
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -504,7 +756,11 @@
         "command": "function do2:cards/gained_in_dungeon/moment_of_clarity"
     },
     {
-        "coords": "-595 31 1927",
+        "coords": [
+            -595,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -512,7 +768,11 @@
         "command": "function do2:cards/play/brilliance"
     },
     {
-        "coords": "-589 32 1927",
+        "coords": [
+            -589,
+            32,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -520,7 +780,11 @@
         "command": "function do2:cards/play/nimble_looting"
     },
     {
-        "coords": "-588 32 1927",
+        "coords": [
+            -588,
+            32,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -528,7 +792,11 @@
         "command": "function do2:cards/play/nimble_looting"
     },
     {
-        "coords": "-583 31 1927",
+        "coords": [
+            -583,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -536,7 +804,11 @@
         "command": "function do2:cards/play/pay_to_win"
     },
     {
-        "coords": "-579 31 1927",
+        "coords": [
+            -579,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -544,7 +816,11 @@
         "command": "function do2:cards/play/frost_focus"
     },
     {
-        "coords": "-575 31 1927",
+        "coords": [
+            -575,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -552,7 +828,11 @@
         "command": "function do2:cards/play/moment_of_clarity"
     },
     {
-        "coords": "-571 31 1927",
+        "coords": [
+            -571,
+            31,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -560,7 +840,11 @@
         "command": "function do2:cards/play/ember_seeker"
     },
     {
-        "coords": "-570 27 1927",
+        "coords": [
+            -570,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -568,7 +852,11 @@
         "command": "function do2:cards/play/sneak"
     },
     {
-        "coords": "-574 27 1927",
+        "coords": [
+            -574,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -576,7 +864,11 @@
         "command": "function do2:cards/play/chill_step"
     },
     {
-        "coords": "-582 27 1927",
+        "coords": [
+            -582,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -584,7 +876,11 @@
         "command": "function do2:cards/play/smash_and_grab"
     },
     {
-        "coords": "-590 27 1927",
+        "coords": [
+            -590,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -592,7 +888,11 @@
         "command": "function do2:cards/play/dungeon_repairs"
     },
     {
-        "coords": "-594 28 1927",
+        "coords": [
+            -594,
+            28,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -600,7 +900,11 @@
         "command": "function do2:cards/play/quick_step"
     },
     {
-        "coords": "-602 27 1927",
+        "coords": [
+            -602,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -608,7 +912,11 @@
         "command": "function do2:cards/play/loot_and_scoot"
     },
     {
-        "coords": "-606 27 1927",
+        "coords": [
+            -606,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -616,7 +924,11 @@
         "command": "function do2:cards/play/sprint"
     },
     {
-        "coords": "-614 27 1927",
+        "coords": [
+            -614,
+            27,
+            1927
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -624,7 +936,11 @@
         "command": "function do2:cards/play/second_wind"
     },
     {
-        "coords": "-618 34 1925",
+        "coords": [
+            -618,
+            34,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -632,7 +948,11 @@
         "command": "function do2:cards/play/cold_snap"
     },
     {
-        "coords": "-614 23 1925",
+        "coords": [
+            -614,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -640,7 +960,11 @@
         "command": "function do2:cards/play/bounding_strides"
     },
     {
-        "coords": "-594 23 1925",
+        "coords": [
+            -594,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -648,7 +972,11 @@
         "command": "function do2:cards/play/deepfrost"
     },
     {
-        "coords": "-586 23 1925",
+        "coords": [
+            -586,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -656,7 +984,11 @@
         "command": "function do2:cards/play/evasion"
     },
     {
-        "coords": "-581 23 1926",
+        "coords": [
+            -581,
+            23,
+            1926
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -664,7 +996,11 @@
         "command": "function do2:cards/play/reckless_charge"
     },
     {
-        "coords": "-578 23 1925",
+        "coords": [
+            -578,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -672,7 +1008,11 @@
         "command": "function do2:cards/play/tread_lightly"
     },
     {
-        "coords": "-574 23 1925",
+        "coords": [
+            -574,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -680,7 +1020,11 @@
         "command": "function do2:cards/play/treasure_hunter"
     },
     {
-        "coords": "-570 23 1925",
+        "coords": [
+            -570,
+            23,
+            1925
+        ],
         "type": "command_block",
         "types": [
             "facing=north"
@@ -688,7 +1032,11 @@
         "command": "function do2:cards/play/stability"
     },
     {
-        "coords": "-583 37 1929",
+        "coords": [
+            -583,
+            37,
+            1929
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -696,7 +1044,11 @@
         "command": "function do2:cards/play/swagger"
     },
     {
-        "coords": "-583 35 1928",
+        "coords": [
+            -583,
+            35,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -704,7 +1056,11 @@
         "command": "function do2:cards/play/adrenaline_rush"
     },
     {
-        "coords": "-589 38 1930",
+        "coords": [
+            -589,
+            38,
+            1930
+        ],
         "type": "command_block",
         "types": [
             "facing=west"
@@ -712,7 +1068,11 @@
         "command": "function do2:cards/play/eyes_on_the_prize"
     },
     {
-        "coords": "-600 36 1932",
+        "coords": [
+            -600,
+            36,
+            1932
+        ],
         "type": "command_block",
         "types": [
             "facing=south"
@@ -720,7 +1080,11 @@
         "command": "function do2:cards/play/stumble"
     },
     {
-        "coords": "-603 35 1928",
+        "coords": [
+            -603,
+            35,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=east"
@@ -728,7 +1092,11 @@
         "command": "function do2:cards/play/beast_sense"
     },
     {
-        "coords": "-575 36 1928",
+        "coords": [
+            -575,
+            36,
+            1928
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -736,7 +1104,11 @@
         "command": "function do2:cards/play/eerie_silence"
     },
     {
-        "coords": "-575 35 1931",
+        "coords": [
+            -575,
+            35,
+            1931
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -744,7 +1116,11 @@
         "command": "function do2:cards/play/pirates_booty"
     },
     {
-        "coords": "-558 39 1920",
+        "coords": [
+            -558,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -752,7 +1128,11 @@
         "command": "function do2:cards/play/glorious_moment"
     },
     {
-        "coords": "-557 39 1920",
+        "coords": [
+            -557,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -760,7 +1140,11 @@
         "command": "function do2:cards/play/dungeon_lackey"
     },
     {
-        "coords": "-556 39 1920",
+        "coords": [
+            -556,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -768,7 +1152,11 @@
         "command": "function do2:cards/play/tactical_approach"
     },
     {
-        "coords": "-555 39 1920",
+        "coords": [
+            -555,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -776,7 +1164,11 @@
         "command": "function do2:cards/play/suit_up"
     },
     {
-        "coords": "-553 39 1920",
+        "coords": [
+            -553,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -784,7 +1176,11 @@
         "command": "function do2:cards/play/boots_of_swiftness"
     },
     {
-        "coords": "-552 39 1920",
+        "coords": [
+            -552,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -792,7 +1188,11 @@
         "command": "function do2:cards/play/silent_runner"
     },
     {
-        "coords": "-550 39 1920",
+        "coords": [
+            -550,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -800,7 +1200,11 @@
         "command": "function do2:cards/play/beast_master"
     },
     {
-        "coords": "-548 39 1920",
+        "coords": [
+            -548,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -808,7 +1212,11 @@
         "command": "function do2:cards/play/fuzzy_bunny_slippers"
     },
     {
-        "coords": "-547 39 1920",
+        "coords": [
+            -547,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -816,7 +1224,11 @@
         "command": "function do2:cards/play/pork_chop_power"
     },
     {
-        "coords": "-544 39 1920",
+        "coords": [
+            -544,
+            39,
+            1920
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -824,7 +1236,11 @@
         "command": "function do2:cards/play/speed_runner"
     },
     {
-        "coords": "-496 105 1972",
+        "coords": [
+            -496,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -832,7 +1248,11 @@
         "command": "/function do2:cards/crown_shop_purchases/shop_refresh"
     },
     {
-        "coords": "-497 105 1972",
+        "coords": [
+            -497,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -840,7 +1260,11 @@
         "command": "/function do2:cards/crown_shop_purchases/dungeon_lackey"
     },
     {
-        "coords": "-502 105 1972",
+        "coords": [
+            -502,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -848,7 +1272,11 @@
         "command": "/function do2:cards/crown_shop_purchases/item_loot_box"
     },
     {
-        "coords": "-503 105 1972",
+        "coords": [
+            -503,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -856,7 +1284,11 @@
         "command": "/function do2:cards/crown_shop_purchases/key_loot_box"
     },
     {
-        "coords": "-504 105 1972",
+        "coords": [
+            -504,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -864,7 +1296,11 @@
         "command": "/function do2:cards/crown_shop_purchases/slowness_potion"
     },
     {
-        "coords": "-505 105 1972",
+        "coords": [
+            -505,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -872,7 +1308,11 @@
         "command": "/function do2:cards/crown_shop_purchases/tactical_approach"
     },
     {
-        "coords": "-506 105 1972",
+        "coords": [
+            -506,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -880,7 +1320,11 @@
         "command": "/function do2:cards/crown_shop_purchases/pork_chop_power"
     },
     {
-        "coords": "-507 105 1972",
+        "coords": [
+            -507,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
@@ -888,7 +1332,11 @@
         "command": "/function do2:cards/crown_shop_purchases/pay_to_win"
     },
     {
-        "coords": "-509 105 1972",
+        "coords": [
+            -509,
+            105,
+            1972
+        ],
         "type": "command_block",
         "types": [
             "facing=up"
