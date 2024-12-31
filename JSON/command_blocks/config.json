@@ -1,5 +1,13 @@
 [
     {
+        "coords": "-642 -19 1983",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:reset_dungeon/commands/refill_ember_shop"
+    },
+    {
         "coords": "-480 116 1971",
         "type": "command_block",
         "types": [
@@ -22,6 +30,30 @@
             "facing=up"
         ],
         "command": "scoreboard players set $dungeon do2.config.refillDungeonType 1"
+    },
+    {
+        "coords": "-483 116 1967",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "/function do2:reset_dungeon/commands/read_from_dungeon"
+    },
+    {
+        "coords": "-483 115 1967",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "/function do2:reset_dungeon/commands/write/all"
+    },
+    {
+        "coords": "-483 114 1967",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "/function do2:reset_dungeon/commands/reset_dropper_config_to_default"
     },
     {
         "coords": "-525 116 1950",
@@ -190,5 +222,29 @@
             "facing=down"
         ],
         "command": "/function do2:scoreboard/config/boolean_levers/better_vex/disable"
+    },
+    {
+        "coords": "-520 115 1964",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "/data merge storage do2:gui {Text: {offset: {Level1: \"\", Level2: \"\", Level3: \"\", Level4: \"\"}}}"
+    },
+    {
+        "coords": "-518 115 1964",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:gui/init_storage"
+    },
+    {
+        "coords": "-514 108 1971",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:reset_dungeon/commands/refill_crown_shop"
     }
 ]

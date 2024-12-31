@@ -1,0 +1,314 @@
+[
+    {
+        "coords": "-619 56 1946",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/difficulty/select"
+    },
+    {
+        "coords": "-611 47 1939",
+        "type": "command_block",
+        "types": [
+            "facing=west"
+        ],
+        "command": "function do2:events/on_yeti"
+    },
+    {
+        "coords": "-618 46 1936",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/on_game_start"
+    },
+    {
+        "coords": "-614 44 1934",
+        "type": "command_block",
+        "types": [
+            "facing=north"
+        ],
+        "command": "function do2:events/on_yeti"
+    },
+    {
+        "coords": "-609 45 1943",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:events/on_yeti"
+    },
+    {
+        "coords": "-612 37 1948",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/on_game_off"
+    },
+    {
+        "coords": "-616 25 1970",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/systems/on_maxclank_released"
+    },
+    {
+        "coords": "-617 27 1978",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:events/systems/on_hazard_attempted"
+    },
+    {
+        "coords": "-627 25 1993",
+        "type": "command_block",
+        "types": [
+            "facing=north"
+        ],
+        "command": "function do2:events/systems/on_treasure_released"
+    },
+    {
+        "coords": "-624 25 1970",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/systems/on_maxclank_reached"
+    },
+    {
+        "coords": "-616 24 1978",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/systems/on_hazard_blocked"
+    },
+    {
+        "coords": "-608 24 1979",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/systems/on_hazard_generated"
+    },
+    {
+        "coords": "-636 -23 2019",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "/function do2:events/on_artifact_converted_to_artifake"
+    },
+    {
+        "coords": "-662 -15 1980",
+        "type": "command_block",
+        "types": [
+            "facing=west"
+        ],
+        "command": "/function do2:events/systems/on_crown_acquired"
+    },
+    {
+        "coords": "-660 -15 1978",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "/function do2:events/systems/on_coin_conversion"
+    },
+    {
+        "coords": "-629 -16 1987",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/on_game_win"
+    },
+    {
+        "coords": "-574 -53 1854",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_door_bomb"
+    },
+    {
+        "coords": "-597 -60 1883",
+        "type": "command_block",
+        "types": [
+            "facing=west"
+        ],
+        "command": "function do2:events/dungeon/on_key_submitted/dungeon_masters"
+    },
+    {
+        "coords": "-579 -37 1831",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/systems/on_bomb_ember_add"
+    },
+    {
+        "coords": "-575 -38 1844",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/systems/on_bomb_treasure_add"
+    },
+    {
+        "coords": "-525 -28 1929",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/artifact_submission_line/l1_trigger"
+    },
+    {
+        "coords": "-635 -17 1898",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/dungeon/on_key_submitted/level_4"
+    },
+    {
+        "coords": "-600 -24 1918",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/artifact_submission_line/l4_trigger"
+    },
+    {
+        "coords": "-603 8 1942",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/artifact_submission_line/l3_trigger"
+    },
+    {
+        "coords": "-586 12 1949",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_key_submitted/level_3"
+    },
+    {
+        "coords": "-601 21 1964",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/artifact_submission_line/l2_trigger"
+    },
+    {
+        "coords": "-520 6 2010",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_rusty_repair"
+    },
+    {
+        "coords": "-618 24 2001",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:events/systems/on_embers_attempted"
+    },
+    {
+        "coords": "-627 25 1998",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:events/systems/on_embers_released"
+    },
+    {
+        "coords": "-533 9 2054",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_treat"
+    },
+    {
+        "coords": "-531 9 2054",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_trick"
+    },
+    {
+        "coords": "-529 9 2054",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/dungeon/on_trick_or_treat"
+    },
+    {
+        "coords": "-618 23 1994",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/systems/on_treasure_attempted"
+    },
+    {
+        "coords": "-618 27 1955",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/systems/on_clank_generated"
+    },
+    {
+        "coords": "-632 42 1972",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "execute as @a[distance=..5,tag=do2.running] run function do2:events/on_player_exited_dungeon"
+    },
+    {
+        "coords": "-487 53 1993",
+        "type": "command_block",
+        "types": [
+            "facing=east"
+        ],
+        "command": "function do2:events/dungeon/on_key_submitted/level_2"
+    },
+    {
+        "coords": "-545 117 1979",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "function do2:events/on_exit_button"
+    },
+    {
+        "coords": "-568 117 1982",
+        "type": "command_block",
+        "types": [
+            "facing=south"
+        ],
+        "command": "function do2:events/on_game_load"
+    },
+    {
+        "coords": "-568 112 1981",
+        "type": "command_block",
+        "types": [
+            "facing=up"
+        ],
+        "command": "execute positioned -565 113 1980 run kill @e[type=item,distance=..1]"
+    }
+]
