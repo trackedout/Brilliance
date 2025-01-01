@@ -67,9 +67,9 @@ execute if score $dungeon do2.utility.onInstance matches 0 run setblock -551 114
 execute if score $dungeon do2.utility.onInstance matches 0 run setblock -551 113 1984 air
 
 # If server has is-dungeon-instance, create manual shulker breaker.
-execute if score $dungeon do2.utility.onServer matches 1 run setblock -562 116 1982 minecraft:warped_wall_sign[facing=east,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"<-- Press button"}','{"text":"if in adventure"}','{"text":"mode and can\'t"}','{"text":"break shulker"}']},is_waxed:0b}
-execute if score $dungeon do2.utility.onServer matches 1 run setblock -562 116 1983 minecraft:warped_button[face=wall,facing=east,powered=false]
-execute if score $dungeon do2.utility.onServer matches 1 run setblock -564 116 1983 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side]
-execute if score $dungeon do2.utility.onServer matches 0 run setblock -562 116 1982 air
-execute if score $dungeon do2.utility.onServer matches 0 run setblock -562 116 1983 air
-execute if score $dungeon do2.utility.onServer matches 0 run setblock -564 116 1983 air
+execute if score $dungeon do2.utility.onInstance matches 1 run setblock -562 116 1982 minecraft:warped_wall_sign[facing=east,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"white",has_glowing_text:1b,messages:['{"text":"<-- Press button"}','{"text":"if in adventure"}','{"text":"mode and can\'t"}','{"text":"break shulker"}']},is_waxed:0b}
+execute if score $dungeon do2.utility.onInstance matches 1 run setblock -562 116 1983 minecraft:warped_button[face=wall,facing=east,powered=false]
+execute if score $dungeon do2.utility.onInstance matches 1 run setblock -564 116 1983 minecraft:redstone_wire[east=side,north=none,power=0,south=none,west=side]
+execute if score $dungeon do2.utility.onInstance matches 0 run setblock -562 116 1982 air
+execute if score $dungeon do2.utility.onInstance matches 0 run setblock -562 116 1983 air
+execute if score $dungeon do2.utility.onInstance matches 0 run setblock -564 116 1983 air
