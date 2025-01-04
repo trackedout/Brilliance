@@ -17,10 +17,11 @@ setblock -514 38 1986 minecraft:light[level=12]
 setblock -512 40 1989 minecraft:air
 # Piston
 setblock -512 40 1995 minecraft:air
+
 # Piston from above with datapack reset
 setblock -586 53 2009 minecraft:air
-fill -586 50 2008 -586 53 2008 minecraft:air
 setblock -586 53 2008 minecraft:sticky_piston[facing=down]
+fill -586 49 2008 -586 52 2008 minecraft:air
 setblock -586 52 2008 minecraft:snow_block
 setblock -586 51 2008 minecraft:snow_block
 setblock -586 50 2008 minecraft:stone
@@ -50,8 +51,8 @@ setblock -657 -3 1903 minecraft:air
 setblock -589 6 1897 minecraft:air
 # Piston from far above
 setblock -646 16 1905 minecraft:air
-fill -645 16 1905 -645 4 1905 air
 setblock -645 16 1905 minecraft:sticky_piston[facing=down]
+fill -645 15 1905 -645 4 1905 air
 setblock -645 15 1905 minecraft:smooth_basalt
 setblock -645 14 1905 minecraft:deepslate[axis=y]
 setblock -645 13 1905 minecraft:deepslate[axis=y]
