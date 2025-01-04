@@ -80,6 +80,11 @@ scoreboard objectives add do2.config.mc.level4Zones dummy "Whether level 4 shoul
 scoreboard objectives add do2.config.mc.levelZoneMobCount dummy "How many mobs should be in each zone."
 
 
+# Dungeon Config: Experimental (newEvokers currently unused)
+scoreboard objectives add do2.config.newEvokers dummy "Whether to enable Tracked Out exclusive evoker spots"
+scoreboard objectives add do2.config.maxClankBerries dummy "Whether to allow berries to grow after max clank has been reached"
+
+
 # Player Config: Player's last used Dungeon Difficulty.
 scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"
 # Player Config: Silence wardens when unneeded.

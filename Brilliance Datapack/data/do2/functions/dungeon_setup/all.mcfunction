@@ -28,12 +28,15 @@ schedule function do2:dungeon_setup/teleport_killers/all 3t append
 function do2:egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/balance_changes/actions
 
-# Other Setup:
+# Experimental
+function do2:scoreboard/config/max_clank_berries/start_suppress_berries
+
+# Other Setup
 function do2:scoreboard/config/config_setup
 
 # Whether Max Clank Disables Treasure
 execute if score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:redstone_wire
 execute unless score $dungeon do2.config.maxClankTreasure matches 1 run setblock -624 25 1990 minecraft:glass
 
-# Reset Current Tick.
+# Reset Current Tick
 scoreboard players set $dungeon do2.utility.currentTick 0
