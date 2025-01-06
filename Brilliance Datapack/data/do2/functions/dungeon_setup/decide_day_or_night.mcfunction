@@ -1,7 +1,7 @@
 # Whether it's DAY or NIGHT.
 time set noon
 scoreboard players set $dungeon do2.utility.randomNumberRange 100
-function do2:random_gen/generate_random_number
+function do2:utility/random_gen/generate_random_number
 execute if score $dungeon do2.utility.randomNum < $dungeon do2.config.nightTimeChance run time set night
 
 # - Start Log -

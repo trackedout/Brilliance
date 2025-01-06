@@ -1,0 +1,1 @@
+data modify storage do2:mobs preset_endermite_names set value ['{"text":"Nice Jump LOL"}','{"text":"Parkour Failure"}','{"text":"Bit Nibbler"}','{"text":"Frostmite"}','{"text":"Tacticle Tickle"}','{"text":"Lil\' Endy"}']

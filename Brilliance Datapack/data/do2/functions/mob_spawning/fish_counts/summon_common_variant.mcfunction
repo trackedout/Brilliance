@@ -1,6 +1,6 @@
 
 scoreboard players set $dungeon do2.utility.randomNumberRange 22
-function do2:random_gen/generate_random_number
+function do2:utility/random_gen/generate_random_number
 
 execute if score $dungeon do2.utility.randomNum matches 0 run summon minecraft:tropical_fish ~ ~ ~ {Variant:65536,Tags:["do2.manually_spawned"]}
 execute if score $dungeon do2.utility.randomNum matches 1 run summon minecraft:tropical_fish ~ ~ ~ {Variant:459008,Tags:["do2.manually_spawned"]}

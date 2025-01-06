@@ -30,29 +30,7 @@ execute unless entity @e[type=minecraft:drowned,tag=L0Z2] run scoreboard players
 # Check for Davey Bones
 execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players set $dungeon do2.tests.all_killers_alive 3
 # Check for Evokers
-execute unless entity @e[type=minecraft:evoker,tag=L1E1] run scoreboard players set $dungeon do2.tests.all_killers_alive 4
-execute unless entity @e[type=minecraft:evoker,tag=L1E2] run scoreboard players set $dungeon do2.tests.all_killers_alive 5
-execute unless entity @e[type=minecraft:evoker,tag=L1E3] run scoreboard players set $dungeon do2.tests.all_killers_alive 6
-execute unless entity @e[type=minecraft:evoker,tag=L1E4] run scoreboard players set $dungeon do2.tests.all_killers_alive 7
-execute unless entity @e[type=minecraft:evoker,tag=L1E5] run scoreboard players set $dungeon do2.tests.all_killers_alive 8
-execute unless entity @e[type=minecraft:evoker,tag=L1E6] run scoreboard players set $dungeon do2.tests.all_killers_alive 9
-execute unless entity @e[type=minecraft:evoker,tag=L1E7] run scoreboard players set $dungeon do2.tests.all_killers_alive 10
-execute unless entity @e[type=minecraft:evoker,tag=L1E8] run scoreboard players set $dungeon do2.tests.all_killers_alive 11
-execute unless entity @e[type=minecraft:evoker,tag=L1E9] run scoreboard players set $dungeon do2.tests.all_killers_alive 12
-execute unless entity @e[type=minecraft:evoker,tag=L1E10] run scoreboard players set $dungeon do2.tests.all_killers_alive 13
-execute unless entity @e[type=minecraft:evoker,tag=L1E11] run scoreboard players set $dungeon do2.tests.all_killers_alive 14
-execute unless entity @e[type=minecraft:evoker,tag=L1E12] run scoreboard players set $dungeon do2.tests.all_killers_alive 15
-
-execute unless entity @e[type=minecraft:evoker,tag=L2E1] run scoreboard players set $dungeon do2.tests.all_killers_alive 16
-execute unless entity @e[type=minecraft:evoker,tag=L2E2] run scoreboard players set $dungeon do2.tests.all_killers_alive 17
-execute unless entity @e[type=minecraft:evoker,tag=L2E3] run scoreboard players set $dungeon do2.tests.all_killers_alive 18
-execute unless entity @e[type=minecraft:evoker,tag=L2E4] run scoreboard players set $dungeon do2.tests.all_killers_alive 19
-execute unless entity @e[type=minecraft:evoker,tag=L2E5] run scoreboard players set $dungeon do2.tests.all_killers_alive 20
-execute unless entity @e[type=minecraft:evoker,tag=L2E6] run scoreboard players set $dungeon do2.tests.all_killers_alive 21
-execute unless entity @e[type=minecraft:evoker,tag=L2E7] run scoreboard players set $dungeon do2.tests.all_killers_alive 22
-execute unless entity @e[type=minecraft:evoker,tag=L2E8] run scoreboard players set $dungeon do2.tests.all_killers_alive 23
-execute unless entity @e[type=minecraft:evoker,tag=L2E9] run scoreboard players set $dungeon do2.tests.all_killers_alive 24
-execute unless entity @e[type=minecraft:evoker,tag=L2E10] run scoreboard players set $dungeon do2.tests.all_killers_alive 25
+function do2:entity_controller/generate_entities/evokers/test_for_all_evokers
 
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Missing 'Other' Killer §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_killers_alive"}}]
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 run function do2:dungeon_setup/summon/other_killers

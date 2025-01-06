@@ -1,14 +1,14 @@
 # Make sure we have markers set up.
-function do2:dungeon_setup/test_for_markers
+function do2:entity_controller/generate_entities/markers/test_for_markers
 
 # - Summon Zone Lines -
 # Ravager Zones:
-execute if score $dungeon do2.config.mc.level1Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_1_zones
-execute if score $dungeon do2.config.mc.level1Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_1_zones
-execute if score $dungeon do2.config.mc.level2Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_2_zones
-execute if score $dungeon do2.config.mc.level2Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_2_zones
-execute if score $dungeon do2.config.mc.level4Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_4_zones
-execute if score $dungeon do2.config.mc.level4Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_4_zones
+execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_1_zones
+execute if score $dungeon do2.config.ec.level1Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_1_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_2_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_2_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_4_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_4_zones
 
 # Teleport isn't enabled, then don't teleport the killers
 execute unless score $dungeon do2.config.fr.teleportKillers matches 1 run return 0

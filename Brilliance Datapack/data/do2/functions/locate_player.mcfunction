@@ -79,17 +79,16 @@ execute unless entity @a[scores={do2.logs.player_actions=3..}] run return 0
 data modify storage do2:utility playerOldLocation set value ""
 data modify storage do2:utility playerNewLocation set value ""
 
-# Remove names until do2:tests array[0] becomes the new location.
-scoreboard objectives add do2.tests.arrayIndex dummy
-scoreboard players operation $dungeon do2.tests.arrayIndex = @s do2.utility.dungeonLocation
-data modify storage do2:tests array set from storage do2:utility locationNames
-function do2:mob_controller/array_manipulation/get_from_index
-data modify storage do2:utility playerNewLocation set from storage do2:tests array[0]
+# Remove names until do2:utility array[0] becomes the new location.
+scoreboard players operation $dungeon do2.utility.arrayIndex = @s do2.utility.dungeonLocation
+data modify storage do2:utility array set from storage do2:utility locationNames
+function do2:utility/array_manipulation/get_from_index
+data modify storage do2:utility playerNewLocation set from storage do2:utility array[0]
 
-# Remove names until do2:tests array[0] becomes the old location.
-scoreboard players operation $dungeon do2.tests.arrayIndex = @s do2.utility.oldDungeonLocation
-data modify storage do2:tests array set from storage do2:utility locationNames
-function do2:mob_controller/array_manipulation/get_from_index
-data modify storage do2:utility playerOldLocation set from storage do2:tests array[0]
+# Remove names until do2:utility array[0] becomes the old location.
+scoreboard players operation $dungeon do2.utility.arrayIndex = @s do2.utility.oldDungeonLocation
+data modify storage do2:utility array set from storage do2:utility locationNames
+function do2:utility/array_manipulation/get_from_index
+data modify storage do2:utility playerOldLocation set from storage do2:utility array[0]
 
 execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Player has moved from "},{"storage": "do2:utility","nbt": "playerOldLocation","color":"red"},{"text":"§r --> "},{"storage": "do2:utility","nbt": "playerNewLocation","color":"green"}]

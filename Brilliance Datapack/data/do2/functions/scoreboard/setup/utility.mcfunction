@@ -34,16 +34,16 @@ scoreboard objectives add do2.utility.setNormalScoreDefaults dummy "Used to chec
 scoreboard objectives add do2.utility.setTrackedOutScoreDefaults dummy "Used to check whether Tracked Out's scoreboard defaults have been set."
 scoreboard objectives add do2.utility.dungeonLocation dummy "Used to check what 'area' in the dungeon the player is in."
 scoreboard objectives add do2.utility.oldDungeonLocation dummy "Used to check what 'area' in the dungeon the player was in."
+scoreboard objectives add do2.utility.arrayIndex dummy
 
-
-# - Mob Controller - (mob_controller)
-scoreboard objectives add do2.utility.mc.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
-scoreboard objectives add do2.utility.mc.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
-scoreboard objectives add do2.utility.mc.mobGenerationCount dummy "Used to count how many mobs to generate"
-scoreboard objectives add do2.utility.mc.mobGenerationType dummy "Used to tell which mob is being generated."
-scoreboard objectives add do2.utility.mc.mobNamesCount dummy "Used to count how many mobs names exist."
-scoreboard objectives add do2.utility.mc.collectingLogs dummy "Boolean if collecting warnings from mob controller in order to group them up."
-
+# - Entity Controller - (entity_controller)
+scoreboard objectives add do2.utility.ec.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.ec.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
+scoreboard objectives add do2.utility.ec.mobGenerationCount dummy "Used to count how many mobs to generate"
+scoreboard objectives add do2.utility.ec.mobGenerationType dummy "Used to tell which mob is being generated."
+scoreboard objectives add do2.utility.ec.mobNamesCount dummy "Used to count how many mobs names exist."
+scoreboard objectives add do2.utility.ec.collectingLogs dummy "Boolean if collecting warnings from mob controller in order to group them up."
+scoreboard objectives add do2.utility.ec.oldMobsExisting dummy "Used to count how many old mobs still exist"
 
 # - Cycle Items utility -
 scoreboard objectives add do2.utility.embersToGive dummy "§3Frost Embers§r left to give"

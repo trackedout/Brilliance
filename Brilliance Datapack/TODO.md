@@ -1,4 +1,8 @@
 # Other TODO:
+- Issue with advancement run_too_long
+- Only allow ONE ravager to be in the first 5 markers at L1
+- custom advancement datapack for lobby
+- Fill descriptions https://github.com/trackedout/Brilliance/pull/30
 - Key Advancements need to check if they are during the first 30s.
 - Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
   - Could hack, and check player's location ON artifact submission, but best if individualized.
@@ -18,7 +22,7 @@
   * -492 117 1972 (every single one of our expanded rooms)
 - do2.config.fr.teleportKillers isn't used in new system and needs to be updated todo so.
 - Allow ghosts to spectate their allies in shop freely.
-- DavyBones & Mites need to be moved to mob_controller
+- DavyBones & Mites need to be moved to entity_controller
 - Stats room is missing several features. Needs updating, especially with the new scores.
 - Fish markers needs to be controlled from backrooms
 - Check for TOO MANY mobs to correct them.

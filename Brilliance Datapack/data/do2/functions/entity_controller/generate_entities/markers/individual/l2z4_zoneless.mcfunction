@@ -1,0 +1,45 @@
+kill @e[type=marker,tag=L2Z4]
+
+# - Zone 4 - (42 spots) -
+summon minecraft:marker -523 14 1995 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -524 14 1989 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -525 14 1983 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -524 14 1976 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -519 14 1975 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -514 14 1974 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -512 14 1970 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -510 13 1965 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -508 12 1960 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -500 11 1952 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -504 11 1957 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -508 11 1952 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -513 14 1980 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -516 14 1986 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -520 14 1987 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -529 18 1991 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -531 18 1996 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -529 18 2002 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -524 18 1984 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -520 18 1981 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -513 18 1975 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -507 18 1974 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -501 18 1973 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -493 17 1973 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -485 18 1972 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -477 18 1972 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -472 18 1968 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -508 14 1983 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -503 15 1985 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -498 16 1985 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -493 17 1988 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -490 17 1993 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -489 17 1998 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -495 17 1999 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -498 17 1995 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -502 17 1992 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -486 17 1987 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -477 18 1987 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -469 19 1985 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -465 20 1984 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -467 20 1989 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
+summon minecraft:marker -495 12 1953 {Duration: 2147483647, Tags: ["no-zones", "zone_marker", "L2Z4"]}
