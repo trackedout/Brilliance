@@ -32,6 +32,23 @@ execute unless entity @e[type=minecraft:stray,tag=L2DAVY] run scoreboard players
 # Check for Evokers
 function do2:entity_controller/generate_entities/evokers/test_for_all_evokers
 
+# New
+execute unless entity @e[type=minecraft:evoker,tag=L1E13] run scoreboard players set $dungeon do2.tests.all_killers_alive 26
+execute unless entity @e[type=minecraft:evoker,tag=L1E14] run scoreboard players set $dungeon do2.tests.all_killers_alive 27
+execute unless entity @e[type=minecraft:evoker,tag=L1E15] run scoreboard players set $dungeon do2.tests.all_killers_alive 28
+execute unless entity @e[type=minecraft:evoker,tag=L1E16] run scoreboard players set $dungeon do2.tests.all_killers_alive 29
+execute unless entity @e[type=minecraft:evoker,tag=L1E17] run scoreboard players set $dungeon do2.tests.all_killers_alive 30
+execute unless entity @e[type=minecraft:evoker,tag=L1E18] run scoreboard players set $dungeon do2.tests.all_killers_alive 31
+
+execute unless entity @e[type=minecraft:evoker,tag=L2E11] run scoreboard players set $dungeon do2.tests.all_killers_alive 32
+execute unless entity @e[type=minecraft:evoker,tag=L2E12] run scoreboard players set $dungeon do2.tests.all_killers_alive 33
+execute unless entity @e[type=minecraft:evoker,tag=L2E13] run scoreboard players set $dungeon do2.tests.all_killers_alive 34
+execute unless entity @e[type=minecraft:evoker,tag=L2E14] run scoreboard players set $dungeon do2.tests.all_killers_alive 35
+execute unless entity @e[type=minecraft:evoker,tag=L2E15] run scoreboard players set $dungeon do2.tests.all_killers_alive 36
+execute unless entity @e[type=minecraft:evoker,tag=L2E16] run scoreboard players set $dungeon do2.tests.all_killers_alive 37
+execute unless entity @e[type=minecraft:evoker,tag=L2E17] run scoreboard players set $dungeon do2.tests.all_killers_alive 38
+
+
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Missing 'Other' Killer §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_killers_alive"}}]
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 run function do2:dungeon_setup/summon/other_killers
 scoreboard objectives remove do2.tests.all_killers_alive

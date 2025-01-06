@@ -36,3 +36,20 @@ summon minecraft:minecart -459 20 1978 {PersistenceRequired:1b, Invulnerable:1b,
 summon minecraft:minecart -464 20 1961 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L2E9"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
 summon minecraft:minecart -566 11 2021 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L2E10"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
 
+# New
+# Level 1
+summon minecraft:minecart -527 52 2008 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L1E13"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
+summon minecraft:minecart -520 52 1973 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L1E14"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
+summon minecraft:evoker -536 56 1967 {PersistenceRequired:1b, Tags: ["evoker_spot","L1E15"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:evoker -543 53 1979 {PersistenceRequired:1b, Tags: ["evoker_spot","L1E16"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:evoker -587 46 2006 {PersistenceRequired:1b, Tags: ["evoker_spot","L1E17"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:evoker -599 44 2037 {PersistenceRequired:1b, Tags: ["evoker_spot","L1E18"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+
+# Level 2
+summon minecraft:minecart -597 13 1955 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L2E11"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
+summon minecraft:evoker -589 14 1985 {PersistenceRequired:1b, Tags: ["evoker_spot","L2E12"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:minecart -528 13 1970 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L2E13"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
+summon minecraft:evoker -502 26 1967 {PersistenceRequired:1b, Tags: ["evoker_spot","L2E14"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:evoker -510 25 1958 {PersistenceRequired:1b, Tags: ["evoker_spot","L2E15"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:evoker -463 26 2008 {PersistenceRequired:1b, Tags: ["evoker_spot","L2E16"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
+summon minecraft:minecart -451 19 1957 {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot","L2E17"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}

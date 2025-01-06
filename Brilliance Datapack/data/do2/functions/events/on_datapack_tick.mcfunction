@@ -17,7 +17,6 @@ execute if score $dungeon do2.run.active matches 2.. if score $dungeon do2.run.p
 # if no players running do2 but game active for 5 minutes, end game.
 execute if score $dungeon do2.run.active matches 2.. if score $dungeon do2.run.timeWithNoPlayers matches 300 run function do2:events/on_game_end
 
-# Tango mentioned this and I think we removed it on accident.
 # Remove glowing effect from Evokers.
 execute if score $dungeon do2.run.active matches 2.. as @e[type=minecraft:evoker] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 # Remove glowing effect from Witches.
@@ -31,6 +30,9 @@ execute if score $dungeon do2.config.forceGamemode matches 1 run function do2:sp
 
 # Force player's food.
 execute if score $dungeon do2.config.forceFood matches 1 as @a[scores={do2.utility.shouldForceFood=1}] run function do2:dungeon_setup/control_player_saturation
+
+# Suppress berry growth if config is enabled and max clank has been reached
+execute if score $dungeon do2.config.maxClankBerries matches 0 if score $dungeon do2.run.systems.maxclank.released matches 1.. if score $dungeon do2.run.active matches 1.. run function do2:scoreboard/config/max_clank_berries/tick_suppress_berries
 
 # Check for triggers.
 function do2:scoreboard/triggers/checks

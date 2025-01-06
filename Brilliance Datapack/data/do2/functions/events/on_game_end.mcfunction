@@ -10,6 +10,9 @@ execute as @a[scores={do2.logs.gamestate=1..}] if score $dungeon do2.run.active 
 execute if score $dungeon do2.config.fastReset matches 1 run setblock -542 122 1966 minecraft:redstone_block
 execute if score $dungeon do2.config.fastReset matches 0 run setblock -542 122 1966 minecraft:glass
 
+# Reset berry suspension mechanisms if config is enabled
+execute if score $dungeon do2.config.maxClankBerries matches 0 run function do2:scoreboard/config/max_clank_berries/end_suppress_berries
+
 # Set Game to NOT be active.
 scoreboard players set $dungeon do2.run.active 0
 
