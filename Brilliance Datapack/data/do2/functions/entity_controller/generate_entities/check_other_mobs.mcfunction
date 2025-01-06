@@ -1,4 +1,4 @@
-scoreboard objectives add do2.tests.amountOfMobsExists
+scoreboard objectives add do2.tests.amountOfMobsExists dummy
 
 
 # Death Room Ravager
@@ -11,13 +11,13 @@ execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon 
 function do2:entity_controller/generate_entities/evokers/test_for_all_evokers
 
 # Axolotls
-function do2:entity_controller/generate_entities/other_mobs/axolotls
+function do2:entity_controller/generate_entities/other_entities/axolotls
 
 # Fun mobs
-function do2:entity_controller/generate_entities/other_mobs/fun_mobs
+function do2:entity_controller/generate_entities/other_entities/fun_mobs
 
 # Interaction Entities
-function do2:entity_controller/generate_entities/other_mobs/interaction_entities
+function do2:entity_controller/generate_entities/other_entities/interaction_entities
 
 
 # Todo: do checks for remainders... skeleton & endermites

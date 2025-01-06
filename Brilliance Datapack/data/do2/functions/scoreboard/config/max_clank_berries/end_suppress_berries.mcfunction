@@ -75,4 +75,4 @@ setblock -602 -11 1910 minecraft:air
 # 2x Piston
 setblock -564 -44 1911 minecraft:air
 setblock -564 -44 1912 minecraft:air
-setblock -564 -44 1913 minecraft:air 
+setblock -564 -44 1913 minecraft:air

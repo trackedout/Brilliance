@@ -14,7 +14,7 @@ function do2:agronet/add_items/add_artifake
 # execute as everyone.
 # if that player has found an artifact.
 # that that artifact got converted.
-execute as @a if score @s do2.run.foundArtifact matches 10.. as @p[tag=do2.received_shulker] run scoreboard players set @s do2.run.convertedArtifake
+execute as @a if score @s do2.run.foundArtifact matches 10.. as @p[tag=do2.received_shulker] run scoreboard players set @s do2.run.convertedArtifake 1
 execute as @a if score @s do2.run.foundArtifact matches 10 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.PWS 1
 execute as @a if score @s do2.run.foundArtifact matches 11 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.CF1 1
 execute as @a if score @s do2.run.foundArtifact matches 12 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.CUS 1

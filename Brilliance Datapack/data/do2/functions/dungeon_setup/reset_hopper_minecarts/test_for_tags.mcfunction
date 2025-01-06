@@ -80,7 +80,7 @@ execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID70] run scoreb
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID71] run scoreboard players set $dungeon do2.tests.all_filters 0
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID72] run scoreboard players set $dungeon do2.tests.all_filters 0
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID73] run scoreboard players set $dungeon do2.tests.all_filters 0
-execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID74] run scoreboard players set $dungeon do2.tests.all_
+execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID74] run scoreboard players set $dungeon do2.tests.all_filters 0
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID69] run scoreboard players set $dungeon do2.tests.all_filters 0
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID70] run scoreboard players set $dungeon do2.tests.all_filters 0
 execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID71] run scoreboard players set $dungeon do2.tests.all_filters 0

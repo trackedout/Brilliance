@@ -26,3 +26,5 @@ scoreboard objectives add do2.logs.player_actions dummy "Receive Logs on PLAYER'
 scoreboard objectives add do2.logs.dungeon_setup dummy "Receive Logs of DATAPACK SETUP."
 
 scoreboard objectives add do2.logs.spam dummy "Receive Logs of dungeon SPAM."
+
+scoreboard objectives add do2.logs.entity_controller dummy "Receive Logs of the entity controller's actions."
