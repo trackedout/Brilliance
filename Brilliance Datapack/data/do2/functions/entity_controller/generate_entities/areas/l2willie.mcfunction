@@ -20,8 +20,8 @@ execute if score $dungeon do2.utility.ec.mobNamesCount < $l2willie do2.config.ec
 
 # Generate enough mobs.
 execute as @e[type=drowned,tag=L2WILLIE] run tag @s add already_generated_mob
-function do2:entity_controller/generate_mobs/kill_extra_mobs
-function do2:entity_controller/generate_mobs/generate_enough_mobs
+function do2:entity_controller/generate_entities/kill_extra_mobs
+function do2:entity_controller/generate_entities/generate_enough_mobs
 
 # Finish
 execute as @e[tag=newly_generated_mob] run tp @s @e[type=marker,tag=L2WILLIE,limit=1,sort=random]

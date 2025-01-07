@@ -20,8 +20,8 @@ execute if score $dungeon do2.utility.ec.mobNamesCount < $l3z3 do2.config.ec.lev
 
 # Generate enough mobs.
 execute as @e[type=warden,tag=L3Z3] run tag @s add already_generated_mob
-function do2:entity_controller/generate_mobs/kill_extra_mobs
-function do2:entity_controller/generate_mobs/generate_enough_mobs
+function do2:entity_controller/generate_entities/kill_extra_mobs
+function do2:entity_controller/generate_entities/generate_enough_mobs
 
 # Finish
 execute as @e[tag=newly_generated_mob] run tp @s @e[type=marker,tag=L3Z3,limit=1,sort=random]
