@@ -1,5 +1,5 @@
 # - Start Log -
-execute as @a[scores={do2.logs.entity_testing=1..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for all §7Evokers§r."}]
+execute as @a[scores={do2.logs.entity_testing=2..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for all §7Evokers§r."}]
 # - End Log -
 
 # Setup
