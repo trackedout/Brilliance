@@ -36,7 +36,7 @@ scoreboard players set @s do2.run.items.coins 0
 scoreboard players set @s do2.run.items.crowns 0
 scoreboard players set @s do2.run.items.kits 0
 scoreboard players set @s do2.run.items.pumpkins 0
-scoreboard players set @s do2.run.items.bone_meal 0
+scoreboard players set @s do2.run.items.bone_meals 0
 scoreboard players set @s do2.run.items.sweet_berries 0
 scoreboard players set @s do2.run.items.glow_berries 0
 scoreboard players set @s do2.run.items.pork_chops 0

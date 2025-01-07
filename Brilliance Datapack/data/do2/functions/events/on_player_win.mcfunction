@@ -41,21 +41,6 @@ execute as @s run function do2:events/on_player_artifact_submitted
 # ADVANCEMENT STUFF GOES HERE
 # - End run w/ more embers than artifact
 execute if entity @s[tag=do2.received_shulker] run function do2:advancements/checks/end_more_embers_than_artifact
-# - WIN X TIMES -
-execute if score @s do2.wins matches 1.. run advancement grant @s only do2:hidden/survival/win_1_times
-execute if score @s do2.wins matches 10.. run advancement grant @s only do2:hidden/survival/win_10_times
-execute if score @s do2.wins matches 20.. run advancement grant @s only do2:hidden/survival/win_20_times
-execute if score @s do2.wins matches 30.. run advancement grant @s only do2:hidden/survival/win_30_times
-execute if score @s do2.wins matches 40.. run advancement grant @s only do2:hidden/survival/win_40_times
-execute if score @s do2.wins matches 50.. run advancement grant @s only do2:hidden/survival/win_50_times
-execute if score @s do2.wins matches 65.. run advancement grant @s only do2:hidden/survival/win_65_times
-execute if score @s do2.wins matches 80.. run advancement grant @s only do2:hidden/survival/win_80_times
-execute if score @s do2.wins matches 100.. run advancement grant @s only do2:hidden/survival/win_100_times
-# - WIN X STREAK -
-execute if score @s do2.win_streak matches 3.. run advancement grant @s only do2:hidden/survival/win_streak_3
-execute if score @s do2.win_streak matches 5.. run advancement grant @s only do2:hidden/survival/win_streak_5
-execute if score @s do2.win_streak matches 7.. run advancement grant @s only do2:hidden/survival/win_streak_7
-execute if score @s do2.win_streak matches 10.. run advancement grant @s only do2:hidden/survival/win_streak_10
 # - WIN X DIFFICULTY -
 execute if score $dungeon do2.run.difficulty matches 1 run advancement grant @s only do2:hidden/survival/win_difficulty_1
 execute if score $dungeon do2.run.difficulty matches 2 run advancement grant @s only do2:hidden/survival/win_difficulty_2

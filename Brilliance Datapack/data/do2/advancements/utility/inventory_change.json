@@ -1,5 +1,4 @@
 {
-	"comment_1": "CALLS EVEN ON_INVENTORY_CHANGE",
 	"criteria": {
 		"picked_up_bone_meal": {
 			"trigger": "minecraft:inventory_changed",

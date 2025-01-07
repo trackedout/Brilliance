@@ -38,6 +38,7 @@ scoreboard objectives add do2.run.cards.deck.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.deck.FBS dummy "Fuzzy Bunny Slippers"
 scoreboard objectives add do2.run.cards.deck.DEF dummy "Deepfrost"
 scoreboard objectives add do2.run.cards.deck.BRI dummy "Brilliance"
+scoreboard objectives add do2.run.cards.deck.STU dummy "Stumble"
 
 # TODO: add do2.run.cards.deck.legendaries here
 

@@ -8,7 +8,7 @@ execute if score $dungeon do2.config.ec.level2Zones matches 1 run function do2:e
 execute if score $dungeon do2.config.ec.level4Zones matches 1 run function do2:entity_controller/generate_entities/markers/l4_zones
 
 # NO ZONES
-execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/markers/l1_zonless
+execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/markers/l1_zoneless
 execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:entity_controller/generate_entities/markers/l2_zoneless
 execute if score $dungeon do2.config.ec.level4Zones matches 0 run function do2:entity_controller/generate_entities/markers/l4_zoneless
 

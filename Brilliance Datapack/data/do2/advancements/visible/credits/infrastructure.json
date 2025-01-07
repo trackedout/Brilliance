@@ -7,6 +7,7 @@
         "title": "§6Backend Infrastructure  ",
         "description": "§7Anything and everything that happens behind the scenes",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/admin"
 }

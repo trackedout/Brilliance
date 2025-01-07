@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_ember_seeker": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -29,7 +29,7 @@
 			}
 		},
 		"buy_frost_focus": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"buy_reckless_charge": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"buy_swagger": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -77,7 +77,7 @@
 			}
 		},
 		"buy_speed_runner": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"buy_chill_step": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -109,7 +109,7 @@
 			}
 		},
 		"buy_cold_snap": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"buy_deepfrost": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

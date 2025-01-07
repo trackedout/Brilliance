@@ -14,5 +14,5 @@ execute as @a[scores={do2.logs.entity_testing=1..}] run tellraw @s ["",{"text":"
 # If there is 0 or more than 1 evokers here, kill all evokers in this spot and summon 1 evoker.
 kill @e[type=minecart,distance=..1]
 kill @e[type=evoker,distance=..1]
-summon minecraft:minecart ~ ~ ~ {PersistenceRequired:1b, Invulnerable:1b, Passengers:[{Tags: ["evoker_spot"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
+summon minecraft:minecart ~ ~ ~ {Invulnerable:1b, Passengers:[{PersistenceRequired:1b, Tags: ["evoker_spot"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
 data modify entity @e[type=evoker,distance=..1,limit=1] Tags append from storage do2:mobs evokerTags

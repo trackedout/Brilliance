@@ -12,7 +12,7 @@
 		"hidden": false
 	},
 	"criteria": {
-		"submit_1_tome": {
+		"submit_10_tomes": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [

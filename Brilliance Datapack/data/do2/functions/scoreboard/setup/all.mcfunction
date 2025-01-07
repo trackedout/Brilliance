@@ -36,6 +36,7 @@ scoreboard objectives add do2.run.has_won dummy "Player has won"
 scoreboard objectives add do2.run.has_died deathCount "Whether player has died this run."
 scoreboard objectives add do2.run.player_deaths dummy "How many players have died"
 scoreboard objectives add do2.run.players dummy "Total players in game"
+scoreboard objectives add do2.run.tnt_dive dummy "Whether the player successfully dived this run"
 
 # - Agronet's utility -
 scoreboard objectives add do2.agronet.card_available dummy "The card ID of the card available"

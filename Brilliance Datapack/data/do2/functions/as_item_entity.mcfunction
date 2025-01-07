@@ -26,7 +26,7 @@ execute if entity @s[tag=tracked] run return 0
 
 # - Iron Ingot - (rusty kits)
 # Rusty Kits are the ONLY Iron Ingots that should be tracked.
-execute if entity @s[nbt={Item:{id:"minecraft:iron_ingot", CustomModelData:2}}] run tag @s add tracked
+execute if entity @s[nbt={Item:{id:"minecraft:iron_ingot", tag:{CustomModelData:2}}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 
@@ -52,7 +52,7 @@ execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0
 execute if entity @s[tag=tracked] run return 0
 
 # - Porkchops - (Given by pork chop power OR by trick/treating)
-execute if entity @s[nbt={Item:{id:"minecraft:cooked_porkchops"}}] run tag @s add tracked
+execute if entity @s[nbt={Item:{id:"minecraft:cooked_porkchop"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 

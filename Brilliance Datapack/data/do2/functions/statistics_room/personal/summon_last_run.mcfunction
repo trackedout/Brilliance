@@ -1,6 +1,6 @@
 kill @e[tag=do2.statistics_room,tag=!do2.stats.lastRun]
 
-execute unless entity @e[tag=do2.statistics_room,tag=do2.stats.lastRun] run summon minecraft:text_display -492 124.3 1990 {Rotation:[90f,0f], billboard:"fixed",background:26,Tags:["do2.statistics_room","do2.stats.lastRun"]}
+execute unless entity @e[tag=do2.statistics_room,tag=do2.stats.lastRun] run summon minecraft:text_display -492 124.3 1990 {alignment:"center",Rotation:[90f,0f], billboard:"fixed",background:26,Tags:["do2.statistics_room","do2.stats.lastRun"]}
 
 # Empty Storages
 data modify storage stats_display win_result set value "§c???§r§f"

@@ -1,5 +1,4 @@
 {
-	"_comment": "This triggers UPON player reaching the BOTTOM of the TnT depth charge.",
 	"criteria": {
 		"reach_under_tnt_depth_charge": {
 			"trigger": "minecraft:location",

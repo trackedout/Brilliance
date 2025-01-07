@@ -1,3 +1,3 @@
-function do2:entity_controller/generate_entities/individual/l3z1
-function do2:entity_controller/generate_entities/individual/l3z2
-function do2:entity_controller/generate_entities/individual/l3z3
+function do2:entity_controller/generate_entities/markers/individual/l3z1
+function do2:entity_controller/generate_entities/markers/individual/l3z2
+function do2:entity_controller/generate_entities/markers/individual/l3z3

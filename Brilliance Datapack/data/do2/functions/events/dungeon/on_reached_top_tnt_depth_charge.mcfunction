@@ -9,7 +9,7 @@ tag @s remove topTnTLogTarget
 
 scoreboard players add @s do2.depth_charge_success 1
 scoreboard players add $dungeon do2.depth_charge_success 1
-scoreboard players set @s do2.utility.do2.run.tnt_dive 1
+scoreboard players set $dungeon do2.run.tnt_dive 1
 execute if entity @s[advancements={do2:hidden/adventuring/survive_tnt_dive=false}] run advancement grant @s only do2:hidden/adventuring/survive_tnt_dive
 # Set reachedBottomDepthCharge to "2" so no more depth charges can be acquired this run.
 scoreboard players set @s do2.utility.reachedBottomDepthCharge 2

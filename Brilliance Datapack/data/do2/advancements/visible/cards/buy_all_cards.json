@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_sneak": {
-		"trigger": "minecraft:tick",
+		"trigger": "minecraft:location",
 		"conditions": {
 			"player": [
 				{
@@ -29,7 +29,7 @@
 		}
 	},
 		"buy_stability": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"buy_treasure_hunter": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"buy_ember_seeker": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -77,7 +77,7 @@
 			}
 		},
 		"buy_evasion": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"buy_tread_lightly": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -109,7 +109,7 @@
 			}
 		},
 		"buy_loot_and_scoot": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"buy_frost_focus": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -141,7 +141,7 @@
 			}
 		},
 		"buy_second_wind": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -157,7 +157,7 @@
 			}
 		},
 		"buy_beast_sense": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -173,7 +173,7 @@
 			}
 		},
 		"buy_bounding_strides": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -189,7 +189,7 @@
 			}
 		},
 		"buy_reckless_charge": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -205,7 +205,7 @@
 			}
 		},
 		"buy_sprint": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -221,7 +221,7 @@
 			}
 		},
 		"buy_nimble_looting": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -237,7 +237,7 @@
 			}
 		},
 		"buy_smash_and_grab": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -253,7 +253,7 @@
 			}
 		},
 		"buy_quickstep": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -269,7 +269,7 @@
 			}
 		},
 		"buy_suit_up": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -285,7 +285,7 @@
 			}
 		},
 		"buy_adrenaline_rush": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -301,7 +301,7 @@
 			}
 		},
 		"buy_eerie_silence": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -317,7 +317,7 @@
 			}
 		},
 		"buy_dungeon_repairs": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -333,7 +333,7 @@
 			}
 		},
 		"buy_swagger": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -349,7 +349,7 @@
 			}
 		},
 		"buy_chill_step": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -365,7 +365,7 @@
 			}
 		},
 		"buy_speed_runner": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -381,7 +381,7 @@
 			}
 		},
 		"buy_eyes_on_the_prize": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -397,7 +397,7 @@
 			}
 		},
 		"buy_pirates_booty": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -413,7 +413,7 @@
 			}
 		},
 		"buy_cold_snap": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -429,7 +429,7 @@
 			}
 		},
 		"buy_silent_runner": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -445,7 +445,7 @@
 			}
 		},
 		"buy_fuzzy_bunny_slippers": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -461,7 +461,7 @@
 			}
 		},
 		"buy_deepfrost": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -477,7 +477,7 @@
 			}
 		},
 		"buy_brilliance": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
