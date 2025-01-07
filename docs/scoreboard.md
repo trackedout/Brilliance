@@ -23,7 +23,7 @@ The name immediately after the `do2.` will generally be describing it's category
 |      config       |                      Used to store settings on how the game is played.                      | `do2.config.forceGamemode`           |
 |     config.bc     |             Used to store Balance Changes settings on how the game is balanced.             | `do2.config.bc.snowHazard`           |
 |     config.fr     |            Used to store Fresh Changes settings on how fresh the game should be.            | `do2.config.fr.teleportKillers`      |
-|     config.mc     |        Used to store Mob Controlling settings on how the mobs exist inside the game.        | `do2.config.mc.level1Zones`          |
+|     config.mc     |        Used to store Mob Controlling settings on how the mobs exist inside the game.        | `do2.config.ec.level1Zones`          |
 |       eggs        |         Used to store what eggs are found and what rewards have been given to whom.         | `do2.eggs.grian`                     |
 |       logs        |                   Used to store debug logs players might want to receive.                   | `do2.logs.pickups`                   |
 |      utility      | Used to store small utility scores that are used for checks in other parts of the datapack. | `do2.utility.deathCount`             |
@@ -82,12 +82,12 @@ The name immediately after the `do2.` will generally be describing it's category
 |  ⛔   |   🔴   | do2.config.fr.resetComposters        |  config  | Whether to empty out all composters each run.                                                    |
 |  ⛔   |   🔴   | do2.config.fr.teleportKillers        |  config  | Whether the killers should be spread out for each run.                                           |
 |  ⛔   |   🔴   | do2.config.maxClankTreasure          |  config  | Whether treasure can drop after max clank is reached.                                            |
-|  ⛔   |   🔴   | do2.config.mc.controlSummons         |  config  | Whether to use legacy system or the new level controller.                                        |
-|  ⛔   |   🔴   | do2.config.mc.level1Zones            |  config  | Whether zones should be used on L1.                                                              |
-|  ⛔   |   🔴   | do2.config.mc.level2Zones            |  config  | Whether zones should be used on L2.                                                              |
-|  ⛔   |   🔴   | do2.config.mc.level4Zones            |  config  | Whether zones should be used on L4.                                                              |
-|  ⛔   |   🔴   | do2.config.mc.levelEditing           |  config  | What level the interface is displaying to be edited.                                             |
-|  ✅   |   🔴   | do2.config.mc.levelZoneMobCount      |  config  | Used to control how many mobs are in each zone.                                                  |
+|  ⛔   |   🔴   | do2.config.ec.controlSummons         |  config  | Whether to use legacy system or the new level controller.                                        |
+|  ⛔   |   🔴   | do2.config.ec.level1Zones            |  config  | Whether zones should be used on L1.                                                              |
+|  ⛔   |   🔴   | do2.config.ec.level2Zones            |  config  | Whether zones should be used on L2.                                                              |
+|  ⛔   |   🔴   | do2.config.ec.level4Zones            |  config  | Whether zones should be used on L4.                                                              |
+|  ⛔   |   🔴   | do2.config.ec.levelEditing           |  config  | What level the interface is displaying to be edited.                                             |
+|  ✅   |   🔴   | do2.config.ec.levelZoneMobCount      |  config  | Used to control how many mobs are in each zone.                                                  |
 |  ⛔   |   🔴   | do2.config.nightTimeChance           |  config  | The chance for the dungeon to set the time to night.                                             |
 |  ⛔   |   🔴   | do2.config.refillDungeonType         |  config  | The type decides how should the dungeon be refilled.                                             |
 |  ❌   |   🔴   | do2.config.targetFoodLevel           |  config  | How many food bars the player's food should be.                                                  |
@@ -564,12 +564,12 @@ The name immediately after the `do2.` will generally be describing it's category
 |  ✅   |   🔵   | do2.utility.key_3ToGive              | utility  | How many tracked L3 Keys need to be given back.                                                  |
 |  ✅   |   🔵   | do2.utility.key_4ToGive              | utility  | How many tracked L4 Keys need to be given back.                                                  |
 |  ✅   |   🔵   | do2.utility.kitsToGive               | utility  | How many tracked Rusty Repair Kits need to be given back.                                        |
-|  ✅   |   🔴   | do2.utility.mc.collectingLogs        | utility  | Whether the Mob Controller is collecting logs to bundle up.                                      |
-|  ✅   |   🔴   | do2.utility.mc.mobCountCounterTest   | utility  | Used to add to the total count of how many mobs are wanted in a zone.                            |
-|  ✅   |   🔴   | do2.utility.mc.mobCountCounterTotal  | utility  | Used to total up the count of how many mobs are wanted in a zone.                                |
-|  ✅   |   🔴   | do2.utility.mc.mobGenerationCount    | utility  | Count of how many mobs the Mob Controller needs to generate in it's zone.                        |
-|  ✅   |   🔴   | do2.utility.mc.mobGenerationType     | utility  | What kind of mob is being worked on in the Mob Controller's zone.                                |
-|  ✅   |   🔴   | do2.utility.mc.mobNamesCount         | utility  | How many mob names are in the zone the Mob Controller is working on.                             |
+|  ✅   |   🔴   | do2.utility.ec.collectingLogs        | utility  | Whether the Mob Controller is collecting logs to bundle up.                                      |
+|  ✅   |   🔴   | do2.utility.ec.mobCountCounterTest   | utility  | Used to add to the total count of how many mobs are wanted in a zone.                            |
+|  ✅   |   🔴   | do2.utility.ec.mobCountCounterTotal  | utility  | Used to total up the count of how many mobs are wanted in a zone.                                |
+|  ✅   |   🔴   | do2.utility.ec.mobGenerationCount    | utility  | Count of how many mobs the Mob Controller needs to generate in it's zone.                        |
+|  ✅   |   🔴   | do2.utility.ec.mobGenerationType     | utility  | What kind of mob is being worked on in the Mob Controller's zone.                                |
+|  ✅   |   🔴   | do2.utility.ec.mobNamesCount         | utility  | How many mob names are in the zone the Mob Controller is working on.                             |
 |  ✅   |   🟢   | do2.utility.oldGamemode              | utility  | Used to store player's gamemode before game forced their gamemode                                |
 |  ✅   |   🟢   | do2.utility.old_position.temp        | utility  | Used to modify player's old location before teleporting them.                                    |
 |  ✅   |   🟢   | do2.utility.old_position.x           | utility  | Used to store player's old X location before teleporting them.                                   |

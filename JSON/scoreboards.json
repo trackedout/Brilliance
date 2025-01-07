@@ -916,13 +916,13 @@
     "category": "config",
     "description": "The type decides how should the dungeon be refilled."
   },
-  "do2.config.mc.levelEditing": {
+  "do2.config.ec.levelEditing": {
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
     "description": "What level the interface is displaying to be edited."
   },
-  "do2.config.mc.level1Zones": {
+  "do2.config.ec.level1Zones": {
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
@@ -936,7 +936,7 @@
       }
     }
   },
-  "do2.config.mc.level2Zones": {
+  "do2.config.ec.level2Zones": {
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
@@ -950,7 +950,7 @@
       }
     }
   },
-  "do2.config.mc.level4Zones": {
+  "do2.config.ec.level4Zones": {
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
@@ -964,7 +964,7 @@
       }
     }
   },
-  "do2.config.mc.controlSummons": {
+  "do2.config.ec.controlSummons": {
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
@@ -3628,7 +3628,7 @@
     "category": "utility",
     "description": "Used to ensure player stays in lobby at while game isn't in progress"
   },
-  "do2.config.mc.levelZoneMobCount": {
+  "do2.config.ec.levelZoneMobCount": {
     "auto": 1,
     "target": "$dungeon",
     "category": "config",
@@ -3700,37 +3700,37 @@
     "category": "utility",
     "description": "Used to check player's exp in order to give them 1 level if they dont have one."
   },
-  "do2.utility.mc.mobCountCounterTest": {
+  "do2.utility.ec.mobCountCounterTest": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
     "description": "Used to add to the total count of how many mobs are wanted in a zone."
   },
-  "do2.utility.mc.mobCountCounterTotal": {
+  "do2.utility.ec.mobCountCounterTotal": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
     "description": "Used to total up the count of how many mobs are wanted in a zone."
   },
-  "do2.utility.mc.mobGenerationCount": {
+  "do2.utility.ec.mobGenerationCount": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
     "description": "Count of how many mobs the Mob Controller needs to generate in it's zone."
   },
-  "do2.utility.mc.mobGenerationType": {
+  "do2.utility.ec.mobGenerationType": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
     "description": "What kind of mob is being worked on in the Mob Controller's zone."
   },
-  "do2.utility.mc.mobNamesCount": {
+  "do2.utility.ec.mobNamesCount": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
     "description": "How many mob names are in the zone the Mob Controller is working on."
   },
-  "do2.utility.mc.collectingLogs": {
+  "do2.utility.ec.collectingLogs": {
     "auto": 1,
     "target": "$dungeon",
     "category": "utility",
