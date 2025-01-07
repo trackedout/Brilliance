@@ -22,8 +22,8 @@ scoreboard players set $l2_willie do2.tests.all_markers_alive 112
 scoreboard players set $l2z1_zoneless do2.tests.all_markers_alive 49
 scoreboard players set $l2z2_zoneless do2.tests.all_markers_alive 42
 scoreboard players set $l2z3_zoneless do2.tests.all_markers_alive 41
-scoreboard players set $l2z4_zoneless do2.tests.all_markers_alive 42
-scoreboard players set $l2z5_zoneless do2.tests.all_markers_alive 27
+scoreboard players set $l2z4_zoneless do2.tests.all_markers_alive 52
+scoreboard players set $l2z5_zoneless do2.tests.all_markers_alive 35
 scoreboard players set $l2z1_zones do2.tests.all_markers_alive 48
 scoreboard players set $l2z2_zones do2.tests.all_markers_alive 54
 scoreboard players set $l2z3_zones do2.tests.all_markers_alive 21
