@@ -1,0 +1,1 @@
+function do2:dev/update_artifact_command_blocks

@@ -14,6 +14,8 @@ schedule function do2:agronet/test_for_instance 1t append
 function do2:scoreboard/setup/all
 # Setup stats room
 function do2:statistics_room/setup
+# Update cmd blocks
+function do2:update_command_blocks
 
 # Make all player's who may have joined already be setup
 execute as @a at @s run function do2:events/on_player_join
