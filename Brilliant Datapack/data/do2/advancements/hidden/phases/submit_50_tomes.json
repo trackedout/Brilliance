@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111133}"
+		},
+		"title": "§bArchivist",
+		"description": "§7Submit §b50 §7lifetime §9Tomes§7.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"submit_1_tome": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.spent.tomes": {
+								"min": 50
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/phases/submit_25_tomes"
+}

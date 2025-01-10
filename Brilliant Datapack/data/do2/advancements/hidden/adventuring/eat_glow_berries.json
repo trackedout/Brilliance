@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:glow_berries"
+		},
+		"title": "§bComposting Cultivator",
+		"description": "§7Use §o§fbonemeal§r§7 to grow your own §6glowberries§7, and eat them.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"composting_cultivator": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:glow_berries"
+					]
+				},
+				"player": {
+					
+					"team": "do2.players"
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/bonemeal_pickup"
+}

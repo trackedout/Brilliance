@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stone"
+		},
+		"title": "§bIf a Key Fits...",
+		"description": "§7Use the Dungeon Master's Key.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"given_by_commands": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/adventuring/open_basalt_door"
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "§bReady, Set, GO!",
+        "description": "§7Win §b30§7 games of §o§3Decked Out 2§r§7.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "win_30_times": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/survival/win_20_times"
+}

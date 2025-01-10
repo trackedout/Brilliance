@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111127}"
+		},
+		"title":"§bDungeon Locksmith",
+		"description": "§7Enter the dungeon with all three level keys.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"have_3_unique_floor_keys": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/enter_with_1_unique_keys"
+}

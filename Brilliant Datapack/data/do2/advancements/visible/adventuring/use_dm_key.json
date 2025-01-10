@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:37}"
+		},
+		"title": "§bIf a Key Fits...",
+		"description": "§7Use the Dungeon Master's Key.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"comment1": "SET LOCATION TO INSIDE DM'S ROOM",
+	"criteria": {
+		"enter_dm_room": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/open_basalt_door"
+}

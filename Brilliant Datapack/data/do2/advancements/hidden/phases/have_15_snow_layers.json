@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111137}"
+		},
+		"title": "§bSnowstorm",
+		"description": "§7Have at least §b15 §fSnow Layers§7 on the scoreboard.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/phases/have_10_snow_layers"
+}

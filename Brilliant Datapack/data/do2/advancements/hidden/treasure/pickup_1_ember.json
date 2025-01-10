@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 3}"
+		},
+		"title": "§bFrosted Flakes",
+		"description": "§7Pick up a §3Frost Ember§7.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pickup_1_treasure": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "$dungeon"
+							},
+							"score": "do2.run.active"
+						},
+						"range": 2
+					}
+				],
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:3,tracked:0b}"
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/treasure/pickup_1_treasure"
+}

@@ -1,0 +1,35 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:salmon"
+		},
+		"title": "§bFamished Farmer",
+		"description": "§7Eat a §o§3fish§r§7 in the dungeon.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"composting_cultivator": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:cooked_salmon",
+						"minecraft:salmon",
+						"minecraft:cooked_cod",
+						"minecraft:cod",
+						"minecraft:pufferfish",
+						"minecraft:tropical_fish"
+					]
+				},
+				"player": {
+					
+					"team": "do2.players"
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/eat_berries"
+}

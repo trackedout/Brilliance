@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk"
+		},
+		"title": "§bTendril Traveler",
+		"description": "§7Travel to the end of all nine §5Level Four§7 tendrils.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"visit_a_tendril": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"team": "do2.players",
+						"scores": {
+							"do2.tendriltravels": {
+								"min": 9
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/travel_to_a_tendril"
+}

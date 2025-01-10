@@ -1,0 +1,89 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:103}"
+		},
+		"title": "§bEaster Bunny",
+		"description": "§7Discover §oall§r§7 20 Hermit eggs hidden in §o§3Decked Out 2§r§7.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"find_all_egg": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						
+					"team": "do2.players",
+						"scores": {
+							"do2.eggs.bdubs": {
+								"min": 1
+							},
+							"do2.eggs.grian": {
+								"min": 1
+							},
+							"do2.eggs.cub": {
+								"min": 1
+							},
+							"do2.eggs.gold": {
+								"min": 1
+							},
+							"do2.eggs.jevin": {
+								"min": 1
+							},
+							"do2.eggs.zedaph": {
+								"min": 1
+							},
+							"do2.eggs.beef": {
+								"min": 1
+							},
+							"do2.eggs.xisuma": {
+								"min": 1
+							},
+							"do2.eggs.xb": {
+								"min": 1
+							},
+							"do2.eggs.hypno": {
+								"min": 1
+							},
+							"do2.eggs.joe": {
+								"min": 1
+							},
+							"do2.eggs.cleo": {
+								"min": 1
+							},
+							"do2.eggs.iskall": {
+								"min": 1
+							},
+							"do2.eggs.pearl": {
+								"min": 1
+							},
+							"do2.eggs.scar": {
+								"min": 1
+							},
+							"do2.eggs.wels": {
+								"min": 1
+							},
+							"do2.eggs.stress": {
+								"min": 1
+							},
+							"do2.eggs.impulse": {
+								"min": 1
+							},
+							"do2.eggs.false": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/find_a_egg"
+}

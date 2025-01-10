@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_artifact_14": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b, CustomModelData:14, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"The Slab (50)\"}'}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/artifacts/the_slab"
+	},
+	"parent": "do2:utility/root"
+}

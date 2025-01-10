@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "magma_block"
+        },
+        "title": "§bLevel 2 Eggs",
+        "description": "§7There are seven eggs on §2Level 2§7:\n§4§oCaves of Carnage§r§7.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_2/xbcrafted",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

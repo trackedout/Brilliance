@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": "§bNot Today, §oRavager§r§b!",
+		"description": "§7Beat the Death Gauntlet.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/survival/win_1_times"
+	
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "eat_3_things": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_cod"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "do2:advancements/checks/eat_3_things"
+  },
+  "parent": "do2:utility/root"
+}

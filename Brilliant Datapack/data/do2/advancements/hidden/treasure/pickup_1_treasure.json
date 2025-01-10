@@ -1,0 +1,105 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 1}"
+		},
+		"title": "§bLootin' 'n' Scootin'",
+		"description": "§7Pick up any floor ember or treasure.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pickup_1_ember": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "$dungeon"
+							},
+							"score": "do2.run.active"
+						},
+						"range": 2
+					}
+				],
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:3,tracked:0b}"
+					}
+				]
+			}
+		},
+		"pickup_1_crown": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "$dungeon"
+							},
+							"score": "do2.run.active"
+						},
+						"range": 2
+					}
+				],
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:2,tracked:0b}"
+					}
+				]
+			}
+		},
+		"pickup_1_coin": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": {
+								"type": "minecraft:fixed",
+								"name": "$dungeon"
+							},
+							"score": "do2.run.active"
+						},
+						"range": 2
+					}
+				],
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{CustomModelData:1,tracked:0b}"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pickup_1_coin",
+			"pickup_1_crown",
+			"pickup_1_ember"
+		]
+	],
+	"parent": "do2:hidden/treasure/treasure_root"
+}

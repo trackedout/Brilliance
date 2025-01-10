@@ -1,0 +1,31 @@
+{
+	"criteria": {
+		"visit_a_tendril": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"team": "do2.players",
+					"location": {
+						"position": {
+							"x": {
+								"min": -618,
+								"max": -616
+							},
+							"y": {
+								"min": -33,
+								"max": -31
+							},
+							"z": {
+								"min": 1845,
+								"max": 1847
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:advancements/checks/visit_tendrils"
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "§bGetting Warmed Up",
+        "description": "§7Win a game of §o§3Decked Out 2§r§7.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:hidden/survival/survival_root"
+}

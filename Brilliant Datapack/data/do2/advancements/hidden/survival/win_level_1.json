@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "§bLocal Delivery",
+        "description":  "§7Survive §2Level 1§7:\n§b§oFrozen Crypt§r§7.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "win_level_1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.run.deepest_floor": 1,
+                            "do2.run.has_won": 1
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "do2:hidden/survival/win_1_times"
+    
+}

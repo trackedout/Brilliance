@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwODk4MjMwODQxMCwKICAicHJvZmlsZUlkIiA6ICJlZjg4NDMxNmRmNGI0Nzc1YTY5OTQ5NDE1Mzc2M2M3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJzb2lrbGVzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkMzZkMjIyZWM1OTYzNTZiNDI0ZjE0YjM3YzI4Y2UxMGQyMjc1ZWQ0ZDk0NDY5YTg3Yjg4NjU5MzJjODBkNTYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMzQwYzBlMDNkZDI0YTExYjE1YThiMzNjMmE3ZTllMzJhYmIyMDUxYjI0ODFkMGJhN2RlZmQ2MzVjYTdhOTMzIgogICAgfQogIH0KfQ==\", Signature: \"J1L+2EBe/3PEXe9cs2B8qjxoczmADWbCSXSBHaOWwE6m1VZs3tM4Y+69BESc3BuyJzccgMqNojcoFVZ/6uP+jiG3B4ky3fVPk3rtEjEep+rfnRjOAPRmC6IEMjwQ11jHKCitxyCXl3m7hl7Fm9wSEReuUI6L5w5mpi0PqNypZ9nzG9yqqajOmp+oKVz+pverKj6CLxT3qLMXkpcsGJZPvGc99SEAZGXasl/dBDB8HPAwI0AfLsqPq+JequENoNmVE3EPMJIO21AHesnkzE3pi0kWU83fCYA0+4trXf2SiRiC66uyMaxLXgCvSxDzcEn2VOAvk5BqAucp6+20MHd74PxUMShksKlaTzNTM74sSQEMGZGvzu72pBFf4cQTS/CuRmHj2nce2AsLjzFRHcaTI4DhcsZRONErDIMjIaTBAQqivLvkrPyBPETYKCWHo2mkra6/TuqdG+L8MusHI49/pGgJ3auzwZri4o3NvLhZXJ2bVX+8aaHfUvd6dygrUVEdAs/rfbOG0NaTyH/lhSU18pbbPhtxqSmBrO9kAqBllIaraHuwEXnFSNpNqFuuDOr2544bkoR2loyuCa7YMMpnE1w+XBuHP+tFcU9lawXpnBTyFe3bxKvOnnv81PN/btJ9mtd4MW4oLUbvLr9e/DCCEa+JDPCrp3UOGGk34RLjBxY=\"}]}, Id: [I; -276282602, -548714635, -1499903679, 1400257652], Name: \"soikles\"}}"
+        },
+        "title": "soikles        ",
+        "description": "§7Achievement hunter? More like Achievement Maker!",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/credits/advancements"
+}

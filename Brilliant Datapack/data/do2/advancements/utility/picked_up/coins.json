@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_coins": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b,CustomModelData:1}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/coins"
+	},
+	"parent": "do2:utility/root"
+}

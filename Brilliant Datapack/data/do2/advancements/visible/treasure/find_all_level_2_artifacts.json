@@ -1,0 +1,225 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 41}"
+		},
+		"title": "§bDriller",
+		"description": "§7Find every §8Artifact§7 on §2Level 2§7: §4Caves of Carnage§7.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"found_death_loop": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.DLP": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_pearl_cleansing": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.PCL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_horn_of_goat": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.HGT": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_chisel_of_sculptress": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.CUS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_butchers_apron": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.BAP": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_hypno_bandana": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.HYB": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_wand_gorgeous": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.WGG": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_knights_helm": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.KNH": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_eye_of_doom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.BED": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_hidden_stache": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.HST": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_googles_symmetry": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GGS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_golden_eye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GDE": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_watch_of_shreep": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.PWS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/treasure/find_all_level_1_artifacts"
+}

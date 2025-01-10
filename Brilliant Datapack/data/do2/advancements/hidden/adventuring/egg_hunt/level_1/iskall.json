@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 30}"
+        },
+        "title": "§bIskall85 Egg",
+        "description": "§7Find the Iskall85 Egg hidden in §o§3Decked Out 2§r§7.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "team": "do2.players",
+                    "type_specific": {
+                        "type": "player",
+                        "looking_at": {
+                            "nbt": "{Tags:[\"do2.egg_hunt.is_iskall_hitbox\"]}",
+                            "distance": {
+                                "absolute": {
+                                    "min": 0,
+                                    "max": 10
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "do2:egg_hunt/on_find/iskall"
+    },
+    "parent": "do2:hidden/adventuring/egg_hunt/level_1/impulse"
+}

@@ -1,0 +1,20 @@
+{
+    "_comment": "I WANT, this file to be zz_tango, so it alphabetically comes after Zombie Cleo",
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 41}"
+        },
+        "title": "§bTrackedOut exclusive.",
+        "description": "§7The TangoTek Egg isn't present in this version of §o§3Decked Out 2§r§7.",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "do2:visible/adventuring/egg_hunt/level_3/zombiecleo",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

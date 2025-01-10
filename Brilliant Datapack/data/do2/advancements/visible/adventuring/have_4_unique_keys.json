@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111128}"
+		},
+		"title": "§bBasically the Key God(dess)",
+		"description":  "§7While inside the dungeon, have all four keys in your inventory simultaneously, including artifact §o§3Dungeon Master's Key§r§7.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"have_4_unique_keys": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/enter_with_3_unique_keys"
+}

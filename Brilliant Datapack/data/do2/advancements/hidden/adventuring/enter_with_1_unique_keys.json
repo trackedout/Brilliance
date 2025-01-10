@@ -1,0 +1,75 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:201}"
+		},
+		"title": "§bKey Luck Totem",
+		"description": "§7Enter the dungeon with a level key to ward off bad key luck",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"holds_key_1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "all_of",
+						"terms": [
+							{
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"position": {
+										"x": {
+											"min": -627,
+											"max": -617
+										},
+										"y": {
+											"min": 47,
+											"max": 49
+										},
+										"z": {
+											"min": 1937,
+											"max": 1955
+										}
+									}
+								}
+							},
+							{
+								"condition": "any_of",
+								"terms": [
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"type": "minecraft:player",
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:201}}]}"
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:203}}]}"
+										}
+									},
+									{
+										"condition": "minecraft:entity_properties",
+										"entity": "this",
+										"predicate": {
+											"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:209}}]}"
+										}
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent":"do2:hidden/adventuring/adventuring_root"
+}

@@ -1,0 +1,241 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':111}"
+		},
+		"title": "§bAccomplished Collector",
+		"description": "§7Buy §b1§7 of each §aUncommon§7 card.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_evasion": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.EVA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_tread_lightly": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.TRL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_loot_and_scoot": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.LAS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_frost_focus": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.FRF": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_second_wind": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SEW": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_beast_sense": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.BES": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_bounding_strides": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.BST": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_reckless_charge": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.REC": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_sprint": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SPT": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_nimble_looting": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.NIL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_smash_and_grab": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SAG": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_quickstep": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.QUI": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_suit_up": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SUU": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_adrenaline_rush": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.ADR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/cards/buy_all_commons"
+}

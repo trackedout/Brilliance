@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:carved_pumpkin",
+            "nbt": "{'CustomModelData': 38}"
+        },
+        "title": "§bXisumavoid Egg",
+        "description": "§7Find Xisumavoid Egg hidden in §o§3Decked Out 2§r§7.",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "do2:visible/adventuring/egg_hunt/level_3/scar",
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

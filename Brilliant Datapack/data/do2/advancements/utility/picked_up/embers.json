@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_embers": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b,CustomModelData:3}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/embers"
+	},
+	"parent": "do2:utility/root"
+}

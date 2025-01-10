@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "§bPace Yourself",
+        "description": "§7Win §b40§7 games of §o§3Decked Out 2§r§7.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:hidden/survival/win_30_times"
+}

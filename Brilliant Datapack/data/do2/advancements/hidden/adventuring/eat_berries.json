@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sweet_berries"
+		},
+		"title": "§bFood Tour",
+		"description": "§7Eat a §o§cberry§r§7 obtained in the dungeon §m(definitely not poisonous).",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"composting_cultivator": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:sweet_berries"
+					]
+				},
+				"player": {
+					
+					"team": "do2.players"
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/adventuring_root"
+}

@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": "§bFamished Farmer",
+    "description": "§7Eat a §o§3fish§r§7 in the dungeon.",
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "composting_cultivator": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "do2:visible/adventuring/eat_berries"
+}

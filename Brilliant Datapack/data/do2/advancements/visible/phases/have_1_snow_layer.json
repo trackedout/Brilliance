@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:snowball"
+		},
+		"title": "§bLook, Ma! I'm On the Scoreboard!",
+		"description": "§7Have at least §b1 §fSnow Layer§7 on the scoreboard.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/phases/phases_root"
+}

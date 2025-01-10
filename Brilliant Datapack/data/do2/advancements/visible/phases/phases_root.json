@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111115}"
+		},
+		"title": "§bDecked Out 2 Phases!",
+		"description": "§7Advancements about the end of phases appear here!",
+		"background":"do2:textures/gui/advancements/backgrounds/grey_glazed_terracotta.png",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

@@ -1,0 +1,147 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData': 36}"
+		},
+		"title": "§bArchaeologist",
+		"description": "§7Find every §8Artifact§7 on §2Level 4§7: §dBurning Dark§7.",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"found_friend_pick": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.OFP": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_gem_greatness": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.GGR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_cf-135": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.CF1": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_staff_of_pink": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.SPS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_the_slab": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.TSL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_skadoodler": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.SKA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_dm_mug": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.MDM": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"found_dm_key": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.artifacts.MKY": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/treasure/find_all_level_3_artifacts"
+}
+
+

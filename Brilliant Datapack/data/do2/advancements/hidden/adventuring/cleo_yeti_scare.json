@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+			"nbt": "{SkullOwner: {Id: [I; -1559797849, -334280286, -1438161623, -390604046], Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwMjk1NjAzNTYzNCwKICAicHJvZmlsZUlkIiA6ICJhMzA3NWZhN2VjMTM0OWEyYWE0NzY1MjllOGI3ZGFmMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJab21iaWVDbGVvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZlOGZmZjRjNzRkNzQxN2QxOGNlOTNmNDQ3NjAzY2FkMGI4NTI2ODVmYzdlM2I4NzM3NDNkZDhlMDk2NDMyYzYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==\", Signature: \"xtIpFuUA2sZRQAexuJOPmdo9qnQYdw0Be1CATsk7lVjUOZlnEdy+SX/JRXLC1z+dUSAwCkOsH1CDzoIz/diuRZpp1fq8KMuhUekrmZr0Y37a+ZvwvzSIa5ac66nS7DHIijGrcZR8k82nk2zC7guCjBr4Fu9ZTD7wtuEs+0/wYsd5aN9+4nxbN2oiFGlsEF/2uTCVyXYkzWYUfVDYgQ1RwKXi83gCCasVQd7gug86gK/ZLzwONMMXhTDJ6zWg0c3qEQLh7qAj3jLdOcFbIqE5FUXeS2t3DrO/ktYgqIZkfHgSIXbTEJ3QPSbXnBfPh8A4HlrDnlmaVMhT/Jk/l5eoChXxmY/h3MkaQS0qY448foYcd6qlwiCiSeVy1p8hZVwGsROawpADzByQ2teivmjCxm5UUWl5lfnXrrZQqFzOWt0HtWsEZ2NuH+ffiSf94f9teU9yQec5Q9eFsUjBc0TLGDveuzdo6UIwsYsAEVAIOlgBgnEhUva5CRf5cfjlqg8mP+5P8AoTJQSIHgN1AEiF8G5s6O9JEhVnKQS3saGUhQ8GthBv6PENd1Y6hMnQ8WtNCb2Vmsgfh3hOZeUYeOTrDJGDKKzatcR9OYkIWp7J/XvBY7Ps7LauWD4tTlroZWQj+NFOAKauV61nkN9PAqfG6ymwP1ZQXSHVxg24bxvd8t0=\"}]}}}"
+		},
+		"title": "§bHi, I'm Cleo",
+		"description": "§7Receive a greeting from §6§oYetiCleo§r§7.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"only_commands": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/adventuring/yeti_scare"
+}

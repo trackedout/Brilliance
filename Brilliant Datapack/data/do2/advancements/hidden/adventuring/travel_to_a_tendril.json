@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:sculk_catalyst"
+		},
+		"title": "§bTendril Discovery",
+		"description": "§7Stumble upon a §5Level Four§7 tendril.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"visit_a_tendril": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"team": "do2.players",
+						"scores": {
+							"do2.tendriltravels": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/open_basalt_door"
+}

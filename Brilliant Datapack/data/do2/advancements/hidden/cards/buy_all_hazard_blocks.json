@@ -1,0 +1,45 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':128}"
+		},
+		"title": "§bHazard Block Hoarder",
+		"description": "§7Buy §b1§7 of each non-ethereal card that blocks §cHazard§7.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_all_hazard_blocks": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.STA": {
+								"min": 1
+							},
+							"do2.cards.bought.TRL": {
+								"min": 1
+							},
+							"do2.cards.bought.BST": {
+								"min": 1
+							},
+							"do2.cards.bought.EES": {
+								"min": 1
+							},
+							"do2.cards.bought.DUR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/cards/get_deck_box"
+}

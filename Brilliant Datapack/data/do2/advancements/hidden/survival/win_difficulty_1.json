@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111117}"
+        },
+        "title": "§bIs This Easy Mode?",
+        "description":  "§7Win a run on §1Easy§7 difficulty.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:hidden/survival/win_1_times"
+}

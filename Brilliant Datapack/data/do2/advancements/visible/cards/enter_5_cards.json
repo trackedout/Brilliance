@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111142}"
+		},
+		"title": "§bStarter Deck",
+		"description": "§7Enter the dungeon with §b5§7 cards or more.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"enter_5_cards": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/cards/get_deck_box"
+}

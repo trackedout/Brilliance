@@ -1,0 +1,41 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cake"
+		},
+		"title": "§bNot Today, §oRavager§r§b!",
+		"description": "§7Beat the Death Gauntlet.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"beat_death_gauntlet": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"team": "do2.players",
+					"location": {
+						"position": {
+							"x": {
+								"min": -620,
+								"max": -615
+							},
+							"y": {
+								"min": -49,
+								"max": -45
+							},
+							"z": {
+								"min": 1983,
+								"max": 1989
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/survival/win_1_times"
+	
+}

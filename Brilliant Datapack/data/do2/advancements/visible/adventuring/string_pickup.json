@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:string"
+		},
+		"title": "§bStrung Along",
+		"description": "§7Obtain §fstring §7inside the dungeon.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		
+		"pick_up_string": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:string"
+						]
+					}
+				],
+				"player": {
+					
+					"team": "do2.players"
+				}
+			}
+		}
+	},
+	"parent": "do2:visible/adventuring/adventuring_root"
+}

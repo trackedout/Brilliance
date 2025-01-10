@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111154}"
+		},
+		"title": "§bNational Archive",
+		"description": "§7Exit the dungeon with over §b250§7 total lifetime §9Tomes§7.",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"get_shard_from_crowns_mystery_box": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/treasure/lifetime_tomes_100"
+}

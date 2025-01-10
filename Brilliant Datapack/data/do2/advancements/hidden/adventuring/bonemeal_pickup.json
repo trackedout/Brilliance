@@ -1,0 +1,31 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone_meal"
+		},
+		"title": "§bCreative Composter",
+		"description": "§7Obtain §o§fbonemeal§r§7 in the dungeon.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"pick_up_bonemeal": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:bone_meal"
+						]
+					}
+				],
+				"player": {
+					"team": "do2.players"
+				}
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/eat_berries"
+}

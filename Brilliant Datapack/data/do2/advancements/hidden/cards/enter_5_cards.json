@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111142}"
+		},
+		"title": "§bStarter Deck",
+		"description": "§7Enter the dungeon with §b5§7 cards or more.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"enter_5_cards": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.run.cards.deck.total": {
+								"min": 5
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/cards/get_deck_box"
+}

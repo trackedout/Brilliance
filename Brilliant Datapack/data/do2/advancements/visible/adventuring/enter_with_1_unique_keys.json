@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:201}"
+		},
+		"title": "§bKey Luck Totem",
+		"description": "§7Enter the dungeon with a level key to ward off bad key luck.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"holds_key_1": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent":"do2:visible/adventuring/adventuring_root"
+}

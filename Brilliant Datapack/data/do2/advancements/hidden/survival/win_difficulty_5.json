@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone",
+            "nbt": "{'CustomModelData': 1111121}"
+        },
+        "title": "§bToo Cool for School",
+        "description":  "§7Win a run on §5Deepfrost§7 difficulty.",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:hidden/survival/win_difficulty_4"
+}

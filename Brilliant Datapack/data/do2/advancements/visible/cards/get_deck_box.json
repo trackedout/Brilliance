@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:light_blue_shulker_box"
+		},
+		"title":  "§bCards and Decks",
+		"description": "§7Time to get Decked Out!",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"pickshulker": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/cards/cards_root"
+}

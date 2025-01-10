@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:powder_snow_bucket"
+		},
+		"title": "§bDungeon Dawdler",
+		"description": "§7Stay in the dungeon for a little §otoo§r§7 long.",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"stay_in_dungeon_for_over_an_hour": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:visible/adventuring/adventuring_root"
+}

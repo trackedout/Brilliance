@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner: {Properties: {textures: [{Value: \"ewogICJ0aW1lc3RhbXAiIDogMTcwNzk2Njg4NTE4MywKICAicHJvZmlsZUlkIiA6ICIzYTFhM2I2ZWFiYjg0NDhkYjFiZGIwMjAwNzNhYjZjZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJYYW5lMjU2IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I3MTNmYzQ5OWUwOGZjOGQ5NTBlMDE3ZTEzNjcxNzE2YzZlNWJiNTk4ZjRkMGFhOGY2NDE5Y2JkZjlkNDczNTciCiAgICB9CiAgfQp9\", Signature: \"Pc4Qt1x+QoTwJj9hyBYT1SWrHve9C0qgjkBeZlABeukUieGkRhLL1h1lk+SCIxfEtI5a/6Af+5X+Nz+dAVPDdfTmtbeUN2xLtDNlCbQFrXrEf6+4tchFmT6XJ62bxhO/wF1QuFxIakWix+ekcURCRx0aNKoSdlAwFb96xE2Np1XBRWlft9jYHURSSbyFitwR1U8+KQMIT6MPwtYtePg5CLog9nHXu65dpL1c+hkQr7J9q0XmjGKHOdzyjZzdN4ipbpTxpDTMjkOuNhZo53J5UDgj6yHkOYG3w5dQ6dbPXA/oZzFOBf1hpZQ/Vs/3e3dHJUfNR2oHUl9ZRaDbi9CWFbpkfeXtEXtaVfhmnkLNViE+vH5iwdZcz0A5ZJJNjeuue47doHLYXO2UprCuA4YnloQPRgZ8DtgaEb/joj3qLfNRtjoMqp7v3AyLiLaPoUXY9sxeoqBk2IhpJWzfRBOgsCujr690kNsiba0XFEqBxzN+aPHJn5xhEbuZyN86KNxeTsThxxe+/s0H2eW9nrsGIRBwVO5bn32exci+kGu8cstRTSjGAH/rMV+MvoRQmzl/UmdCpAiJbPRMoMTKNF3t38fFB/6stTYwlwKqLe5SRrfQcBpNjKcNmxR4yFhdSvVd7aN/aitQxzZdqXHlBrggdE1leGMC3Cvo8JzBhlR9qKI=\"}]}, Id: [I; 974797678, -1413987187, -1312968672, 121288399], Name: \"Xane256\"}}"
+        },
+        "title": "xane256           ",
+        "description": "Sleep schedule somehow aligned to the other side of the world.",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "auto": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/credits/davy"
+}

@@ -1,0 +1,113 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':124}"
+		},
+		"title": "§bLoot Goblin",
+		"description": "§7Buy §b1§7 of each non-ethereal card that grant §eTreasure§7 drops.",
+		"frame": "goal",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_treasure_hunter": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.TRH": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_loot_and_scoot": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.LAS": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_smash_and_grab": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SAG": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_nimble_looting": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.NIL": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_adrenaline_rush": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.ADR": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"buy_swagger": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.cards.bought.SWA": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/cards/buy_all_clank_blocks"
+}

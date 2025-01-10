@@ -1,0 +1,46 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:redstone",
+			"nbt": "{CustomModelData:1111122}"
+		},
+		"title":"§bDangerous Dive",
+		"description": "§7Survive the §4TnT§7 Depth Charge Dive",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"comment": "SET LOCATION TO BE TOP/OUTSIDE OF DEPTH CHARGE DIVE",
+	"criteria": {
+		"upon_reaching_top": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"type_specific": {
+								"type": "player",
+								"advancements": {
+									"do2:utility/reach_bottom_tnt_depth_charge": true
+								}
+							},
+							
+					"team": "do2.players",
+							"location": {
+								"position": {
+									"x": 0,
+									"y": 0,
+									"z": 0
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/adventuring/adventuring_root"
+}

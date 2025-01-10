@@ -1,0 +1,20 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{CustomModelData:208}"
+		},
+		"title": "§bDungeon Detonator",
+		"description": "§7Find a §8bomb§7 and detonate it.",
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"trigger_by_command": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/adventuring/adventuring_root"
+}

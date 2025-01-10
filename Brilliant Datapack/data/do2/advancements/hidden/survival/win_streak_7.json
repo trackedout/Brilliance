@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:redstone",
+            "nbt": "{CustomModelData:1111125}"
+        },
+        "title": "§bPerfect Win Streak",
+        "description":  "§7Win §b7§7 games of §o§3Decked Out 2§r§7 §nin a row§r§7.",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "given_by_commands": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:hidden/survival/win_streak_5"
+}

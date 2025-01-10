@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_sweet_berries": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:sweet_berries"
+						],
+						"nbt": "{tracked:0b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/sweet_berries"
+	},
+	"parent": "do2:utility/root"
+}

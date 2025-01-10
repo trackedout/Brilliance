@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:carved_pumpkin",
+			"nbt": "{CustomModelData:99}"
+		},
+		"title": "§bThe True Winner",
+		"description": "§7Beat Decked Out 2.",
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"comment1": "Manually given by Shadow",
+	"criteria": {
+		"never": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"parent": "do2:hidden/adventuring/travel_to_tendrils"
+}

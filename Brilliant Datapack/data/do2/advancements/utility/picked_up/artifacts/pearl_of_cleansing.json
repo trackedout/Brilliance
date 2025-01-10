@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_artifact_32": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b, CustomModelData:32, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Pearl of Cleansing (14)\"}' }}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/artifacts/pearl_of_cleansing"
+	},
+	"parent": "do2:utility/root"
+}

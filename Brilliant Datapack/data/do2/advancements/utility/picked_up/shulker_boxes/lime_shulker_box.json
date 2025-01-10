@@ -1,0 +1,20 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:lime_shulker_box"
+						]
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/shulker_boxes/lime_shulker_box"
+	},
+	"parent": "do2:utility/root"
+}

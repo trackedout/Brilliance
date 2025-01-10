@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_artifact_31": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b, CustomModelData:31, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"The Hidden Stache (30)\"}'}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/artifacts/hidden_stache"
+	},
+	"parent": "do2:utility/root"
+}

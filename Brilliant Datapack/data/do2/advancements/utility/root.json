@@ -1,0 +1,12 @@
+{
+	"_comment0": "This is the root of ALL utility advancements. Running the command:",
+	"_comment1": "/advancement revoke @s from do2:utility/root",
+	"_comment2": "will revoke EVERY SINGLE utility advancement,",
+	"_comment3": "if every utility advancement sets this advancement to be their parent.",
+	"criteria": {
+		"auto": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+	
+}

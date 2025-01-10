@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "title": "§bLocal Delivery",
+        "description":  "§7Survive §2Level 1§7:\n§b§oFrozen Crypt§r§7.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "win_level_1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "do2:visible/survival/win_1_times"
+    
+}

@@ -1,0 +1,155 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:iron_nugget",
+			"nbt": "{'CustomModelData':119}"
+		},
+		"title": "§bUncommon Acquirer",
+		"description": "§7Purchase any §aUncommon§7 card.",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"buy_1_uncommon": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.EVA": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.TRL": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.LAS": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.FRF": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SEW": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.BES": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.BST": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.REC": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SPT": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.NIL": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SAG": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.QUI": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.SUU": {
+										"min": 1
+									}
+								}
+							},
+							{
+								"condition": "minecraft:entity_scores",
+								"entity": "this",
+								"scores": {
+									"do2.cards.bought.ADR": {
+										"min": 1
+									}
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:hidden/cards/buy_1_common"
+}
