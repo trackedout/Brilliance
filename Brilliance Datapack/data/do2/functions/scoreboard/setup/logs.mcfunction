@@ -28,3 +28,7 @@ scoreboard objectives add do2.logs.dungeon_setup dummy "Receive Logs of DATAPACK
 scoreboard objectives add do2.logs.spam dummy "Receive Logs of dungeon SPAM."
 
 scoreboard objectives add do2.logs.entity_controller dummy "Receive Logs of the entity controller's actions."
+
+scoreboard objectives add do2.logs.entity_testing dummy "Receive Logs of the EC's testing & correcting entities."
+
+scoreboard objectives add do2.logs.dev dummy "testing purposes"

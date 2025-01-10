@@ -16,7 +16,7 @@ execute if score $l1z2 do2.config.ec.levelZoneMobCount matches ..0 run scoreboar
 # Check for sufficient mob NAMES
 execute if score $dungeon do2.utility.ec.mobNamesCount < $l1z2 do2.config.ec.levelZoneMobCount if score $dungeon do2.utility.ec.collectingLogs matches 1 run data modify storage do2:mobs mobNameCountErrors append value 'L1Z2'
 execute if score $dungeon do2.utility.ec.mobNamesCount < $l1z2 do2.config.ec.levelZoneMobCount if score $dungeon do2.utility.ec.collectingLogs matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Not enough L1Z2's mob names for L1Z2's mob count. Adding random names to fix."}]
-execute if score $dungeon do2.utility.ec.mobNamesCount < $l1z2 do2.config.ec.levelZoneMobCount run function do2:entity_controller/add_mob_names/add_name_to_list
+execute if score $dungeon do2.utility.ec.mobNamesCount < $l1z2 do2.config.ec.levelZoneMobCount run function do2:entity_controller/config_interface/add_mob_names/add_name_to_list
 
 # Generate enough mobs.
 execute as @e[type=ravager,tag=L1Z2] run tag @s add already_generated_mob

@@ -1,4 +1,9 @@
 # Other TODO:
+- automate filling in the extra criteria from 
+ - visible/submit_50_tomes & 100
+ - visible/win_X_times
+ - visible/win_X_streak
+ - visible/lifetime_X_crowns/embers
 - Issue with advancement run_too_long
 - Only allow ONE ravager to be in the first 5 markers at L1
 - custom advancement datapack for lobby

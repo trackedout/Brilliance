@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_loot_and_scoot": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -29,7 +29,7 @@
 			}
 		},
 		"buy_second_wind": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"buy_sprint": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"buy_quickstep": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

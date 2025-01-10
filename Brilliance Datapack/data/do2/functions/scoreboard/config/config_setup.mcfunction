@@ -5,10 +5,10 @@
 
 # Brilliance Version Sign
 setblock -538 115 1956 minecraft:oak_wall_sign[facing=east]
-data merge block -538 115 1956 {is_waxed:1b, front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oBrilliance Version."}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:version"}}']}}
+data merge block -538 115 1956 {is_waxed:1b, front_text:{messages:['{"text":"","color":"black"}','{"text":"§b§oBrilliance Version."}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:version"}}']}}
 # Brilliance Apply Changes Sign
 setblock -538 115 1958 minecraft:oak_wall_sign[facing=east]
-data merge block -538 115 1958 {is_waxed:1b, front_text:{messages:['{"text":"§bManually apply"}','{"text":"§bconfig changes"}','{"text":"§bby clicking this."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"execute as @e[type=!player,limit=1] run function do2:dungeon_setup/all"}}']}}
+data merge block -538 115 1958 {is_waxed:1b, front_text:{messages:['{"text":"§bManually apply"}','{"text":"§bconfig changes"}','{"text":"§bby clicking this."}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/execute as @e[type=!player,limit=1] run function do2:dungeon_setup/all"}}']}}
 # Access to Logs
 setblock -538 115 1954 minecraft:oak_wall_sign[facing=east]
 data merge block -538 115 1954 {is_waxed:1b, front_text:{messages:['{"text":"§aCustomize what"}','{"text":"§alogs you receive"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/receive_logs/documentation"}}']}}
@@ -42,7 +42,7 @@ function do2:scoreboard/config/boolean_levers/bats_distraction/sign
 # ==================
 # Reset Selected to Default
 setblock -522 115 1950 minecraft:warped_wall_sign[facing=east]
-data merge block -522 115 1950 {is_waxed:1b, front_text:{messages:['{"text":"§b§oReset selected"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:entity_controller/config_interface/reset_to_default/reset_current"}}']}}
+data merge block -522 115 1950 {is_waxed:1b, front_text:{messages:['{"text":"§b§oReset selected"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:entity_controller/config_interface/reset_to_default/reset_current"}}']}}
 # Reset All to Default
 setblock -522 115 1951 minecraft:warped_wall_sign[facing=east]
-data merge block -522 115 1951 {is_waxed:1b, front_text:{messages:['{"text":"§b§oReset all"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"function do2:entity_controller/config_interface/reset_to_default/reset_all"}}']}}
+data merge block -522 115 1951 {is_waxed:1b, front_text:{messages:['{"text":"§b§oReset all"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:entity_controller/config_interface/reset_to_default/reset_all"}}']}}

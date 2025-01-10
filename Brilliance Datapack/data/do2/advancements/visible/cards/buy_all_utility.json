@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_loot_and_scoot": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -29,7 +29,7 @@
 			}
 		},
 		"buy_second_wind": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"buy_beast_sense": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"buy_bounding_strides": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -77,7 +77,7 @@
 			}
 		},
 		"buy_quickstep": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"buy_suit_up": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -109,7 +109,7 @@
 			}
 		},
 		"buy_eyes_on_the_prize": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"buy_pirates_booty": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -141,7 +141,7 @@
 			}
 		},
 		"buy_brilliance": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

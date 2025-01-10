@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"buy_sneak": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -29,7 +29,7 @@
 			}
 		},
 		"buy_evasion": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -45,7 +45,7 @@
 			}
 		},
 		"buy_nimble_looting": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -61,7 +61,7 @@
 			}
 		},
 		"buy_eerie_silence": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -77,7 +77,7 @@
 			}
 		},
 		"buy_silent_runner": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -93,7 +93,7 @@
 			}
 		},
 		"buy_fuzzy_bunny_slippers": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

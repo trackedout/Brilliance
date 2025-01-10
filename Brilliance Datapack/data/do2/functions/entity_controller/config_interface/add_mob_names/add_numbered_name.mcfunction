@@ -21,12 +21,12 @@ execute if score $dungeon do2.utility.ec.mobGenerationType matches 5 as @e[type=
 scoreboard players add $dungeon do2.tests.amountOfMobs 1
 
 # Summon a text_display entity, to convert data into raw text, to store the raw text as a mob name.
-execute if score $dungeon do2.utility.ec.mobGenerationType matches 1 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Ravager: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
-execute if score $dungeon do2.utility.ec.mobGenerationType matches 2 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Warden: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
-execute if score $dungeon do2.utility.ec.mobGenerationType matches 3 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Drowned: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
-execute if score $dungeon do2.utility.ec.mobGenerationType matches 4 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Endermite: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
-execute if score $dungeon do2.utility.ec.mobGenerationType matches 5 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Stray: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
-execute unless score $dungeon do2.utility.ec.mobGenerationType matches 1..5 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Mob: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]'}
+execute if score $dungeon do2.utility.ec.mobGenerationType matches 1 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Ravager: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
+execute if score $dungeon do2.utility.ec.mobGenerationType matches 2 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Warden: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
+execute if score $dungeon do2.utility.ec.mobGenerationType matches 3 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Drowned: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
+execute if score $dungeon do2.utility.ec.mobGenerationType matches 4 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Endermite: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
+execute if score $dungeon do2.utility.ec.mobGenerationType matches 5 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Stray: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
+execute unless score $dungeon do2.utility.ec.mobGenerationType matches 1..5 run summon minecraft:text_display -508 123 1956 {Tags:["ConvertToTextHelper"],text:'[{"text":"Mob: #"},{"score":{"name":"$dungeon","objective":"do2.tests.amountOfMobs"}}]',alignment:'center'}
 data modify storage do2:mobs mobNames append from entity @e[type=minecraft:text_display,tag=ConvertToTextHelper,limit=1] text
 scoreboard players add $dungeon do2.utility.ec.mobNamesCount 1
 

@@ -7,6 +7,7 @@
         "title": "§eAgronet              ",
         "description": "§7The mod that lets §9Brilliance§7 communicate with §6Dunga Dunga§7.",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/infrastructure"
 }

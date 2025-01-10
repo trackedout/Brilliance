@@ -13,22 +13,7 @@
 	},
 	"criteria": {
 		"find_1_artifact": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:entity_scores",
-						"entity": "this",
-						
-					"team": "do2.players",
-						"scores": {
-							"do2.run.foundArtifact": {
-								"min": 1
-							}
-						}
-					}
-				]
-			}
+			"trigger": "minecraft:impossible"
 		}
 	},
 	"parent": "do2:visible/treasure/pickup_1_treasure"

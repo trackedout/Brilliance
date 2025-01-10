@@ -3,19 +3,6 @@ execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[
 # - End Log -
 
 
-#L1
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l1z1
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l1z2
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l1z3
-execute if score $dungeon do2.config.ec.controlSummons matches 1 if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/areas/l1z4
-execute if score $dungeon do2.config.ec.controlSummons matches 1 if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/areas/l1z5
-#L2
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l2z1
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l2z2
-execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities/areas/l2z3
-execute if score $dungeon do2.config.ec.controlSummons matches 1 if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:entity_controller/generate_entities/areas/l2z4
-execute if score $dungeon do2.config.ec.controlSummons matches 1 if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:entity_controller/generate_entities/areas/l2z5
-
 
 #L1
 execute if score $dungeon do2.config.ec.controlSummons matches 0 if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:dungeon_setup/summon/no_zones/summon_level_1_killers

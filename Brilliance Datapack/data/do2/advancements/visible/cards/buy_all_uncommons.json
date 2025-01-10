@@ -109,7 +109,7 @@
 			}
 		},
 		"buy_bounding_strides": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"buy_reckless_charge": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -141,7 +141,7 @@
 			}
 		},
 		"buy_sprint": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -157,7 +157,7 @@
 			}
 		},
 		"buy_nimble_looting": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -173,7 +173,7 @@
 			}
 		},
 		"buy_smash_and_grab": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -189,7 +189,7 @@
 			}
 		},
 		"buy_quickstep": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -205,7 +205,7 @@
 			}
 		},
 		"buy_suit_up": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -221,7 +221,7 @@
 			}
 		},
 		"buy_adrenaline_rush": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

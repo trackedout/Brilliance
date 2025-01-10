@@ -1,0 +1,13 @@
+{
+    "children": {
+      "player": {
+        "type": "literal"
+      },
+      "log-event": {
+        "type": "literal"
+      },
+      "add-item": {
+        "type": "literal"
+      }
+    }
+  }

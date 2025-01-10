@@ -7,6 +7,7 @@
         "title": "§8Davy Bones                          ",
         "description": "§7§oDocker§r§7. For non-nerds, this is a easy way to have 6 §lseparate§r§7 servers running on a single server",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/infrastructure"
 }

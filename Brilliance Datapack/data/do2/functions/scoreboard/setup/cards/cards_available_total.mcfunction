@@ -1,6 +1,13 @@
 # Cards that popped up to be available for purchase in the shop.
 # IN TOTAL
 
+
+scoreboard objectives add do2.cards.available.MOC dummy "Moment of Clarity"
+scoreboard objectives add do2.cards.available.STA dummy "Stability"
+scoreboard objectives add do2.cards.available.TRH dummy "Treasure Hunter"
+scoreboard objectives add do2.cards.available.SNE dummy "Sneak"
+scoreboard objectives add do2.cards.available.EVA dummy "Evasion"
+scoreboard objectives add do2.cards.available.EMS dummy "Ember Seeker"
 scoreboard objectives add do2.cards.available.EVA dummy "Evasion"
 scoreboard objectives add do2.cards.available.TRL dummy "Tread Lightly"
 scoreboard objectives add do2.cards.available.LAS dummy "Loot and Scoot"

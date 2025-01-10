@@ -13,7 +13,7 @@
 	},
 	"criteria": {
 		"repair_rusty": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{

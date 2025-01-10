@@ -39,7 +39,7 @@ setblock -654 4 1919 minecraft:sweet_berry_bush[age=3]
 setblock -600 -11 1910 minecraft:sweet_berry_bush[age=3]
 
 # Deep Frost (Level 4)
-setblock -602 -47 1893 miencraft:sweet_berry_bush[age=3]
+setblock -602 -47 1893 minecraft:sweet_berry_bush[age=3]
 setblock -616 -48 1876 minecraft:sweet_berry_bush[age=3]
 setblock -599 -41 1878 minecraft:sweet_berry_bush[age=3]
 setblock -603 -41 1841 minecraft:sweet_berry_bush[age=3]

@@ -7,6 +7,7 @@
         "title": "§6Dunga Dunga            ",
         "description": "§7The API of Tracked out, controls data and dungeons!",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/infrastructure"
 }

@@ -1,70 +1,84 @@
 {
 	"display": {
-		"icon": {
-			"item": "minecraft:redstone",
-			"nbt": "{CustomModelData:1111127}"
-		},
-		"title":"§bDungeon Locksmith",
-		"description": "§7Enter the dungeon with all three level keys.",
-		"frame": "goal",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+	  "icon": {
+		"item": "minecraft:redstone",
+		"nbt": "{CustomModelData:1111127}"
+	  },
+	  "title": "§bDungeon Locksmith",
+	  "description": "§7Enter the dungeon with all three level keys.",
+	  "frame": "goal",
+	  "show_toast": true,
+	  "announce_to_chat": true,
+	  "hidden": false
 	},
 	"criteria": {
-		"have_3_unique_floor_keys": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": [
-					{
-						"condition": "all_of",
-						"terms": [
-							{
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"position": {
-										"x": {
-											"min": -627,
-											"max": -617
-										},
-										"y": {
-											"min": 47,
-											"max": 49
-										},
-										"z": {
-											"min": 1937,
-											"max": 1955
-										}
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"type": "minecraft:player",
-									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:201}}]}"
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:203}}]}"
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:209}}]}"
-								}
-							}
-						]
+	  "have_3_unique_floor_keys": {
+		"trigger": "minecraft:location",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "all_of",
+			  "terms": [
+				{
+				  "condition": "minecraft:location_check",
+				  "predicate": {
+					"position": {
+					  "x": {
+						"min": -627,
+						"max": -617
+					  },
+					  "y": {
+						"min": 47,
+						"max": 49
+					  },
+					  "z": {
+						"min": 1937,
+						"max": 1955
+					  }
 					}
-				]
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"type": "minecraft:player",
+					"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:201}}]}"
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:203}}]}"
+				  }
+				},
+				{
+				  "condition": "minecraft:entity_properties",
+				  "entity": "this",
+				  "predicate": {
+					"nbt": "{Inventory:[{id:\"minecraft:iron_nugget\",tag:{CustomModelData:209}}]}"
+				  }
+				},
+				{
+				  "condition": "minecraft:value_check",
+				  "value": {
+					"type": "minecraft:score",
+					"target": {
+					  "type": "minecraft:fixed",
+					  "name": "$dungeon"
+					},
+					"score": "do2.run.ticks"
+				  },
+				  "range": {
+					"max": 200
+				  }
+				}
+			  ]
 			}
+		  ]
 		}
+	  }
 	},
 	"parent": "do2:hidden/adventuring/enter_with_1_unique_keys"
-}
+  }

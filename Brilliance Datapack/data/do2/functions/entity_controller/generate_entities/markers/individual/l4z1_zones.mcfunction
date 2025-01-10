@@ -1,110 +1,110 @@
 kill @e[type=marker,tag=L4Z1]
 
 # - Zone 1 - (107)
-summon minecraft:marker -636 -49 1910 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -633 -49 1908 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -636 -49 1906 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -637 -49 1903 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -637 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -641 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -644 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -645 -49 1891 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -645 -49 1887 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -643 -49 1886 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -642 -49 1890 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -639 -49 1889 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -642 -49 1881 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -651 -49 1880 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -646 -49 1882 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -635 -49 1885 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -638 -49 1880 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -633 -49 1881 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -636 -49 1890 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -631 -49 1878 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -621 -49 1879 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -618 -49 1881 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -615 -49 1882 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -614 -49 1879 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -612 -49 1881 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -612 -49 1876 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -613 -49 1872 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -615 -49 1870 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -615 -49 1862 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -615 -49 1858 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -619 -49 1858 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -615 -49 1854 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -612 -49 1852 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -612 -49 1848 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -610 -49 1843 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -607 -49 1844 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -614 -49 1843 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -617 -50 1846 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -620 -51 1848 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -52 1842 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -625 -52 1847 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -628 -52 1844 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -53 1843 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -631 -54 1849 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -54 1854 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -632 -52 1858 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -50 1862 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -631 -49 1865 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -628 -49 1864 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -626 -52 1859 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -628 -52 1856 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -626 -52 1852 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -627 -52 1848 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -616 -49 1851 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -623 -50 1859 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -621 -50 1856 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -623 -49 1864 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -623 -49 1867 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -626 -49 1868 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -627 -49 1872 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -623 -49 1872 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -627 -49 1877 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -625 -49 1875 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -620 -49 1877 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -619 -49 1873 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -619 -49 1868 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -619 -49 1863 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -620 -49 1860 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -618 -49 1883 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -619 -49 1886 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -617 -49 1890 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -620 -49 1895 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -618 -49 1898 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -626 -49 1891 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -629 -49 1888 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -629 -49 1884 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -625 -49 1886 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -627 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -625 -49 1896 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -626 -49 1899 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -629 -49 1900 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -631 -49 1897 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -634 -49 1899 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -633 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -49 1891 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -634 -49 1892 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -628 -49 1904 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -633 -49 1903 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -627 -49 1907 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -632 -49 1912 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -49 1904 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -49 1908 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -617 -49 1904 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -620 -49 1906 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -49 1903 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -49 1894 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -49 1889 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -49 1892 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -636 -49 1900 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -638 -49 1898 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -631 -49 1872 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -625 -49 1904 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -630 -49 1882 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -623 -49 1882 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -639 -49 1885 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -632 -49 1887 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
-summon minecraft:marker -622 -49 1896 {Duration: 2147483647, Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -636 -49 1910 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -633 -49 1908 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -636 -49 1906 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -637 -49 1903 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -637 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -641 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -644 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -645 -49 1891 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -645 -49 1887 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -643 -49 1886 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -642 -49 1890 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -639 -49 1889 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -642 -49 1881 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -651 -49 1880 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -646 -49 1882 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -635 -49 1885 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -638 -49 1880 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -633 -49 1881 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -636 -49 1890 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -631 -49 1878 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -621 -49 1879 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -618 -49 1881 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -615 -49 1882 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -614 -49 1879 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -612 -49 1881 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -612 -49 1876 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -613 -49 1872 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -615 -49 1870 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -615 -49 1862 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -615 -49 1858 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -619 -49 1858 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -615 -49 1854 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -612 -49 1852 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -612 -49 1848 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -610 -49 1843 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -607 -49 1844 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -614 -49 1843 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -617 -50 1846 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -620 -51 1848 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -52 1842 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -625 -52 1847 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -628 -52 1844 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -53 1843 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -631 -54 1849 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -54 1854 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -632 -52 1858 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -50 1862 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -631 -49 1865 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -628 -49 1864 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -626 -52 1859 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -628 -52 1856 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -626 -52 1852 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -627 -52 1848 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -616 -49 1851 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -623 -50 1859 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -621 -50 1856 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -623 -49 1864 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -623 -49 1867 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -626 -49 1868 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -627 -49 1872 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -623 -49 1872 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -627 -49 1877 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -625 -49 1875 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -620 -49 1877 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -619 -49 1873 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -619 -49 1868 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -619 -49 1863 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -620 -49 1860 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -618 -49 1883 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -619 -49 1886 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -617 -49 1890 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -620 -49 1895 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -618 -49 1898 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -626 -49 1891 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -629 -49 1888 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -629 -49 1884 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -625 -49 1886 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -627 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -625 -49 1896 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -626 -49 1899 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -629 -49 1900 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -631 -49 1897 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -634 -49 1899 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -633 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -49 1891 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -634 -49 1892 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -628 -49 1904 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -633 -49 1903 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -627 -49 1907 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -632 -49 1912 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -49 1904 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -49 1908 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -617 -49 1904 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -620 -49 1906 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -49 1903 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -49 1894 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -49 1889 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -49 1892 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -636 -49 1900 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -638 -49 1898 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -631 -49 1872 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -625 -49 1904 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -630 -49 1882 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -623 -49 1882 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -639 -49 1885 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -632 -49 1887 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
+summon minecraft:marker -622 -49 1896 {Tags: ["with-zones", "L4Z1", "zone_marker"]}
