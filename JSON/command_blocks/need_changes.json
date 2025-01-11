@@ -9,7 +9,7 @@
         "types": [
             "facing=up"
         ],
-        "command": "function do2:agronet/systems/on_clank_blocked"
+        "command": "function do2:external/agronet/systems/on_clank_blocked"
     },
     {
         "coords": [

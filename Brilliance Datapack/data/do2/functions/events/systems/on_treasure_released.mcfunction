@@ -10,4 +10,4 @@ scoreboard players add $dungeon do2.run.systems.treasure.released 1
 scoreboard players add $dungeon do2.systems.treasure.released 1
 
 # AGRONET event
-function do2:agronet/systems/treasure_released
+function do2:external/agronet/systems/treasure_released

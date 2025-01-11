@@ -4,4 +4,4 @@ execute at @s as @a[scores={do2.logs.gamestate=1..}] run tellraw @s ["",{"text":
 tag @s remove exitLogTarget
 # - End Log -
 
-execute as @e[type=player,gamemode=!spectator,limit=1,sort=nearest] run function do2:agronet/shut_down_server
+execute as @e[type=player,gamemode=!spectator,limit=1,sort=nearest] run function do2:external/agronet/shut_down_server

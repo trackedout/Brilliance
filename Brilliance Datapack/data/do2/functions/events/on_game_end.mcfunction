@@ -21,7 +21,7 @@ execute as @a[team=do2.players] unless entity @s[tag=do2.won] run function do2:e
 execute as @a[team=do2.ghosts] unless entity @s[tag=do2.won] run function do2:events/on_player_loss
 
 # Track crowns player collected.
-execute as @a[team=do2.players] if entity @s[tag=do2.won] run function do2:agronet/add_items/add_crowns
+execute as @a[team=do2.players] if entity @s[tag=do2.won] run function do2:external/agronet/add_items/add_crowns
 
 # Reset Players
 execute as @a[tag=!do2.fakePlayer] run function do2:reset_player
@@ -30,7 +30,7 @@ execute as @a[tag=!do2.fakePlayer] run function do2:reset_player
 function do2:scoreboard/config/config_unlock
 
 # AGRONET
-function do2:agronet/game_end
+function do2:external/agronet/game_end
 
 # Replay Mod
-function do2:replay_mod/stop
+function do2:external/replay_mod/stop

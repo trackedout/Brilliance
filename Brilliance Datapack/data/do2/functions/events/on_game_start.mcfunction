@@ -15,13 +15,13 @@ function do2:dungeon_setup/after_player_starts
 scoreboard objectives setdisplay sidebar
 
 # Replay Mod
-function do2:replay_mod/start
+function do2:external/replay_mod/start
 
 # tags non-spectating players to running dungeon and stores how many to scoreboard.
 execute store result score $dungeon do2.run.players run tag @a[team=do2.players] add do2.running
 
 # === dungadungadungadungadunga ===
-execute as @a[tag=do2.running] run function do2:agronet/game_start
+execute as @a[tag=do2.running] run function do2:external/agronet/game_start
 # =================================
 
 # Adjust scoreboards

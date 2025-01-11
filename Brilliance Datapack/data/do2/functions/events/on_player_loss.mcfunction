@@ -21,4 +21,4 @@ execute if score @s do2.loss_streak >= @s do2.highest_loss_streak run scoreboard
 execute if score $dungeon do2.loss_streak >= $dungeon do2.highest_loss_streak run scoreboard players operation $dungeon do2.highest_loss_streak = $dungeon do2.loss_streak
 
 # AGRONET
-function do2:agronet/game_lost
+function do2:external/agronet/game_lost

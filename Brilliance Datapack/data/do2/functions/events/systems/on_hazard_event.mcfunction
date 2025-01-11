@@ -6,5 +6,5 @@ scoreboard players add $dungeon do2.run.systems.hazard.activated 1
 scoreboard players add $dungeon do2.systems.hazard.activated 1
 
 # AGRONET EVENT
-function do2:agronet/systems/hazard_event
+function do2:external/agronet/systems/hazard_event
 

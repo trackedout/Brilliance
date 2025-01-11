@@ -8,4 +8,4 @@
 execute as @a[team=do2.players] run function do2:events/on_player_win
 
 # AGRONET
-function do2:agronet/game_won
+function do2:external/agronet/game_won

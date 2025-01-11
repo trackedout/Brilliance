@@ -9,4 +9,4 @@ scoreboard players set $dungeon do2.run.difficulty 3
 execute as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 3
 
 # agronet
-execute as @p[tag=do2.received_shulker] run function do2:agronet/difficulty/hard
+execute as @p[tag=do2.received_shulker] run function do2:external/agronet/difficulty/hard

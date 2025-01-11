@@ -10,4 +10,4 @@ scoreboard players add $dungeon do2.run.systems.clank.blocked 1
 scoreboard players add $dungeon do2.systems.clank.blocked 1
 
 # AGRONET event
-function do2:agronet/systems/clank_blocked
+function do2:external/agronet/systems/clank_blocked

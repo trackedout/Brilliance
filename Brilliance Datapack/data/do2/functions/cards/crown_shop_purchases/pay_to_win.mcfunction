@@ -13,4 +13,4 @@ scoreboard players add $dungeon do2.lifetime.spent.crowns 2
 
 # Agronet Event Handling
 scoreboard players set $dungeon do2.agronet.card_bought 31
-execute as @p[tag=do2.received_shulker] run function do2:agronet/card_bought
+execute as @p[tag=do2.received_shulker] run function do2:external/agronet/card_bought

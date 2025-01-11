@@ -5,10 +5,10 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s "§f[§9B§r]
 # Check where I'm running.
 scoreboard objectives add do2.utility.onServer dummy "Checking if this Brilliance is loaded on the server"
 scoreboard players set $dungeon do2.utility.onServer 0
-schedule function do2:agronet/test_for_agronet 1t append
+schedule function do2:external/agronet/test_for_agronet 1t append
 scoreboard objectives add do2.utility.onInstance dummy "Checking if this Brilliance is loaded on an instance"
 scoreboard players set $dungeon do2.utility.onInstance 0
-schedule function do2:agronet/test_for_instance 1t append
+schedule function do2:external/agronet/test_for_instance 1t append
 
 # Setup scoreboard
 function do2:scoreboard/setup/all
@@ -24,7 +24,7 @@ execute as @a at @s run function do2:events/on_player_join
 scoreboard objectives add do2.tests.doesTangoCamExist dummy
 execute if entity @a[name=tangocam] run scoreboard players set $dungeon do2.tests.doesTangoCamExist 1
 execute if entity @a[name=TangoCam] run scoreboard players set $dungeon do2.tests.doesTangoCamExist 1
-execute unless score $dungeon do2.tests.doesTangoCamExist matches 1 run function do2:dungeon_setup/summon/summon_tangocam
+execute unless score $dungeon do2.tests.doesTangoCamExist matches 1 run function do2:external/carpet_mod/summon_tangocam
 scoreboard objectives remove do2.tests.doesTangoCamExist
 
 # Attempt to run dungeon_setup

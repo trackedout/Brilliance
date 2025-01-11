@@ -97,4 +97,4 @@ summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, 
 summon minecraft:interaction -582.5 -3.19 1922.5 {width: 1.002f, height: 0.188f, Tags:["trapdoor_blocker"]}
 
 # TangoCam (just in case)
-execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:dungeon_setup/summon/summon_tangocam
+execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:external/carpet_mod/summon_tangocam

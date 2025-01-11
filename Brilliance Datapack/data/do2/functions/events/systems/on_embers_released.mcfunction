@@ -10,4 +10,4 @@ scoreboard players add $dungeon do2.run.systems.embers.released 1
 scoreboard players add $dungeon do2.systems.embers.released 1
 
 # AGRONET event
-function do2:agronet/systems/embers_released
+function do2:external/agronet/systems/embers_released

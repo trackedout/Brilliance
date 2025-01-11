@@ -9,4 +9,4 @@ scoreboard players set $dungeon do2.run.difficulty 5
 execute as @p[tag=do2.received_shulker] run scoreboard players set @s do2.config.dungeonDifficulty 5
 
 # agronet
-execute as @p[tag=do2.received_shulker] run function do2:agronet/difficulty/deepfrost
+execute as @p[tag=do2.received_shulker] run function do2:external/agronet/difficulty/deepfrost

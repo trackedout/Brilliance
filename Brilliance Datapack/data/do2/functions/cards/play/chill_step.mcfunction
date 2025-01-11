@@ -9,4 +9,4 @@ scoreboard players add $dungeon do2.run.cards.played.CHS 1
 scoreboard players add $dungeon do2.cards.played.CHS 1
 # Agronet Event Handling
 scoreboard players set $dungeon do2.agronet.card_played 22
-execute as @p[tag=do2.received_shulker] run function do2:agronet/card_played
+execute as @p[tag=do2.received_shulker] run function do2:external/agronet/card_played

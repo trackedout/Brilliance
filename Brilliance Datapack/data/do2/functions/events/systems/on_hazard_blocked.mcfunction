@@ -10,4 +10,4 @@ scoreboard players add $dungeon do2.run.systems.hazard.blocked 1
 scoreboard players add $dungeon do2.systems.hazard.blocked 1
 
 # AGRONET event
-function do2:agronet/systems/hazard_blocked
+function do2:external/agronet/systems/hazard_blocked

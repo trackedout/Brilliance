@@ -12,4 +12,4 @@ scoreboard players add $dungeon do2.cards.available.FRF 1
 
 # Agronet Event Handling
 scoreboard players set $dungeon do2.agronet.card_available 8
-execute as @p[tag=do2.received_shulker] run function do2:agronet/card_available
+execute as @p[tag=do2.received_shulker] run function do2:external/agronet/card_available
