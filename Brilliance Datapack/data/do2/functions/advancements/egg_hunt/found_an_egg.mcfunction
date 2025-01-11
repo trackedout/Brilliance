@@ -10,4 +10,4 @@ advancement grant @s only do2:hidden/adventuring/egg_hunt/level_3/3rd_level_show
 advancement grant @s only do2:hidden/adventuring/egg_hunt/level_3/zz_tango
 
 # Calculate total amount of eggs found. (Useful for stats screen only)
-function do2:egg_hunt/calculate_total_found
+function do2:advancements/egg_hunt/calculate_total_found

@@ -34,6 +34,6 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/on_find/cubfan"
+        "function": "do2:advancements/egg_hunt/on_find/cubfan"
     }
 }

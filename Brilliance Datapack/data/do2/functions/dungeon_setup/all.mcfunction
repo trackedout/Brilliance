@@ -22,7 +22,7 @@ execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do
 execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities
 execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/summon/others 3t append
 execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/teleport_killers/all 3t append
-function do2:egg_hunt/spawn_egg_hitboxes
+function do2:advancements/egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/balance_changes/actions
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags

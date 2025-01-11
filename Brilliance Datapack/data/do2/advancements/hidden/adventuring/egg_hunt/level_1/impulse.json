@@ -33,7 +33,7 @@
         }
     },
     "rewards": {
-        "function": "do2:egg_hunt/on_find/impulse"
+        "function": "do2:advancements/egg_hunt/on_find/impulse"
     },
     "parent": "do2:hidden/adventuring/egg_hunt/level_1/false"
 }

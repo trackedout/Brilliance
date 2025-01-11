@@ -8,7 +8,7 @@ tag @s remove xbLogTarget
 execute unless score @s do2.eggs.xb matches 1.. run scoreboard players set @s do2.eggs.xb 1
 
 # Grant "find any egg advancement."
-function do2:egg_hunt/found_an_egg
+function do2:advancements/egg_hunt/found_an_egg
 
 # Make sure rewards are enabled & player hasn't received them
 execute if score @s do2.eggs.xb matches 2 run return 0

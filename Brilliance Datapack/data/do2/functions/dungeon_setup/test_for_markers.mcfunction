@@ -36,7 +36,7 @@ execute unless entity @e[type=minecraft:marker,tag=L4Z1] run scoreboard players 
 execute unless entity @e[type=minecraft:marker,tag=L4Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 22
 execute unless entity @e[type=minecraft:marker,tag=L4Z3] run scoreboard players set $dungeon do2.tests.all_markers_alive 23
 # Easter Egg Markers
-execute unless entity @e[type=minecraft:armor_stand,tag=do2.egg_hunt.is_hitbox] run function do2:egg_hunt/spawn_egg_hitboxes
+execute unless entity @e[type=minecraft:armor_stand,tag=do2.egg_hunt.is_hitbox] run function do2:advancements/egg_hunt/spawn_egg_hitboxes
 # Testing Room Markers
 execute unless entity @e[type=minecraft:marker,tag=L0Z1] run scoreboard players set $dungeon do2.tests.all_markers_alive 24
 execute unless entity @e[type=minecraft:marker,tag=L0Z2] run scoreboard players set $dungeon do2.tests.all_markers_alive 25

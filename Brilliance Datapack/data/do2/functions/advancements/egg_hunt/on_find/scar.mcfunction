@@ -8,7 +8,7 @@ tag @s remove scarLogTarget
 execute unless score @s do2.eggs.scar matches 1.. run scoreboard players set @s do2.eggs.scar 1
 
 # Grant "find any egg advancement."
-function do2:egg_hunt/found_an_egg
+function do2:advancements/egg_hunt/found_an_egg
 
 # Make sure rewards are enabled & player hasn't received them
 execute if score @s do2.eggs.scar matches 2 run return 0
