@@ -66,18 +66,18 @@
 								]
 							},
 							{
-							  "condition": "minecraft:value_check",
-							  "value": {
-								"type": "minecraft:score",
-								"target": {
-								  "type": "minecraft:fixed",
-								  "name": "$dungeon"
+								"condition": "minecraft:value_check",
+								"value": {
+									"type": "minecraft:score",
+									"target": {
+										"type": "minecraft:fixed",
+										"name": "$dungeon"
+									},
+									"score": "do2.run.seconds"
 								},
-								"score": "do2.run.ticks"
-							  },
-							  "range": {
-								"max": 200
-							  }
+								"range": {
+									"max": 5
+								}
 							}
 						]
 					}

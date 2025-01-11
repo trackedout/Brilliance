@@ -68,10 +68,10 @@
 					  "type": "minecraft:fixed",
 					  "name": "$dungeon"
 					},
-					"score": "do2.run.ticks"
+					"score": "do2.run.seconds"
 				  },
 				  "range": {
-					"max": 200
+					"max": 5
 				  }
 				}
 			  ]

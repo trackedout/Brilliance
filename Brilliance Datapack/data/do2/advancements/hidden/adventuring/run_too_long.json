@@ -19,7 +19,9 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"do2.run.seconds": 3600
+							"do2.run.seconds": {
+								"min": 3600
+							}
 						}
 					}
 				]
