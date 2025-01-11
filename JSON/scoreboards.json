@@ -378,16 +378,21 @@
     "description": "What rewards finding easter eggs give you.",
     "values": {
       "0": {
-        "title": "No rewards"
+        "title": "No rewards",
+        "description": "No rewards"
       },
       "1": {
-        "title": "Original"
+        "title": "Original",
+        "description": "The same rewards as DO2"
       },
       "2": {
-        "title": "Classic"
+        "title": "Classic",
+        "description": "Eggs give 5/10/15 eggs depending on the level it's on."
       },
       "3": {
-        "title": "Balanced"
+        "title": "Balanced",
+        "description": "Eggs give 1/2/3 eggs depending on the level it's on."
+  
       }
     }
   },
@@ -395,7 +400,7 @@
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
-    "description": "Whether bats are allowed in L3 and L4.",
+    "description": "Whether bats are allowed to distract wardens in L3 and L4.",
     "values": {
       "0": {
         "title": "false"
@@ -791,10 +796,12 @@
     "description": "Whether treasure can drop on L2's ship when player is on L2.",
     "values": {
       "0": {
-        "title": "false"
+        "title": "false",
+        "description": "Treasure drops on L2's ship while player is on L1"
       },
       "1": {
-        "title": "true"
+        "title": "true",
+        "description": "Treasure drops on L2's ship while player is on L2"
       }
     }
   },
@@ -805,10 +812,12 @@
     "description": "Whether to balance the TnT dive loot more.",
     "values": {
       "0": {
-        "title": "false"
+        "title": "false",
+        "description": "Loot drops are identical to DO2"
       },
       "1": {
-        "title": "true"
+        "title": "true",
+        "description": "Loot drops is reduced by 22%"
       }
     }
   },
@@ -858,7 +867,7 @@
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
-    "description": "Whether the killers should be spread out for each run.",
+    "description": "Whether the killers should randomly teleported around at the start of each run.",
     "values": {
       "0": {
         "title": "false"
@@ -872,7 +881,7 @@
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
-    "description": "Whether to refill all berry bushes each run.",
+    "description": "Whether to refill all berry bushes at the start of each run.",
     "values": {
       "0": {
         "title": "false"
@@ -968,7 +977,7 @@
     "auto": 2,
     "target": "$dungeon",
     "category": "config",
-    "description": "Whether to use legacy system or the new level controller."
+    "description": "Whether to use legacy system or the new entity controller."
   },
   "do2.eggs.total": {
     "auto": 1,
