@@ -1,4 +1,18 @@
 [
+	
+	{
+		"coords": [
+			-529,
+			11,
+			2046
+		],
+		"type": "command_block",
+		"types": [
+			"facing=up"
+		],
+		"command": "function do2:events/systems/on_shrieker",
+		"comment": "NOT a shrieker. Actually is Trick-O-Treat's clank gen."
+	},
 	{
 		"coords": [
 			-635,
