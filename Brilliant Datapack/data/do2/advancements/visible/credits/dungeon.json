@@ -7,6 +7,7 @@
         "title": "§2Dungeon Changes       ",
         "description": "§7Modifications to the Dungeon so §ohundreds§r§7 of people can play!",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/admin"
 }

@@ -17,10 +17,6 @@ execute as @s[advancements={do2:visible/treasure/lifetime_embers_250=false,do2:h
 execute as @s[advancements={do2:visible/treasure/lifetime_embers_500=false,do2:hidden/treasure/lifetime_embers_500=true}] run advancement grant @s only do2:visible/treasure/lifetime_embers_500
 execute as @s[advancements={do2:visible/treasure/lifetime_embers_1000=false,do2:hidden/treasure/lifetime_embers_1000=true}] run advancement grant @s only do2:visible/treasure/lifetime_embers_1000
 execute as @s[advancements={do2:visible/treasure/lifetime_embers_2500=false,do2:hidden/treasure/lifetime_embers_2500=true}] run advancement grant @s only do2:visible/treasure/lifetime_embers_2500
-execute as @s[advancements={do2:visible/treasure/lifetime_tomes_25=false,do2:hidden/treasure/lifetime_tomes_25=true}] run advancement grant @s only do2:visible/treasure/lifetime_tomes_25
-execute as @s[advancements={do2:visible/treasure/lifetime_tomes_50=false,do2:hidden/treasure/lifetime_tomes_50=true}] run advancement grant @s only do2:visible/treasure/lifetime_tomes_50
-execute as @s[advancements={do2:visible/treasure/lifetime_tomes_100=false,do2:hidden/treasure/lifetime_tomes_100=true}] run advancement grant @s only do2:visible/treasure/lifetime_tomes_100
-execute as @s[advancements={do2:visible/treasure/lifetime_tomes_250=false,do2:hidden/treasure/lifetime_tomes_250=true}] run advancement grant @s only do2:visible/treasure/lifetime_tomes_250
 execute as @s[advancements={do2:visible/treasure/pickup_1_crown=false,do2:hidden/treasure/pickup_1_crown=true}] run advancement grant @s only do2:visible/treasure/pickup_1_crown
 execute as @s[advancements={do2:visible/treasure/pickup_1_ember=false,do2:hidden/treasure/pickup_1_ember=true}] run advancement grant @s only do2:visible/treasure/pickup_1_ember
 execute as @s[advancements={do2:visible/treasure/pickup_1_treasure=false,do2:hidden/treasure/pickup_1_treasure=true}] run advancement grant @s only do2:visible/treasure/pickup_1_treasure

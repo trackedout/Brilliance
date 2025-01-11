@@ -12,8 +12,1605 @@
 		"hidden": false
 	},
 	"criteria": {
+		"lifetime_crowns_1": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_2": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 2
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_3": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 3
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_4": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 4
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_5": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 5
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_6": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 6
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_7": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 7
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_8": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 8
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_9": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 9
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_10": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 10
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_11": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 11
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_12": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 12
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_13": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 13
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_14": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 14
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_15": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 15
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_16": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 16
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_17": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 17
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_18": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 18
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_19": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 19
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_20": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 20
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_21": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 21
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_22": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 22
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_23": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 23
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_24": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 24
+							}
+						}
+					}
+				]
+			}
+		},
 		"lifetime_crowns_25": {
-			"trigger": "minecraft:impossible"
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 25
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_26": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 26
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_27": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 27
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_28": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 28
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_29": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 29
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_30": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 30
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_31": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 31
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_32": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 32
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_33": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 33
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_34": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 34
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_35": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 35
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_36": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 36
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_37": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 37
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_38": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 38
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_39": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 39
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_40": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 40
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_41": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 41
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_42": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 42
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_43": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 43
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_44": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 44
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_45": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 45
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_46": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 46
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_47": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 47
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_48": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 48
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_49": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 49
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_50": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 50
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_51": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 51
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_52": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 52
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_53": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 53
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_54": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 54
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_55": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 55
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_56": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 56
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_57": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 57
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_58": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 58
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_59": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 59
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_60": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 60
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_61": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 61
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_62": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 62
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_63": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 63
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_64": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 64
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_65": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 65
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_66": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 66
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_67": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 67
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_68": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 68
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_69": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 69
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_70": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 70
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_71": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 71
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_72": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 72
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_73": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 73
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_74": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 74
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_75": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 75
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_76": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 76
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_77": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 77
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_78": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 78
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_79": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 79
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_80": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 80
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_81": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 81
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_82": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 82
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_83": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 83
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_84": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 84
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_85": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 85
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_86": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 86
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_87": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 87
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_88": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 88
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_89": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 89
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_90": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 90
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_91": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 91
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_92": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 92
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_93": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 93
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_94": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 94
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_95": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 95
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_96": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 96
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_97": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 97
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_98": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 98
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_99": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 99
+							}
+						}
+					}
+				]
+			}
+		},
+		"lifetime_crowns_100": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.lifetime.escaped.crowns": {
+								"min": 100
+							}
+						}
+					}
+				]
+			}
 		}
 	},
 	"parent": "do2:visible/treasure/lifetime_crowns_50"

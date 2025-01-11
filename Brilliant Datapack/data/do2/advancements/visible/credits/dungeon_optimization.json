@@ -7,6 +7,7 @@
         "title": "§2Dungeon Optimizations!   ",
         "description": "§7Optimizations to the dungeon so it's faster and has less lag.",
         "show_toast": false,
+        "frame": "goal",
         "announce_to_chat": false,
         "hidden": false
     },
@@ -15,6 +16,5 @@
             "trigger": "minecraft:impossible"
         }
     },
-    "frame": "goal",
     "parent": "do2:visible/credits/dungeon"
 }

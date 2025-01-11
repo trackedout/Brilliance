@@ -11,8 +11,1605 @@
         "hidden": false
     },
     "criteria": {
-        "win_100_times": {
-            "trigger": "minecraft:impossible"
+        "win_1_tome": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_2_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_3_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_4_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_5_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_6_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_7_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_8_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_9_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_10_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_11_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_12_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 12
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_13_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 13
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_14_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 14
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_15_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 15
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_16_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 16
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_17_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 17
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_18_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 18
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_19_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 19
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_20_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 20
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_21_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 21
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_22_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 22
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_23_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 23
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_24_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 24
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_25_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 25
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_26_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 26
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_27_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 27
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_28_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 28
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_29_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 29
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_30_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 30
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_31_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 31
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_32_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 32
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_33_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 33
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_34_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 34
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_35_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 35
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_36_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 36
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_37_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 37
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_38_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 38
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_39_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 39
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_40_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 40
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_41_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 41
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_42_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 42
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_43_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 43
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_44_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 44
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_45_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 45
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_46_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 46
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_47_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 47
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_48_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 48
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_49_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 49
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_50_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 50
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_51_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 51
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_52_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 52
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_53_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 53
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_54_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 54
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_55_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 55
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_56_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 56
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_57_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 57
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_58_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 58
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_59_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 59
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_60_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 60
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_61_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 61
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_62_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 62
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_63_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 63
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_64_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 64
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_65_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 65
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_66_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 66
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_67_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 67
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_68_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 68
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_69_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 69
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_70_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 70
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_71_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 71
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_72_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 72
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_73_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 73
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_74_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 74
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_75_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 75
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_76_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 76
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_77_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 77
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_78_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 78
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_79_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 79
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_80_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 80
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_81_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 81
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_82_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 82
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_83_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 83
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_84_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 84
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_85_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 85
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_86_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 86
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_87_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 87
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_88_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 88
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_89_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 89
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_90_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 90
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_91_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 91
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_92_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 92
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_93_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 93
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_94_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 94
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_95_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 95
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_96_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 96
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_97_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 97
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_98_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 98
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_99_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 99
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_100_tomes": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.wins": {
+                                "min": 100
+                            }
+                        }
+                    }
+                ]
+            }
         }
     },
     "parent": "do2:visible/survival/win_80_times"

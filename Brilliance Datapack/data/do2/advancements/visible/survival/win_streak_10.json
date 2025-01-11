@@ -12,8 +12,165 @@
         "hidden": false
     },
     "criteria": {
-        "win_streak_10": {
-            "trigger": "minecraft:impossible"
+        "win_1_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_2_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_3_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_4_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_5_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 5
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_6_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_7_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 7
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_8_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 8
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_9_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "win_10_streak": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "do2.win_streak": {
+                                "min": 10
+                            }
+                        }
+                    }
+                ]
+            }
         }
     },
     "parent": "do2:visible/survival/win_streak_7"

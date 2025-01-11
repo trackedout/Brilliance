@@ -93,7 +93,7 @@
 			}
 		},
 		"buy_eyes_on_the_prize": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -109,7 +109,7 @@
 			}
 		},
 		"buy_pirates_booty": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -125,7 +125,7 @@
 			}
 		},
 		"buy_cold_snap": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -141,7 +141,7 @@
 			}
 		},
 		"buy_silent_runner": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -157,7 +157,7 @@
 			}
 		},
 		"buy_fuzzy_bunny_slippers": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -173,7 +173,7 @@
 			}
 		},
 		"buy_deepfrost": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
@@ -189,7 +189,7 @@
 			}
 		},
 		"buy_brilliance": {
-			"trigger": "minecraft:tick",
+			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
 					{
