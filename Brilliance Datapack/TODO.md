@@ -1,8 +1,4 @@
 # Other TODO:
-- automate filling in the extra criteria from 
- - visible/lifetime_X_crowns/embers
-- Issue with advancement run_too_long
-- Key Advancements need to check if they are during the first 30s.
 - Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
   - Could hack, and check player's location ON artifact submission, but best if individualized.
 - Add is_waxed:1b to all non-clickable signs
@@ -18,12 +14,9 @@
   * -486 116 1980
   * -554 114 2028 (every single one of the Hermit's cubbies)
   * -492 117 1972 (every single one of our expanded rooms)
-- do2.config.fr.teleportKillers isn't used in new system and needs to be updated todo so.
-- Allow ghosts to spectate their allies in shop freely.
-- DavyBones & Mites need to be moved to entity_controller
+- Allow ghosts to spectate their allies in shop freely
 - Stats room is missing several features. Needs updating, especially with the new scores.
 - Fish markers needs to be controlled from backrooms
-- Check for TOO MANY mobs to correct them.
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Update Brilliance's main readme.
@@ -41,13 +34,8 @@
   - Treasure
 
 # Log Todo:
-triggered_shrieker
-- determine how to log this
-  compass_submitted
-- Add option for log to let receiver TP to compass spot
-  on_reached_top_tnt_depth_charge
-- Add option for log to let receiver TP to depth charge
-- Log Lock/Unlock settings room.
+- on_reached_top_tnt_depth_charge
+  - Add option for log to let receiver TP to depth charge
 
 # List of things todo AFTER builder's "repair" version is done.
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
@@ -66,8 +54,6 @@ triggered_shrieker
         - need icons
 - TREASURE
     - end_more_embers_than_artifact
-        - Need Icon
-    - buy_9_tomes
         - Need Icon
 ## Automation
 - craft_1_legendary

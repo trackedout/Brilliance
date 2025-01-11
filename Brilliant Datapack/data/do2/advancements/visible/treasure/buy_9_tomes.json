@@ -1,7 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:stone"
+			"item": "minecraft:redstone",
+			"nbt": "{'CustomModelData': 1111160}"
 		},
 		"title": "§bTomes or Bust",
 		"description": "§7Buy §b9 §9Tomes§7 in a single shop visit.",

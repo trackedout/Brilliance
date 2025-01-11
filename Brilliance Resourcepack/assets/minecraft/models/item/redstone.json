@@ -297,6 +297,12 @@
 				"custom_model_data": 1111159
 			},
 			"model": "do2:item/advancements/treasure/mystery_box"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 1111160
+			},
+			"model": "do2:item/advancements/treasure/buy_9_tomes"
 		}
 	
 	]
