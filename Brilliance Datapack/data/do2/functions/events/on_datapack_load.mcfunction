@@ -15,7 +15,7 @@ function do2:scoreboard/setup/all
 # Setup stats room
 function do2:statistics_room/setup
 # Update cmd blocks
-function do2:update_command_blocks
+function do2:utility/update_command_blocks
 
 # Make all player's who may have joined already be setup
 execute as @a at @s run function do2:events/on_player_join
@@ -28,7 +28,7 @@ execute unless score $dungeon do2.tests.doesTangoCamExist matches 1 run function
 scoreboard objectives remove do2.tests.doesTangoCamExist
 
 # Attempt to run dungeon_setup
-schedule function do2:postpone_dungeon_setup 1s append
+schedule function do2:utility/postpone_dungeon_setup 1s append
 
 # One time setup:
 gamerule spawnRadius 0

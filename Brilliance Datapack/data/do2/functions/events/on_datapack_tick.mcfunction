@@ -23,7 +23,7 @@ execute if score $dungeon do2.run.active matches 2.. as @e[type=minecraft:evoker
 execute if score $dungeon do2.run.active matches 2.. as @e[type=minecraft:witch] if entity @s[nbt={ActiveEffects:[{Id:24}]}] run effect clear @s minecraft:glowing
 
 # Have vex track players better
-execute if score $dungeon do2.config.vexTracking matches 1 run function do2:force_vex_tracking
+execute if score $dungeon do2.config.vexTracking matches 1 run function do2:entity_controller/force_vex_tracking
 
 # Spectate Controller
 execute if score $dungeon do2.config.forceGamemode matches 1 run function do2:spectating_controller/spectator_logic

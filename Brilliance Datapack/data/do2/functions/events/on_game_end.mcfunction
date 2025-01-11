@@ -24,7 +24,7 @@ execute as @a[team=do2.ghosts] unless entity @s[tag=do2.won] run function do2:ev
 execute as @a[team=do2.players] if entity @s[tag=do2.won] run function do2:external/agronet/add_items/add_crowns
 
 # Reset Players
-execute as @a[tag=!do2.fakePlayer] run function do2:reset_player
+execute as @a[tag=!do2.fakePlayer] run function do2:scoreboard/reset_player
 
 # Unlock Settings
 function do2:scoreboard/config/config_unlock

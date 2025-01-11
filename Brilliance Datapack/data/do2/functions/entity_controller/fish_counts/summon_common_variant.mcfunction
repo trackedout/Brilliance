@@ -24,4 +24,4 @@ execute if score $dungeon do2.utility.randomNum matches 18 run summon minecraft:
 execute if score $dungeon do2.utility.randomNum matches 19 run summon minecraft:tropical_fish ~ ~ ~ {Variant:185008129,Tags:["do2.manually_spawned"]}
 execute if score $dungeon do2.utility.randomNum matches 20 run summon minecraft:tropical_fish ~ ~ ~ {Variant:234882305,Tags:["do2.manually_spawned"]}
 execute if score $dungeon do2.utility.randomNum matches 21 run summon minecraft:tropical_fish ~ ~ ~ {Variant:235340288,Tags:["do2.manually_spawned"]}
-execute if score $dungeon do2.utility.randomNum matches 22.. run function do2:mob_spawning/fish_counts/summon_common_variant
+execute if score $dungeon do2.utility.randomNum matches 22.. run function do2:entity_controller/fish_counts/summon_common_variant
