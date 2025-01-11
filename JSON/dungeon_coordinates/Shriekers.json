@@ -1,0 +1,1419 @@
+[
+    {
+        "level": 4,
+        "coords": "-630 -54 1877"
+    },
+    {
+        "level": 4,
+        "coords": "-630 -54 1861"
+    },
+    {
+        "level": 4,
+        "coords": "-613 -53 1840"
+    },
+    {
+        "level": 4,
+        "coords": "-580 -53 1853"
+    },
+    {
+        "level": 4,
+        "coords": "-596 -52 1845"
+    },
+    {
+        "level": 4,
+        "coords": "-580 -53 1869"
+    },
+    {
+        "level": 4,
+        "coords": "-578 -53 1901"
+    },
+    {
+        "level": 4,
+        "coords": "-581 -51 1916"
+    },
+    {
+        "level": 4,
+        "coords": "-597 -51 1918"
+    },
+    {
+        "level": 4,
+        "coords": "-614 -51 1920"
+    },
+    {
+        "level": 4,
+        "coords": "-630 -51 1918"
+    },
+    {
+        "level": 4,
+        "coords": "-645 -51 1918"
+    },
+    {
+        "level": 4,
+        "coords": "-645 -54 1902"
+    },
+    {
+        "level": 4,
+        "coords": "-645 -53 1886"
+    },
+    {
+        "level": 4,
+        "coords": "-614 -53 1872"
+    },
+    {
+        "level": 4,
+        "coords": "-615 -53 1888"
+    },
+    {
+        "level": 4,
+        "coords": "-615 -53 1904"
+    },
+    {
+        "level": 4,
+        "coords": "-630 -54 1893"
+    },
+    {
+        "level": 4,
+        "coords": "-630 -57 1845"
+    },
+    {
+        "level": 4,
+        "coords": "-614 -53 1856"
+    },
+    {
+        "level": 4,
+        "coords": "-596 -53 1861"
+    },
+    {
+        "level": 4,
+        "coords": "-578 -53 1885"
+    },
+    {
+        "level": 4,
+        "coords": "-596 -53 1893"
+    },
+    {
+        "level": 4,
+        "coords": "-596 -53 1906"
+    },
+    {
+        "level": 4,
+        "coords": "-630 -54 1909"
+    },
+    {
+        "level": 4,
+        "coords": "-596 -53 1877"
+    },
+    {
+        "level": 3,
+        "coords": "-651 -19 1913",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-650 -19 1912",
+                    "piston": {
+                        "coords": "-650 -19 1914",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 3,
+        "coords": "-658 -10 1932"
+    },
+    {
+        "level": 3,
+        "coords": "-624 -12 1895",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-628 -1 1886",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-627 -1 1887",
+                    "piston": {
+                        "coords": "-627 -1 1889",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 3,
+        "coords": "-614 -1 1893",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-613 -1 1893",
+                    "piston": {
+                        "coords": "-613 -1 1895",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 3,
+        "coords": "-584 -9 1875",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-595 1 1904",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-594 1 1905",
+                    "piston": {
+                        "coords": "-594 1 1907",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 3,
+        "coords": "-602 -12 1918",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-619 -11 1919",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-581 -1 1877",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-634 -1 1913",
+        "always_active": true
+    },
+    {
+        "level": 3,
+        "coords": "-641 -1 1894",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-591 12 1970",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-569 9 1958",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-557 11 1966",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-558 9 1967",
+                    "piston": {
+                        "coords": "-558 9 1965",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-546 13 1953",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-532 9 1959",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-532 7 1960",
+                    "piston": {
+                        "coords": "-530 7 1960",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-531 8 1960",
+                    "piston": {
+                        "coords": "-533 8 1960",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-520 9 1953",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-521 7 1954",
+                    "piston": {
+                        "coords": "-521 7 1952",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-521 8 1952",
+                    "piston": {
+                        "coords": "-521 8 1954",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-508 10 1963",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-508 8 1962",
+                    "piston": {
+                        "coords": "-506 8 1962",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-578 4 1978",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-577 5 1979",
+                    "piston": {
+                        "coords": "-577 5 1977",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-568 10 2019",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-538 7 2010",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-584 12 2016",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-585 11 2017",
+                    "piston": {
+                        "coords": "-585 11 2015",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-571 9 1994",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-570 10 1995",
+                    "piston": {
+                        "coords": "-572 10 1995",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-555 10 1989",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-556 8 1990",
+                    "piston": {
+                        "coords": "-556 8 1988",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-520 13 1994",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-521 11 1993",
+                    "piston": {
+                        "coords": "-521 11 1995",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-506 16 1974",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-505 14 1975",
+                    "piston": {
+                        "coords": "-505 14 1973",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-470 17 1972",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-470 15 1971",
+                    "piston": {
+                        "coords": "-468 15 1971",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-455 17 1964",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-475 15 1955",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-474 13 1956",
+                    "piston": {
+                        "coords": "-476 13 1956",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-456 18 1986",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-455 16 1985",
+                    "piston": {
+                        "coords": "-455 16 1987",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-455 17 1987",
+                    "piston": {
+                        "coords": "-455 17 1985",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-466 19 1993",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-454 21 2010",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-454 19 2009",
+                    "piston": {
+                        "coords": "-456 19 2009",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-454 20 2009",
+                    "piston": {
+                        "coords": "-452 20 2009",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-456 22 2026",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-455 20 2027",
+                    "piston": {
+                        "coords": "-455 20 2025",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-455 21 2025",
+                    "piston": {
+                        "coords": "-455 21 2027",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-482 19 2012",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-484 19 2012",
+                    "piston": {
+                        "coords": "-484 19 2010",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-483 19 2012",
+                    "piston": {
+                        "coords": "-483 19 2010",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-491 15 1996",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-492 13 1996",
+                    "piston": {
+                        "coords": "-492 13 1998",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-502 13 1985",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-530 12 1974",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-537 12 2027",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-538 10 2028",
+                    "piston": {
+                        "coords": "-536 10 2028",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-515 13 2029",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-494 11 2008",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-493 9 2009",
+                    "piston": {
+                        "coords": "-493 9 2007",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-519 22 1965",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-518 20 1965",
+                    "piston": {
+                        "coords": "-518 20 1967",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-518 21 1965",
+                    "piston": {
+                        "coords": "-518 21 1963",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-529 16 1999",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-530 14 1999",
+                    "piston": {
+                        "coords": "-530 14 1997",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 2,
+        "coords": "-512 13 2013",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-492 17 2026",
+        "always_active": true
+    },
+    {
+        "level": 2,
+        "coords": "-474 28 1988",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-474 26 1987",
+                    "piston": {
+                        "coords": "-476 26 1987",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-475 27 1987",
+                    "piston": {
+                        "coords": "-473 27 1987",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-506 51 1998",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-506 49 1997",
+                    "piston": {
+                        "coords": "-504 49 1997",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-506 50 1997",
+                    "piston": {
+                        "coords": "-508 50 1997",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-506 51 1987",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-506 49 1986",
+                    "piston": {
+                        "coords": "-504 49 1986",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-505 50 1986",
+                    "piston": {
+                        "coords": "-507 50 1986",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-491 51 1979",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-491 49 1980",
+                    "piston": {
+                        "coords": "-493 49 1980",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-491 50 1980",
+                    "piston": {
+                        "coords": "-489 50 1980",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-524 35 2000",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-525 34 2000",
+                    "piston": {
+                        "coords": "-525 34 1998",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-525 33 1999",
+                    "piston": {
+                        "coords": "-525 33 2001",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-528 35 1985",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-529 33 1984",
+                    "piston": {
+                        "coords": "-529 33 1986",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-529 34 1986",
+                    "piston": {
+                        "coords": "-529 34 1984",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-532 35 1995",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-532 33 1996",
+                    "piston": {
+                        "coords": "-530 33 1996",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-532 34 1996",
+                    "piston": {
+                        "coords": "-534 34 1996",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-520 46 2022",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-520 44 2023",
+                    "piston": {
+                        "coords": "-522 44 2023",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-521 45 2023",
+                    "piston": {
+                        "coords": "-519 45 2023",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-534 44 2027",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-534 42 2026",
+                    "piston": {
+                        "coords": "-536 42 2026",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-535 43 2026",
+                    "piston": {
+                        "coords": "-533 43 2026",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-554 48 2034",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-554 46 2033",
+                    "piston": {
+                        "coords": "-556 46 2033",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-554 47 2033",
+                    "piston": {
+                        "coords": "-552 47 2033",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-574 45 2033"
+    },
+    {
+        "level": 1,
+        "coords": "-583 46 2018",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-584 45 2018",
+                    "piston": {
+                        "coords": "-584 45 2020",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-604 42 2017",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-603 41 2017",
+                    "piston": {
+                        "coords": "-603 41 2015",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-603 40 2016",
+                    "piston": {
+                        "coords": "-603 40 2018",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-607 43 2010",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-607 42 2010",
+                    "piston": {
+                        "coords": "-607 42 2008",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-621 43 2001",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-621 42 2000",
+                    "piston": {
+                        "coords": "-623 42 2000",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-622 41 2000",
+                    "piston": {
+                        "coords": "-620 41 2000",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-610 43 1972",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-610 42 1973",
+                    "piston": {
+                        "coords": "-612 42 1973",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-611 41 1973",
+                    "piston": {
+                        "coords": "-609 41 1973",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-590 46 2007",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-590 44 2006",
+                    "piston": {
+                        "coords": "-588 44 2006",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-589 45 2006",
+                    "piston": {
+                        "coords": "-591 45 2006",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-581 46 1996",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-581 44 1995",
+                    "piston": {
+                        "coords": "-579 44 1995",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-581 45 1995",
+                    "piston": {
+                        "coords": "-583 45 1995",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-565 46 1986",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-565 44 1985",
+                    "piston": {
+                        "coords": "-563 44 1985",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-564 45 1985",
+                    "piston": {
+                        "coords": "-566 45 1985",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-569 46 1958",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-570 45 1958",
+                    "piston": {
+                        "coords": "-570 45 1956",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-570 44 1957",
+                    "piston": {
+                        "coords": "-570 44 1959",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-541 44 1990",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-541 43 1989",
+                    "piston": {
+                        "coords": "-539 43 1989",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-540 42 1989",
+                    "piston": {
+                        "coords": "-542 42 1989",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-541 44 1994",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-541 42 1995",
+                    "piston": {
+                        "coords": "-539 42 1995",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-537 51 2007",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-537 49 2008",
+                    "piston": {
+                        "coords": "-539 49 2008",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-537 50 2008",
+                    "piston": {
+                        "coords": "-535 50 2008",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-524 51 2007",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-523 49 2008",
+                    "piston": {
+                        "coords": "-523 49 2006",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-523 50 2006",
+                    "piston": {
+                        "coords": "-523 50 2008",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-504 51 1968",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-505 49 1969",
+                    "piston": {
+                        "coords": "-505 49 1967",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-505 50 1967",
+                    "piston": {
+                        "coords": "-505 50 1969",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-565 46 1995",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-565 44 1996",
+                    "piston": {
+                        "coords": "-563 44 1996",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-565 45 1996",
+                    "piston": {
+                        "coords": "-567 45 1996",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-544 38 2005",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-543 36 2006",
+                    "piston": {
+                        "coords": "-543 36 2004",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-543 37 2004",
+                    "piston": {
+                        "coords": "-543 37 2006",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-533 51 1995",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-534 49 1995",
+                    "piston": {
+                        "coords": "-534 49 1997",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-534 50 1996",
+                    "piston": {
+                        "coords": "-534 50 1994",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-532 51 1985",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-533 49 1985",
+                    "piston": {
+                        "coords": "-533 49 1987",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-533 50 1985",
+                    "piston": {
+                        "coords": "-533 50 1983",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-528 51 1989",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-528 50 1990",
+                    "piston": {
+                        "coords": "-530 50 1990",
+                        "facing": "east"
+                    }
+                },
+                {
+                    "wool": "-529 49 1990",
+                    "piston": {
+                        "coords": "-527 49 1990",
+                        "facing": "west"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-521 51 1985",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-522 50 1985",
+                    "piston": {
+                        "coords": "-522 50 1987",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-522 49 1986",
+                    "piston": {
+                        "coords": "-522 49 1984",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-526 51 1977",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-525 49 1976",
+                    "piston": {
+                        "coords": "-525 49 1978",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-525 50 1978",
+                    "piston": {
+                        "coords": "-525 50 1976",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-538 51 1977",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-539 49 1977",
+                    "piston": {
+                        "coords": "-539 49 1979",
+                        "facing": "north"
+                    }
+                },
+                {
+                    "wool": "-539 50 1978",
+                    "piston": {
+                        "coords": "-539 50 1976",
+                        "facing": "south"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-548 38 1983",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-548 37 1982",
+                    "piston": {
+                        "coords": "-546 37 1982",
+                        "facing": "west"
+                    }
+                },
+                {
+                    "wool": "-547 36 1982",
+                    "piston": {
+                        "coords": "-549 36 1982",
+                        "facing": "east"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    },
+    {
+        "level": 1,
+        "coords": "-560 46 1969",
+        "sensor": {
+            "wool_blocks": [
+                {
+                    "wool": "-561 44 1969",
+                    "piston": {
+                        "coords": "-561 44 1967",
+                        "facing": "south"
+                    }
+                },
+                {
+                    "wool": "-561 45 1968",
+                    "piston": {
+                        "coords": "-561 45 1970",
+                        "facing": "north"
+                    }
+                }
+            ],
+            "sculk_sensor": ""
+        }
+    }
+]
