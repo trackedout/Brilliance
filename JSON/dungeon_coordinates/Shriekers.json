@@ -1,109 +1,109 @@
-[
-    {
+{
+    "419":{
         "level": 4,
         "coords": "-630 -54 1877"
     },
-    {
+    "423":{
         "level": 4,
         "coords": "-630 -54 1861"
     },
-    {
+    "425":{
         "level": 4,
         "coords": "-613 -53 1840"
     },
-    {
+    "420":{
         "level": 4,
         "coords": "-580 -53 1853"
     },
-    {
+    "424":{
         "level": 4,
         "coords": "-596 -52 1845"
     },
-    {
+    "416":{
         "level": 4,
         "coords": "-580 -53 1869"
     },
-    {
+    "406":{
         "level": 4,
         "coords": "-578 -53 1901"
     },
-    {
+    "404":{
         "level": 4,
         "coords": "-581 -51 1916"
     },
-    {
+    "405":{
         "level": 4,
         "coords": "-597 -51 1918"
     },
-    {
+    "401":{
         "level": 4,
         "coords": "-614 -51 1920"
     },
-    {
+    "402":{
         "level": 4,
         "coords": "-630 -51 1918"
     },
-    {
+    "403":{
         "level": 4,
         "coords": "-645 -51 1918"
     },
-    {
+    "410":{
         "level": 4,
         "coords": "-645 -54 1902"
     },
-    {
+    "415":{
         "level": 4,
         "coords": "-645 -53 1886"
     },
-    {
+    "418":{
         "level": 4,
         "coords": "-614 -53 1872"
     },
-    {
+    "413":{
         "level": 4,
         "coords": "-615 -53 1888"
     },
-    {
+    "408":{
         "level": 4,
         "coords": "-615 -53 1904"
     },
-    {
+    "414":{
         "level": 4,
         "coords": "-630 -54 1893"
     },
-    {
+    "426":{
         "level": 4,
         "coords": "-630 -57 1845"
     },
-    {
+    "422":{
         "level": 4,
         "coords": "-614 -53 1856"
     },
-    {
+    "421":{
         "level": 4,
         "coords": "-596 -53 1861"
     },
-    {
+    "411":{
         "level": 4,
         "coords": "-578 -53 1885"
     },
-    {
+    "412":{
         "level": 4,
         "coords": "-596 -53 1893"
     },
-    {
+    "407":{
         "level": 4,
         "coords": "-596 -53 1906"
     },
-    {
+    "409":{
         "level": 4,
         "coords": "-630 -54 1909"
     },
-    {
+    "417":{
         "level": 4,
         "coords": "-596 -53 1877"
     },
-    {
+    "301":{
         "level": 3,
         "coords": "-651 -19 1913",
         "sensor": {
@@ -119,16 +119,17 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "302":{
         "level": 3,
-        "coords": "-658 -10 1932"
+        "coords": "-658 -10 1932",
+        "comment":"Disabled"
     },
-    {
+    "309":{
         "level": 3,
         "coords": "-624 -12 1895",
         "always_active": true
     },
-    {
+    "310":{
         "level": 3,
         "coords": "-628 -1 1886",
         "sensor": {
@@ -144,7 +145,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "308":{
         "level": 3,
         "coords": "-614 -1 1893",
         "sensor": {
@@ -160,12 +161,12 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "307":{
         "level": 3,
         "coords": "-584 -9 1875",
         "always_active": true
     },
-    {
+    "305":{
         "level": 3,
         "coords": "-595 1 1904",
         "sensor": {
@@ -181,42 +182,37 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "306":{
         "level": 3,
         "coords": "-602 -12 1918",
         "always_active": true
     },
-    {
+    "304":{
         "level": 3,
         "coords": "-619 -11 1919",
         "always_active": true
     },
-    {
-        "level": 3,
-        "coords": "-581 -1 1877",
-        "always_active": true
-    },
-    {
+    "303":{
         "level": 3,
         "coords": "-634 -1 1913",
         "always_active": true
     },
-    {
+    "311":{
         "level": 3,
         "coords": "-641 -1 1894",
         "always_active": true
     },
-    {
+    "228":{
         "level": 2,
         "coords": "-591 12 1970",
         "always_active": true
     },
-    {
+    "232":{
         "level": 2,
         "coords": "-569 9 1958",
         "always_active": true
     },
-    {
+    "231":{
         "level": 2,
         "coords": "-557 11 1966",
         "sensor": {
@@ -232,12 +228,12 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "233":{
         "level": 2,
         "coords": "-546 13 1953",
         "always_active": true
     },
-    {
+    "220":{
         "level": 2,
         "coords": "-532 9 1959",
         "sensor": {
@@ -260,7 +256,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "221":{
         "level": 2,
         "coords": "-520 9 1953",
         "sensor": {
@@ -283,7 +279,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "219":{
         "level": 2,
         "coords": "-508 10 1963",
         "sensor": {
@@ -299,7 +295,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "229":{
         "level": 2,
         "coords": "-578 4 1978",
         "sensor": {
@@ -315,17 +311,17 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "226":{
         "level": 2,
         "coords": "-568 10 2019",
         "always_active": true
     },
-    {
+    "223":{
         "level": 2,
         "coords": "-538 7 2010",
         "always_active": true
     },
-    {
+    "225":{
         "level": 2,
         "coords": "-584 12 2016",
         "sensor": {
@@ -341,7 +337,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "227":{
         "level": 2,
         "coords": "-571 9 1994",
         "sensor": {
@@ -357,7 +353,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "230":{
         "level": 2,
         "coords": "-555 10 1989",
         "sensor": {
@@ -373,7 +369,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "214":{
         "level": 2,
         "coords": "-520 13 1994",
         "sensor": {
@@ -389,7 +385,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "215":{
         "level": 2,
         "coords": "-506 16 1974",
         "sensor": {
@@ -405,7 +401,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "208":{
         "level": 2,
         "coords": "-470 17 1972",
         "sensor": {
@@ -421,12 +417,12 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "207":{
         "level": 2,
         "coords": "-455 17 1964",
         "always_active": true
     },
-    {
+    "209":{
         "level": 2,
         "coords": "-475 15 1955",
         "sensor": {
@@ -442,7 +438,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "204":{
         "level": 2,
         "coords": "-456 18 1986",
         "sensor": {
@@ -465,12 +461,12 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "206":{
         "level": 2,
         "coords": "-466 19 1993",
         "always_active": true
     },
-    {
+    "203":{
         "level": 2,
         "coords": "-454 21 2010",
         "sensor": {
@@ -493,7 +489,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "202":{
         "level": 2,
         "coords": "-456 22 2026",
         "sensor": {
@@ -516,7 +512,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "234":{
         "level": 2,
         "coords": "-482 19 2012",
         "sensor": {
@@ -539,7 +535,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "201":{
         "level": 2,
         "coords": "-491 15 1996",
         "sensor": {
@@ -555,17 +551,17 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "216":{
         "level": 2,
         "coords": "-502 13 1985",
         "always_active": true
     },
-    {
+    "218":{
         "level": 2,
         "coords": "-530 12 1974",
         "always_active": true
     },
-    {
+    "235":{
         "level": 2,
         "coords": "-537 12 2027",
         "sensor": {
@@ -581,12 +577,12 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "213":{
         "level": 2,
         "coords": "-515 13 2029",
         "always_active": true
     },
-    {
+    "210":{
         "level": 2,
         "coords": "-494 11 2008",
         "sensor": {
@@ -602,7 +598,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "217":{
         "level": 2,
         "coords": "-519 22 1965",
         "sensor": {
@@ -625,7 +621,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "222":{
         "level": 2,
         "coords": "-529 16 1999",
         "sensor": {
@@ -641,17 +637,17 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "211":{
         "level": 2,
         "coords": "-512 13 2013",
         "always_active": true
     },
-    {
+    "212":{
         "level": 2,
         "coords": "-492 17 2026",
         "always_active": true
     },
-    {
+    "205":{
         "level": 2,
         "coords": "-474 28 1988",
         "sensor": {
@@ -674,7 +670,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "112":{
         "level": 1,
         "coords": "-506 51 1998",
         "sensor": {
@@ -697,7 +693,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "103":{
         "level": 1,
         "coords": "-506 51 1987",
         "sensor": {
@@ -720,7 +716,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "102":{
         "level": 1,
         "coords": "-491 51 1979",
         "sensor": {
@@ -743,7 +739,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "116":{
         "level": 1,
         "coords": "-524 35 2000",
         "sensor": {
@@ -766,7 +762,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "115":{
         "level": 1,
         "coords": "-528 35 1985",
         "sensor": {
@@ -789,7 +785,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "114":{
         "level": 1,
         "coords": "-532 35 1995",
         "sensor": {
@@ -812,7 +808,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "133":{
         "level": 1,
         "coords": "-520 46 2022",
         "sensor": {
@@ -835,7 +831,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "132":{
         "level": 1,
         "coords": "-534 44 2027",
         "sensor": {
@@ -858,7 +854,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "131":{
         "level": 1,
         "coords": "-554 48 2034",
         "sensor": {
@@ -881,11 +877,22 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "134":{
         "level": 1,
-        "coords": "-574 45 2033"
+        "coords": "-574 45 2033",
+        "sensor":{
+            "wool_blocks":[
+                {
+                    "wool":"-576 42 2034",
+                    "piston":{
+                        "coords":"-576 42 2032",
+                        "facing":"south"
+                    }
+                }
+            ]
+        }
     },
-    {
+    "130":{
         "level": 1,
         "coords": "-583 46 2018",
         "sensor": {
@@ -901,7 +908,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "128":{
         "level": 1,
         "coords": "-604 42 2017",
         "sensor": {
@@ -924,7 +931,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "129":{
         "level": 1,
         "coords": "-607 43 2010",
         "sensor": {
@@ -940,7 +947,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "126":{
         "level": 1,
         "coords": "-621 43 2001",
         "sensor": {
@@ -963,7 +970,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "125":{
         "level": 1,
         "coords": "-610 43 1972",
         "sensor": {
@@ -986,7 +993,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "127":{
         "level": 1,
         "coords": "-590 46 2007",
         "sensor": {
@@ -1009,7 +1016,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "123":{
         "level": 1,
         "coords": "-581 46 1996",
         "sensor": {
@@ -1032,7 +1039,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "122":{
         "level": 1,
         "coords": "-565 46 1986",
         "sensor": {
@@ -1055,7 +1062,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "120":{
         "level": 1,
         "coords": "-569 46 1958",
         "sensor": {
@@ -1078,7 +1085,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "117":{
         "level": 1,
         "coords": "-541 44 1990",
         "sensor": {
@@ -1101,7 +1108,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "118":{
         "level": 1,
         "coords": "-541 44 1994",
         "sensor": {
@@ -1117,7 +1124,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "108":{
         "level": 1,
         "coords": "-537 51 2007",
         "sensor": {
@@ -1140,7 +1147,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "109":{
         "level": 1,
         "coords": "-524 51 2007",
         "sensor": {
@@ -1163,7 +1170,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "101":{
         "level": 1,
         "coords": "-504 51 1968",
         "sensor": {
@@ -1186,7 +1193,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "124":{
         "level": 1,
         "coords": "-565 46 1995",
         "sensor": {
@@ -1209,7 +1216,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "119":{
         "level": 1,
         "coords": "-544 38 2005",
         "sensor": {
@@ -1232,7 +1239,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "107":{
         "level": 1,
         "coords": "-533 51 1995",
         "sensor": {
@@ -1255,7 +1262,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "106":{
         "level": 1,
         "coords": "-532 51 1985",
         "sensor": {
@@ -1278,7 +1285,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "105":{
         "level": 1,
         "coords": "-528 51 1989",
         "sensor": {
@@ -1301,7 +1308,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "104":{
         "level": 1,
         "coords": "-521 51 1985",
         "sensor": {
@@ -1324,7 +1331,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "110":{
         "level": 1,
         "coords": "-526 51 1977",
         "sensor": {
@@ -1347,7 +1354,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "111":{
         "level": 1,
         "coords": "-538 51 1977",
         "sensor": {
@@ -1370,7 +1377,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "113":{
         "level": 1,
         "coords": "-548 38 1983",
         "sensor": {
@@ -1393,7 +1400,7 @@
             "sculk_sensor": ""
         }
     },
-    {
+    "121":{
         "level": 1,
         "coords": "-560 46 1969",
         "sensor": {
@@ -1416,4 +1423,4 @@
             "sculk_sensor": ""
         }
     }
-]
+}
