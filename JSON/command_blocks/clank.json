@@ -337,18 +337,6 @@
     },
     {
         "coords": [
-            -635,
-            -24,
-            1892
-        ],
-        "type": "command_block",
-        "types": [
-            "facing=west"
-        ],
-        "command": "function do2:events/systems/on_shrieker"
-    },
-    {
-        "coords": [
             -584,
             -9,
             1873

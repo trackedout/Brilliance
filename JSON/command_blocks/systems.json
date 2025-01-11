@@ -1,6 +1,19 @@
 [
 	{
 		"coords": [
+			-635,
+			-24,
+			1892
+		],
+		"type": "command_block",
+		"types": [
+			"facing=west"
+		],
+		"command": "function do2:events/systems/on_shrieker",
+		"comment": "NOT a shrieker. Actually is L3->L4 opening"
+	},
+	{
+		"coords": [
 			-619,
 			56,
 			1946
