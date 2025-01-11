@@ -6,12 +6,10 @@
  - visible/lifetime_X_crowns/embers
 - Issue with advancement run_too_long
 - Only allow ONE ravager to be in the first 5 markers at L1
-- custom advancement datapack for lobby
 - Fill descriptions https://github.com/trackedout/Brilliance/pull/30
 - Key Advancements need to check if they are during the first 30s.
 - Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
   - Could hack, and check player's location ON artifact submission, but best if individualized.
-- Refactor files to be less of a mess and more organized. (Needs cmd block data)
 - Add is_waxed:1b to all non-clickable signs
   * -575 110 2010
   * -511 130 1972

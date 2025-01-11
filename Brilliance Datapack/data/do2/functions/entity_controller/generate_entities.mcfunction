@@ -69,3 +69,6 @@ execute store result score $dungeon do2.utility.ec.collectingLogs run data get s
 execute if score $dungeon do2.utility.ec.collectingLogs matches 1.. run function do2:entity_controller/generate_entities/log_mob_name_count_errors
 scoreboard players set $dungeon do2.utility.ec.collectingLogs 0
 scoreboard objectives remove do2.tests.oldMobsExisting
+
+# Ensure
+function do2:entity_controller/ensure_1_ravager_at_start
