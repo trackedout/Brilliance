@@ -16,7 +16,6 @@
   * -492 117 1972 (every single one of our expanded rooms)
 - Allow ghosts to spectate their allies in shop freely
 - Stats room is missing several features. Needs updating, especially with the new scores.
-- Fish markers needs to be controlled from backrooms
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Update Brilliance's main readme.
