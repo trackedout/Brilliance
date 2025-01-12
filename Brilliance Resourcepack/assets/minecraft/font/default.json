@@ -18,6 +18,10 @@
 		},
 		{
 			"type": "reference",
+			"id": "do2:gui"
+		},
+		{
+			"type": "reference",
 			"id": "minecraft:include/space"
 		},
 		{
