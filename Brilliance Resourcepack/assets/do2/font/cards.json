@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "do2:font/do_cards.png",
+			"ascent": 8,
+			"height": 9,
+			"chars": [
+				"\uE0D0\uE0D1\uE0D2\uE0D3\uE0D4\uE0D5\uE0D6\uE0D7\uE0D8\uE0D9\uE0DA\uE0DB\uE0DC\uE0DD\uE0DE\uE0DF\uE0E0\uE0E1\uE0E2\uE0E3\uE0E4\uE0E5\uE0E6\uE0E7\uE0E8\uE0E9\uE0EA\uE0EB\uE0EC\uE0ED\uE0EE\uE0EF\uE0F0\uE0F1\uE0F2\uE0F3\uE0F4\uE0F5\uE0F6\uE0F7\uE0F8\uE0F9"
+			]
+		}
+	]
+}
