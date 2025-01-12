@@ -1,4 +1,19 @@
 # Other TODO:
+- Add hostile mob switch.
+- Disentangle weather/daytime cycle configs
+- Randomize clank detectors at the start of each run
+- Set gui map tag based on Tango's existance, prompt for scale
+- Config to replace 'retired' hermits.
+  - Need new artifacts
+- On game end, CHECK stat tracking containers. Notify if ever full
+  - List of stat containers are in FR reset containers 
+  - Check berry/extra item disposal in ravager gauntlet
+- Add FR config to completely reset hermit's impact to the dungeon.
+- Add config for number of shop cards always availible
+- Add pre-emptive legendary stat tracking
+- Update vanilla compatability configs,
+  - GUI needs to auto apply
+  - Signs need to allow disable/enable & descriptions
 - Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
   - Could hack, and check player's location ON artifact submission, but best if individualized.
 - Add is_waxed:1b to all non-clickable signs
