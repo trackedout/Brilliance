@@ -27,6 +27,7 @@ function do2:scoreboard/config/balance_changes/actions
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_tags
 function do2:dungeon_setup/reset_hopper_minecarts/set_inventories
+function do2:dungeon_setup/randomize_clank_blockers/randomize_shrieker_groups
 
 # Experimental
 function do2:scoreboard/config/max_clank_berries/start_suppress_berries
