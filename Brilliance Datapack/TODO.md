@@ -1,6 +1,5 @@
 # Other TODO:
 - Disentangle weather/daytime cycle configs
-- Randomize clank detectors at the start of each run
 - Set gui map tag based on Tango's existance, prompt for scale
 - Config to replace 'retired' hermits.
   - Need new artifacts
@@ -8,7 +7,7 @@
   - List of stat containers are in FR reset containers 
   - Check berry/extra item disposal in ravager gauntlet
 - Add FR config to completely reset hermit's impact to the dungeon.
-- Add config for number of shop cards always availible
+- Add INTERFACE for config of number of shop cards always availible
 - Add pre-emptive legendary stat tracking
 - Update vanilla compatability configs,
   - GUI needs to auto apply
