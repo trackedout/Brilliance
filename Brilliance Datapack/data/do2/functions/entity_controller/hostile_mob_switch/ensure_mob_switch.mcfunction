@@ -2,7 +2,7 @@ execute unless score $mobPerPlayer do2.utility.mobSwitchCounter matches 0.. run 
 # Figure out how many mobs we WANT
 scoreboard players set $targetMobNumber do2.utility.mobSwitchCounter 0
 execute as @a[gamemode=!spectator] run scoreboard players add $targetMobNumber do2.utility.mobSwitchCounter 1
-scoreboard players operation $targetMobNumber do2.utility.mobSwitchCounter *= $mobPerPlayer do2.utility.
+scoreboard players operation $targetMobNumber do2.utility.mobSwitchCounter *= $mobPerPlayer do2.utility.mobSwitchCounter
 # Figure out how many mobs we HAVE
 scoreboard players set $currentMobNumber do2.utility.mobSwitchCounter 0
 execute as @e[type=zombie_villager,tag=mobSwitch] run scoreboard players add $currentMobNumber do2.utility.mobSwitchCounter 1
