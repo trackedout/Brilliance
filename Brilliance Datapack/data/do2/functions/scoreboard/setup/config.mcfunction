@@ -56,6 +56,7 @@ scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT 
 scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max §8Clank"
 scoreboard objectives add do2.config.bc.suitUpRes dummy "Suit Up Resistance"
 scoreboard objectives add do2.config.bc.staircaseEmbers dummy "Staircase Embers"
+scoreboard objectives add do2.config.bc.cardsAlwaysAvailable dummy "Amount of cards always available to purchase"
 
 
 # Dungeon Config: Fresh Runs
