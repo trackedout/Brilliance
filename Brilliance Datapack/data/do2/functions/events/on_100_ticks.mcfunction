@@ -20,3 +20,6 @@ execute as @a[tag=!do2.fakePlayer] run scoreboard players add $dungeon do2.utili
 
 # Enable/Disable certain triggers
 execute as @a run function do2:scoreboard/triggers/on_player_join
+
+# Ensure mob switch
+function do2:entity_controller/hostile_mob_switch/ensure_mob_switch
