@@ -1,5 +1,4 @@
 # Other TODO:
-- Add hostile mob switch.
 - Disentangle weather/daytime cycle configs
 - Randomize clank detectors at the start of each run
 - Set gui map tag based on Tango's existance, prompt for scale
@@ -17,18 +16,20 @@
 - Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
   - Could hack, and check player's location ON artifact submission, but best if individualized.
 - Add is_waxed:1b to all non-clickable signs
-  * -575 110 2010
-  * -511 130 1972
-  * -534 138 1980
-  * -517 131 1973
-  * -534 138 1979
-  * -600 156 2032
-  * -600 156 2050
-  * -532 114 1997
-  * -536 114 1997
-  * -486 116 1980
-  * -554 114 2028 (every single one of the Hermit's cubbies)
-  * -492 117 1972 (every single one of our expanded rooms)
+  - ```
+    * -575 110 2010
+    * -511 130 1972
+    * -534 138 1980
+    * -517 131 1973
+    * -534 138 1979
+    * -600 156 2032
+    * -600 156 2050
+    * -532 114 1997
+    * -536 114 1997
+    * -486 116 1980
+    * -554 114 2028 (every single one of the Hermit's cubbies)
+    * -492 117 1972 (every single one of our expanded rooms
+    ```
 - Allow ghosts to spectate their allies in shop freely
 - Stats room is missing several features. Needs updating, especially with the new scores.
 - Config Info "booklet" needs to be updated with the new force saturation level
