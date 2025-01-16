@@ -11,8 +11,6 @@ scoreboard objectives add do2.highest_win_streak dummy "Highest Win Streak"
 scoreboard objectives add do2.win_streak dummy "Current Win Streak"
 scoreboard objectives add do2.highest_loss_streak dummy "Highest Loss Streak"
 scoreboard objectives add do2.loss_streak dummy "Current Loss Streak"
-scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Successes"
-scoreboard objectives add do2.run.depth_charge_success dummy "Whether a Depth Charge Success was this run"
 
 # - treasure lifetimes -
 scoreboard objectives add do2.lifetime.pickedup.crowns dummy "Total §eCrowns§r Picked Up"
@@ -32,11 +30,16 @@ scoreboard objectives add do2.run.timeWithNoPlayers dummy "AFK Timer"
 scoreboard objectives add do2.run.ticks dummy "Server Tick Counter"
 scoreboard objectives add do2.run.seconds dummy "Run Time (seconds)"
 scoreboard objectives add do2.run.difficulty dummy "Run Difficulty"
-scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor artifact was submitted."
 scoreboard objectives add do2.run.has_won dummy "Player has won"
 scoreboard objectives add do2.run.has_died deathCount "Whether player has died this run."
 scoreboard objectives add do2.run.player_deaths dummy "How many players have died"
 scoreboard objectives add do2.run.players dummy "Total players in game"
+
+# - Unique Scores -
+scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Successes"
+scoreboard objectives add do2.run.depth_charge_success dummy "Whether a Depth Charge Success was this run"
+scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has reach."
+scoreboard objectives add do2.run.aritfact_floor dummy "The floor artifact was submitted."
 
 # - Agronet's utility -
 scoreboard objectives add do2.agronet.card_available dummy "The card ID of the card available"

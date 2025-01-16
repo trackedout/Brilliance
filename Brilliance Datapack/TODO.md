@@ -1,4 +1,6 @@
 # Other TODO:
+- Maybe think of a way to stop randomizing ravager's positions when zones are swapped on/off
+  - Issue 1: What todo with Ravager 5 if they happen in Ravager
 - Disentangle weather/daytime cycle configs
 - Set gui map tag based on Tango's existance, prompt for scale
 - Config to replace 'retired' hermits.
