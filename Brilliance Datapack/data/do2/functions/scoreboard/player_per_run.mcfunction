@@ -13,8 +13,12 @@ execute unless entity @s[advancements={do2:hidden/adventuring/eat_three_uniques=
 # reset player's play_5_moc on 1 run.
 execute unless entity @s[advancements={do2:hidden/cards/play_5_moc=true}] run advancement revoke @s only do2:visible/cards/play_5_moc
 
-# reset depth charge dive scores
-scoreboard players set @s do2.utility.reachedBottomDepthCharge 0
+# reset unique scores
+scoreboard players set @s do2.run.depth_charge_success 0
+scoreboard players set @s do2.run.deepest_floor 0
+scoreboard players set @s do2.run.aritfact_floor 0
+scoreboard players set @s do2.run.artifact_lodestone_id 0
+scoreboard players set @s do2.run.death_dungeon_location 0
 
 # Ensure Gamemode
 execute if entity @s[gamemode=adventure] run scoreboard players set @s do2.utility.oldGamemode 0
@@ -29,6 +33,7 @@ scoreboard players set @s do2.run.foundArtifact 0
 scoreboard players set @s do2.run.has_won 0
 scoreboard players set @s do2.run.has_died 0
 scoreboard players set @s do2.utility.deathCount 0
+
 
 # - RESET ITEMS -
 scoreboard players set @s do2.run.items.embers 0

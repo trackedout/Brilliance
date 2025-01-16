@@ -23,3 +23,6 @@ execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~
 
 # If player is at LOBBY worldspawn for some reason
 execute positioned -547 113 1980 if entity @s[distance=..2] at @s run tp @s ~ ~ ~ 90 0
+
+# Store where player WAS when they died.
+scoreboard players operation @s do2.run.death_dungeon_location = @s do2.utility.dungeonLocation
