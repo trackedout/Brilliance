@@ -1,7 +1,7 @@
 kill @e[tag=do2.statistics_room,tag=!do2.stats.spoilers]
 
 execute unless score @p do2.run.active matches 0.. run scoreboard players set @p do2.run.active 0
-execute unless score @p do2.depth_charge_success matches 0.. run scoreboard players set @p do2.depth_charge_success 0
+execute unless score @p do2.depth_charge_success matches 0.. run scoreboard players set @p do2.run.depth_charge_success 0
 
 execute unless entity @e[tag=do2.statistics_room,tag=do2.stats.spoilers] run summon minecraft:text_display -492 125 1990 {alignment:"center",Rotation:[90f,0f], billboard:"fixed",background:26,Tags:["do2.statistics_room","do2.stats.spoilers"]}
 

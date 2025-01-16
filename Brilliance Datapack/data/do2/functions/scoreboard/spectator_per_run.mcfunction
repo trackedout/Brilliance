@@ -25,7 +25,6 @@ execute if score $dungeon do2.config.forceGamemode matches 1 unless entity @s[ga
 
 # - RESET GENERAL -
 scoreboard players set @s do2.run.foundArtifact 0
-scoreboard players set @s do2.run.tnt_dive 0
 scoreboard players set @s do2.run.has_won 0
 scoreboard players set @s do2.run.has_died 0
 scoreboard players set @s do2.utility.deathCount 0
