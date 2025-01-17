@@ -69,10 +69,10 @@ execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-587.5,
 execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-603.5,dx=157,y=-8.5,dy=50,z=1930.5,dz=128] run scoreboard players set @s do2.utility.dungeonLocation 10
 
 # Level 3
-execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-666.5,dx=91,y=-22.5,dy=39,z=1878.5,dz=52] run scoreboard players set @s do2.utility.dungeonLocation 11
+execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-666.5,dx=91,y=-23.5,dy=40,z=1878.5,dz=52] run scoreboard players set @s do2.utility.dungeonLocation 11
 
 # Level 4
-execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-659.5,dx=95,y=-60.5,dy=38,z=1836.5,dz=79] run scoreboard players set @s do2.utility.dungeonLocation 12
+execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-659.5,dx=95,y=-60.5,dy=37,z=1836.5,dz=79] run scoreboard players set @s do2.utility.dungeonLocation 12
 
 execute if score @s do2.utility.oldDungeonLocation = @s do2.utility.dungeonLocation run return 0
 execute unless entity @a[scores={do2.logs.player_actions=3..}] run return 0
