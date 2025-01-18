@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_crowns": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:compass"
+						],
+						"nbt": "{LodestoneTracked:1b}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/compass"
+	},
+	"parent": "do2:utility/root"
+}

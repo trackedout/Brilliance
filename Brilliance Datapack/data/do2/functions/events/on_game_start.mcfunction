@@ -21,7 +21,7 @@ function do2:external/replay_mod/start
 execute store result score $dungeon do2.run.players run tag @a[team=do2.players] add do2.running
 
 # === dungadungadungadungadunga ===
-execute as @a[tag=do2.running] run function do2:external/agronet/game_start
+execute as @a[team=do2.players] run function do2:external/agronet/game_start
 # =================================
 
 # Adjust scoreboards

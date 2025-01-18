@@ -41,6 +41,7 @@ scoreboard objectives add do2.run.depth_charge_success dummy "Whether a Depth Ch
 scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has reach."
 scoreboard objectives add do2.run.aritfact_floor dummy "The floor artifact was submitted."
 scoreboard objectives add do2.run.artifact_lodestone_id dummy "The id of the lodestone the player submitted to."
+scoreboard objectives add do2.run.compass_lodestone_id dummy "The id of the lodestone the player needs to reach."
 scoreboard objectives add do2.run.death_dungeon_location dummy "The location of where the player 'died' at"
 
 # - Agronet's utility -
