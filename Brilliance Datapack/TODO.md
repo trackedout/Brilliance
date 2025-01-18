@@ -1,21 +1,19 @@
 # Other TODO:
-- Maybe think of a way to stop randomizing ravager's positions when zones are swapped on/off
-  - Issue 1: What todo with Ravager 5 if they happen in Ravager
+- When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
+  - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
 - Disentangle weather/daytime cycle configs
-- Set gui map tag based on Tango's existance, prompt for scale
+- Set gui map tag based on Tango's existence, prompt for scale
 - Config to replace 'retired' hermits.
   - Need new artifacts
 - On game end, CHECK stat tracking containers. Notify if ever full
   - List of stat containers are in FR reset containers 
   - Check berry/extra item disposal in ravager gauntlet
 - Add FR config to completely reset hermit's impact to the dungeon.
-- Add INTERFACE for config of number of shop cards always availible
+- Add INTERFACE for config of number of shop cards always available
 - Add pre-emptive legendary stat tracking
 - Update vanilla compatability configs,
   - GUI needs to auto apply
   - Signs need to allow disable/enable & descriptions
-- Currently compass submission just checks for deepest floor reached and assumes that was where your artifact was from. Should individualize artifact submission events to detect where player submitted artifact.
-  - Could hack, and check player's location ON artifact submission, but best if individualized.
 - Add is_waxed:1b to all non-clickable signs
   - ```
     * -575 110 2010
