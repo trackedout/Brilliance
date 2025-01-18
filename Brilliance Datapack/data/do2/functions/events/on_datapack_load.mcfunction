@@ -31,15 +31,14 @@ scoreboard objectives remove do2.tests.doesTangoCamExist
 schedule function do2:utility/postpone_dungeon_setup 1s append
 
 # One time setup:
+gamerule reducedDebugInfo true
 gamerule spawnRadius 0
 execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle true
 execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle false
 execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle true
 execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle false
-
-time set noon
-weather clear
-
+execute unless score $dungeon do2.config.useWorldCycle matches 1 run time set noon
+execute unless score $dungeon do2.config.useWorldCycle matches 1 run weather clear
 
 # Run dungeon setup associated with the onServer / onInstance flag, delayed by 2 ticks
 schedule function do2:dungeon_setup/source_flag_setup 2t append

@@ -48,8 +48,8 @@ execute if score $dungeon do2.run.difficulty matches 3 run advancement grant @s 
 execute if score $dungeon do2.run.difficulty matches 4 run advancement grant @s only do2:hidden/survival/win_difficulty_4
 execute if score $dungeon do2.run.difficulty matches 5 run advancement grant @s only do2:hidden/survival/win_difficulty_5
 # - WIN X LEVEL -
-execute if score $dungeon do2.run.deepest_floor matches 1 run advancement grant @s only do2:hidden/survival/win_level_1
-execute if score $dungeon do2.run.deepest_floor matches 2 run advancement grant @s only do2:hidden/survival/win_level_2
-execute if score $dungeon do2.run.deepest_floor matches 3 run advancement grant @s only do2:hidden/survival/win_level_3
-execute if score $dungeon do2.run.deepest_floor matches 4 run advancement grant @s only do2:hidden/survival/win_level_4
+execute if score @s do2.run.deepest_floor matches 1 run advancement grant @s only do2:hidden/survival/win_level_1
+execute if score @s do2.run.deepest_floor matches 2 run advancement grant @s only do2:hidden/survival/win_level_2
+execute if score @s do2.run.deepest_floor matches 3 run advancement grant @s only do2:hidden/survival/win_level_3
+execute if score @s do2.run.deepest_floor matches 4 run advancement grant @s only do2:hidden/survival/win_level_4
 # =============================
