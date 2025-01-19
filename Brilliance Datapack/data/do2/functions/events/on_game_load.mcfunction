@@ -50,6 +50,3 @@ function do2:scoreboard/config/config_lock
 
 # Make sure that the redstone block keeping the iron door open is removed
 setblock -551 119 1977 air
-
-# Quick fix, please remove after snapshot is taken
-execute as @e[type=warden] run data modify entity @s Silent set value 0
