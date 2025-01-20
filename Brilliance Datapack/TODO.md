@@ -1,4 +1,9 @@
 # Other TODO:
+- Legendaries currently cannot be bought or could be available to be purchased, should this change:
+  - Reset scores in player_per_run & dungeon_per_run
+  - Create scores in scoreboard/setup/cards
+  - Agronet logs cards available don't exist for legendaries
+  - cards/available don't exist for legendaries
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
   - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
 - Disentangle weather/daytime cycle configs
