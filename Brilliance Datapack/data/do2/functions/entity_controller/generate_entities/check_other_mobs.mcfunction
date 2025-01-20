@@ -1,6 +1,9 @@
 scoreboard objectives add do2.tests.amountOfMobsExists dummy
 
 
+# TangoCam (just in case)
+execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:external/carpet_mod/summon_tangocam
+
 # Death Room Ravager
 scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
 execute as @e[type=ravager,tag=L0DEATHROOM] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
