@@ -39,6 +39,11 @@ execute store result score @s do2.run.cards.deck.DUR run data get block -565 114
 execute store result score @s do2.run.cards.deck.EES run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:126}}].Count
 execute store result score @s do2.run.cards.deck.STU run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:101}}].Count
 execute store result score @s do2.run.cards.deck.DUL run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:141}}].Count
+execute store result score @s do2.run.cards.deck.AVA run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:139}}].Count
+execute store result score @s do2.run.cards.deck.BEM run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:140}}].Count
+execute store result score @s do2.run.cards.deck.BOS run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:136}}].Count
+execute store result score @s do2.run.cards.deck.CAC run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:138}}].Count
+execute store result score @s do2.run.cards.deck.GLM run data get block -565 114 1980 Items[{id:"minecraft:iron_nugget",tag:{CustomModelData:137}}].Count
 
 # Adding together card numbers
 # Amount of cards in deck:
@@ -90,8 +95,11 @@ scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.dec
 scoreboard players operation @s do2.run.cards.deck.rares += @s do2.run.cards.deck.BRI
 
 # - Legendaries -
-# TODO: add legendaries here
-# do2.run.cards.deck.legendaries
+scoreboard players operation @s do2.run.cards.deck.legendaries += @s do2.run.cards.deck.AVA
+scoreboard players operation @s do2.run.cards.deck.legendaries += @s do2.run.cards.deck.BEM
+scoreboard players operation @s do2.run.cards.deck.legendaries += @s do2.run.cards.deck.BOS
+scoreboard players operation @s do2.run.cards.deck.legendaries += @s do2.run.cards.deck.CAC
+scoreboard players operation @s do2.run.cards.deck.legendaries += @s do2.run.cards.deck.GLM
 
 # - Ethereal -
 scoreboard players operation @s do2.run.cards.deck.ethereals += @s do2.run.cards.deck.MOC
@@ -108,22 +116,25 @@ scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.card
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.SPR
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.SIR
 scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.FBS
+scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.BEM
+scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.BOS
+scoreboard players operation @s do2.run.cards.deck.permanents += @s do2.run.cards.deck.GLM
 
 # - Total Cards: -
 scoreboard players operation @s do2.run.cards.deck.total += @s do2.run.cards.deck.ethereals
 scoreboard players operation @s do2.run.cards.deck.total += @s do2.run.cards.deck.commons
-# MOC is inside both "ethereals" and "commons" so it gets added twice, so remove it once
-scoreboard players operation @s do2.run.cards.deck.total -= @s do2.run.cards.deck.MOC
 scoreboard players operation @s do2.run.cards.deck.total += @s do2.run.cards.deck.uncommons
 scoreboard players operation @s do2.run.cards.deck.total += @s do2.run.cards.deck.rares
 scoreboard players operation @s do2.run.cards.deck.total += @s do2.run.cards.deck.legendaries
+
+# MOC is inside both "ethereals" and "commons" so it gets added twice, so remove it once
+scoreboard players operation @s do2.run.cards.deck.total -= @s do2.run.cards.deck.MOC
 
 
 
 # ---------------------------------------------------------------
 # - Have $dungeon store a copy of these scores for stats screen -
 # ---------------------------------------------------------------
-
 
 scoreboard players operation $dungeon do2.run.cards.deck.P2W = @s do2.run.cards.deck.P2W
 scoreboard players operation $dungeon do2.run.cards.deck.P2W = @s do2.run.cards.deck.P2W
@@ -161,7 +172,11 @@ scoreboard players operation $dungeon do2.run.cards.deck.DUR = @s do2.run.cards.
 scoreboard players operation $dungeon do2.run.cards.deck.EES = @s do2.run.cards.deck.EES
 scoreboard players operation $dungeon do2.run.cards.deck.STU = @s do2.run.cards.deck.STU
 scoreboard players operation $dungeon do2.run.cards.deck.DUL = @s do2.run.cards.deck.DUL
-# Todo: add legendaries
+scoreboard players operation $dungeon do2.run.cards.deck.AVA = @s do2.run.cards.deck.AVA
+scoreboard players operation $dungeon do2.run.cards.deck.BEM = @s do2.run.cards.deck.BEM
+scoreboard players operation $dungeon do2.run.cards.deck.BOS = @s do2.run.cards.deck.BOS
+scoreboard players operation $dungeon do2.run.cards.deck.CAC = @s do2.run.cards.deck.CAC
+scoreboard players operation $dungeon do2.run.cards.deck.GLM = @s do2.run.cards.deck.GLM
 scoreboard players operation $dungeon do2.run.cards.deck.commons = @s do2.run.cards.deck.commons
 scoreboard players operation $dungeon do2.run.cards.deck.uncommons = @s do2.run.cards.deck.uncommons
 scoreboard players operation $dungeon do2.run.cards.deck.rares = @s do2.run.cards.deck.rares

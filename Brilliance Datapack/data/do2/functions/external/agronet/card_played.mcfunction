@@ -34,3 +34,8 @@ execute if score $dungeon do2.agronet.card_played matches 32 run card-played tac
 execute if score $dungeon do2.agronet.card_played matches 33 run card-played pork-chop-power
 execute if score $dungeon do2.agronet.card_played matches 34 run card-played stumble
 execute if score $dungeon do2.agronet.card_played matches 35 run card-played dungeon-lackey
+execute if score $dungeon do2.agronet.card_played matches 36 run card-played avalanche
+execute if score $dungeon do2.agronet.card_played matches 37 run card-played beast-master
+execute if score $dungeon do2.agronet.card_played matches 38 run card-played boots-of-swiftness
+execute if score $dungeon do2.agronet.card_played matches 39 run card-played cash-cow
+execute if score $dungeon do2.agronet.card_played matches 40 run card-played glorious-moment

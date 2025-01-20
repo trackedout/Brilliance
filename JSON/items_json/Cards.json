@@ -646,5 +646,94 @@
       "CustomModelData": 141,
       "tracked": "0b"
     }
+  },
+  "avalanche": {
+    "shorthand": "AVA",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#8932b8",
+        "OriginalName": "'{\"color\":\"#8932B8\",\"text\":\"✧ Avalanche ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#8932B8\",\"text\":\"✧ Avalanche ✧\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#8932B8\",\"text\":\"✧ Avalanche ✧\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 139,
+      "tracked": "0b"
+    }
+  },
+  "beast_master": {
+    "shorthand": "BEM",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#8932b8",
+        "OriginalName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Beast Master ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Beast Master ≡\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#8932B8\",\"text\":\"≡ Beast Master ≡\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 140,
+      "tracked": "0b"
+    }
+  },
+  "boots_of_swiftness": {
+    "shorthand": "BOS",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#8932b8",
+        "OriginalName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Boots of Swiftness ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Boots of Swiftness ≡\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#8932B8\",\"text\":\"≡ Boots of Swiftness ≡\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 136,
+      "tracked": "0b"
+    }
+  },
+  "cash_cow": {
+    "shorthand": "CAC",
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "NameFormat": {
+        "color": "#8932b8",
+        "OriginalName": "'{\"color\":\"#8932B8\",\"text\":\"✧ Cash Cow ✧\"}'",
+        "ModifiedName": "'{\"color\":\"#8932B8\",\"text\":\"✧ Cash Cow ✧\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#8932B8\",\"text\":\"✧ Cash Cow ✧\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 138,
+      "tracked": "0b"
+    }
+  },
+  "glorious_moment": {
+    "shorthand": "GLM",
+    "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
+    "tag": {
+      "NameFormat": {
+        "color": "#8932b8",
+        "OriginalName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Glorious Moment ≡\"}'",
+        "ModifiedName": "'{\"color\":\"#8932B8\",\"text\":\"≡ Glorious Moment ≡\"}'"
+      },
+      "display": {
+        "Name": "'{\"color\":\"#8932B8\",\"text\":\"≡ Glorious Moment ≡\"}'"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 137,
+      "tracked": "0b"
+    }
   }
 }
