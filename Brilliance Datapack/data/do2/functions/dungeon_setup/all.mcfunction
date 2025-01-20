@@ -11,24 +11,24 @@ execute if score $dungeon do2.config.fr.resetComposters matches 1 run function d
 execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618 -47 1988 cake[bites=0]
 
 # Ensure zone lines:
-execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_1_zones
-execute if score $dungeon do2.config.ec.level1Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_1_zones
-execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_2_zones
-execute if score $dungeon do2.config.ec.level2Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_2_zones
-execute if score $dungeon do2.config.ec.level4Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_4_zones
-execute if score $dungeon do2.config.ec.level4Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_4_zones
+execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:dungeon_setup/legacy/summon/no_zones/remove_level_1_zones
+execute if score $dungeon do2.config.ec.level1Zones matches 1 run function do2:dungeon_setup/legacy/summon/with_zones/summon_level_1_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:dungeon_setup/legacy/summon/no_zones/remove_level_2_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 1 run function do2:dungeon_setup/legacy/summon/with_zones/summon_level_2_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 0 run function do2:dungeon_setup/legacy/summon/no_zones/remove_level_4_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 1 run function do2:dungeon_setup/legacy/summon/with_zones/summon_level_4_zones
 
 # - Start Log -
 function do2:entity_controller/generate_entities/markers/test_for_markers
 execute if score $dungeon do2.config.ec.controlSummons matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Testing for required entities. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"text":"§rIncludes:\n - Teleport Markers\n - Ravagers\n - Wardens\n - §oOne Eyed Willie§r\n - §oDavey Bones§r\n - §oEndermites§r\n - §oEvokers§r"}]}},{"text":")"}]
-execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/test_for_ravagers
-execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/test_for_wardens
-execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/test_for_other_killers
+execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/legacy/test_for_ravagers
+execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/legacy/test_for_wardens
+execute if score $dungeon do2.config.ec.controlSummons matches 0 run function do2:dungeon_setup/legacy/test_for_other_killers
 # - End Log -
 
 execute if score $dungeon do2.config.ec.controlSummons matches 1 run function do2:entity_controller/generate_entities
-execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/summon/others 3t append
-execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/teleport_killers/all 3t append
+execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/legacy/summon/others 3t append
+execute if score $dungeon do2.config.ec.controlSummons matches 0 run schedule function do2:dungeon_setup/legacy/teleport_killers/all 3t append
 function do2:advancements/egg_hunt/spawn_egg_hitboxes
 function do2:scoreboard/config/balance_changes/actions
 function do2:dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks

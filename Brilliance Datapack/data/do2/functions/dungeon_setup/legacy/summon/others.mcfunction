@@ -9,4 +9,4 @@ kill @e[type=minecraft:interaction,tag=dropper_blocker]
 kill @e[type=minecraft:interaction,tag=ceiling_blocker]
 kill @e[type=minecraft:interaction,tag=trapdoor_blocker]
 
-schedule function do2:dungeon_setup/summon/summon_others 3t append
+schedule function do2:dungeon_setup/legacy/summon/summon_others 3t append

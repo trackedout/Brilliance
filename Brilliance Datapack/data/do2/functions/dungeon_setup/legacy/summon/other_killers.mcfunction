@@ -8,4 +8,4 @@ kill @e[type=minecraft:stray]
 execute as @e[type=minecraft:evoker] at @s run kill @e[type=minecart,distance=..2]
 kill @e[type=minecraft:evoker]
 
-schedule function do2:dungeon_setup/summon/summon_other_killers 1t append
+schedule function do2:dungeon_setup/legacy/summon/summon_other_killers 1t append
