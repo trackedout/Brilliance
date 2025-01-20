@@ -6,10 +6,17 @@ execute as @a[scores={do2.logs.dungeon_setup=1..}] run tellraw @s ["",{"text":"[
 scoreboard players set $dungeon do2.utility.dungeonRepair 0
 
 # - SETUP -
-
 function do2:dungeon_setup/refill/all
 execute if score $dungeon do2.config.fr.resetComposters matches 1 run function do2:dungeon_setup/reset_composters
 execute if score $dungeon do2.config.fr.cakeGauntlet matches 1 run setblock -618 -47 1988 cake[bites=0]
+
+# Ensure zone lines:
+execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_1_zones
+execute if score $dungeon do2.config.ec.level1Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_1_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_2_zones
+execute if score $dungeon do2.config.ec.level2Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_2_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 0 run function do2:dungeon_setup/summon/no_zones/remove_level_4_zones
+execute if score $dungeon do2.config.ec.level4Zones matches 1 run function do2:dungeon_setup/summon/with_zones/summon_level_4_zones
 
 # - Start Log -
 function do2:entity_controller/generate_entities/markers/test_for_markers
