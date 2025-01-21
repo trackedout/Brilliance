@@ -73,3 +73,6 @@ execute if score $dungeon do2.utility.onInstance matches 1 run setblock -564 116
 execute if score $dungeon do2.utility.onInstance matches 0 run setblock -562 116 1982 air
 execute if score $dungeon do2.utility.onInstance matches 0 run setblock -562 116 1983 air
 execute if score $dungeon do2.utility.onInstance matches 0 run setblock -564 116 1983 air
+
+# Remove excess if we're on an instance
+function do2:external/tracked_out/remove_excess_datapack_features

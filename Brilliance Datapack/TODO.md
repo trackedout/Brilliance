@@ -1,4 +1,6 @@
 # Other TODO:
+- disable armor stand datapack and remove their scoreboards so their /triggers don't show up.
+- config for deck limit.
 - Legendaries currently cannot be bought or could be available to be purchased, should this change:
   - Reset scores in player_per_run & dungeon_per_run
   - Create scores in scoreboard/setup/cards
