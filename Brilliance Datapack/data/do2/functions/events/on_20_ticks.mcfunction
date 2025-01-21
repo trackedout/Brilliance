@@ -34,8 +34,8 @@ function do2:utility/per_level_actions
 execute as @a[advancements={do2:visible/credits/credits_root=false}] run function do2:advancements/order_tabs
 
 # Update GUI
-function do2:gui/collect_values/update_scoreboard
-function do2:gui/update_has_map_tag/invoke_update
+function do2:vanilla_compatability/gui/collect_values/update_scoreboard
+function do2:vanilla_compatability/gui/update_has_map_tag/invoke_update
 
 # Attempt every 5 second updates:
 scoreboard players set $dungeon do2.utility.checkTick 5

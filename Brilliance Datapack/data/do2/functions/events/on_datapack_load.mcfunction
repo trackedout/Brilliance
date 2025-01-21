@@ -45,4 +45,4 @@ schedule function do2:external/tracked_out/source_flag_setup 2t append
 
 
 # Setup GUI storage
-function do2:gui/init_storage
+function do2:vanilla_compatability/gui/init_storage

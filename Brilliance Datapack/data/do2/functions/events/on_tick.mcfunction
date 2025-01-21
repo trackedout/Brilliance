@@ -28,4 +28,4 @@ execute if score $dungeon do2.run.active matches 2 run function do2:utility/dung
 execute as @e[type=item,tag=!tracked] run function do2:utility/as_item_entity
 
 # Display GUI
-function do2:gui/display
+function do2:vanilla_compatability/gui/display

@@ -75,4 +75,7 @@ execute if score $dungeon do2.utility.onInstance matches 0 run setblock -562 116
 execute if score $dungeon do2.utility.onInstance matches 0 run setblock -564 116 1983 air
 
 # Remove excess if we're on an instance
-function do2:external/tracked_out/remove_excess_datapack_features
+execute if score $dungeon do2.utility.onInstance matches 1 run function do2:external/tracked_out/remove_excess_datapack_features
+
+# Make clickable text cleaner:
+execute if score $dungeon do2.utility.onInstance matches 1 run gamerule sendCommandFeedback false
