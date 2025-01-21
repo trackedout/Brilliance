@@ -50,3 +50,6 @@ function do2:scoreboard/config/config_lock
 
 # Make sure that the redstone block keeping the iron door open is removed
 setblock -551 119 1977 air
+
+# Make sure all players are able to have map enabled
+execute as @e[team=do2.players] run function do2:vanilla_compatability/gui/interface/detect

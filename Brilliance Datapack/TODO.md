@@ -1,4 +1,5 @@
 # Other TODO:
+- Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - finish the custom images for the GUI buttons. Just 0.5 left to be done. (waiting on vote)
 - config for deck limit.
 - Legendaries currently cannot be bought or could be available to be purchased, should this change:
@@ -9,7 +10,6 @@
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
   - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
 - Disentangle weather/daytime cycle configs
-- Set gui map tag based on Tango's existence, prompt for scale
 - Config to replace 'retired' hermits.
   - Need new artifacts
 - On game end, CHECK stat tracking containers. Notify if ever full
@@ -17,10 +17,6 @@
   - Check berry/extra item disposal in ravager gauntlet
 - Add FR config to completely reset hermit's impact to the dungeon.
 - Add INTERFACE for config of number of shop cards always available
-- Add pre-emptive legendary stat tracking
-- Update vanilla compatability configs,
-  - GUI needs to auto apply
-  - Signs need to allow disable/enable & descriptions
 - Add is_waxed:1b to all non-clickable signs
   - ```
     * -575 110 2010

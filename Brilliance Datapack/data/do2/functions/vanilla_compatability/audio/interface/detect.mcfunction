@@ -3,6 +3,9 @@ function do2:external/voice_chat/check
 # If they have VoiceChat mod, do nothing.
 execute if score @s do2.utility.voiceChat matches 1 run return 0
 
+# If they already have the tag, do nothing.
+execute if entity @s[tag=do2.tags.audio.enabled] run return 0
+
 # Else, apply the compatability feature and give them option to disable.
 tag @s add do2.tags.audio.enabled
 playsound minecraft:ui.toast.in master @s ~ ~ ~ 1 0.75
