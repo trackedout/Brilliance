@@ -14,12 +14,6 @@ execute if score $dungeon do2.config.ec.controlSummons matches 0 if score $dunge
 execute if score $dungeon do2.config.ec.controlSummons matches 0 if score $dungeon do2.run.active matches 0 run function do2:dungeon_setup/legacy/test_for_other_killers
 execute if score $dungeon do2.run.active matches 0 run function do2:entity_controller/generate_entities/markers/test_for_markers
 
-# Count players on the server.
-scoreboard players set $dungeon do2.utility.playerCount 0
-execute as @a[tag=!do2.fakePlayer] run scoreboard players add $dungeon do2.utility.playerCount 1
-execute if score $dungeon do2.utility.playerCount matches 1.. run tag TangoCam add do2.afterPlayerJoin
-execute if score $dungeon do2.utility.playerCount matches 1.. run tag tangocam add do2.afterPlayerJoin
-
 # Enable/Disable certain triggers
 execute as @a run function do2:scoreboard/triggers/on_player_join
 
