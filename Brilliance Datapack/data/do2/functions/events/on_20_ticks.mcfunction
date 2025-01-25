@@ -5,8 +5,8 @@ execute as @a[scores={do2.logs.spam=2..}] run tellraw @s ["",{"text":"§f[§9B§
 # - End Log -
 
 # Kill TangoCam if no player's are on the server.
-execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=TangoCam] run kill TangoCam
-execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=tangocam] run kill tangocam
+execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=TangoCam,tag=do2.afterPlayerJoin] run kill TangoCam
+execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=tangocam,tag=do2.afterPlayerJoin] run kill tangocam
 
 # Only do dungeon repair IF: an actual player is loading the dungeon.
 execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[tag=!do2.fakePlayer,distance=..300] run function do2:dungeon_setup/all
