@@ -1,6 +1,9 @@
 # Other TODO:
+- Use 
+- Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
+- duplicate daveybones?
+- fix eat glowberry advancement to require use of bonemeal. (rename it so it resets.)
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
-- finish the custom images for the GUI buttons. Just 0.5 left to be done. (waiting on vote)
 - config for deck limit.
 - Legendaries currently cannot be bought or could be available to be purchased, should this change:
   - Reset scores in player_per_run & dungeon_per_run
@@ -76,6 +79,8 @@
 - craft_1_legendary
     - Don't have data tracking for crafting legendaries yet.
 
-
+## Legendary automation reminders.
+ - Killing tropical fish and glow squid's loot drop is changed. Possibly revert?
+ - Disable all recipes, & gamerule dolimitedCrafting true
 
 
