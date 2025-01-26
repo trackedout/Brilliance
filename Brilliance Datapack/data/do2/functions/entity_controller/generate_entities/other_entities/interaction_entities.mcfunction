@@ -14,8 +14,6 @@ kill @e[type=minecraft:interaction,tag=parrot_blocker]
 kill @e[type=minecraft:interaction,tag=dropper_blocker]
 kill @e[type=minecraft:interaction,tag=ceiling_blocker]
 kill @e[type=minecraft:interaction,tag=trapdoor_blocker]
-# Todo: remove this function after we save builder's with 0 legacy entities
-function do2:entity_controller/generate_entities/other_entities/kill_legacy_interaction_entities
 
 # Prevent blocks placed on difficulty lamps
 summon minecraft:interaction -559 113.95 1987.50 {width: 5.1f, height: 1.1f, Tags:["lamp_blocker"]}
