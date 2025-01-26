@@ -38,6 +38,7 @@ scoreboard objectives add do2.utility.arrayIndex dummy
 scoreboard objectives add do2.utility.l4ShriekerScreamed dummy "Used to check WHICH l4 shrieker is true"
 scoreboard objectives add do2.utility.mobSwitchCounter dummy "Used to count mobs needed for an active mob switch"
 
+
 # - Entity Controller - (entity_controller)
 scoreboard objectives add do2.utility.ec.mobCountCounterTest dummy "Used to count the how many mobs are in a barrel"
 scoreboard objectives add do2.utility.ec.mobCountCounterTotal dummy "Used to count the how many mobs are in a barrel"
@@ -62,6 +63,8 @@ scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to giv
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
 
-
 # - Voice Chat utility -
 scoreboard objectives add do2.utility.voiceChat dummy "Voice Chat installed"
+
+# Note: for tracked out instances only:
+scoreboard objectives add do2.utility.runType dummy "Used tell what kind of run this dungeon is running."
