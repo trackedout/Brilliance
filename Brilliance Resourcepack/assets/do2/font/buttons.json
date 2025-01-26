@@ -231,6 +231,50 @@
 			[
 				"\uE021"
 			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/scale_x0.5.png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE022"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/scale_x1png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE023"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/scale_x2png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE024"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "do2:font/fake_buttons/scale_x4png",
+			"ascent": 9,
+			"height": 10,
+			"space": 16,
+			"chars":
+			[
+				"\uE025"
+			]
 		}
 	]
 }
