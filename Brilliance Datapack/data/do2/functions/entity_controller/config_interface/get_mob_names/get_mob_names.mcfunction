@@ -8,3 +8,6 @@ function do2:entity_controller/config_interface/get_mob_names/l2_other
 function do2:entity_controller/config_interface/get_mob_names/l3
 function do2:entity_controller/config_interface/get_mob_names/l4
 function do2:entity_controller/config_interface/get_mob_names/backrooms
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/get_mob_names

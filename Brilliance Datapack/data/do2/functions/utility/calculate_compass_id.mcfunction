@@ -98,5 +98,5 @@ execute if score $dungeon do2.run.difficulty matches 5 if entity @s[nbt={Invento
 execute if score $dungeon do2.run.difficulty matches 5 if entity @s[nbt={Inventory:[{id:"minecraft:compass",tag:{LodestonePos: {X: -590, Y:-53, Z: 1866}}}]}] run scoreboard players set $dungeon do2.run.compass_lodestone_id 79
 execute if score $dungeon do2.run.difficulty matches 5 if entity @s[nbt={Inventory:[{id:"minecraft:compass",tag:{LodestonePos: {X: -570, Y:-53, Z: 1855}}}]}] run scoreboard players set $dungeon do2.run.compass_lodestone_id 80
 
-
-
+# Agronet event
+function do2:external/agronet/compass_pickup

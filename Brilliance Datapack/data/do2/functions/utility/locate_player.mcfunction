@@ -92,3 +92,6 @@ function do2:utility/array_manipulation/get_from_index
 data modify storage do2:utility playerOldLocation set from storage do2:utility array[0]
 
 execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Player has moved from "},{"storage": "do2:utility","nbt": "playerOldLocation","color":"red"},{"text":"§r --> "},{"storage": "do2:utility","nbt": "playerNewLocation","color":"green"}]
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/locate_player

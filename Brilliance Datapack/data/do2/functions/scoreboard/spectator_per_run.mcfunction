@@ -127,3 +127,7 @@ scoreboard players set @s do2.run.cards.bought.TAA 0
 scoreboard players set @s do2.run.cards.bought.PCP 0
 scoreboard players set @s do2.run.cards.bought.STU 0
 scoreboard players set @s do2.run.cards.bought.DUL 0
+
+
+# Agronet event
+function do2:external/agronet/logs/datapack_setup/spectator_per_run

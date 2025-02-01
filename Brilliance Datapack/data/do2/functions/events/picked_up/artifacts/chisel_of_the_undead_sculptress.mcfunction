@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.CUS 1
 scoreboard players set $dungeon do2.run.foundArtifact 12
 scoreboard players add $dungeon do2.artifacts.CUS 1
 scoreboard players set $dungeon do2.run.artifactValue 19
+
+# Agronet event
+function do2:external/agronet/logs/pickups/chisel_of_the_undead_sculptress

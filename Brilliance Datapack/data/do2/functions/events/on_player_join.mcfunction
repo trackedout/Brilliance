@@ -33,3 +33,6 @@ execute if score $dungeon do2.utility.onInstance matches 1 unless score $dungeon
 
 # Check if player needs AUDIO compatability
 function do2:vanilla_compatability/audio/interface/detect
+
+# Agronet event
+function do2:external/agronet/logs/spam/on_player_join

@@ -77,3 +77,6 @@ scoreboard objectives remove do2.tests.oldMobsExisting
 
 # Ensure
 function do2:entity_controller/ensure_1_ravager_at_start
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/generate_entities

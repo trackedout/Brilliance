@@ -19,3 +19,6 @@ tag @s remove do2.running
 
 # increase the amount of player deaths
 scoreboard players add $dungeon do2.run.player_deaths 1
+
+# Agronet event
+function do2:external/agronet/logs/spam/on_player_death

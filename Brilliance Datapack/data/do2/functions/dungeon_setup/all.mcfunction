@@ -52,3 +52,6 @@ execute unless score $dungeon do2.config.maxClankTreasure matches 1 run setblock
 
 # Reset Current Tick
 scoreboard players set $dungeon do2.utility.currentTick 0
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/all

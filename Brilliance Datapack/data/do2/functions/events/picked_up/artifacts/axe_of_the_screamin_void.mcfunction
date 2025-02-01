@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.ASV 1
 scoreboard players set $dungeon do2.run.foundArtifact 43
 scoreboard players add $dungeon do2.artifacts.ASV 1
 scoreboard players set $dungeon do2.run.artifactValue 7
+
+# Agronet event
+function do2:external/agronet/logs/pickups/axe_of_the_screamin_void

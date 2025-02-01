@@ -171,3 +171,6 @@ execute as @e[type=minecraft:hopper_minecart,tag=LODEID77] run tag @s add LODEST
 execute as @e[type=minecraft:hopper_minecart,tag=LODEID78] run tag @s add LODESTONE_HOPPER
 execute as @e[type=minecraft:hopper_minecart,tag=LODEID79] run tag @s add LODESTONE_HOPPER
 execute as @e[type=minecraft:hopper_minecart,tag=LODEID80] run tag @s add LODESTONE_HOPPER
+
+# Agronet event
+function do2:external/agronet/logs/dev/tag_minecarts

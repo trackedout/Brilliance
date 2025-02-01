@@ -25,3 +25,6 @@ function do2:entity_controller/generate_entities/markers/individual/l2_ghost
 
 # Turn invisible *all* markers.
 function do2:entity_controller/config_interface/marker_visibility/turn_invisible/all
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/generate_entities_markers

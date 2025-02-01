@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.BED 1
 scoreboard players set $dungeon do2.run.foundArtifact 20
 scoreboard players add $dungeon do2.artifacts.BED 1
 scoreboard players set $dungeon do2.run.artifactValue 24
+
+# Agronet event
+function do2:external/agronet/logs/pickups/bionic_eye_of_doom

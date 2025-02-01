@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.SPS 1
 scoreboard players set $dungeon do2.run.foundArtifact 44
 scoreboard players add $dungeon do2.artifacts.SPS 1
 scoreboard players set $dungeon do2.run.artifactValue 48
+
+# Agronet event
+function do2:external/agronet/logs/pickups/staff_of_the_pink_shepherd

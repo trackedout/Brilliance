@@ -36,3 +36,7 @@ tag @s remove do2.spectating
 tag @s remove do2.ghost
 
 scoreboard players set @s do2.run.has_died 0
+
+
+# Agronet event
+function do2:external/agronet/logs/datapack_setup/reset_player

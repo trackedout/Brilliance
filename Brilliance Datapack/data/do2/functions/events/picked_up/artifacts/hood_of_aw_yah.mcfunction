@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.HAY 1
 scoreboard players set $dungeon do2.run.foundArtifact 42
 scoreboard players add $dungeon do2.artifacts.HAY 1
 scoreboard players set $dungeon do2.run.artifactValue 6
+
+# Agronet event
+function do2:external/agronet/logs/pickups/hood_of_aw_yah

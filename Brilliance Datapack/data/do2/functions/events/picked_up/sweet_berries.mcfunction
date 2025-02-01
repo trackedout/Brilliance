@@ -8,6 +8,8 @@ execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=berriesPickUpLogTar
 tag @s remove berriesPickUpLogTarget
 # - End Log -
 
+# Agronet event
+function do2:external/agronet/logs/pickups/sweet_berries
+
 #cycle giving berries
 function do2:events/picked_up/cycle/sweet_berries
-

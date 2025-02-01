@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.THL 1
 scoreboard players set $dungeon do2.run.foundArtifact 29
 scoreboard players add $dungeon do2.artifacts.THL 1
 scoreboard players set $dungeon do2.run.artifactValue 12
+
+# Agronet event
+function do2:external/agronet/logs/pickups/tome_of_the_hills

@@ -51,3 +51,7 @@ clone -463 114 1980 -463 114 1980 -497 106 1975 replace
 execute positioned -497 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_13
 clone -463 114 1981 -463 114 1981 -496 106 1975 replace
 execute positioned -496 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_14
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/write_to_crown_shop

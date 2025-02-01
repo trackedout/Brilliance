@@ -8,3 +8,6 @@ function do2:entity_controller/config_interface/get_mob_count/l2_other
 function do2:entity_controller/config_interface/get_mob_count/l3
 function do2:entity_controller/config_interface/get_mob_count/l4
 function do2:entity_controller/config_interface/get_mob_count/backrooms
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/count_mobs

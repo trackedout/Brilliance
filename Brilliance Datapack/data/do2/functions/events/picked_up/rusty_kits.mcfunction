@@ -8,6 +8,8 @@ execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=kitPickUpLogTarget]
 tag @s remove kitPickUpLogTarget
 # - End Log -
 
+# Agronet event
+function do2:external/agronet/logs/pickups/rusty_kits
+
 #cycle giving rusty_kits
 function do2:events/picked_up/cycle/rusty_kits
-

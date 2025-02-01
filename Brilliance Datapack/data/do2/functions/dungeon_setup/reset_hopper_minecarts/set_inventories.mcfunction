@@ -86,3 +86,6 @@ execute as @e[type=hopper_minecart,tag=LODEID77] run data modify entity @s Items
 execute as @e[type=hopper_minecart,tag=LODEID78] run data modify entity @s Items insert 1 value {Slot: 0b, Count:6b, id: "minecraft:compass", tag: {LodestonePos: {Z: 1877, X: -637, Y:-53}, LodestoneTracked: 1b, LodestoneDimension: "minecraft:overworld", display: {Name: '{"color":"#3AB3DA","text":"❄☠ Level 4 Artifact ☠❄"}'},CustomModelData:4}}
 execute as @e[type=hopper_minecart,tag=LODEID79] run data modify entity @s Items insert 1 value {Slot: 0b, Count:6b, id: "minecraft:compass", tag: {LodestonePos: {Z: 1866, X: -590, Y:-53}, LodestoneTracked: 1b, LodestoneDimension: "minecraft:overworld", display: {Name: '{"color":"#3AB3DA","text":"❄☠ Level 4 Artifact ☠❄"}'},CustomModelData:4}}
 execute as @e[type=hopper_minecart,tag=LODEID80] run data modify entity @s Items insert 1 value {Slot: 0b, Count:6b, id: "minecraft:compass", tag: {LodestonePos: {Z: 1855, X: -570, Y:-53}, LodestoneTracked: 1b, LodestoneDimension: "minecraft:overworld", display: {Name: '{"color":"#3AB3DA","text":"❄☠ Level 4 Artifact ☠❄"}'},CustomModelData:4}}
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/reset_hopper_minecarts/set_inventories

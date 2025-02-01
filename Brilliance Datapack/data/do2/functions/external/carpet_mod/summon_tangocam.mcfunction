@@ -20,3 +20,6 @@ execute if entity @p[name=tangocam] run give tangocam minecraft:filled_map{map: 
 execute if entity @p[name=tangocam] run tag tangocam add do2.spectating
 execute if entity @p[name=tangocam] run tag tangocam add do2.fakePlayer
 execute if entity @p[name=tangocam] run tag tangocam add do2.afterPlayerJoin
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/summon/tangocam

@@ -1,5 +1,3 @@
-
-
 # TangoCam (just in case)
 execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:external/carpet_mod/summon_tangocam
 

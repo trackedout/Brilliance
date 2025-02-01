@@ -53,3 +53,6 @@ setblock -551 119 1977 air
 
 # Make sure all players are able to have map enabled
 execute as @e[team=do2.players] run function do2:vanilla_compatability/gui/interface/detect
+
+# Agronet event
+function do2:external/agronet/logs/gamestate/on_game_load

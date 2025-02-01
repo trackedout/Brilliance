@@ -16,3 +16,6 @@ kill @e[type=minecart,distance=..1]
 kill @e[type=evoker,distance=..1]
 summon minecraft:minecart ~ ~ ~ {Invulnerable:1b, Passengers:[{PersistenceRequired:1b, Tags: ["evoker_spot"], id: "minecraft:evoker", Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}]}
 data modify entity @e[type=evoker,distance=..1,limit=1] Tags append from storage do2:mobs evokerTags
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/test_for_minecart_evoker
