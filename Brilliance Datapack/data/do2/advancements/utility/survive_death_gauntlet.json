@@ -1,0 +1,34 @@
+{
+	"criteria": {
+		"reach_top_tnt_depth_charge": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+                    "team": "do2.players",
+					"location": {
+						"position": {
+							"x": {
+								"min": -621,
+								"max": -614
+							},
+							"y": {
+								"min": -49,
+								"max": -44
+							},
+							"z": {
+								"min": 1981,
+								"max": 1990
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	
+	"rewards": {
+		"function": "do2:events/dungeon/on_death_gauntlet_survival"
+	},
+	"parent": "do2:utility/root"
+	
+}

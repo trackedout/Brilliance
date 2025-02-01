@@ -454,6 +454,7 @@ The name immediately after the `do2.` will generally be describing it's category
 |  ✅   |   🟤   | do2.cards.played.TRH                 |  totals  | How many times the card treasure hunter has been played in total.                                |
 |  ✅   |   🟤   | do2.cards.played.TRL                 |  totals  | How many times the card tread lightly has been played in total.                                  |
 |  ✅   |   🟤   | do2.depth_charge_success             |  totals  | The total amount of Depth Charge Successes.                                                      |
+|  ✅   |   🟤   | do2.gauntlet_survival                |  totals  | The total amount of Death Gauntlet Survivals.                                                    |
 |  ✅   |   🟢   | do2.eggs.bdubs                       |  totals  | Whether the player has found Bdub's egg.                                                         |
 |  ✅   |   🟢   | do2.eggs.beef                        |  totals  | Whether the player has found Beef's egg.                                                         |
 |  ✅   |   🟢   | do2.eggs.cleo                        |  totals  | Whether the player has found Cleo's egg.                                                         |

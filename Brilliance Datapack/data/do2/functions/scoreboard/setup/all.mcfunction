@@ -43,6 +43,8 @@ scoreboard objectives add do2.run.aritfact_floor dummy "The floor artifact was s
 scoreboard objectives add do2.run.artifact_lodestone_id dummy "The id of the lodestone the player submitted to."
 scoreboard objectives add do2.run.compass_lodestone_id dummy "The id of the lodestone the player needs to reach."
 scoreboard objectives add do2.run.death_dungeon_location dummy "The location of where the player 'died' at"
+scoreboard objectives add do2.gauntlet_survival dummy "Total Death Gauntlet Survivals"
+scoreboard objectives add do2.run.gauntlet_survival dummy "Whether a Death Gauntlet Survival was this run"
 
 # - Agronet's utility -
 scoreboard objectives add do2.agronet.card_available dummy "The card ID of the card available"

@@ -20,6 +20,10 @@ scoreboard players set @s do2.run.aritfact_floor 0
 scoreboard players set @s do2.run.artifact_lodestone_id 0
 scoreboard players set @s do2.run.compass_lodestone_id 0
 scoreboard players set @s do2.run.death_dungeon_location 0
+scoreboard players set @s do2.run.gauntlet_survival 0
+
+# reset death gauntlet utility advancement
+advancement revoke @s only do2:utility/survive_death_gauntlet
 
 # Ensure Gamemode
 execute if entity @s[gamemode=adventure] run scoreboard players set @s do2.utility.oldGamemode 0
