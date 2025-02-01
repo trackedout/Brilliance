@@ -42,3 +42,9 @@ function do2:entity_controller/config_interface/run_per_tick
 
 # Statistics
 function do2:statistics_room/on_tick
+
+# Count players on the server.
+scoreboard players set $dungeon do2.utility.playerCount 0
+execute as @a[tag=!do2.fakePlayer] run scoreboard players add $dungeon do2.utility.playerCount 1
+execute if score $dungeon do2.utility.playerCount matches 1.. run tag TangoCam add do2.afterPlayerJoin
+execute if score $dungeon do2.utility.playerCount matches 1.. run tag tangocam add do2.afterPlayerJoin

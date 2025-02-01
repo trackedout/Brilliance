@@ -46,3 +46,7 @@ execute unless score $dungeon do2.tests.amountOfMobsExists matches 5 run summon 
 
 # Agronet event
 function do2:external/agronet/logs/entity_testing/fun_mobs
+
+# Pirate ship parrot?
+# Sleeping fox?
+# Tango's Horse?

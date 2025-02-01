@@ -1,15 +1,8 @@
-scoreboard objectives add do2.tests.amountOfMobsExists dummy
+# TangoCam (just in case)
+execute unless entity @e[type=minecraft:player,name=tangocam] unless entity @e[type=minecraft:player,name=TangoCam] run function do2:external/carpet_mod/summon_tangocam
 
-
-# Death Room Ravager
-scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
-execute as @e[type=ravager,tag=L0DEATHROOM] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=ravager,tag=L0DEATHROOM]
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:ravager -632 -48 1990 {PersistenceRequired:1b, Tags: ["L0DEATHROOM"], Invulnerable: 1b,  Health: 100f, CustomName: '{"text":"nothing, they survived Decked Out"}', Fire: -1s}
-
-# Agronet event
-function do2:external/agronet/logs/entity_testing/axolotls
-
+# Uncategorized Entities
+function do2:entity_controller/generate_entities/other_entities/gameplay_entities
 
 # Evokers
 function do2:entity_controller/generate_entities/evokers/test_for_all_evokers

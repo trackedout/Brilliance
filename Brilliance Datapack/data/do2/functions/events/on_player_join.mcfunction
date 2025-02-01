@@ -31,8 +31,8 @@ execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~
 # If game hasn't started. Swap the difficulty, to the user's last used difficulty.
 execute if score $dungeon do2.utility.onInstance matches 1 unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
 
-# Give playsound tag according to player Voice Chat status
-schedule function do2:external/voice_chat/set 5t append
+# Check if player needs AUDIO compatability
+function do2:vanilla_compatability/audio/interface/detect
 
 # Agronet event
 function do2:external/agronet/logs/spam/on_player_join

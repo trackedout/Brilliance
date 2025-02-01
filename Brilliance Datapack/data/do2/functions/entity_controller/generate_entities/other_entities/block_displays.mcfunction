@@ -11,8 +11,6 @@ kill @e[type=minecraft:block_display,tag=hiding_piston]
 kill @e[type=minecraft:block_display,tag=pretend_beacon]
 kill @e[type=minecraft:block_display,tag=hiding_beacon]
 kill @e[type=minecraft:block_display,tag=hiding_evoker]
-# Todo: remove this function after we save builder's with 0 legacy block displays
-function do2:entity_controller/generate_entities/other_entities/kill_legacy_block_displays
 
 # Hiding dispensers at the leaderboard
 summon minecraft:block_display -532.0 121.5 1971.0 {Tags:["hiding_dispenser"], transformation: {left_rotation: [0.0f, 0.0f, 0.0f, 1.0f], translation: [0.0f, 0.0f, 0.0f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f], scale: [1.0f, 1.0f, 1.0f]}, brightness: {sky: 3, block: 3}, block_state: {Properties: {waterlogged: "false", type: "bottom"}, Name: "minecraft:polished_blackstone_slab"}, view_range: 1.0f}

@@ -37,7 +37,6 @@ scoreboard objectives add do2.run.cards.bought.SIR dummy "Silent Runner"
 scoreboard objectives add do2.run.cards.bought.FBS dummy "Fuzzy Bunny Slippers"
 scoreboard objectives add do2.run.cards.bought.DEF dummy "Deepfrost"
 scoreboard objectives add do2.run.cards.bought.BRI dummy "Brilliance"
-# TODO: add legendaries here
 scoreboard objectives add do2.run.cards.bought.P2W dummy "Pay to Win"
 scoreboard objectives add do2.run.cards.bought.TAA dummy "Tactical Approach"
 scoreboard objectives add do2.run.cards.bought.PCP dummy "Pork Chop Power"

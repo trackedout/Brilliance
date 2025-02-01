@@ -64,13 +64,13 @@ function do2:scoreboard/setup/logs
 # - Dungeon Config -
 function do2:scoreboard/setup/config
 
-# - systems -
+# - Systems -
 function do2:scoreboard/setup/systems
 
-# - easter eggs -
+# - Easter Eggs -
 function do2:scoreboard/setup/easter_eggs
 
-# - cards -
+# - Cards -
 function do2:scoreboard/setup/cards/cards_available_run
 function do2:scoreboard/setup/cards/cards_available_total
 function do2:scoreboard/setup/cards/cards_bought_run
@@ -80,7 +80,7 @@ function do2:scoreboard/setup/cards/cards_played_total
 function do2:scoreboard/setup/cards/inside_deck
 function do2:scoreboard/setup/cards/cards_price
 
-# - items -
+# - Items -
 function do2:scoreboard/setup/items
 
 # - Artifacts and Artifakes -
