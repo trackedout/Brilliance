@@ -44,6 +44,3 @@ execute unless entity @e[type=minecraft:marker,tag=L0Z2] run scoreboard players 
 execute unless score $dungeon do2.tests.all_markers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Teleport Marker §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_markers_alive"}}]
 execute unless score $dungeon do2.tests.all_markers_alive matches 0 run function do2:dungeon_setup/summon/markers
 scoreboard objectives remove do2.tests.all_markers_alive
-
-# Agronet event
-function do2:external/agronet/logs/dungeon_setup/test_for_markers

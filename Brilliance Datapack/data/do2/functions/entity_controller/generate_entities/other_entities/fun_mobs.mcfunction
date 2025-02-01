@@ -8,29 +8,41 @@ execute as @e[type=sheep,tag=NO_TOUCH] run scoreboard players add $dungeon do2.t
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=sheep,tag=NO_TOUCH]
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:sheep -600 137 1938 {Tags: ["NO_TOUCH","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Leash: {X: -600, Y: 145, Z: 1938}, Health: 8.0f, Color: 6b, Air: 300s, OnGround: 0b, Fire: -1s}
 
+# Agronet event
+function do2:external/agronet/logs/entity_testing/fun_mobs
+
 # Adventure PIG!
 scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
-execute as @e[type=minecraft:pig,tag=Adv_Pig] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=minecraft:pig,tag=Adv_Pig]
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:pig -524 110 2010 {Tags: ["Adv_Pig","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 8.0f, Air: 300s, OnGround: 0b, Fire: -1s, CustomName: '{"text":"Adventure PIG!"}'}
+execute as @e[type=minecraft:pig,tag=Adv_Pig] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 2
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 2 run kill @e[type=minecraft:pig,tag=Adv_Pig]
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 2 run summon minecraft:pig -524 110 2010 {Tags: ["Adv_Pig","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b,  Age: 0, Health: 8.0f, Air: 300s, OnGround: 0b, Fire: -1s, CustomName: '{"text":"Adventure PIG!"}'}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/fun_mobs
 
 # Witch named One-Eyed-Willie
 scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
-execute as @e[type=minecraft:witch,tag=OneEyed] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=minecraft:witch,tag=OneEyed]
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed Willie"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 26.0f, Fire: -1s}
+execute as @e[type=minecraft:witch,tag=OneEyed] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 3
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 3 run kill @e[type=minecraft:witch,tag=OneEyed]
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 3 run summon minecraft:witch -571 14 1962 {Tags: ["OneEyed","do2.manually_spawned"], CustomName: '{"text":"One-Eyed Willie"}', Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 26.0f, Fire: -1s}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/fun_mobs
 
 # Start plate zombie
 scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
-execute as @e[type=minecraft:zombie,tag=Start] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=minecraft:zombie,tag=Start]
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:zombie -622.5 45 1938.5 {Tags: ["Start","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 20.0f, Fire: -1s}
+execute as @e[type=minecraft:zombie,tag=Start] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 4
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 4 run kill @e[type=minecraft:zombie,tag=Start]
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 4 run summon minecraft:zombie -622.5 45 1938.5 {Tags: ["Start","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 20.0f, Fire: -1s}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/fun_mobs
 
 # Redstone iron golem
 scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
-execute as @e[type=minecraft:iron_golem,tag=Redstone] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=minecraft:iron_golem,tag=Redstone]
-execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:iron_golem -505.3 36 1944.5 {Tags: ["Redstone","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 100.0f, PlayerCreated: 0b, Fire: -1s}
+execute as @e[type=minecraft:iron_golem,tag=Redstone] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 5
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 5 run kill @e[type=minecraft:iron_golem,tag=Redstone]
+execute unless score $dungeon do2.tests.amountOfMobsExists matches 5 run summon minecraft:iron_golem -505.3 36 1944.5 {Tags: ["Redstone","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 100.0f, PlayerCreated: 0b, Fire: -1s}
 
 # Agronet event
 function do2:external/agronet/logs/entity_testing/fun_mobs

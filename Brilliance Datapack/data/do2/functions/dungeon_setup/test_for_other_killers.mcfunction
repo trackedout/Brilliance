@@ -52,6 +52,3 @@ execute unless entity @e[type=minecraft:evoker,tag=L2E17] run scoreboard players
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Missing 'Other' Killer §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_killers_alive"}}]
 execute unless score $dungeon do2.tests.all_killers_alive matches 0 run function do2:dungeon_setup/summon/other_killers
 scoreboard objectives remove do2.tests.all_killers_alive
-
-# Agronet event
-function do2:external/agronet/logs/dungeon_setup/test_for_other_killers

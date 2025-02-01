@@ -38,6 +38,3 @@ execute unless entity @e[type=minecraft:ravager,tag=L0Z1] run scoreboard players
 execute unless score $dungeon do2.tests.all_ravagers_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Ravager §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_ravagers_alive"}}]
 execute unless score $dungeon do2.tests.all_ravagers_alive matches 0 run function do2:dungeon_setup/summon/ravagers
 scoreboard objectives remove do2.tests.all_ravagers_alive
-
-# Agronet event
-function do2:external/agronet/logs/dungeon_setup/test_for_ravagers

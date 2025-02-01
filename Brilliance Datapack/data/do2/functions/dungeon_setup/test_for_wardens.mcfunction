@@ -27,6 +27,3 @@ execute unless entity @e[type=minecraft:warden,tag=L4Z3] run scoreboard players 
 execute unless score $dungeon do2.tests.all_wardens_alive matches 0 as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Missing Warden §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_wardens_alive"}}]
 execute unless score $dungeon do2.tests.all_wardens_alive matches 0 run function do2:dungeon_setup/summon/wardens
 scoreboard objectives remove do2.tests.all_wardens_alive
-
-# Agronet event
-function do2:external/agronet/logs/dungeon_setup/test_for_wardens

@@ -194,6 +194,3 @@ execute if score $dungeon do2.config.ec.level4Zones matches 0 unless score $dung
 execute if score $dungeon do2.config.ec.level4Zones matches 0 unless score $dungeon do2.tests.all_markers_alive = $l4z3_zoneless do2.tests.all_markers_alive run function do2:entity_controller/generate_entities/markers/individual/l4z3_zoneless
 
 scoreboard objectives remove do2.tests.all_markers_alive
-
-# Agronet event
-function do2:external/agronet/logs/entity_testing/test_for_markers
