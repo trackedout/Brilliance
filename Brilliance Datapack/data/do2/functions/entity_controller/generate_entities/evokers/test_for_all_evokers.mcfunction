@@ -85,3 +85,6 @@ execute positioned -451 19 1957 run function do2:entity_controller/generate_enti
 
 # Cleanup
 data modify storage do2:mobs evokerTags set value ""
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/test_for_all_evokers

@@ -1,18 +1,8 @@
 # Other TODO:
-- Use 
-- Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
-- duplicate daveybones?
-- fix eat glowberry advancement to require use of bonemeal. (rename it so it resets.)
-- Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
-- config for deck limit.
-- Legendaries currently cannot be bought or could be available to be purchased, should this change:
-  - Reset scores in player_per_run & dungeon_per_run
-  - Create scores in scoreboard/setup/cards
-  - Agronet logs cards available don't exist for legendaries
-  - cards/available don't exist for legendaries
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
   - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
 - Disentangle weather/daytime cycle configs
+- Set gui map tag based on Tango's existence, prompt for scale
 - Config to replace 'retired' hermits.
   - Need new artifacts
 - On game end, CHECK stat tracking containers. Notify if ever full
@@ -20,6 +10,10 @@
   - Check berry/extra item disposal in ravager gauntlet
 - Add FR config to completely reset hermit's impact to the dungeon.
 - Add INTERFACE for config of number of shop cards always available
+- Add pre-emptive legendary stat tracking
+- Update vanilla compatability configs,
+  - GUI needs to auto apply
+  - Signs need to allow disable/enable & descriptions
 - Add is_waxed:1b to all non-clickable signs
   - ```
     * -575 110 2010
@@ -79,8 +73,6 @@
 - craft_1_legendary
     - Don't have data tracking for crafting legendaries yet.
 
-## Legendary automation reminders.
- - Killing tropical fish and glow squid's loot drop is changed. Possibly revert?
- - Disable all recipes, & gamerule dolimitedCrafting true
+
 
 

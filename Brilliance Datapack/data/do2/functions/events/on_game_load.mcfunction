@@ -51,5 +51,8 @@ function do2:scoreboard/config/config_lock
 # Make sure that the redstone block keeping the iron door open is removed
 setblock -551 119 1977 air
 
-# Make sure all players are able to have map enabled
-execute as @e[team=do2.players] run function do2:vanilla_compatability/gui/interface/detect
+# Quick fix, please remove after snapshot is taken
+execute as @e[type=warden] run data modify entity @s Silent set value 0
+
+# Agronet event
+function do2:external/agronet/logs/gamestate/on_game_load

@@ -76,11 +76,7 @@ scoreboard players set @s do2.run.cards.played.SIR 0
 scoreboard players set @s do2.run.cards.played.FBS 0
 scoreboard players set @s do2.run.cards.played.DEF 0
 scoreboard players set @s do2.run.cards.played.BRI 0
-scoreboard players set @s do2.run.cards.played.AVA 0
-scoreboard players set @s do2.run.cards.played.BEM 0
-scoreboard players set @s do2.run.cards.played.BOS 0
-scoreboard players set @s do2.run.cards.played.CAC 0
-scoreboard players set @s do2.run.cards.played.GLM 0
+# TODO: reset legendaries cards played here
 scoreboard players set @s do2.run.cards.played.P2W 0
 scoreboard players set @s do2.run.cards.played.TAA 0
 scoreboard players set @s do2.run.cards.played.PCP 0
@@ -122,8 +118,13 @@ scoreboard players set @s do2.run.cards.bought.SIR 0
 scoreboard players set @s do2.run.cards.bought.FBS 0
 scoreboard players set @s do2.run.cards.bought.DEF 0
 scoreboard players set @s do2.run.cards.bought.BRI 0
+# TODO: reset legendaries bought here
 scoreboard players set @s do2.run.cards.bought.P2W 0
 scoreboard players set @s do2.run.cards.bought.TAA 0
 scoreboard players set @s do2.run.cards.bought.PCP 0
 scoreboard players set @s do2.run.cards.bought.STU 0
 scoreboard players set @s do2.run.cards.bought.DUL 0
+
+
+# Agronet event
+function do2:external/agronet/logs/datapack_setup/spectator_per_run

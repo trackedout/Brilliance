@@ -32,6 +32,5 @@ execute as @e[type=minecraft:iron_golem,tag=Redstone] run scoreboard players add
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=minecraft:iron_golem,tag=Redstone]
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:iron_golem -505.3 36 1944.5 {Tags: ["Redstone","do2.manually_spawned"], Invulnerable: 1b, FallDistance: 1.0f, PersistenceRequired: 1b, Health: 100.0f, PlayerCreated: 0b, Fire: -1s}
 
-# Pirate ship parrot?
-# Sleeping fox?
-# Tango's Horse?
+# Agronet event
+function do2:external/agronet/logs/entity_testing/fun_mobs

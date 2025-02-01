@@ -195,3 +195,5 @@ execute if score $dungeon do2.config.ec.level4Zones matches 0 unless score $dung
 
 scoreboard objectives remove do2.tests.all_markers_alive
 
+# Agronet event
+function do2:external/agronet/logs/entity_testing/test_for_markers

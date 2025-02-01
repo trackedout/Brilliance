@@ -8,6 +8,8 @@ execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=emberPickUpLogTarge
 tag @s remove emberPickUpLogTarget
 # - End Log -
 
+# Agronet event
+function do2:external/agronet/logs/pickups/embers
+
 #cycle giving embers
 function do2:events/picked_up/cycle/embers
-

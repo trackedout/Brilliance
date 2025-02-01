@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.GGS 1
 scoreboard players set $dungeon do2.run.foundArtifact 15
 scoreboard players add $dungeon do2.artifacts.GGS 1
 scoreboard players set $dungeon do2.run.artifactValue 32
+
+# Agronet event
+function do2:external/agronet/logs/pickups/goggles_of_symmetry

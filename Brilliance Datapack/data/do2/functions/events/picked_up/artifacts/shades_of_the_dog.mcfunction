@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.SHD 1
 scoreboard players set $dungeon do2.run.foundArtifact 33
 scoreboard players add $dungeon do2.artifacts.SHD 1
 scoreboard players set $dungeon do2.run.artifactValue 9
+
+# Agronet event
+function do2:external/agronet/logs/pickups/shades_of_the_dog

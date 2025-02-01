@@ -17,3 +17,6 @@ execute if score @s do2.utility.reachedBottomDepthCharge matches 0 run scoreboar
 #advancement revoke @s only do2:utility/reach_bottom_tnt_depth_charge
 # Revoke the reach TOP, so when player goes BACK, the advancement can go again.
 advancement revoke @s only do2:utility/reach_top_tnt_depth_charge
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/on_reached_bottom_tnt_depth_charge

@@ -8,5 +8,8 @@ execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=pumpkinPickUpLogTar
 tag @s remove pumpkinPickUpLogTarget
 # - End Log -
 
+# Agronet event
+function do2:external/agronet/logs/pickups/halloween_pumpkins
+
 #cycle giving pumpkins
 function do2:events/picked_up/cycle/halloween_pumpkins

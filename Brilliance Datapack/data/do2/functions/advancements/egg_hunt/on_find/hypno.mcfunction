@@ -23,3 +23,6 @@ execute if score $dungeon do2.config.eggRewards matches 3 run data modify block 
 
 playsound minecraft:block.barrel.open master @s -597 12 2036
 scoreboard players set @s do2.eggs.hypno 2
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/egg_hunt/hypno

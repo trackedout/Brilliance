@@ -11,3 +11,6 @@ tag @e[tag=already_generated_mob,sort=random,limit=1] add will_kill
 execute as @e[tag=will_kill] at @s run kill @e[type=minecart,distance=..1]
 kill @e[tag=will_kill]
 function do2:entity_controller/generate_entities/kill_extra_mobs
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/kill_extra_mobs

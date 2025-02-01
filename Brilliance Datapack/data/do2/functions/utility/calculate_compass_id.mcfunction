@@ -3,7 +3,7 @@
 execute unless entity @s[nbt={Inventory:[{id:"minecraft:compass",tag:{LodestoneTracked:1b}}]}] run return 0
 
 # Make sure we really only check once.
-execute if score $dungeon do2.run.compass_lodestone_id matches 1.. run return 0
+execute if score $dungeon $dungeon do2.run.compass_lodestone_id matches 1.. run return 0
 
 # Check for difficulty, to reduce amount of NBT checks by 4/5,
 # instead of checking for all 80 compasses, check for the 16 that should be in this difficulty

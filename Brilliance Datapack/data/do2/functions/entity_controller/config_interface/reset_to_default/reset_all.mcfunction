@@ -30,3 +30,5 @@ execute if score $dungeon do2.config.ec.levelEditing matches 30 run function do2
 # L4
 execute if score $dungeon do2.config.ec.levelEditing matches 40 run function do2:entity_controller/config_interface/reset_to_default/individual/l4
 
+# Agronet event
+function do2:external/agronet/logs/entity_controller/reset_all

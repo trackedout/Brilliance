@@ -8,3 +8,6 @@ scoreboard players add @a[tag=do2.received_shulker] do2.run.systems.treasure.att
 scoreboard players add @a[tag=do2.received_shulker] do2.systems.treasure.attempts 1
 scoreboard players add $dungeon do2.run.systems.treasure.attempts 1
 scoreboard players add $dungeon do2.systems.treasure.attempts 1
+
+# Agronet event
+function do2:external/agronet/logs/treasure/on_treasure_attempted

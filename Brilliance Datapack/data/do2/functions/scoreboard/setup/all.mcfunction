@@ -62,13 +62,13 @@ function do2:scoreboard/setup/logs
 # - Dungeon Config -
 function do2:scoreboard/setup/config
 
-# - Systems -
+# - systems -
 function do2:scoreboard/setup/systems
 
-# - Easter Eggs -
+# - easter eggs -
 function do2:scoreboard/setup/easter_eggs
 
-# - Cards -
+# - cards -
 function do2:scoreboard/setup/cards/cards_available_run
 function do2:scoreboard/setup/cards/cards_available_total
 function do2:scoreboard/setup/cards/cards_bought_run
@@ -78,7 +78,7 @@ function do2:scoreboard/setup/cards/cards_played_total
 function do2:scoreboard/setup/cards/inside_deck
 function do2:scoreboard/setup/cards/cards_price
 
-# - Items -
+# - items -
 function do2:scoreboard/setup/items
 
 # - Artifacts and Artifakes -
@@ -86,3 +86,6 @@ function do2:scoreboard/setup/artifacts_and_fakes/all
 
 # - Triggers -
 function do2:scoreboard/triggers/setup
+
+# Agronet event
+function do2:external/agronet/logs/dev/scoreboard_setup_all

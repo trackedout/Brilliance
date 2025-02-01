@@ -41,8 +41,12 @@ execute unless score $dungeon do2.config.useWorldCycle matches 1 run time set no
 execute unless score $dungeon do2.config.useWorldCycle matches 1 run weather clear
 
 # Run dungeon setup associated with the onServer / onInstance flag, delayed by 2 ticks
-schedule function do2:external/tracked_out/source_flag_setup 2t append
+schedule function do2:dungeon_setup/source_flag_setup 2t append
 
 
 # Setup GUI storage
-function do2:vanilla_compatability/gui/init_storage
+function do2:gui/init_storage
+
+
+# Agronet event
+function do2:external/agronet/logs/datapack_setup/on_datapack_load

@@ -39,12 +39,8 @@ scoreboard objectives add do2.run.cards.deck.FBS dummy "Fuzzy Bunny Slippers"
 scoreboard objectives add do2.run.cards.deck.DEF dummy "Deepfrost"
 scoreboard objectives add do2.run.cards.deck.BRI dummy "Brilliance"
 scoreboard objectives add do2.run.cards.deck.STU dummy "Stumble"
-scoreboard objectives add do2.run.cards.deck.AVA dummy "Avalanche"
-scoreboard objectives add do2.run.cards.deck.BEM dummy "Beast Master"
-scoreboard objectives add do2.run.cards.deck.BOS dummy "Boots of Swiftness"
-scoreboard objectives add do2.run.cards.deck.CAC dummy "Cash Cow"
-scoreboard objectives add do2.run.cards.deck.GLM dummy "Glorious Moment"
 
+# TODO: add do2.run.cards.deck.legendaries here
 
 scoreboard objectives add do2.run.cards.deck.P2W dummy "Pay to Win"
 scoreboard objectives add do2.run.cards.deck.TAA dummy "Tactical Approach"

@@ -25,3 +25,6 @@ scoreboard players set $dungeon do2.tests.amountOfMobsExists 0
 execute as @e[type=axolotl,tag=AXO_4] run scoreboard players add $dungeon do2.tests.amountOfMobsExists 1
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run kill @e[type=axolotl,tag=AXO_4]
 execute unless score $dungeon do2.tests.amountOfMobsExists matches 1 run summon minecraft:axolotl -510 12 1990 {Tags: ["AXO_4","do2.manually_spawned"], CustomName: '{"text":"Candace"}', Fire: -1s, Invulnerable: 1b, PersistenceRequired: 1b, FromBucket: 1b, Health: 14.0f, Variant: 0}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/axolotls

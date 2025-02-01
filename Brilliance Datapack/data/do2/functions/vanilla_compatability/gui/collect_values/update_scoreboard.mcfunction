@@ -23,5 +23,5 @@ scoreboard players operation $embers do2.utility.gui = #tmp do2.utility.gui
 execute store result score #tmp do2.utility.gui run data get block -525 52 1872 Items[0].Count
 scoreboard players operation $cards do2.utility.gui = #tmp do2.utility.gui
 
-function do2:vanilla_compatability/gui/display/update
+function do2:gui/display/update
 

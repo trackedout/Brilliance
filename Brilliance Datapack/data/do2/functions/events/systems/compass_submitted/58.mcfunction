@@ -7,7 +7,7 @@ scoreboard players set @a[tag=!do2.fakePlayer] do2.run.aritfact_floor 3
 scoreboard players set @a[tag=!do2.fakePlayer] do2.run.artifact_lodestone_id 58
 
 # AGRONET EVENT
-function do2:agronet/systems/compass_submitted
+function do2:external/agronet/systems/compass_submitted
 
 # Reset hopper minecart inventories.
 function do2:dungeon_setup/reset_hopper_minecarts/set_inventories

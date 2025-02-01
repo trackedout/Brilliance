@@ -26,3 +26,6 @@ execute positioned -547 113 1980 if entity @s[distance=..2] at @s run tp @s ~ ~ 
 
 # Store where player WAS when they died.
 scoreboard players operation @s do2.run.death_dungeon_location = @s do2.utility.dungeonLocation
+
+# Agronet event
+function do2:external/agronet/logs/spam/on_player_respawned

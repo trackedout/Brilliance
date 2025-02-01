@@ -14,6 +14,8 @@ kill @e[type=minecraft:interaction,tag=parrot_blocker]
 kill @e[type=minecraft:interaction,tag=dropper_blocker]
 kill @e[type=minecraft:interaction,tag=ceiling_blocker]
 kill @e[type=minecraft:interaction,tag=trapdoor_blocker]
+# Todo: remove this function after we save builder's with 0 legacy entities
+function do2:entity_controller/generate_entities/other_entities/kill_legacy_interaction_entities
 
 # Prevent blocks placed on difficulty lamps
 summon minecraft:interaction -559 113.95 1987.50 {width: 5.1f, height: 1.1f, Tags:["lamp_blocker"]}
@@ -84,3 +86,6 @@ summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, 
 
 # Prevent players from interacting with the trapdoor in the foreman's office under snow layers
 summon minecraft:interaction -582.5 -3.19 1922.5 {width: 1.002f, height: 0.188f, Tags:["trapdoor_blocker"]}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/interaction_entities

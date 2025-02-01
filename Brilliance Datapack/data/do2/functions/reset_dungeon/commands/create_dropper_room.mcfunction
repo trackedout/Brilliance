@@ -886,3 +886,7 @@ setblock -466 115 1965 oak_sign[rotation=8]{front_text:{messages:['{"text":""}',
 setblock -464 115 1965 air replace
 setblock -464 114 1965 lime_stained_glass keep
 setblock -464 115 1965 oak_sign[rotation=8]{front_text:{messages:['{"text":""}','{"text":"TnT Dive; Rare","color":"#5BFF09"}','{"text":"Dropper","color":"#5BFF09"}','{"text":"","bold":true,"clickEvent":{"action":"run_command","value":"/execute positioned -578 15 1970 run function do2:reset_dungeon/commands/dropper_room/teleport_away"}}']},is_waxed:1b} replace
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/create_dropper_room

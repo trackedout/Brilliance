@@ -46,10 +46,3 @@ data merge block -522 115 1950 {is_waxed:1b, front_text:{messages:['{"text":"§b
 # Reset All to Default
 setblock -522 115 1951 minecraft:warped_wall_sign[facing=east]
 data merge block -522 115 1951 {is_waxed:1b, front_text:{messages:['{"text":"§b§oReset all"}','{"text":"§b§oto defaults"}','{"text":""}','{"text":"§9§o§n( CLICK ME )","clickEvent":{"action":"run_command","value":"/function do2:entity_controller/config_interface/reset_to_default/reset_all"}}']}}
-
-
-# =========================
-# - VANILLA COMPATABILITY -
-# =========================
-function do2:vanilla_compatability/audio/interface/sign
-function do2:vanilla_compatability/gui/interface/sign

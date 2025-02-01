@@ -11,3 +11,6 @@ scoreboard players add $dungeon do2.systems.maxclank.released 1
 
 # Apply maxClankBerries config block placements
 execute if score $dungeon do2.config.maxClankBerries matches 0 run function do2:scoreboard/config/max_clank_berries/once_suppress_berries
+
+# Agronet event
+function do2:external/agronet/logs/clank/on_maxclank_reached

@@ -16,3 +16,6 @@ setblock -574 30 1997 minecraft:composter[level=0]
 setblock -626 6 1918 minecraft:composter[level=0]
 setblock -622 6 1918 minecraft:composter[level=0]
 setblock -621 6 1923 minecraft:composter[level=0]
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/reset_composters

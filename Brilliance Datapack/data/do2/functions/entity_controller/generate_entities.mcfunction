@@ -35,8 +35,6 @@ function do2:entity_controller/generate_entities/areas/l1z3
 execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/areas/l1z4
 execute if score $dungeon do2.config.ec.level1Zones matches 0 run function do2:entity_controller/generate_entities/areas/l1z5
 
-execute if score $dungeon do2.config.ec.level1Zones matches 1 run kill @e[type=ravager,tag=L1Z4]
-execute if score $dungeon do2.config.ec.level1Zones matches 1 run kill @e[type=ravager,tag=L1Z5]
 
 # L2
 function do2:entity_controller/generate_entities/areas/l2z1
@@ -44,9 +42,6 @@ function do2:entity_controller/generate_entities/areas/l2z2
 function do2:entity_controller/generate_entities/areas/l2z3
 execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:entity_controller/generate_entities/areas/l2z4
 execute if score $dungeon do2.config.ec.level2Zones matches 0 run function do2:entity_controller/generate_entities/areas/l2z5
-
-execute if score $dungeon do2.config.ec.level2Zones matches 1 run kill @e[type=ravager,tag=L2Z4]
-execute if score $dungeon do2.config.ec.level2Zones matches 1 run kill @e[type=ravager,tag=L2Z5]
 
 # L2_other
 function do2:entity_controller/generate_entities/areas/l2willie
@@ -77,3 +72,6 @@ scoreboard objectives remove do2.tests.oldMobsExisting
 
 # Ensure
 function do2:entity_controller/ensure_1_ravager_at_start
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/generate_entities

@@ -3,3 +3,6 @@ execute as @a[scores={do2.logs.player_actions=1..}] run tellraw @s ["",{"text":"
 # - End Log -
 
 advancement grant @a[tag=do2.running] only do2:hidden/adventuring/open_basalt_door
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/on_door_bomb

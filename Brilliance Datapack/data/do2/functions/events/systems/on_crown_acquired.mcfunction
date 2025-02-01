@@ -5,3 +5,5 @@ execute as @a[scores={do2.logs.player_actions=1..}] run tellraw @s ["",{"text":"
 scoreboard players add @a[tag=do2.received_shulker] do2.lifetime.escaped.crowns 1
 scoreboard players add $dungeon do2.lifetime.escaped.crowns 1
 
+# Agronet event
+function do2:external/agronet/logs/player_actions/on_crown_acquired

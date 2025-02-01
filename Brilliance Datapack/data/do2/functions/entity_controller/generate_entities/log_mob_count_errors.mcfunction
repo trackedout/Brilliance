@@ -11,3 +11,5 @@ execute if score $dungeon do2.utility.ec.collectingLogs matches 1 run return 0
 #  - Sincerely a VERY frustrated programmer.
 execute as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Multiple zones' mob count is empty. No mobs will generate in "},{"score":{"name":"$dungeon","objective":"do2.utility.ec.collectingLogs"},"color":"aqua"},{"text":"§r zones. ("},{"text":" ? ","color":"dark_red","hoverEvent":{"action":"show_text","contents":["",{"storage": "do2:mobs","nbt": "mobCountErrors"}]}},{"text":")"}]
 
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/log_mob_count_errors

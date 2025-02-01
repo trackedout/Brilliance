@@ -310,3 +310,7 @@ clone -574 39 1985 -574 39 1985 -466 114 1959 replace
 # TnT Dive; Common/Rare
 clone -578 15 1968 -578 15 1968 -466 114 1965 replace
 clone -578 15 1970 -578 15 1970 -464 114 1965 replace
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/read_from_dungeon

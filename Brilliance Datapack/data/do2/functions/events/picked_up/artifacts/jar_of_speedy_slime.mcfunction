@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.JSS 1
 scoreboard players set $dungeon do2.run.foundArtifact 28
 scoreboard players add $dungeon do2.artifacts.JSS 1
 scoreboard players set $dungeon do2.run.artifactValue 11
+
+# Agronet event
+function do2:external/agronet/logs/pickups/jar_of_speedy_slime

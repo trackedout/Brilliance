@@ -15,3 +15,5 @@ execute if entity @s[advancements={do2:hidden/adventuring/survive_tnt_dive=false
 # Set reachedBottomDepthCharge to "2" so no more depth charges can be acquired this run.
 scoreboard players set @s do2.utility.reachedBottomDepthCharge 2
 
+# Agronet event
+function do2:external/agronet/logs/player_actions/on_reached_top_tnt_depth_charge

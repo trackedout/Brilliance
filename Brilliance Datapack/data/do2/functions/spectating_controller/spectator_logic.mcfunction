@@ -1,6 +1,6 @@
 # While game is active, force spectating.
 execute as @a[team=do2.ghosts] run function do2:spectating_controller/force_spectate
-execute if score $dungeon do2.run.active matches 2 as @a[team=do2.spectators] at @s run function do2:spectating_controller/force_spectate
+execute if score $dungeon do2.run.active matches 2 as @a[team=do2.spectators] run function do2:spectating_controller/force_spectate
 
 
 # Enforce spectators to stay in lobby. (INSTANCE ONLY)

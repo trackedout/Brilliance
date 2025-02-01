@@ -23,3 +23,6 @@ execute if score $dungeon do2.config.eggRewards matches 3 run data modify block 
 
 playsound minecraft:block.barrel.open master @s -536 46 1972
 scoreboard players set @s do2.eggs.iskall 2
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/egg_hunt/iskall
