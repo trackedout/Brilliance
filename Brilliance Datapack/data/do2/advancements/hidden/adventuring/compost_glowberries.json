@@ -23,6 +23,26 @@
 					"team": "do2.players"
 				}
 			}
+		},
+		"used_bonemeal": {
+			"trigger": "minecraft:item_used_on_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:any_of",
+						"terms": [
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "minecraft:cave_vines"
+							},
+							{
+								"condition": "minecraft:block_state_property",
+								"block": "minecraft:cave_vines_plant"
+							}
+						]
+					}
+				]
+			}
 		}
 	},
 	"parent": "do2:hidden/adventuring/bonemeal_pickup"

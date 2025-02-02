@@ -1,15 +1,16 @@
 # Other TODO:
-- Use 
+- Playsound SFX for nightime
+- Playsound SFX for agronet activations
+- Add subtitles to rest of sounds.json (maybe)
+- Spectating room, needs to be finished.
+- Brilliant datapack might not be syncing hidden to visible advancements.
+- Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
+  - Add message explaining it.
 - Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
 - duplicate daveybones?
 - fix eat glowberry advancement to require use of bonemeal. (rename it so it resets.)
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - config for deck limit.
-- Legendaries currently cannot be bought or could be available to be purchased, should this change:
-  - Reset scores in player_per_run & dungeon_per_run
-  - Create scores in scoreboard/setup/cards
-  - Agronet logs cards available don't exist for legendaries
-  - cards/available don't exist for legendaries
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
   - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
 - Disentangle weather/daytime cycle configs
@@ -53,9 +54,6 @@
   - Clank
   - Treasure
 
-# Log Todo:
-- on_reached_top_tnt_depth_charge
-  - Add option for log to let receiver TP to depth charge
 
 # List of things todo AFTER builder's "repair" version is done.
 - Add a Tango Easter Egg to the dungeon, and automate it's score.
@@ -75,12 +73,15 @@
 - TREASURE
     - end_more_embers_than_artifact
         - Need Icon
-## Automation
-- craft_1_legendary
-    - Don't have data tracking for crafting legendaries yet.
 
 ## Legendary automation reminders.
  - Killing tropical fish and glow squid's loot drop is changed. Possibly revert?
  - Disable all recipes, & gamerule dolimitedCrafting true
-
+ - Legendaries currently cannot be bought or could be available to be purchased, should this change:
+   - Reset scores in player_per_run & dungeon_per_run
+   - Create scores in scoreboard/setup/cards
+   - cards/available don't exist for legendaries
+   - Agronet logs cards available don't exist for legendaries
+ - Advancement automation: craft_1_legendary
+   - Don't have data tracking for crafting legendaries yet.
 

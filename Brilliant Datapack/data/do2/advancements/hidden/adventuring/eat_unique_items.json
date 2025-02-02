@@ -1,18 +1,17 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:iron_ingot",
-			"nbt": "{CustomModelData: 2}"
+			"item": "minecraft:cooked_porkchop"
 		},
-		"title": "§bYou've Got a Friend in Me",
-		"description": "§7Show §6Rusty §7some love.",
-		"frame": "task",
+		"title": "§bFull Course Meal",
+		"description": "§7In a single run, eat §ofour§r§7 different kinds of food.",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
 	"criteria": {
-		"repair_rusty": {
+		"ate_four_food": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
@@ -20,14 +19,12 @@
 						"condition": "minecraft:entity_scores",
 						"entity": "this",
 						"scores": {
-							"do2.rustyrepairs": {
-								"min": 1
-							}
+							"do2.run.fullcoursemeal": 4
 						}
 					}
 				]
 			}
 		}
 	},
-	"parent": "do2:hidden/adventuring/adventuring_root"
+	"parent": "do2:hidden/adventuring/eat_berries"
 }

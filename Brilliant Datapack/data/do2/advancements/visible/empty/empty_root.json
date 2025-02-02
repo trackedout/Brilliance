@@ -5,7 +5,7 @@
 			"color": "dark_blue",
 			"bold": true
 		},
-		"background":"",
+		"background":"do2:textures/gui/advancements/backgrounds/unknown.png",
 		"description": {
 			"text": "This is just a filler tab."
 		},
