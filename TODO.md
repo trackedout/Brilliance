@@ -8,7 +8,6 @@
   - Add message explaining it.
 - Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
 - duplicate daveybones?
-- fix eat glowberry advancement to require use of bonemeal. (rename it so it resets.)
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - config for deck limit.
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
