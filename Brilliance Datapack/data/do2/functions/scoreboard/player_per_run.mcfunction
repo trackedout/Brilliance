@@ -6,9 +6,9 @@ tag @s add playerSetupLogTarget
 execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Setting up "},{"selector":"@p[tag=playerSetupLogTarget]"},{"text":" per run scores."}]
 tag @s remove playerSetupLogTarget
 
-# reset player's threecoursemeal track
-scoreboard players set @s do2.run.threecoursemeal 0
-execute unless entity @s[advancements={do2:hidden/adventuring/eat_three_uniques=true}] run advancement revoke @s only do2:visible/adventuring/eat_three_uniques
+# reset player's fullcoursemeal track
+scoreboard players set @s do2.run.fullcoursemeal 0
+execute unless entity @s[advancements={do2:hidden/adventuring/eat_unique_items=true}] run advancement revoke @s only do2:visible/adventuring/eat_unique_items
 
 # reset player's play_5_moc on 1 run.
 execute unless entity @s[advancements={do2:hidden/cards/play_5_moc=true}] run advancement revoke @s only do2:visible/cards/play_5_moc

@@ -4,9 +4,9 @@
 - utility/inventory_change
     - Just a utility function that calls an event whenever a players inventory changes.
     - Calls do2:events/on_inventory_change
-- utility/eat_three_uniques/*
+- utility/eat_unique_items/*
     - Advancements that occur when eating something for the first time.
-    - do2:advancements/checks/eat_three_uniques
+    - do2:advancements/checks/eat_unique_items
 - utility/vist_tendrils/*
     - Advancements that occur when visiting a tendril first time.
     - NOT tied to root, as these never get revoked.

@@ -1,18 +1,18 @@
 {
   "criteria": {
-    "eat_3_things": {
+    "eat_multi_things": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "items": [
-            "minecraft:glow_berries"
+            "minecraft:salmon"
           ]
         }
       }
     }
   },
   "rewards": {
-    "function": "do2:advancements/checks/eat_3_things"
+    "function": "do2:advancements/checks/eat_multi_things"
   },
      "parent": "do2:utility/root"
 }

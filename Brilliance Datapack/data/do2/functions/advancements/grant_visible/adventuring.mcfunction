@@ -4,7 +4,7 @@ execute as @s[advancements={do2:visible/adventuring/cleo_yeti_scare=false,do2:hi
 execute as @s[advancements={do2:visible/adventuring/eat_berries=false,do2:hidden/adventuring/eat_berries=true}] run advancement grant @s only do2:visible/adventuring/eat_berries
 execute as @s[advancements={do2:visible/adventuring/eat_fish=false,do2:hidden/adventuring/eat_fish=true}] run advancement grant @s only do2:visible/adventuring/eat_fish
 execute as @s[advancements={do2:visible/adventuring/eat_glow_berries=false,do2:hidden/adventuring/eat_glow_berries=true}] run advancement grant @s only do2:visible/adventuring/eat_glow_berries
-execute as @s[advancements={do2:visible/adventuring/eat_three_uniques=false,do2:hidden/adventuring/eat_three_uniques=true}] run advancement grant @s only do2:visible/adventuring/eat_three_uniques
+execute as @s[advancements={do2:visible/adventuring/eat_unique_items=false,do2:hidden/adventuring/eat_unique_items=true}] run advancement grant @s only do2:visible/adventuring/eat_unique_items
 execute as @s[advancements={do2:visible/adventuring/enter_with_1_unique_keys=false,do2:hidden/adventuring/enter_with_1_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/enter_with_1_unique_keys
 execute as @s[advancements={do2:visible/adventuring/enter_with_3_unique_keys=false,do2:hidden/adventuring/enter_with_3_unique_keys=true}] run advancement grant @s only do2:visible/adventuring/enter_with_3_unique_keys
 execute as @s[advancements={do2:visible/adventuring/find_17_eggs=false,do2:hidden/adventuring/find_17_eggs=true}] run advancement grant @s only do2:visible/adventuring/find_17_eggs

@@ -1,58 +1,72 @@
 {
-  "display": {
-    "icon": {
-      "item": "minecraft:cooked_porkchop"
-    },
-    "title": "§bThree Course Meal",
-    "description": "§7In a single run, eat §othree§r§7 different kinds of food.",
-    "frame": "challenge",
-    "show_toast": false,
-    "announce_to_chat": false,
-    "hidden": false
-  },
-  "criteria": {
-    "ate_one_food": {
-        "trigger": "minecraft:location",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "do2.run.threecoursemeal": 1
-                    }
-                }
-            ]
-        }
-    },
-    "ate_two_food": {
-        "trigger": "minecraft:location",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "do2.run.threecoursemeal": 2
-                    }
-                }
-            ]
-        }
-    },
-    "ate_three_food": {
-        "trigger": "minecraft:location",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:entity_scores",
-                    "entity": "this",
-                    "scores": {
-                        "do2.run.threecoursemeal": 3
-                    }
-                }
-            ]
-        }
-    }
-  },
-  "parent": "do2:visible/adventuring/eat_fish"
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_porkchop"
+		},
+		"title": "§bFull Course Meal",
+		"description": "§7In a single run, eat §ofour§r§7 different kinds of food.",
+		"frame": "challenge",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false
+	},
+	"criteria": {
+		"ate_one_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.run.fullcoursemeal": 1
+						}
+					}
+				]
+			}
+		},
+		"ate_two_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.run.fullcoursemeal": 2
+						}
+					}
+				]
+			}
+		},
+		"ate_three_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.run.fullcoursemeal": 3
+						}
+					}
+				]
+			}
+		},
+		"ate_four_food": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"do2.run.fullcoursemeal": 4
+						}
+					}
+				]
+			}
+		}
+	},
+	"parent": "do2:visible/adventuring/eat_fish"
 }
