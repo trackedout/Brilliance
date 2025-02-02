@@ -51,3 +51,6 @@ execute if score $dungeon do2.config.bc.staircaseEmbers matches 1 run setblock -
 execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 -24 1916 minecraft:glass
 execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 8 1941 minecraft:glass
 execute if score $dungeon do2.config.bc.staircaseEmbers matches 0 run setblock -601 18 1968 minecraft:glass
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/balance_changes

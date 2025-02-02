@@ -11,3 +11,6 @@ place template do2:config.ec.l2_other -531 113 1939 none none 1
 
 # Load Storage
 clone -524 123 1942 -524 122 1946 -530 114 1942
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/swap_to/l2_other

@@ -49,3 +49,6 @@ setblock -569 -38 1906 minecraft:sweet_berry_bush[age=3]
 setblock -567 -45 1911 minecraft:sweet_berry_bush[age=3]
 setblock -567 -45 1912 minecraft:sweet_berry_bush[age=3]
 setblock -657 -52 1848 minecraft:sweet_berry_bush[age=3]
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/refill_berry_bushes

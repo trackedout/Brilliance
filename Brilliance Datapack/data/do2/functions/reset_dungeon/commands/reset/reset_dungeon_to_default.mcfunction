@@ -239,3 +239,7 @@ execute positioned -523 12 2042 run function do2:reset_dungeon/default_states/mi
 execute positioned -574 39 1985 run function do2:reset_dungeon/default_states/misc/pirates_bounty
 execute positioned -578 15 1968 run function do2:reset_dungeon/default_states/misc/tnt_dive_common_loot
 execute positioned -578 15 1970 run function do2:reset_dungeon/default_states/misc/tnt_dive_rare_loot
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/reset_dungeon_to_default

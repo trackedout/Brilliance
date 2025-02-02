@@ -12,3 +12,6 @@ execute as @a[scores={do2.logs.entity_testing=1..}] run tellraw @s ["",{"text":"
 kill @e[type=evoker,distance=..1]
 summon minecraft:evoker ~ ~ ~ {PersistenceRequired:1b, Tags: ["evoker_spot"], Invulnerable: 1b, Health: 24.0f, Silent: 1b,  CustomName: '{"text":"Vexificator"}', CanPickUpLoot: 0b}
 data modify entity @e[type=evoker,distance=..1,limit=1] Tags append from storage do2:mobs evokerTags
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/test_for_regular_evoker

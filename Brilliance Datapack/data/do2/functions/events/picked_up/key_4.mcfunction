@@ -8,6 +8,8 @@ execute as @a[scores={do2.logs.pickups=2..}] if score @p[tag=key_4PickUpLogTarge
 tag @s remove key_4PickUpLogTarget
 # - End Log -
 
+# Agronet event
+function do2:external/agronet/logs/pickups/key_4
+
 #cycle giving level_4_keys
 function do2:events/picked_up/cycle/key_4
-

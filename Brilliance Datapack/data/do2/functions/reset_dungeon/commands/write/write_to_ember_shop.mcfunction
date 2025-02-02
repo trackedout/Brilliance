@@ -146,3 +146,7 @@ clone -456 114 1989 -456 114 1989 -642 -18 2013 replace
 execute positioned -641 -18 2013 run function do2:reset_dungeon/default_states/ember_shop/other_price_45
 clone -456 114 1990 -456 114 1990 -642 -18 2014 replace
 execute positioned -641 -18 2014 run function do2:reset_dungeon/default_states/ember_shop/other_price_46
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/write_to_ember_shop

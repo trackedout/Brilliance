@@ -179,3 +179,6 @@ execute positioned -570 -51 1855 unless entity @e[type=minecraft:hopper_minecart
 
 execute unless score $dungeon do2.tests.all_minecart_spots matches 0 run tellraw @a ["",{"text":"§f[§9B§r]: Testing for minecart §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_minecart_spots"}},{"text":" failed."}]
 scoreboard objectives remove do2.tests.all_minecart_spots
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/reset_hopper_minecarts/test_for_accurate_blocks

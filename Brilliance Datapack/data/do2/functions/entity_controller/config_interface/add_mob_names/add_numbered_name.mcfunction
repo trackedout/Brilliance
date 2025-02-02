@@ -36,3 +36,6 @@ scoreboard objectives remove do2.tests.amountOfMobs
 
 # If there STILL isn't enough mobNames for the amount of names needed, loop this function.
 execute if score $dungeon do2.utility.ec.mobNamesCount < $dungeon do2.utility.ec.mobGenerationCount run function do2:entity_controller/config_interface/add_mob_names/add_numbered_name
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/add_numbered_name

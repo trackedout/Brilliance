@@ -10,3 +10,6 @@ tag @s remove artifactSubmittedTarget
 # and when they do, they won't be counted to towards these totals anyway, so we do it here.
 scoreboard players operation @s do2.lifetime.escaped.embers += $dungeon do2.run.artifactValue
 scoreboard players operation $dungeon do2.lifetime.escaped.embers += $dungeon do2.run.artifactValue
+
+# Agronet event
+function do2:external/agronet/logs/gamestate/on_player_artifact_submitted

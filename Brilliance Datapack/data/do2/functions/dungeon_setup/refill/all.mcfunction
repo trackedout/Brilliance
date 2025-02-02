@@ -12,3 +12,8 @@ execute if score $dungeon do2.config.fr.refillBerries matches 1 run function do2
 function do2:dungeon_setup/refill/refill_guppy_geyser
 function do2:dungeon_setup/refill/refill_fireworks
 execute unless score $dungeon do2.config.refillDungeonType matches 0 run function do2:dungeon_setup/refill/refill_general
+
+# Agronet event
+execute if score $dungeon do2.config.refillDungeonType matches 0 run function do2:external/agronet/logs/dungeon_setup/refill/type_0
+execute if score $dungeon do2.config.refillDungeonType matches 1 run function do2:external/agronet/logs/dungeon_setup/refill/type_1
+execute if score $dungeon do2.config.refillDungeonType matches 2 run function do2:external/agronet/logs/dungeon_setup/refill/type_2

@@ -10,3 +10,5 @@ tag @s remove compassPickUpLogTarget
 
 execute as @p[tag=do2.received_shulker] run scoreboard players operation @s do2.run.compass_lodestone_id = $dungeon do2.run.compass_lodestone_id
 
+# Agronet event
+function do2:external/agronet/logs/pickups/compass

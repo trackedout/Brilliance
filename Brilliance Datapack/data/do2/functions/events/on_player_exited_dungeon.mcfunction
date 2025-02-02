@@ -9,3 +9,6 @@ tag @s remove exitedLogTarget
 kill @e[type=vex]
 
 execute if score $dungeon do2.run.active matches 2 run scoreboard players set $dungeon do2.run.active 3
+
+# Agronet event
+function do2:external/agronet/logs/gamestate/on_player_exited_dungeon

@@ -51,3 +51,7 @@ execute positioned -497 106 1975 run function do2:reset_dungeon/default_states/c
 execute positioned -497 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_13
 execute positioned -496 106 1975 run function do2:reset_dungeon/default_states/crown_shop/price_14
 execute positioned -496 106 1976 run function do2:reset_dungeon/default_states/crown_shop/other_price_14
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/reset_crown_shop_to_default

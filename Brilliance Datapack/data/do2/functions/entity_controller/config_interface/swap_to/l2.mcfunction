@@ -13,3 +13,6 @@ execute if score $dungeon do2.config.ec.level2Zones matches 1 run place template
 # Load Storage
 execute if score $dungeon do2.config.ec.level2Zones matches 0 run clone -526 126 1942 -526 125 1946 -530 114 1942
 execute if score $dungeon do2.config.ec.level2Zones matches 1 run clone -526 123 1942 -526 122 1946 -530 114 1942
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/swap_to/l2

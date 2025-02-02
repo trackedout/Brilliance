@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.KNH 1
 scoreboard players set $dungeon do2.run.foundArtifact 41
 scoreboard players add $dungeon do2.artifacts.KNH 1
 scoreboard players set $dungeon do2.run.artifactValue 23
+
+# Agronet event
+function do2:external/agronet/logs/pickups/knights_helm

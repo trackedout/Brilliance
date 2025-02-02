@@ -97,3 +97,5 @@ execute unless entity @e[type=minecraft:hopper_minecart,tag=LODEID80] run scoreb
 execute unless score $dungeon do2.tests.all_filters matches 1 run function do2:dungeon_setup/reset_hopper_minecarts/tag_minecarts
 scoreboard objectives remove do2.tests.all_filters
 
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/reset_hopper_minecarts/test_for_tags

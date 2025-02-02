@@ -44,3 +44,6 @@ scoreboard players operation $five_seconds do2.config.ticksPerSecond *= $dungeon
 scoreboard players operation $dungeon_five do2.utility.checkTick = $dungeon do2.utility.currentTick
 scoreboard players operation $dungeon_five do2.utility.checkTick %= $five_seconds do2.config.ticksPerSecond
 execute if score $dungeon_five do2.utility.checkTick matches 0 run function do2:events/on_100_ticks
+
+# Agronet event
+execute as @a[team=do2.players] run function do2:external/agronet/logs/spam/on_20_ticks

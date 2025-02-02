@@ -84,3 +84,6 @@ summon minecraft:interaction -639.50 -12.20 1889.50 {width: 3.0f, height: 0.2f, 
 
 # Prevent players from interacting with the trapdoor in the foreman's office under snow layers
 summon minecraft:interaction -582.5 -3.19 1922.5 {width: 1.002f, height: 0.188f, Tags:["trapdoor_blocker"]}
+
+# Agronet event
+function do2:external/agronet/logs/entity_testing/interaction_entities

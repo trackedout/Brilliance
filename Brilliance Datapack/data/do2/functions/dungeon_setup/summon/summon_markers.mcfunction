@@ -1,0 +1,1 @@
+function do2:entity_controller/generate_entities/markers/all

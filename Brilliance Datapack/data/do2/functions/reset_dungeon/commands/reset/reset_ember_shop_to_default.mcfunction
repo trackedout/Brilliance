@@ -146,3 +146,7 @@ execute positioned -642 -18 2013 run function do2:reset_dungeon/default_states/e
 execute positioned -641 -18 2013 run function do2:reset_dungeon/default_states/ember_shop/other_price_45
 execute positioned -642 -18 2014 run function do2:reset_dungeon/default_states/ember_shop/price_46
 execute positioned -641 -18 2014 run function do2:reset_dungeon/default_states/ember_shop/other_price_46
+
+
+# Agronet event
+function do2:external/agronet/logs/dropper_room/reset_ember_shop_to_default

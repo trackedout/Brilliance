@@ -22,3 +22,6 @@ execute if score $dungeon do2.config.ec.levelEditing matches 40 if score $dungeo
 
 # Level 0
 execute if score $dungeon do2.config.ec.levelEditing matches 0 run clone -530 114 1946 -530 115 1942 -518 122 1942
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/save_storages

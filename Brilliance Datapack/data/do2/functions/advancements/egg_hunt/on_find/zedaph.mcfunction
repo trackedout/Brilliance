@@ -23,3 +23,6 @@ execute if score $dungeon do2.config.eggRewards matches 3 run data modify block 
 
 playsound minecraft:block.barrel.open master @s -504 45 2017
 scoreboard players set @s do2.eggs.zedaph 2
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/egg_hunt/zedaph

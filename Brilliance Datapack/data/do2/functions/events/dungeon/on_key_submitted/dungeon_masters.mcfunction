@@ -8,3 +8,6 @@ data modify block -607 -58 1887 Items[0].tag merge value {tracked:0b}
 data modify block -608 -58 1887 Items[0].tag merge value {tracked:0b}
 data modify block -608 -58 1887 Items[1].tag merge value {tracked:0b}
 data modify block -608 -58 1887 Items[2].tag merge value {tracked:0b}
+
+# Agronet event
+function do2:external/agronet/logs/player_actions/dungeon_masters

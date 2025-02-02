@@ -16,3 +16,5 @@ execute if score $dungeon do2.utility.ec.mobGenerationType matches 4 run summon 
 # TODO: Davy drops stuff when /killed need to stop him from having drops like evokers.
 execute if score $dungeon do2.utility.ec.mobGenerationType matches 5 run summon minecraft:minecart -500 70 2000 {Tags:["L2DAVY_minecart","newly_generated_minecart"], Invulnerable:1b, Passengers:[{PersistenceRequired:1b, Invulnerable:1b, Tags: ["newly_generated_mob","mob_being_worked_on"], id: "minecraft:stray", Health: 20.0f, Silent: 1b, CustomName: '{"text":"NAME-NOT-INCLUDED"}',HandItems:[{id: "minecraft:bow", Count: 1b, tag:{Damage: 0, Enchantments:[{lvl: 1s, id: "minecraft:unbreaking"},{lvl: 1s, id: "minecraft:power"}]}},{}]}]}
 
+# Agronet event
+function do2:external/agronet/logs/entity_controller/summon_correct_mob

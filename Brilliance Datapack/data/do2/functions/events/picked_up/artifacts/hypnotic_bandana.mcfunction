@@ -19,3 +19,6 @@ scoreboard players add @s do2.artifacts.HYB 1
 scoreboard players set $dungeon do2.run.foundArtifact 18
 scoreboard players add $dungeon do2.artifacts.HYB 1
 scoreboard players set $dungeon do2.run.artifactValue 21
+
+# Agronet event
+function do2:external/agronet/logs/pickups/hypnotic_bandana

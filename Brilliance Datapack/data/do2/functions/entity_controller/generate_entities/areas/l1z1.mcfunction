@@ -30,3 +30,6 @@ execute as @e[tag=newly_generated_mob] run tag @s remove newly_generated_mob
 execute if score $dungeon do2.config.fr.teleportKillers matches 1 as @e[tag=premade_generated_mob] run tp @s @e[type=marker,tag=L1Z1,limit=1,sort=random]
 execute as @e[tag=premade_generated_mob] run tag @s add L1Z1
 execute as @e[tag=premade_generated_mob] run tag @s remove premade_generated_mob
+
+# Agronet event
+function do2:external/agronet/logs/entity_controller/areas/l1z1

@@ -184,3 +184,7 @@ scoreboard players operation $dungeon do2.run.cards.deck.legendaries = @s do2.ru
 scoreboard players operation $dungeon do2.run.cards.deck.ethereals = @s do2.run.cards.deck.ethereals
 scoreboard players operation $dungeon do2.run.cards.deck.permanents = @s do2.run.cards.deck.permanents
 scoreboard players operation $dungeon do2.run.cards.deck.total = @s do2.run.cards.deck.total
+
+
+# Agronet event
+function do2:external/agronet/logs/dungeon_setup/count_cards
