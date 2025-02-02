@@ -40,7 +40,7 @@ execute as @a if score @s do2.run.foundArtifact matches 38 as @p[tag=do2.receive
 execute as @a if score @s do2.run.foundArtifact matches 39 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.OFP 1
 execute as @a if score @s do2.run.foundArtifact matches 40 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.BAP 1
 execute as @a if score @s do2.run.foundArtifact matches 41 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.KNH 1
-execute as @a if score @s do2.run.foundArtifact matches 42 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.ASV 1
-execute as @a if score @s do2.run.foundArtifact matches 43 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.HAY 1
+execute as @a if score @s do2.run.foundArtifact matches 42 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.HAY 1
+execute as @a if score @s do2.run.foundArtifact matches 43 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.ASV 1
 execute as @a if score @s do2.run.foundArtifact matches 44 as @p[tag=do2.received_shulker] run scoreboard players add @s do2.artifakes.SPS 1
 
