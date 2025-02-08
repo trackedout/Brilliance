@@ -8,6 +8,6 @@ execute unless entity @s[tag=do2.tags.audio.enabled] run tellraw @s ["",{"text":
 
 #
 tellraw @s ["",{"text":"\nYou may enable or disable the ability to receive §n§o/playsound§r equilavent of all Decked Out 2 sound effects.\n"}]
-tellraw @s ["",{"text":"§f","clickEvent":{"action":"run_command","value":"/function do2:vanilla_compatability/audio/interface/enable"}}," ",{"text":"§f","clickEvent":{"action":"run_command","value":"/function do2:vanilla_compatability/audio/interface/disable"}}]
+tellraw @s ["",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.playsound set 103"}}," ",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.playsound set 102"}}]
 tellraw @s ["",{"text":"\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
 
