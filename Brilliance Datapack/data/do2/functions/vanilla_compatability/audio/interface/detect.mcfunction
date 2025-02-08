@@ -1,3 +1,9 @@
+# Code needed to delay this function.
+execute unless entity @s[tag=do2.audio_checking] as @a[tag=do2.audio_checking] run function do2:vanilla_compatability/audio/interface/detect
+execute unless entity @s[tag=do2.audio_checking] run return 0
+tag @s remove do2.audio_checking
+
+# Check if they have the mod or not.
 function do2:external/voice_chat/check
 
 # If they have VoiceChat mod, do nothing.

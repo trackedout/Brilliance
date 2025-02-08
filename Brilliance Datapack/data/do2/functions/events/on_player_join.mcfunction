@@ -32,7 +32,8 @@ execute positioned -524 103 2167 if entity @s[distance=..10] at @s run tp @s ~ ~
 execute if score $dungeon do2.utility.onInstance matches 1 unless score $dungeon do2.run.active matches 1.. as @p[tag=do2.received_shulker] run function do2:dungeon_setup/preset_difficulty
 
 # Check if player needs AUDIO compatability
-function do2:vanilla_compatability/audio/interface/detect
+tag @s add do2.audio_checking
+schedule function do2:vanilla_compatability/audio/interface/detect 5t
 
 # Agronet event
 function do2:external/agronet/logs/spam/on_player_join
