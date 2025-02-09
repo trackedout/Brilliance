@@ -49,6 +49,7 @@ execute unless score $l4z1 do2.config.ec.levelZoneMobCount matches 0.. run score
 execute unless score $l4z2 do2.config.ec.levelZoneMobCount matches 0.. run scoreboard players set $l4z2 do2.config.ec.levelZoneMobCount 1
 execute unless score $l4z3 do2.config.ec.levelZoneMobCount matches 0.. run scoreboard players set $l4z3 do2.config.ec.levelZoneMobCount 1
 execute unless score $dungeon do2.config.ec.controlSummons matches 0.. run scoreboard players set $dungeon do2.config.ec.controlSummons 1
+execute unless score $dungeon do2.run.active matches 0.. run scoreboard players set $dungeon do2.run.active 0
 
 # Note that we've set the defaults already
 scoreboard players set $dungeon do2.utility.setNormalScoreDefaults 1
