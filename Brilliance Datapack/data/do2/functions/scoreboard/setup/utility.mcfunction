@@ -37,6 +37,7 @@ scoreboard objectives add do2.utility.oldDungeonLocation dummy "Used to check wh
 scoreboard objectives add do2.utility.arrayIndex dummy
 scoreboard objectives add do2.utility.l4ShriekerScreamed dummy "Used to check WHICH l4 shrieker is true"
 scoreboard objectives add do2.utility.mobSwitchCounter dummy "Used to count mobs needed for an active mob switch"
+scoreboard objectives add do2.utility.lockConfigRoom dummy "Used to tell whether the config room needs to be locked"
 
 
 # - Entity Controller - (entity_controller)

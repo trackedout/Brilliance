@@ -1,5 +1,5 @@
 # No need for these datapacks
-datapack disable "file/armor_statues_v2.9.4-trackedout.zip"
+execute if score $dungeon do2.utility.onServer matches 1 run datapack disable "file/armor_statues_v2.9.4-trackedout.zip"
 datapack disable "file/decked_out.zip"
 datapack disable "file/bundles 1.20.zip"
 datapack disable "file/hard on start v1.0.0.zip"

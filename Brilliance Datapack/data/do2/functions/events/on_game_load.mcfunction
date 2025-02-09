@@ -46,6 +46,7 @@ scoreboard players set $dungeon do2.utility.dungeonRepair 1
 scoreboard players set $dungeon do2.run.players 0
 
 # Lock Up Settings
+scoreboard players set do2.utility.lockConfigRoom 1
 function do2:scoreboard/config/config_lock
 
 # Make sure that the redstone block keeping the iron door open is removed
@@ -53,6 +54,9 @@ setblock -551 119 1977 air
 
 # Make sure all players are able to have map enabled
 execute as @e[team=do2.players] run function do2:vanilla_compatability/gui/interface/detect
+
+# Disable setting triggers
+execute as @a[tag=!do2.fakePlayers] run trigger do2.trigger.settings add 0
 
 # Agronet event
 function do2:external/agronet/logs/gamestate/on_game_load

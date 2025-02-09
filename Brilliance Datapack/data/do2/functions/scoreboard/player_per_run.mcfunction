@@ -26,7 +26,7 @@ scoreboard players set @s do2.run.gauntlet_survival 0
 advancement revoke @s only do2:utility/survive_death_gauntlet
 
 # Reset certain advancements
-function do2:advancements/reset_key_advancemets
+function do2:advancements/reset_key_advancements
 
 # Ensure Gamemode
 execute if entity @s[gamemode=adventure] run scoreboard players set @s do2.utility.oldGamemode 0

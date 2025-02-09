@@ -37,6 +37,12 @@ execute as @a[advancements={do2:visible/credits/credits_root=false}] run functio
 function do2:vanilla_compatability/gui/collect_values/update_scoreboard
 function do2:vanilla_compatability/gui/update_has_map_tag/invoke_update
 
+# Lock/Unlock Settings room
+execute unless score $dungeon do2.utility.lockConfigRoom matches 1..2 run function do2:scoreboard/config/config_unlock
+execute if score $dungeon do2.utility.lockConfigRoom matches 1 run function do2:scoreboard/config/config_lock
+execute if score $dungeon do2.utility.lockConfigRoom matches 2 run function do2:scoreboard/config/config_lock_inverse
+
+
 # Attempt every 5 second updates:
 scoreboard players set $dungeon do2.utility.checkTick 5
 scoreboard players operation $five_seconds do2.config.ticksPerSecond = $dungeon do2.config.ticksPerSecond
