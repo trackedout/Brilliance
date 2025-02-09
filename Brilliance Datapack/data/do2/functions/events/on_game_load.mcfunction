@@ -57,6 +57,7 @@ execute as @e[team=do2.players] run function do2:vanilla_compatability/gui/inter
 
 # Disable setting triggers
 execute as @a[tag=!do2.fakePlayers] run trigger do2.trigger.settings add 0
+execute as @a[tag=!do2.fakePlayers] run trigger do2.trigger.enable_coop add 0
 
 # Agronet event
 function do2:external/agronet/logs/gamestate/on_game_load

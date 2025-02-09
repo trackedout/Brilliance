@@ -36,8 +36,8 @@ tag @s add do2.audio_checking
 schedule function do2:vanilla_compatability/audio/interface/detect 5t append
 
 # Check if we should enable player's ability to enter in the setting's room
-tag @s add do2.setting_room_checking
-schedule function do2:external/tracked_out/check_if_setting_room_trigger 5t append
+tag @s add do2.practice_room_checking
+schedule function do2:external/tracked_out/check_for_start_of_practice 5t append
 
 # Agronet event
 function do2:external/agronet/logs/spam/on_player_join

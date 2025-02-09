@@ -18,6 +18,9 @@ scoreboard players enable @a[tag=!do2.fakePlayer] do2.trigger.playsound
 scoreboard objectives add do2.trigger.gui trigger "detect gui trigger"
 scoreboard players enable @a[tag=!do2.fakePlayer] do2.trigger.gui
 
+scoreboard objectives add do2.trigger.enable_coop trigger "detect coop trigger"
+scoreboard players enable @a[tag=!do2.fakePlayer,tag=do2.staff] do2.trigger.enable_coop
+
 scoreboard objectives add do2.trigger.settings trigger "detect settings trigger"
 scoreboard players enable @a[tag=!do2.fakePlayer,tag=do2.staff] do2.trigger.settings
 

@@ -5,3 +5,4 @@ execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.map=0}] 
 execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.playsound=0}] run function do2:scoreboard/triggers/t_playsound
 execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.gui=0}] run function do2:scoreboard/triggers/t_gui
 execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.settings=0}] run function do2:scoreboard/triggers/t_settings
+execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.enable_coop=0}] run function do2:scoreboard/triggers/t_enable_coop
