@@ -1,4 +1,5 @@
 # Other TODO:
+- Change all setting buttons to be /trigger calls, so non-ops can change settings.
 - Playsound SFX for nightime
 - Playsound SFX for agronet activations
 - Add subtitles to rest of sounds.json (maybe)
