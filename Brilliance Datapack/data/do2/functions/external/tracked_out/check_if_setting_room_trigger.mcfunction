@@ -2,7 +2,7 @@
 execute unless entity @s[tag=do2.setting_room_checking2] as @a[tag=do2.setting_room_checking] run tag @s add do2.setting_room_checking2
 execute unless entity @s[tag=do2.setting_room_checking2] as @a[tag=do2.setting_room_checking] run function do2:external/tracked_out/check_if_setting_room_trigger
 tag @a remove do2.setting_room_checking
-execute unless entity @s[tag=do2.setting_room_checking2] if entity @a[tag=do2.setting_room_checking2] run return 0
+execute if entity @a[tag=do2.setting_room_checking2] run return 0
 tag @a remove do2.setting_room_checking2
 
 # do2.utility.runType
