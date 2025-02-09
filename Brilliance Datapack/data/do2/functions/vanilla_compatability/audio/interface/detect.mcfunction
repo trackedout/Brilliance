@@ -1,8 +1,8 @@
 # Code needed to delay this function.
-execute as @a[tag=do2.audio_checking] run tag @s add do2.audio_checking2
-execute as @a[tag=do2.audio_checking] run function do2:vanilla_compatability/audio/interface/detect
+execute unless entity @s[tag=do2.audio_checking2] as @a[tag=do2.audio_checking] run tag @s add do2.audio_checking2
+execute unless entity @s[tag=do2.audio_checking2] as @a[tag=do2.audio_checking] run function do2:vanilla_compatability/audio/interface/detect
 tag @a remove do2.audio_checking
-execute if entity @a[tag=do2.audio_checking2] run return 0
+execute unless entity @s[tag=do2.audio_checking2] if entity @a[tag=do2.audio_checking2] run return 0
 tag @a remove do2.audio_checking2
 
 # Check if they have the mod or not.
