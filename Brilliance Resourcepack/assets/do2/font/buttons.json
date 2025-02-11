@@ -245,7 +245,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x1png",
+			"file": "do2:font/fake_buttons/scale_x1.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -256,7 +256,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x2png",
+			"file": "do2:font/fake_buttons/scale_x2.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -267,7 +267,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x4png",
+			"file": "do2:font/fake_buttons/scale_x4.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
