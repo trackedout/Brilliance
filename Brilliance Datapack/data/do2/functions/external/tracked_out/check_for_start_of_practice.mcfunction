@@ -15,6 +15,9 @@ execute unless score $dungeon do2.run.active matches 0 run return 0
 
 scoreboard players enable @s do2.trigger.settings
 
+setblock -550 114 1983 minecraft:warped_wall_sign[facing=east]
+data merge block -550 114 1983 {front_text:{has_glowing_text:1b,color:"white",messages:['{"text":"Click to learn"}','{"text":"about our"}','{"text":""}','{"text":"/trigger\'s","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/triggers/explanation_sign"}}']}}
+
 # Lock setting's room
 scoreboard players set $dungeon do2.utility.lockConfigRoom 2
 function do2:scoreboard/config/config_lock_inverse
