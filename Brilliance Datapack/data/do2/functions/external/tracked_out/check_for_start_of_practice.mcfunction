@@ -14,7 +14,6 @@ execute unless score @p[tag=do2.received_shulker] do2.utility.runType matches 1 
 execute unless score $dungeon do2.run.active matches 0 run return 0
 
 scoreboard players enable @s do2.trigger.settings
-scoreboard players enable @s do2.trigger.enable_coop
 
 # Lock setting's room
 scoreboard players set $dungeon do2.utility.lockConfigRoom 2

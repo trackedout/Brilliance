@@ -1,8 +1,21 @@
+# Cut down on amount of triggers, by making it only a few categories
+# - do2.triggers.coop
+#   - Show a display depending on whether they are owner or not. (Clear player of all maps when giving it to them)
+#   - Display will always include option to get a map.
+#   - Owner will have the option to open world up to co-op's joining.
+# - do2.triggers.vanilla
+#   - Allow player to customize their GUI settings
+#   - Or their audio settings.
+# - do2.triggers.settings
+#   - No display menu, will tp player to settings room.
+# - do2.triggers.about
+#   - Include options to customize their logs [IF STAFF]
+#   - Include options to view rules
+#   - Include options to view datapack version
+#   -
+
 # happens every datapack tick
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.logs=0}] run function do2:scoreboard/triggers/t_logs
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.version=0}] run function do2:scoreboard/triggers/t_version
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.map=0}] run function do2:scoreboard/triggers/t_map
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.playsound=0}] run function do2:scoreboard/triggers/t_playsound
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.gui=0}] run function do2:scoreboard/triggers/t_gui
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.settings=0}] run function do2:scoreboard/triggers/t_settings
-execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.enable_coop=0}] run function do2:scoreboard/triggers/t_enable_coop
+execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.about=0}] run function do2:scoreboard/triggers/triggered/about/check
+execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.coop=0}] run function do2:scoreboard/triggers/triggered/coop/check
+execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.settings=0}] run function do2:scoreboard/triggers/triggered/settings/check
+execute as @a[tag=!do2.fakePlayer] unless entity @s[scores={do2.trigger.vanilla=0}] run function do2:scoreboard/triggers/triggered/vanilla/check

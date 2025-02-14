@@ -8,6 +8,6 @@ execute unless entity @s[tag=do2.tags.gui.enabled] run tellraw @s ["",{"text":"�
 
 #
 tellraw @s ["",{"text":"\nYou may enable or disable the ability to view the map as a special GUI display using command blocks.\n"}]
-tellraw @s ["",{"text":"§f","clickEvent":{"action":"run_command","value":"/function do2:vanilla_compatability/gui/interface/enable"}}," ",{"text":"§f","clickEvent":{"action":"run_command","value":"/function do2:vanilla_compatability/gui/interface/disable"}}]
+tellraw @s ["",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 100"}}," ",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 101"}}]
 tellraw @s ["",{"text":"\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
 
