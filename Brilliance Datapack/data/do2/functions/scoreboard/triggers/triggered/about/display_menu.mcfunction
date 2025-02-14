@@ -3,7 +3,8 @@ tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}
 
 # If staff
 execute if entity @s[tag=do2.staff] run tellraw @s ["",{"text":"\n                                 §e§l§nABOUT§r§f\n§fClick on §bLogs §fto customize receiving debug logs."}]
-execute unless entity @s[tag=do2.staff] run tellraw @s ["",{"text":"\n                                  §e§l§nABOUT\n"}]
+execute unless entity @s[tag=do2.staff] if score @p[tag=do2.received_shulker] do2.utility.runType matches 1 run tellraw @s ["",{"text":"\n                                 §e§l§nABOUT§r§f\n§fClick on §bLogs §fto customize receiving debug logs."}]
+execute unless entity @s[tag=do2.staff] unless score @p[tag=do2.received_shulker] do2.utility.runType matches 1 run tellraw @s ["",{"text":"\n                                  §e§l§nABOUT\n"}]
 
 # Display description of rules and version.
 tellraw @s ["",{"text":"§fClick on §dRules §fto view the rules of §3Decked Out§f.\n§fClick §aVersion §ffor the version of the §bBrilliance §fdatapack."}]

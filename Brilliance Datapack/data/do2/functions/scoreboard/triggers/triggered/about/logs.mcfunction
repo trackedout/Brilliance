@@ -1,5 +1,6 @@
-# Logs are exclusive to staff
-execute unless entity @s[tag=do2.staff] run return 0
+# Staff overrides this, but must be in practice mode.
+execute unless entity @s[tag=do2.staff] unless score @p[tag=do2.received_shulker] do2.utility.runType matches 1 run function do2:scoreboard/triggers/triggered/about/display_menu
+execute unless entity @s[tag=do2.staff] unless score @p[tag=do2.received_shulker] do2.utility.runType matches 1 run return 0
 
 # if this function is ran, but isn't a score needed a check run the log display
 execute unless score @s do2.trigger.about matches 100..299 run function do2:scoreboard/config/receive_logs/documentation

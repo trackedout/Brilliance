@@ -9,7 +9,7 @@
 # - do2.triggers.settings
 #   - No display menu, will tp player to settings room.
 # - do2.triggers.about
-#   - Include options to customize their logs [IF STAFF]
+#   - Include options to customize their logs [IF STAFF OR PRACTICE]
 #   - Include options to view rules
 #   - Include options to view datapack version
 #   -

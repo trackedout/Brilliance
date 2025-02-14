@@ -1,9 +1,7 @@
 # ABOUT section,
 # This will have options for logs, rules, or version
 
-# Show display menu if they AREN'T staff and trying to access logs
-execute if score @s do2.trigger.about matches 100..299 if entity @s[tag=do2.staff] run function do2:scoreboard/triggers/triggered/about/logs
-execute if score @s do2.trigger.about matches 100..299 unless entity @s[tag=do2.staff] run function do2:scoreboard/triggers/triggered/about/display_menu
+execute if score @s do2.trigger.about matches 100..299 run function do2:scoreboard/triggers/triggered/about/logs
 
 # Rules
 execute if score @s do2.trigger.about matches 301 run function do2:scoreboard/triggers/triggered/about/rules
