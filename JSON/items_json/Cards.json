@@ -15,7 +15,19 @@
         "Name": "{\"color\":\"gray\",\"text\":\"✲ Moment of Clarity ✲\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✲ Moment of Clarity ✲",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": true,\"color\": \"gray\",\"text\": \"Common\"}",
+      " {\"color\": \"light_purple\",\"text\": \"Ethereal\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"5\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 4 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
+    ]
   },
   "pay_to_win": {
     "shorthand": "P2W",
@@ -33,7 +45,16 @@
         "Name": "{\"color\":\"#FED83D\",\"text\":\"✲ Pay to Win ✲\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✲ Pay to Win ✲",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#FED83D\",\"text\": \"Premium\"}",
+      " {\"color\": \"light_purple\",\"text\": \"Ethereal\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"3\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 10 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
+    ]
   },
   "pork_chop_power": {
     "shorthand": "PCP",
@@ -51,7 +72,18 @@
         "Name": "{\"color\":\"#FED83D\",\"text\":\"✲≡ Pork Chop Power ≡✲\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✲≡ Pork Chop Power ≡✲",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#FED83D\",\"text\": \"Premium\"}",
+      " {\"extra\": [{\"color\": \"yellow\",\"text\": \"Permanent \"},{\"color\": \"light_purple\",\"text\": \"Ethereal\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"2 \"},{\"italic\": false,\"color\": \"#F9801D\",\"text\": \"Cooked Pork Chops\"}],\"text\": \"\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"are dropped at\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"the dungeon entrance.\"}"
+    ]
   },
   "tactical_approach": {
     "shorthand": "TAA",
@@ -69,7 +101,17 @@
         "Name": "{\"color\":\"#FED83D\",\"text\":\"✲≡ Tactical Approach ≡✲\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✲≡ Tactical Approach ≡✲",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#FED83D\",\"text\": \"Premium\"}",
+      " {\"extra\": [{\"color\": \"yellow\",\"text\": \"Permanent \"},{\"color\": \"light_purple\",\"text\": \"Ethereal\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 5 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 5 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}"
+    ]
   },
   "sneak": {
     "shorthand": "SNE",
@@ -87,7 +129,15 @@
         "Name": "{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Sneak ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": true,\"color\": \"gray\",\"text\": \"Common\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"5\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
+    ]
   },
   "stability": {
     "shorthand": "STA",
@@ -105,7 +155,15 @@
         "Name": "{\"color\":\"gray\",\"text\":\"✧ Stability ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Stability ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": true,\"color\": \"gray\",\"text\": \"Common\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"5\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}"
+    ]
   },
   "treasure_hunter": {
     "shorthand": "TRH",
@@ -123,7 +181,15 @@
         "Name": "{\"color\":\"gray\",\"text\":\"✧ Treasure Hunter ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Treasure Hunter ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": true,\"color\": \"gray\",\"text\": \"Common\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"5\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 4 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}"
+    ]
   },
   "ember_seeker": {
     "shorthand": "EMS",
@@ -141,7 +207,15 @@
         "Name": "{\"color\":\"gray\",\"text\":\"✧ Ember Seeker ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Ember Seeker ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": true,\"color\": \"gray\",\"text\": \"Common\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"5\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
+    ]
   },
   "evasion": {
     "shorthand": "EVA",
@@ -159,7 +233,15 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Evasion ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Evasion ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 4 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}"
+    ]
   },
   "tread_lightly": {
     "shorthand": "TRL",
@@ -177,7 +259,15 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Tread Lightly ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Tread Lightly ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 4 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}"
+    ]
   },
   "loot_and_scoot": {
     "shorthand": "LAS",
@@ -195,7 +285,16 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Loot and Scoot ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Loot and Scoot ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 7 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}"
+    ]
   },
   "frost_focus": {
     "shorthand": "FRF",
@@ -213,7 +312,15 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Frost Focus ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Frost Focus ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 4 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"}"
+    ]
   },
   "second_wind": {
     "shorthand": "SEW",
@@ -231,7 +338,16 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Second Wind ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Second Wind ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"red\",\"text\":\"Regeneration\"}],\"text\":\"\"}"
+    ]
   },
   "beast_sense": {
     "shorthand": "BES",
@@ -249,7 +365,17 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Beast Sense ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Beast Sense ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"The next 3 cards cause all\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Ravagers to briefly glow.\"}"
+    ]
   },
   "bounding_strides": {
     "shorthand": "BST",
@@ -267,7 +393,16 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Bounding Strides ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Bounding Strides ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Block 2 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 120s \"},{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Jump Boost\"}],\"text\":\"\"}"
+    ]
   },
   "reckless_charge": {
     "shorthand": "REC",
@@ -285,7 +420,17 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Reckless Charge ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Reckless Charge ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 2 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"If you trigger a Shrieker\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"within 8 seconds: +10 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"}"
+    ]
   },
   "sprint": {
     "shorthand": "SPT",
@@ -303,7 +448,15 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Sprint ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Sprint ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 60s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}"
+    ]
   },
   "nimble_looting": {
     "shorthand": "NIL",
@@ -321,7 +474,18 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Nimble Looting ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Nimble Looting ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 2 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Until \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" increases, each\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"extra\":[{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" blocked gives +2 \"}],\"text\":\"\"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}"
+    ]
   },
   "smash_and_grab": {
     "shorthand": "SAG",
@@ -339,7 +503,16 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Smash and Grab ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Smash and Grab ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#80C71F\",\"text\": \"Uncommon\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"3\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 13 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
+    ]
   },
   "quick_step": {
     "shorthand": "QUI",
@@ -357,7 +530,17 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Quickstep ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Quickstep ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Block 2 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 1 \"},{\"italic\":false,\"color\":\"#80C71F\",\"text\":\"Card Recycle\"}],\"text\":\"\"}"
+    ]
   },
   "suit_up": {
     "shorthand": "SUU",
@@ -375,7 +558,21 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"≡ Suit Up ≡\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Suit Up ≡",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"color\":\"yellow\",\"text\":\"Permanent \"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Grants \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Diamond Chestplate\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"& \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Leggings\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"-\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Each Shrieker triggered has\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"a 25% chance of generating\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"1 additional \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}"
+    ]
   },
   "adrenaline_rush": {
     "shorthand": "ADR",
@@ -393,7 +590,17 @@
         "Name": "{\"color\":\"#80C71F\",\"text\":\"✧ Adrenaline Rush ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Adrenaline Rush ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#80C71F\",\"text\":\"Uncommon\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 1 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"For 20 seconds every\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"heartbeat gives +1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}"
+    ]
   },
   "brilliance": {
     "shorthand": "BRI",
@@ -411,7 +618,15 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Brilliance ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Brilliance ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 2 \"},{\"italic\":false,\"color\":\"#80C71F\",\"text\":\"Card Recycles\"}],\"text\":\"\"}"
+    ]
   },
   "deepfrost": {
     "shorthand": "DEF",
@@ -429,7 +644,16 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Deepfrost ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Deepfrost ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+6 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" for each staircase\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"already unlocked.\"}"
+    ]
   },
   "fuzzy_bunny_slippers": {
     "shorthand": "FBS",
@@ -447,7 +671,19 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"≡ Fuzzy Bunny Slippers ≡\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Fuzzy Bunny Slippers ≡",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"color\":\"yellow\",\"text\":\"Permanent \"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Each staircase you\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"unlock: \"},{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 4 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"You cannot gain \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"if you have an \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Artifact\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
+    ]
   },
   "silent_runner": {
     "shorthand": "SIR",
@@ -465,7 +701,17 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"≡ Silent Runner ≡\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Silent Runner ≡",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"color\":\"yellow\",\"text\":\"Permanent \"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Every 15s of \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\":\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"50% chance to \"},{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}],\"text\":\"\"}"
+    ]
   },
   "cold_snap": {
     "shorthand": "COS",
@@ -483,7 +729,17 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Cold Snap ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Cold Snap ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 3 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"For the next 3 cards,\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"any \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" drops are doubled.\"}],\"text\":\"\"}"
+    ]
   },
   "pirates_booty": {
     "shorthand": "PIB",
@@ -501,7 +757,17 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Pirate's Booty ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Pirate's Booty ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"italic\":false,\"color\":\"aqua\",\"text\":\"2 Ethereal Cards\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"are released on the\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"Pirate Ship\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
+    ]
   },
   "eyes_on_the_prize": {
     "shorthand": "EOP",
@@ -519,7 +785,17 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Eyes on the Prize ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Eyes on the Prize ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"An extra card will be\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"available for purchase\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"in the \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Frost Ember Shop\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
+    ]
   },
   "speed_runner": {
     "shorthand": "SPR",
@@ -537,7 +813,18 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"≡ Speed Runner ≡\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Speed Runner ≡",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"color\":\"yellow\",\"text\":\"Permanent \"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"1\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"When dungeon entered:\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"8 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" are dropped at the\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"beginning of Level 3.\"}"
+    ]
   },
   "chill_step": {
     "shorthand": "CHS",
@@ -555,7 +842,16 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Chill Step ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Chill Step ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Future \"},{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" cards played\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"gain +2 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\". This bonus can stack.\"}],\"text\":\"\"}"
+    ]
   },
   "swagger": {
     "shorthand": "SWA",
@@ -573,7 +869,18 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Swagger ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Swagger ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 10 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 10 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Shuffle 2 \"},{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"cards into your deck.\"}"
+    ]
   },
   "dungeon_repairs": {
     "shorthand": "DUR",
@@ -591,7 +898,16 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Dungeon Repairs ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Dungeon Repairs ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#3C44AA\",\"text\": \"Rare\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"3\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 7 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
+    ]
   },
   "eerie_silence": {
     "shorthand": "EES",
@@ -609,7 +925,17 @@
         "Name": "{\"color\":\"#3C44AA\",\"text\":\"✧ Eerie Silence ✧\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Eerie Silence ✧",
+    "lore": [
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"color\":\"#3C44AA\",\"text\":\"Rare\"}",
+      "{\"extra\":[{\"color\":\"#9D9D97\",\"text\":\"Limit: \"},{\"bold\":false,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"3\"}],\"text\":\"\"}",
+      "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 8 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}",
+      "{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Block 2 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
+      "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Skip the next card.\"}"
+    ]
   },
   "stumble": {
     "shorthand": "STU",
@@ -626,7 +952,18 @@
         "Name": "{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}"
       },
       "tracked": "0b"
-    }
+    },
+    "name": "✲ Stumble ✲",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"dark_red\",\"text\": \"Negative\"}",
+      " {\"color\": \"light_purple\",\"text\": \"Ethereal\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#9D9D97\",\"text\": \"Added to deck every 120s\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Can be \"},{\"italic\": true,\"color\": \"#80C71F\",\"text\": \"Recycled\"}],\"text\": \"\"}"
+    ]
   },
   "dungeon_lackey": {
     "shorthand": "DUL",
@@ -645,7 +982,16 @@
       "RepairCost": 0,
       "CustomModelData": 141,
       "tracked": "0b"
-    }
+    },
+    "name": "=✲ Dungeon Lackey ✲=",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"color\": \"#FED83D\",\"text\": \"Premium\"}",
+      " {\"extra\": [{\"color\": \"yellow\",\"text\": \"Permanent \"},{\"color\": \"light_purple\",\"text\": \"Ethereal\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 8 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
+    ]
   },
   "avalanche": {
     "shorthand": "AVA",
@@ -663,7 +1009,16 @@
       "CustomRoleplayData": "1b",
       "CustomModelData": 139,
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Avalanche ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"bold\": false,\"color\": \"#8932B8\",\"text\": \"Legendary\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"},{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \" for each card\"}],\"text\": \"\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"played so far.\"}"
+    ]
   },
   "beast_master": {
     "shorthand": "BEM",
@@ -681,7 +1036,18 @@
       "CustomRoleplayData": "1b",
       "CustomModelData": 140,
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Beast Master ≡",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"bold\": false,\"color\": \"#8932B8\",\"text\": \"Legendary\"}",
+      " {\"color\": \"yellow\",\"text\": \"Permanent \"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Whenever \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"},{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \" is blocked:\"}],\"text\": \"\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"50% chance all Ravagers\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"briefly glow.\"}"
+    ]
   },
   "boots_of_swiftness": {
     "shorthand": "BOS",
@@ -699,7 +1065,19 @@
       "CustomRoleplayData": "1b",
       "CustomModelData": 136,
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Boots of Swiftness ≡",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"bold\": false,\"color\": \"#8932B8\",\"text\": \"Legendary\"}",
+      " {\"color\": \"yellow\",\"text\": \"Permanent \"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Every card played:\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"25% chance of\"},{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \":\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 30s \"},{\"italic\": false,\"color\": \"#C74EBD\",\"text\": \"Run Speed\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 30s \"},{\"italic\": false,\"color\": \"dark_purple\",\"text\": \"Jump Boost\"}],\"text\": \"\"}"
+    ]
   },
   "cash_cow": {
     "shorthand": "CAC",
@@ -716,7 +1094,16 @@
       "CustomRoleplayData": "1b",
       "CustomModelData": 138,
       "tracked": "0b"
-    }
+    },
+    "name": "✧ Cash Cow ✧",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"bold\": false,\"color\": \"#8932B8\",\"text\": \"Legendary\"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Every remaining\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"card gives \"},{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}],\"text\": \"\"}"
+    ]
   },
   "glorious_moment": {
     "shorthand": "GLM",
@@ -734,6 +1121,18 @@
       "CustomRoleplayData": "1b",
       "CustomModelData": 137,
       "tracked": "0b"
-    }
+    },
+    "name": "≡ Glorious Moment ≡",
+    "lore": [
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"bold\": false,\"color\": \"#8932B8\",\"text\": \"Legendary\"}",
+      " {\"color\": \"yellow\",\"text\": \"Permanent \"}",
+      " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Limit: \"},{\"bold\": false,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"1\"}],\"text\": \"\"}",
+      " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
+      " {\"extra\": [{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"When \"},{\"italic\": false,\"color\": \"aqua\",\"text\": \"Artifact\"}],\"text\": \"\"},{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \" acquired:\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 3 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 3 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}",
+      " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 3 \"},{\"italic\": false,\"color\": \"#80C71F\",\"text\": \"Card Recycles\"}],\"text\": \"\"}"
+    ]
   }
 }
