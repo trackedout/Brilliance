@@ -1,0 +1,8 @@
+{
+  "name": "brilliance-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "nbtify": "^2.2.0"
+  }
+}

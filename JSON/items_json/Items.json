@@ -1,140 +1,140 @@
 {
-	"porkchop": {
-		"id": "minecraft:cooked_porkchop",
-		"tag": {}
-	},
-	"level_2_key": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 201,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ The Caves of Carnage Key ☠❄\"}'"
-			}
-		}
-	},
-	"level_3_key": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 203,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ The Black Mines Key ☠❄\"}'"
-			}
-		}
-	},
-	"level_4_key": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 209,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ The Burning Dark Key ☠❄\"}'"
-			}
-		}
-	},
-	"dm_lackey_coupon": {
-		"id": "minecraft:carved_pumpkin",
-		"tag": {
-			"CustomModelData": 46,
-			"display": {
-				"Name": "'{\"text\":\"✲ Dungeon Master Lackey Coupon ✲\"}'",
-				"Lore": [
-					"'{\"text\":\"Enthrall the DM to do your bidding for one run!\"}'"
-				]
-			}
-		}
-	},
-	"coin": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 1,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ Decked Out Coin ☠❄\"}'"
-			}
-		}
-	},
-	"crown": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 2,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ Decked Out Crown ☠❄\"}'"
-			}
-		}
-	},
-	"frost_ember": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"CustomModelData": 3,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ Decked Out Frost Ember ☠❄\"}'"
-			}
-		}
-	},
-	"rusty_repair_kit": {
-		"id": "minecraft:iron_ingot",
-		"tag": {
-			"CustomModelData": 2,
-			"display": {
-				"Name": "'{\"text\":\"❄☠ Rusty Repair Kit ☠❄\"}'"
-			}
-		}
-	},
-	"victory_tome": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"italic": 1,
-				"bold": 0,
-				"OriginalName": "'{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}'",
-				"ModifiedName": "'{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 6,
-			"display": {
-				"Name": "'{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}'"
-			}
-		}
-	},
-	"frozen_shard": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "#3ab3da",
-				"OriginalName": "'{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}'",
-				"ModifiedName": "'{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}'"
-			},
-			"CustomRoleplayData": "1b",
-			"CustomModelData": 7,
-			"display": {
-				"Name": "'{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}'"
-			}
-		}
-	},
-	"halloween_pumpkin": {
-		"id": "minecraft:pumpkin",
-		"tag": {
-			"NameFormat": {
-				"color": "dark_purple",
-				"OriginalName": "'{\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}'",
-				"ModifiedName": "'{\"color\":\"dark_purple\",\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}'"
-			},
-			"display": {
-				"Name": "'{\"color\":\"dark_purple\",\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}'"
-			}
-		}
-	},
-	"bomb": {
-		"id": "minecraft:iron_nugget",
-		"tag": {
-			"NameFormat": {
-				"color": "dark_aqua",
-				"OriginalName": "'{\"text\":\"❄☠ The Bomb ☠❄\"}'",
-				"bold": 1,
-				"ModifiedName": "'{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"❄☠ The Bomb ☠❄\"}'"
-			},
-			"CustomModelData": 208,
-			"display": {
-				"Name": "'{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"❄☠ The Bomb ☠❄\"}'"
-			}
-		}
-	}
+  "porkchop": {
+    "id": "minecraft:cooked_porkchop",
+    "tag": {}
+  },
+  "level_2_key": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 201,
+      "display": {
+        "Name": "{\"text\":\"❄☠ The Caves of Carnage Key ☠❄\"}"
+      }
+    }
+  },
+  "level_3_key": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 203,
+      "display": {
+        "Name": "{\"text\":\"❄☠ The Black Mines Key ☠❄\"}"
+      }
+    }
+  },
+  "level_4_key": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 209,
+      "display": {
+        "Name": "{\"text\":\"❄☠ The Burning Dark Key ☠❄\"}"
+      }
+    }
+  },
+  "dm_lackey_coupon": {
+    "id": "minecraft:carved_pumpkin",
+    "tag": {
+      "CustomModelData": 46,
+      "display": {
+        "Name": "{\"text\":\"✲ Dungeon Master Lackey Coupon ✲\"}",
+        "Lore": [
+          "{\"text\":\"Enthrall the DM to do your bidding for one run!\"}"
+        ]
+      }
+    }
+  },
+  "coin": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 1,
+      "display": {
+        "Name": "{\"text\":\"❄☠ Decked Out Coin ☠❄\"}"
+      }
+    }
+  },
+  "crown": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 2,
+      "display": {
+        "Name": "{\"text\":\"❄☠ Decked Out Crown ☠❄\"}"
+      }
+    }
+  },
+  "frost_ember": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "CustomModelData": 3,
+      "display": {
+        "Name": "{\"text\":\"❄☠ Decked Out Frost Ember ☠❄\"}"
+      }
+    }
+  },
+  "rusty_repair_kit": {
+    "id": "minecraft:iron_ingot",
+    "tag": {
+      "CustomModelData": 2,
+      "display": {
+        "Name": "{\"text\":\"❄☠ Rusty Repair Kit ☠❄\"}"
+      }
+    }
+  },
+  "victory_tome": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "NameFormat": {
+        "italic": 1,
+        "bold": 0,
+        "OriginalName": "{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}",
+        "ModifiedName": "{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 6,
+      "display": {
+        "Name": "{\"bold\":false,\"italic\":true,\"text\":\"❄☠ Victory Tome ☠❄\"}"
+      }
+    }
+  },
+  "frozen_shard": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "NameFormat": {
+        "color": "#3ab3da",
+        "OriginalName": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}",
+        "ModifiedName": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 7,
+      "display": {
+        "Name": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard ☠❄\"}"
+      }
+    }
+  },
+  "halloween_pumpkin": {
+    "id": "minecraft:pumpkin",
+    "tag": {
+      "NameFormat": {
+        "color": "dark_purple",
+        "OriginalName": "{\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}",
+        "ModifiedName": "{\"color\":\"dark_purple\",\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}"
+      },
+      "display": {
+        "Name": "{\"color\":\"dark_purple\",\"text\":\"❄☠ Halloween Pumpkin ☠❄\"}"
+      }
+    }
+  },
+  "bomb": {
+    "id": "minecraft:iron_nugget",
+    "tag": {
+      "NameFormat": {
+        "color": "dark_aqua",
+        "OriginalName": "{\"text\":\"❄☠ The Bomb ☠❄\"}",
+        "bold": 1,
+        "ModifiedName": "{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"❄☠ The Bomb ☠❄\"}"
+      },
+      "CustomModelData": 208,
+      "display": {
+        "Name": "{\"bold\":true,\"color\":\"dark_aqua\",\"text\":\"❄☠ The Bomb ☠❄\"}"
+      }
+    }
+  }
 }

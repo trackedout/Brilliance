@@ -1,48 +1,56 @@
-const fs = require("fs");
-const itemsJson = require("../items_json/Items.json");
-const itemsJsonKeys = Object.keys(itemsJson);
-const cardsJson = require("../items_json/Cards.json");
-const cardsJsonKeys = Object.keys(cardsJson);
-const artifactsJson = require("../items_json/Artifacts.json");
-const artifactsJsonKeys = Object.keys(artifactsJson);
-let crownShop = require("../dungeon_coordinates/Crown_Shop.json");
-let emberShop = require("../dungeon_coordinates/Ember_Shop.json");
-let loot_locations = require("../dungeon_coordinates/Loot_Locations.json");
-let artifacts = require("../dungeon_coordinates/Artifacts.json");
-let misc = require("../dungeon_coordinates/MISC.json");
-let compasses = require("../dungeon_coordinates/Compasses.json");
-let difficulty_tokens = require("../dungeon_coordinates/Difficulty_Tokens.json");
+import fs from "fs";
+import { stringify, Int8, Int32 } from "nbtify";
 
-function betterStringify(item) {
-  let newItem = `{`;
-  for (let i in item) {
-    newItem += `${i}:`;
-    switch (typeof item[i]) {
-      case "string":
-        if (item[i][0] === `'`) newItem += `${item[i]}`;
-        else if (item[i][item[i].length - 1] === "b") newItem += `${item[i]}`;
-        else newItem += `"${item[i]}"`;
-        break;
-      case "number":
-        newItem += item[i];
-        break;
-      case "object":
-        if (item[i] instanceof Array) {
-          newItem += `[`;
-          for (let j = 0; j < item[i].length; j++) {
-            newItem += item[i][j] + ",";
-          }
-          newItem = newItem.substring(0, newItem.length - 1);
-          newItem += `]`;
-        } else newItem += betterStringify(item[i]);
-        break;
+const difficultyTokens = JSON.parse(fs.readFileSync("../dungeon_coordinates/Difficulty_Tokens.json", "utf-8"));
+const compasses = JSON.parse(fs.readFileSync("../dungeon_coordinates/Compasses.json", "utf-8"));
+const misc = JSON.parse(fs.readFileSync("../dungeon_coordinates/MISC.json", "utf-8"));
+const artifacts = JSON.parse(fs.readFileSync("../dungeon_coordinates/Artifacts.json", "utf-8"));
+const lootLocations = JSON.parse(fs.readFileSync("../dungeon_coordinates/Loot_Locations.json", "utf-8"));
+const emberShop = JSON.parse(fs.readFileSync("../dungeon_coordinates/Ember_Shop.json", "utf-8"));
+const crownShop = JSON.parse(fs.readFileSync("../dungeon_coordinates/Crown_Shop.json", "utf-8"));
+const artifactsJson = JSON.parse(fs.readFileSync("../items_json/Artifacts.json", "utf-8"));
+const cardsJson = JSON.parse(fs.readFileSync("../items_json/Cards.json", "utf-8"));
+const itemsJson = JSON.parse(fs.readFileSync("../items_json/Items.json", "utf-8"));
+
+const itemsJsonKeys = Object.keys(itemsJson);
+const cardsJsonKeys = Object.keys(cardsJson);
+const artifactsJsonKeys = Object.keys(artifactsJson);
+
+function removeKeys(obj, keys) {
+  for (let i in obj) {
+    for (let j in keys) {
+      delete obj[i][keys[j]];
     }
-    newItem += ",";
   }
-  newItem = newItem.substring(0, newItem.length - 1);
-  newItem += `}`;
-  return newItem;
 }
+
+// Map over json objects and remove unwanted keys
+removeKeys(cardsJson, ["maxCopies", "lore", "name"]);
+removeKeys(artifactsJson, ["emberValue"]);
+
+// Helper function to convert JSON fields to NBT bytes
+const convertToNbtBytes = (obj) => {
+  for (const key in obj) {
+    if (typeof obj[key] === 'string' && obj[key].endsWith('b')) {
+      obj[key] = new Int8(parseInt(obj[key].slice(0, -1), 10)); // Convert to integer then to boolean
+    } else if (typeof obj[key] === 'number') {
+      obj[key] = new Int32(obj[key]);
+    } else if (typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
+      convertToNbtBytes(obj[key]); // Recursively convert nested objects
+    }
+  }
+  return obj;
+};
+
+const betterStringify = (json) => {
+  try {
+    // Convert JSON fields to NBT bytes, then to a MC command compatible format (still NBT)
+    return stringify(convertToNbtBytes(json));
+  } catch (error) {
+    console.error(error.message);
+    return null;
+  }
+};
 
 function createCrownProductsFiles() {
   let keys = Object.keys(crownShop);
@@ -74,7 +82,9 @@ function createCrownProductsFiles() {
               break;
           }
         }
-        if (cardsJsonKeys.includes(items)) item = cardsJson[items];
+        if (cardsJsonKeys.includes(items)) {
+          item = cardsJson[items];
+        }
         return getItems([item, item, item, item, item, item, item, item, item]);
       } else if (typeof items === "object" && items instanceof Array) {
         for (let i = 0; i < items.length; i++) {
@@ -86,7 +96,9 @@ function createCrownProductsFiles() {
             if (cardsJsonKeys.includes(items[i])) {
               item = cardsJson[items[i]];
             }
-          } else item = items[i]
+          } else {
+            item = items[i]
+          }
           if (item && item.id) {
             item.Count = "64b";
             item.Slot = `${i}b`;
@@ -178,7 +190,9 @@ function createEmberProductsFiles() {
               break;
           }
         }
-        if (cardsJsonKeys.includes(items)) item = cardsJson[items];
+        if (cardsJsonKeys.includes(items)) {
+          item = cardsJson[items];
+        }
         return getItems([item, item, item, item, item, item, item, item, item]);
       } else if (typeof items === "object" && items instanceof Array) {
         for (let i = 0; i < items.length; i++) {
@@ -253,16 +267,16 @@ function createEmberPricesCommands() {
 }
 
 function createDefaultTreasureFiles() {
-  let keys = Object.keys(loot_locations);
+  let keys = Object.keys(lootLocations);
   keys.sort();
 
   function createFile(num) {
     let number = `00`.substring((num + 1).toString().length) + (num + 1);
     let ws = fs.createWriteStream(`./../../Brilliance Datapack/data/do2/functions/reset_dungeon/default_states/treasure/${number}.mcfunction`);
     ws.write(`# REMOVE ALL ITEMS INSIDE:\n`);
-    ws.write(`setblock ~ ~ ~ minecraft:dropper[facing=${loot_locations[keys[num]].treasure_facing}]{Items:[]}\n\n`);
+    ws.write(`setblock ~ ~ ~ minecraft:dropper[facing=${lootLocations[keys[num]].treasure_facing}]{Items:[]}\n\n`);
     ws.write(`# Insert items. (ordered by slot)\n`);
-    let defaultItems = loot_locations[keys[num]].default_treasure;
+    let defaultItems = lootLocations[keys[num]].default_treasure;
 
     function getItems(items) {
       if (typeof items === "string") {
@@ -284,7 +298,9 @@ function createDefaultTreasureFiles() {
               break;
           }
         }
-        if (cardsJsonKeys.includes(items)) item = cardsJson[items];
+        if (cardsJsonKeys.includes(items)) {
+          item = cardsJson[items];
+        }
         return getItems([item, item, item, item, item, item, item, item, item]);
       } else if (typeof items === "object" && items instanceof Array) {
         for (let i = 0; i < items.length; i++) {
@@ -308,7 +324,9 @@ function createDefaultTreasureFiles() {
                     break;
                 }
               }
-              if (cardsJsonKeys.includes(item)) item = cardsJson[item];
+              if (cardsJsonKeys.includes(item)) {
+                item = cardsJson[item];
+              }
             }
             item.Count = "64b";
             item.Slot = `${i}b`;
@@ -330,24 +348,26 @@ function createDefaultTreasureFiles() {
 }
 
 function createDefaultTreasureCommands() {
-  let keys = Object.keys(loot_locations);
+  let keys = Object.keys(lootLocations);
   keys.sort();
   for (let i = 0; i < keys.length; i++) {
     let num = keys[i];
-    console.log(`execute positioned ${loot_locations[num].treasure_dropper_coords} run function do2:reset_dungeon/default_states/treasure/${num}`);
+    console.log(`execute positioned ${lootLocations[num].treasure_dropper_coords} run function do2:reset_dungeon/default_states/treasure/${num}`);
   }
 }
 
 function createDefaultEmberFiles() {
-  let keys = Object.keys(loot_locations);
+  let keys = Object.keys(lootLocations);
   keys.sort();
 
   function createFile(num) {
-    if (!loot_locations[keys[num]].ember_dropper_coords) return;
+    if (!lootLocations[keys[num]].ember_dropper_coords) {
+      return;
+    }
     let number = `00`.substring((num + 1).toString().length) + (num + 1);
     let ws = fs.createWriteStream(`./../../Brilliance Datapack/data/do2/functions/reset_dungeon/default_states/embers/${number}.mcfunction`);
     ws.write(`# REMOVE ALL ITEMS INSIDE:\n`);
-    ws.write(`setblock ~ ~ ~ minecraft:dropper[facing=${loot_locations[keys[num]].ember_facing}]{Items:[]}\n\n`);
+    ws.write(`setblock ~ ~ ~ minecraft:dropper[facing=${lootLocations[keys[num]].ember_facing}]{Items:[]}\n\n`);
     ws.write(`# Insert items. (ordered by slot)\n`);
     let defaultItems = [
       "frost_ember",
@@ -391,7 +411,9 @@ function createDefaultEmberFiles() {
               break;
           }
         }
-        if (cardsJsonKeys.includes(items)) item = cardsJson[items];
+        if (cardsJsonKeys.includes(items)) {
+          item = cardsJson[items];
+        }
         return getItems([item, item, item, item, item, item, item, item, item]);
       } else if (typeof items === "object" && items instanceof Array) {
         for (let i = 0; i < items.length; i++) {
@@ -415,7 +437,9 @@ function createDefaultEmberFiles() {
                     break;
                 }
               }
-              if (cardsJsonKeys.includes(item)) item = cardsJson[item];
+              if (cardsJsonKeys.includes(item)) {
+                item = cardsJson[item];
+              }
             }
             item.Slot = `${i}b`;
             item.Count = "64b";
@@ -437,11 +461,11 @@ function createDefaultEmberFiles() {
 }
 
 function createDefaultEmberCommands() {
-  let keys = Object.keys(loot_locations);
+  let keys = Object.keys(lootLocations);
   keys.sort();
   for (let i = 0; i < keys.length; i++) {
     let num = keys[i];
-    console.log(`execute positioned ${loot_locations[num].ember_dropper_coords} run function do2:reset_dungeon/default_states/embers/${num}`);
+    console.log(`execute positioned ${lootLocations[num].ember_dropper_coords} run function do2:reset_dungeon/default_states/embers/${num}`);
   }
 }
 
@@ -472,14 +496,20 @@ function createDefaultArtifactFiles() {
                 if (item.tag) {
                   item.tag["tracked"] = "0b";
                 }
-              } else console.warn("Invalid Artifact", item);
+              } else {
+                console.warn("Invalid Artifact", item);
+              }
             }
             item.Slot = `${i}b`;
             item.Count = "64b";
             ws.write(`data modify block ~ ~ ~ Items append value ${betterStringify(item)}\n`);
-          } else console.warn("Invalid items[i]:", items);
+          } else {
+            console.warn("Invalid items[i]:", items);
+          }
         }
-      } else console.warn("Not an Array:", items);
+      } else {
+        console.warn("Not an Array:", items);
+      }
     }
 
     getItems(defaultItems);
@@ -513,7 +543,9 @@ function createDefaultArtifakeFiles() {
                 if (item.tag) {
                   item.tag["tracked"] = "0b";
                 }
-              } else console.warn("Invalid Artifake", item);
+              } else {
+                console.warn("Invalid Artifake", item);
+              }
             }
             item.Slot = `${i}b`;
             item.Count = "64b";
@@ -521,7 +553,9 @@ function createDefaultArtifakeFiles() {
             let split = value.split(/ \([0-9]+\)/);
             let val = split[0] + split[1];
             ws.write(`data modify block ~ ~ ~ Items append value ${val}\n`);
-          } else console.warn("Invalid items[i]:", items);
+          } else {
+            console.warn("Invalid items[i]:", items);
+          }
         }
       } else if (typeof items === "object") {
         return getItems([items, items, items, items, items, items, items, items, items]);
@@ -571,8 +605,8 @@ function createDefaultMiscFiles() {
             case "level_2_key":
             case "level_3_key":
             case "level_4_key":
-            case "coin":
             case "frost_ember":
+            case "coin":
             case "crown":
             case "rusty_repair_kit":
             case "halloween_pumpkin":
@@ -582,7 +616,9 @@ function createDefaultMiscFiles() {
               break;
           }
         }
-        if (cardsJsonKeys.includes(items)) item = cardsJson[items];
+        if (cardsJsonKeys.includes(items)) {
+          item = cardsJson[items];
+        }
         return getItems([item, item, item, item, item, item, item, item, item]);
       } else if (typeof items === "object" && items instanceof Array) {
         for (let i = 0; i < items.length; i++) {
@@ -596,7 +632,6 @@ function createDefaultMiscFiles() {
                   case "level_4_key":
                   case "frost_ember":
                   case "coin":
-                  case "frost_ember":
                   case "crown":
                   case "porkchop":
                   case "rusty_repair_kit":
@@ -610,7 +645,9 @@ function createDefaultMiscFiles() {
                     item = itemsJson[item];
                 }
               }
-              if (cardsJsonKeys.includes(item)) item = cardsJson[item];
+              if (cardsJsonKeys.includes(item)) {
+                item = cardsJson[item];
+              }
             }
             item.Slot = `${i}b`;
             item.Count = `64b`;
@@ -622,7 +659,9 @@ function createDefaultMiscFiles() {
         }
       } else if (typeof items === "object") {
         return getItems([items, items, items, items, items, items, items, items, items]);
-      } else console.warn(typeof items);
+      } else {
+        console.warn(typeof items);
+      }
     }
 
     getItems(defaultItems);
@@ -645,10 +684,10 @@ function createDefaultMiscCommands() {
 }
 
 function createDefaultDifficultyCommands() {
-  let keys = Object.keys(difficulty_tokens);
+  let keys = Object.keys(difficultyTokens);
   for (let i = 0; i < keys.length; i++) {
     let num = keys[i];
-    console.log(`execute positioned ${difficulty_tokens[num]} run function do2:reset_dungeon/default_states/difficulty/${num}\n`);
+    console.log(`execute positioned ${difficultyTokens[num]} run function do2:reset_dungeon/default_states/difficulty/${num}\n`);
   }
 }
 
@@ -672,3 +711,9 @@ function createDefaultCompassesCommands() {
 
 createDefaultArtifactFiles()
 createDefaultArtifakeFiles()
+
+// createEmberProductsCommands();
+createEmberProductsFiles();
+
+createDefaultMiscFiles();
+createCrownProductsFiles();
