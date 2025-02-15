@@ -8,7 +8,7 @@ execute positioned -515 116 1956 unless entity @p[distance=..10] as @e[type=armo
 execute positioned -515 116 1956 if entity @p[distance=..10] as @e[type=armor_stand,tag=do2.stop_settings] run data merge entity @s {CustomNameVisible:1b}
 
 
-execute as @a[x=-517,dx=1,y=113,dy=7,z=1953,dz=6] if entity @s[tag=do2.staff,tag=!do2.staff.warned] run tellraw @s ["",{"text":"§f[§9B§r]: You have the tag [§bdo2.staff§r], and this has stopped:\n - §5tp "},{"selector":"@s","color":"dark_purple"},{"text":"§5-550 113 1980 90 0\n§f[§9B§r]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/tp @s -512 114 1956 90 0"}},{"text":" to run the command anyway."}]
+execute as @a[x=-517,dx=1,y=113,dy=7,z=1953,dz=6] if entity @s[tag=do2.staff,tag=!do2.staff.warned] run tellraw @s ["",{"text":"§f[§9B§r]: You have the tag [§bdo2.staff§r], and this has stopped:\n - §5tp "},{"selector":"@s","color":"dark_purple"},{"text":"§5-550 113 1980 90 0\n§f[§9B§f]: Click "},{"text":"§b[here]","clickEvent":{"action":"run_command","value":"/tp @s -512 114 1956 90 0"}},{"text":" to run the command anyway."}]
 execute as @a[x=-517,dx=1,y=113,dy=7,z=1953,dz=6] if entity @s[tag=do2.staff,tag=!do2.staff.warned] run tag @s add do2.staff.warned
 
 execute as @a[x=-517,dx=1,y=113,dy=7,z=1953,dz=6] unless entity @s[tag=do2.staff] run tp @s -550 113 1980 90 0

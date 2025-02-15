@@ -1,14 +1,14 @@
 # Cut down on amount of triggers, by making it only a few categories
-# - do2.triggers.coop
+# - do2.trigger.coop
 #   - Show a display depending on whether they are owner or not. (Clear player of all maps when giving it to them)
 #   - Display will always include option to get a map.
 #   - Owner will have the option to open world up to co-op's joining.
-# - do2.triggers.vanilla
+# - do2.trigger.vanilla
 #   - Allow player to customize their GUI settings
 #   - Or their audio settings.
-# - do2.triggers.settings
+# - do2.trigger.settings
 #   - No display menu, will tp player to settings room.
-# - do2.triggers.about
+# - do2.trigger.about
 #   - Include options to customize their logs [IF STAFF OR PRACTICE]
 #   - Include options to view rules
 #   - Include options to view datapack version
