@@ -25,7 +25,7 @@ function removeKeys(obj, keys) {
 }
 
 // Map over json objects and remove unwanted keys
-removeKeys(cardsJson, ["maxCopies", "lore", "name"]);
+removeKeys(cardsJson, ["maxCopies", "lore", "name", "emberValue"]);
 removeKeys(artifactsJson, ["emberValue"]);
 
 // Helper function to convert JSON fields to NBT bytes
