@@ -8,7 +8,6 @@
 - On game end, CHECK stat tracking containers. Notify if ever full
     - List of stat containers are in FR reset containers
     - Check berry/extra item disposal in ravager gauntlet
-- Allow ghosts to spectate their allies in shop freely
 - Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
     - Add message explaining it.
 - Add config for staircase ember count
@@ -16,8 +15,8 @@
 
 # Other TODO:
 - make custom do2 language for translating stuff like `do2.logs.button.disable` into the font characters. 
-- Playsound SFX for nightime
-- Playsound SFX for agronet activations
+- Night Time SFX enabled for comp
+- Create a Playsound SFX for agronet activations
 - Add subtitles to rest of sounds.json (maybe)
 - Spectating room, needs to be finished.
 - Brilliant datapack might not be syncing hidden to visible advancements.
