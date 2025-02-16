@@ -20,7 +20,6 @@ function do2:scoreboard/config/fresh_runs/sign
 function do2:scoreboard/config/balance_changes/sign
 function do2:scoreboard/config/amount_of_bats/sign
 function do2:scoreboard/config/egg_rewards/sign
-function do2:scoreboard/config/endermites/sign
 function do2:scoreboard/config/random_night_chance/sign
 function do2:scoreboard/config/tick_rate/sign
 

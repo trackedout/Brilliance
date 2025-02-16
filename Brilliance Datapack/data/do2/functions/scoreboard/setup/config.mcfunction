@@ -1,6 +1,3 @@
-# Dungeon Config: how many endermites to spawn in.
-scoreboard objectives add do2.config.endermiteCount dummy "Endermite Count."
-
 # Dungeon Config: whether to disable treasure on max clank.
 scoreboard objectives add do2.config.maxClankTreasure dummy "§8Clank §rDisables Treasure."
 

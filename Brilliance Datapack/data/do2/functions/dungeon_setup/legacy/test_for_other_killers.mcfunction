@@ -3,20 +3,6 @@ execute as @a[scores={do2.logs.dungeon_setup=4..}] run tellraw @s ["",{"text":"Â
 # - End Log -
 
 
-# Kill extra mites.
-execute if score $dungeon do2.config.endermiteCount matches ..5 run kill @e[type=minecraft:endermite,tag=L2MITE6]
-execute if score $dungeon do2.config.endermiteCount matches ..4 run kill @e[type=minecraft:endermite,tag=L2MITE5]
-execute if score $dungeon do2.config.endermiteCount matches ..3 run kill @e[type=minecraft:endermite,tag=L2MITE4]
-execute if score $dungeon do2.config.endermiteCount matches ..2 run kill @e[type=minecraft:endermite,tag=L2MITE3]
-execute if score $dungeon do2.config.endermiteCount matches ..1 run kill @e[type=minecraft:endermite,tag=L2MITE2]
-execute if score $dungeon do2.config.endermiteCount matches ..0 run kill @e[type=minecraft:endermite,tag=L2MITE1]
-# Check for mites.
-execute if score $dungeon do2.config.endermiteCount matches 1.. unless entity @e[type=minecraft:endermite,tag=L2MITE1] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE1"], Health: 8.0f, CustomName: '{"text":"Tacticle Tickle"}'}
-execute if score $dungeon do2.config.endermiteCount matches 2.. unless entity @e[type=minecraft:endermite,tag=L2MITE2] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE2"], Health: 8.0f, CustomName: '{"text":"Frostmite"}'}
-execute if score $dungeon do2.config.endermiteCount matches 3.. unless entity @e[type=minecraft:endermite,tag=L2MITE3] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE3"], Health: 8.0f, CustomName: '{"text":"Bit Nibbler"}'}
-execute if score $dungeon do2.config.endermiteCount matches 4.. unless entity @e[type=minecraft:endermite,tag=L2MITE4] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE4"], Health: 8.0f, CustomName: '{"text":"Lil\' Endy"}'}
-execute if score $dungeon do2.config.endermiteCount matches 5.. unless entity @e[type=minecraft:endermite,tag=L2MITE5] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE5"], Health: 8.0f, CustomName: '{"text":"Parkour Failure"}'}
-execute if score $dungeon do2.config.endermiteCount matches 6.. unless entity @e[type=minecraft:endermite,tag=L2MITE6] run summon minecraft:endermite -546 6 2016 {PersistenceRequired:1b, Invulnerable: 1b, Tags: ["L2MITE6"], Health: 8.0f, CustomName: '{"text":"Nice Jump LOL"}'}
 
 
 # Need to check if ONE killer is not existing. Best way I could do this:

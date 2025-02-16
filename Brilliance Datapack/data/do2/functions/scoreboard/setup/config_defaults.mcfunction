@@ -1,4 +1,3 @@
-execute unless score $dungeon do2.config.endermiteCount matches 0.. run scoreboard players set $dungeon do2.config.endermiteCount 2
 execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreboard players set $dungeon do2.config.maxClankTreasure 0
 execute unless score $dungeon do2.config.nightTimeChance matches 0.. run scoreboard players set $dungeon do2.config.nightTimeChance 25
 execute unless score $dungeon do2.config.vexTracking matches 0.. run scoreboard players set $dungeon do2.config.vexTracking 1
