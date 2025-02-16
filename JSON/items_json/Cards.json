@@ -28,7 +28,8 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 4 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
     ],
-    "emberValue": 6
+    "emberValue": 6,
+    "ethereal": true
   },
   "pay_to_win": {
     "shorthand": "P2W",
@@ -56,7 +57,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 10 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": true
   },
   "pork_chop_power": {
     "shorthand": "PCP",
@@ -86,7 +88,8 @@
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"are dropped at\"}",
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"the dungeon entrance.\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "tactical_approach": {
     "shorthand": "TAA",
@@ -115,7 +118,8 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 5 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 5 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": true
   },
   "sneak": {
     "shorthand": "SNE",
@@ -142,7 +146,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
     ],
-    "emberValue": 7
+    "emberValue": 7,
+    "ethereal": false
   },
   "stability": {
     "shorthand": "STA",
@@ -169,7 +174,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"gray\",\"text\": \"Block 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}"
     ],
-    "emberValue": 8
+    "emberValue": 8,
+    "ethereal": false
   },
   "treasure_hunter": {
     "shorthand": "TRH",
@@ -196,7 +202,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 4 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}"
     ],
-    "emberValue": 9
+    "emberValue": 9,
+    "ethereal": false
   },
   "ember_seeker": {
     "shorthand": "EMS",
@@ -223,7 +230,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"}"
     ],
-    "emberValue": 10
+    "emberValue": 10,
+    "ethereal": false
   },
   "evasion": {
     "shorthand": "EVA",
@@ -250,7 +258,8 @@
       "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 4 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}"
     ],
-    "emberValue": 16
+    "emberValue": 16,
+    "ethereal": false
   },
   "tread_lightly": {
     "shorthand": "TRL",
@@ -277,7 +286,8 @@
       "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 4 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}"
     ],
-    "emberValue": 18
+    "emberValue": 18,
+    "ethereal": false
   },
   "loot_and_scoot": {
     "shorthand": "LAS",
@@ -305,7 +315,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 7 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}"
     ],
-    "emberValue": 20
+    "emberValue": 20,
+    "ethereal": false
   },
   "frost_focus": {
     "shorthand": "FRF",
@@ -332,7 +343,8 @@
       "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 4 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"}"
     ],
-    "emberValue": 20
+    "emberValue": 20,
+    "ethereal": false
   },
   "second_wind": {
     "shorthand": "SEW",
@@ -360,7 +372,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"red\",\"text\":\"Regeneration\"}],\"text\":\"\"}"
     ],
-    "emberValue": 22
+    "emberValue": 22,
+    "ethereal": false
   },
   "beast_sense": {
     "shorthand": "BES",
@@ -389,7 +402,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"The next 3 cards cause all\"}",
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Ravagers to briefly glow.\"}"
     ],
-    "emberValue": 24
+    "emberValue": 24,
+    "ethereal": false
   },
   "bounding_strides": {
     "shorthand": "BST",
@@ -417,7 +431,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Block 2 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 120s \"},{\"italic\":false,\"color\":\"dark_purple\",\"text\":\"Jump Boost\"}],\"text\":\"\"}"
     ],
-    "emberValue": 26
+    "emberValue": 26,
+    "ethereal": false
   },
   "reckless_charge": {
     "shorthand": "REC",
@@ -446,7 +461,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"If you trigger a Shrieker\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"within 8 seconds: +10 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"}"
     ],
-    "emberValue": 28
+    "emberValue": 28,
+    "ethereal": false
   },
   "sprint": {
     "shorthand": "SPT",
@@ -473,7 +489,8 @@
       "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 60s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}"
     ],
-    "emberValue": 30
+    "emberValue": 30,
+    "ethereal": false
   },
   "nimble_looting": {
     "shorthand": "NIL",
@@ -503,7 +520,8 @@
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Until \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" increases, each\"}],\"text\":\"\"}",
       "{\"extra\":[{\"extra\":[{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" blocked gives +2 \"}],\"text\":\"\"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}"
     ],
-    "emberValue": 32
+    "emberValue": 32,
+    "ethereal": false
   },
   "smash_and_grab": {
     "shorthand": "SAG",
@@ -531,7 +549,8 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 13 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 2 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
     ],
-    "emberValue": 34
+    "emberValue": 34,
+    "ethereal": false
   },
   "quick_step": {
     "shorthand": "QUI",
@@ -560,7 +579,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 15s \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 1 \"},{\"italic\":false,\"color\":\"#80C71F\",\"text\":\"Card Recycle\"}],\"text\":\"\"}"
     ],
-    "emberValue": 36
+    "emberValue": 36,
+    "ethereal": false
   },
   "suit_up": {
     "shorthand": "SUU",
@@ -593,7 +613,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"a 25% chance of generating\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"1 additional \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}"
     ],
-    "emberValue": 38
+    "emberValue": 38,
+    "ethereal": false
   },
   "adrenaline_rush": {
     "shorthand": "ADR",
@@ -622,7 +643,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"For 20 seconds every\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"heartbeat gives +1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#FED83D\",\"text\":\"🪙\"}],\"text\":\"\"}"
     ],
-    "emberValue": 40
+    "emberValue": 40,
+    "ethereal": false
   },
   "brilliance": {
     "shorthand": "BRI",
@@ -649,7 +671,8 @@
       "{\"bold\":true,\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"-----\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+ 2 \"},{\"italic\":false,\"color\":\"#80C71F\",\"text\":\"Card Recycles\"}],\"text\":\"\"}"
     ],
-    "emberValue": 66
+    "emberValue": 66,
+    "ethereal": false
   },
   "deepfrost": {
     "shorthand": "DEF",
@@ -677,7 +700,8 @@
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"+6 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" for each staircase\"}],\"text\":\"\"}",
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"already unlocked.\"}"
     ],
-    "emberValue": 64
+    "emberValue": 64,
+    "ethereal": false
   },
   "fuzzy_bunny_slippers": {
     "shorthand": "FBS",
@@ -708,7 +732,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"You cannot gain \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"}",
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"if you have an \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Artifact\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
     ],
-    "emberValue": 62
+    "emberValue": 62,
+    "ethereal": false
   },
   "silent_runner": {
     "shorthand": "SIR",
@@ -737,7 +762,8 @@
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Every 15s of \"},{\"italic\":false,\"color\":\"#C74EBD\",\"text\":\"Run Speed\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\":\"}],\"text\":\"\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"50% chance to \"},{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Block 1 \"},{\"bold\":true,\"italic\":false,\"color\":\"#169C9C\",\"text\":\"💥\"}],\"text\":\"\"}],\"text\":\"\"}"
     ],
-    "emberValue": 60
+    "emberValue": 60,
+    "ethereal": false
   },
   "cold_snap": {
     "shorthand": "COS",
@@ -766,7 +792,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"For the next 3 cards,\"}",
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"any \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" drops are doubled.\"}],\"text\":\"\"}"
     ],
-    "emberValue": 58
+    "emberValue": 58,
+    "ethereal": false
   },
   "pirates_booty": {
     "shorthand": "PIB",
@@ -795,7 +822,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"are released on the\"}",
       "{\"extra\":[{\"italic\":false,\"color\":\"#F9FFFE\",\"text\":\"Pirate Ship\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
     ],
-    "emberValue": 56
+    "emberValue": 56,
+    "ethereal": false
   },
   "eyes_on_the_prize": {
     "shorthand": "EOP",
@@ -824,7 +852,8 @@
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"available for purchase\"}",
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"in the \"},{\"italic\":false,\"color\":\"aqua\",\"text\":\"Frost Ember Shop\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\".\"}],\"text\":\"\"}"
     ],
-    "emberValue": 52
+    "emberValue": 52,
+    "ethereal": false
   },
   "speed_runner": {
     "shorthand": "SPR",
@@ -854,7 +883,8 @@
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"8 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" are dropped at the\"}],\"text\":\"\"}",
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"beginning of Level 3.\"}"
     ],
-    "emberValue": 50
+    "emberValue": 50,
+    "ethereal": false
   },
   "chill_step": {
     "shorthand": "CHS",
@@ -882,7 +912,8 @@
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Future \"},{\"color\":\"gray\",\"text\":\"✧ Sneak ✧\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\" cards played\"}],\"text\":\"\"}",
       "{\"extra\":[{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"gain +2 \"},{\"bold\":false,\"italic\":false,\"color\":\"aqua\",\"text\":\"🔥\"}],\"text\":\"\"},{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\". This bonus can stack.\"}],\"text\":\"\"}"
     ],
-    "emberValue": 48
+    "emberValue": 48,
+    "ethereal": false
   },
   "swagger": {
     "shorthand": "SWA",
@@ -912,7 +943,8 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Shuffle 2 \"},{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}],\"text\":\"\"}",
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"cards into your deck.\"}"
     ],
-    "emberValue": 46
+    "emberValue": 46,
+    "ethereal": false
   },
   "dungeon_repairs": {
     "shorthand": "DUR",
@@ -940,7 +972,8 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 7 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
     ],
-    "emberValue": 44
+    "emberValue": 44,
+    "ethereal": false
   },
   "eerie_silence": {
     "shorthand": "EES",
@@ -969,11 +1002,13 @@
       "{\"extra\":[{\"italic\":false,\"color\":\"gray\",\"text\":\"Block 2 \"},{\"bold\":false,\"italic\":false,\"color\":\"dark_red\",\"text\":\"⚠\"}],\"text\":\"\"}",
       "{\"italic\":false,\"color\":\"#9D9D97\",\"text\":\"Skip the next card.\"}"
     ],
-    "emberValue": 42
+    "emberValue": 42,
+    "ethereal": false
   },
   "stumble": {
     "shorthand": "STU",
     "id": "minecraft:iron_nugget",
+    "maxCopies": 999,
     "tag": {
       "NameFormat": {
         "OriginalName": "{\"color\":\"dark_red\",\"font\":\"minecraft:default\",\"text\":\"✲ Stumble ✲\"}",
@@ -998,7 +1033,8 @@
       " {\"color\": \"#9D9D97\",\"text\": \"Added to deck every 120s\"}",
       " {\"extra\": [{\"color\": \"#9D9D97\",\"text\": \"Can be \"},{\"italic\": true,\"color\": \"#80C71F\",\"text\": \"Recycled\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "dungeon_lackey": {
     "shorthand": "DUL",
@@ -1027,7 +1063,8 @@
       " {\"bold\": true,\"italic\": false,\"color\": \"#F9FFFE\",\"text\": \"-----\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 8 \"},{\"bold\": true,\"italic\": false,\"color\": \"#169C9C\",\"text\": \"💥\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": true
   },
   "avalanche": {
     "shorthand": "AVA",
@@ -1055,7 +1092,8 @@
       " {\"extra\": [{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": false,\"italic\": false,\"color\": \"aqua\",\"text\": \"🔥\"}],\"text\": \"\"},{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \" for each card\"}],\"text\": \"\"}",
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"played so far.\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "beast_master": {
     "shorthand": "BEM",
@@ -1085,7 +1123,8 @@
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"50% chance all Ravagers\"}",
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"briefly glow.\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "boots_of_swiftness": {
     "shorthand": "BOS",
@@ -1116,7 +1155,8 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 30s \"},{\"italic\": false,\"color\": \"#C74EBD\",\"text\": \"Run Speed\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 30s \"},{\"italic\": false,\"color\": \"dark_purple\",\"text\": \"Jump Boost\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "cash_cow": {
     "shorthand": "CAC",
@@ -1143,7 +1183,8 @@
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Every remaining\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"card gives \"},{\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 1 \"},{\"bold\": true,\"italic\": false,\"color\": \"#FED83D\",\"text\": \"🪙\"}],\"text\": \"\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   },
   "glorious_moment": {
     "shorthand": "GLM",
@@ -1174,6 +1215,7 @@
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"Block 3 \"},{\"bold\": false,\"italic\": false,\"color\": \"dark_red\",\"text\": \"⚠\"}],\"text\": \"\"}",
       " {\"extra\": [{\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"+ 3 \"},{\"italic\": false,\"color\": \"#80C71F\",\"text\": \"Card Recycles\"}],\"text\": \"\"}"
     ],
-    "emberValue": null
+    "emberValue": null,
+    "ethereal": false
   }
 }
