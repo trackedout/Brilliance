@@ -11,11 +11,11 @@ execute unless entity @a[tag=!do2.fakePlayer] if entity @a[name=tangocam,tag=do2
 # Only do dungeon repair IF: an actual player is loading the dungeon.
 execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41.00 1984 if entity @a[tag=!do2.fakePlayer,distance=..300] run function do2:dungeon_setup/all
 
-# Kill all bats. 0 = all, 1 = L1 & L2
-execute if score $dungeon do2.config.batDistraction matches 1 as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -200 ~
-execute if score $dungeon do2.config.batDistraction matches 0 as @e[type=minecraft:bat,tag=!mobcap] at @s run tp @s ~ -200 ~
+# Remove all bats not in L3 & L4. (Mob cap deals with amount)
+execute as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -200 ~
+
 # Ensure correct bat count for L3 & L4
-execute if score $dungeon do2.config.batDistraction matches 1 if score $dungeon do2.config.amountOfBats matches 1.. run function do2:entity_controller/ensure_bat_count
+function do2:entity_controller/ensure_bat_count
 # Ensure correct glow squids
 function do2:entity_controller/ensure_glow_squid_count
 # Ensure correct fish counts

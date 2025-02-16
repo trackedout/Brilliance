@@ -3,7 +3,6 @@ execute unless score $dungeon do2.config.maxClankTreasure matches 0.. run scoreb
 execute unless score $dungeon do2.config.nightTimeChance matches 0.. run scoreboard players set $dungeon do2.config.nightTimeChance 25
 execute unless score $dungeon do2.config.vexTracking matches 0.. run scoreboard players set $dungeon do2.config.vexTracking 1
 execute unless score $dungeon do2.config.eggRewards matches 0.. run scoreboard players set $dungeon do2.config.eggRewards 1
-execute unless score $dungeon do2.config.batDistraction matches 0.. run scoreboard players set $dungeon do2.config.batDistraction 1
 execute unless score $dungeon do2.config.tickRate matches 0.. run scoreboard players set $dungeon do2.config.tickRate 2
 execute unless score $dungeon do2.utility.currentTick matches 0.. run scoreboard players set $dungeon do2.utility.currentTick 0
 execute unless score $dungeon do2.config.ticksPerSecond matches 0.. run scoreboard players set $dungeon do2.config.ticksPerSecond 20

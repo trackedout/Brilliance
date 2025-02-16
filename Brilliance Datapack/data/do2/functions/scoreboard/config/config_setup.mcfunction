@@ -35,7 +35,6 @@ function do2:scoreboard/config/boolean_levers/force_gamemode/sign
 function do2:scoreboard/config/boolean_levers/disable_treasure/sign
 function do2:scoreboard/config/boolean_levers/use_world_cycles/sign
 function do2:scoreboard/config/boolean_levers/force_food/sign
-function do2:scoreboard/config/boolean_levers/bats_distraction/sign
 
 # ==================
 # - MOB CONTROLLER -

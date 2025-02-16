@@ -17,9 +17,6 @@ scoreboard objectives add do2.config.vexTracking dummy "Vex tracks player"
 # 3 = 1/2/3 per level
 scoreboard objectives add do2.config.eggRewards dummy "Reward Egg Findings."
 
-# Dungeon Config: Whether we allow bats to exist on L3 and L4.
-scoreboard objectives add do2.config.batDistraction dummy "Bats distract Wardens."
-
 # Dungeon Config: How fast the datapack should run.
 scoreboard objectives add do2.config.tickRate dummy "Datapack tick rate."
 
