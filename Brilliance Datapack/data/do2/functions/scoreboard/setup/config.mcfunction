@@ -67,7 +67,6 @@ scoreboard objectives add do2.config.fr.cakeGauntlet dummy "Reset Cake at Gauntl
 scoreboard objectives add do2.config.refillDungeonType dummy "When to Refill Dungeon"
 
 # Dungeon Config: Mob Controller
-scoreboard objectives add do2.config.ec.controlSummons dummy "Whether to use the new mob controller system"
 scoreboard objectives add do2.config.ec.levelEditing dummy "Which level is currently being edited"
 scoreboard objectives add do2.config.ec.level1Zones dummy "Whether level 1 should have zones"
 scoreboard objectives add do2.config.ec.level2Zones dummy "Whether level 2 should have zones"

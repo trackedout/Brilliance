@@ -25,7 +25,6 @@ execute unless score $dungeon do2.config.fr.refillBerries matches 0.. run scoreb
 execute unless score $dungeon do2.config.fr.resetComposters matches 0.. run scoreboard players set $dungeon do2.config.fr.resetComposters 1
 execute unless score $dungeon do2.config.fr.cakeGauntlet matches 0.. run scoreboard players set $dungeon do2.config.fr.cakeGauntlet 1
 execute unless score $dungeon do2.config.refillDungeonType matches 0.. run scoreboard players set $dungeon do2.config.refillDungeonType 1
-execute unless score $dungeon do2.config.ec.controlSummons matches 0.. run scoreboard players set $dungeon do2.config.ec.controlSummons 0
 execute unless score $dungeon do2.config.ec.levelEditing matches 0.. run scoreboard players set $dungeon do2.config.ec.levelEditing 1
 execute unless score $dungeon do2.config.ec.level1Zones matches 0.. run scoreboard players set $dungeon do2.config.ec.level1Zones 1
 execute unless score $dungeon do2.config.ec.level2Zones matches 0.. run scoreboard players set $dungeon do2.config.ec.level2Zones 1
@@ -46,7 +45,6 @@ execute unless score $l3z3 do2.config.ec.levelZoneMobCount matches 0.. run score
 execute unless score $l4z1 do2.config.ec.levelZoneMobCount matches 0.. run scoreboard players set $l4z1 do2.config.ec.levelZoneMobCount 1
 execute unless score $l4z2 do2.config.ec.levelZoneMobCount matches 0.. run scoreboard players set $l4z2 do2.config.ec.levelZoneMobCount 1
 execute unless score $l4z3 do2.config.ec.levelZoneMobCount matches 0.. run scoreboard players set $l4z3 do2.config.ec.levelZoneMobCount 1
-execute unless score $dungeon do2.config.ec.controlSummons matches 0.. run scoreboard players set $dungeon do2.config.ec.controlSummons 1
 execute unless score $dungeon do2.run.active matches 0.. run scoreboard players set $dungeon do2.run.active 0
 
 # Note that we've set the defaults already
