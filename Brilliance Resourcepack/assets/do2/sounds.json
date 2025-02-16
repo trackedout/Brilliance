@@ -963,5 +963,13 @@
                 "name": "do2:misc/thats_joe_hills"
             }
         ]
+    },
+    "misc.phantom_screech": {
+        "replace": false,
+        "sounds": [
+            {
+                "name": "do2:misc/adjusted_phantom"
+            }
+        ]
     }
 }

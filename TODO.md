@@ -1,3 +1,19 @@
+# World Download Todo:
+- Stats room is missing several features. Needs updating, especially with the new scores.
+- Finish the level interface book.
+    - Need Mob Amount & Names implemented.
+- Config to replace 'retired' hermits.
+    - Need new artifacts
+- Disentangle weather/daytime cycle configs
+- On game end, CHECK stat tracking containers. Notify if ever full
+    - List of stat containers are in FR reset containers
+    - Check berry/extra item disposal in ravager gauntlet
+- Allow ghosts to spectate their allies in shop freely
+- Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
+    - Add message explaining it.
+- Add config for staircase ember count
+- Add INTERFACE for config of number of shop cards always available
+
 # Other TODO:
 - make custom do2 language for translating stuff like `do2.logs.button.disable` into the font characters. 
 - Playsound SFX for nightime
@@ -5,22 +21,13 @@
 - Add subtitles to rest of sounds.json (maybe)
 - Spectating room, needs to be finished.
 - Brilliant datapack might not be syncing hidden to visible advancements.
-- Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
-  - Add message explaining it.
 - Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
 - duplicate daveybones?
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - config for deck limit.
 - When going from zoneless to zoned, Z4 and Z5 ravagers still exist.
   - When random TP is off, ravagers can be in the wrong zones as well, need to force TP when swapping.
-- Disentangle weather/daytime cycle configs
-- Config to replace 'retired' hermits.
-  - Need new artifacts
-- On game end, CHECK stat tracking containers. Notify if ever full
-  - List of stat containers are in FR reset containers 
-  - Check berry/extra item disposal in ravager gauntlet
 - Add FR config to completely reset hermit's impact to the dungeon.
-- Add INTERFACE for config of number of shop cards always available
 - Add is_waxed:1b to all non-clickable signs
   - ```
     * -575 110 2010
@@ -36,15 +43,11 @@
     * -554 114 2028 (every single one of the Hermit's cubbies)
     * -492 117 1972 (every single one of our expanded rooms
     ```
-- Allow ghosts to spectate their allies in shop freely
-- Stats room is missing several features. Needs updating, especially with the new scores.
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.
 - Update Brilliance's main readme.
 - Fix on_crown_acquired to not log EVERY crown but instead a total of crowns, once. 
 - Fresh runs, reset_stat_containers contains a link to the document. Should the doc be moved to a more permanent location OR as a PDF on tracked out's website URL needs to be adjusted.
-- Finish the level interface book.
-  - Need Mob Amount & Names implemented.
 - Fish markers have same issue as ravager markers, can be duplicated as it takes several ticks to summon markers so it can attempt to summon 99 of them for multiple ticks letting them stack up.
 - Have dropper config book have LINKS to each of the dropper categories.
 - DM each person on the list of players in the credits tab ask them for a short description/saying/quote for their advancement.
