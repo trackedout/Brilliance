@@ -552,7 +552,7 @@
     "emberValue": 34,
     "ethereal": false
   },
-  "quick_step": {
+  "quickstep": {
     "shorthand": "QUI",
     "id": "minecraft:iron_nugget",
     "maxCopies": 3,

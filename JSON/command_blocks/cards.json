@@ -45,7 +45,7 @@
         "types": [
             "facing=north"
         ],
-        "command": "function do2:cards/buy/quick_step"
+        "command": "function do2:cards/buy/quickstep"
     },
     {
         "coords": [
@@ -441,7 +441,7 @@
         "types": [
             "facing=north"
         ],
-        "command": "function do2:cards/available/quick_step"
+        "command": "function do2:cards/available/quickstep"
     },
     {
         "coords": [
@@ -909,7 +909,7 @@
         "types": [
             "facing=south"
         ],
-        "command": "function do2:cards/play/quick_step"
+        "command": "function do2:cards/play/quickstep"
     },
     {
         "coords": [

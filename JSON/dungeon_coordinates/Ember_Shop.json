@@ -229,7 +229,7 @@
 			"-632 -18 2012",
 			"-633 -18 2012"
 		],
-		"default_products": "quick_step",
+		"default_products": "quickstep",
 		"default_price": 36,
 		"hopper_facing": "west",
 		"dropper_facing": "west"
