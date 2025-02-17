@@ -1,46 +1,94 @@
-# Crowns spent "Frozen Shard" -> "Refresh the Shop"
-data merge block -509 110 1974 {Items:[]}
-data merge block -508 110 1974 {Items:[]}
-data merge block -507 110 1974 {Items:[]}
-data merge block -506 110 1974 {Items:[]}
-data merge block -505 110 1974 {Items:[]}
-data merge block -504 110 1974 {Items:[]}
-data merge block -503 110 1974 {Items:[]}
-data merge block -502 110 1974 {Items:[]}
-data merge block -501 110 1974 {Items:[]}
-data merge block -500 110 1974 {Items:[]}
-data merge block -499 110 1974 {Items:[]}
-data merge block -498 110 1974 {Items:[]}
-data merge block -497 110 1974 {Items:[]}
-data merge block -496 110 1974 {Items:[]}
+# For ease of checking less, I'm only checking if the LAST slot of a chest, has an item.
+# Since it's redstone based, it will never fill up unless full w/o player interference
+scoreboard objectives add do2.tests.statContainer dummy
+data modify storage do2:tests containerCoords set value ""
+
+# Crowns Shop purchases.
+
+data modify storage do2:tests description set value "Crown Shop Purchases"
+data modify storage do2:tests containerCoords set value "-509 110 1974"
+execute positioned -509 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-508 110 1974"
+execute positioned -508 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-507 110 1974"
+execute positioned -507 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-506 110 1974"
+execute positioned -506 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-505 110 1974"
+execute positioned -505 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-504 110 1974"
+execute positioned -504 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-503 110 1974"
+execute positioned -503 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-502 110 1974"
+execute positioned -502 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-501 110 1974"
+execute positioned -501 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-500 110 1974"
+execute positioned -500 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-499 110 1974"
+execute positioned -499 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-498 110 1974"
+execute positioned -498 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-497 110 1974"
+execute positioned -497 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-496 110 1974"
+execute positioned -496 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
+
+
+
+# Run count
+data modify storage do2:tests description set value "Total Runs"
+data modify storage do2:tests containerCoords set value "-509 110 1974"
+execute positioned -509 110 1974 run function do2:dungeon_setup/stat_tracking/check_container
 
 # Shards inserted
-data merge block -532 108 1980 {Items:[]}
-data merge block -531 108 1980 {Items:[]}
-# Run count
-data merge block -539 110 1980 {Items:[]}
-data merge block -540 110 1980 {Items:[]}
+data modify storage do2:tests description set value "Total Shards Used"
+data modify storage do2:tests containerCoords set value "-539 110 1980"
+execute positioned -539 110 1980 run function do2:dungeon_setup/stat_tracking/check_container
 
 # Difficulty hoppers. Easy -> Deepfrost
-data merge block -554 107 1979 {Items:[]}
-data merge block -554 107 1977 {Items:[]}
-data merge block -554 107 1975 {Items:[]}
-data merge block -554 107 1973 {Items:[]}
-data merge block -554 107 1971 {Items:[]}
+data modify storage do2:tests description set value "Difficulties Played"
+data modify storage do2:tests containerCoords set value "-554 107 1979"
+execute positioned -554 107 1979 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-554 107 1977"
+execute positioned -554 107 1977 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-554 107 1975"
+execute positioned -554 107 1975 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-554 107 1973"
+execute positioned -554 107 1973 run function do2:dungeon_setup/stat_tracking/check_container
+data modify storage do2:tests containerCoords set value "-554 107 1971"
+execute positioned -554 107 1971 run function do2:dungeon_setup/stat_tracking/check_container
+
 # Difficulty hopper. Non-nugget Item
-data merge block -554 107 1969 {Items:[]}
+data modify storage do2:tests description set value "Difficulties Error Items"
+data modify storage do2:tests containerCoords set value "-554 107 1969"
+execute positioned -554 107 1969 run function do2:dungeon_setup/stat_tracking/check_container
 
 # Pork Chop Power (count of played)
-data merge block -547 39 1912 {Items:[]}
+data modify storage do2:tests description set value "Pork Chop Power cards played"
+data modify storage do2:tests containerCoords set value "-547 39 1912"
+execute positioned -547 39 1912 run function do2:dungeon_setup/stat_tracking/check_container
 # Tactical Approach (count of played)
-data merge block -556 39 1912 {Items:[]}
+data modify storage do2:tests description set value "Tactical Approach cards played"
+data modify storage do2:tests containerCoords set value "-556 39 1912"
+execute positioned -556 39 1912 run function do2:dungeon_setup/stat_tracking/check_container
 # Dungeon Lackey (count of played)
-data merge block -557 39 1912 {Items:[]}
+data modify storage do2:tests description set value "Dungeon Lackey cards played"
+data modify storage do2:tests containerCoords set value "-557 39 1912"
+execute positioned -557 39 1912 run function do2:dungeon_setup/stat_tracking/check_container
 # Moment of Clarity (count of played)
-data merge block -576 35 1916 {Items:[]}
+data modify storage do2:tests description set value "Moment of Clarity cards played"
+data modify storage do2:tests containerCoords set value "-576 35 1916"
+execute positioned -576 35 1916 run function do2:dungeon_setup/stat_tracking/check_container
 # Pay to Win (count of played)
-data merge block -584 35 1916 {Items:[]}
+data modify storage do2:tests description set value "Pay to Win cards played"
+data modify storage do2:tests containerCoords set value "-584 35 1916"
+execute positioned -584 35 1916 run function do2:dungeon_setup/stat_tracking/check_container
 # Open Ethereal bay - 3rd Lvl (count of played)
+data modify storage do2:tests description set value "Pay to Win cards played"
+data modify storage do2:tests containerCoords set value "-584 35 1916"
+execute positioned -584 35 1916 run function do2:dungeon_setup/stat_tracking/check_container
 data merge block -592 35 1916 {Items:[]}
 # Open Ethereal bay - 3rd Lvl (count of played)
 data merge block -600 35 1916 {Items:[]}
@@ -54,7 +102,7 @@ data merge block -490 52 1991 {Items:[]}
 data merge block -490 52 1992 {Items:[]}
 data merge block -592 12 1948 {Items:[]}
 data merge block -591 12 1948 {Items:[]}
-data merge block -638 -20 1900 {Items:[]}
+data merge block -638 -19 1900 {Items:[]}
 
 # Pumpkins submitted
 data merge block -521 12 2048 {Items:[]}
@@ -303,4 +351,6 @@ data merge block -617 28 1923 {Items:[]}
 # Non-card items played (TO-DO2 Addition)
 data merge block -622 37 1915 {Items:[]}
 
-tellraw @s ["",{"text":"\n§fAll §lStat Containers §r§fhave been reset."}]
+# Cleanup
+scoreboard objectives remove do2.tests.statContainer
+data remove storage do2:tests containerCoords

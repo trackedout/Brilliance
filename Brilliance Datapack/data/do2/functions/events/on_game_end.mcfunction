@@ -34,3 +34,6 @@ function do2:external/agronet/game_end
 
 # Replay Mod
 function do2:external/replay_mod/stop
+
+# Check stat containers
+function do2:dungeon_setup/check_stat_tracking_containers
