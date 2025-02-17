@@ -89,7 +89,7 @@
       " {\"italic\": false,\"color\": \"#9D9D97\",\"text\": \"the dungeon entrance.\"}"
     ],
     "emberValue": null,
-    "ethereal": false
+    "ethereal": true
   },
   "tactical_approach": {
     "shorthand": "TAA",
