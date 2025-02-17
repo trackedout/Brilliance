@@ -1,3 +1,6 @@
+# If chance for night chance is less than 0, disable
+execute if score $dungeon do2.config.nightTimeChance matches ..-1 run return 0
+
 # Whether it's DAY or NIGHT.
 time set noon
 scoreboard players set $dungeon do2.utility.randomNumberRange 100
