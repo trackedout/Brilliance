@@ -72,7 +72,7 @@ execute if score @s do2.trigger.about matches 184..189 run function do2:scoreboa
 execute if score @s do2.trigger.about matches 190 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_0
 execute if score @s do2.trigger.about matches 191 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_1
 execute if score @s do2.trigger.about matches 192 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_2
-execute if score @s do2.trigger.about matches 193..189 run function do2:scoreboard/config/receive_logs/documentation
+execute if score @s do2.trigger.about matches 193..199 run function do2:scoreboard/config/receive_logs/documentation
 
 # Player Actions
 execute if score @s do2.trigger.about matches 200 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_0
