@@ -1,13 +1,9 @@
 # World Download Todo:
 - Stats room is missing several features. Needs updating, especially with the new scores.
-- Finish the level interface book.
-    - Need Mob Amount & Names implemented.
+- Update main settings book, for the new settings.
 - Config to replace 'retired' hermits.
     - Need new artifacts
 - Disentangle weather/daytime cycle configs
-- On game end, CHECK stat tracking containers. Notify if ever full
-    - List of stat containers are in FR reset containers
-    - Check berry/extra item disposal in ravager gauntlet
 - Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
     - Add message explaining it.
 - Add config for staircase ember count
