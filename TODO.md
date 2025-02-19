@@ -7,9 +7,9 @@
 - Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
     - Add message explaining it.
 - Add config for staircase ember count
-- Add INTERFACE for config of number of shop cards always available
 
 # Other TODO:
+- Make cards available make cards able to be chosen dynamic with cards always available.
 - make custom do2 language for translating stuff like `do2.logs.button.disable` into the font characters. 
 - Night Time SFX enabled for comp
 - Create a Playsound SFX for agronet activations

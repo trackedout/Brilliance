@@ -24,7 +24,7 @@ function do2:dungeon_setup/randomize_clank_blockers/randomize_shrieker_groups
 
 # Ensure X amount of cards are always available
 fill -624 -17 2014 -624 -17 1998 air replace
-schedule function do2:dungeon_setup/make_cards_always_available 1s
+schedule function do2:dungeon_setup/make_cards_always_available/setup 1s
 
 # Experimental
 function do2:scoreboard/config/max_clank_berries/start_suppress_berries

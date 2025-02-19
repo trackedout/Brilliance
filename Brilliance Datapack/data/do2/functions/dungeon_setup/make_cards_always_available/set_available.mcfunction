@@ -1,25 +1,4 @@
-# This function always ran at dungeon_setup
-
-# Make sure cards can't be re-picked if none in their category can be picked
-data merge block -622 -17 1985 {Items:[]}
-data merge block -623 -17 1985 {Items:[]}
-data merge block -624 -17 1985 {Items:[]}
-data merge block -625 -17 1985 {Items:[]}
-data merge block -622 -17 1986 {Items:[]}
-data merge block -623 -17 1986 {Items:[]}
-data merge block -624 -17 1986 {Items:[]}
-data merge block -625 -17 1986 {Items:[]}
-data merge block -626 -15 1986 {Items: [{Slot: 0b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank1"}'}}}, {Slot: 1b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank1"}'}}}, {Slot: 2b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank2"}'}}}, {Slot: 3b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank2"}'}}}, {Slot: 4b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank3"}'}}}, {Slot: 5b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank4"}'}}}]}
-
-# TODO: make this is dynamic, atm it's a bit broken.
-execute if score $dungeon do2.config.cardsAlwaysAvailable matches 7.. run data merge block -626 -15 1986 {Items: [{Slot: 2b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank2"}'}}}, {Slot: 3b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank2"}'}}}, {Slot: 4b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank3"}'}}}, {Slot: 5b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank4"}'}}}]}
-execute if score $dungeon do2.config.cardsAlwaysAvailable matches 14.. run data merge block -626 -15 1986 {Items: [{Slot: 4b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank3"}'}}}, {Slot: 5b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank4"}'}}}]}
-execute if score $dungeon do2.config.cardsAlwaysAvailable matches 20.. run data merge block -626 -15 1986 {Items: [{Slot: 5b, id: "minecraft:emerald", Count: 64b, tag: {RepairCost: 0, display: {Name: '{"text":"Bank4"}'}}}]}
-execute if score $dungeon do2.config.cardsAlwaysAvailable matches 26 run data merge block -626 -15 1986 {Items: []}
-
-
 # Make sure cards are available
-
 execute unless score $dungeon do2.config.cardsAlwaysAvailable matches 1..26 run return 0
 
 
