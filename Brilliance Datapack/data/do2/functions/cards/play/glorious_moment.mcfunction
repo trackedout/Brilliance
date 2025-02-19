@@ -8,5 +8,5 @@ execute as @p[tag=do2.received_shulker] run scoreboard players add @s do2.cards.
 scoreboard players add $dungeon do2.run.cards.played.BOS 1
 scoreboard players add $dungeon do2.cards.played.BOS 1
 # Agronet Event Handling
-scoreboard players set $dungeon do2.agronet.card_played 38
+scoreboard players set $dungeon do2.agronet.card_played 40
 execute as @p[tag=do2.received_shulker] run function do2:external/agronet/card_played
