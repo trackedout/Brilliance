@@ -26,6 +26,9 @@ scoreboard objectives add do2.config.fastReset dummy "Fast Dungeon Reset."
 # Dungeon Config: Amount of bats in the dungeon.
 scoreboard objectives add do2.config.amountOfBats dummy "Amount of Bats"
 
+# Dungeon Config: Amount of cards always available to purchase.
+scoreboard objectives add do2.config.cardsAlwaysAvailable dummy "Amount of cards always available to purchase"
+
 # Dungeon Config: Amount of fishes in the dungeon.
 scoreboard objectives add do2.config.amountOfFish dummy "Amount of Fishes"
 
@@ -50,7 +53,6 @@ scoreboard objectives add do2.config.bc.balancedTnTDiveLoot dummy "Balanced TnT 
 scoreboard objectives add do2.config.bc.lessLootMaxClank dummy "Less Loot on Max §8Clank"
 scoreboard objectives add do2.config.bc.suitUpRes dummy "Suit Up Resistance"
 scoreboard objectives add do2.config.bc.staircaseEmbers dummy "Staircase Embers"
-scoreboard objectives add do2.config.bc.cardsAlwaysAvailable dummy "Amount of cards always available to purchase"
 
 
 # Dungeon Config: Fresh Runs

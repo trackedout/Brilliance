@@ -22,6 +22,7 @@ function do2:scoreboard/config/amount_of_bats/sign
 function do2:scoreboard/config/egg_rewards/sign
 function do2:scoreboard/config/random_night_chance/sign
 function do2:scoreboard/config/tick_rate/sign
+function do2:scoreboard/config/cards_always_available/sign
 
 # ==================
 # - BOOLEAN LEVERS -
