@@ -30,3 +30,13 @@ jobs:
             JSON/items_json/Cards.json
             JSON/items_json/Artifacts.json
             JSON/items_json/Items.json
+
+  trigger-agronet-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Agronet build
+        run: |
+          curl -X POST -H "Accept: application/vnd.github.v3+json" \
+               -H "Authorization: token ${{ secrets.AGRONET_BUILD_TRIGGER_TOKEN }}" \
+               https://api.github.com/repos/trackedout/agronet-fabric/actions/workflows/build.yml/dispatches \
+               -d '{"ref":"main"}'
