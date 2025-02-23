@@ -130,7 +130,7 @@
 			],
 			"tooltip": {
 				"name": "§eTreasure",
-				"names": ["Receive logs when:"],
+				"names": ["Receive logs when:","Receive >>L1<< logs as well as when:","Receive >>L2<< logs as well as when:","Receive >>L3<< logs as well as when:"],
 				"values":[
 					["- Treasure added to bomb loot pool",1],
 					["- Treasure successful drop attempts",1],

@@ -75,10 +75,11 @@ execute if score @s do2.trigger.about matches 192 run function do2:scoreboard/co
 execute if score @s do2.trigger.about matches 193..199 run function do2:scoreboard/config/receive_logs/documentation
 
 # Player Actions
-execute if score @s do2.trigger.about matches 200 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_0
-execute if score @s do2.trigger.about matches 201 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_1
-execute if score @s do2.trigger.about matches 202 run function do2:scoreboard/config/receive_logs/on_click/dropper_room_2
-execute if score @s do2.trigger.about matches 203..209 run function do2:scoreboard/config/receive_logs/documentation
+execute if score @s do2.trigger.about matches 200 run function do2:scoreboard/config/receive_logs/on_click/player_actions_0
+execute if score @s do2.trigger.about matches 201 run function do2:scoreboard/config/receive_logs/on_click/player_actions_1
+execute if score @s do2.trigger.about matches 202 run function do2:scoreboard/config/receive_logs/on_click/player_actions_2
+execute if score @s do2.trigger.about matches 203 run function do2:scoreboard/config/receive_logs/on_click/player_actions_3
+execute if score @s do2.trigger.about matches 204..209 run function do2:scoreboard/config/receive_logs/documentation
 
 # Spam
 execute if score @s do2.trigger.about matches 210 run function do2:scoreboard/config/receive_logs/on_click/spam_0
