@@ -1161,6 +1161,7 @@
   "cash_cow": {
     "shorthand": "CAC",
     "id": "minecraft:iron_nugget",
+    "maxCopies": 1,
     "tag": {
       "NameFormat": {
         "color": "#8932b8",
