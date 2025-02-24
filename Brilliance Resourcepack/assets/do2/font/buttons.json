@@ -3,7 +3,7 @@
 	[
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/disable_button.png",
+			"file": "do2:font/fake_buttons/disable.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -14,7 +14,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/empty_button.png",
+			"file": "do2:font/fake_buttons/empty.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -25,7 +25,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/enable_button.png",
+			"file": "do2:font/fake_buttons/enable.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -36,7 +36,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/list_button.png",
+			"file": "do2:font/fake_buttons/list.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -47,7 +47,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/refill_button.png",
+			"file": "do2:font/fake_buttons/refill.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -58,7 +58,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/reset_button.png",
+			"file": "do2:font/fake_buttons/reset.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -69,7 +69,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/info_text.png",
+			"file": "do2:font/fake_buttons/info.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -80,7 +80,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/0_button.png",
+			"file": "do2:font/fake_buttons/zero.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -91,7 +91,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/1_button.png",
+			"file": "do2:font/fake_buttons/one.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -102,7 +102,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/2_button.png",
+			"file": "do2:font/fake_buttons/two.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -113,7 +113,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/3_button.png",
+			"file": "do2:font/fake_buttons/three.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -124,7 +124,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/disable_log_button.png",
+			"file": "do2:font/fake_buttons/darker_disable.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -135,7 +135,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/level_1_button.png",
+			"file": "do2:font/fake_buttons/level_1.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -146,7 +146,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/level_2_button.png",
+			"file": "do2:font/fake_buttons/level_2.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -157,7 +157,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/level_3_button.png",
+			"file": "do2:font/fake_buttons/level_3.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -168,7 +168,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/level_4_button.png",
+			"file": "do2:font/fake_buttons/level_4.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -179,7 +179,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/no_res_button.png",
+			"file": "do2:font/fake_buttons/no_res.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -190,7 +190,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/res_1_button.png",
+			"file": "do2:font/fake_buttons/res_1.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -201,7 +201,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/res_2_button.png",
+			"file": "do2:font/fake_buttons/res_2.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -212,7 +212,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/ship_level_1.png",
+			"file": "do2:font/fake_buttons/ship_1.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -223,7 +223,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/ship_level_2.png",
+			"file": "do2:font/fake_buttons/ship_2.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -234,7 +234,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x0.5.png",
+			"file": "do2:font/fake_buttons/scale_1.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -245,7 +245,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x1.png",
+			"file": "do2:font/fake_buttons/scale_2.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -256,7 +256,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x2.png",
+			"file": "do2:font/fake_buttons/scale_3.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
@@ -267,7 +267,7 @@
 		},
 		{
 			"type": "bitmap",
-			"file": "do2:font/fake_buttons/scale_x4.png",
+			"file": "do2:font/fake_buttons/scale_4.png",
 			"ascent": 9,
 			"height": 10,
 			"space": 16,
