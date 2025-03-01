@@ -1,11 +1,7 @@
 tag @s add do2.tags.gui.enabled
 playsound minecraft:ui.button.click master @s ~ ~ ~ 1 1.7
-tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n§r§l§aENABLED §r§oVanilla Compatability §8GUI map§r §r§oFeature§r\n\nWould you like to customize the size of the GUI's display?\n\n"}]
-
+tellraw @s ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n","color":"gold"},{"text":"ENABLED ","color":"green","bold":true},{"text":"Vanilla Compatability ","italic":true,"color":"white","bold":false},{"text":"GUI map","color":"dark_gray","italic":true},{"text":" ","color":"white","italic":true},{"text":"Feature","italic":true},"\n\nWould you like to customize the size of the GUI's display?\nThis should match your ",{"text":"GUI Scale ","italic":true},{"text":"Video Settings","italic":"true","underlined":true},"\n"]
 # They need a map in inventory for it to work.
 
-# Todo: add underlines to the CURRENTlY scaled option, would require re-sending the text. Prob should make a separate menu display.
-execute if entity @s run tellraw @s ["",{"text":"§3[ SCALE x1 ]","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 121"}}," ",{"text":"§3[ SCALE x2 ]","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 122"}}," ",{"text":"§3[ SCALE x3 ]","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 123"}}," ",{"text":"§3[ SCALE x4 ]","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 124"}}]
-
-tellraw @s ["",{"text":"\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
-
+tellraw @s ["",{"color":"white","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 121"},"translate":"do2.buttons.scale_1","fallback":"%s","with":[{"text":"[SCALE x1]","color":"gold"}]}," ",{"clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 122"},"translate":"do2.buttons.scale_2","fallback":"%s","with":[{"text":"[SCALE x2]","color":"gold"}]}," ",{"clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 123"},"translate":"do2.buttons.scale_3","fallback":"%s","with":[{"text":"[SCALE x3]","color":"gold"}]}," ",{"clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 124"},"translate":"do2.buttons.scale_4","fallback":"%s","with":[{"text":"[SCALE x4]","color":"gold"}]}]
+tellraw @s ["","\n",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","color":"gold"}]
