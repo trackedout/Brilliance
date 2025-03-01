@@ -1,13 +1,10 @@
 execute at @s run playsound minecraft:ui.toast.in master @s ~ ~ ~ 1 0.75
-tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n"}]
-
+tellraw @s ["",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n","color":"gold"}]
 # If they have the tag
-execute if entity @s[tag=do2.tags.audio.enabled] run tellraw @s ["",{"text":"  §r§o§lVanilla Compatability §e§o§lAudio§r §r§o§lFeature: §r§a[ENABLED]"}]
+execute if entity @s[tag=do2.tags.audio.enabled] run tellraw @s ["","  ",{"text":"Vanilla Compatability ","italic":true,"bold":true},{"text":"Audio","color":"yellow","italic":true,"bold":true},{"text":" ","bold":true,"color":"white","italic":true},{"text":"Feature: ","italic":true,"bold":true},{"text":"[ENABLED]","color":"green","bold":true}]
 # Otherwise:
-execute unless entity @s[tag=do2.tags.audio.enabled] run tellraw @s ["",{"text":" §r§o§lVanilla Compatability §e§o§lAudio§r §r§o§lFeature: §r§c[DISABLED]"}]
-
+execute unless entity @s[tag=do2.tags.audio.enabled] run tellraw @s [""," ",{"text":"Vanilla Compatability ","italic":true,"bold":true},{"text":"Audio","color":"yellow","italic":true,"bold":true},{"text":" ","bold":true,"color":"white","italic":true},{"text":"Feature: ","italic":true,"bold":true},{"text":"[DISABLED]","color":"red","bold":true}]
 #
-tellraw @s ["",{"text":"\nYou may enable or disable the ability to receive §n§o/playsound§r equilavent of all Decked Out 2 sound effects.\n"}]
-tellraw @s ["",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 30"}}," ",{"text":"§f","clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 31"}}]
-tellraw @s ["",{"text":"\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]
-
+tellraw @s ["","\nYou may enable or disable the ability to receive ",{"text":"/playsound","italic":true}," equilavent of all Decked Out 2 sound effects.\n"]
+tellraw @s ["",{"clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 30"},"translate":"do2.buttons.enable","fallback":"%s","with":[{"text":"[ENABLE]","color":"green"}]}," ",{"clickEvent":{"action":"run_command","value":"/trigger do2.trigger.vanilla set 31"},"translate":"do2.buttons.darker_disable","fallback":"%s","with":[{"text":"[DISABLE]","color":"dark_red"}]}]
+tellraw @s ["","\n",{"text":"-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-","color":"gold"}]
