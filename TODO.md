@@ -7,10 +7,11 @@
 - Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
     - Add message explaining it.
 - Add config for staircase ember count
+- Bat amount sign is displaying broken text.
+- Buy extra card advancement doesn't check for starting cards. (Should fix, cuz sneak & TRH start with 1)
 
 # Other TODO:
-- Make cards available make cards able to be chosen dynamic with cards always available.
-- make custom do2 language for translating stuff like `do2.logs.button.disable` into the font characters. 
+- Make the cards able to be chosen dynamically matching with `cards_always_available`.
 - Night Time SFX enabled for comp
 - Create a Playsound SFX for agronet activations
 - Add subtitles to rest of sounds.json (maybe)
