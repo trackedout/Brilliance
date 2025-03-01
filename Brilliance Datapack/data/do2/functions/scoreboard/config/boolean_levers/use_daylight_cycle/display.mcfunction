@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\n                §7Use Daylight Cycles\n\n§fThis config setting lets you enable or disable the Day and Night cycle.\n\n§lNotes§r:\n §o- One-Eyed Willie can track players out of water when it's night time.\n§6-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"}]

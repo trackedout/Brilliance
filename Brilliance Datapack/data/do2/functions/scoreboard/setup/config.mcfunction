@@ -36,7 +36,8 @@ scoreboard objectives add do2.config.amountOfFish dummy "Amount of Fishes"
 scoreboard objectives add do2.config.forceGamemode dummy "Force player's gamemode"
 
 # Dungeon Config: Whether to enable day/night and weather cycle.
-scoreboard objectives add do2.config.useWorldCycle dummy "Use Day/Night Cycles"
+scoreboard objectives add do2.config.useDaylightCycle dummy "Use Day/Night Cycles"
+scoreboard objectives add do2.config.useWeatherCycle dummy "Use Weather Cycles"
 
 # Dungeon Config: Whether to force the player's food level.
 scoreboard objectives add do2.config.forceFood dummy "Force player's food"

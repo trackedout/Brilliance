@@ -33,12 +33,13 @@ schedule function do2:utility/postpone_dungeon_setup 1s append
 # One time setup:
 gamerule reducedDebugInfo true
 gamerule spawnRadius 0
-execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle true
-execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doDaylightCycle false
-execute if score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle true
-execute unless score $dungeon do2.config.useWorldCycle matches 1 run gamerule doWeatherCycle false
-execute unless score $dungeon do2.config.useWorldCycle matches 1 run time set noon
-execute unless score $dungeon do2.config.useWorldCycle matches 1 run weather clear
+execute if score $dungeon do2.config.useDaylightCycle matches 1 run gamerule doDaylightCycle true
+execute unless score $dungeon do2.config.useDaylightCycle matches 1 run gamerule doDaylightCycle false
+execute unless score $dungeon do2.config.useDaylightCycle matches 1 run time set noon
+
+execute if score $dungeon do2.config.useWeatherCycle matches 1 run gamerule doWeatherCycle true
+execute unless score $dungeon do2.config.useWeatherCycle matches 1 run gamerule doWeatherCycle false
+execute unless score $dungeon do2.config.useWeatherCycle matches 1 run weather clear
 
 # Run dungeon setup associated with the onServer / onInstance flag, delayed by 2 ticks
 schedule function do2:external/tracked_out/source_flag_setup 2t append
