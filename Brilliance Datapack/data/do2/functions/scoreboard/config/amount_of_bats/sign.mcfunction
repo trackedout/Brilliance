@@ -12,4 +12,4 @@ execute if score $dungeon do2.config.amountOfBats matches 0..15 run data merge b
 
 # Debug sign,
 setblock -585 31 1912 minecraft:oak_sign[rotation=0]
-execute if score $dungeon do2.config.amountOfBats matches 0..15 run data merge block -531 115 1952 {is_waxed:1b, front_text: {has_glowing_text: 0b, color: "black", messages: ['{"color":"#00FF00", "text":"Amount of Bats▲"}','{"color":"#00FF00","text":"urrently here:"}','["",{"color":"#aqua","score":{"objective":"do2.config.amountOfBats","name":"$dungeon"}},{"color":"aqua","text":"§f/§b%"}]','{"text":""}']}}
+execute if score $dungeon do2.config.amountOfBats matches 0..15 run data merge block -585 31 1912 {is_waxed:1b, front_text: {has_glowing_text: 0b, color: "black", messages: ['{"color":"#00FF00", "text":"Amount of Bats"}','{"color":"#00FF00","text":"Currently here:"}','["",{"color":"#aqua","score":{"objective":"do2.config.amountOfBats","name":"$dungeon"}},{"color":"aqua","text":"§f/§b15"}]','{"text":""}']}}
