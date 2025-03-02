@@ -1,6 +1,5 @@
 kill @e[tag=do2.statistics_room,tag=!do2.stats.runs]
 
-execute unless score @p do2.run.active matches 0.. run scoreboard players set @p do2.run.active 0
 execute unless score @p do2.systems.embers.released matches 0.. run scoreboard players set @p do2.systems.embers.released 0
 execute unless score @p do2.systems.treasure.released matches 0.. run scoreboard players set @p do2.systems.treasure.released 0
 execute unless score @p do2.systems.hazard.generated matches 0.. run scoreboard players set @p do2.systems.hazard.generated 0

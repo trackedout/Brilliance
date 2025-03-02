@@ -23,6 +23,7 @@ scoreboard objectives add do2.lifetime.escaped.embers dummy "Total §3Frost Embe
 scoreboard objectives add do2.lifetime.spent.embers dummy "Total §3Frost Embers§r Spent"
 scoreboard objectives add do2.lifetime.escaped.tomes dummy "Total §eTomes§r Escaped With"
 scoreboard objectives add do2.lifetime.spent.tomes dummy "Total §3Tomes§r Spent Or Submitted"
+scoreboard objectives add do2.lifetime.pickedup.bombs dummy "Bomb pick ups"
 
 # - per run -
 scoreboard objectives add do2.run.active dummy "Game in Play"
@@ -36,6 +37,11 @@ scoreboard objectives add do2.run.player_deaths dummy "How many players have die
 scoreboard objectives add do2.run.players dummy "Total players in game"
 
 # - Unique Scores -
+scoreboard objectives add do2.submissions.bombs dummy "Bombs Submitted"
+scoreboard objectives add do2.submissions.l2_key dummy "Level 2 Keys submitted"
+scoreboard objectives add do2.submissions.l3_key dummy "Level 3 Keys submitted"
+scoreboard objectives add do2.submissions.l4_key dummy "Level 4 Keys submitted"
+scoreboard objectives add do2.submissions.dm_key dummy "Level DM Keys submitted"
 scoreboard objectives add do2.depth_charge_success dummy "Total Depth Charge Successes"
 scoreboard objectives add do2.run.depth_charge_success dummy "Whether a Depth Charge Success was this run"
 scoreboard objectives add do2.run.deepest_floor dummy "Deepest floor player has reach."
