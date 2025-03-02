@@ -23,7 +23,7 @@
 								"entity": "this",
 								"scores": {
 									"do2.cards.bought.SNE": {
-										"min": 6
+										"min": 5
 									}
 								}
 							},
@@ -41,7 +41,7 @@
 								"entity": "this",
 								"scores": {
 									"do2.cards.bought.TRH": {
-										"min": 6
+										"min": 5
 									}
 								}
 							},
