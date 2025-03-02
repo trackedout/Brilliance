@@ -1,14 +1,10 @@
 # World Download Todo:
-- Stats room is missing several features. Needs updating, especially with the new scores.
-- Update main settings book, for the new settings.
+- Stats room need to be completed.
+  - Total cards amounts played displayed in Run stats
+  - 6th category of stats needs to be figuredc out.
 - Config to replace 'retired' hermits.
     - Need new artifacts
-- Disentangle weather/daytime cycle configs
-- Change GUI scale numbers to 1-4 to match MC video setting's GUI scale.
-    - Add message explaining it.
 - Add config for staircase ember count
-- Bat amount sign is displaying broken text.
-- Buy extra card advancement doesn't check for starting cards. (Should fix, cuz sneak & TRH start with 1)
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.
@@ -17,7 +13,6 @@
 - Add subtitles to rest of sounds.json (maybe)
 - Spectating room, needs to be finished.
 - Brilliant datapack might not be syncing hidden to visible advancements.
-- Have datapack use the custom GUI scale buttons. Requires shadow to update resource pack to 0.12.7
 - duplicate daveybones?
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - config for deck limit.
