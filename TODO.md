@@ -4,6 +4,7 @@
   - 6th category of stats needs to be figuredc out.
 - Config to replace 'retired' hermits.
     - Need new artifacts
+    - Changing all of the filters for those items.
 - Add config for staircase ember count
 
 # Other TODO:

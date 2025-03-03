@@ -53,3 +53,8 @@ data merge block -522 115 1951 {is_waxed:1b, front_text:{messages:['{"text":"§b
 # =========================
 function do2:vanilla_compatability/audio/interface/sign
 function do2:vanilla_compatability/gui/interface/sign
+
+# =======================
+# - CITADEL APPEARANCES -
+# =======================
+function do2:scoreboard/config/world_setup/sign_setup
