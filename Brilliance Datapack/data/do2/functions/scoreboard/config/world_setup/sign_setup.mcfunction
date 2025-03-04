@@ -5,5 +5,12 @@ data merge block -524 103 2162 {is_waxed:1b,front_text:{messages:['{"text":"Clic
 setblock -524 68 2180 minecraft:oak_wall_sign[facing=north]
 data merge block -524 68 2180 {is_waxed:1b,front_text:{color:'red',has_glowing_text:true,messages:['{"text":""}','{"text":"Return to","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/world_setup/teleport_above"}}','{"text":"the surface"}','{"text":""}']}}
 
+# Retired hermits
+function do2:scoreboard/config/world_setup/retired/sign_setup
 
-# MORE OTW
+# Egg Tracker
+function do2:scoreboard/config/world_setup/egg_tracker/sign_setup
+
+# Hermit Changes
+function do2:scoreboard/config/world_setup/hermit_changes/sign_setup
+
