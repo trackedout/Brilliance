@@ -1,0 +1,47 @@
+# Keralis
+kill @e[type=!player,x=-477,dx=13,y=108,dy=8,z=1996,dz=12]
+# Xisuma
+kill @e[type=!player,x=-479,dx=10,y=108,dy=8,z=2008,dz=8]
+# Doc
+kill @e[type=!player,x=-479,dx=10,y=108,dy=8,z=2018,dz=8]
+
+# False
+kill @e[type=!player,x=-488,dx=8,y=108,dy=8,z=2027,dz=10]
+# Cub
+kill @e[type=!player,x=-498,dx=8,y=108,dy=8,z=2027,dz=10]
+# Beef
+kill @e[type=!player,x=-508,dx=8,y=108,dy=8,z=2027,dz=10]
+# Stress
+kill @e[type=!player,x=-518,dx=8,y=108,dy=8,z=2027,dz=10]
+# XB
+kill @e[type=!player,x=-538,dx=8,y=108,dy=8,z=2027,dz=10]
+# GEM
+kill @e[type=!player,x=-548,dx=8,y=108,dy=8,z=2027,dz=10]
+# Iskall
+kill @e[type=!player,x=-558,dx=8,y=108,dy=8,z=2027,dz=10]
+# Ren
+kill @e[type=!player,x=-568,dx=8,y=108,dy=8,z=2027,dz=10]
+
+# Jevin
+kill @e[type=!player,x=-579,dx=10,y=108,dy=8,z=2018,dz=8]
+# Joe
+kill @e[type=!player,x=-579,dx=10,y=108,dy=8,z=2008,dz=8]
+# Etho
+kill @e[type=!player,x=-579,dx=10,y=108,dy=8,z=1998,dz=8]
+
+# Hypno
+kill @e[type=!player,x=-568,dx=8,y=108,dy=8,z=1989,dz=8]
+# Bdubs
+kill @e[type=!player,x=-558,dx=8,y=108,dy=8,z=1989,dz=8]
+# Cleo
+kill @e[type=!player,x=-548,dx=8,y=108,dy=8,z=1987,dz=10]
+# Scar
+kill @e[type=!player,x=-538,dx=8,y=108,dy=8,z=1987,dz=10]
+# Zedaph
+kill @e[type=!player,x=-518,dx=8,y=108,dy=8,z=1987,dz=10]
+# Pearl
+kill @e[type=!player,x=-508,dx=8,y=108,dy=8,z=1987,dz=10]
+# Grian
+kill @e[type=!player,x=-498,dx=8,y=108,dy=8,z=1987,dz=10]
+# Impulse
+kill @e[type=!player,x=-488,dx=8,y=108,dy=8,z=1987,dz=10]
