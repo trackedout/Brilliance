@@ -2,9 +2,6 @@
 function do2:scoreboard/config/world_setup/hermit_changes/cubbies/clear_entities_inside_cubbies
 schedule function do2:scoreboard/config/world_setup/hermit_changes/cubbies/clear_entities_inside_cubbies 2t append
 
-# TODO: 3 cubbies are broken as they are too close to redstone
-# TODO: several cubbies break the forward facing wall art.
-
 
 # Keralis
 place template do2:world_setup/cubbies/empty_cubby -479 108 1998
