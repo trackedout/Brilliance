@@ -2,6 +2,8 @@
 execute as @a[scores={do2.logs.dev=1..}] run tellraw @s ["",{"text":"§f[§9B§r]: Setting up all scoreboard objectives."}]
 # - End Log -
 
+scoreboard objectives add do2.version dummy "Version number"
+
 # create scoreboard objectives
 # - global -
 scoreboard objectives add do2.runs dummy "Total Runs"
