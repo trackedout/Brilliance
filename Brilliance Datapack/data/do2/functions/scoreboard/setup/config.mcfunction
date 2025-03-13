@@ -76,7 +76,6 @@ scoreboard objectives add do2.config.ec.level2Zones dummy "Whether level 2 shoul
 scoreboard objectives add do2.config.ec.level4Zones dummy "Whether level 4 should have zones"
 scoreboard objectives add do2.config.ec.levelZoneMobCount dummy "How many mobs should be in each zone."
 
-
 # Dungeon Config: Experimental (newEvokers currently unused)
 scoreboard objectives add do2.config.newEvokers dummy "Whether to enable Tracked Out exclusive evoker spots"
 scoreboard objectives add do2.config.maxClankBerries dummy "Whether to allow berries to grow after max clank has been reached"
@@ -84,6 +83,13 @@ scoreboard objectives add do2.config.maxClankBerries dummy "Whether to allow ber
 
 # Player Config: Player's last used Dungeon Difficulty.
 scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"
+
+# World Config: World appearances
+scoreboard objectives add do2.config.wc.leaderboardExists dummy "Whether the leaderboard exists"
+scoreboard objectives add do2.config.wc.queueExists dummy "Whether the queue exists"
+scoreboard objectives add do2.config.wc.museumExists dummy "Whether the museum tower exists"
+scoreboard objectives add do2.config.wc.hermitChangesExists dummy "Whether the hermit changes exists"
+
 
 # ================
 # - SET DEFAULTS -
