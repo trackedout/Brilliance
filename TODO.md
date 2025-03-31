@@ -6,6 +6,8 @@
     - Need new artifacts
     - Changing all of the filters for those items.
 - Add config for staircase ember count
+- Disable Entity Controller's backrooms if queue is removed.
+- Summon queue markers, and entities. + snow golem(nothing unique) when queue is re-added
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.
