@@ -8,6 +8,10 @@
 - Add config for staircase ember count
 - Disable Entity Controller's backrooms if queue is removed.
 - Summon queue markers, and entities. + snow golem(nothing unique) when queue is re-added
+- Refill joe's shulkers. Remove if cubbies not placed.
+- Fun animals, tied to lobby changes exist or not.
+- Merge all etc lobby changes to, leaderboard and rename it to "lobby"
+- Slight issue, leaderboard upon default place, fireworks go off. 
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.

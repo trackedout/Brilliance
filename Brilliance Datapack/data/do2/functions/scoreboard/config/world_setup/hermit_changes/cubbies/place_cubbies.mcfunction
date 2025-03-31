@@ -2,6 +2,10 @@ function do2:scoreboard/config/world_setup/hermit_changes/cubbies/clear_entities
 
 # Keralis
 place template do2:world_setup/cubbies/keralis -478 108 1996
+# fix for keralis waterlogging
+setblock -473 108 2002 air
+setblock -472 108 2002 minecraft:warped_wall_sign[waterlogged=false,facing=west]
+
 # Xisuma
 place template do2:world_setup/cubbies/xisuma -479 108 2008
 # DOC
