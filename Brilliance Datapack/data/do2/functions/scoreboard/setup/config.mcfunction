@@ -88,7 +88,7 @@ scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty
 scoreboard objectives add do2.config.wc.leaderboardExists dummy "Whether the leaderboard exists"
 scoreboard objectives add do2.config.wc.queueExists dummy "Whether the queue exists"
 scoreboard objectives add do2.config.wc.museumExists dummy "Whether the museum tower exists"
-scoreboard objectives add do2.config.wc.hermitChangesExists dummy "Whether the hermit changes exists"
+scoreboard objectives add do2.config.wc.cubbiesExist dummy "Whether the cubbies exists"
 
 
 # ================

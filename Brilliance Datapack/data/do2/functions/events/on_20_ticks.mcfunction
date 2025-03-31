@@ -55,4 +55,4 @@ execute if score $dungeon_five do2.utility.checkTick matches 0 run function do2:
 execute as @a[team=do2.players] run function do2:external/agronet/logs/spam/on_20_ticks
 
 # Apply any world changes
-function do2:scoreboard/config/world_setup/hermit_changes/apply_changes/apply_changes
+function do2:scoreboard/config/world_setup/apply_changes/apply_changes
