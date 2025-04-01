@@ -97,3 +97,6 @@ place template do2:world_setup/cubbies/wall_m -538 115 2030 counterclockwise_90
 place template do2:world_setup/cubbies/wall_o -548 115 2030 counterclockwise_90
 place template do2:world_setup/cubbies/wall_m -558 115 2030 counterclockwise_90
 place template do2:world_setup/cubbies/wall_o -568 115 2030 counterclockwise_90
+
+
+# Stairs at stats and sound gets messed up when we remove cubbies, so fix them.

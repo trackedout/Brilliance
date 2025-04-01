@@ -1,7 +1,7 @@
 # World Download Todo:
 - Stats room need to be completed.
   - Total cards amounts played displayed in Run stats
-  - 6th category of stats needs to be figuredc out.
+  - 6th category of stats needs to be figured out.
 - Config to replace 'retired' hermits.
     - Need new artifacts
     - Changing all of the filters for those items.
@@ -9,9 +9,11 @@
 - Disable Entity Controller's backrooms if queue is removed.
 - Summon queue markers, and entities. + snow golem(nothing unique) when queue is re-added
 - Refill joe's shulkers. Remove if cubbies not placed.
-- Fun animals, tied to lobby changes exist or not.
-- Merge all etc lobby changes to, leaderboard and rename it to "lobby"
+- Merge all "etc lobby changes" to, leaderboard and rename it to "lobby"
+  - Fun animals, tied to lobby changes exist or not.
 - Slight issue, leaderboard upon default place, fireworks go off. 
+- Stat stairs still have issue when removing cubbies. Need to use "short" cubby for pearl & zed.
+- Remove & Place hermit items w/ cubbies
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.

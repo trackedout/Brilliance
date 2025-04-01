@@ -1,6 +1,6 @@
 {
 	"replace": false,
 	"values": [
-		"seeded_random:utility/setup"
+		"seeded_random:utility/tick"
 	]
 }

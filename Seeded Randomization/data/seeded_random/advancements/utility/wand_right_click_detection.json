@@ -1,0 +1,23 @@
+{
+	"criteria": {
+		"wand_right_click": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:entity_scores",
+						"entity": "this",
+						"scores": {
+							"seeded_random.wand_right_click_detection": {
+								"min": 1
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "seeded_random:utility/wand_right_click"
+	}
+}
