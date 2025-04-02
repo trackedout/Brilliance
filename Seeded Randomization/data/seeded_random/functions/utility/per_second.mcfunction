@@ -5,3 +5,5 @@ execute as @e[type=shulker,tag=seeded_random.dispenser] unless entity @s[nbt={Ac
 execute as @e[type=shulker,tag=seeded_random.dropper] unless entity @s[nbt={ActiveEffects:[{Id:24}]}] run tp @s ~ ~-1000 ~
 execute as @e[type=shulker,tag=seeded_random.dispenser] unless entity @s[nbt={ActiveEffects:[{Id:24}]}] run kill @s
 execute as @e[type=shulker,tag=seeded_random.dropper] unless entity @s[nbt={ActiveEffects:[{Id:24}]}] run kill @s
+execute as @e[type=block_display,tag=seeded_random.dispenser] at @s unless entity @p[distance=..20] run kill @s
+execute as @e[type=block_display,tag=seeded_random.dropper] at @s unless entity @p[distance=..20] run kill @s

@@ -37,3 +37,20 @@ scoreboard objectives add seeded_random.wand_right_click_detection minecraft.use
 scoreboard objectives add seeded_random.raycast_steps dummy
 scoreboard objectives add seeded_random.raycast_success dummy
 
+# Click cd
+scoreboard objectives add seeded_random.leftClickCd dummy
+scoreboard objectives add seeded_random.rightClickCd dummy
+
+# Teams
+team add seeded_random.seededInventory "Seeded Inventory"
+team modify seeded_random.seededInventory collisionRule always
+team modify seeded_random.seededInventory seeFriendlyInvisibles false
+team modify seeded_random.seededInventory color gray
+team add seeded_random.leftClicked "Left Clicked a Seeded Inventory"
+team modify seeded_random.leftClicked collisionRule always
+team modify seeded_random.leftClicked seeFriendlyInvisibles false
+team modify seeded_random.leftClicked color dark_red
+team add seeded_random.rightClicked "Right Clicked a Seeded Inventory"
+team modify seeded_random.rightClicked collisionRule always
+team modify seeded_random.rightClicked seeFriendlyInvisibles false
+team modify seeded_random.rightClicked color dark_green

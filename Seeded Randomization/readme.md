@@ -1,10 +1,16 @@
 # Setup
- - Make sure coordinates `0 0 0` in the `overworld` is available to hold a `"minecraft:barrel"`. Atm a custom dimension, can solve this but felt unnecessary for a single block.
  - Install the datapack, and run `/function seeded_random:wand`.
  - Decide on your seed, or instead be aware it'll be on its default seed `16385`. Can set seed via `/scoreboard players set $seed seeded_random.seed <integer>`
- - Use the wand to right-click your randomization methods.
+ - Use the wand to right-click your randomization methods. 
+
+# Wand
+ - Obtain the wand via `/function seeded_random:wand`
+ - Right click on any `dispensers` using the wand to auto setup the seeded method.
+ - Use the wand to find and edit any setup seeded randomization methods.
+ - Left Clicking Twice will delete the setted up the seeded method and return it to it's origin.
 
 # todo
+- check for hoppers entering the dispensers/droppers take first item, IF hopper isn't powered, and only every other game tick.
 - drop/spit act unique instead of identical, have spit include random velocity. Check if drop has random velocity.
 - Have dropper/dispenser, delay by 4 game ticks, due to how redstone works.
 - default seed be random
