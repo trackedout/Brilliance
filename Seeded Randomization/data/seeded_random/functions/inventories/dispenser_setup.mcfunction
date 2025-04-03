@@ -7,8 +7,6 @@ execute align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {width:1.02,heigh
 execute positioned ~ ~ ~ in seeded_random:seeded_random run forceload add ~ ~
 clone ~ ~ ~ ~ ~ ~ to seeded_random:seeded_random ~ ~ ~ replace force
 execute positioned ~ ~ ~ in seeded_random:seeded_random run forceload remove ~ ~
-# Make sure observers don't notice
-function seeded_random:inv_actions/observer_checking/check
 # Cmd setup
 execute if block ~ ~ ~ dispenser[facing=north] run setblock ~ ~ ~ command_block[facing=north]{Command:"/function seeded_random:cmd_blocks/inv_point_north"}
 execute if block ~ ~ ~ dispenser[facing=south] run setblock ~ ~ ~ command_block[facing=south]{Command:"/function seeded_random:cmd_blocks/inv_point_south"}
