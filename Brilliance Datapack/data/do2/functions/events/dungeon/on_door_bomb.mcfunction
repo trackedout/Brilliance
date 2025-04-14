@@ -8,4 +8,4 @@ scoreboard players add @p[tag=do2.recieved_shulker] do2.submissions.bombs 1
 scoreboard players add $dungeon do2.submissions.bombs 1
 
 # Agronet event
-function do2:external/agronet/logs/player_actions/on_door_bomb,kjk
+function do2:external/agronet/logs/player_actions/on_door_bomb
