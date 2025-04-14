@@ -15,5 +15,5 @@ data modify block 0 0 0 Items[0].Slot set value 0
 data modify block ~ ~-1 ~ Items append from block 0 0 0 Items[0]
 
 
-execute if score $seed seeded_random.output matches 0..8 run function seeded_randominv_actions/remove_one_item
+execute if score $seed seeded_random.output matches 0..8 run function seeded_random:inv_actions/remove_one_item
 execute unless score $seed seeded_random.output matches 0..8 run tellraw @a "Error, random output not in range [0 - 8]"

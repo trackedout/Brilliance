@@ -1,4 +1,4 @@
-scoreboard players set $seed seeded_random.maxValue -1
+scoreboard players set $seed seeded_random.maxValue 0
 execute if data block ~ ~ ~ Items[0].Count run scoreboard players add $seed seeded_random.maxValue 1
 execute if data block ~ ~ ~ Items[1].Count run scoreboard players add $seed seeded_random.maxValue 1
 execute if data block ~ ~ ~ Items[2].Count run scoreboard players add $seed seeded_random.maxValue 1
