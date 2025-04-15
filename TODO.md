@@ -5,15 +5,16 @@
 - Config to replace 'retired' hermits.
     - Need new artifacts
     - Changing all of the filters for those items.
-- Add config for staircase ember count
+- Add in easter egg randomization & lock
+- Add config's interface for staircase ember count
+- Museum removed, wrong tower top design.
 - Disable Entity Controller's backrooms if queue is removed.
 - Summon queue markers, and entities. + snow golem(nothing unique) when queue is re-added
-- Refill joe's shulkers. Remove if cubbies not placed.
-- Merge all "etc lobby changes" to, leaderboard and rename it to "lobby"
+- The refill of joe's fish shulkers. Remove if cubbies not placed.
+- Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
 - Slight issue, leaderboard upon default place, fireworks go off. 
-- Stat stairs still have issue when removing cubbies. Need to use "short" cubby for pearl & zed.
-- Remove & Place hermit items w/ cubbies
+
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.

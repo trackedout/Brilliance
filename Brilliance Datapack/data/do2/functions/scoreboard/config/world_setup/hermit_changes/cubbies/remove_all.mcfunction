@@ -98,5 +98,38 @@ place template do2:world_setup/cubbies/wall_o -548 115 2030 counterclockwise_90
 place template do2:world_setup/cubbies/wall_m -558 115 2030 counterclockwise_90
 place template do2:world_setup/cubbies/wall_o -568 115 2030 counterclockwise_90
 
+# Remove hermit items
+setblock -564 109 2026 minecraft:polished_basalt[axis=y]
+setblock -568 109 2022 minecraft:polished_basalt[axis=y]
+setblock -568 109 2012 minecraft:blast_furnace
+setblock -568 109 2002 minecraft:polished_basalt[axis=y]
+setblock -564 109 1998 minecraft:polished_basalt[axis=y]
+setblock -554 109 1998 minecraft:polished_basalt[axis=y]
+setblock -544 109 1998 minecraft:polished_basalt[axis=y]
+setblock -534 109 1998 minecraft:polished_basalt[axis=y]
+setblock -514 109 1998 minecraft:polished_basalt[axis=y]
+setblock -504 109 1998 minecraft:polished_basalt[axis=y]
+setblock -496 109 1998 minecraft:polished_basalt[axis=y]
+setblock -494 109 1998 minecraft:polished_basalt[axis=y]
+setblock -484 109 1998 minecraft:polished_basalt[axis=y]
+setblock -480 109 2002 minecraft:polished_basalt[axis=y]
+setblock -480 109 2012 minecraft:blast_furnace
+setblock -480 109 2022 minecraft:polished_basalt[axis=y]
+setblock -484 109 2026 minecraft:polished_basalt[axis=y]
+setblock -494 109 2026 minecraft:polished_basalt[axis=y]
+setblock -504 109 2026 minecraft:polished_basalt[axis=y]
+setblock -514 109 2026 minecraft:polished_basalt[axis=y]
+setblock -534 109 2026 minecraft:polished_basalt[axis=y]
+setblock -544 109 2026 minecraft:polished_basalt[axis=y]
+setblock -554 109 2026 minecraft:polished_basalt[axis=y]
 
 # Stairs at stats and sound gets messed up when we remove cubbies, so fix them.
+setblock -510 115 1987 minecraft:polished_blackstone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+setblock -510 116 1988 minecraft:polished_blackstone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+setblock -508 115 1987 minecraft:polished_blackstone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+setblock -508 116 1988 minecraft:polished_blackstone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]
+fill -508 116 1989 -510 116 1991 minecraft:polished_blackstone_bricks
+fill -511 116 1988 -511 116 1987 minecraft:deepslate_bricks
+setblock -511 115 1987 minecraft:deepslate_bricks
+fill -507 116 1988 -507 116 1987 minecraft:deepslate_bricks
+setblock -507 115 1987 minecraft:deepslate_bricks

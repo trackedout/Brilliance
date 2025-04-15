@@ -14,7 +14,7 @@ execute if score $dungeon do2.config.wc.museumExists matches 0 run setblock -609
 execute if score $dungeon do2.config.wc.museumExists matches 0 run setblock -600 196 2050 minecraft:air replace
 execute if score $dungeon do2.config.wc.museumExists matches 0 run setblock -591 196 2041 minecraft:air replace
 execute if score $dungeon do2.config.wc.museumExists matches 0 run setblock -600 196 2032 minecraft:air replace
-execute if score $dungeon do2.config.wc.museumExists matches 0 run schedule function do2:scoreboard/config/world_setup/apply_changes/museum_entity_kill
+execute if score $dungeon do2.config.wc.museumExists matches 0 run schedule function do2:scoreboard/config/world_setup/apply_changes/museum_entity_kill 4t
 
 # Set $_dungeon to the same as $dungeon
 scoreboard players operation $_dungeon do2.config.wc.museumExists = $dungeon do2.config.wc.museumExists

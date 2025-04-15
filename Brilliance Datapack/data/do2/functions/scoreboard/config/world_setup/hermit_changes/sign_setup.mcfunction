@@ -24,7 +24,7 @@ data merge block -525 67 2168 {is_waxed:1b,front_text:{color:'green',has_glowing
 
 # - The Queue -
 setblock -523 69 2168 minecraft:oak_wall_sign[facing=south]
-data merge block -523 69 2168 {is_waxed:1b,front_text:{color:'blue',has_glowing_text:true,messages:['{"text":""}','{"text":"The Queue"}','{"text":""}','{"text":""}']}}
+data merge block -523 69 2168 {is_waxed:1b,front_text:{color:'orange',has_glowing_text:true,messages:['{"text":""}','{"text":"The Queue"}','{"text":""}','{"text":""}']}}
 # removed
 setblock -523 68 2168 minecraft:oak_wall_sign[facing=south]
 data merge block -523 68 2168 {is_waxed:1b,front_text:{color:'red',has_glowing_text:true,messages:['{"text":""}','{"text":"REMOVE"}','{"text":""}','{"text":"","clickEvent":{"action":"run_command","value":"/function do2:scoreboard/config/world_setup/hermit_changes/queue_removed"}}']}}

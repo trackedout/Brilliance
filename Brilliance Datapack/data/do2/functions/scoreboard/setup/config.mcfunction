@@ -89,6 +89,10 @@ scoreboard objectives add do2.config.wc.leaderboardExists dummy "Whether the lea
 scoreboard objectives add do2.config.wc.queueExists dummy "Whether the queue exists"
 scoreboard objectives add do2.config.wc.museumExists dummy "Whether the museum tower exists"
 scoreboard objectives add do2.config.wc.cubbiesExist dummy "Whether the cubbies exists"
+scoreboard objectives add do2.config.wc.easter_eggs dummy "State of L4 easter eggs blocker"
+scoreboard objectives add do2.config.wc.easter_eggs_block_type dummy "Used for randomization of L4 easter eggs blocker"
+
+
 
 
 # ================
