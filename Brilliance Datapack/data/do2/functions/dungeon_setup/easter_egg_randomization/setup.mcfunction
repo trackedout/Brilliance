@@ -21,26 +21,46 @@ scoreboard players set $easter_block_19 do2.config.wc.easter_eggs_block_type 0
 scoreboard players set $easter_block_20 do2.config.wc.easter_eggs_block_type 0
 
 # Setup all 20 blocks
-execute store result score $easter_block_01 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_02 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_03 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_04 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_05 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_06 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_07 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_08 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_09 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_10 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_11 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_12 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_13 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_14 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_15 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_16 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_17 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_18 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_19 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-execute store result score $easter_block_20 do2.config.wc.easter_eggs_block_type run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 1
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 2
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 3
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 4
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 5
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 6
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 7
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 8
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 9
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 10
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 11
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 12
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 13
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 14
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 15
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 16
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 17
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 18
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 19
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
+scoreboard players set $dungeon do2.config.wc.easter_eggs_block_type 20
+function do2:dungeon_setup/easter_egg_randomization/setup_a_block
 
 # Set easter egg blocks to their randomly determined parts.
 scoreboard players operation $easter_block_00 do2.config.wc.easter_eggs_block_type = $easter_block_01 do2.config.wc.easter_eggs_block_type

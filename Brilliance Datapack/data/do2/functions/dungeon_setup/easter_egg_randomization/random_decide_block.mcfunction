@@ -3,10 +3,6 @@ function do2:utility/random_gen/generate_random_number
 # Add 1 so it's 1-54
 scoreboard players add $dungeon do2.utility.randomNum 1
 
-# Make sure it doesn't match any other block, so all are unique
-function do2:dungeon_setup/easter_egg_randomization/would_score_match_another
-execute if score $dungeon do2.utility.randomNum matches 0 run function do2:dungeon_setup/easter_egg_randomization/random_decide_block
-
 execute if score $dungeon do2.utility.randomNum matches 1 run return 1
 execute if score $dungeon do2.utility.randomNum matches 2 run return 2
 execute if score $dungeon do2.utility.randomNum matches 3 run return 3

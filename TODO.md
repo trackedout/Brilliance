@@ -5,7 +5,6 @@
 - Config to replace 'retired' hermits.
     - Need new artifacts
     - Changing all of the filters for those items.
-- Add in easter egg randomization & lock
 - Add config's interface for staircase ember count
 - Museum removed, wrong tower top design.
 - Disable Entity Controller's backrooms if queue is removed.
@@ -13,8 +12,13 @@
 - The refill of joe's fish shulkers. Remove if cubbies not placed.
 - Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
+- Easter egg signs not in use *yet
+- lock L4 if randomization is chosen and egg's not completed.
 - Slight issue, leaderboard upon default place, fireworks go off. 
-
+- Check each easter egg spot, to check for the following.
+  - is it supported and covered (gravity blocks & slime block)
+  - does it have a *possible* redstone signal connected. (target, lamp, noteblock, redstone_block)
+  - would it being a lightsource be problem (sea lantern + froglight)
 
 # Other TODO:
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.
