@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/filled_map"
+        },
+        "entries": [
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/do_gui_map"
+                }
+            }
+        ]
+    }
+}

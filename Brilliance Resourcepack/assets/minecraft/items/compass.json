@@ -1,0 +1,936 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/compass_16"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_17"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_17"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_17"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_17"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_18"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_18"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_18"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_18"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_19"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_19"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_19"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_19"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_20"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_20"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_20"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_20"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_21"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_21"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_21"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_21"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_22"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_22"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_22"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_22"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_23"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_23"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_23"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_23"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_24"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_24"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_24"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_24"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_25"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_25"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_25"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_25"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_26"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_26"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_26"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_26"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_27"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_27"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_27"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_27"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_28"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_28"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_28"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_28"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_29"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_29"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_29"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_29"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_30"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_30"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_30"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_30"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_31"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_31"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_31"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_31"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_00"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_00"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_00"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_00"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_01"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_01"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_01"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_01"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_02"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_02"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_02"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_02"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_03"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_03"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_03"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_03"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_04"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_04"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_04"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_04"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_05"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_05"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_05"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_05"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_06"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_06"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_06"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_06"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_07"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_07"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_07"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_07"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_08"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_08"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_08"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_08"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_09"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_09"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_09"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_09"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_10"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_10"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_10"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_10"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_11"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_11"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_11"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_11"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_12"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_12"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_12"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_12"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_13"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_13"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_13"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_13"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_14"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_14"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_14"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_14"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass_15"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass_15"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass_15"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass_15"
+                }
+            },
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level1/compass"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level2/compass"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level3/compass"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/compass/level4/compass"
+                }
+            }
+        ]
+    }
+}

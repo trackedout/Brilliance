@@ -1,0 +1,362 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/redstone"
+        },
+        "entries": [
+            {
+                "threshold": 1111111,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/eyes"
+                }
+            },
+            {
+                "threshold": 1111112,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/trackedout"
+                }
+            },
+            {
+                "threshold": 1111113,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/treasure"
+                }
+            },
+            {
+                "threshold": 1111114,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/survival"
+                }
+            },
+            {
+                "threshold": 1111115,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/phases"
+                }
+            },
+            {
+                "threshold": 1111116,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/tabs/cards"
+                }
+            },
+            {
+                "threshold": 1111117,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/difficulty_1"
+                }
+            },
+            {
+                "threshold": 1111118,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/difficulty_2"
+                }
+            },
+            {
+                "threshold": 1111119,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/difficulty_3"
+                }
+            },
+            {
+                "threshold": 1111120,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/difficulty_4"
+                }
+            },
+            {
+                "threshold": 1111121,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/difficulty_5"
+                }
+            },
+            {
+                "threshold": 1111122,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/adventure/water_tnt"
+                }
+            },
+            {
+                "threshold": 1111123,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/winstreak_3"
+                }
+            },
+            {
+                "threshold": 1111124,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/winstreak_5"
+                }
+            },
+            {
+                "threshold": 1111125,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/winstreak_7"
+                }
+            },
+            {
+                "threshold": 1111126,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/survival/winstreak_10"
+                }
+            },
+            {
+                "threshold": 1111127,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/adventure/3_keys"
+                }
+            },
+            {
+                "threshold": 1111128,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/adventure/4_keys"
+                }
+            },
+            {
+                "threshold": 1111129,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_1_tome"
+                }
+            },
+            {
+                "threshold": 1111130,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_5_tomes"
+                }
+            },
+            {
+                "threshold": 1111131,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_10_tomes"
+                }
+            },
+            {
+                "threshold": 1111132,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_25_tomes"
+                }
+            },
+            {
+                "threshold": 1111133,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_50_tomes"
+                }
+            },
+            {
+                "threshold": 1111134,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/submit_100_tomes"
+                }
+            },
+            {
+                "threshold": 1111135,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/5_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111136,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/10_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111137,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/15_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111138,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/20_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111139,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/25_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111140,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/30_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111141,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/phases/40_snow_layers"
+                }
+            },
+            {
+                "threshold": 1111142,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/cards/cards_in_deck_5"
+                }
+            },
+            {
+                "threshold": 1111143,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/cards/cards_in_deck_20"
+                }
+            },
+            {
+                "threshold": 1111144,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/cards/cards_in_deck_30"
+                }
+            },
+            {
+                "threshold": 1111145,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/cards/cards_in_deck_40"
+                }
+            },
+            {
+                "threshold": 1111146,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/cards/cards_in_deck_30_nc"
+                }
+            },
+            {
+                "threshold": 1111147,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_crowns_25"
+                }
+            },
+            {
+                "threshold": 1111148,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_crowns_50"
+                }
+            },
+            {
+                "threshold": 1111149,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_crowns_100"
+                }
+            },
+            {
+                "threshold": 1111150,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_crowns_250"
+                }
+            },
+            {
+                "threshold": 1111151,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_tomes_25"
+                }
+            },
+            {
+                "threshold": 1111152,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_tomes_50"
+                }
+            },
+            {
+                "threshold": 1111153,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_tomes_100"
+                }
+            },
+            {
+                "threshold": 1111154,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_tomes_250"
+                }
+            },
+            {
+                "threshold": 1111155,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_embers_250"
+                }
+            },
+            {
+                "threshold": 1111156,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_embers_500"
+                }
+            },
+            {
+                "threshold": 1111157,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_embers_1000"
+                }
+            },
+            {
+                "threshold": 1111158,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/lifetime_embers_2500"
+                }
+            },
+            {
+                "threshold": 1111159,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/mystery_box"
+                }
+            },
+            {
+                "threshold": 1111160,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/advancements/treasure/buy_9_tomes"
+                }
+            }
+        ]
+    }
+}

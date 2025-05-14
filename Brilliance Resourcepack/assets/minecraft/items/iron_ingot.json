@@ -1,0 +1,19 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/iron_ingot"
+        },
+        "entries": [
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "do2:item/do2_items/rusty_kit"
+                }
+            }
+        ]
+    }
+}
