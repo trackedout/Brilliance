@@ -1,6 +1,6 @@
 # Title
 setblock -527 69 2174 minecraft:oak_wall_sign[facing=east]
-data merge block -527 69 2174 {is_waxed:1b,front_text:{color:'white',has_glowing_text:true,messages:['{"text":""}','{"text":"Level 4\'s"}','{"text":"Egg Tracker"}','{"text":""}']}}
+data merge block -527 69 2174 {is_waxed:1b,front_text:{color:'white',has_glowing_text:true,messages:['{"text":"Level 4 locked"}','{"text":"by easter eggs"}','{"text":""}','{"text":"Easter Egg\'s:"}']}}
 
 # Randomized
 setblock -527 68 2175 minecraft:oak_wall_sign[facing=east]

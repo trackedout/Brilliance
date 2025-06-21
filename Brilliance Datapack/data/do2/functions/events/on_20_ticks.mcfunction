@@ -42,6 +42,8 @@ execute unless score $dungeon do2.utility.lockConfigRoom matches 1..2 run functi
 execute if score $dungeon do2.utility.lockConfigRoom matches 1 run function do2:scoreboard/config/config_lock
 execute if score $dungeon do2.utility.lockConfigRoom matches 2 run function do2:scoreboard/config/config_lock_inverse
 
+# Remove/Place Powdered snow from easter eggs.
+execute if score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:dungeon_setup/easter_egg_randomization/easter_egg_snow_exists
 
 # Attempt every 5 second updates:
 scoreboard players set $dungeon do2.utility.checkTick 5

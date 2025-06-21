@@ -12,22 +12,20 @@
 - The refill of joe's fish shulkers. Remove if cubbies not placed.
 - Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
-- Easter egg signs not in use *yet
 - lock L4 if randomization is chosen and egg's not completed.
 - Slight issue, leaderboard upon default place, fireworks go off. 
 - Block list needs to have "CanPlaceOn" and player's need a way to break snow.
-- Check each easter egg spot, to check for the following.
-  - is it supported and covered (gravity blocks & slime block)
-  - does it have a *possible* redstone signal connected. (target, lamp, noteblock, redstone_block)
-  - would it being a lightsource be problem (sea lantern + froglight)
+- More Info signs World Setup
+  - All are missing
 
 # Other TODO:
+- Achievements need to be self centered, and cannot be gained via having a lackey help achieve. (Eg: win on X level)
 - Make the cards able to be chosen dynamically matching with `cards_always_available`.
 - Night Time SFX enabled for comp
 - Create a Playsound SFX for agronet activations
 - Add subtitles to rest of sounds.json (maybe)
 - Spectating room, needs to be finished.
-- Brilliant datapack might not be syncing hidden to visible advancements.
+- Lobby Brilliant datapack might not be syncing hidden to visible advancements.
 - duplicate daveybones?
 - Allows right/left to be personalized and not affect EVERYONE (is easy, just x2 of all gui maps)
 - config for deck limit.
@@ -47,7 +45,7 @@
     * -536 114 1997
     * -486 116 1980
     * -554 114 2028 (every single one of the Hermit's cubbies)
-    * -492 117 1972 (every single one of our expanded rooms
+    * -492 117 1972 (every single one of our expanded rooms)
     ```
 - Config Info "booklet" needs to be updated with the new force saturation level
   - Go into more detail on the Fresh Runs & Balance Changes in the config book.

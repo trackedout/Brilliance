@@ -1,3 +1,4 @@
+# Returns easter egg blocks to the DUNGEON
 setblock -531 48 1974 minecraft:hay_block[axis=y]
 setblock -507 18 1969 minecraft:dripstone_block
 setblock -552 14 1967 minecraft:smoker[facing=west,lit=false]
