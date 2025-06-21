@@ -18,6 +18,10 @@ execute if score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:d
 execute if score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:scoreboard/config/world_setup/apply_changes/easter_eggs_chest
 execute unless score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:dungeon_setup/easter_egg_randomization/return_easter_egg_blocks
 
+# Lock Deepfrost difficulty
+execute if score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:dungeon_setup/lock_deepfrost
+execute unless score $dungeon do2.config.wc.easter_eggs matches 2 run function do2:dungeon_setup/unlock_deepfrost
+
 
 
 # Set $_dungeon to the same as $dungeon
