@@ -75,6 +75,9 @@ execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-666.5,
 execute if score @s do2.utility.dungeonLocation matches 0 if entity @s[x=-659.5,dx=95,y=-60.5,dy=37,z=1836.5,dz=79] run scoreboard players set @s do2.utility.dungeonLocation 12
 
 execute if score @s do2.utility.oldDungeonLocation = @s do2.utility.dungeonLocation run return 0
+# Agronet event
+function do2:external/agronet/logs/player_actions/locate_player
+
 execute unless entity @a[scores={do2.logs.player_actions=3..}] run return 0
 data modify storage do2:utility playerOldLocation set value ""
 data modify storage do2:utility playerNewLocation set value ""
@@ -92,6 +95,3 @@ function do2:utility/array_manipulation/get_from_index
 data modify storage do2:utility playerOldLocation set from storage do2:utility array[0]
 
 execute as @a[scores={do2.logs.player_actions=3..}] run tellraw @s ["",{"text":"§f[§9B§r]: Player has moved from "},{"storage": "do2:utility","nbt": "playerOldLocation","color":"red"},{"text":"§r --> "},{"storage": "do2:utility","nbt": "playerNewLocation","color":"green"}]
-
-# Agronet event
-function do2:external/agronet/logs/player_actions/locate_player

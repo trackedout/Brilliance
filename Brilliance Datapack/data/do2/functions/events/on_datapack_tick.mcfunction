@@ -48,3 +48,13 @@ scoreboard players set $dungeon do2.utility.playerCount 0
 execute as @a[tag=!do2.fakePlayer] run scoreboard players add $dungeon do2.utility.playerCount 1
 execute if score $dungeon do2.utility.playerCount matches 1.. run tag TangoCam add do2.afterPlayerJoin
 execute if score $dungeon do2.utility.playerCount matches 1.. run tag tangocam add do2.afterPlayerJoin
+
+# Display GUI
+function do2:vanilla_compatability/gui/display
+
+# Attempt to run per second event.
+scoreboard players operation $dungeon do2.utility.checkTick = $dungeon do2.utility.currentTick
+scoreboard players operation $dungeon do2.utility.checkTick %= $dungeon do2.config.ticksPerSecond
+execute if score $dungeon do2.utility.checkTick matches 0 run function do2:events/on_20_ticks
+# if score is way too high, reset it to zero. (better so math doesn't take long)
+execute if score $dungeon do2.utility.currentTick matches 10000000.. run scoreboard players set $dungeon do2.utility.currentTick 0
