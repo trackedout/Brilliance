@@ -3,7 +3,7 @@ execute as @a[scores={do2.logs.player_actions=2..}] run tellraw @s ["",{"text":"
 # - End Log -
 
 
-scoreboard players add @p[tag=do2.recieved_shulker] do2.submissions.l2_key 1
+scoreboard players add @p[tag=do2.received_shulker] do2.submissions.l2_key 1
 scoreboard players add $dungeon do2.submissions.l2_key 1
 
 # Agronet event

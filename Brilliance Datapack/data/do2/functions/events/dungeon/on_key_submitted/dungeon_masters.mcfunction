@@ -4,7 +4,7 @@ execute as @a[scores={do2.logs.player_actions=2..}] run tellraw @s ["",{"text":"
 advancement grant @a[tag=do2.running] only do2:hidden/adventuring/use_dm_key
 
 
-scoreboard players add @p[tag=do2.recieved_shulker] do2.submissions.dm_key 1
+scoreboard players add @p[tag=do2.received_shulker] do2.submissions.dm_key 1
 scoreboard players add $dungeon do2.submissions.dm_key 1
 
 # Make sure barrel and hopper feeding into barrel are giving player tracked:0b items.

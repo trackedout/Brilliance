@@ -4,7 +4,7 @@ execute as @a[scores={do2.logs.player_actions=1..}] run tellraw @s ["",{"text":"
 
 advancement grant @a[team=do2.players] only do2:hidden/adventuring/open_basalt_door
 
-scoreboard players add @p[tag=do2.recieved_shulker] do2.submissions.bombs 1
+scoreboard players add @p[tag=do2.received_shulker] do2.submissions.bombs 1
 scoreboard players add $dungeon do2.submissions.bombs 1
 
 # Agronet event
