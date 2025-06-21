@@ -13,8 +13,6 @@
 - Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
 - lock L4 if randomization is chosen and egg's not completed.
-- Slight issue, leaderboard upon default place, fireworks go off. 
-- Block list needs to have "CanPlaceOn" and player's need a way to break snow.
 - More Info signs World Setup
   - All are missing
 
