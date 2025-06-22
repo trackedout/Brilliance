@@ -1,3 +1,6 @@
+execute if score $dungeon do2.config.wc.queueExists matches 0 run tellraw @s "wc.queueExists = 0"
+execute if score $dungeon do2.config.wc.queueExists matches 0 run return 0
+
 # Setup
 function do2:entity_controller/config_interface/save_storages
 function do2:entity_controller/config_interface/get_mob_count/count_mobs

@@ -1,3 +1,6 @@
+execute if score $dungeon do2.config.wc.queueExists matches 0 run tellraw @s "wc.queueExists = 0"
+execute if score $dungeon do2.config.wc.queueExists matches 0 run return 0
+
 # - Start Log -
 execute as @a[scores={do2.logs.entity_controller=2..}] run tellraw @s ["",{"text":"[§9B§r]: Creating all §bL0Z1§r entities."}]
 # - End Log -

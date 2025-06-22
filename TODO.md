@@ -7,12 +7,9 @@
     - Changing all of the filters for those items.
 - Add config's interface for staircase ember count
 - Museum removed, wrong tower top design.
-- Disable Entity Controller's backrooms if queue is removed.
-- Summon queue markers, and entities. + snow golem(nothing unique) when queue is re-added
 - The refill of joe's fish shulkers. Remove if cubbies not placed.
 - Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
-- 
 - More Info signs World Setup
   - All are missing
 
