@@ -9,3 +9,13 @@ place template do2:world_setup/queue_5 -491 127 1993
 place template do2:world_setup/queue_entryway -512 114 1972
 setblock -511 113 1973 minecraft:soul_sand
 fill -496 129 2008 -492 129 2008 minecraft:pearlescent_froglight
+
+
+# - summon entities -
+# Markers
+function do2:entity_controller/generate_entities/markers/l0
+# Ravagers & Drowned
+function do2:entity_controller/manual_summon_queue
+# snow golem (Legit nothing is special about the golem)
+execute positioned -493 130 1980 run kill @e[type=minecraft:snow_golem,distance=..1]
+summon minecraft:snow_golem -493 130 1980
