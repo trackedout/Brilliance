@@ -9,8 +9,10 @@ function do2:reset_dungeon/commands/refill_dungeon
 
 execute if score $dungeon do2.config.fr.refillBerries matches 1 run function do2:dungeon_setup/refill/refill_berry_bushes
 
-function do2:dungeon_setup/refill/refill_guppy_geyser
-function do2:dungeon_setup/refill/refill_fireworks
+# World Config:
+execute unless score $dungeon do2.config.wc.cubbiesExist matches 0 run function do2:dungeon_setup/refill/refill_guppy_geyser
+execute unless score $dungeon do2.config.wc.leaderboardExists matches 0 run function do2:dungeon_setup/refill/refill_fireworks
+
 execute unless score $dungeon do2.config.refillDungeonType matches 0 run function do2:dungeon_setup/refill/refill_general
 
 # Agronet event

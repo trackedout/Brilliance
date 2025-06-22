@@ -37,6 +37,10 @@ scoreboard players set $l4z1_zones do2.tests.all_markers_alive 107
 scoreboard players set $l4z2_zones do2.tests.all_markers_alive 100
 scoreboard players set $l4z3_zones do2.tests.all_markers_alive 89
 
+# If queue doesn't exist, desired L0 markers = 0
+execute if score $dungeon do2.config.wc.queueExists matches 0 run scoreboard players set $l0z1 do2.tests.all_markers_alive 0
+execute if score $dungeon do2.config.wc.queueExists matches 0 run scoreboard players set $l0z2 do2.tests.all_markers_alive 0
+
 
 # Need to check if even ONE marker is not existing. Best way I could do this:
 
