@@ -14,7 +14,6 @@ execute unless score $dungeon do2.config.useDaylightCycle matches 0.. run scoreb
 execute unless score $dungeon do2.config.forceFood matches 0.. run scoreboard players set $dungeon do2.config.forceFood 1
 execute unless score $dungeon do2.config.targetFoodLevel matches 0.. run scoreboard players set $dungeon do2.config.targetFoodLevel 20
 execute unless score $dungeon do2.config.targetSaturationLevel matches 0.. run scoreboard players set $dungeon do2.config.targetSaturationLevel 13
-execute unless score $dungeon do2.config.eggsUnlockDeepfrost matches 0.. run scoreboard players set $dungeon do2.config.eggsUnlockDeepfrost 0
 execute unless score $dungeon do2.config.bc.snowHazard matches 0.. run scoreboard players set $dungeon do2.config.bc.snowHazard 1
 execute unless score $dungeon do2.config.bc.l2ShipTreasureLine matches 0.. run scoreboard players set $dungeon do2.config.bc.l2ShipTreasureLine 1
 execute unless score $dungeon do2.config.bc.balancedTnTDiveLoot matches 0.. run scoreboard players set $dungeon do2.config.bc.balancedTnTDiveLoot 1

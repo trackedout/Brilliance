@@ -14,7 +14,6 @@ execute unless entity @s[advancements={do2:hidden/adventuring/eat_unique_items=t
 execute unless entity @s[advancements={do2:hidden/cards/play_5_moc=true}] run advancement revoke @s only do2:visible/cards/play_5_moc
 
 # reset unique scores
-scoreboard players set @s do2.run.depth_charge_success 0
 scoreboard players set @s do2.run.deepest_floor 0
 scoreboard players set @s do2.run.aritfact_floor 0
 scoreboard players set @s do2.run.artifact_lodestone_id 0

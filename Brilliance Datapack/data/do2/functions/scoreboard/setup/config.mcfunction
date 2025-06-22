@@ -44,9 +44,6 @@ scoreboard objectives add do2.config.forceFood dummy "Force player's food"
 scoreboard objectives add do2.config.targetFoodLevel dummy "What to try to set players's food level to"
 scoreboard objectives add do2.config.targetSaturationLevel dummy "What to try to set players's saturation level to"
 
-# Dungeon Config: Whether to force egg findings for deepfrost difficulty.
-scoreboard objectives add do2.config.eggsUnlockDeepfrost dummy "Eggs unlock deepfrost"
-
 # Dungeon Config: Balance Changes
 scoreboard objectives add do2.config.bc.snowHazard dummy "Snow Passage Hazard"
 scoreboard objectives add do2.config.bc.l2ShipTreasureLine dummy "Ships Treasure Line"
@@ -76,8 +73,7 @@ scoreboard objectives add do2.config.ec.level2Zones dummy "Whether level 2 shoul
 scoreboard objectives add do2.config.ec.level4Zones dummy "Whether level 4 should have zones"
 scoreboard objectives add do2.config.ec.levelZoneMobCount dummy "How many mobs should be in each zone."
 
-# Dungeon Config: Experimental (newEvokers currently unused)
-scoreboard objectives add do2.config.newEvokers dummy "Whether to enable Tracked Out exclusive evoker spots"
+# Dungeon Config: Experimental
 scoreboard objectives add do2.config.maxClankBerries dummy "Whether to allow berries to grow after max clank has been reached"
 
 

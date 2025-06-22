@@ -12,7 +12,7 @@
 - The refill of joe's fish shulkers. Remove if cubbies not placed.
 - Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
   - Fun animals, tied to lobby changes exist or not.
-- lock L4 if randomization is chosen and egg's not completed.
+- 
 - More Info signs World Setup
   - All are missing
 

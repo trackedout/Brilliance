@@ -1,6 +1,5 @@
 # For ease of checking less, I'm only checking if the LAST slot of a chest, has an item.
 # Since it's redstone based, it will never fill up unless full w/o player interference
-scoreboard objectives add do2.tests.statContainer dummy
 data modify storage do2:tests containerCoords set value ""
 
 # Crowns Shop purchases.
@@ -352,5 +351,4 @@ data merge block -617 28 1923 {Items:[]}
 data merge block -622 37 1915 {Items:[]}
 
 # Cleanup
-scoreboard objectives remove do2.tests.statContainer
 data remove storage do2:tests containerCoords

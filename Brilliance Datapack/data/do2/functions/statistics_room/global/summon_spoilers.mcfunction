@@ -1,6 +1,6 @@
 kill @e[tag=do2.statistics_room,tag=!do2.stats.spoilers]
 
-execute unless score $dungeon do2.depth_charge_success matches 0.. run scoreboard players set $dungeon do2.run.depth_charge_success 0
+execute unless score $dungeon do2.depth_charge_success matches 0.. run scoreboard players set $dungeon do2.depth_charge_success 0
 execute unless score $dungeon do2.lifetime.pickedup.bombs matches 0.. run scoreboard players set $dungeon do2.lifetime.pickedup.bombs 0
 execute unless score $dungeon do2.submissions.bombs matches 0.. run scoreboard players set $dungeon do2.submissions.bombs 0
 execute unless score $dungeon do2.submissions.dm_key matches 0.. run scoreboard players set $dungeon do2.submissions.dm_key 0

@@ -3,10 +3,8 @@ execute as @a[scores={do2.logs.datapack_setup=1..}] run tellraw @s ["",{"text":"
 # - End Log -
 
 # reset unique scores
-scoreboard players set $dungeon do2.run.depth_charge_success 0
+scoreboard players set $dungeon do2.run.gauntlet_survival 0
 scoreboard players set $dungeon do2.run.deepest_floor 0
-scoreboard players set $dungeon do2.run.aritfact_floor 0
-scoreboard players set $dungeon do2.run.artifact_lodestone_id 0
 scoreboard players set $dungeon do2.run.compass_lodestone_id 0
 scoreboard players set $dungeon do2.run.has_won 0
 scoreboard players set $dungeon do2.run.deepest_floor 0

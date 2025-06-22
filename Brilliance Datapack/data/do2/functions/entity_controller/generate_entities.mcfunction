@@ -13,7 +13,6 @@ function do2:entity_controller/config_interface/add_mob_names/endermite_names
 scoreboard players set $dungeon do2.utility.ec.collectingLogs 1
 data modify storage do2:mobs mobCountErrors set value []
 data modify storage do2:mobs mobNameCountErrors set value []
-scoreboard objectives add do2.tests.oldMobsExisting dummy
 
 # kill all old malfunctioned mobs
 kill @e[tag=newly_generated_mob]
@@ -73,7 +72,6 @@ execute if score $dungeon do2.utility.ec.collectingLogs matches 1.. run function
 execute store result score $dungeon do2.utility.ec.collectingLogs run data get storage do2:mobs mobNameCountErrors
 execute if score $dungeon do2.utility.ec.collectingLogs matches 1.. run function do2:entity_controller/generate_entities/log_mob_name_count_errors
 scoreboard players set $dungeon do2.utility.ec.collectingLogs 0
-scoreboard objectives remove do2.tests.oldMobsExisting
 
 # Ensure
 function do2:entity_controller/ensure_1_ravager_at_start
