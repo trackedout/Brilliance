@@ -9,7 +9,8 @@ place template do2:world_setup/queue_5 -491 127 1993
 place template do2:world_setup/queue_entryway -512 114 1972
 setblock -511 113 1973 minecraft:soul_sand
 fill -496 129 2008 -492 129 2008 minecraft:pearlescent_froglight
-
+setblock -536 113 1980 air
+setblock -536 112 1980 minecraft:powder_snow
 
 # - summon entities -
 # Markers

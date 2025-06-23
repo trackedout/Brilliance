@@ -5,9 +5,8 @@
 - Config to replace 'retired' hermits.
     - Need new artifacts
     - Changing all of the filters for those items.
+- Each time that the museum tower is placed, the Tango monologue is played
 - Add config's interface for staircase ember count
-- Merge all "etc lobby changes" to, leaderboard's category and rename it to "lobby"
-  - Fun animals, tied to lobby changes exist or not.
 - More Info signs World Setup
   - All are missing
 

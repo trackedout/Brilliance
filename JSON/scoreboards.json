@@ -1120,7 +1120,7 @@
             }
         }
     },
-	"do2.config.wc.leaderboardExists": {
+	"do2.config.wc.lobbyChangesExists": {
 		"auto": 0,
 		"target": "$dungeon",
 		"category": "config",

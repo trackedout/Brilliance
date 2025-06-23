@@ -81,7 +81,7 @@ scoreboard objectives add do2.config.maxClankBerries dummy "Whether to allow ber
 scoreboard objectives add do2.config.dungeonDifficulty dummy "Dungeon Difficulty"
 
 # World Config: World appearances
-scoreboard objectives add do2.config.wc.leaderboardExists dummy "Whether the leaderboard exists"
+scoreboard objectives add do2.config.wc.lobbyChangesExists dummy "Whether the lobby changes exists"
 scoreboard objectives add do2.config.wc.queueExists dummy "Whether the queue exists"
 scoreboard objectives add do2.config.wc.museumExists dummy "Whether the museum tower exists"
 scoreboard objectives add do2.config.wc.cubbiesExist dummy "Whether the cubbies exists"

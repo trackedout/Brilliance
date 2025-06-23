@@ -101,7 +101,7 @@ The name immediately after the `do2.` will generally be describing it's category
 |  ⛔   |   🔴   | do2.config.vexTracking                 |  config  | Whether vex tracks players at ALL times.                                                                     |
 |  ❌   |   🔴   | do2.config.wc.cubbiesExist             |  config  | Whether the hermit's custom cubbies exists                                                                   |
 |  ❌   |   🔴   | do2.config.wc.easter_eggs              |  config  | Whether the easter eggs lock/unlock deepfrost AND whether the display exist or not.                          |
-|  ❌   |   🔴   | do2.config.wc.leaderboardExists        |  config  | Whether the leaderboard is empty or has hermit's scores                                                      |
+|  ❌   |   🔴   | do2.config.wc.lobbyChangesExists        |  config  | Whether the leaderboard is empty or has hermit's scores                                                      |
 |  ❌   |   🔴   | do2.config.wc.museumExists             |  config  | Whether the hermit's custom museum exists                                                                    |
 |  ❌   |   🔴   | do2.config.wc.queueExists              |  config  | Whether the hermit's custom queue exists                                                                     |
 |  ⛔   |   🟢   | do2.logs.cards                         |  config  | How strongly players want the logs relating to; Cards                                                        |

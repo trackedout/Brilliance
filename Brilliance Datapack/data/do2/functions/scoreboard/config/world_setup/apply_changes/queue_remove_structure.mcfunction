@@ -12,7 +12,8 @@ place template do2:world_setup/queue_entryway_removed -512 114 1972
 fill -511 113 1973 -512 113 1972 air
 setblock -501 129 2012 air
 setblock -499 128 1975 air
-#/function do2:scoreboard/config/world_setup/hermit_changes/queue_removed
 fill -494 129 1988 -498 129 1992 minecraft:deepslate_tiles
 fill -495 129 1990 -497 129 1990 minecraft:crying_obsidian
 fill -496 129 1989 -496 129 1991 minecraft:crying_obsidian
+setblock -536 113 1980 air
+setblock -536 112 1980 minecraft:blast_furnace
