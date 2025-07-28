@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_key_2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:amethyst_shard"
+						],
+						"nbt": "{tracked:0b,CustomModelData:1}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/shard_fragment"
+	},
+	"parent": "do2:utility/root"
+}

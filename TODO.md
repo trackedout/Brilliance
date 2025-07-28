@@ -4,10 +4,11 @@
   - 6th category of stats needs to be figured out.
 - Config to replace 'retired' hermits.
     - Need new artifacts
-    - Changing all of the filters for those items.
+    - Change all the filters for those items.
 - Add config's interface for staircase ember count
 - More Info signs World Setup
   - All are missing
+- Bat limiter is broken
 
 # Other TODO:
 - Achievements need to be self centered, and cannot be gained via having a lackey help achieve. (Eg: win on X level)

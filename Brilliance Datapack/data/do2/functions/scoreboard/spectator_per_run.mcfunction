@@ -43,6 +43,7 @@ scoreboard players set @s do2.run.items.key_2 0
 scoreboard players set @s do2.run.items.key_3 0
 scoreboard players set @s do2.run.items.key_4 0
 scoreboard players set @s do2.run.items.bombs 0
+scoreboard players set @s do2.run.items.shard_fragments 0
 
 # - RESET CARDS PLAYED -
 scoreboard players set @s do2.run.cards.played.MOC 0

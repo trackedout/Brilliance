@@ -63,6 +63,7 @@ scoreboard objectives add do2.utility.chopsToGive dummy "Pork_chops left to give
 scoreboard objectives add do2.utility.key_2ToGive dummy "Level 2 key left to give"
 scoreboard objectives add do2.utility.key_3ToGive dummy "Level 3 key left to give"
 scoreboard objectives add do2.utility.key_4ToGive dummy "Level 4 key left to give"
+scoreboard objectives add do2.utility.shard_fragmentsToGive dummy "Shard Fragments left to give"
 
 # - Voice Chat utility -
 scoreboard objectives add do2.utility.voiceChat dummy "Voice Chat installed"

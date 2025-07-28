@@ -28,11 +28,13 @@ execute if score $dungeon do2.win_streak >= $dungeon do2.highest_win_streak run 
 # store run time when player dies
 scoreboard players operation @s do2.run.seconds = $dungeon do2.run.seconds
 
-# increase player lifetime totals for embers and crowns collected
+# increase player lifetime totals for embers, crowns, & shard fragments collected
 scoreboard players operation @s do2.lifetime.escaped.embers += @s do2.run.items.embers
 scoreboard players operation $dungeon do2.lifetime.escaped.embers += @s do2.run.items.embers
 scoreboard players operation @s do2.lifetime.escaped.crowns += @s do2.run.items.crowns
 scoreboard players operation $dungeon do2.lifetime.escaped.crowns += @s do2.run.items.crowns
+scoreboard players operation @s do2.lifetime.escaped.shard_fragments += @s do2.run.items.shard_fragments
+scoreboard players operation $dungeon do2.lifetime.escaped.shard_fragments += @s do2.run.items.shard_fragments
 
 # store artifact embers as part of lifetime totals
 execute as @s run function do2:events/on_player_artifact_submitted

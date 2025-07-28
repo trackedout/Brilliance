@@ -41,6 +41,7 @@ scoreboard players set $dungeon do2.run.items.key_2 0
 scoreboard players set $dungeon do2.run.items.key_3 0
 scoreboard players set $dungeon do2.run.items.key_4 0
 scoreboard players set $dungeon do2.run.items.bombs 0
+scoreboard players set $dungeon do2.run.items.shard_fragments 0
 
 
 # Agronet event

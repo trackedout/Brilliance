@@ -65,12 +65,12 @@
         "category": "tests",
         "description": "Used to compare two numbers, the smallest number is saved."
     },
-	"do2.version": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "Used to detect versions, when versions change setting's check for default values of any new scoreboards."
-	},
+    "do2.version": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "Used to detect versions, when versions change setting's check for default values of any new scoreboards."
+    },
     "do2.runs": {
         "auto": 1,
         "target": "both",
@@ -88,6 +88,24 @@
         "target": "both",
         "category": "totals",
         "description": "The total amount of losses the target has."
+    },
+    "do2.lifetime.pickedup.shard_fragments": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "The total amount of shard fragments the target has picked up."
+    },
+    "do2.lifetime.escaped.shard_fragments": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "The total amount of Crowns the target has escaped with."
+    },
+    "do2.lifetime.spent.shard_fragments": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "The total amount of Crowns the target has spent."
     },
     "do2.lifetime.pickedup.crowns": {
         "auto": 1,
@@ -149,48 +167,48 @@
         "category": "totals",
         "description": "The total amount of Tomes the target has spent or submitted."
     },
-	"do2.lifetime.pickedup.bombs": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of bombs picked up by players."
-	},
-	"do2.lifetime.gauntlet_survival": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Used to store how many times the gauntlet has been survived."
-	},
-	"do2.submissions.bombs": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of bombs submitted by players."
-	},
-	"do2.submissions.l2_key": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of Level 2 keys submitted by players."
-	},
-	"do2.submissions.l3_key": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of Level 3 keys submitted by players."
-	},
-	"do2.submissions.l4_key": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of Level 4 keys submitted by players."
-	},
-	"do2.submissions.dm_key": {
-		"auto": 1,
-		"target": "both",
-		"category": "totals",
-		"description": "Lifetime amount of DM keys submitted by players."
-	},
+    "do2.lifetime.pickedup.bombs": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of bombs picked up by players."
+    },
+    "do2.lifetime.gauntlet_survival": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Used to store how many times the gauntlet has been survived."
+    },
+    "do2.submissions.bombs": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of bombs submitted by players."
+    },
+    "do2.submissions.l2_key": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of Level 2 keys submitted by players."
+    },
+    "do2.submissions.l3_key": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of Level 3 keys submitted by players."
+    },
+    "do2.submissions.l4_key": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of Level 4 keys submitted by players."
+    },
+    "do2.submissions.dm_key": {
+        "auto": 1,
+        "target": "both",
+        "category": "totals",
+        "description": "Lifetime amount of DM keys submitted by players."
+    },
     "do2.highest_win_streak": {
         "auto": 1,
         "target": "both",
@@ -257,24 +275,24 @@
         "category": "current",
         "description": "The deepest floor the artifact was submitted on."
     },
-	"do2.run.aritfact_floor": {
-		"auto": 1,
-		"target": "runners",
-		"category": "utility",
-		"description": "Used to detect what floor the artifact was obtained from."
-	},
-	"do2.run.artifact_lodestone_id": {
-		"auto": 1,
-		"target": "runners",
-		"category": "utility",
-		"description": "Used to detect what artifact location the artifact was obtained from."
-	},
-	"do2.run.compass_lodestone_id": {
-		"auto": 1,
-		"target": "both",
-		"category": "utility",
-		"description": "Used to detect what artifact location the compass is pointing to."
-	},
+    "do2.run.aritfact_floor": {
+        "auto": 1,
+        "target": "runners",
+        "category": "utility",
+        "description": "Used to detect what floor the artifact was obtained from."
+    },
+    "do2.run.artifact_lodestone_id": {
+        "auto": 1,
+        "target": "runners",
+        "category": "utility",
+        "description": "Used to detect what artifact location the artifact was obtained from."
+    },
+    "do2.run.compass_lodestone_id": {
+        "auto": 1,
+        "target": "both",
+        "category": "utility",
+        "description": "Used to detect what artifact location the compass is pointing to."
+    },
     "do2.run.has_won": {
         "auto": 1,
         "target": "runners",
@@ -791,137 +809,137 @@
             }
         }
     },
-	"do2.config.cardsAlwaysAvailable": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "How many cards in the ember shop will always be available for purchase.",
-		"values": {
-			"0": {
-				"title": "0"
-			},
-			"1": {
-				"title": "1"
-			},
-			"2": {
-				"title": "2"
-			},
-			"3": {
-				"title": "3"
-			},
-			"4": {
-				"title": "4"
-			},
-			"5": {
-				"title": "5"
-			},
-			"6": {
-				"title": "6"
-			},
-			"7": {
-				"title": "7"
-			},
-			"8": {
-				"title": "8"
-			},
-			"9": {
-				"title": "9"
-			},
-			"10": {
-				"title": "10"
-			},
-			"11": {
-				"title": "11"
-			},
-			"12": {
-				"title": "12"
-			},
-			"13": {
-				"title": "13"
-			},
-			"14": {
-				"title": "14"
-			},
-			"15": {
-				"title": "15"
-			},
-			"16": {
-				"title": "16"
-			},
-			"17": {
-				"title": "17"
-			},
-			"18": {
-				"title": "18"
-			},
-			"19": {
-				"title": "19"
-			},
-			"20": {
-				"title": "20"
-			},
-			"21": {
-				"title": "21"
-			},
-			"22": {
-				"title": "22"
-			},
-			"23": {
-				"title": "23"
-			},
-			"24": {
-				"title": "24"
-			},
-			"25": {
-				"title": "25"
-			},
-			"26": {
-				"title": "26"
-			}
-		}
-	},
-	"do2.config.useDaylightCycle": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether to force the world's Daylight cycle.",
-		"values": {
-			"0": {
-				"title": "false"
-			},
-			"1": {
-				"title": "true"
-			}
-		}
-	},
-	"do2.config.useWeatherCycle": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether to force the world's Weather cycle.",
-		"values": {
-			"0": {
-				"title": "false"
-			},
-			"1": {
-				"title": "true"
-			}
-		}
-	},
-	"do2.config.maxClankBerries": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether to allow berries to grow after max clank has been reached",
-		"values": {
-			"0": {
-				"title": "false"
-			},
-			"1": {
-				"title": "true"
-			}
-		}
-	},
+    "do2.config.cardsAlwaysAvailable": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "How many cards in the ember shop will always be available for purchase.",
+        "values": {
+            "0": {
+                "title": "0"
+            },
+            "1": {
+                "title": "1"
+            },
+            "2": {
+                "title": "2"
+            },
+            "3": {
+                "title": "3"
+            },
+            "4": {
+                "title": "4"
+            },
+            "5": {
+                "title": "5"
+            },
+            "6": {
+                "title": "6"
+            },
+            "7": {
+                "title": "7"
+            },
+            "8": {
+                "title": "8"
+            },
+            "9": {
+                "title": "9"
+            },
+            "10": {
+                "title": "10"
+            },
+            "11": {
+                "title": "11"
+            },
+            "12": {
+                "title": "12"
+            },
+            "13": {
+                "title": "13"
+            },
+            "14": {
+                "title": "14"
+            },
+            "15": {
+                "title": "15"
+            },
+            "16": {
+                "title": "16"
+            },
+            "17": {
+                "title": "17"
+            },
+            "18": {
+                "title": "18"
+            },
+            "19": {
+                "title": "19"
+            },
+            "20": {
+                "title": "20"
+            },
+            "21": {
+                "title": "21"
+            },
+            "22": {
+                "title": "22"
+            },
+            "23": {
+                "title": "23"
+            },
+            "24": {
+                "title": "24"
+            },
+            "25": {
+                "title": "25"
+            },
+            "26": {
+                "title": "26"
+            }
+        }
+    },
+    "do2.config.useDaylightCycle": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether to force the world's Daylight cycle.",
+        "values": {
+            "0": {
+                "title": "false"
+            },
+            "1": {
+                "title": "true"
+            }
+        }
+    },
+    "do2.config.useWeatherCycle": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether to force the world's Weather cycle.",
+        "values": {
+            "0": {
+                "title": "false"
+            },
+            "1": {
+                "title": "true"
+            }
+        }
+    },
+    "do2.config.maxClankBerries": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether to allow berries to grow after max clank has been reached",
+        "values": {
+            "0": {
+                "title": "false"
+            },
+            "1": {
+                "title": "true"
+            }
+        }
+    },
     "do2.config.bc.snowHazard": {
         "auto": 2,
         "target": "$dungeon",
@@ -1120,42 +1138,42 @@
             }
         }
     },
-	"do2.config.wc.lobbyChangesExists": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether the leaderboard is empty or has hermit's scores"
-	},
-	"do2.config.wc.queueExists": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether the hermit's custom queue exists"
-	},
-	"do2.config.wc.museumExists": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether the hermit's custom museum exists"
-	},
-	"do2.config.wc.cubbiesExist": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether the hermit's custom cubbies exists"
-	},
-	"do2.config.wc.easter_eggs": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "config",
-		"description": "Whether the easter eggs lock/unlock deepfrost AND whether the display exist or not."
-	},
-	"do2.config.wc.easter_eggs_block_type": {
-		"auto": 0,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "Used to determine the randomly chosen easter eggs blocks."
-	},
+    "do2.config.wc.lobbyChangesExists": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether the leaderboard is empty or has hermit's scores"
+    },
+    "do2.config.wc.queueExists": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether the hermit's custom queue exists"
+    },
+    "do2.config.wc.museumExists": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether the hermit's custom museum exists"
+    },
+    "do2.config.wc.cubbiesExist": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether the hermit's custom cubbies exists"
+    },
+    "do2.config.wc.easter_eggs": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "config",
+        "description": "Whether the easter eggs lock/unlock deepfrost AND whether the display exist or not."
+    },
+    "do2.config.wc.easter_eggs_block_type": {
+        "auto": 0,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "Used to determine the randomly chosen easter eggs blocks."
+    },
     "do2.eggs.total": {
         "auto": 1,
         "target": "both",
@@ -1360,24 +1378,30 @@
         "category": "current",
         "description": "How many Bombs collected this run."
     },
-	"do2.run.fullcoursemeal": {
-		"auto": 1,
-		"target": "runners",
-		"category": "current",
-		"description": "Used to track how many UNIQUE foods the player has eaten this run."
-	},
-	"do2.run.death_dungeon_location": {
-		"auto": 1,
-		"target": "runners",
-		"category": "utility",
-		"description": "Used to store where players were when they died."
-	},
-	"do2.run.gauntlet_survival": {
-		"auto": 1,
-		"target": "both",
-		"category": "utility",
-		"description": "Used to store whether or not a gauntlet has been survived this run."
-	},
+    "do2.run.items.shard_fragments": {
+        "auto": 1,
+        "target": "both",
+        "category": "current",
+        "description": "How many Shard Fragments collected this run."
+    },
+    "do2.run.fullcoursemeal": {
+        "auto": 1,
+        "target": "runners",
+        "category": "current",
+        "description": "Used to track how many UNIQUE foods the player has eaten this run."
+    },
+    "do2.run.death_dungeon_location": {
+        "auto": 1,
+        "target": "runners",
+        "category": "utility",
+        "description": "Used to store where players were when they died."
+    },
+    "do2.run.gauntlet_survival": {
+        "auto": 1,
+        "target": "both",
+        "category": "utility",
+        "description": "Used to store whether or not a gauntlet has been survived this run."
+    },
     "do2.logs.pickups": {
         "auto": 2,
         "target": "players",
@@ -1456,24 +1480,24 @@
         "category": "config",
         "description": "How strongly players want the logs relating to; Spam"
     },
-	"do2.logs.entity_controller": {
-		"auto": 2,
-		"target": "players",
-		"category": "config",
-		"description": "How strongly players want the logs relating to; Entity Controller"
-	},
-	"do2.logs.entity_testing": {
-		"auto": 2,
-		"target": "players",
-		"category": "config",
-		"description": "How strongly players want the logs relating to; Entity Testing"
-	},
-	"do2.logs.dev": {
-		"auto": 2,
-		"target": "players",
-		"category": "config",
-		"description": "How strongly players want the logs relating to; Dev"
-	},
+    "do2.logs.entity_controller": {
+        "auto": 2,
+        "target": "players",
+        "category": "config",
+        "description": "How strongly players want the logs relating to; Entity Controller"
+    },
+    "do2.logs.entity_testing": {
+        "auto": 2,
+        "target": "players",
+        "category": "config",
+        "description": "How strongly players want the logs relating to; Entity Testing"
+    },
+    "do2.logs.dev": {
+        "auto": 2,
+        "target": "players",
+        "category": "config",
+        "description": "How strongly players want the logs relating to; Dev"
+    },
     "do2.run.systems.clank.generated": {
         "auto": 1,
         "target": "$dungeon",
@@ -1809,6 +1833,12 @@
         "target": "runners",
         "category": "utility",
         "description": "How many tracked L4 Keys need to be given back."
+    },
+    "do2.utility.shard_fragmentsToGive": {
+        "auto": 1,
+        "target": "runners",
+        "category": "utility",
+        "description": "How many tracked shard fragments need to be given back."
     },
     "do2.run.convertedArtifake": {
         "auto": 1,
@@ -3628,36 +3658,36 @@
         "category": "totals",
         "description": "How many times the card dungeon lackey has been played in total."
     },
-	"do2.cards.price.MOC": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How much the card moment of clarity costs to purchase."
-	},
-	"do2.cards.price.STA": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How much the card stability costs to purchase."
-	},
-	"do2.cards.price.TRH": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How much the card treasure hunter costs to purchase."
-	},
-	"do2.cards.price.SNE": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How much the card sneak costs to purchase."
-	},
-	"do2.cards.price.EMS": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How much the card ember seeker costs to purchase."
-	},
+    "do2.cards.price.MOC": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How much the card moment of clarity costs to purchase."
+    },
+    "do2.cards.price.STA": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How much the card stability costs to purchase."
+    },
+    "do2.cards.price.TRH": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How much the card treasure hunter costs to purchase."
+    },
+    "do2.cards.price.SNE": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How much the card sneak costs to purchase."
+    },
+    "do2.cards.price.EMS": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How much the card ember seeker costs to purchase."
+    },
     "do2.cards.price.EVA": {
         "auto": 1,
         "target": "$dungeon",
@@ -3946,12 +3976,12 @@
         "category": "utility",
         "description": "Whether the Mob Controller is collecting logs to bundle up."
     },
-	"do2.utility.ec.oldMobsExisting": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "How many old mobs from each category still exist."
-	},
+    "do2.utility.ec.oldMobsExisting": {
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "How many old mobs from each category still exist."
+    },
     "do2.utility.setNormalScoreDefaults": {
         "auto": 1,
         "target": "$dungeon",
@@ -3959,10 +3989,10 @@
         "description": "Used to determine whether the config defaults should be set back to default"
     },
     "do2.utility.setTrackedOutScoreDefaults": {
-		"auto": 1,
-		"target": "$dungeon",
-		"category": "utility",
-		"description": "Used to determine whether the config defaults should be set back to default"
+        "auto": 1,
+        "target": "$dungeon",
+        "category": "utility",
+        "description": "Used to determine whether the config defaults should be set back to default"
     },
     "do2.utility.dungeonLocation": {
         "auto": 1,
@@ -3971,10 +4001,10 @@
         "description": "Used to determine player's locations"
     },
     "do2.utility.oldDungeonLocation": {
-		"auto": 1,
-		"target": "runners",
-		"category": "utility",
-		"description": "Used to determine player's previous locations"
+        "auto": 1,
+        "target": "runners",
+        "category": "utility",
+        "description": "Used to determine player's previous locations"
     },
     "do2.utility.arrayIndex": {
         "auto": 1,
@@ -4167,5 +4197,5 @@
         "target": "both",
         "category": "current",
         "description": "How many of the card glorious moment was in the deck this run."
-    }
+    },
 }
