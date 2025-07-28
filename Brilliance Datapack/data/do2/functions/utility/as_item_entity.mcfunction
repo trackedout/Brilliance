@@ -13,8 +13,9 @@ execute if entity @s[tag=tracked] run return 0
 # 5. Pumpkins
 # 6. Clocks
 # 7. Porkchops
-# 8. Bone_meal
-# 9. Glow_berries
+# 8. Amethyst_shards
+# 9. Bone_meal
+# 10. Glow_berries
 
 
 
@@ -53,6 +54,11 @@ execute if entity @s[tag=tracked] run return 0
 
 # - Porkchops - (Given by pork chop power OR by trick/treating)
 execute if entity @s[nbt={Item:{id:"minecraft:cooked_porkchop"}}] run tag @s add tracked
+execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
+execute if entity @s[tag=tracked] run return 0
+
+# - Amethyst Shard - (Used for shard fragments)
+execute if entity @s[nbt={Item:{id:"minecraft:amethyst_shard"}}] run tag @s add tracked
 execute if entity @s[tag=tracked] run data merge entity @s {Item:{tag:{tracked:0b}}}
 execute if entity @s[tag=tracked] run return 0
 

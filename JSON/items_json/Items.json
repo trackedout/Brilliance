@@ -109,6 +109,21 @@
       }
     }
   },
+  "shard_fragment": {
+    "id": "minecraft:amethyst_shard",
+    "tag": {
+      "NameFormat": {
+        "color": "#3ab3da",
+        "OriginalName": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard Fragment ☠❄\"}",
+        "ModifiedName": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard Fragment ☠❄\"}"
+      },
+      "CustomRoleplayData": "1b",
+      "CustomModelData": 1,
+      "display": {
+        "Name": "{\"color\":\"#3AB3DA\",\"text\":\"❄☠ Frozen Shard Fragment ☠❄\"}"
+      }
+    }
+  },
   "halloween_pumpkin": {
     "id": "minecraft:pumpkin",
     "tag": {
