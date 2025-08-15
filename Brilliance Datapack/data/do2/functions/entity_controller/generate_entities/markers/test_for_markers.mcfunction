@@ -19,6 +19,7 @@ scoreboard players set $l1z3_zones do2.tests.all_markers_alive 38
 scoreboard players set $l2_ghost do2.tests.all_markers_alive 1
 scoreboard players set $l2_mites do2.tests.all_markers_alive 5
 scoreboard players set $l2_willie do2.tests.all_markers_alive 112
+scoreboard players set $l2_slime do2.tests.all_markers_alive 72
 scoreboard players set $l2z1_zoneless do2.tests.all_markers_alive 49
 scoreboard players set $l2z2_zoneless do2.tests.all_markers_alive 42
 scoreboard players set $l2z3_zoneless do2.tests.all_markers_alive 41
@@ -100,6 +101,12 @@ scoreboard players set $dungeon do2.tests.all_markers_alive 0
 execute as @e[type=minecraft:marker,tag=L2WILLIE,tag=no-zones] run scoreboard players add $dungeon do2.tests.all_markers_alive 1
 execute unless score $dungeon do2.tests.all_markers_alive = $l2_willie do2.tests.all_markers_alive as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Fixing missing L2WILLIE marker(s) §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_markers_alive"}},{"text":"/"},{"color":"aqua","score":{"name":"$l2_willie","objective":"do2.tests.all_markers_alive"}}]
 execute unless score $dungeon do2.tests.all_markers_alive = $l2_willie do2.tests.all_markers_alive run function do2:entity_controller/generate_entities/markers/individual/l2_willie
+
+# L2SLIME
+scoreboard players set $dungeon do2.tests.all_markers_alive 0
+execute as @e[type=minecraft:marker,tag=L2SLIME,tag=no-zones] run scoreboard players add $dungeon do2.tests.all_markers_alive 1
+execute unless score $dungeon do2.tests.all_markers_alive = $l2_slime do2.tests.all_markers_alive as @a[scores={do2.logs.dungeon_setup=3..}] run tellraw @s ["",{"text":"[§9B§r]: Fixing missing L2SLIME marker(s) §b#"},{"color":"aqua","score":{"name":"$dungeon","objective":"do2.tests.all_markers_alive"}},{"text":"/"},{"color":"aqua","score":{"name":"l2_slime","objective":"do2.tests.all_markers_alive"}}]
+execute unless score $dungeon do2.tests.all_markers_alive = $l2_slime do2.tests.all_markers_alive run function do2:entity_controller/generate_entities/markers/individual/l2_slimes
 
 # L2MITES
 scoreboard players set $dungeon do2.tests.all_markers_alive 0

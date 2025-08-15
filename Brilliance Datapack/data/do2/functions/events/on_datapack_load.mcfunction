@@ -10,6 +10,8 @@ scoreboard objectives add do2.utility.onInstance dummy "Checking if this Brillia
 scoreboard players set $dungeon do2.utility.onInstance 0
 schedule function do2:external/agronet/test_for_instance 1t append
 
+# Determine version
+function do2:version
 # Setup scoreboard
 function do2:scoreboard/setup/all
 # Setup stats room

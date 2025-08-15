@@ -14,6 +14,8 @@ execute if score $dungeon do2.utility.dungeonRepair matches 1 positioned -548 41
 # Remove all bats not in L3 & L4. (Mob cap deals with amount)
 execute as @e[type=minecraft:bat,tag=!mobcap] at @s unless entity @s[z=1933,dz=-200] run tp @s ~ -200 ~
 
+# Random slime spawns on L2
+execute if predicate do2:random/slime_spawn_chance as @e[type=marker,tag=L2SLIME,tag=zone_marker,limit=1,sort=random] at @s run function do2:entity_controller/spawn_a_slime
 # Ensure correct bat count for L3 & L4
 function do2:entity_controller/ensure_bat_count
 # Ensure correct glow squids

@@ -1,5 +1,3 @@
-# Slimes
-execute as @e[type=minecraft:slime,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 # Axolotls
 execute as @e[type=minecraft:axolotl,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 # Tropical Fish
@@ -21,3 +19,8 @@ execute as @e[type=minecraft:trader_llama,tag=!do2.manually_spawned] at @s run t
 execute as @e[type=minecraft:pillager,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
 # Skeleton Horses
 execute as @e[type=minecraft:skeleton_horse,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
+
+# Slimes are unique cuz they split and we need our manual spawned but then split slimes to stay
+execute as @e[type=minecraft:slime, name=" "] run team join do2.manually_spawned_slimes @s
+execute as @e[type=minecraft:slime, name=" "] run tag @s add do2.manually_spawned
+execute as @e[type=minecraft:slime,tag=!do2.manually_spawned] at @s run tp @s ~ -200 ~
