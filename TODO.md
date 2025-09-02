@@ -1,14 +1,13 @@
+# S2 todo:
+- The shard fragments will need commands for command blocks that a player has bought 1 fragment, that a player has spent 1, 2, 4, 8, 16, 32, 64 and 128 crowns so that brilliance can know how much the player has spent.
+
 # World Download Todo:
 - Stats room need to be completed.
   - Total cards amounts played displayed in Run stats
   - 6th category of stats needs to be figured out.
-- Config to replace 'retired' hermits.
-    - Need new artifacts
-    - Change all the filters for those items.
 - Add config's interface for staircase ember count
 - More Info signs World Setup
   - All are missing
-- Bat limiter is broken
 
 # Other TODO:
 - Achievements need to be self centered, and cannot be gained via having a lackey help achieve. (Eg: win on X level)

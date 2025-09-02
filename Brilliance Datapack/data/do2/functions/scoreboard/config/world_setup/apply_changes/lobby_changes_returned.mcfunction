@@ -12,22 +12,22 @@ setblock -513 115 1985 minecraft:spruce_wall_sign[facing=north]{back_text:{color
 setblock -515 114 1986 minecraft:acacia_wall_sign[facing=north]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"cyan",has_glowing_text:1b,messages:['{"text":"Find the historic"}','{"text":"soup station at"}','{"text":"the Hermitsonian"}','{"text":"Museum!"}']},is_waxed:0b}
 setblock -516 114 1986 minecraft:acacia_wall_sign[facing=north]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"cyan",has_glowing_text:1b,messages:['{"text":"Find the historic"}','{"text":"soup station at"}','{"text":"the Hermitsonian"}','{"text":"Museum!"}']},is_waxed:0b}
 # - Blast Furnace Items -
-data merge block -524 112 1980 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"},{Count:1b,Slot:1b,id:"minecraft:chest"}]}
-data merge block -508 112 1980 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
-data merge block -504 112 1980 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
-data merge block -500 112 1980 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
-data merge block -496 112 1980 minecraft:blast_furnace[facing=west]{Items:[{Count:3b,Slot:0b,id:"minecraft:cooked_chicken"}]}
-data merge block -496 112 1984 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
-data merge block -492 112 1980 minecraft:blast_furnace[facing=south]{Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
-data merge block -500 112 1984 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
-data merge block -504 112 1984 minecraft:blast_furnace[facing=west]{Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
-data merge block -480 109 2020 minecraft:blast_furnace[facing=east]{Items:[{Count:2b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]}
-data merge block -564 109 2012 minecraft:blast_furnace[facing=south]{Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
-data merge block -568 109 2008 minecraft:blast_furnace[facing=north]{Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
-data merge block -556 109 2004 minecraft:blast_furnace[facing=east]{Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
-data merge block -556 109 2000 minecraft:blast_furnace[facing=east]{Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
-data merge block -544 109 2000 minecraft:blast_furnace[facing=east]{Items:[{Count:2b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'},tracked:1b}}]}
-data merge block -528 109 2020 minecraft:blast_furnace[facing=east]{Items:[{Count:8b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'},tracked:1b}}]}
+data merge block -524 112 1980 {Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"},{Count:1b,Slot:1b,id:"minecraft:chest"}]}
+data merge block -508 112 1980 {Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
+data merge block -504 112 1980 {Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
+data merge block -500 112 1980 {Items:[{Count:64b,Slot:0b,id:"minecraft:chicken"}]}
+data merge block -496 112 1980 {Items:[{Count:3b,Slot:0b,id:"minecraft:cooked_chicken"}]}
+data merge block -496 112 1984 {Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
+data merge block -492 112 1980 {Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
+data merge block -500 112 1984 {Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
+data merge block -504 112 1984 {Items:[{Count:64b,Slot:0b,id:"minecraft:feather"}]}
+data merge block -480 109 2020 {Items:[{Count:2b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'}}}]}
+data merge block -564 109 2012 {Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
+data merge block -568 109 2008 {Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
+data merge block -556 109 2004 {Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
+data merge block -556 109 2000 {Items:[{Count:1b,Slot:0b,id:"minecraft:golden_carrot",tag:{CustomModelData:9,CustomRoleplayData:1b,RepairCost:0,display:{Name:'{"text":"Pancake"}'}}}]}
+data merge block -544 109 2000 {Items:[{Count:2b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'},tracked:1b}}]}
+data merge block -528 109 2020 {Items:[{Count:8b,Slot:0b,id:"minecraft:iron_nugget",tag:{CustomModelData:2,display:{Name:'{"text":"❄☠ Decked Out Crown ☠❄"}'},tracked:1b}}]}
 data merge block -488 108 2006 {Items:[{Count:1b,Slot:13b,id:"minecraft:cookie"}]}
 # - Dungeon Door area -
 setblock -533 114 1985 minecraft:spruce_wall_sign[facing=north,waterlogged=false]{back_text:{color:"black",has_glowing_text:0b,messages:['{"text":""}','{"text":""}','{"text":""}','{"text":""}']},front_text:{color:"black",has_glowing_text:1b,messages:['{"text":"The Q:"}','{"text":"1."}','{"text":"2."}','{"text":"3."}']},is_waxed:0b}

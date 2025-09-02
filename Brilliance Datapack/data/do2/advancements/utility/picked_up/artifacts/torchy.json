@@ -1,0 +1,21 @@
+{
+	"criteria": {
+		"picked_up_artifact_20": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:iron_nugget"
+						],
+						"nbt": "{tracked:0b, CustomModelData:45, display: {Name: '{\"bold\":true,\"color\":\"gold\",\"text\":\"Completed Torchy (24)\"}'}}"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "do2:events/picked_up/artifacts/torchy"
+	},
+	"parent": "do2:utility/root"
+}

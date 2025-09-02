@@ -51,6 +51,7 @@ execute unless score $dungeon do2.config.wc.queueExists matches 0.. run scoreboa
 execute unless score $dungeon do2.config.wc.museumExists matches 0.. run scoreboard players set $dungeon do2.config.wc.museumExists 1
 execute unless score $dungeon do2.config.wc.cubbiesExist matches 0.. run scoreboard players set $dungeon do2.config.wc.cubbiesExist 1
 execute unless score $dungeon do2.config.wc.easter_eggs matches 0.. run scoreboard players set $dungeon do2.config.wc.easter_eggs 1
+execute unless score $dungeon do2.config.wc.replaceRetiredHermits matches 0.. run scoreboard players set $dungeon do2.config.wc.replaceRetiredHermits 0
 
 # Note that we've set the defaults already
 scoreboard players set $dungeon do2.utility.setNormalScoreDefaults 1

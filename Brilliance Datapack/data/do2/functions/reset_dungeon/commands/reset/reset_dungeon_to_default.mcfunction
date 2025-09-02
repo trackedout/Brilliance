@@ -237,6 +237,8 @@ execute positioned -574 39 1985 run function do2:reset_dungeon/default_states/mi
 execute positioned -578 15 1968 run function do2:reset_dungeon/default_states/misc/tnt_dive_common_loot
 execute positioned -578 15 1970 run function do2:reset_dungeon/default_states/misc/tnt_dive_rare_loot
 
+# - Retired Hermit Artifacts
+execute if score $dungeon do2.config.wc.replaceRetiredHermits matches 1 run function do2:scoreboard/config/world_setup/apply_changes/replace_artifacts/replace_all_artifacts
 
 # Agronet event
 function do2:external/agronet/logs/dropper_room/reset_dungeon_to_default

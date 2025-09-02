@@ -38,6 +38,8 @@
 		{"predicate": {"custom_model_data":42}, "model": "do2:item/artifacts/hoodofawyeh"},
 		{"predicate": {"custom_model_data":43}, "model": "do2:item/artifacts/axeofthevoid"},
 		{"predicate": {"custom_model_data":44}, "model": "do2:item/artifacts/crookofthepinkshepherd"},
+		{"predicate": {"custom_model_data":45}, "model": "do2:item/artifacts/torchy"},
+		{"predicate": {"custom_model_data":46}, "model": "do2:item/artifacts/hattificator"},
 		
 		{ "predicate": {"custom_model_data": 101}, "model": "do2:item/cards/stumble"},
 		{ "predicate": {"custom_model_data": 102}, "model": "do2:item/cards/sneak"},
